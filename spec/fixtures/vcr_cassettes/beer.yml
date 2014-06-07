@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=10&prop=links&titles=Beer
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2692535263, 2777512401, 360058741
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '239'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Sat, 07 Jun 2014 03:22:52 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4010 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"3363|0|Aguardiente"}},"query":{"pages":{"3363":{"pageid":3363,"ns":0,"title":"Beer","links":[{"ns":0,"title":"2-Methyl-2-butanol"},{"ns":0,"title":"4-hydroxyphenylacetic
+        acid"},{"ns":0,"title":"8-prenylnaringenin"},{"ns":0,"title":"Abbey beer"},{"ns":0,"title":"Absinth
+        Wormwood"},{"ns":0,"title":"Absinthe"},{"ns":0,"title":"Adalard of Corbie"},{"ns":0,"title":"Adjunct
+        (beer)"},{"ns":0,"title":"Advocaat"},{"ns":0,"title":"Agave"}]}}}}'
+    http_version: 
+  recorded_at: Sat, 07 Jun 2014 03:22:53 GMT
+recorded_with: VCR 2.9.2
