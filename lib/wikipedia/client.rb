@@ -16,7 +16,7 @@ module Wikipedia
     end
 
     def url_for(params)
-      url = 'http://en.wikipedia.org/w/api.php?action=:action&format=json'
+      url = 'http://en.wikipedia.org/w/api.php?&format=json'
       params.inject(url){|furl, kv|
         value = URI.encode(kv[1]).gsub('&', '%26')
         furl << "&#{kv[0]}=#{value}"
