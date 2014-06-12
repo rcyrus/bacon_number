@@ -7,5 +7,12 @@ describe Wikipedia do
       x.must_be_instance_of Array
     end
   end
+
+  it 'returns nil for an unkown topic' do
+    topic = 'derpherptydo'
+    VCR.use_cassette(topic) do
+      Wikipedia.articles_for(topic).must_be_nil
+    end
+  end
 end
 
