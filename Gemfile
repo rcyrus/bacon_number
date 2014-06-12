@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-# gem 'ruby-graphviz', :git => 'https://github.com/rcyrus/Ruby-Graphviz.git'
+gem 'thor'
 gem 'ruby-progressbar'
 gem 'rubytree'
-gem 'thread', :git => 'https://github.com/wallarm/ruby-thread.git'
+gem 'thread', :git => 'https://github.com/wallarm/ruby-thread.git' #need pool.wait method from this fork.
 
 group :test do
   gem 'minitest'

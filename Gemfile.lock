@@ -64,6 +64,7 @@ DEPENDENCIES
   ruby-progressbar
   rubytree
   terminal-notifier-guard
+  thor
   thread!
   vcr
   webmock

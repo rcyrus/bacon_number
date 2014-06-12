@@ -6,7 +6,7 @@ require_relative 'wikipedia'
 class Bacon
 
   def initialize(e, start_topic, opts ={})
-    @pool  = Thread.pool(70)
+    @pool  = Thread.pool(75)
     @end_topic  = e
     @bacon_tree = Tree::TreeNode.new("ROOT", start_topic)
   end
@@ -19,7 +19,6 @@ class Bacon
 
     tasks  = []
     leaves.each { |leaf|
-      # puts leaf.content
       tasks << @pool.process {
 
         leaf_topics = Wikipedia.linked_topics_for(leaf.content)
