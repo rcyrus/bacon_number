@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Blockbuster%20(entertainment)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711804132, 3085124709, 1061611374
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '863'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:52 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4010 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"408230":{"pageid":408230,"ns":0,"title":"Blockbuster
+        (entertainment)","links":[{"ns":0,"title":"American Graffiti"},{"ns":0,"title":"Battleship
+        (film)"},{"ns":0,"title":"Ben-Hur (1959 film)"},{"ns":0,"title":"Blockbuster
+        (2004 book)"},{"ns":0,"title":"Blockbuster (disambiguation)"},{"ns":0,"title":"Blockbuster
+        bomb"},{"ns":0,"title":"Blockbuster mentality"},{"ns":0,"title":"Bombing of
+        Hamburg in World War II"},{"ns":0,"title":"Box office bomb"},{"ns":0,"title":"Chicago
+        Tribune"},{"ns":0,"title":"Cookie (bomb)"},{"ns":0,"title":"Easy Riders, Raging
+        Bulls"},{"ns":0,"title":"Entertainment industry"},{"ns":0,"title":"Film"},{"ns":0,"title":"Film
+        industry"},{"ns":0,"title":"Four-quadrant movie"},{"ns":0,"title":"Godzilla
+        (1998 film)"},{"ns":0,"title":"Gone with the Wind (film)"},{"ns":0,"title":"Jaws
+        (film)"},{"ns":0,"title":"Last Action Hero"},{"ns":0,"title":"List of highest-grossing
+        films"},{"ns":0,"title":"List of highest-grossing openings for films"},{"ns":0,"title":"Low-budget
+        film"},{"ns":0,"title":"Major film studio"},{"ns":0,"title":"Napoleon Dynamite"},{"ns":0,"title":"New
+        Hollywood"},{"ns":0,"title":"New York Times"},{"ns":0,"title":"Novel"},{"ns":0,"title":"Oscar
+        season"},{"ns":0,"title":"Oxford English Dictionary"},{"ns":0,"title":"Paranormal
+        Activity"},{"ns":0,"title":"Peter Biskind"},{"ns":0,"title":"Pharmaceutical"},{"ns":0,"title":"Play
+        (theatre)"},{"ns":0,"title":"Quo Vadis (1951 film)"},{"ns":0,"title":"Slang"},{"ns":0,"title":"Sleeper
+        hit"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Superman Returns"},{"ns":0,"title":"Tarnation
+        (film)"},{"ns":0,"title":"The Blair Witch Project"},{"ns":0,"title":"The Last
+        Airbender"},{"ns":0,"title":"The Long Tail"},{"ns":0,"title":"The Sound of
+        Music (film)"},{"ns":0,"title":"The Ten Commandments (1956 film)"},{"ns":0,"title":"The
+        Wall Street Journal"},{"ns":0,"title":"Theatre"},{"ns":0,"title":"Tom Shone"},{"ns":0,"title":"Variety
+        (magazine)"},{"ns":0,"title":"Video game"},{"ns":1,"title":"Talk:Blockbuster
+        (entertainment)"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:No
+        original research"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Multiple
+        issues"},{"ns":10,"title":"Template:Original research"},{"ns":10,"title":"Template:Refimprove"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from May 2013"},{"ns":14,"title":"Category:Articles that may contain
+        original research from May 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:53 GMT
+recorded_with: VCR 2.9.2

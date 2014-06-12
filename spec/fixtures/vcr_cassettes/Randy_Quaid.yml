@@ -1,0 +1,159 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Randy%20Quaid
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001181275, 3085164935, 1613090601
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2680'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:57 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"325460":{"pageid":325460,"ns":0,"title":"Randy
+        Quaid","links":[{"ns":0,"title":"1973 in film"},{"ns":0,"title":"87th Precinct"},{"ns":0,"title":"Aaron
+        Paul"},{"ns":0,"title":"Academy Award for Best Supporting Actor"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Actors'' Equity Association"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Amish"},{"ns":0,"title":"Anthony
+        Andrews"},{"ns":0,"title":"BAFTA Award for Best Actor in a Supporting Role"},{"ns":0,"title":"Balls
+        Out: Gary the Tennis Coach"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Bellaire
+        High School (Houston)"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Black
+        Cadillac (film)"},{"ns":0,"title":"Bloodhounds of Broadway (1989 film)"},{"ns":0,"title":"Bound
+        for Glory (film)"},{"ns":0,"title":"Bowling"},{"ns":0,"title":"Breakout (1975
+        film)"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"British Academy
+        of Film and Television Arts"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Brokeback
+        Mountain"},{"ns":0,"title":"Bug Buster"},{"ns":0,"title":"Bye Bye Love (film)"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Caddyshack
+        II"},{"ns":0,"title":"California Penal Code"},{"ns":0,"title":"Canada Border
+        Services Agency"},{"ns":0,"title":"Canadian citizen"},{"ns":0,"title":"Carolina
+        (film)"},{"ns":0,"title":"Category 6: Day of Destruction"},{"ns":0,"title":"Category
+        7: The End of the World"},{"ns":0,"title":"Chevy Chase"},{"ns":0,"title":"Christmas
+        Vacation 2: Cousin Eddie''s Island Adventure"},{"ns":0,"title":"Cold Dog Soup
+        (film)"},{"ns":0,"title":"Colonel Sanders"},{"ns":0,"title":"Colonel Tom Parker"},{"ns":0,"title":"Cowboy"},{"ns":0,"title":"Cybill
+        Shepherd"},{"ns":0,"title":"David Clennon"},{"ns":0,"title":"David Linde"},{"ns":0,"title":"David
+        Schwimmer"},{"ns":0,"title":"David Strathairn"},{"ns":0,"title":"David Zayas"},{"ns":0,"title":"Davis
+        Rules"},{"ns":0,"title":"Days of Thunder"},{"ns":0,"title":"Dead Solid Perfect"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Due process"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Electrician"},{"ns":0,"title":"Elvis
+        (TV miniseries)"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Falstaff"},{"ns":0,"title":"Fast-food
+        restaurant"},{"ns":0,"title":"Ferdinand Marcos"},{"ns":0,"title":"FindLaw"},{"ns":0,"title":"Focus
+        Features"},{"ns":0,"title":"Foxes (film)"},{"ns":0,"title":"Frank McKlusky,
+        C.I."},{"ns":0,"title":"Frankenstein (1992 film)"},{"ns":0,"title":"Freaked"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Autry"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Get
+        on the Bus"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden Globe
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Series, Miniseries or Television
+        Film"},{"ns":0,"title":"Gotham Award"},{"ns":0,"title":"Goya''s Ghosts"},{"ns":0,"title":"Grind
+        (2003 film)"},{"ns":0,"title":"Gulf Coast"},{"ns":0,"title":"Guyana Tragedy"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hard
+        Rain (film)"},{"ns":0,"title":"Heartbeeps"},{"ns":0,"title":"Home on the Range
+        (2004 film)"},{"ns":0,"title":"Houston"},{"ns":0,"title":"Houston, Texas"},{"ns":0,"title":"Idris
+        Elba"},{"ns":0,"title":"Immigration and Refugee Board of Canada"},{"ns":0,"title":"Immigration
+        and Refugee Protection Act"},{"ns":0,"title":"Independence Day (1996 film)"},{"ns":0,"title":"Independent
+        Spirit Award for Best Male Lead"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jack Quaid"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James Schamus"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John
+        Steinbeck"},{"ns":0,"title":"John Wesley Hardin"},{"ns":0,"title":"Jonathan
+        Rhys Meyers"},{"ns":0,"title":"Justin Kirk"},{"ns":0,"title":"Kart Racer"},{"ns":0,"title":"Kentucky
+        Fried Chicken"},{"ns":0,"title":"Kerrisdale"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kingpin (1996 film)"},{"ns":0,"title":"LBJ: The
+        Early Years"},{"ns":0,"title":"Labor union"},{"ns":0,"title":"Larry McMurtry"},{"ns":0,"title":"Last
+        Dance (1996 film)"},{"ns":0,"title":"Legal settlement"},{"ns":0,"title":"Linus
+        Roache"},{"ns":0,"title":"Lolly-Madonna XXX"},{"ns":0,"title":"Lone Star Love"},{"ns":0,"title":"Lortel
+        Archives"},{"ns":0,"title":"Lyndon Johnson"},{"ns":0,"title":"Major League
+        II"},{"ns":0,"title":"Married and maiden names"},{"ns":0,"title":"Martians
+        Go Home (film)"},{"ns":0,"title":"Meg Ryan"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Midnight Express
+        (film)"},{"ns":0,"title":"Miniseries"},{"ns":0,"title":"Montecito, California"},{"ns":0,"title":"Moving
+        (1988 film)"},{"ns":0,"title":"NASCAR"},{"ns":0,"title":"National Lampoon''s
+        Christmas Vacation"},{"ns":0,"title":"National Lampoon''s Vacation"},{"ns":0,"title":"National
+        Lampoon, Inc."},{"ns":0,"title":"Neal McDonough"},{"ns":0,"title":"Nelsan
+        Ellis"},{"ns":0,"title":"New School University"},{"ns":0,"title":"New York
+        (magazine)"},{"ns":0,"title":"New York Post"},{"ns":0,"title":"Next Door (1994
+        film)"},{"ns":0,"title":"No Man''s Land (1987 film)"},{"ns":0,"title":"Not
+        Another Teen Movie"},{"ns":0,"title":"Of Mice and Men"},{"ns":0,"title":"Out
+        Cold (1989 film)"},{"ns":0,"title":"P.U.N.K.S."},{"ns":0,"title":"PBS"},{"ns":0,"title":"PGA
+        Tour"},{"ns":0,"title":"Paper Moon (film)"},{"ns":0,"title":"Parents (film)"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Pershing
+        Middle School (Houston)"},{"ns":0,"title":"Peter Bogdanovich"},{"ns":0,"title":"Peter
+        Dinklage"},{"ns":0,"title":"Prima facie"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Miniseries or a Movie"},{"ns":0,"title":"Purgatory
+        (1999 film)"},{"ns":0,"title":"Quick Change"},{"ns":0,"title":"Radio commercial"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Real Time (film)"},{"ns":0,"title":"Real estate"},{"ns":0,"title":"Refugee"},{"ns":0,"title":"Restaurant
+        chain"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard Pryor"},{"ns":0,"title":"Robert
+        Downey, Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Rod Serling"},{"ns":0,"title":"Ryan
+        Hurst"},{"ns":0,"title":"Sam Shepard"},{"ns":0,"title":"San Francisco Chronicle"},{"ns":0,"title":"Santa
+        Barbara, California"},{"ns":0,"title":"Santa Barbara Sheriff''s Office"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor \u2013 Series, Miniseries or Television Film"},{"ns":0,"title":"Saturday
+        Night Live"},{"ns":0,"title":"Science fiction"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Stacy
+        Keach"},{"ns":0,"title":"Stanley''s Dinosaur Round-Up"},{"ns":0,"title":"Stanley
+        Tucci"},{"ns":0,"title":"Sweet Country"},{"ns":0,"title":"TMZ (website)"},{"ns":0,"title":"Ted
+        Danson"},{"ns":0,"title":"Television advertisement"},{"ns":0,"title":"Television
+        commercial"},{"ns":0,"title":"Television film"},{"ns":0,"title":"Texas"},{"ns":0,"title":"Texas
+        Ranch House"},{"ns":0,"title":"Texasville"},{"ns":0,"title":"The Adventures
+        of Pluto Nash"},{"ns":0,"title":"The Adventures of Rocky and Bullwinkle"},{"ns":0,"title":"The
+        Apprenticeship of Duddy Kravitz (film)"},{"ns":0,"title":"The Brotherhood
+        of Poland, New Hampshire"},{"ns":0,"title":"The Choirboys (film)"},{"ns":0,"title":"The
+        Globe and Mail"},{"ns":0,"title":"The God of Hell"},{"ns":0,"title":"The Ice
+        Harvest"},{"ns":0,"title":"The Last Detail"},{"ns":0,"title":"The Last Picture
+        Show"},{"ns":0,"title":"The Long Riders"},{"ns":0,"title":"The Magical Legend
+        of the Leprechauns"},{"ns":0,"title":"The Merry Wives of Windsor"},{"ns":0,"title":"The
+        Missouri Breaks"},{"ns":0,"title":"The Paper"},{"ns":0,"title":"The Ren &
+        Stimpy Show"},{"ns":0,"title":"The Ren and Stimpy Show"},{"ns":0,"title":"The
+        Siege at Ruby Ridge"},{"ns":0,"title":"The Slugger''s Wife"},{"ns":0,"title":"The
+        Twilight Zone"},{"ns":0,"title":"The Wild Life (film)"},{"ns":0,"title":"The
+        Wraith"},{"ns":0,"title":"Tony Plana"},{"ns":0,"title":"True West (play)"},{"ns":0,"title":"US
+        Navy"},{"ns":0,"title":"University of Houston"},{"ns":0,"title":"University
+        of Houston School of Theatre and Dance"},{"ns":0,"title":"Vancouver"},{"ns":0,"title":"Vanessa
+        Angel"},{"ns":0,"title":"Vegas Vacation"},{"ns":0,"title":"Ving Rhames"},{"ns":0,"title":"Vondie
+        Curtis-Hall"},{"ns":0,"title":"Western (genre)"},{"ns":0,"title":"What''s
+        Up, Doc? (1972 film)"},{"ns":0,"title":"Wisconsin"},{"ns":0,"title":"Woody
+        Harrelson"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:ISO
+        639 name en"},{"ns":10,"title":"Template:Satellite Award Best Supporting Actor
+        Series Miniseries or Television Film"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template
+        talk:Satellite Award Best Supporting Actor Series Miniseries or Television
+        Film"},{"ns":12,"title":"Help:CS1 errors"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:58 GMT
+recorded_with: VCR 2.9.2

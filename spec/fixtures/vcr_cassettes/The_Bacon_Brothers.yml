@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=The%20Bacon%20Brothers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87326514, 1102710014, 2899162057
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '531'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:13 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4017 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"2283694":{"pageid":2283694,"ns":0,"title":"The
+        Bacon Brothers","links":[{"ns":0,"title":"AllMusic"},{"ns":0,"title":"Bacon
+        Brothers (gangsters)"},{"ns":0,"title":"Bunny Sigler"},{"ns":0,"title":"Country
+        rock"},{"ns":0,"title":"Cy Curnin"},{"ns":0,"title":"Daryl Hall"},{"ns":0,"title":"Dog
+        Train"},{"ns":0,"title":"Folk rock"},{"ns":0,"title":"Hard Rock Cafe"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kyra Sedgwick"},{"ns":0,"title":"Matt Carpenter"},{"ns":0,"title":"Matt
+        Morris"},{"ns":0,"title":"Michael Bacon (musician)"},{"ns":0,"title":"Mummers
+        Parade"},{"ns":0,"title":"Music genre"},{"ns":0,"title":"Philadelphia Chickens"},{"ns":0,"title":"Pikes
+        Peak"},{"ns":0,"title":"Queer Eye for the Straight Guy"},{"ns":0,"title":"Sandra
+        Boynton"},{"ns":0,"title":"The Bellamy Brothers"},{"ns":0,"title":"The Fixx"},{"ns":0,"title":"The
+        Jewish Americans"},{"ns":0,"title":"The White Buffalo"},{"ns":0,"title":"The
+        Woodsman"},{"ns":0,"title":"United States"},{"ns":4,"title":"Wikipedia:No
+        original research"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Primary
+        sources"},{"ns":10,"title":"Template:Refimprove"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles lacking reliable references
+        from March 2010"},{"ns":14,"title":"Category:Articles needing additional references
+        from March 2010"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:14 GMT
+recorded_with: VCR 2.9.2

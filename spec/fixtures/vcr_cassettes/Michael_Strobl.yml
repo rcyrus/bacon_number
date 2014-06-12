@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Michael%20Strobl
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401657890, 1409534002, 2597340009
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '721'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:42 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4009 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"21268523":{"pageid":21268523,"ns":0,"title":"Michael
+        Strobl","links":[{"ns":0,"title":"Al Ramadi"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Billings,
+        Montana"},{"ns":0,"title":"Chance Phelps"},{"ns":0,"title":"Clifton, Colorado"},{"ns":0,"title":"Combat
+        Action Ribbon"},{"ns":0,"title":"Commendation Medal"},{"ns":0,"title":"Dover
+        Air Force Base"},{"ns":0,"title":"Dubois, Wyoming"},{"ns":0,"title":"Good
+        Friday"},{"ns":0,"title":"Grand Junction, Colorado"},{"ns":0,"title":"Gulf
+        War"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Iraq
+        War"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kuwait Liberation Medal
+        (Kuwait)"},{"ns":0,"title":"Kuwait Liberation Medal (Saudi Arabia)"},{"ns":0,"title":"Lieutenant
+        colonel (United States)"},{"ns":0,"title":"List of notable United States Marines"},{"ns":0,"title":"Louisville,
+        Kentucky"},{"ns":0,"title":"Marine Corps Base Quantico"},{"ns":0,"title":"Marine
+        Corps Gazette"},{"ns":0,"title":"Minneapolis"},{"ns":0,"title":"National Defense
+        Service Medal"},{"ns":0,"title":"Navy Unit Commendation"},{"ns":0,"title":"Officer
+        (armed forces)"},{"ns":0,"title":"Philadelphia"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Miniseries, Movie or a Dramatic Special"},{"ns":0,"title":"Quantico,
+        Virginia"},{"ns":0,"title":"Riverton, Wyoming"},{"ns":0,"title":"Ross Katz"},{"ns":0,"title":"San
+        Francisco Chronicle"},{"ns":0,"title":"Sea Service Ribbon"},{"ns":0,"title":"Service
+        star"},{"ns":0,"title":"Southwest Asia Service Medal"},{"ns":0,"title":"Stafford,
+        Virginia"},{"ns":0,"title":"Taking Chance"},{"ns":0,"title":"United States"},{"ns":0,"title":"United
+        States Marine Corps"},{"ns":0,"title":"Vietnam Veterans of America"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Washington Post"},{"ns":0,"title":"Writers
+        Guild of America Awards 2009"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":100,"title":"Portal:Biography"},{"ns":100,"title":"Portal:United
+        States Marine Corps"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:43 GMT
+recorded_with: VCR 2.9.2

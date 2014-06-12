@@ -1,0 +1,193 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Biblioth%C3%A8que%20nationale%20de%20France
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332236366, 3536729445, 1613028186
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3045'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:51 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4008 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"199503":{"pageid":199503,"ns":0,"title":"Biblioth\u00e8que
+        nationale de France","links":[{"ns":0,"title":"Academic journal"},{"ns":0,"title":"Acad\u00e9mie
+        de Marine"},{"ns":0,"title":"Agence Nationale de la Recherche"},{"ns":0,"title":"Agency
+        for French Teaching Abroad"},{"ns":0,"title":"Arab World Institute"},{"ns":0,"title":"Aragon"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Benzyl fluoride"},{"ns":0,"title":"Biblioteca Nacional
+        de Espa\u00f1a"},{"ns":0,"title":"Biblioth\u00e8que Fran\u00e7ois Mitterrand
+        (Paris M\u00e9tro)"},{"ns":0,"title":"Biblioth\u00e8que de l''Arsenal"},{"ns":0,"title":"Blois"},{"ns":0,"title":"BnF"},{"ns":0,"title":"Book"},{"ns":0,"title":"Bouygues"},{"ns":0,"title":"Bruno
+        Racine"},{"ns":0,"title":"CNSAD"},{"ns":0,"title":"Cabinet des M\u00e9dailles"},{"ns":0,"title":"Camille
+        le Tellier de Louvois"},{"ns":0,"title":"Catherine de Medici"},{"ns":0,"title":"Centre
+        Georges Pompidou"},{"ns":0,"title":"Centre des monuments nationaux"},{"ns":0,"title":"Centre
+        national d''enseignement \u00e0 distance"},{"ns":0,"title":"Centre r\u00e9gional
+        des \u0153uvres universitaires et scolaires"},{"ns":0,"title":"Chamber of
+        commerce"},{"ns":0,"title":"Charles VIII of France"},{"ns":0,"title":"Charles
+        VII of France"},{"ns":0,"title":"Charles VI of France"},{"ns":0,"title":"Charles
+        V of France"},{"ns":0,"title":"Cit\u00e9 nationale de l''histoire de l''immigration"},{"ns":0,"title":"Coll\u00e8ge
+        de Clermont"},{"ns":0,"title":"Conservatoire de Paris"},{"ns":0,"title":"Conservatoire
+        national sup\u00e9rieur de musique et de danse de Lyon"},{"ns":0,"title":"C\u00f4te
+        d''Azur Observatory"},{"ns":0,"title":"Database"},{"ns":0,"title":"Dependent
+        territory"},{"ns":0,"title":"Digital library"},{"ns":0,"title":"Digital object
+        identifier"},{"ns":0,"title":"Dominique Perrault"},{"ns":0,"title":"Dossiers
+        Secrets d''Henri Lobineau"},{"ns":0,"title":"Drawing"},{"ns":0,"title":"ENSTA
+        ParisTech"},{"ns":0,"title":"Encyclopedia Americana"},{"ns":0,"title":"European
+        Union Prize for Contemporary Architecture"},{"ns":0,"title":"Fonds Coislin"},{"ns":0,"title":"Fontainebleau"},{"ns":0,"title":"France"},{"ns":0,"title":"Francis
+        I of France"},{"ns":0,"title":"Fran\u00e7ois-Michel le Tellier, Marquis de
+        Louvois"},{"ns":0,"title":"Fran\u00e7ois Mitterrand"},{"ns":0,"title":"French
+        Academy of Technologies"},{"ns":0,"title":"French First Republic"},{"ns":0,"title":"French
+        Ministry of Culture"},{"ns":0,"title":"French Revolution"},{"ns":0,"title":"Gallica"},{"ns":0,"title":"Gallica
+        (disambiguation)"},{"ns":0,"title":"Geographic coordinate system"},{"ns":0,"title":"Grande
+        Arche"},{"ns":0,"title":"Grands Projets of Fran\u00e7ois Mitterrand"},{"ns":0,"title":"Groupe
+        des \u00e9coles nationales d\u2019ing\u00e9nieurs (Groupe ENI)"},{"ns":0,"title":"Guimet
+        Museum"},{"ns":0,"title":"Henri Labrouste"},{"ns":0,"title":"Henry II of France"},{"ns":0,"title":"Henry
+        IV of France"},{"ns":0,"title":"Institut G\u00e9ographique National"},{"ns":0,"title":"Institut
+        Sup\u00e9rieur de l''A\u00e9ronautique et de l''Espace"},{"ns":0,"title":"Institut
+        d''\u00e9tudes politiques"},{"ns":0,"title":"Institut des hautes \u00e9tudes
+        de d\u00e9fense nationale"},{"ns":0,"title":"Institut national des \u00e9tudes
+        territoriales"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Jacques
+        Amyot"},{"ns":0,"title":"Jacques Auguste de Thou"},{"ns":0,"title":"Jean-Baptiste
+        Colbert"},{"ns":0,"title":"Jean-Fran\u00e7ois Champollion University Center
+        for Teaching and Research"},{"ns":0,"title":"Jean-Louis Pascal"},{"ns":0,"title":"Jean-Marie
+        Tjibaou Cultural Centre"},{"ns":0,"title":"Jean Mabillon"},{"ns":0,"title":"John
+        II of France"},{"ns":0,"title":"John of Lancaster, 1st Duke of Bedford"},{"ns":0,"title":"Joseph
+        Van Praet"},{"ns":0,"title":"J\u00e9r\u00f4me Bignon"},{"ns":0,"title":"LIBRIS"},{"ns":0,"title":"Legislative
+        Assembly (France)"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"List
+        of states with limited recognition"},{"ns":0,"title":"List of stations of
+        the Paris M\u00e9tro"},{"ns":0,"title":"Louis Lumi\u00e8re College"},{"ns":0,"title":"Louis
+        XIII of France"},{"ns":0,"title":"Louis XII of France"},{"ns":0,"title":"Louis
+        XIV of France"},{"ns":0,"title":"Louis XI of France"},{"ns":0,"title":"Louis
+        de Gruuthuse"},{"ns":0,"title":"Louvre Palace"},{"ns":0,"title":"Louvre Pyramid"},{"ns":0,"title":"Magazine"},{"ns":0,"title":"Manuscript"},{"ns":0,"title":"Map"},{"ns":0,"title":"Melchis\u00e9dech
+        Th\u00e9venot"},{"ns":0,"title":"Milan"},{"ns":0,"title":"Mines ParisTech"},{"ns":0,"title":"Minister
+        of Culture (France)"},{"ns":0,"title":"Minister of Defence (France)"},{"ns":0,"title":"Minister
+        of Social Affairs (France)"},{"ns":0,"title":"Minister of the Economy, Finances
+        and Industry (France)"},{"ns":0,"title":"Minister of the Economy, Industry
+        and Employment (France)"},{"ns":0,"title":"Minister of the Interior (France)"},{"ns":0,"title":"Ministry
+        of Agriculture (France)"},{"ns":0,"title":"Ministry of Ecology, Sustainable
+        Development and Energy"},{"ns":0,"title":"Ministry of Foreign and European
+        Affairs (France)"},{"ns":0,"title":"Ministry of Higher Education and Research"},{"ns":0,"title":"Ministry
+        of National Education (France)"},{"ns":0,"title":"Mus\u00e9e Picasso"},{"ns":0,"title":"Mus\u00e9e
+        Rodin"},{"ns":0,"title":"Mus\u00e9e d''Orsay"},{"ns":0,"title":"Mus\u00e9e
+        de l''Air"},{"ns":0,"title":"Mus\u00e9e de l''Arm\u00e9e"},{"ns":0,"title":"Mus\u00e9e
+        du Louvre"},{"ns":0,"title":"Mus\u00e9e national Gustave Moreau"},{"ns":0,"title":"Mus\u00e9e
+        national Jean-Jacques Henner"},{"ns":0,"title":"Mus\u00e9e national de la
+        Marine"},{"ns":0,"title":"M\u00e9t\u00e9o-France"},{"ns":0,"title":"Napoleon"},{"ns":0,"title":"National
+        Center of Cinematography and the moving image"},{"ns":0,"title":"National
+        Computer Center for Higher Education (France)"},{"ns":0,"title":"National
+        Library of Abkhazia"},{"ns":0,"title":"National Library of Albania"},{"ns":0,"title":"National
+        Library of Andorra"},{"ns":0,"title":"National Library of Armenia"},{"ns":0,"title":"National
+        Library of Australia"},{"ns":0,"title":"National Library of Austria"},{"ns":0,"title":"National
+        Library of Azerbaijan"},{"ns":0,"title":"National Library of Belarus"},{"ns":0,"title":"National
+        Library of Belgium"},{"ns":0,"title":"National Library of Bosnia and Herzegovina"},{"ns":0,"title":"National
+        Library of Bulgaria"},{"ns":0,"title":"National Library of Croatia"},{"ns":0,"title":"National
+        Library of Cyprus"},{"ns":0,"title":"National Library of Denmark"},{"ns":0,"title":"National
+        Library of Estonia"},{"ns":0,"title":"National Library of European Economic
+        Area"},{"ns":0,"title":"National Library of European Union"},{"ns":0,"title":"National
+        Library of Finland"},{"ns":0,"title":"National Library of France"},{"ns":0,"title":"National
+        Library of Georgia (country)"},{"ns":0,"title":"National Library of Germany"},{"ns":0,"title":"National
+        Library of Gibraltar"},{"ns":0,"title":"National Library of Greece"},{"ns":0,"title":"National
+        Library of Guernsey"},{"ns":0,"title":"National Library of Hungary"},{"ns":0,"title":"National
+        Library of Iceland"},{"ns":0,"title":"National Library of Italy"},{"ns":0,"title":"National
+        Library of Jersey"},{"ns":0,"title":"National Library of Kazakhstan"},{"ns":0,"title":"National
+        Library of Kosovo"},{"ns":0,"title":"National Library of Latvia"},{"ns":0,"title":"National
+        Library of Liechtenstein"},{"ns":0,"title":"National Library of Lithuania"},{"ns":0,"title":"National
+        Library of Luxembourg"},{"ns":0,"title":"National Library of Malta"},{"ns":0,"title":"National
+        Library of Moldova"},{"ns":0,"title":"National Library of Monaco"},{"ns":0,"title":"National
+        Library of Montenegro"},{"ns":0,"title":"National Library of Nagorno-Karabakh"},{"ns":0,"title":"National
+        Library of Northern Cyprus"},{"ns":0,"title":"National Library of Norway"},{"ns":0,"title":"National
+        Library of Poland"},{"ns":0,"title":"National Library of Portugal"},{"ns":0,"title":"National
+        Library of Romania"},{"ns":0,"title":"National Library of Russia"},{"ns":0,"title":"National
+        Library of San Marino"},{"ns":0,"title":"National Library of Serbia"},{"ns":0,"title":"National
+        Library of Slovakia"},{"ns":0,"title":"National Library of Slovenia"},{"ns":0,"title":"National
+        Library of South Ossetia"},{"ns":0,"title":"National Library of Sovereign
+        Military Order of Malta"},{"ns":0,"title":"National Library of Spain"},{"ns":0,"title":"National
+        Library of Svalbard"},{"ns":0,"title":"National Library of Sweden"},{"ns":0,"title":"National
+        Library of Switzerland"},{"ns":0,"title":"National Library of Transnistria"},{"ns":0,"title":"National
+        Library of Turkey"},{"ns":0,"title":"National Library of Ukraine"},{"ns":0,"title":"National
+        Library of Vatican City"},{"ns":0,"title":"National Library of the Czech Republic"},{"ns":0,"title":"National
+        Library of the European Economic Area"},{"ns":0,"title":"National Library
+        of the European Union"},{"ns":0,"title":"National Library of the Faroe Islands"},{"ns":0,"title":"National
+        Library of the Isle of Man"},{"ns":0,"title":"National Library of the Netherlands"},{"ns":0,"title":"National
+        Library of the Republic of Ireland"},{"ns":0,"title":"National Library of
+        the Republic of Macedonia"},{"ns":0,"title":"National Library of the United
+        Kingdom"},{"ns":0,"title":"National Library of \u00c5land"},{"ns":0,"title":"National
+        library"},{"ns":0,"title":"National parks of France"},{"ns":0,"title":"Nature
+        (journal)"},{"ns":0,"title":"Naval Hydrographic and Oceanographic Service"},{"ns":0,"title":"Nazi"},{"ns":0,"title":"Newspaper"},{"ns":0,"title":"Nicholas
+        Oresme"},{"ns":0,"title":"Op\u00e9ra Bastille"},{"ns":0,"title":"Palace of
+        Fontainebleau"},{"ns":0,"title":"Palais de la Cit\u00e9"},{"ns":0,"title":"Parc
+        de la Villette"},{"ns":0,"title":"Paris"},{"ns":0,"title":"Paris M\u00e9tro"},{"ns":0,"title":"Patent"},{"ns":0,"title":"Postage
+        stamp"},{"ns":0,"title":"President of France"},{"ns":0,"title":"Printmaking"},{"ns":0,"title":"Prisoners
+        of war"},{"ns":0,"title":"Public domain"},{"ns":0,"title":"Right of asylum"},{"ns":0,"title":"Rue
+        de Richelieu"},{"ns":0,"title":"Rue de la Harpe"},{"ns":0,"title":"Sorbonne
+        Graduate Business School"},{"ns":0,"title":"Sound recording"},{"ns":0,"title":"Sovereign
+        state"},{"ns":0,"title":"Syndicat des transports d''\u00cele-de-France"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"S\u00e8vres \u2013 Cit\u00e9
+        de la c\u00e9ramique"},{"ns":0,"title":"TGV"},{"ns":0,"title":"The New York
+        Times"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"\u00c9cole
+        Nationale Sup\u00e9rieure de l''\u00c9lectronique et de ses Applications"},{"ns":0,"title":"\u00c9cole
+        Nationale Sup\u00e9rieure des Mines de Saint-\u00c9tienne"},{"ns":0,"title":"\u00c9cole
+        Polytechnique"},{"ns":0,"title":"\u00c9cole des Mines de Douai"},{"ns":0,"title":"\u00c9cole
+        des Ponts ParisTech"},{"ns":0,"title":"\u00c9cole des mines d''Al\u00e8s"},{"ns":0,"title":"\u00c9cole
+        des mines de Nantes"},{"ns":0,"title":"\u00c9cole du Louvre"},{"ns":0,"title":"\u00c9cole
+        nationale d''ing\u00e9nieurs de Brest"},{"ns":0,"title":"\u00c9cole nationale
+        d''ing\u00e9nieurs de Tarbes"},{"ns":0,"title":"\u00c9cole nationale de l''aviation
+        civile"},{"ns":0,"title":"\u00c9cole nationale sup\u00e9rieure d''informatique
+        pour l''industrie et l''entreprise"},{"ns":0,"title":"\u00c9cole nationale
+        sup\u00e9rieure de techniques avanc\u00e9es Bretagne"},{"ns":0,"title":"\u00c9cole
+        nationale sup\u00e9rieure des Beaux-Arts"},{"ns":0,"title":"\u00c9cole nationale
+        sup\u00e9rieure des arts d\u00e9coratifs"},{"ns":0,"title":"\u00c9tablissement
+        public du ch\u00e2teau, du mus\u00e9e et du domaine national de Versailles"},{"ns":0,"title":"\u00c9tablissement
+        public \u00e0 caract\u00e8re administratif"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":10,"title":"Template:Europe topic"},{"ns":10,"title":"Template:Grands
+        Projets of Fran\u00e7ois Mitterrand"},{"ns":10,"title":"Template:ISO 639 name
+        fr"},{"ns":10,"title":"Template:\u00c9tablissement public \u00e0 caract\u00e8re
+        administratif"},{"ns":11,"title":"Template talk:Europe topic"},{"ns":11,"title":"Template
+        talk:Grands Projets of Fran\u00e7ois Mitterrand"},{"ns":11,"title":"Template
+        talk:\u00c9tablissement public \u00e0 caract\u00e8re administratif"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":12,"title":"Help:IPA for French"},{"ns":14,"title":"Category:Articles
+        containing French-language text"},{"ns":14,"title":"Category:Articles with
+        unsourced statements from October 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:51 GMT
+recorded_with: VCR 2.9.2

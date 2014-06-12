@@ -1,0 +1,171 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Richard%20Dean%20Anderson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287173677, 983727384, 3142935740
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2455'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:58 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4018 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"262533":{"pageid":262533,"ns":0,"title":"Richard
+        Dean Anderson","links":[{"ns":0,"title":"200 (Stargate SG-1)"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Aiden
+        Ford"},{"ns":0,"title":"Air (Stargate Universe)"},{"ns":0,"title":"Air Force
+        Association"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Ancient (Stargate)"},{"ns":0,"title":"Ancient
+        characters in Stargate"},{"ns":0,"title":"Ancient technology in Stargate"},{"ns":0,"title":"Angus
+        MacGyver"},{"ns":0,"title":"Asgard (Stargate)"},{"ns":0,"title":"Asuran"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Avalon (Stargate SG-1)"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Ben Browder"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Brigadier general (United States)"},{"ns":0,"title":"Bryan
+        Cranston"},{"ns":0,"title":"Cameron Mitchell (Stargate)"},{"ns":0,"title":"Carson
+        Beckett"},{"ns":0,"title":"Charles Frank"},{"ns":0,"title":"Chief of Staff
+        of the United States Air Force"},{"ns":0,"title":"Citizen Joe"},{"ns":0,"title":"Claudia
+        Black"},{"ns":0,"title":"Comic relief"},{"ns":0,"title":"Composer"},{"ns":0,"title":"D.C.
+        Cab"},{"ns":0,"title":"Dan Castellaneta"},{"ns":0,"title":"Daniel Jackson
+        (Stargate)"},{"ns":0,"title":"David Boreanaz"},{"ns":0,"title":"Dennis Weaver"},{"ns":0,"title":"Dime
+        novel"},{"ns":0,"title":"Don''t Trust the B---- in Apartment 23"},{"ns":0,"title":"Don
+        S. Davis"},{"ns":0,"title":"Donny & Marie (1998 TV series)"},{"ns":0,"title":"Dr.
+        Jeff Webber"},{"ns":0,"title":"Earth (Stargate Universe)"},{"ns":0,"title":"Earth
+        technology in Stargate"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"Eli
+        Wallace"},{"ns":0,"title":"Elizabeth Weir (Stargate)"},{"ns":0,"title":"Emerald
+        Point N.A.S."},{"ns":0,"title":"Environmental organization"},{"ns":0,"title":"Evan
+        Lorne"},{"ns":0,"title":"Everett Young"},{"ns":0,"title":"Fairly Legal"},{"ns":0,"title":"Fallout
+        (computer game)"},{"ns":0,"title":"Firehouse (1997 film)"},{"ns":0,"title":"Foundation
+        (United States law)"},{"ns":0,"title":"Gekko Film Corporation"},{"ns":0,"title":"General
+        Hospital"},{"ns":0,"title":"Genii (Stargate)"},{"ns":0,"title":"George Hammond
+        (Stargate)"},{"ns":0,"title":"Goa''uld"},{"ns":0,"title":"Goa''uld characters
+        in Stargate"},{"ns":0,"title":"Goa''uld technology in Stargate"},{"ns":0,"title":"Hank
+        Landry (Stargate)"},{"ns":0,"title":"Harry Jackson (MacGyver)"},{"ns":0,"title":"Homer
+        Simpson"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jack Dalton (MacGyver)"},{"ns":0,"title":"Jack
+        O''Neill"},{"ns":0,"title":"James Spader"},{"ns":0,"title":"Jeff Webber"},{"ns":0,"title":"Jennifer
+        Keller"},{"ns":0,"title":"John P. Jumper"},{"ns":0,"title":"John Sheppard
+        (Stargate)"},{"ns":0,"title":"John Symes"},{"ns":0,"title":"John de Lancie"},{"ns":0,"title":"Jonas
+        Quinn"},{"ns":0,"title":"Josh Holloway"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kiss
+        Kiss, Bang Bangalore"},{"ns":0,"title":"Kiss Kiss Bang Bangalore"},{"ns":0,"title":"Kull
+        Warrior"},{"ns":0,"title":"Kurt Russell"},{"ns":0,"title":"Kyle Chandler"},{"ns":0,"title":"Late
+        Night with Conan O''Brien"},{"ns":0,"title":"Lead actor"},{"ns":0,"title":"Lee
+        David Zlotoff"},{"ns":0,"title":"Legend (TV Series)"},{"ns":0,"title":"Legend
+        (TV series)"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lieutenant
+        General"},{"ns":0,"title":"List of Earth starships in Stargate"},{"ns":0,"title":"List
+        of MacGyver characters"},{"ns":0,"title":"List of MacGyver episodes"},{"ns":0,"title":"List
+        of MacGyver episodes (season 1)"},{"ns":0,"title":"List of MacGyver episodes
+        (season 2)"},{"ns":0,"title":"List of MacGyver episodes (season 3)"},{"ns":0,"title":"List
+        of MacGyver episodes (season 4)"},{"ns":0,"title":"List of MacGyver episodes
+        (season 5)"},{"ns":0,"title":"List of MacGyver episodes (season 6)"},{"ns":0,"title":"List
+        of MacGyver episodes (season 7)"},{"ns":0,"title":"List of Stargate Atlantis
+        characters"},{"ns":0,"title":"List of Stargate Atlantis episodes"},{"ns":0,"title":"List
+        of Stargate Infinity episodes"},{"ns":0,"title":"List of Stargate SG-1 characters"},{"ns":0,"title":"List
+        of Stargate SG-1 episodes"},{"ns":0,"title":"List of Stargate Universe characters"},{"ns":0,"title":"List
+        of Stargate Universe episodes"},{"ns":0,"title":"List of Stargate audiobooks"},{"ns":0,"title":"List
+        of Stargate comics"},{"ns":0,"title":"List of Stargate literature"},{"ns":0,"title":"List
+        of awards and nominations received by MacGyver"},{"ns":0,"title":"List of
+        awards and nominations received by Richard Dean Anderson"},{"ns":0,"title":"List
+        of awards and nominations received by Stargate Atlantis"},{"ns":0,"title":"List
+        of awards and nominations received by Stargate SG-1"},{"ns":0,"title":"List
+        of awards and nominations received by Stargate Universe"},{"ns":0,"title":"List
+        of starships in Stargate"},{"ns":0,"title":"Little Trees"},{"ns":0,"title":"Los
+        Angeles"},{"ns":0,"title":"MacGruber"},{"ns":0,"title":"MacGyver"},{"ns":0,"title":"MacGyver:
+        Lost Treasure of Atlantis"},{"ns":0,"title":"MacGyver: Trail to Doomsday"},{"ns":0,"title":"MacGyver
+        in popular culture"},{"ns":0,"title":"Make-a-Wish Foundation"},{"ns":0,"title":"Marge
+        Simpson"},{"ns":0,"title":"MasterCard"},{"ns":0,"title":"Matthew Fox"},{"ns":0,"title":"Matthew
+        Scott (Stargate)"},{"ns":0,"title":"Metro\u2013Goldwyn\u2013Mayer"},{"ns":0,"title":"Michael
+        C. Hall"},{"ns":0,"title":"Michael Greenburg"},{"ns":0,"title":"Minneapolis"},{"ns":0,"title":"Minneapolis,
+        Minnesota"},{"ns":0,"title":"Minnesota"},{"ns":0,"title":"Mohawk people"},{"ns":0,"title":"Murdoc"},{"ns":0,"title":"Mythology
+        of Stargate"},{"ns":0,"title":"New York"},{"ns":0,"title":"Newton''s Apple"},{"ns":0,"title":"Nicholas
+        Rush"},{"ns":0,"title":"Non-profit organization"},{"ns":0,"title":"Norwegian
+        people"},{"ns":0,"title":"Odd Jobs"},{"ns":0,"title":"Ohio University"},{"ns":0,"title":"Organizations
+        in MacGyver"},{"ns":0,"title":"Ori (Stargate)"},{"ns":0,"title":"Origin (Stargate
+        SG-1)"},{"ns":0,"title":"Pandora''s Clock"},{"ns":0,"title":"Patty Bouvier"},{"ns":0,"title":"Pepsi"},{"ns":0,"title":"Peter
+        Thornton (MacGyver)"},{"ns":0,"title":"Pollution"},{"ns":0,"title":"Public
+        service announcement"},{"ns":0,"title":"Radek Zelenka"},{"ns":0,"title":"Raising
+        Hope"},{"ns":0,"title":"Replicator (Stargate)"},{"ns":0,"title":"Richard Woolsey"},{"ns":0,"title":"Rising
+        (Stargate Atlantis)"},{"ns":0,"title":"Robert Patrick"},{"ns":0,"title":"Rodney
+        McKay"},{"ns":0,"title":"Ronald Greer (Stargate)"},{"ns":0,"title":"Ronon
+        Dex"},{"ns":0,"title":"Roseville, Minnesota"},{"ns":0,"title":"Roseville Area
+        High School"},{"ns":0,"title":"Samantha Carter"},{"ns":0,"title":"Satire"},{"ns":0,"title":"Saturday
+        Night Live"},{"ns":0,"title":"Saturn Award for Best Actor on Television"},{"ns":0,"title":"Sea
+        Shepherd Conservation Society"},{"ns":0,"title":"Selma Bouvier"},{"ns":0,"title":"Seven
+        Brides for Seven Brothers (TV series)"},{"ns":0,"title":"Special Olympics"},{"ns":0,"title":"Spin-off
+        (media)"},{"ns":0,"title":"St. Cloud State University"},{"ns":0,"title":"Stargate"},{"ns":0,"title":"Stargate:
+        Atlantis"},{"ns":0,"title":"Stargate: Continuum"},{"ns":0,"title":"Stargate:
+        Resistance"},{"ns":0,"title":"Stargate: The Ark of Truth"},{"ns":0,"title":"Stargate:
+        Universe"},{"ns":0,"title":"Stargate (device)"},{"ns":0,"title":"Stargate
+        (film)"},{"ns":0,"title":"Stargate Atlantis"},{"ns":0,"title":"Stargate Atlantis
+        (season 1)"},{"ns":0,"title":"Stargate Atlantis (season 2)"},{"ns":0,"title":"Stargate
+        Atlantis (season 3)"},{"ns":0,"title":"Stargate Atlantis (season 4)"},{"ns":0,"title":"Stargate
+        Atlantis (season 5)"},{"ns":0,"title":"Stargate Infinity"},{"ns":0,"title":"Stargate
+        Program"},{"ns":0,"title":"Stargate SG-1"},{"ns":0,"title":"Stargate SG-1
+        (season 1)"},{"ns":0,"title":"Stargate SG-1 (season 10)"},{"ns":0,"title":"Stargate
+        SG-1 (season 2)"},{"ns":0,"title":"Stargate SG-1 (season 3)"},{"ns":0,"title":"Stargate
+        SG-1 (season 4)"},{"ns":0,"title":"Stargate SG-1 (season 5)"},{"ns":0,"title":"Stargate
+        SG-1 (season 6)"},{"ns":0,"title":"Stargate SG-1 (season 7)"},{"ns":0,"title":"Stargate
+        SG-1 (season 8)"},{"ns":0,"title":"Stargate SG-1 (season 9)"},{"ns":0,"title":"Stargate
+        Universe"},{"ns":0,"title":"Stargate Universe (season 1)"},{"ns":0,"title":"Stargate
+        Universe (season 2)"},{"ns":0,"title":"Stargate fandom"},{"ns":0,"title":"Stargate
+        games"},{"ns":0,"title":"Stargate literature"},{"ns":0,"title":"Stephen Moyer"},{"ns":0,"title":"Steven
+        Weber (actor)"},{"ns":0,"title":"Super Bowl XL"},{"ns":0,"title":"Super Bowl
+        XLIII"},{"ns":0,"title":"Susan Dey"},{"ns":0,"title":"Swiss Army knife"},{"ns":0,"title":"TV
+        Zone"},{"ns":0,"title":"Tamara Johansen"},{"ns":0,"title":"Teal''c"},{"ns":0,"title":"Technology
+        in Stargate"},{"ns":0,"title":"Television producer"},{"ns":0,"title":"Teyla
+        Emmagan"},{"ns":0,"title":"The Facts of Life (TV series)"},{"ns":0,"title":"The
+        Late Late Show (CBS TV series)"},{"ns":0,"title":"The Love Boat"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Return (Stargate Atlantis)"},{"ns":0,"title":"The
+        Shroud (Stargate SG-1)"},{"ns":0,"title":"The Simpsons"},{"ns":0,"title":"Through
+        the Eyes of a Killer"},{"ns":0,"title":"Tok''ra"},{"ns":0,"title":"USA Network"},{"ns":0,"title":"Untitled
+        Stargate film"},{"ns":0,"title":"Vala Mal Doran"},{"ns":0,"title":"Vancouver"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Washington, D.C."},{"ns":0,"title":"Waterkeeper
+        Alliance"},{"ns":0,"title":"Will Forte"},{"ns":0,"title":"Wraith (Stargate)"},{"ns":0,"title":"Youth
+        organization"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:MacGyver"},{"ns":10,"title":"Template:Saturn
+        Award for Best Actor on Television"},{"ns":10,"title":"Template:Stargate"},{"ns":11,"title":"Template
+        talk:MacGyver"},{"ns":11,"title":"Template talk:Saturn Award for Best Actor
+        on Television"},{"ns":11,"title":"Template talk:Stargate"},{"ns":14,"title":"Category:Articles
+        with dead external links from August 2010"},{"ns":14,"title":"Category:Articles
+        with dead external links from February 2012"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from June 2010"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:59 GMT
+recorded_with: VCR 2.9.2

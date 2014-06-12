@@ -1,0 +1,193 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Screen%20Actors%20Guild%20Award%20for%20Outstanding%20Performance%20by%20a%20Male%20Actor%20in%20a%20Supporting%20Role
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704733199, 2340354077, 2899152848
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2985'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:03 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4016 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"3652897":{"pageid":3652897,"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Supporting
+        Role","links":[{"ns":0,"title":"10th Screen Actors Guild Awards"},{"ns":0,"title":"11th
+        Screen Actors Guild Awards"},{"ns":0,"title":"12 Years a Slave (film)"},{"ns":0,"title":"12th
+        Screen Actors Guild Awards"},{"ns":0,"title":"13th Screen Actors Guild Awards"},{"ns":0,"title":"14th
+        Screen Actors Guild Awards"},{"ns":0,"title":"15th Screen Actors Guild Awards"},{"ns":0,"title":"16th
+        Screen Actors Guild Awards"},{"ns":0,"title":"17th Screen Actors Guild Awards"},{"ns":0,"title":"18th
+        Screen Actors Guild Awards"},{"ns":0,"title":"19th Screen Actors Guild Awards"},{"ns":0,"title":"1st
+        Screen Actors Guild Awards"},{"ns":0,"title":"20th Screen Actors Guild Awards"},{"ns":0,"title":"21
+        Grams"},{"ns":0,"title":"2nd Screen Actors Guild Awards"},{"ns":0,"title":"3rd
+        Screen Actors Guild Awards"},{"ns":0,"title":"4th Screen Actors Guild Awards"},{"ns":0,"title":"5th
+        Screen Actors Guild Awards"},{"ns":0,"title":"6th Screen Actors Guild Awards"},{"ns":0,"title":"7th
+        Screen Actors Guild Awards"},{"ns":0,"title":"8th Screen Actors Guild Awards"},{"ns":0,"title":"9th
+        Screen Actors Guild Awards"},{"ns":0,"title":"A Civil Action"},{"ns":0,"title":"A
+        Simple Plan (film)"},{"ns":0,"title":"Abduwali Muse"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Adaptation (film)"},{"ns":0,"title":"Affliction
+        (1997 film)"},{"ns":0,"title":"Affliction (film)"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"Alfred Molina"},{"ns":0,"title":"American
+        Beauty (1999 film)"},{"ns":0,"title":"Amistad (1997 film)"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Argo (2012
+        film)"},{"ns":0,"title":"Armie Hammer"},{"ns":0,"title":"As Good as It Gets"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Supporting Role"},{"ns":0,"title":"Barkhad Abdi"},{"ns":0,"title":"Beginners"},{"ns":0,"title":"Bela
+        Lugosi"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Billy
+        Bob Thornton"},{"ns":0,"title":"Billy Connolly"},{"ns":0,"title":"Billy Elliot"},{"ns":0,"title":"Blood
+        Diamond (film)"},{"ns":0,"title":"Boogie Nights"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Supporting Actor"},{"ns":0,"title":"Brokeback
+        Mountain"},{"ns":0,"title":"Bullets Over Broadway"},{"ns":0,"title":"Burt
+        Reynolds"},{"ns":0,"title":"Captain Phillips (film)"},{"ns":0,"title":"Casey
+        Affleck"},{"ns":0,"title":"Catch Me If You Can"},{"ns":0,"title":"Chazz Palminteri"},{"ns":0,"title":"Chris
+        Cooper (actor)"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christoph
+        Waltz"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Cinderella Man"},{"ns":0,"title":"Clyde Tolson"},{"ns":0,"title":"Collateral
+        (film)"},{"ns":0,"title":"Commodus"},{"ns":0,"title":"Crash (2004 film)"},{"ns":0,"title":"Crash
+        (2005 film)"},{"ns":0,"title":"Cuba Gooding, Jr."},{"ns":0,"title":"Dallas
+        Buyers Club"},{"ns":0,"title":"Dan White"},{"ns":0,"title":"Daniel Br\u00fchl"},{"ns":0,"title":"Daniel
+        Day-Lewis"},{"ns":0,"title":"David Helfgott"},{"ns":0,"title":"David Kelly
+        (actor)"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Dev
+        Patel"},{"ns":0,"title":"Devil in a Blue Dress (film)"},{"ns":0,"title":"Dicky
+        Eklund"},{"ns":0,"title":"Diego Rivera"},{"ns":0,"title":"Django Unchained"},{"ns":0,"title":"Djimon
+        Hounsou"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Doubt (2008 film)"},{"ns":0,"title":"Dreamgirls
+        (film)"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Ed Masry"},{"ns":0,"title":"Ed
+        Wood (film)"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Enough Said
+        (film)"},{"ns":0,"title":"Erin Brockovich (film)"},{"ns":0,"title":"Ethan
+        Hawke"},{"ns":0,"title":"Far from Heaven"},{"ns":0,"title":"Fargo (film)"},{"ns":0,"title":"Finding
+        Neverland"},{"ns":0,"title":"Forrest Gump"},{"ns":0,"title":"Francois Pienaar"},{"ns":0,"title":"Freddie
+        Highmore"},{"ns":0,"title":"Frida"},{"ns":0,"title":"Gandalf"},{"ns":0,"title":"Gary
+        Oldman"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene Kranz"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"Get Low (film)"},{"ns":0,"title":"Gladiator
+        (2000 film)"},{"ns":0,"title":"Golden Globe Award for Best Supporting Actor
+        \u2013 Motion Picture"},{"ns":0,"title":"Good Will Hunting"},{"ns":0,"title":"Greg
+        Kinnear"},{"ns":0,"title":"Hal Holbrook"},{"ns":0,"title":"Haley Joel Osment"},{"ns":0,"title":"Hank
+        Azaria"},{"ns":0,"title":"Hans Landa"},{"ns":0,"title":"Hayden Christensen"},{"ns":0,"title":"Heath
+        Ledger"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Inglourious Basterds"},{"ns":0,"title":"Into
+        the Wild (film)"},{"ns":0,"title":"Invictus (film)"},{"ns":0,"title":"Iris
+        (film)"},{"ns":0,"title":"J. Edgar"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jack
+        Twist"},{"ns":0,"title":"Jackie Earle Haley"},{"ns":0,"title":"Jake Gyllenhaal"},{"ns":0,"title":"James
+        Coburn"},{"ns":0,"title":"James Gandolfini"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"Jamie
+        Bell"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jared Leto"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jerry
+        Maguire"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"Joe
+        Gould (boxing)"},{"ns":0,"title":"John Bayley (writer)"},{"ns":0,"title":"John
+        Brown (servant)"},{"ns":0,"title":"John Hawkes (actor)"},{"ns":0,"title":"John
+        Laroche"},{"ns":0,"title":"John Quincy Adams"},{"ns":0,"title":"John Turturro"},{"ns":0,"title":"Joker
+        (comics)"},{"ns":0,"title":"Jonah Hill"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Ken
+        Watanabe (actor)"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Leaving
+        Las Vegas"},{"ns":0,"title":"Leo Tolstoy"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Life
+        as a House"},{"ns":0,"title":"Lincoln (2012 film)"},{"ns":0,"title":"Lionel
+        Logue"},{"ns":0,"title":"List of actors who won the Academy, BAFTA, Golden
+        Globe, SAG, and Critic''s Choice Award for a single performance"},{"ns":0,"title":"Little
+        Children (film)"},{"ns":0,"title":"Little Miss Sunshine"},{"ns":0,"title":"Los
+        Angeles, California"},{"ns":0,"title":"Magnolia (film)"},{"ns":0,"title":"Mark
+        Ruffalo"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Max Schreck"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael
+        Clarke Duncan"},{"ns":0,"title":"Michael Clayton (film)"},{"ns":0,"title":"Michael
+        Fassbender"},{"ns":0,"title":"Milk (film)"},{"ns":0,"title":"Million Dollar
+        Baby"},{"ns":0,"title":"Moneyball (film)"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Mrs.
+        Brown"},{"ns":0,"title":"Murder in the First (film)"},{"ns":0,"title":"My
+        Week with Marilyn"},{"ns":0,"title":"Mystic River (film)"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Niki
+        Lauda"},{"ns":0,"title":"No Country for Old Men (film)"},{"ns":0,"title":"Noah
+        Taylor"},{"ns":0,"title":"Othello (1995 film)"},{"ns":0,"title":"Paul DePodesta"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Peter Llewelyn Davies"},{"ns":0,"title":"Philip
+        Henslowe"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Pulp
+        Fiction (film)"},{"ns":0,"title":"Quiz Show (film)"},{"ns":0,"title":"R. Thomas
+        Smith"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert Downey,
+        Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert Ford (outlaw)"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Rush (2013 film)"},{"ns":0,"title":"Russell Crowe"},{"ns":0,"title":"SAG-AFTRA"},{"ns":0,"title":"Samuel
+        L. Jackson"},{"ns":0,"title":"Screen Actors Guild"},{"ns":0,"title":"Screen
+        Actors Guild Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Female Actor in a Comedy Series"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Female Actor in a Drama
+        Series"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Female Actor in a Leading Role"},{"ns":0,"title":"Screen Actors Guild
+        Award for Outstanding Performance by a Female Actor in a Miniseries or Television
+        Movie"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Female Actor in a Supporting Role"},{"ns":0,"title":"Screen Actors Guild
+        Award for Outstanding Performance by a Male Actor in a Comedy Series"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Drama
+        Series"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Male Actor in a Leading Role"},{"ns":0,"title":"Screen Actors Guild Award
+        for Outstanding Performance by a Male Actor in a Miniseries or Television
+        Movie"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Stunt Ensemble in a Motion Picture"},{"ns":0,"title":"Screen Actors Guild
+        Award for Outstanding Performance by a Stunt Ensemble in a Television Series"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by an Ensemble in a Comedy
+        Series"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by an Ensemble in a Drama Series"},{"ns":0,"title":"Screen Actors Guild Life
+        Achievement Award"},{"ns":0,"title":"Seabiscuit (film)"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Sexy Beast"},{"ns":0,"title":"Shadow of the Vampire"},{"ns":0,"title":"Shakespeare
+        in Love"},{"ns":0,"title":"Shine (film)"},{"ns":0,"title":"Sideways (film)"},{"ns":0,"title":"Silver
+        Linings Playbook"},{"ns":0,"title":"Skyfall"},{"ns":0,"title":"Slumdog Millionaire"},{"ns":0,"title":"Stanley
+        Tucci"},{"ns":0,"title":"Syriana"},{"ns":0,"title":"Thaddeus Stevens"},{"ns":0,"title":"The
+        Assassination of Jesse James by the Coward Robert Ford"},{"ns":0,"title":"The
+        Birdcage"},{"ns":0,"title":"The Cider House Rules (film)"},{"ns":0,"title":"The
+        Contender (2000 film)"},{"ns":0,"title":"The Cooler"},{"ns":0,"title":"The
+        Dark Knight (film)"},{"ns":0,"title":"The Departed"},{"ns":0,"title":"The
+        Fighter (2010 film)"},{"ns":0,"title":"The Green Mile (film)"},{"ns":0,"title":"The
+        Hours (film)"},{"ns":0,"title":"The Kids Are All Right (film)"},{"ns":0,"title":"The
+        King''s Speech"},{"ns":0,"title":"The Last Samurai"},{"ns":0,"title":"The
+        Last Station"},{"ns":0,"title":"The Lord of the Rings: The Fellowship of the
+        Ring"},{"ns":0,"title":"The Lovely Bones (film)"},{"ns":0,"title":"The Master
+        (2012 film)"},{"ns":0,"title":"The Messenger (2009 film)"},{"ns":0,"title":"The
+        Notebook (2004 film)"},{"ns":0,"title":"The Shawshank Redemption"},{"ns":0,"title":"The
+        Sixth Sense"},{"ns":0,"title":"The Town (2010 film)"},{"ns":0,"title":"The
+        Usual Suspects"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Tim
+        Robbins"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Wilkinson"},{"ns":0,"title":"Tommy Lee Jones"},{"ns":0,"title":"Traffic (2000
+        film)"},{"ns":0,"title":"Training Day"},{"ns":0,"title":"Tropic Thunder"},{"ns":0,"title":"Waking
+        Ned"},{"ns":0,"title":"Warrior (2011 film)"},{"ns":0,"title":"Willem Dafoe"},{"ns":0,"title":"William
+        H. Macy"},{"ns":0,"title":"Winter''s Bone"},{"ns":0,"title":"Woody Harrelson"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:SAG
+        Awards Chron"},{"ns":10,"title":"Template:ScreenActorsGuildAward MaleSupportMotionPicture"},{"ns":10,"title":"Template:Unreferenced"},{"ns":11,"title":"Template
+        talk:SAG Awards Chron"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward
+        MaleSupportMotionPicture"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        lacking sources from November 2011"},{"ns":14,"title":"Category:Use mdy dates
+        from June 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:04 GMT
+recorded_with: VCR 2.9.2

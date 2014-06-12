@@ -1,0 +1,271 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Jamie%20Foxx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287126450, 1409524663, 1309460860
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4689'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:24 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4009 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"325191|0|Terence_Stamp"}},"query":{"pages":{"325191":{"pageid":325191,"ns":0,"title":"Jamie
+        Foxx","links":[{"ns":0,"title":"2001 MTV Video Music Awards"},{"ns":0,"title":"2011
+        ESPY Awards"},{"ns":0,"title":"2012 ESPY Awards"},{"ns":0,"title":"2013 ESPY
+        Awards"},{"ns":0,"title":"A Million Ways to Die in the West"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Award for Best Actor"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Academy
+        of Motion Picture Arts and Sciences"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Adrien
+        Brody"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Albert Brooks"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alberto
+        Sordi"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Ali (film)"},{"ns":0,"title":"Alliant
+        International University"},{"ns":0,"title":"Allmusic"},{"ns":0,"title":"American
+        Music Awards"},{"ns":0,"title":"American football"},{"ns":0,"title":"Annie
+        (2014 film)"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        Quinn"},{"ns":0,"title":"Any Given Sunday"},{"ns":0,"title":"Arista Records"},{"ns":0,"title":"Art
+        Carney"},{"ns":0,"title":"Arthur Ashe Courage Award"},{"ns":0,"title":"Ashraf
+        Barhom"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA Award"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Awards"},{"ns":0,"title":"BET
+        Awards"},{"ns":0,"title":"Bait (2000 film)"},{"ns":0,"title":"Baptist"},{"ns":0,"title":"Barack
+        Obama"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Battery (crime)"},{"ns":0,"title":"Beat
+        It"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benedict Cumberbatch"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benzino"},{"ns":0,"title":"Best Action Sports
+        Athlete ESPY Award"},{"ns":0,"title":"Best Angler ESPY Award"},{"ns":0,"title":"Best
+        Athlete with a Disability ESPY Award"},{"ns":0,"title":"Best Bowler ESPY Award"},{"ns":0,"title":"Best
+        Boxer ESPY Award"},{"ns":0,"title":"Best Breakthrough Athlete ESPY Award"},{"ns":0,"title":"Best
+        Championship Performance ESPY Award"},{"ns":0,"title":"Best Coach/Manager
+        ESPY Award"},{"ns":0,"title":"Best College Football Player ESPY Award"},{"ns":0,"title":"Best
+        Comeback Athlete ESPY Award"},{"ns":0,"title":"Best Driver ESPY Award"},{"ns":0,"title":"Best
+        Female Action Sports Athlete ESPY Award"},{"ns":0,"title":"Best Female Athlete
+        ESPY Award"},{"ns":0,"title":"Best Female Athlete with a Disability ESPY Award"},{"ns":0,"title":"Best
+        Female College Athlete ESPY Award"},{"ns":0,"title":"Best Female College Basketball
+        Player ESPY Award"},{"ns":0,"title":"Best Female Golfer ESPY Award"},{"ns":0,"title":"Best
+        Female Soccer Player ESPY Award"},{"ns":0,"title":"Best Female Tennis Player
+        ESPY Award"},{"ns":0,"title":"Best Female Track Athlete ESPY Award"},{"ns":0,"title":"Best
+        Fighter ESPY Award"},{"ns":0,"title":"Best Game ESPY Award"},{"ns":0,"title":"Best
+        Golfer ESPY Award"},{"ns":0,"title":"Best International Athlete ESPY Award"},{"ns":0,"title":"Best
+        Jockey ESPY Award"},{"ns":0,"title":"Best MLS Player ESPY Award"},{"ns":0,"title":"Best
+        Major League Baseball Player ESPY Award"},{"ns":0,"title":"Best Male Action
+        Sports Athlete ESPY Award"},{"ns":0,"title":"Best Male Athlete ESPY Award"},{"ns":0,"title":"Best
+        Male Athlete with a Disability ESPY Award"},{"ns":0,"title":"Best Male College
+        Athlete ESPY Award"},{"ns":0,"title":"Best Male College Basketball Player
+        ESPY Award"},{"ns":0,"title":"Best Male Golfer ESPY Award"},{"ns":0,"title":"Best
+        Male Soccer Player ESPY Award"},{"ns":0,"title":"Best Male Tennis Player ESPY
+        Award"},{"ns":0,"title":"Best Male Track Athlete ESPY Award"},{"ns":0,"title":"Best
+        Moment ESPY Award"},{"ns":0,"title":"Best NBA Player ESPY Award"},{"ns":0,"title":"Best
+        NFL Player ESPY Award"},{"ns":0,"title":"Best NHL Player ESPY Award"},{"ns":0,"title":"Best
+        Night of My Life"},{"ns":0,"title":"Best Outdoor Sportsman ESPY Award"},{"ns":0,"title":"Best
+        Play ESPY Award"},{"ns":0,"title":"Best Record-Breaking Performance ESPY Award"},{"ns":0,"title":"Best
+        Soccer Player ESPY Award"},{"ns":0,"title":"Best Sports Movie ESPY Award"},{"ns":0,"title":"Best
+        Track and Field Athlete ESPY Award"},{"ns":0,"title":"Best U.S. Female Olympian
+        ESPY Award"},{"ns":0,"title":"Best U.S. Male Olympian ESPY Award"},{"ns":0,"title":"Best
+        U.S. Olympian ESPY Award"},{"ns":0,"title":"Best Upset ESPY Award"},{"ns":0,"title":"Best
+        WNBA Player ESPY Award"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Murray"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Billboard (magazine)"},{"ns":0,"title":"Billboard
+        200"},{"ns":0,"title":"Billboard Hot 100"},{"ns":0,"title":"Billy Bob Thornton"},{"ns":0,"title":"Billy
+        Ray Cyrus"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Biopic"},{"ns":0,"title":"Black
+        Entertainment Television"},{"ns":0,"title":"Black Movie Awards"},{"ns":0,"title":"Black
+        Reel Awards"},{"ns":0,"title":"Blame It"},{"ns":0,"title":"Blame It (song)"},{"ns":0,"title":"Blink-182"},{"ns":0,"title":"Blockbuster
+        Entertainment Awards"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Booty
+        Call"},{"ns":0,"title":"Boston Society of Film Critics Awards"},{"ns":0,"title":"Brad
+        Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Breakin'' All the
+        Rules"},{"ns":0,"title":"Brendan Gleeson"},{"ns":0,"title":"Brett Ratner"},{"ns":0,"title":"Brian
+        Cox (actor)"},{"ns":0,"title":"British Academy of Film and Television Arts"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Actor"},{"ns":0,"title":"Broadcast
+        Film Critics Association Awards"},{"ns":0,"title":"Broderick Crawford"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Bruno Ganz"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"CBS
+        Corporation"},{"ns":0,"title":"Campbell Scott"},{"ns":0,"title":"Can I Take
+        U Home"},{"ns":0,"title":"Cantinflas"},{"ns":0,"title":"Chaim Topol"},{"ns":0,"title":"Chappelle''s
+        Show"},{"ns":0,"title":"Charles Laughton"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chiwetel
+        Ejiofor"},{"ns":0,"title":"Chris Cooper (actor)"},{"ns":0,"title":"Christian
+        Bale"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Colin Farrell"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Collateral"},{"ns":0,"title":"Collateral (film)"},{"ns":0,"title":"Country
+        music"},{"ns":0,"title":"DJ Play a Love Song"},{"ns":0,"title":"Daily News
+        (New York)"},{"ns":0,"title":"Dallas Cowboys"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Danny
+        Kaye"},{"ns":0,"title":"David Carradine"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David
+        Oyelowo"},{"ns":0,"title":"David Thewlis"},{"ns":0,"title":"Delroy Lindo"},{"ns":0,"title":"Dennis
+        Haysbert"},{"ns":0,"title":"Dennis Miller"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Digital
+        Girl"},{"ns":0,"title":"Dirk Bogarde"},{"ns":0,"title":"Disturbing the peace"},{"ns":0,"title":"Django
+        Unchained"},{"ns":0,"title":"Djimon Hounsou"},{"ns":0,"title":"Do Something"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Donald O''Connor"},{"ns":0,"title":"Drake (entertainer)"},{"ns":0,"title":"Drake
+        (rapper)"},{"ns":0,"title":"Dreamgirls"},{"ns":0,"title":"Dreamgirls (film)"},{"ns":0,"title":"Drew
+        Bundini Brown"},{"ns":0,"title":"Dudley Moore"},{"ns":0,"title":"Due Date"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"E! Online"},{"ns":0,"title":"ESPY Award"},{"ns":0,"title":"ESPY
+        Awards 2005"},{"ns":0,"title":"ESPY Awards 2009"},{"ns":0,"title":"ESPY Awards
+        2010"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Edward Norton"},{"ns":0,"title":"Electro
+        (Marvel Comics)"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Ernest
+        Borgnine"},{"ns":0,"title":"Ewan McGregor"},{"ns":0,"title":"Extravaganza
+        (song)"},{"ns":0,"title":"F. Murray Abraham"},{"ns":0,"title":"Fabolous"},{"ns":0,"title":"Fall
+        for Your Type"},{"ns":0,"title":"Field Mob"},{"ns":0,"title":"FindArticles"},{"ns":0,"title":"Florida
+        Film Critics Circle Awards"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Fox
+        Broadcasting Company"},{"ns":0,"title":"Frank Langella"},{"ns":0,"title":"Frank
+        Sinatra"},{"ns":0,"title":"Fran\u00e7ois P\u00e9rier"},{"ns":0,"title":"Fred
+        Astaire"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"Gannett Company"},{"ns":0,"title":"Gary
+        Busey"},{"ns":0,"title":"Gary Cooper"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George Arliss"},{"ns":0,"title":"George
+        Burns"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George
+        Segal"},{"ns":0,"title":"George Strait"},{"ns":0,"title":"Georgia (Field Mob
+        and Ludacris song)"},{"ns":0,"title":"Georgia on My Mind"},{"ns":0,"title":"Gerard
+        Butler"},{"ns":0,"title":"Glenn Ford"},{"ns":0,"title":"Gold Digger (Kanye
+        West song)"},{"ns":0,"title":"Gold Digger (song)"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Globe Award for Best Actor - Motion
+        Picture Musical or Comedy"},{"ns":0,"title":"Golden Globe Award for Best Actor
+        \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden Globes"},{"ns":0,"title":"Grammy
+        Award"},{"ns":0,"title":"Grammy Award for Best R&B Album"},{"ns":0,"title":"Grammy
+        Award for Best R&B Performance by a Duo or Group with Vocals"},{"ns":0,"title":"Grammy
+        Award for Best Rap/Sung Collaboration"},{"ns":0,"title":"Grammy Award for
+        Best Rap Performance by a Duo or Group"},{"ns":0,"title":"Grammy Award for
+        Best Rap Solo Performance"},{"ns":0,"title":"Grammy Awards"},{"ns":0,"title":"Gregory
+        Peck"},{"ns":0,"title":"Guy Pearce"},{"ns":0,"title":"G\u00e9rard Depardieu"},{"ns":0,"title":"Haing
+        S. Ngor"},{"ns":0,"title":"Hangin'' with Mr. Cooper"},{"ns":0,"title":"Harrah''s
+        Entertainment"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Held Up"},{"ns":0,"title":"Henry
+        Fonda"},{"ns":0,"title":"Hollywood Film Festival"},{"ns":0,"title":"Hollywood
+        Walk of Fame"},{"ns":0,"title":"Horrible Bosses"},{"ns":0,"title":"Horrible
+        Bosses 2"},{"ns":0,"title":"Hot R&B/Hip-Hop Songs"},{"ns":0,"title":"Hugh
+        Grant"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Humphrey Bogart"},{"ns":0,"title":"Hype
+        Williams"},{"ns":0,"title":"I''ll Be There (Jackson 5 song)"},{"ns":0,"title":"I''m
+        Still Here (2010 film)"},{"ns":0,"title":"I Don''t Need It"},{"ns":0,"title":"I
+        Got A Woman"},{"ns":0,"title":"Ian Bannen"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Identity
+        document"},{"ns":0,"title":"Image Awards"},{"ns":0,"title":"In Living Color"},{"ns":0,"title":"In
+        the Flow with Affion Crockett"},{"ns":0,"title":"Independent News & Media"},{"ns":0,"title":"Independent
+        Spirit Awards"},{"ns":0,"title":"Inside the Actors Studio"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Intuition (Jamie Foxx album)"},{"ns":0,"title":"Islam"},{"ns":0,"title":"J
+        Records"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jake
+        Gyllenhaal"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        Mason"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jamie
+        Bell"},{"ns":0,"title":"Jamie Foxx discography"},{"ns":0,"title":"Jared Leto"},{"ns":0,"title":"Jarhead
+        (film)"},{"ns":0,"title":"Jason Bateman"},{"ns":0,"title":"Jason Isaacs"},{"ns":0,"title":"Jason
+        Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jay-Z"},{"ns":0,"title":"Jazz
+        Times"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jeff
+        Foxworthy"},{"ns":0,"title":"Jennifer Garner"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy
+        Renner"},{"ns":0,"title":"Jesse Eisenberg"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jimmy
+        Kimmel"},{"ns":0,"title":"Jimmy Smits"},{"ns":0,"title":"Jive Records"},{"ns":0,"title":"Joaquin
+        Phoenix"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Goodman"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John
+        Wayne"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Jon Hamm"},{"ns":0,"title":"Jon
+        Voight"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Joseph Cross
+        (actor)"},{"ns":0,"title":"Jos\u00e9 Ferrer"},{"ns":0,"title":"Just Like Me
+        (Jamie Foxx song)"},{"ns":0,"title":"Justin Timberlake"},{"ns":0,"title":"Kansas
+        City Film Critics Circle Awards"},{"ns":0,"title":"Kanye West"},{"ns":0,"title":"Kenneth
+        More"},{"ns":0,"title":"Kerry Washington"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Spacey"},{"ns":0,"title":"Kids'' Choice Awards"},{"ns":0,"title":"Kieran Culkin"},{"ns":0,"title":"King
+        (T.I. album)"},{"ns":0,"title":"Kris Kristofferson"},{"ns":0,"title":"LaWanda
+        Page"},{"ns":0,"title":"Lance Armstrong"},{"ns":0,"title":"Las Vegas Film
+        Critics Society Award for Best Actor"},{"ns":0,"title":"Las Vegas Film Critics
+        Society Awards"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Law
+        Abiding Citizen"},{"ns":0,"title":"LeBron James"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lionel
+        Barrymore"},{"ns":0,"title":"LisaRaye McCoy"},{"ns":0,"title":"List of Black
+        Golden Globe Award winners and nominees"},{"ns":0,"title":"List of high schools
+        in Texas"},{"ns":0,"title":"Live in the Sky"},{"ns":0,"title":"London Critics
+        Circle Film Awards"},{"ns":0,"title":"London Film Critics Circle Award for
+        Actor of the Year"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"MOBO Awards"},{"ns":0,"title":"MTV
+        Movie Awards"},{"ns":0,"title":"MTV Video Music Awards"},{"ns":0,"title":"Marcello
+        Mastroianni"},{"ns":0,"title":"Mario Winans"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin
+        Luther King Jr."},{"ns":0,"title":"Mary J. Blige"},{"ns":0,"title":"Matthew
+        McConaughey"},{"ns":0,"title":"Matthew Perry"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"Miami Vice (film)"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael
+        Cera"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Jackson"},{"ns":0,"title":"Michael
+        Keaton"},{"ns":0,"title":"Michael Redgrave"},{"ns":0,"title":"Michael Stuhlbarg"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Miley Cyrus"},{"ns":0,"title":"Miss Independent
+        (Ne-Yo song)"},{"ns":0,"title":"Moesha"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"MovieGuide
+        Awards"},{"ns":0,"title":"MusicBrainz"},{"ns":0,"title":"Music recording sales
+        certification"},{"ns":0,"title":"Musical composition"},{"ns":0,"title":"Musician"},{"ns":0,"title":"NAACP
+        Image Award"},{"ns":0,"title":"Nathaniel Ayers"},{"ns":0,"title":"National
+        Board of Review"},{"ns":0,"title":"National Board of Review Award for Best
+        Actor"},{"ns":0,"title":"National Society of Film Critics Award for Best Actor"},{"ns":0,"title":"National
+        Society of Film Critics Awards"},{"ns":0,"title":"Ne-Yo"},{"ns":0,"title":"New
+        Birth (band)"},{"ns":0,"title":"New Orleans"},{"ns":0,"title":"News Corporation"},{"ns":0,"title":"Nick
+        Nolte"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Nielsen Company"},{"ns":0,"title":"Nigel
+        Hawthorne"},{"ns":0,"title":"Nolo contendere"},{"ns":0,"title":"Norm Macdonald"},{"ns":0,"title":"Oliver
+        Stone"},{"ns":0,"title":"Online Film Critics Society Awards"},{"ns":0,"title":"Oscar
+        Isaac"},{"ns":0,"title":"Outstanding Team ESPY Award"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Hogan"},{"ns":0,"title":"Paul Lukas"},{"ns":0,"title":"Paul
+        Muni"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Peep
+        This"},{"ns":0,"title":"People''s Choice Awards"},{"ns":0,"title":"People
+        (magazine)"},{"ns":0,"title":"Per Oscarsson"},{"ns":0,"title":"Peter Finch"},{"ns":0,"title":"Peter
+        O''Toole"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Philip Seymour
+        Hoffman"},{"ns":0,"title":"Philippe Noiret"},{"ns":0,"title":"Phoenix Film
+        Critics Society Awards"},{"ns":0,"title":"Planet Pit"},{"ns":0,"title":"Please
+        Excuse My Hands"},{"ns":0,"title":"Plies (rapper)"},{"ns":0,"title":"Prism
+        Awards"},{"ns":0,"title":"Probation"},{"ns":0,"title":"Quarterback"},{"ns":0,"title":"Quentin
+        Tarantino"},{"ns":0,"title":"Quincy Jones"},{"ns":0,"title":"Quvenzhan\u00e9
+        Wallis"},{"ns":0,"title":"RCA Music Group"},{"ns":0,"title":"RCA Records"},{"ns":0,"title":"Radiohead"},{"ns":0,"title":"Ralph
+        Richardson"},{"ns":0,"title":"Rapper"},{"ns":0,"title":"Rascal Flatts"},{"ns":0,"title":"Ray"},{"ns":0,"title":"Ray
+        (film)"},{"ns":0,"title":"Ray Charles"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Ray
+        Sharkey"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Recording
+        Industry Association of America"},{"ns":0,"title":"Redd Foxx"},{"ns":0,"title":"Redemption:
+        The Stan Tookie Williams Story"},{"ns":0,"title":"Resisting arrest"},{"ns":0,"title":"Rex
+        Harrison"},{"ns":0,"title":"Richard Attenborough"},{"ns":0,"title":"Richard
+        Basehart"},{"ns":0,"title":"Richard Burton"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard
+        Gere"},{"ns":0,"title":"Richard Harris"},{"ns":0,"title":"Richard Jenkins"},{"ns":0,"title":"Rick
+        Ross"},{"ns":0,"title":"Ricky Gervais"},{"ns":0,"title":"Rio (2011 film)"},{"ns":0,"title":"Rio
+        2"},{"ns":0,"title":"River Phoenix"},{"ns":0,"title":"Rob Riggle"},{"ns":0,"title":"Robert
+        Carlyle"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert Donat"},{"ns":0,"title":"Robert
+        Downey, Jr."},{"ns":0,"title":"Robert Downey Jr."},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Robert Mitchum"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robert
+        Ryan"},{"ns":0,"title":"Roberto Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Roc
+        (TV series)"},{"ns":0,"title":"Rod Steiger"},{"ns":0,"title":"Ron Howard"},{"ns":0,"title":"Ron
+        Moody"},{"ns":0,"title":"Ronald Colman"},{"ns":0,"title":"Russell Crowe"},{"ns":0,"title":"Ryan
+        Gosling"},{"ns":0,"title":"Sacha Baron Cohen"},{"ns":0,"title":"Samuel L.
+        Jackson"},{"ns":0,"title":"San Diego Comic-Con International"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Motion Picture"},{"ns":0,"title":"Satellite Awards"},{"ns":0,"title":"Saturday
+        Night Live"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Male Actor in a Leading Role"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Sean
+        Connery"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"Seattle Film Critics
+        Awards"},{"ns":0,"title":"Seth Meyers"},{"ns":0,"title":"Shade (film)"},{"ns":0,"title":"She
+        Got Her Own"},{"ns":0,"title":"Sidney Poitier"},{"ns":0,"title":"Singer-songwriter"},{"ns":0,"title":"Sirius
+        Satellite Radio"},{"ns":0,"title":"Slow Jamz"},{"ns":0,"title":"Sony"},{"ns":0,"title":"Soul
+        Train Awards"},{"ns":0,"title":"Southeastern Film Critics Association Awards"},{"ns":0,"title":"Spencer
+        Tracy"},{"ns":0,"title":"Stealth (film)"},{"ns":0,"title":"Stephen Rea"},{"ns":0,"title":"Steve
+        Martin"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Still Feels
+        Good"},{"ns":0,"title":"T-Pain"},{"ns":0,"title":"T.I."},{"ns":0,"title":"TV
+        Land Awards"},{"ns":0,"title":"Tank (American singer)"},{"ns":0,"title":"Taraji
+        P. Henson"},{"ns":0,"title":"Teen Choice Awards"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:25 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,227 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Animal%20House
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87175295, 1409499930, 1613020675
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4273'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:43 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4009 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"75261":{"pageid":75261,"ns":0,"title":"Animal House","links":[{"ns":0,"title":"1080p"},{"ns":0,"title":"2002
+        in film"},{"ns":0,"title":"AFI''s 100 Years...100 Laughs"},{"ns":0,"title":"AFI''s
+        100 Years...100 Movie Quotes"},{"ns":0,"title":"AFI''s 100 Years...100 Movies"},{"ns":0,"title":"AFI''s
+        100 Years...100 Movies (10th Anniversary Edition)"},{"ns":0,"title":"AFI''s
+        100 Years...100 Songs"},{"ns":0,"title":"AFI''s 100 Years... 100 Laughs"},{"ns":0,"title":"A
+        Futile and Stupid Gesture"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Alpha
+        Delta Phi"},{"ns":0,"title":"Amazon Women on the Moon"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"American Film Institute"},{"ns":0,"title":"American
+        Pie (film series)"},{"ns":0,"title":"An American Werewolf in London"},{"ns":0,"title":"Animal
+        House (disambiguation)"},{"ns":0,"title":"Atomic bombings of Hiroshima and
+        Nagasaki"},{"ns":0,"title":"Attack of the 5 Ft. 2 In. Women"},{"ns":0,"title":"Baltimore"},{"ns":0,"title":"Barenaked
+        Ladies"},{"ns":0,"title":"Berry Gordy"},{"ns":0,"title":"Bert Kalmar"},{"ns":0,"title":"Beverly
+        Hills, California"},{"ns":0,"title":"Beverly Hills Cop III"},{"ns":0,"title":"Bill
+        Murray"},{"ns":0,"title":"Blackball (film)"},{"ns":0,"title":"Blank (cartridge)"},{"ns":0,"title":"Blu-ray
+        Disc"},{"ns":0,"title":"Blues Brothers 2000"},{"ns":0,"title":"Bob Rafelson"},{"ns":0,"title":"Bobby
+        Lewis"},{"ns":0,"title":"Born again (Christianity)"},{"ns":0,"title":"Box
+        Office Mojo"},{"ns":0,"title":"Bravo (US TV channel)"},{"ns":0,"title":"Bravo
+        (US TV network)"},{"ns":0,"title":"Brian Doyle-Murray"},{"ns":0,"title":"Brothers
+        and Sisters (1979 TV series)"},{"ns":0,"title":"Bruce McGill"},{"ns":0,"title":"Burke
+        & Hare (2010 film)"},{"ns":0,"title":"Buster Keaton"},{"ns":0,"title":"Buy
+        This Box or We''ll Shoot This Dog"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Cadet
+        officer"},{"ns":0,"title":"Cannibal Girls"},{"ns":0,"title":"Casey Nicholaw"},{"ns":0,"title":"Cattle
+        Call"},{"ns":0,"title":"Cesare Danova"},{"ns":0,"title":"Charles Manson"},{"ns":0,"title":"Chevy
+        Chase"},{"ns":0,"title":"Chris Miller (writer)"},{"ns":0,"title":"Chris Montez"},{"ns":0,"title":"Civil
+        rights movement"},{"ns":0,"title":"Co-Ed Fever (TV series)"},{"ns":0,"title":"Comedy
+        film"},{"ns":0,"title":"Coming Soon (1982 film)"},{"ns":0,"title":"Coming
+        to America"},{"ns":0,"title":"Connie Francis"},{"ns":0,"title":"Cookie Monster"},{"ns":0,"title":"Cottage
+        Grove, Oregon"},{"ns":0,"title":"Dad''s Week Off"},{"ns":0,"title":"Dan Aykroyd"},{"ns":0,"title":"Dartmouth
+        College"},{"ns":0,"title":"David Ansen"},{"ns":0,"title":"David Cronenberg"},{"ns":0,"title":"David
+        Yazbek"},{"ns":0,"title":"DeWayne Jessie"},{"ns":0,"title":"Dean (education)"},{"ns":0,"title":"Delta
+        House"},{"ns":0,"title":"Delta Upsilon"},{"ns":0,"title":"Dementia"},{"ns":0,"title":"Denver"},{"ns":0,"title":"Deteriorata"},{"ns":0,"title":"Dick
+        Ballantine"},{"ns":0,"title":"Dirty Harry"},{"ns":0,"title":"Disco Beaver
+        from Outer Space"},{"ns":0,"title":"District attorney"},{"ns":0,"title":"Documentarian"},{"ns":0,"title":"Documentary
+        film"},{"ns":0,"title":"Donald Sutherland"},{"ns":0,"title":"Douglas Kenney"},{"ns":0,"title":"Drunk
+        Stoned Brilliant Dead"},{"ns":0,"title":"Electric Apricot: Quest for Festeroo"},{"ns":0,"title":"Elmer
+        Bernstein"},{"ns":0,"title":"Elvis Mitchell"},{"ns":0,"title":"Empire (magazine)"},{"ns":0,"title":"Endless
+        Bummer (film)"},{"ns":0,"title":"Ensemble cast"},{"ns":0,"title":"Epilogue"},{"ns":0,"title":"Eugene,
+        Oregon"},{"ns":0,"title":"Favorite Deadly Sins"},{"ns":0,"title":"Film score"},{"ns":0,"title":"Film
+        treatment"},{"ns":0,"title":"Foul Play (1978 film)"},{"ns":0,"title":"Fragging"},{"ns":0,"title":"Fraternities
+        and sororities"},{"ns":0,"title":"George Folsey, Jr."},{"ns":0,"title":"Going
+        Too Far"},{"ns":0,"title":"Going the Distance (2004 film)"},{"ns":0,"title":"Gold
+        Turkey"},{"ns":0,"title":"Goodbye Pop 1952\u20131976"},{"ns":0,"title":"Grease
+        (film)"},{"ns":0,"title":"Greatest Hits of the National Lampoon"},{"ns":0,"title":"Gross
+        (economics)"},{"ns":0,"title":"Gross out"},{"ns":0,"title":"Guinness World
+        Records"},{"ns":0,"title":"Gynecologist"},{"ns":0,"title":"HD DVD"},{"ns":0,"title":"Haight-Ashbury,
+        San Francisco"},{"ns":0,"title":"Hamilton, Ontario"},{"ns":0,"title":"Hanover,
+        New Hampshire"},{"ns":0,"title":"Harold Lloyd"},{"ns":0,"title":"Harold Ramis"},{"ns":0,"title":"Harpo
+        Marx"},{"ns":0,"title":"Harry Ruby"},{"ns":0,"title":"Harry S. Truman"},{"ns":0,"title":"Harvard
+        University"},{"ns":0,"title":"Herb Alpert"},{"ns":0,"title":"Hey Paula (song)"},{"ns":0,"title":"High-definition
+        video"},{"ns":0,"title":"High definition optical disc format war"},{"ns":0,"title":"Homo
+        Erectus (film)"},{"ns":0,"title":"IMDB"},{"ns":0,"title":"IMDb"},{"ns":0,"title":"If
+        You Don''t Buy This Book, We''ll Kill This Dog!"},{"ns":0,"title":"Innocent
+        Blood (film)"},{"ns":0,"title":"Insane"},{"ns":0,"title":"Internet Brands"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Into the Night (film)"},{"ns":0,"title":"Ivan
+        Reitman"},{"ns":0,"title":"Ivy League"},{"ns":0,"title":"J2 Communications"},{"ns":0,"title":"Jack
+        Webb"},{"ns":0,"title":"Jake''s Booty Call"},{"ns":0,"title":"James Daughton"},{"ns":0,"title":"James
+        Widdoes"},{"ns":0,"title":"Janie Bradford"},{"ns":0,"title":"Jim Lee"},{"ns":0,"title":"John
+        Belushi"},{"ns":0,"title":"John F. Kennedy assassination"},{"ns":0,"title":"John
+        Landis"},{"ns":0,"title":"John Philip Sousa"},{"ns":0,"title":"John Vernon"},{"ns":0,"title":"Josh
+        Mostel"},{"ns":0,"title":"Journal of College Student Development"},{"ns":0,"title":"Kangaroo
+        court"},{"ns":0,"title":"Karen Allen"},{"ns":0,"title":"Kelly''s Heroes"},{"ns":0,"title":"Kenny
+        Vance"},{"ns":0,"title":"Kent State shootings"},{"ns":0,"title":"Kentucky
+        Fried Movie"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kiefer Sutherland"},{"ns":0,"title":"Kim
+        Novak"},{"ns":0,"title":"Kinship"},{"ns":0,"title":"Left-wing politics"},{"ns":0,"title":"Legacy
+        preferences"},{"ns":0,"title":"Let''s Dance (Chris Montez song)"},{"ns":0,"title":"Letters
+        from the Editors of National Lampoon"},{"ns":0,"title":"Library of Congress"},{"ns":0,"title":"List
+        of National Lampoon films"},{"ns":0,"title":"List of television series canceled
+        after one episode"},{"ns":0,"title":"Loaded Weapon 1"},{"ns":0,"title":"Lou
+        Adler"},{"ns":0,"title":"Louie, Louie"},{"ns":0,"title":"MASH (film)"},{"ns":0,"title":"MCA
+        Records"},{"ns":0,"title":"MXPX"},{"ns":0,"title":"Magnum Force"},{"ns":0,"title":"Mark
+        Metcalf"},{"ns":0,"title":"Martha Smith"},{"ns":0,"title":"Marx Brothers"},{"ns":0,"title":"Mary
+        Louise Weller"},{"ns":0,"title":"Matty Simmons"},{"ns":0,"title":"Max Steiner"},{"ns":0,"title":"McMaster
+        University"},{"ns":0,"title":"Meat Loaf"},{"ns":0,"title":"Men in White (1998
+        film)"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Michelle Pfeiffer"},{"ns":0,"title":"Missionary"},{"ns":0,"title":"Mockumentary"},{"ns":0,"title":"Money
+        (That''s What I Want)"},{"ns":0,"title":"More American Graffiti"},{"ns":0,"title":"Motorcycle"},{"ns":0,"title":"Mr.
+        Mike: The Life and Work of Michael O''Donoghue"},{"ns":0,"title":"Mr. Warmth:
+        The Don Rickles Project"},{"ns":0,"title":"Music genre"},{"ns":0,"title":"NBC"},{"ns":0,"title":"National
+        Film Registry"},{"ns":0,"title":"National Lampoon''s 301: The Legend of Awesomest
+        Maximus"},{"ns":0,"title":"National Lampoon''s Adam & Eve"},{"ns":0,"title":"National
+        Lampoon''s Animal House Book"},{"ns":0,"title":"National Lampoon''s Bag Boy"},{"ns":0,"title":"National
+        Lampoon''s Barely Legal"},{"ns":0,"title":"National Lampoon''s Christmas Vacation"},{"ns":0,"title":"National
+        Lampoon''s Christmas Vacation 2"},{"ns":0,"title":"National Lampoon''s Class
+        Reunion"},{"ns":0,"title":"National Lampoon''s Class of ''86"},{"ns":0,"title":"National
+        Lampoon''s Doon"},{"ns":0,"title":"National Lampoon''s Dorm Daze 2"},{"ns":0,"title":"National
+        Lampoon''s European Vacation"},{"ns":0,"title":"National Lampoon''s Funny
+        Money"},{"ns":0,"title":"National Lampoon''s Gold Diggers"},{"ns":0,"title":"National
+        Lampoon''s Golf Punks"},{"ns":0,"title":"National Lampoon''s Joy of Sex"},{"ns":0,"title":"National
+        Lampoon''s Last Resort"},{"ns":0,"title":"National Lampoon''s Movie Madness"},{"ns":0,"title":"National
+        Lampoon''s Pledge This!"},{"ns":0,"title":"National Lampoon''s Pucked"},{"ns":0,"title":"National
+        Lampoon''s Senior Trip"},{"ns":0,"title":"National Lampoon''s TV: The Movie"},{"ns":0,"title":"National
+        Lampoon''s Thanksgiving Family Reunion"},{"ns":0,"title":"National Lampoon''s
+        Totally Baked: A Potumentary"},{"ns":0,"title":"National Lampoon''s Vacation"},{"ns":0,"title":"National
+        Lampoon''s Vacation (film series)"},{"ns":0,"title":"National Lampoon, Incorporated"},{"ns":0,"title":"National
+        Lampoon (magazine)"},{"ns":0,"title":"National Lampoon 1964 High School Yearbook
+        Parody"},{"ns":0,"title":"National Lampoon Art Poster Book"},{"ns":0,"title":"National
+        Lampoon Comics"},{"ns":0,"title":"National Lampoon Gentleman''s Bathroom Companion
+        II"},{"ns":0,"title":"National Lampoon Lemmings"},{"ns":0,"title":"National
+        Lampoon Presents Dorm Daze"},{"ns":0,"title":"National Lampoon Presents French
+        Comics"},{"ns":0,"title":"National Lampoon Presents The Very Large Book of
+        Comical Funnies"},{"ns":0,"title":"National Lampoon Songbook"},{"ns":0,"title":"National
+        Lampoon Sunday Newspaper Parody"},{"ns":0,"title":"National Lampoon Tenth
+        Anniversary Anthology 1970\u20131980"},{"ns":0,"title":"National Lampoon The
+        199th Birthday Book"},{"ns":0,"title":"National Lampoon The Best of No. 4"},{"ns":0,"title":"National
+        Lampoon The Best of No. 5"},{"ns":0,"title":"National Lampoon The Book of
+        Books"},{"ns":0,"title":"National Lampoon The Gentleman''s Bathroom Companion"},{"ns":0,"title":"National
+        Lampoon The Iron On Book"},{"ns":0,"title":"National Lampoon The Naked and
+        the Nude"},{"ns":0,"title":"National Lampoon The Up Yourself Book"},{"ns":0,"title":"National
+        Lampoon This Side of Parodies"},{"ns":0,"title":"National Lampoon White Album"},{"ns":0,"title":"National
+        Public Radio"},{"ns":0,"title":"Ned Tanen"},{"ns":0,"title":"Newsweek"},{"ns":0,"title":"Northeastern
+        United States"},{"ns":0,"title":"Northwest Christian University"},{"ns":0,"title":"O''Kelly
+        Isley, Jr."},{"ns":0,"title":"O.C. and Stiggs"},{"ns":0,"title":"O.J. Simpson
+        murder case"},{"ns":0,"title":"Official National Lampoon Bicentennial Calendar
+        1976"},{"ns":0,"title":"Official National Lampoon Stereo Test and Demonstration
+        Record"},{"ns":0,"title":"Old School (film)"},{"ns":0,"title":"One, Two, Many"},{"ns":0,"title":"Oregon
+        Ducks football"},{"ns":0,"title":"Oscar (1991 film)"},{"ns":0,"title":"Otis
+        Day and the Knights"},{"ns":0,"title":"Paul & Paula"},{"ns":0,"title":"Pearl
+        Harbor"},{"ns":0,"title":"Percy Faith"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Phi
+        Kappa Psi"},{"ns":0,"title":"Phi Sigma Kappa"},{"ns":0,"title":"Playboy"},{"ns":0,"title":"Playboy
+        Bunny"},{"ns":0,"title":"Police Academy (franchise)"},{"ns":0,"title":"Porky''s"},{"ns":0,"title":"Portland,
+        Oregon"},{"ns":0,"title":"Professor Pepper''s School of Good Stuff"},{"ns":0,"title":"Public
+        defender"},{"ns":0,"title":"R&B"},{"ns":0,"title":"ROTC"},{"ns":0,"title":"Radio
+        Dinner"},{"ns":0,"title":"Ratko: The Dictator''s Son"},{"ns":0,"title":"Record
+        label"},{"ns":0,"title":"Record producer"},{"ns":0,"title":"Repli-Kate"},{"ns":0,"title":"Reserve
+        Officers'' Training Corps"},{"ns":0,"title":"Rhythm and blues"},{"ns":0,"title":"Richard
+        Berry (musician)"},{"ns":0,"title":"Richard Lester"},{"ns":0,"title":"Richard
+        Nixon"},{"ns":0,"title":"Richard Pryor"},{"ns":0,"title":"Rick Meyerowitz"},{"ns":0,"title":"Robert
+        Cray"},{"ns":0,"title":"RoboDoc"},{"ns":0,"title":"Rock and roll"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Ronald Isley"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Rudolph
+        Isley"},{"ns":0,"title":"Sam Cooke"},{"ns":0,"title":"Sarah Holcomb"},{"ns":0,"title":"Saturday
+        Night Live"},{"ns":0,"title":"Schlock (film)"},{"ns":0,"title":"Sean Daniel"},{"ns":0,"title":"Sex,
+        Drugs, Rock ''N'' Roll & the End of the World"},{"ns":0,"title":"Shama Lama
+        Ding Dong"},{"ns":0,"title":"Shivers (film)"},{"ns":0,"title":"Shot (filmmaking)"},{"ns":0,"title":"Shout
+        (Isley Brothers song)"},{"ns":0,"title":"Shout (The Isley Brothers song)"},{"ns":0,"title":"Sigma
+        Nu"},{"ns":0,"title":"Sketch comedy"},{"ns":0,"title":"Slasher (2004 film)"},{"ns":0,"title":"Soundtrack
+        album"},{"ns":0,"title":"Southern belle"},{"ns":0,"title":"Spies Like Us"},{"ns":0,"title":"St.
+        Louis, Missouri"},{"ns":0,"title":"Standard-definition television"},{"ns":0,"title":"Stephen
+        Bishop (musician)"},{"ns":0,"title":"Stephen Bishop (singer)"},{"ns":0,"title":"Stephen
+        Furst"},{"ns":0,"title":"Summer of Love"},{"ns":0,"title":"Susan''s Plan"},{"ns":0,"title":"Tammy
+        (song)"},{"ns":0,"title":"Ted Snyder"},{"ns":0,"title":"Television"},{"ns":0,"title":"That''s
+        Not Funny, That''s Sick"},{"ns":0,"title":"That''s Not Funny, That''s Sick
+        (book)"},{"ns":0,"title":"The Almost Guys"},{"ns":0,"title":"The Beach Party
+        at the Threshold of Hell"},{"ns":0,"title":"The Best of National Lampoon No.
+        1"},{"ns":0,"title":"The Best of National Lampoon No. 3"},{"ns":0,"title":"The
+        Blues Brothers (film)"},{"ns":0,"title":"The Breast of National Lampoon"},{"ns":0,"title":"The
+        Don''s Analyst"},{"ns":0,"title":"The Globe and Mail"},{"ns":0,"title":"The
+        Graduate"},{"ns":0,"title":"The Harvard Lampoon"},{"ns":0,"title":"The Job
+        of Sex"},{"ns":0,"title":"The Kentucky Fried Movie"},{"ns":0,"title":"The
+        Missing White House Tapes"},{"ns":0,"title":"The National Lampoon Encyclopedia
+        of Humor"},{"ns":0,"title":"The National Lampoon Radio Hour"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Official National Lampoon Car Stereo
+        Test & Demonstration Tape"},{"ns":0,"title":"The Second City"},{"ns":0,"title":"The
+        Stupids (film)"},{"ns":0,"title":"The Washington Post"},{"ns":0,"title":"The
+        Washington Post (march)"},{"ns":0,"title":"Theme from A Summer Place"},{"ns":0,"title":"Thom
+        Mount"},{"ns":0,"title":"Three Amigos"},{"ns":0,"title":"Tim Matheson"},{"ns":0,"title":"Time
+        (magazine)"},{"ns":0,"title":"Toga party"},{"ns":0,"title":"Tom Hulce"},{"ns":0,"title":"Tossin''
+        and Turnin''"},{"ns":0,"title":"Trading Places"},{"ns":0,"title":"Transylmania"},{"ns":0,"title":"Twilight
+        Zone: The Movie"},{"ns":0,"title":"Twistin'' the Night Away"},{"ns":0,"title":"Universal
+        Studios"},{"ns":0,"title":"Universal Studios Hollywood"},{"ns":0,"title":"Universal
+        Studios Home Entertainment"},{"ns":0,"title":"University of California, Berkeley"},{"ns":0,"title":"University
+        of Maryland, College Park"},{"ns":0,"title":"University of Oregon"},{"ns":0,"title":"University
+        of Southern California"},{"ns":0,"title":"University of Wisconsin\u2013Madison"},{"ns":0,"title":"Unleashed
+        (film)"},{"ns":0,"title":"Van Wilder"},{"ns":0,"title":"Van Wilder: Freshman
+        Year"},{"ns":0,"title":"Van Wilder: The Rise of Taj"},{"ns":0,"title":"Vegas
+        Vacation"},{"ns":0,"title":"Verna Bloom"},{"ns":0,"title":"Videodisc"},{"ns":0,"title":"Vietnam
+        War"},{"ns":0,"title":"Vietnam war"},{"ns":0,"title":"Vinyl album"},{"ns":0,"title":"Washington
+        University in St. Louis"},{"ns":0,"title":"Watergate scandal"},{"ns":0,"title":"White
+        House"},{"ns":0,"title":"Who''s Sorry Now?"},{"ns":0,"title":"Wonderful World
+        (Sam Cooke song)"},{"ns":0,"title":"Would You Buy A Used War From This Man?"},{"ns":0,"title":"Zeta
+        Beta Tau"},{"ns":4,"title":"Wikipedia:Good articles"},{"ns":10,"title":"Template:John
+        Landis"},{"ns":10,"title":"Template:National Lampoon"},{"ns":11,"title":"Template
+        talk:John Landis"},{"ns":11,"title":"Template talk:National Lampoon"},{"ns":14,"title":"Category:Use
+        mdy dates from April 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:44 GMT
+recorded_with: VCR 2.9.2

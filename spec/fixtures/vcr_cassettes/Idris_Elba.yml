@@ -1,0 +1,145 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Idris%20Elba
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287118991, 3085142300, 1061638094
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2343'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:19 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4010 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1342890":{"pageid":1342890,"ns":0,"title":"Idris
+        Elba","links":[{"ns":0,"title":"28 Weeks Later"},{"ns":0,"title":"2point4
+        Children"},{"ns":0,"title":"69th Golden Globe Awards"},{"ns":0,"title":"Absolutely
+        Fabulous"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alex Cross"},{"ns":0,"title":"American
+        Gangster (album)"},{"ns":0,"title":"American Gangster (film)"},{"ns":0,"title":"American
+        Music Awards"},{"ns":0,"title":"Angie Stone"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Aqua
+        Teen Hunger Force"},{"ns":0,"title":"Arsenal F.C."},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BBC One"},{"ns":0,"title":"BET Award for Actors
+        of the Year"},{"ns":0,"title":"BET Award for Best Actor & Actress"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Belle maman"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Biographical
+        film"},{"ns":0,"title":"Black Entertainment Television"},{"ns":0,"title":"Black
+        Reel Award for Best Actor"},{"ns":0,"title":"Black Reel Award for Best Actor:
+        T.V. Movie/Cable"},{"ns":0,"title":"Black Reel Award for Best Ensemble"},{"ns":0,"title":"Botswana"},{"ns":0,"title":"Bramwell"},{"ns":0,"title":"Brian
+        Dennehy"},{"ns":0,"title":"Buffalo Soldiers (film)"},{"ns":0,"title":"Business
+        Wire"},{"ns":0,"title":"CBS News"},{"ns":0,"title":"CSI: Miami (season 2)"},{"ns":0,"title":"Call
+        of Duty: Modern Warfare 3"},{"ns":0,"title":"Canning Town"},{"ns":0,"title":"Captain
+        (land and air)"},{"ns":0,"title":"Charles Miner (The Office)"},{"ns":0,"title":"Chris
+        Brown (American singer)"},{"ns":0,"title":"Crimewatch"},{"ns":0,"title":"Crocodile
+        Shoes II"},{"ns":0,"title":"DC Comics"},{"ns":0,"title":"Daily Express"},{"ns":0,"title":"Dangerfield
+        (TV series)"},{"ns":0,"title":"Dark Castle"},{"ns":0,"title":"Deadline.com"},{"ns":0,"title":"Demons
+        Never Die"},{"ns":0,"title":"Disc Jockey"},{"ns":0,"title":"Disc jockey"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"East Ham"},{"ns":0,"title":"England"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Essence (magazine)"},{"ns":0,"title":"Extended play"},{"ns":0,"title":"FIFA
+        15"},{"ns":0,"title":"Facebook"},{"ns":0,"title":"Family Affairs"},{"ns":0,"title":"Fat
+        Joe"},{"ns":0,"title":"Film producer"},{"ns":0,"title":"Ford of Britain"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Ghanaians in the
+        United Kingdom"},{"ns":0,"title":"Ghost Rider: Spirit of Vengeance"},{"ns":0,"title":"Giggs
+        (rapper)"},{"ns":0,"title":"Gigolo"},{"ns":0,"title":"Girlfriends"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Globe Award for Best Actor - Motion
+        Picture Drama"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013
+        Miniseries or Television Film"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hayden
+        Christensen"},{"ns":0,"title":"Heimdall (comics)"},{"ns":0,"title":"Hip-hop"},{"ns":0,"title":"Home
+        Box Office"},{"ns":0,"title":"Inspector Lynley Mysteries"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        Garner"},{"ns":0,"title":"James Patterson"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jay-Z"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Kenneth
+        Branagh"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Labour
+        Party (UK)"},{"ns":0,"title":"Las Vegas, Nevada"},{"ns":0,"title":"Law & Order"},{"ns":0,"title":"League
+        of Legends"},{"ns":0,"title":"Legacy (2010 film)"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"London"},{"ns":0,"title":"London
+        Borough of Hackney"},{"ns":0,"title":"Long Walk to Freedom"},{"ns":0,"title":"Lover
+        of the Light"},{"ns":0,"title":"Luther (TV series)"},{"ns":0,"title":"Mandela:
+        Long Walk to Freedom"},{"ns":0,"title":"Marvel Comics"},{"ns":0,"title":"Mayor
+        of London"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Mickey
+        Rooney"},{"ns":0,"title":"Miranda Sawyer"},{"ns":0,"title":"Mumford and Sons"},{"ns":0,"title":"Myspace"},{"ns":0,"title":"NAACP
+        Image Award for Outstanding Actor in a Motion Picture"},{"ns":0,"title":"NAACP
+        Image Award for Outstanding Actor in a Television Movie, Mini-Series or Dramatic
+        Special"},{"ns":0,"title":"NAACP Image Award for Outstanding Supporting Actor
+        in a Motion Picture"},{"ns":0,"title":"NBA"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Nelson
+        Mandela"},{"ns":0,"title":"No Good Deed (2014 film)"},{"ns":0,"title":"Obsessed
+        (2009 film)"},{"ns":0,"title":"One Love (2003 film)"},{"ns":0,"title":"Oona
+        King"},{"ns":0,"title":"Pacific Rim (film)"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Walker"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Pharoahe Monch"},{"ns":0,"title":"Primetime
+        Emmy Award"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Guest Actor
+        in a Comedy Series"},{"ns":0,"title":"Primetime Emmy Award for Outstanding
+        Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Prince''s Trust"},{"ns":0,"title":"Prom
+        Night (2008 film)"},{"ns":0,"title":"Prometheus (2012 film)"},{"ns":0,"title":"Puerto
+        Rico"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Rapper"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Recording artist"},{"ns":0,"title":"Richard
+        Chamberlain"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"RocknRolla"},{"ns":0,"title":"Rwandan
+        Genocide"},{"ns":0,"title":"Satellite Award for Best Actor - Miniseries or
+        Television Film"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Showtime (TV
+        network)"},{"ns":0,"title":"Sierra Leone"},{"ns":0,"title":"Sierra Leoneans
+        in the United Kingdom"},{"ns":0,"title":"Silent Witness"},{"ns":0,"title":"Singer"},{"ns":0,"title":"Sometimes
+        in April"},{"ns":0,"title":"Sorted (film)"},{"ns":0,"title":"Soul music"},{"ns":0,"title":"Space
+        Precinct"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Steve
+        Carell"},{"ns":0,"title":"Stringer Bell"},{"ns":0,"title":"Sylvain White"},{"ns":0,"title":"T.I."},{"ns":0,"title":"Takers"},{"ns":0,"title":"Ted
+        Danson"},{"ns":0,"title":"The Big C (TV series)"},{"ns":0,"title":"The Bill"},{"ns":0,"title":"The
+        Gospel (film)"},{"ns":0,"title":"The Gunman (film)"},{"ns":0,"title":"The
+        Human Contract"},{"ns":0,"title":"The Jungle Book (2015 film)"},{"ns":0,"title":"The
+        Losers (Vertigo)"},{"ns":0,"title":"The Losers (film)"},{"ns":0,"title":"The
+        No. 1 Ladies'' Detective Agency (TV series)"},{"ns":0,"title":"The Observer"},{"ns":0,"title":"The
+        Office (U.S. TV series)"},{"ns":0,"title":"The Prince''s Trust"},{"ns":0,"title":"The
+        Reaping"},{"ns":0,"title":"The Ruth Rendell Mysteries"},{"ns":0,"title":"The
+        Unborn (2009 film)"},{"ns":0,"title":"The Venetian (Las Vegas)"},{"ns":0,"title":"The
+        Washington Post"},{"ns":0,"title":"The Wire"},{"ns":0,"title":"This Christmas
+        (film)"},{"ns":0,"title":"Thor: The Dark World"},{"ns":0,"title":"Thor (Marvel
+        Comics)"},{"ns":0,"title":"Thor (film)"},{"ns":0,"title":"Troilus and Cressida"},{"ns":0,"title":"Twitter"},{"ns":0,"title":"Tyler
+        Perry"},{"ns":0,"title":"Tyler Perry''s Daddy''s Little Girls"},{"ns":0,"title":"Ultraviolet
+        (TV serial)"},{"ns":0,"title":"Variety (magazine)"},{"ns":0,"title":"Vertigo
+        (DC Comics)"},{"ns":0,"title":"Ving Rhames"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"W.A.R. (We Are Renegades)"},{"ns":0,"title":"Yahoo!
+        Movies"},{"ns":0,"title":"YouTube"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template
+        talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":12,"title":"Help:CS1 errors"},{"ns":12,"title":"Help:IPA
+        for English"},{"ns":14,"title":"Category:Use British English from December
+        2012"},{"ns":14,"title":"Category:Use dmy dates from December 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:20 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,193 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Six%20degrees%20of%20separation
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390701516, 1102707035, 1309500948
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3198'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:08 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4017 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"40117483":{"pageid":40117483,"ns":0,"title":"Six
+        degrees of separation","links":[{"ns":0,"title":"AIM Pages"},{"ns":0,"title":"AOL"},{"ns":0,"title":"Aaron
+        T. Beck"},{"ns":0,"title":"Abnormal psychology"},{"ns":0,"title":"Abraham
+        Maslow"},{"ns":0,"title":"Adlerian psychology"},{"ns":0,"title":"Affective
+        neuroscience"},{"ns":0,"title":"Affective science"},{"ns":0,"title":"Albert-Laszlo
+        Barabasi"},{"ns":0,"title":"Albert Bandura"},{"ns":0,"title":"Albert Ellis"},{"ns":0,"title":"Albright
+        College"},{"ns":0,"title":"Alfred Adler"},{"ns":0,"title":"American Broadcasting
+        Company"},{"ns":0,"title":"Analytical psychology"},{"ns":0,"title":"Animal
+        testing"},{"ns":0,"title":"Anomalistic psychology"},{"ns":0,"title":"Applied
+        behavior analysis"},{"ns":0,"title":"Applied psychology"},{"ns":0,"title":"ArXiv"},{"ns":0,"title":"Archival
+        research"},{"ns":0,"title":"Asha Gill"},{"ns":0,"title":"Ashley Judd"},{"ns":0,"title":"Assortative
+        mixing"},{"ns":0,"title":"B. F. Skinner"},{"ns":0,"title":"Babel (film)"},{"ns":0,"title":"Basic
+        science (psychology)"},{"ns":0,"title":"Battlestar Galactica (2004 TV series)"},{"ns":0,"title":"Behavioral
+        epigenetics"},{"ns":0,"title":"Behavioral neuroscience"},{"ns":0,"title":"Behaviorism"},{"ns":0,"title":"Behavioural
+        genetics"},{"ns":0,"title":"Benoit Mandelbrot"},{"ns":0,"title":"Bradley Whitford"},{"ns":0,"title":"Bridge
+        (interpersonal)"},{"ns":0,"title":"Br\u00fctal Legend"},{"ns":0,"title":"Carl
+        Jung"},{"ns":0,"title":"Carl Rogers"},{"ns":0,"title":"Case study"},{"ns":0,"title":"Chinese
+        water torture"},{"ns":0,"title":"City network"},{"ns":0,"title":"Clark L.
+        Hull"},{"ns":0,"title":"Clinical psychology"},{"ns":0,"title":"Cognitive behavioral
+        therapy"},{"ns":0,"title":"Cognitive neuroscience"},{"ns":0,"title":"Cognitive
+        psychology"},{"ns":0,"title":"Cognitivism (psychology)"},{"ns":0,"title":"Collaboration
+        graph"},{"ns":0,"title":"Collaborative consumption"},{"ns":0,"title":"Collaborative
+        finance"},{"ns":0,"title":"Columbia University"},{"ns":0,"title":"Community
+        psychology"},{"ns":0,"title":"Community recognition"},{"ns":0,"title":"Comparative
+        psychology"},{"ns":0,"title":"Comparison of software and protocols for distributed
+        social networking"},{"ns":0,"title":"Complex contagion"},{"ns":0,"title":"Connections
+        (TV series)"},{"ns":0,"title":"Consequential strangers"},{"ns":0,"title":"Consumer
+        behaviour"},{"ns":0,"title":"Contacts and Influences"},{"ns":0,"title":"Content
+        analysis"},{"ns":0,"title":"Counseling psychology"},{"ns":0,"title":"Cultural
+        psychology"},{"ns":0,"title":"Dana Delany"},{"ns":0,"title":"David McClelland"},{"ns":0,"title":"Descriptive
+        psychology"},{"ns":0,"title":"Developmental psychology"},{"ns":0,"title":"Differential
+        psychology"},{"ns":0,"title":"Discovery Channel"},{"ns":0,"title":"Distributed
+        social network"},{"ns":0,"title":"Donald O. Hebb"},{"ns":0,"title":"Donald
+        Sutherland"},{"ns":0,"title":"Dov Alfon"},{"ns":0,"title":"Dream Theater"},{"ns":0,"title":"Duncan
+        J. Watts"},{"ns":0,"title":"Duncan Watts"},{"ns":0,"title":"Dutch language"},{"ns":0,"title":"EE
+        (telecommunications company)"},{"ns":0,"title":"Ecological systems theory"},{"ns":0,"title":"Educational
+        psychology"},{"ns":0,"title":"Edward Thorndike"},{"ns":0,"title":"Enterprise
+        social networking"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Erd\u0151s-Bacon
+        number"},{"ns":0,"title":"Erd\u0151s number"},{"ns":0,"title":"Erd\u0151s\u2013Bacon
+        number"},{"ns":0,"title":"Eric Horvitz"},{"ns":0,"title":"Erik Erikson"},{"ns":0,"title":"Evolutionary
+        psychology"},{"ns":0,"title":"Existential therapy"},{"ns":0,"title":"Experimental
+        psychology"},{"ns":0,"title":"Facebook"},{"ns":0,"title":"Family therapy"},{"ns":0,"title":"Feminist
+        psychology"},{"ns":0,"title":"Feminist therapy"},{"ns":0,"title":"Flanders"},{"ns":0,"title":"Footloose
+        (1984 film)"},{"ns":0,"title":"Forensic psychology"},{"ns":0,"title":"France"},{"ns":0,"title":"Friend
+        of a friend"},{"ns":0,"title":"Friendship paradox"},{"ns":0,"title":"Frigyes
+        Karinthy"},{"ns":0,"title":"George Armitage Miller"},{"ns":0,"title":"Gestalt
+        psychology"},{"ns":0,"title":"Giant Global Graph"},{"ns":0,"title":"Gordon
+        Allport"},{"ns":0,"title":"Guglielmo Marconi"},{"ns":0,"title":"Hans Eysenck"},{"ns":0,"title":"Harry
+        Harlow"},{"ns":0,"title":"Harvard University"},{"ns":0,"title":"Health psychology"},{"ns":0,"title":"Hebrew
+        language"},{"ns":0,"title":"History of psychology"},{"ns":0,"title":"Hubert
+        Benoit (psychotherapist)"},{"ns":0,"title":"Human factors and ergonomics"},{"ns":0,"title":"Human
+        subject research"},{"ns":0,"title":"Humanistic psychology"},{"ns":0,"title":"Hungary"},{"ns":0,"title":"Hyperlink
+        Cinema"},{"ns":0,"title":"Ibid."},{"ns":0,"title":"Idem"},{"ns":0,"title":"Index
+        of psychology articles"},{"ns":0,"title":"Industrial and organizational psychology"},{"ns":0,"title":"Information
+        Routing Group"},{"ns":0,"title":"Intelligence"},{"ns":0,"title":"Interview"},{"ns":0,"title":"Ithiel
+        de Sola Pool"},{"ns":0,"title":"Ivan Pavlov"},{"ns":0,"title":"J. J. Abrams"},{"ns":0,"title":"Jane
+        Kaczmarek"},{"ns":0,"title":"Jean Piaget"},{"ns":0,"title":"Jerome Kagan"},{"ns":0,"title":"Jessica
+        Simpson"},{"ns":0,"title":"Jewish geography"},{"ns":0,"title":"John B. Watson"},{"ns":0,"title":"John
+        Bowlby"},{"ns":0,"title":"John Guare"},{"ns":0,"title":"Judith Kleinfeld"},{"ns":0,"title":"Karinthy"},{"ns":0,"title":"Kenneth
+        and Mamie Clark"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kibibyte"},{"ns":0,"title":"Korubo"},{"ns":0,"title":"Kurt
+        Lewin"},{"ns":0,"title":"Kyra Sedgwick"},{"ns":0,"title":"Lateral communication"},{"ns":0,"title":"Lateral
+        diffusion"},{"ns":0,"title":"Lateral media"},{"ns":0,"title":"Legal psychology"},{"ns":0,"title":"Leon
+        Festinger"},{"ns":0,"title":"LinkedIn"},{"ns":0,"title":"List of counseling
+        topics"},{"ns":0,"title":"List of important publications in psychology"},{"ns":0,"title":"List
+        of psychological research methods"},{"ns":0,"title":"List of psychological
+        schools"},{"ns":0,"title":"List of psychologists"},{"ns":0,"title":"List of
+        psychology disciplines"},{"ns":0,"title":"List of psychology organizations"},{"ns":0,"title":"List
+        of psychotherapies"},{"ns":0,"title":"List of social network researchers"},{"ns":0,"title":"List
+        of social networking websites"},{"ns":0,"title":"List of virtual communities
+        with more than 100 million active users"},{"ns":0,"title":"List of virtual
+        communities with more than 1 million users"},{"ns":0,"title":"Loc. cit."},{"ns":0,"title":"Logotherapy"},{"ns":0,"title":"Lonely
+        Planet Six Degrees"},{"ns":0,"title":"Lost (TV series)"},{"ns":0,"title":"Man
+        Bijt Hond"},{"ns":0,"title":"Manfred Kochen"},{"ns":0,"title":"Mark Zuckerberg"},{"ns":0,"title":"Martina
+        McBride"},{"ns":0,"title":"Massachusetts Institute of Technology"},{"ns":0,"title":"Mathematical
+        psychology"},{"ns":0,"title":"Media psychology"},{"ns":0,"title":"Military
+        psychology"},{"ns":0,"title":"Mind Candy"},{"ns":0,"title":"Mindfulness (psychology)"},{"ns":0,"title":"Mobile
+        social network"},{"ns":0,"title":"Monte Carlo method"},{"ns":0,"title":"Music
+        psychology"},{"ns":0,"title":"Narrative therapy"},{"ns":0,"title":"Nashville,
+        Tennessee"},{"ns":0,"title":"Natural Resources Defense Council"},{"ns":0,"title":"Neal
+        E. Miller"},{"ns":0,"title":"Network for Good"},{"ns":0,"title":"Neuroimaging"},{"ns":0,"title":"Neuropsychology"},{"ns":0,"title":"Nicole
+        Kidman"},{"ns":0,"title":"No Doubt"},{"ns":0,"title":"Observation"},{"ns":0,"title":"Occupational
+        health psychology"},{"ns":0,"title":"Ole Ivar Lovaas"},{"ns":0,"title":"Operation
+        Smile"},{"ns":0,"title":"Organizational network analysis"},{"ns":0,"title":"Outline
+        of psychology"},{"ns":0,"title":"Paris"},{"ns":0,"title":"Pastoral psychology"},{"ns":0,"title":"Perplex
+        City"},{"ns":0,"title":"Personal knowledge networking"},{"ns":0,"title":"Personal
+        network"},{"ns":0,"title":"Personality psychology"},{"ns":0,"title":"Philosophy
+        of psychology"},{"ns":0,"title":"Poland"},{"ns":0,"title":"Political psychology"},{"ns":0,"title":"Popular
+        culture"},{"ns":0,"title":"Pro Mujer"},{"ns":0,"title":"Professional network
+        service"},{"ns":0,"title":"Psychoanalysis"},{"ns":0,"title":"Psychoanalytic
+        theory"},{"ns":0,"title":"Psychodynamic psychotherapy"},{"ns":0,"title":"Psycholinguistics"},{"ns":0,"title":"Psychological
+        testing"},{"ns":0,"title":"Psychologist"},{"ns":0,"title":"Psychology"},{"ns":0,"title":"Psychology
+        Today"},{"ns":0,"title":"Psychology of religion"},{"ns":0,"title":"Psychometrics"},{"ns":0,"title":"Psychophysics"},{"ns":0,"title":"Psychophysiology"},{"ns":0,"title":"Qualitative
+        psychological research"},{"ns":0,"title":"Quantitative psychological research"},{"ns":0,"title":"Random
+        network"},{"ns":0,"title":"Rational emotive behavior therapy"},{"ns":0,"title":"Raymond
+        Cattell"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Rosie O''Donnell"},{"ns":0,"title":"SONY
+        BMG"},{"ns":0,"title":"School psychology"},{"ns":0,"title":"Science Channel"},{"ns":0,"title":"Scientific
+        American"},{"ns":0,"title":"Scleroderma Research Foundation"},{"ns":0,"title":"Scouting
+        for Girls"},{"ns":0,"title":"Self-report inventory"},{"ns":0,"title":"Sexual
+        network"},{"ns":0,"title":"Shusaku number"},{"ns":0,"title":"Sigmund Freud"},{"ns":0,"title":"SixDegrees.com"},{"ns":0,"title":"SixDegrees.org"},{"ns":0,"title":"Six
+        Degrees"},{"ns":0,"title":"Six Degrees of Inner Turbulence"},{"ns":0,"title":"Six
+        Degrees of Kevin Bacon"},{"ns":0,"title":"Six Degrees of Martina McBride"},{"ns":0,"title":"Six
+        Degrees of Separation (Battlestar Galactica)"},{"ns":0,"title":"Six Degrees
+        of Separation (film)"},{"ns":0,"title":"Six Degrees of Separation (play)"},{"ns":0,"title":"Six
+        Degrees of Separation (song)"},{"ns":0,"title":"Six degrees (disambiguation)"},{"ns":0,"title":"Small-world
+        experiment"},{"ns":0,"title":"Small world experiment"},{"ns":0,"title":"Small
+        world phenomenon"},{"ns":0,"title":"Social aspects of television"},{"ns":0,"title":"Social
+        capital"},{"ns":0,"title":"Social commerce"},{"ns":0,"title":"Social data
+        revolution"},{"ns":0,"title":"Social exchange theory"},{"ns":0,"title":"Social
+        graph"},{"ns":0,"title":"Social identity theory"},{"ns":0,"title":"Social
+        invisibility"},{"ns":0,"title":"Social media"},{"ns":0,"title":"Social network"},{"ns":0,"title":"Social
+        network aggregation"},{"ns":0,"title":"Social network analysis"},{"ns":0,"title":"Social
+        network analysis software"},{"ns":0,"title":"Social network change detection"},{"ns":0,"title":"Social
+        network game"},{"ns":0,"title":"Social networking potential"},{"ns":0,"title":"Social
+        networking service"},{"ns":0,"title":"Social occultation"},{"ns":0,"title":"Social
+        psychology"},{"ns":0,"title":"Social pyramid"},{"ns":0,"title":"Social television"},{"ns":0,"title":"Social
+        web"},{"ns":0,"title":"Society (journal)"},{"ns":0,"title":"Sport psychology"},{"ns":0,"title":"Stanley
+        Milgram"},{"ns":0,"title":"Stanley Schachter"},{"ns":0,"title":"Statistical
+        survey"},{"ns":0,"title":"Steven Strogatz"},{"ns":0,"title":"Stockard Channing"},{"ns":0,"title":"Structural
+        cohesion"},{"ns":0,"title":"Structural endogamy"},{"ns":0,"title":"Suicidology"},{"ns":0,"title":"Sysomos"},{"ns":0,"title":"Systems
+        psychology"},{"ns":0,"title":"TV"},{"ns":0,"title":"Television pilot"},{"ns":0,"title":"The
+        Game (mind game)"},{"ns":0,"title":"The Light Between Us"},{"ns":0,"title":"The
+        Script"},{"ns":0,"title":"The Tipping Point"},{"ns":0,"title":"Theoretical
+        psychology"},{"ns":0,"title":"Theory"},{"ns":0,"title":"Three degrees of influence"},{"ns":0,"title":"Tim
+        Schafer"},{"ns":0,"title":"Timeline of psychology"},{"ns":0,"title":"Toby
+        Amies"},{"ns":0,"title":"Traffic psychology"},{"ns":0,"title":"Transpersonal
+        psychology"},{"ns":0,"title":"Tribe (internet)"},{"ns":0,"title":"UNIFEM"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"University of Alaska"},{"ns":0,"title":"University
+        of Alaska Fairbanks"},{"ns":0,"title":"University of Paris"},{"ns":0,"title":"Urban
+        myth"},{"ns":0,"title":"User profile"},{"ns":0,"title":"Value network"},{"ns":0,"title":"Viktor
+        Frankl"},{"ns":0,"title":"Viral messages"},{"ns":0,"title":"Virtual community"},{"ns":0,"title":"Walter
+        Mischel"},{"ns":0,"title":"Warsaw"},{"ns":0,"title":"Watts and Strogatz model"},{"ns":0,"title":"Wilhelm
+        Wundt"},{"ns":0,"title":"Will Smith"},{"ns":0,"title":"William James"},{"ns":0,"title":"Woestijnvis"},{"ns":0,"title":"World
+        War I"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Footnotes"},{"ns":10,"title":"Template:Ibid"},{"ns":10,"title":"Template:Psychology"},{"ns":10,"title":"Template:Refref"},{"ns":10,"title":"Template:Social
+        networking"},{"ns":11,"title":"Template talk:Psychology"},{"ns":11,"title":"Template
+        talk:Social networking"},{"ns":12,"title":"Help:CS1 errors"},{"ns":14,"title":"Category:Articles
+        with ibid from April 2014"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from January 2010"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from January 2011"},{"ns":14,"title":"Category:Psychology lists"},{"ns":100,"title":"Portal:Psychology"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:08 GMT
+recorded_with: VCR 2.9.2

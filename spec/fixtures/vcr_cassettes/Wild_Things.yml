@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Wild%20Things
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711925625, 1409557714, 2597378599
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '815'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:23 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4009 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"423372":{"pageid":423372,"ns":0,"title":"Wild Things","links":[{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Ashley
+        Parker Angel"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Box Office
+        Mojo"},{"ns":0,"title":"Carrie Snodgress"},{"ns":0,"title":"Coconut Grove,
+        Florida"},{"ns":0,"title":"Columbia Pictures"},{"ns":0,"title":"Daphne Rubin-Vega"},{"ns":0,"title":"Defamation"},{"ns":0,"title":"Denise
+        Richards"},{"ns":0,"title":"Direct-to-video"},{"ns":0,"title":"Elena Maganini"},{"ns":0,"title":"Erotic
+        thriller"},{"ns":0,"title":"Firehouse (1997 film)"},{"ns":0,"title":"George
+        S. Clinton"},{"ns":0,"title":"Girls in Prison (1994 film)"},{"ns":0,"title":"Guidance
+        counselor"},{"ns":0,"title":"Haeckel''s Tale"},{"ns":0,"title":"Henry: Portrait
+        of a Serial Killer"},{"ns":0,"title":"Hollywood.com"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jeff Perry (American actor)"},{"ns":0,"title":"Jeffrey
+        L. Kimball"},{"ns":0,"title":"Jennifer Bini Taylor"},{"ns":0,"title":"Jillian
+        Murray"},{"ns":0,"title":"John McNaughton"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Lansky
+        (film)"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Mad Dog and
+        Glory"},{"ns":0,"title":"Mandalay Entertainment"},{"ns":0,"title":"Marc Macaulay"},{"ns":0,"title":"Marnette
+        Patterson"},{"ns":0,"title":"Matt Dillon"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Motion
+        Picture Association of America"},{"ns":0,"title":"Neve Campbell"},{"ns":0,"title":"Normal
+        Life"},{"ns":0,"title":"Nudity in film"},{"ns":0,"title":"Pension"},{"ns":0,"title":"Profanity"},{"ns":0,"title":"Ransom
+        Everglades"},{"ns":0,"title":"Robert Wagner"},{"ns":0,"title":"Rodney Liber"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Self-defense"},{"ns":0,"title":"Sequel"},{"ns":0,"title":"Sex,
+        Drugs, Rock & Roll (film)"},{"ns":0,"title":"Sex in film"},{"ns":0,"title":"Sex
+        scene"},{"ns":0,"title":"Speaking of Sex"},{"ns":0,"title":"The Borrower"},{"ns":0,"title":"Theresa
+        Russell"},{"ns":0,"title":"Variety (magazine)"},{"ns":0,"title":"Wild Things:
+        Diamonds in the Rough"},{"ns":0,"title":"Wild Things: Foursome"},{"ns":0,"title":"Wild
+        Things 2"},{"ns":0,"title":"World Entertainment News Network"},{"ns":10,"title":"Template:John
+        McNaughton"},{"ns":10,"title":"Template:Wild Things"},{"ns":11,"title":"Template
+        talk:John McNaughton"},{"ns":11,"title":"Template talk:Wild Things"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:23 GMT
+recorded_with: VCR 2.9.2

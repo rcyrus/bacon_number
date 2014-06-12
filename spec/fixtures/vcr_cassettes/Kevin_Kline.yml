@@ -1,0 +1,224 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Kevin%20Kline
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401642499, 2340335523, 1309466841
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3719'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:31 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4016 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"221558":{"pageid":221558,"ns":0,"title":"Kevin
+        Kline","links":[{"ns":0,"title":"2013 Toronto International Film Festival"},{"ns":0,"title":"AFI''s
+        100 Years... 100 Laughs"},{"ns":0,"title":"A Fish Called Wanda"},{"ns":0,"title":"A
+        Midsummer Night''s Dream (1999 film)"},{"ns":0,"title":"A Prairie Home Companion
+        (film)"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award for
+        Best Supporting Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan Bates"},{"ns":0,"title":"Alan
+        Cumming"},{"ns":0,"title":"Alan J. Pakula"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"American
+        Film Institute"},{"ns":0,"title":"American Theatre Hall of Fame"},{"ns":0,"title":"Angela
+        Lansbury"},{"ns":0,"title":"Anthony Crivello"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        LaPaglia"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"As You Like It"},{"ns":0,"title":"As
+        You Like It (2006 film)"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA
+        Award"},{"ns":0,"title":"BAFTA Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA
+        Award for Most Promising Newcomer to Leading Film Roles"},{"ns":0,"title":"BAFTA
+        Awards"},{"ns":0,"title":"Barnard Hughes"},{"ns":0,"title":"Barry Bostwick"},{"ns":0,"title":"Barry
+        Fitzgerald"},{"ns":0,"title":"Ben Harney (actor)"},{"ns":0,"title":"Ben Johnson
+        (actor)"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill McCutcheon"},{"ns":0,"title":"Bloomington,
+        Indiana"},{"ns":0,"title":"Bob''s Burgers"},{"ns":0,"title":"Bob Gunton"},{"ns":0,"title":"Bobby
+        Cannavale"},{"ns":0,"title":"Boyd Gaines"},{"ns":0,"title":"Brent Carver"},{"ns":0,"title":"Brian
+        Bedford"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Brian Stokes Mitchell"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Bruce Adler"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"Br\u00edan
+        F. O''Byrne"},{"ns":0,"title":"Burl Ives"},{"ns":0,"title":"C-SPAN"},{"ns":0,"title":"Captain
+        Phoebus"},{"ns":0,"title":"Central Intelligence Agency"},{"ns":0,"title":"Chaplin
+        (film)"},{"ns":0,"title":"Charles Coburn"},{"ns":0,"title":"Charles Coles"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Plummer"},{"ns":0,"title":"Christopher Reeve"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Chuck Cooper (actor)"},{"ns":0,"title":"Cleavant
+        Derricks (actor)"},{"ns":0,"title":"Cole Porter"},{"ns":0,"title":"Consenting
+        Adults (1992 film)"},{"ns":0,"title":"County Louth"},{"ns":0,"title":"Cry
+        Freedom"},{"ns":0,"title":"Cuba Gooding, Jr."},{"ns":0,"title":"Cyrano de
+        Bergerac (2008 film)"},{"ns":0,"title":"Cyrano de Bergerac (play)"},{"ns":0,"title":"Dance
+        on a Country Grave"},{"ns":0,"title":"Darling Companion"},{"ns":0,"title":"Dave
+        (film)"},{"ns":0,"title":"David Morse (actor)"},{"ns":0,"title":"David Ogden
+        Stiers"},{"ns":0,"title":"De-Lovely"},{"ns":0,"title":"Dean Jagger"},{"ns":0,"title":"Definitely,
+        Maybe"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Diane Keaton"},{"ns":0,"title":"Don
+        Ameche"},{"ns":0,"title":"Donald Crisp"},{"ns":0,"title":"Douglas Fairbanks"},{"ns":0,"title":"Drama
+        Desk Award"},{"ns":0,"title":"Drama Desk Award for Outstanding Actor in a
+        Musical"},{"ns":0,"title":"Drama Desk Award for Outstanding Actor in a Play"},{"ns":0,"title":"Drama
+        Desk Award for Outstanding Featured Actor in a Musical"},{"ns":0,"title":"Drama
+        Desk Awards"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Ed Begley"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Eddie Izzard"},{"ns":0,"title":"Edmond O''Brien"},{"ns":0,"title":"Edmund
+        Gwenn"},{"ns":0,"title":"Edwin Stanton"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Errol
+        Flynn"},{"ns":0,"title":"Falstaff"},{"ns":0,"title":"Fierce Creatures"},{"ns":0,"title":"Frank
+        Langella"},{"ns":0,"title":"Frank Rich"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"French
+        Kiss (1995 film)"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Burns"},{"ns":0,"title":"George Chakiris"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George Hearn"},{"ns":0,"title":"George Kennedy"},{"ns":0,"title":"George
+        Rose (actor)"},{"ns":0,"title":"George Sanders"},{"ns":0,"title":"German Jew"},{"ns":0,"title":"Gig
+        Young"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden Globe Award
+        for Best Actor - Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden
+        Globe Award for New Star of the Year - Actor"},{"ns":0,"title":"Golden Globe
+        Awards"},{"ns":0,"title":"Golden Raspberry Award"},{"ns":0,"title":"Golden
+        Raspberry Award for Worst Actor"},{"ns":0,"title":"Golden Raspberry Award
+        for Worst Screen Combo"},{"ns":0,"title":"Golden Raspberry Award for Worst
+        Supporting Actress"},{"ns":0,"title":"Gotham Award"},{"ns":0,"title":"Grand
+        Canyon (1991 film)"},{"ns":0,"title":"Great Performances"},{"ns":0,"title":"Gregg
+        Edelman"},{"ns":0,"title":"Gregory Hines"},{"ns":0,"title":"Guy Noir"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Haing
+        S. Ngor"},{"ns":0,"title":"Hamlet"},{"ns":0,"title":"Harold Prince"},{"ns":0,"title":"Harold
+        Russell"},{"ns":0,"title":"Harvey Fierstein"},{"ns":0,"title":"Hasty Pudding
+        Theatricals"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Henderson Forsythe"},{"ns":0,"title":"Henry
+        IV, Part 1"},{"ns":0,"title":"Henry IV Part 1"},{"ns":0,"title":"Henry V (play)"},{"ns":0,"title":"Hinton
+        Battle"},{"ns":0,"title":"Hugh Griffith"},{"ns":0,"title":"I Love You to Death"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Ian Richardson"},{"ns":0,"title":"In & Out"},{"ns":0,"title":"Indiana
+        University Bloomington"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Irish American"},{"ns":0,"title":"Jack Albertson"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jack Palance"},{"ns":0,"title":"James
+        Coburn"},{"ns":0,"title":"James Corden"},{"ns":0,"title":"James Dunn (actor)"},{"ns":0,"title":"James
+        Earl Jones"},{"ns":0,"title":"James Naughton"},{"ns":0,"title":"Jamie Lee
+        Curtis"},{"ns":0,"title":"Jared Leto"},{"ns":0,"title":"Jarrod Emick"},{"ns":0,"title":"Jason
+        Alexander"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jennifer
+        Garner"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jewish"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"Jim Dale"},{"ns":0,"title":"Joe Pesci"},{"ns":0,"title":"Joel
+        Grey"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"John Cullum"},{"ns":0,"title":"John
+        Gielgud"},{"ns":0,"title":"John Houseman"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John
+        Miller (musician)"},{"ns":0,"title":"John Mills"},{"ns":0,"title":"John Rubinstein"},{"ns":0,"title":"John
+        Wood (English actor)"},{"ns":0,"title":"Jonathan Pryce"},{"ns":0,"title":"Joseph
+        Saulter"},{"ns":0,"title":"Joseph Schildkraut"},{"ns":0,"title":"Juilliard
+        School"},{"ns":0,"title":"Juvenile Diabetes Research Foundation"},{"ns":0,"title":"Juvenile
+        diabetes"},{"ns":0,"title":"Karl Malden"},{"ns":0,"title":"Ken Bichel"},{"ns":0,"title":"Ken
+        Jennings (actor)"},{"ns":0,"title":"Ken Page"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kevin Klein"},{"ns":0,"title":"Kevin
+        Kline Awards"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"King Lear"},{"ns":0,"title":"Last
+        Vegas"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lawrence Kasdan"},{"ns":0,"title":"Len
+        Cariou"},{"ns":0,"title":"Lenny Baker"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Liev Schreiber"},{"ns":0,"title":"Life as
+        a House"},{"ns":0,"title":"Linda Ronstadt"},{"ns":0,"title":"List of stars
+        on the Hollywood Walk of Fame"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Louis
+        Gossett, Jr."},{"ns":0,"title":"MTV Movie Award for Best Kiss"},{"ns":0,"title":"MTV
+        Movie Awards"},{"ns":0,"title":"Mandy Patinkin"},{"ns":0,"title":"Mark Michael
+        Hutchinson"},{"ns":0,"title":"Mark Rylance"},{"ns":0,"title":"Martin Balsam"},{"ns":0,"title":"Martin
+        Landau"},{"ns":0,"title":"Martin Short"},{"ns":0,"title":"Martin Vidnovic"},{"ns":0,"title":"Matthew
+        Broderick"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Crawford"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Jeter"},{"ns":0,"title":"Michael Maguire (actor)"},{"ns":0,"title":"Michael
+        Mark (musician)"},{"ns":0,"title":"Michael Rupert"},{"ns":0,"title":"Missouri"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"Much Ado About Nothing"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"New York City"},{"ns":0,"title":"New York Times"},{"ns":0,"title":"Nick
+        Bottom"},{"ns":0,"title":"No Strings Attached (film)"},{"ns":0,"title":"On
+        the Twentieth Century"},{"ns":0,"title":"Orange County (film)"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Patti
+        LuPone"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Peter
+        Ustinov"},{"ns":0,"title":"Philip Anglim"},{"ns":0,"title":"Philip Bosco"},{"ns":0,"title":"Phoebe
+        Cates"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Lead Actor \u2013
+        Miniseries or a Movie"},{"ns":0,"title":"Primetime Emmy Awards"},{"ns":0,"title":"Princess
+        Caraboo (film)"},{"ns":0,"title":"Public Theater"},{"ns":0,"title":"Queen
+        to Play"},{"ns":0,"title":"Ralph Fiennes"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Red
+        Buttons"},{"ns":0,"title":"Ren\u00e9 Auberjonois"},{"ns":0,"title":"Rex Smith"},{"ns":0,"title":"Richard
+        Easton"},{"ns":0,"title":"Richard Griffiths"},{"ns":0,"title":"Richard III
+        (play)"},{"ns":0,"title":"Robert Cuccioli"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert
+        Lindsay (actor)"},{"ns":0,"title":"Robert Westenberg"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Roger Bart"},{"ns":0,"title":"Ron Leibman"},{"ns":0,"title":"Ron
+        Richardson"},{"ns":0,"title":"Ron Rifkin"},{"ns":0,"title":"Ron Silver"},{"ns":0,"title":"Saint
+        Louis Priory School"},{"ns":0,"title":"Sammy Williams"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Satellite
+        Awards"},{"ns":0,"title":"Scott Waara"},{"ns":0,"title":"Scott Wise"},{"ns":0,"title":"Screen
+        Actors Guild"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Male Actor in a Leading Role"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Male Actor in a Miniseries or
+        Television Movie"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Sean
+        Connery"},{"ns":0,"title":"Search for Tomorrow"},{"ns":0,"title":"Silverado
+        (film)"},{"ns":0,"title":"Soapdish"},{"ns":0,"title":"Sophie''s Choice (film)"},{"ns":0,"title":"St.
+        Louis"},{"ns":0,"title":"St. Louis International Film Festival"},{"ns":0,"title":"St.
+        Louis Walk of Fame"},{"ns":0,"title":"Stephen Dillane"},{"ns":0,"title":"Stephen
+        Spinella"},{"ns":0,"title":"Ted Ross"},{"ns":0,"title":"The Acting Company"},{"ns":0,"title":"The
+        Anniversary Party"},{"ns":0,"title":"The Big Chill (film)"},{"ns":0,"title":"The
+        Conspirator"},{"ns":0,"title":"The Emperor''s Club"},{"ns":0,"title":"The
+        Extra Man (film)"},{"ns":0,"title":"The Hunchback of Notre Dame (1996 film)"},{"ns":0,"title":"The
+        Hunchback of Notre Dame II"},{"ns":0,"title":"The Ice Storm (film)"},{"ns":0,"title":"The
+        January Man"},{"ns":0,"title":"The Last of Robin Hood"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Nutcracker"},{"ns":0,"title":"The Pink
+        Panther (2006 film)"},{"ns":0,"title":"The Pirates of Penzance"},{"ns":0,"title":"The
+        Pirates of Penzance (1983 film)"},{"ns":0,"title":"The Return of the Native"},{"ns":0,"title":"The
+        Road to El Dorado"},{"ns":0,"title":"The Robber Bridegroom (musical)"},{"ns":0,"title":"The
+        Tale of Despereaux (film)"},{"ns":0,"title":"Thomas Mitchell (actor)"},{"ns":0,"title":"Tim
+        Robbins"},{"ns":0,"title":"Timothy Hutton"},{"ns":0,"title":"Tom Selleck"},{"ns":0,"title":"Tommy
+        Lee Jones"},{"ns":0,"title":"Tommy Tune"},{"ns":0,"title":"Tony Award"},{"ns":0,"title":"Tony
+        Award for Best Actor in a Musical"},{"ns":0,"title":"Tony Award for Best Actor
+        in a Play"},{"ns":0,"title":"Tony Award for Best Featured Actor in a Musical"},{"ns":0,"title":"Tony
+        Award for Best Performance by a Featured Actor in a Musical"},{"ns":0,"title":"Tony
+        Awards"},{"ns":0,"title":"Tony Azito"},{"ns":0,"title":"Toronto International
+        Film Festival"},{"ns":0,"title":"Tracy Letts"},{"ns":0,"title":"Trade (film)"},{"ns":0,"title":"Ulysses
+        S. Grant"},{"ns":0,"title":"Van Heflin"},{"ns":0,"title":"Vernel Bagneris"},{"ns":0,"title":"Violets
+        Are Blue (film)"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Walter
+        Brennan"},{"ns":0,"title":"Walter Huston"},{"ns":0,"title":"Walter Matthau"},{"ns":0,"title":"Wild
+        Wild West"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"William Shakespeare"},{"ns":0,"title":"Wilson
+        Jermaine Heredia"},{"ns":0,"title":"WorldCat"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Academy
+        Award Best Supporting Actor"},{"ns":10,"title":"Template:DramaDesk MusicalActor"},{"ns":10,"title":"Template:DramaDesk
+        MusicalActor 1975\u20132000"},{"ns":10,"title":"Template:DramaDesk MusicalActor
+        2001\u20132025"},{"ns":10,"title":"Template:DramaDesk MusicalFeaturedActor"},{"ns":10,"title":"Template:DramaDesk
+        MusicalFeaturedActor 1975\u20132000"},{"ns":10,"title":"Template:DramaDesk
+        MusicalFeaturedActor 2001\u20132025"},{"ns":10,"title":"Template:DramaDesk
+        PlayActor"},{"ns":10,"title":"Template:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":10,"title":"Template:TonyAward
+        MusicalFeaturedActor"},{"ns":10,"title":"Template:TonyAward MusicalFeaturedActor
+        1947\u20131975"},{"ns":10,"title":"Template:TonyAward MusicalFeaturedActor
+        1976\u20132000"},{"ns":10,"title":"Template:TonyAward MusicalFeaturedActor
+        2001\u20132025"},{"ns":10,"title":"Template:TonyAward MusicalLeadActor"},{"ns":10,"title":"Template:TonyAward
+        MusicalLeadActor 1948\u20131975"},{"ns":10,"title":"Template:TonyAward MusicalLeadActor
+        1976\u20132000"},{"ns":10,"title":"Template:TonyAward MusicalLeadActor 2001\u20132025"},{"ns":11,"title":"Template
+        talk:Academy Award Best Supporting Actor"},{"ns":11,"title":"Template talk:DramaDesk
+        MusicalActor 1975\u20132000"},{"ns":11,"title":"Template talk:DramaDesk MusicalFeaturedActor
+        1975\u20132000"},{"ns":11,"title":"Template talk:DramaDesk PlayActor"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":11,"title":"Template
+        talk:TonyAward MusicalFeaturedActor 1976\u20132000"},{"ns":11,"title":"Template
+        talk:TonyAward MusicalLeadActor 1976\u20132000"},{"ns":14,"title":"Category:Articles
+        with dead external links from October 2010"},{"ns":14,"title":"Category:Articles
+        with dead external links from September 2010"},{"ns":14,"title":"Category:Use
+        mdy dates from October 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:32 GMT
+recorded_with: VCR 2.9.2

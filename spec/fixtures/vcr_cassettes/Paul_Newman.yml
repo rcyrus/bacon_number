@@ -1,0 +1,258 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Paul%20Newman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001169612, 3536765424, 3142926218
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4852'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:48 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4008 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"49706|0|Nixon''s_Enemies_List"}},"query":{"pages":{"49706":{"pageid":49706,"ns":0,"title":"Paul
+        Newman","links":[{"ns":0,"title":"1958 Cannes Film Festival"},{"ns":0,"title":"1979
+        24 Hours of Le Mans"},{"ns":0,"title":"1987 Cannes Film Festival"},{"ns":0,"title":"2000
+        Petit Le Mans"},{"ns":0,"title":"24 Hours of Daytona"},{"ns":0,"title":"24
+        Hours of Le Mans"},{"ns":0,"title":"45th Berlin International Film Festival"},{"ns":0,"title":"A.E.
+        Hotchner"},{"ns":0,"title":"A. E. Hotchner"},{"ns":0,"title":"A Big Family"},{"ns":0,"title":"A
+        New Kind of Love"},{"ns":0,"title":"Absence of Malice"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Award for Best Actor"},{"ns":0,"title":"Academy
+        Award for Best Picture"},{"ns":0,"title":"Academy Award for Best Supporting
+        Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Academy of Motion
+        Picture Arts and Sciences"},{"ns":0,"title":"Actors Studio"},{"ns":0,"title":"Adam
+        Carolla"},{"ns":0,"title":"Adolph Green"},{"ns":0,"title":"Adrien Brody"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alberto Sordi"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alfonso
+        Cuar\u00f3n"},{"ns":0,"title":"Alfred Hitchcock"},{"ns":0,"title":"Alfredo
+        Landa"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Anatoly Solonitsyn"},{"ns":0,"title":"Andrzej
+        Seweryn"},{"ns":0,"title":"Andr\u00e9 Previn"},{"ns":0,"title":"Ang Lee"},{"ns":0,"title":"Angela
+        Lansbury"},{"ns":0,"title":"Angelina Jolie"},{"ns":0,"title":"Antal P\u00e1ger
+        (actor)"},{"ns":0,"title":"Anthology series"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        Perkins"},{"ns":0,"title":"Anthony Quayle"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"Appointment
+        with Adventure"},{"ns":0,"title":"Aretha Franklin"},{"ns":0,"title":"Armin
+        Mueller-Stahl"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Arthur B. Krim"},{"ns":0,"title":"Arthur
+        Hiller"},{"ns":0,"title":"Arthur Kennedy (actor)"},{"ns":0,"title":"Arthur
+        Mitchell (dancer)"},{"ns":0,"title":"Ashford, Connecticut"},{"ns":0,"title":"Aspetuck
+        Land Trust"},{"ns":0,"title":"Associated Press"},{"ns":0,"title":"Athens,
+        Ohio"},{"ns":0,"title":"Atlantic Championship"},{"ns":0,"title":"Audrey Hepburn"},{"ns":0,"title":"Austro-Hungarian
+        Empire"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"AutoWeek"},{"ns":0,"title":"Auto
+        racing"},{"ns":0,"title":"B.B. King"},{"ns":0,"title":"BAFTA Award"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Award for
+        Best Actor in a Supporting Role"},{"ns":0,"title":"BBC"},{"ns":0,"title":"Baja
+        1000"},{"ns":0,"title":"Barbara Stanwyck"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Barry
+        Bostwick"},{"ns":0,"title":"Barry Fitzgerald"},{"ns":0,"title":"Bates College"},{"ns":0,"title":"Battle
+        of Okinawa"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben
+        Gazzara"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benny
+        Carter"},{"ns":0,"title":"Beno\u00eet Magimel"},{"ns":0,"title":"Berlin Film
+        Festival"},{"ns":0,"title":"Bernard Blancan"},{"ns":0,"title":"Bernardo Bertolucci"},{"ns":0,"title":"Best
+        Actor Award (Cannes Film Festival)"},{"ns":0,"title":"Bette Davis"},{"ns":0,"title":"Betty
+        Comden"},{"ns":0,"title":"Betty White"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Cosby"},{"ns":0,"title":"Bill
+        Murray"},{"ns":0,"title":"Billy Bob Thornton"},{"ns":0,"title":"Billy Wilder"},{"ns":0,"title":"Billy
+        the Kid"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Blaze (film)"},{"ns":0,"title":"Blockbuster
+        Entertainment Awards"},{"ns":0,"title":"Bob Dylan"},{"ns":0,"title":"Bob Hope"},{"ns":0,"title":"Bob
+        Hoskins"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradford Dillman"},{"ns":0,"title":"Bradley
+        Cooper"},{"ns":0,"title":"Breakheart Pass (1975 film)"},{"ns":0,"title":"Brian
+        Cox (actor)"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Supporting Actor"},{"ns":0,"title":"Broadway
+        theater"},{"ns":0,"title":"Brock Peters"},{"ns":0,"title":"Broderick Crawford"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Buddy Rogers (actor)"},{"ns":0,"title":"Buffalo Bill
+        and the Indians"},{"ns":0,"title":"Buffalo News"},{"ns":0,"title":"Burgess
+        Meredith"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"Butch Cassidy"},{"ns":0,"title":"Butch
+        Cassidy and the Sundance Kid"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Campbell
+        Scott"},{"ns":0,"title":"Cannes Film Festival"},{"ns":0,"title":"Carl Haas"},{"ns":0,"title":"Cars
+        (film)"},{"ns":0,"title":"Cat on a Hot Tin Roof (film)"},{"ns":0,"title":"Catherine
+        Deneuve"},{"ns":0,"title":"Catholic News Service"},{"ns":0,"title":"Catholic
+        Relief Services"},{"ns":0,"title":"Cecil B. DeMille"},{"ns":0,"title":"Champ
+        Car"},{"ns":0,"title":"Charles Durning"},{"ns":0,"title":"Charles Jarrott"},{"ns":0,"title":"Charles
+        Laughton"},{"ns":0,"title":"Charles Vanel"},{"ns":0,"title":"Charlie Chaplin"},{"ns":0,"title":"Charlton
+        Heston"},{"ns":0,"title":"Chemotherapy"},{"ns":0,"title":"Chicago Film Critics
+        Association Award for Best Supporting Actor"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris
+        Colfer"},{"ns":0,"title":"Christian Science"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Dodd"},{"ns":0,"title":"Christopher Reeve"},{"ns":0,"title":"Cinema of Spain"},{"ns":0,"title":"Clark
+        Gable"},{"ns":0,"title":"Claudette Colbert"},{"ns":0,"title":"Cleveland"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Committee
+        Encouraging Corporate Philanthropy"},{"ns":0,"title":"Cool Hand Luke"},{"ns":0,"title":"Craig
+        Russell (Canadian actor)"},{"ns":0,"title":"Cremation"},{"ns":0,"title":"Dabney
+        Coleman"},{"ns":0,"title":"Daily News (New York)"},{"ns":0,"title":"Dale (film)"},{"ns":0,"title":"Dale
+        Earnhardt"},{"ns":0,"title":"Daniel Auteuil"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Daniel
+        Hendler"},{"ns":0,"title":"Danny Boyle"},{"ns":0,"title":"Danny DeVito"},{"ns":0,"title":"Danny
+        Kaye"},{"ns":0,"title":"Datsun"},{"ns":0,"title":"David Carradine"},{"ns":0,"title":"David
+        Fincher"},{"ns":0,"title":"David L. Wolper"},{"ns":0,"title":"David Lean"},{"ns":0,"title":"David
+        Niven"},{"ns":0,"title":"David Strathairn"},{"ns":0,"title":"David Thewlis"},{"ns":0,"title":"David
+        Warner (actor)"},{"ns":0,"title":"David di Donatello for Best Actor"},{"ns":0,"title":"Dean
+        Stockwell"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Derek Jacobi"},{"ns":0,"title":"Diane
+        Keaton"},{"ns":0,"title":"Dick Barbour"},{"ns":0,"title":"Dick Van Dyke"},{"ns":0,"title":"Dirk
+        Bogarde"},{"ns":0,"title":"Dizzy Gillespie"},{"ns":0,"title":"Doc Hudson"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Donald Sutherland"},{"ns":0,"title":"Doris Day"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Earl K. Long"},{"ns":0,"title":"Earth Day"},{"ns":0,"title":"East
+        of Eden (film)"},{"ns":0,"title":"Ed Flanders"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Eddie
+        Cantor"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Edgar Bergen"},{"ns":0,"title":"Edmond
+        L. DePatie"},{"ns":0,"title":"Edward Albee"},{"ns":0,"title":"Edward Asner"},{"ns":0,"title":"Edward
+        G. Robinson"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"Edward
+        Villella"},{"ns":0,"title":"Elia Kazan"},{"ns":0,"title":"Elio Germano"},{"ns":0,"title":"Elizabeth
+        Taylor"},{"ns":0,"title":"Ellen Burstyn"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emmy
+        Award"},{"ns":0,"title":"Empire Falls (miniseries)"},{"ns":0,"title":"Eric
+        Lax"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"Eugene McCarthy"},{"ns":0,"title":"Eva
+        Marie Saint"},{"ns":0,"title":"Exodus (1960 film)"},{"ns":0,"title":"F. Murray
+        Abraham"},{"ns":0,"title":"Fat Man and Little Boy"},{"ns":0,"title":"Fayard
+        Nicholas"},{"ns":0,"title":"Federico Fellini"},{"ns":0,"title":"Fernando Fern\u00e1n
+        G\u00f3mez"},{"ns":0,"title":"Fernando Rey"},{"ns":0,"title":"Film Society
+        of Lincoln Center"},{"ns":0,"title":"First Amendment to the United States
+        Constitution"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Fort Apache,
+        The Bronx"},{"ns":0,"title":"Francis Ford Coppola"},{"ns":0,"title":"Francisco
+        Rabal"},{"ns":0,"title":"Frank Capra"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Fran\u00e7ois
+        P\u00e9rier"},{"ns":0,"title":"Fraternity Row (Film)"},{"ns":0,"title":"Fred
+        Astaire"},{"ns":0,"title":"Fred Ebb"},{"ns":0,"title":"Fred Zinnemann"},{"ns":0,"title":"Fredric
+        March"},{"ns":0,"title":"From the Terrace"},{"ns":0,"title":"Gambier, Ohio"},{"ns":0,"title":"Gary
+        Busey"},{"ns":0,"title":"Gary Cooper"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Ge
+        You"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Gene Kelly"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"Georg Solti"},{"ns":0,"title":"George Arliss"},{"ns":0,"title":"George
+        Bagnall"},{"ns":0,"title":"George Burns"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George Cukor"},{"ns":0,"title":"George Grizzard"},{"ns":0,"title":"George
+        Jessel (actor)"},{"ns":0,"title":"George Roy Hill"},{"ns":0,"title":"George
+        Seaton"},{"ns":0,"title":"Geraldine Page"},{"ns":0,"title":"Gerhard Olschewski"},{"ns":0,"title":"Germany"},{"ns":0,"title":"Gian
+        Maria Volont\u00e9"},{"ns":0,"title":"Giancarlo Giannini"},{"ns":0,"title":"Ginger
+        Rogers"},{"ns":0,"title":"Gjon Mili"},{"ns":0,"title":"Global warming"},{"ns":0,"title":"Global
+        warming mitigation"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor - Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Director"},{"ns":0,"title":"Golden Globe Award for Best
+        Director - Motion Picture"},{"ns":0,"title":"Golden Globe Award for Best Performance
+        by an Actor in a Supporting Role in a Series, Mini-Series or Motion Picture
+        Made for Television"},{"ns":0,"title":"Golden Globe Award for Best Supporting
+        Actor - Motion Picture"},{"ns":0,"title":"Golden Globe Award for Best Supporting
+        Actor \u2013 Series, Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Cecil B. DeMille Award"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"Guy
+        Pearce"},{"ns":0,"title":"G\u00e9rard Depardieu"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Haing
+        S. Ngor"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Harold Nicholas"},{"ns":0,"title":"Harold
+        Prince"},{"ns":0,"title":"Harper (film)"},{"ns":0,"title":"Harry & Son"},{"ns":0,"title":"Harvard
+        University"},{"ns":0,"title":"Harvey Keitel"},{"ns":0,"title":"Harvey Korman"},{"ns":0,"title":"Hasty
+        Pudding Theatricals"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Hemingway''s
+        Adventures of a Young Man"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Henry
+        King (director)"},{"ns":0,"title":"Herald Sun"},{"ns":0,"title":"Herbert Ross"},{"ns":0,"title":"Himself"},{"ns":0,"title":"Hole
+        in the Wall Gang Camp"},{"ns":0,"title":"Holy See"},{"ns":0,"title":"Hombre
+        (film)"},{"ns":0,"title":"Homonna"},{"ns":0,"title":"Howard Da Silva"},{"ns":0,"title":"Howard
+        W. Koch"},{"ns":0,"title":"Hud (film)"},{"ns":0,"title":"Hudson Hornet"},{"ns":0,"title":"Hugh
+        Grant"},{"ns":0,"title":"Hume Cronyn"},{"ns":0,"title":"Humenn\u00e9"},{"ns":0,"title":"Humphrey
+        Bogart"},{"ns":0,"title":"Hungary"},{"ns":0,"title":"IMAX"},{"ns":0,"title":"I
+        Wanna Hold Your Hand (film)"},{"ns":0,"title":"Iain Glen"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Iggie Wolfington"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Archive"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Istituto
+        Centrale per il Catalogo Unico"},{"ns":0,"title":"Jack Cardiff"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jacques Gamblin"},{"ns":0,"title":"Jacques
+        d''Amboise (dancer)"},{"ns":0,"title":"Jamel Debbouze"},{"ns":0,"title":"James
+        Brolin"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James Cameron"},{"ns":0,"title":"James
+        Cromwell"},{"ns":0,"title":"James Dean"},{"ns":0,"title":"James Earl Jones"},{"ns":0,"title":"James
+        Garner"},{"ns":0,"title":"James Mason"},{"ns":0,"title":"James Spader"},{"ns":0,"title":"James
+        Stewart"},{"ns":0,"title":"Jamie Bell"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jan
+        Niklas"},{"ns":0,"title":"Jane Fonda"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jean-Louis Trintignant"},{"ns":0,"title":"Jean-Pierre
+        L\u00e9aud"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jean Gabin"},{"ns":0,"title":"Jean
+        Hersholt Humanitarian Award"},{"ns":0,"title":"Jean Yanne"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jefferson Awards for Public Service"},{"ns":0,"title":"Jeffrey
+        Katzenberg"},{"ns":0,"title":"Jeffrey Wright (actor)"},{"ns":0,"title":"Jeremy
+        Irons"},{"ns":0,"title":"Jeremy Piven"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jerry
+        Lewis"},{"ns":0,"title":"Jesse Eisenberg"},{"ns":0,"title":"Jessica Lange"},{"ns":0,"title":"Jessye
+        Norman"},{"ns":0,"title":"Jewish"},{"ns":0,"title":"Joanne Woodward"},{"ns":0,"title":"Joe
+        Lieberman"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Hillerman"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John Huston"},{"ns":0,"title":"John
+        Kander"},{"ns":0,"title":"John Kitzmiller"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John
+        Malkovich"},{"ns":0,"title":"John Shea"},{"ns":0,"title":"John Steinbeck"},{"ns":0,"title":"John
+        Travolta"},{"ns":0,"title":"John Turturro"},{"ns":0,"title":"John Wayne"},{"ns":0,"title":"Johnny
+        Carson"},{"ns":0,"title":"Johnny Cash"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jonathan
+        Pryce"},{"ns":0,"title":"Joshua Logan"},{"ns":0,"title":"Jos\u00e9 Ferrer"},{"ns":0,"title":"Jos\u00e9
+        Luis G\u00f3mez"},{"ns":0,"title":"Judith Jamison"},{"ns":0,"title":"Jule
+        Styne"},{"ns":0,"title":"Jules C. Stein"},{"ns":0,"title":"Julian Schnabel"},{"ns":0,"title":"Julie
+        Andrews"},{"ns":0,"title":"Julio Ch\u00e1vez"},{"ns":0,"title":"J\u00f6rg
+        Pose"},{"ns":0,"title":"Karl Malden"},{"ns":0,"title":"Katharine Hepburn"},{"ns":0,"title":"Ken
+        Howard"},{"ns":0,"title":"Kennedy Center Honors"},{"ns":0,"title":"Kenneth
+        More"},{"ns":0,"title":"Kenyon College"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kim
+        Stanley"},{"ns":0,"title":"Kingdom of Hungary"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Konstantin
+        Lavronenko"},{"ns":0,"title":"Kosovo"},{"ns":0,"title":"Kremer Racing"},{"ns":0,"title":"L''Osservatore
+        Romano"},{"ns":0,"title":"La Classe am\u00e9ricaine"},{"ns":0,"title":"Lady
+        L"},{"ns":0,"title":"Las Vegas Valley"},{"ns":0,"title":"Laurel Awards"},{"ns":0,"title":"Lauren
+        Bacall"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lawrence J.
+        Quirk"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Lee Strasberg"},{"ns":0,"title":"Leo
+        Jaffe"},{"ns":0,"title":"Leo McCarey"},{"ns":0,"title":"Leon Ames"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Leslie R. Groves"},{"ns":0,"title":"Lew Wasserman"},{"ns":0,"title":"Liao
+        Fan"},{"ns":0,"title":"Liberalism in the United States"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lionel Barrymore"},{"ns":0,"title":"Lionel
+        Hampton"},{"ns":0,"title":"Lionel Stander"},{"ns":0,"title":"List of Jews
+        in sports"},{"ns":0,"title":"List of awards and nominations received by Paul
+        Newman"},{"ns":0,"title":"List of peace activists"},{"ns":0,"title":"Lou Taylor
+        Pucci"},{"ns":0,"title":"Louis Gossett, Jr."},{"ns":0,"title":"Lucille Ball"},{"ns":0,"title":"Lung
+        cancer"},{"ns":0,"title":"L\u00e1szl\u00f3 Benedek"},{"ns":0,"title":"M. J.
+        Frankovich"},{"ns":0,"title":"Mads Mikkelsen"},{"ns":0,"title":"Magnificent
+        Desolation: Walking on the Moon 3D"},{"ns":0,"title":"Manfred M\u00f6ck"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Mar
+        del Plata Film Festival"},{"ns":0,"title":"Marcello Mastroianni"},{"ns":0,"title":"Margaret
+        Laurence"},{"ns":0,"title":"Maria Tallchief"},{"ns":0,"title":"Marilyn Horne"},{"ns":0,"title":"Marion
+        Williams"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martha Raye"},{"ns":0,"title":"Martin
+        Scorsese"},{"ns":0,"title":"Mary Tyler Moore"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Max
+        Hastings"},{"ns":0,"title":"Maximilian Schell"},{"ns":0,"title":"Maynard Eziashi"},{"ns":0,"title":"McLean
+        Stevenson"},{"ns":0,"title":"Mehmet Emin Toprak (actor)"},{"ns":0,"title":"Mel
+        Gibson"},{"ns":0,"title":"Melissa Newman"},{"ns":0,"title":"Memoir"},{"ns":0,"title":"Meryl
+        Streep"},{"ns":0,"title":"Message in a Bottle (film)"},{"ns":0,"title":"Michael
+        A. Goorjian"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Cimino"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michael Gwisdek"},{"ns":0,"title":"Michael Keaton"},{"ns":0,"title":"Michael
+        Moriarty"},{"ns":0,"title":"Michael Redgrave"},{"ns":0,"title":"Michel Blanc"},{"ns":0,"title":"Michel
+        Piccoli"},{"ns":0,"title":"Michel Simon"},{"ns":0,"title":"Michele Placido"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Mike Nichols"},{"ns":0,"title":"Mikkel F\u00f8lsgaard"},{"ns":0,"title":"Milo\u0161
+        Forman"},{"ns":0,"title":"Miniseries"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Moritz
+        Bleibtreu"},{"ns":0,"title":"Morton Gould"},{"ns":0,"title":"Mr. and Mrs.
+        Bridge"},{"ns":0,"title":"Mstislav Rostropovich"},{"ns":0,"title":"Murray
+        Melvin"},{"ns":0,"title":"Muzaffer Ozdemir"},{"ns":0,"title":"NASCAR"},{"ns":0,"title":"Nanette
+        Fabray"},{"ns":0,"title":"National Board of Review Award for Best Actor"},{"ns":0,"title":"National
+        Diet Library"},{"ns":0,"title":"National Society of Film Critics Award for
+        Best Actor"},{"ns":0,"title":"Ned Lamont"},{"ns":0,"title":"Neil Simon"},{"ns":0,"title":"Nell
+        Newman"},{"ns":0,"title":"New York Film Critics Circle Award"},{"ns":0,"title":"New
+        York Film Critics Circle Award for Best Actor"},{"ns":0,"title":"Newman''s
+        Own"},{"ns":0,"title":"Newman/Haas/Lanigan Racing"},{"ns":0,"title":"Newman
+        Day"},{"ns":0,"title":"Newman Wachs Racing"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas
+        Cage"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"Nissan Motors"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:49 GMT
+recorded_with: VCR 2.9.2

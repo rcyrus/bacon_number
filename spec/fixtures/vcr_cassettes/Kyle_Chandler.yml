@@ -1,0 +1,140 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Kyle%20Chandler
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711857283, 2340336030, 1309467706
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2096'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:32 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4016 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1967454":{"pageid":1967454,"ns":0,"title":"Kyle
+        Chandler","links":[{"ns":0,"title":"58th Primetime Emmy Awards"},{"ns":0,"title":"63rd
+        Primetime Emmy Awards"},{"ns":0,"title":"Ahna O''Reilly"},{"ns":0,"title":"Alan
+        Arkin"},{"ns":0,"title":"Alessandro Nivola"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"American Dad!"},{"ns":0,"title":"American
+        Hustle"},{"ns":0,"title":"American football"},{"ns":0,"title":"Amy Adams"},{"ns":0,"title":"And
+        Starring Pancho Villa as Himself"},{"ns":0,"title":"Angel''s Dance"},{"ns":0,"title":"Argo
+        (2012 film)"},{"ns":0,"title":"Audience Network"},{"ns":0,"title":"Austin,
+        Texas"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben
+        Browder"},{"ns":0,"title":"Bend, Oregon"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Broken
+        City (film)"},{"ns":0,"title":"Bruce Cabot"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"Bryce
+        Dallas Howard"},{"ns":0,"title":"Buffalo, New York"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Carol
+        (film)"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"China
+        Beach"},{"ns":0,"title":"China Beach (season 3)"},{"ns":0,"title":"Chris Lowell"},{"ns":0,"title":"Chris
+        Messina"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christopher Denham"},{"ns":0,"title":"Cicely
+        Tyson"},{"ns":0,"title":"Clea DuVall"},{"ns":0,"title":"Cleveland Indians"},{"ns":0,"title":"Critics''
+        Choice Television Award for Best Drama Actor"},{"ns":0,"title":"Damian Lewis"},{"ns":0,"title":"David
+        Boreanaz"},{"ns":0,"title":"DirecTV"},{"ns":0,"title":"Dripping Springs, Texas"},{"ns":0,"title":"Early
+        Edition"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"Elisabeth
+        R\u00f6hm"},{"ns":0,"title":"Emma Stone"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Eric
+        Taylor (Friday Night Lights)"},{"ns":0,"title":"Film"},{"ns":0,"title":"Freddy''s
+        Nightmares"},{"ns":0,"title":"Friday Night Lights: A Town, a Team, and a Dream"},{"ns":0,"title":"Friday
+        Night Lights (TV series)"},{"ns":0,"title":"Friday Night Lights (film)"},{"ns":0,"title":"Friday
+        Night Lights (season 3)"},{"ns":0,"title":"George Walton Academy"},{"ns":0,"title":"Grey''s
+        Anatomy"},{"ns":0,"title":"Hallmark Hall of Fame"},{"ns":0,"title":"Hamilton
+        Jordan"},{"ns":0,"title":"High school football"},{"ns":0,"title":"Hollywood
+        Film Festival"},{"ns":0,"title":"Homefront (U.S. TV series)"},{"ns":0,"title":"Homefront
+        (US TV series)"},{"ns":0,"title":"Illinois"},{"ns":0,"title":"Integrated Authority
+        File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jack Driscoll"},{"ns":0,"title":"Jack Huston"},{"ns":0,"title":"James
+        Gandolfini"},{"ns":0,"title":"James Spader"},{"ns":0,"title":"Jason Clarke
+        (actor)"},{"ns":0,"title":"Jeff Daniels"},{"ns":0,"title":"Jennifer Lawrence"},{"ns":0,"title":"Jeremy
+        Renner"},{"ns":0,"title":"Jessica Chastain"},{"ns":0,"title":"Joan Cusack"},{"ns":0,"title":"John
+        Goodman"},{"ns":0,"title":"Josh Holloway"},{"ns":0,"title":"Kennel"},{"ns":0,"title":"Kerry
+        Bish\u00e9"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kiefer Sutherland"},{"ns":0,"title":"King
+        Kong (1933 film)"},{"ns":0,"title":"King Kong (2005 film)"},{"ns":0,"title":"King
+        Kong (2005 movie)"},{"ns":0,"title":"King of the Hill"},{"ns":0,"title":"King
+        of the hill season 12"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"List
+        of Early Edition characters"},{"ns":0,"title":"List of Freddy''s Nightmares
+        episodes"},{"ns":0,"title":"List of Grey''s Anatomy characters"},{"ns":0,"title":"Loganville,
+        Georgia"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Louis C.K."},{"ns":0,"title":"Mark
+        Wahlberg"},{"ns":0,"title":"Mary Steenburgen"},{"ns":0,"title":"Matthew Fox"},{"ns":0,"title":"Michael
+        C. Hall"},{"ns":0,"title":"Michael Chiklis"},{"ns":0,"title":"Michael Pe\u00f1a"},{"ns":0,"title":"Mike
+        Vogel"},{"ns":0,"title":"Monroe, Georgia"},{"ns":0,"title":"Movie star"},{"ns":0,"title":"Mulholland
+        Falls"},{"ns":0,"title":"NBC"},{"ns":0,"title":"North and South (TV miniseries)"},{"ns":0,"title":"Octavia
+        Spencer"},{"ns":0,"title":"Ohio"},{"ns":0,"title":"One Life to Live"},{"ns":0,"title":"Palm
+        Springs International Film Festival"},{"ns":0,"title":"Peter Berg"},{"ns":0,"title":"Phoenix
+        Film Critics Society Award for Best Cast"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Guest Actor - Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Drama Series"},{"ns":0,"title":"Pure
+        Country"},{"ns":0,"title":"Raoul Walsh"},{"ns":0,"title":"Richard Dean Anderson"},{"ns":0,"title":"Rightfielder"},{"ns":0,"title":"Robert
+        Patrick"},{"ns":0,"title":"Robot Chicken"},{"ns":0,"title":"Rory Cochrane"},{"ns":0,"title":"Russell
+        Crowe"},{"ns":0,"title":"San Diego Film Critics Society Award for Best Performance
+        by an Ensemble"},{"ns":0,"title":"Satellite Award for Best Actor \u2013 Television
+        Series Drama"},{"ns":0,"title":"Saturn Award"},{"ns":0,"title":"Saturn Award
+        for Best Actor on Television"},{"ns":0,"title":"Scoot McNairy"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Drama
+        Series"},{"ns":0,"title":"Shea Whigham"},{"ns":0,"title":"Sigma Nu"},{"ns":0,"title":"Sissy
+        Spacek"},{"ns":0,"title":"Stephen Moyer"},{"ns":0,"title":"Steven Weber (actor)"},{"ns":0,"title":"Super
+        8 (film)"},{"ns":0,"title":"Super Bowl XL"},{"ns":0,"title":"TCA Award for
+        Individual Achievement in Drama"},{"ns":0,"title":"Tate Donovan"},{"ns":0,"title":"Television
+        series"},{"ns":0,"title":"Texas"},{"ns":0,"title":"Texas Film Hall of Fame"},{"ns":0,"title":"The
+        Day the Earth Stood Still (2008 film)"},{"ns":0,"title":"The Help (film)"},{"ns":0,"title":"The
+        Kingdom (film)"},{"ns":0,"title":"The Lyon''s Den"},{"ns":0,"title":"The Spectacular
+        Now"},{"ns":0,"title":"The Wolf of Wall Street (2013 film)"},{"ns":0,"title":"Tour
+        of Duty"},{"ns":0,"title":"Tour of Duty (TV series)"},{"ns":0,"title":"United
+        Press International"},{"ns":0,"title":"United States"},{"ns":0,"title":"University
+        of Georgia"},{"ns":0,"title":"Victor Garber"},{"ns":0,"title":"Viola Davis"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Washington D.C. Area Film
+        Critics Association Award for Best Ensemble"},{"ns":0,"title":"What About
+        Joan"},{"ns":0,"title":"What About Joan?"},{"ns":0,"title":"World War II"},{"ns":0,"title":"Zero
+        Dark Thirty"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:EmmyAward
+        DramaLeadActor"},{"ns":10,"title":"Template:EmmyAward DramaLeadActor 1956\u20131975"},{"ns":10,"title":"Template:EmmyAward
+        DramaLeadActor 1976\u20132000"},{"ns":10,"title":"Template:EmmyAward DramaLeadActor
+        2001\u20132025"},{"ns":10,"title":"Template:Saturn Award for Best Actor on
+        Television"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture 1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture 2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture 2011\u20132020"},{"ns":11,"title":"Template talk:EmmyAward
+        DramaLeadActor 2001\u20132025"},{"ns":11,"title":"Template talk:Saturn Award
+        for Best Actor on Television"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward
+        CastMotionPicture 2011\u20132020"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:33 GMT
+recorded_with: VCR 2.9.2

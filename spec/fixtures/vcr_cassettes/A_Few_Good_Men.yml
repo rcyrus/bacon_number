@@ -1,0 +1,129 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=A%20Few%20Good%20Men
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390585919, 1102654995, 3142859734
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1892'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:39 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4017 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"20691749":{"pageid":20691749,"ns":0,"title":"A
+        Few Good Men","links":[{"ns":0,"title":"1st Lieutenant"},{"ns":0,"title":"65th
+        Academy Awards"},{"ns":0,"title":"AFI''s 100 Years...100 Heroes & Villains"},{"ns":0,"title":"AFI''s
+        100 Years...100 Movie Quotes"},{"ns":0,"title":"AFI''s 10 Top 10"},{"ns":0,"title":"AFI
+        100 Years... series"},{"ns":0,"title":"A Few Good Men (The Vampire Diaries)"},{"ns":0,"title":"A
+        Few Good Men (play)"},{"ns":0,"title":"Aaron Sorkin"},{"ns":0,"title":"Academy
+        Award for Best Film Editing"},{"ns":0,"title":"Academy Award for Best Picture"},{"ns":0,"title":"Academy
+        Award for Best Sound"},{"ns":0,"title":"Academy Award for Best Supporting
+        Actor"},{"ns":0,"title":"Alex & Emma"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"American
+        Film Institute"},{"ns":0,"title":"And So It Goes (film)"},{"ns":0,"title":"Andrew
+        Scheinman"},{"ns":0,"title":"Captain (United States)"},{"ns":0,"title":"Castle
+        Rock Entertainment"},{"ns":0,"title":"Charlie Wilson''s War"},{"ns":0,"title":"Christopher
+        Guest"},{"ns":0,"title":"Colonel (United States)"},{"ns":0,"title":"Columbia
+        Pictures"},{"ns":0,"title":"Command hierarchy"},{"ns":0,"title":"Conduct unbecoming
+        an officer and a gentleman"},{"ns":0,"title":"Cuba Gooding, Jr."},{"ns":0,"title":"David
+        Brown (producer)"},{"ns":0,"title":"David Iglesias (attorney)"},{"ns":0,"title":"Demi
+        Moore"},{"ns":0,"title":"Dishonorable discharge"},{"ns":0,"title":"Extrajudicial
+        punishment"},{"ns":0,"title":"Flipped (film)"},{"ns":0,"title":"Ghosts of
+        Mississippi"},{"ns":0,"title":"Gladiator (2000 film)"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Director \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for Best Motion Picture \u2013 Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Screenplay"},{"ns":0,"title":"Golden Globe Award for
+        Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Golden Globe
+        Awards"},{"ns":0,"title":"Guantanamo Bay Naval Base"},{"ns":0,"title":"Hidden
+        in This Picture"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"J.A. Preston"},{"ns":0,"title":"J.T. Walsh"},{"ns":0,"title":"J.
+        T. Walsh"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"James Marshall
+        (actor)"},{"ns":0,"title":"John M. Jackson"},{"ns":0,"title":"Joshua Malina"},{"ns":0,"title":"Judge
+        Advocate General''s Corps"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        O''Connell (sound re-recording mixer)"},{"ns":0,"title":"Kevin Pollak"},{"ns":0,"title":"Kiefer
+        Sutherland"},{"ns":0,"title":"Lance Corporal"},{"ns":0,"title":"Legal drama"},{"ns":0,"title":"Lieutenant,
+        Junior Grade"},{"ns":0,"title":"Lieutenant (junior grade)"},{"ns":0,"title":"Lieutenant
+        Colonel (United States)"},{"ns":0,"title":"Lieutenant Commander"},{"ns":0,"title":"Lieutenant
+        commander (United States)"},{"ns":0,"title":"MTV Movie Award for Best Movie"},{"ns":0,"title":"Malice
+        (film)"},{"ns":0,"title":"Marc Shaiman"},{"ns":0,"title":"Matt Craven"},{"ns":0,"title":"Menace
+        II Society"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Michael DeLorenzo"},{"ns":0,"title":"Misery
+        (film)"},{"ns":0,"title":"Moneyball (film)"},{"ns":0,"title":"Napoleon Dynamite"},{"ns":0,"title":"New
+        Haven Register"},{"ns":0,"title":"Noah Wyle"},{"ns":0,"title":"North (1994
+        film)"},{"ns":0,"title":"Pirates of the Caribbean: Dead Man''s Chest"},{"ns":0,"title":"Plea
+        bargain"},{"ns":0,"title":"Private First Class"},{"ns":0,"title":"Pulp Fiction"},{"ns":0,"title":"Rick
+        Kline"},{"ns":0,"title":"Rob Reiner"},{"ns":0,"title":"Robert Eber"},{"ns":0,"title":"Robert
+        Leighton (film editor)"},{"ns":0,"title":"Robert Richardson (cinematographer)"},{"ns":0,"title":"Rolling
+        Stone"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Rumor Has It..."},{"ns":0,"title":"Scream
+        (1996 film)"},{"ns":0,"title":"Screen test"},{"ns":0,"title":"Semper Fidelis
+        (march)"},{"ns":0,"title":"Seven (film)"},{"ns":0,"title":"Sports Night"},{"ns":0,"title":"Stand
+        by Me (film)"},{"ns":0,"title":"Studio 60 on the Sunset Strip"},{"ns":0,"title":"Ten-hut"},{"ns":0,"title":"Terminator
+        2: Judgment Day"},{"ns":0,"title":"Texas A&M University Corps of Cadets"},{"ns":0,"title":"The
+        Albuquerque Tribune"},{"ns":0,"title":"The American President"},{"ns":0,"title":"The
+        Avengers (2012 film)"},{"ns":0,"title":"The Baltimore Sun"},{"ns":0,"title":"The
+        Bucket List"},{"ns":0,"title":"The Farnsworth Invention"},{"ns":0,"title":"The
+        Hunger Games: Catching Fire"},{"ns":0,"title":"The Lord of the Rings: The
+        Fellowship of the Ring"},{"ns":0,"title":"The Lord of the Rings: The Return
+        of the King"},{"ns":0,"title":"The Lord of the Rings: The Two Towers"},{"ns":0,"title":"The
+        Magic of Belle Isle"},{"ns":0,"title":"The Matrix"},{"ns":0,"title":"The New
+        York Times"},{"ns":0,"title":"The Newsroom (U.S. TV series)"},{"ns":0,"title":"The
+        Princess Bride (film)"},{"ns":0,"title":"The Social Network"},{"ns":0,"title":"The
+        Story of Us (film)"},{"ns":0,"title":"The Sure Thing"},{"ns":0,"title":"The
+        Twilight Saga: Breaking Dawn \u2013 Part 1"},{"ns":0,"title":"The Twilight
+        Saga: Eclipse"},{"ns":0,"title":"The Twilight Saga: New Moon"},{"ns":0,"title":"The
+        West Wing"},{"ns":0,"title":"There''s Something About Mary"},{"ns":0,"title":"This
+        Is Spinal Tap"},{"ns":0,"title":"Time (magazine)"},{"ns":0,"title":"Titanic
+        (1997 film)"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Transformers
+        (film)"},{"ns":0,"title":"Trial movies"},{"ns":0,"title":"Turner Classic Movies"},{"ns":0,"title":"Twilight
+        (2008 film)"},{"ns":0,"title":"United States Attorney"},{"ns":0,"title":"United
+        States Marine Corps"},{"ns":0,"title":"United States Navy"},{"ns":0,"title":"Variety
+        (magazine)"},{"ns":0,"title":"WVIT"},{"ns":0,"title":"Wedding Crashers"},{"ns":0,"title":"When
+        Harry Met Sally..."},{"ns":0,"title":"Wolfgang Bodison"},{"ns":0,"title":"Xander
+        Berkeley"},{"ns":4,"title":"Wikipedia:Protection policy"},{"ns":10,"title":"Template:Aaron
+        Sorkin"},{"ns":10,"title":"Template:MTV Movie Award for Best Movie"},{"ns":10,"title":"Template:Rob
+        Reiner"},{"ns":11,"title":"Template talk:Aaron Sorkin"},{"ns":11,"title":"Template
+        talk:MTV Movie Award for Best Movie"},{"ns":11,"title":"Template talk:Rob
+        Reiner"},{"ns":14,"title":"Category:Use mdy dates from March 2012"},{"ns":100,"title":"Portal:1990s"},{"ns":100,"title":"Portal:Film
+        in the United States"},{"ns":100,"title":"Portal:United States Marine Corps"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:40 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Matthew%20Vaughn
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390663346, 3536759416, 1309473435
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1146'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:38 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4008 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"664740":{"pageid":664740,"ns":0,"title":"Matthew
+        Vaughn","links":[{"ns":0,"title":"20th Century Fox"},{"ns":0,"title":"A Short
+        Film About John Bolton"},{"ns":0,"title":"Annabella Sciorra"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA Awards"},{"ns":0,"title":"Brett Ratner"},{"ns":0,"title":"British
+        Independent Film Award"},{"ns":0,"title":"British Independent Film Awards"},{"ns":0,"title":"Broadcast
+        Film Critics Association Awards"},{"ns":0,"title":"Bryan Singer"},{"ns":0,"title":"Buckingham"},{"ns":0,"title":"Claudia
+        Schiffer"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"David Gibbons"},{"ns":0,"title":"Deadline.com"},{"ns":0,"title":"Dexter
+        Fletcher"},{"ns":0,"title":"Empire Award for Best British Director"},{"ns":0,"title":"Empire
+        Award for Best Director"},{"ns":0,"title":"Empire Award for Best Newcomer"},{"ns":0,"title":"European
+        Film Award for Best Film"},{"ns":0,"title":"Evening Standard British Film
+        Award"},{"ns":0,"title":"Film director"},{"ns":0,"title":"Film producer"},{"ns":0,"title":"George
+        VI"},{"ns":0,"title":"Golden Raspberry Award for Worst Picture"},{"ns":0,"title":"Golden
+        Raspberry Award for Worst Prequel, Remake, Rip-off or Sequel"},{"ns":0,"title":"Gurkha"},{"ns":0,"title":"Guy
+        Ritchie"},{"ns":0,"title":"Hard Rock Cafe"},{"ns":0,"title":"Harry Brown (film)"},{"ns":0,"title":"Hugo
+        Award for Best Dramatic Presentation, Long Form"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jane Goldman"},{"ns":0,"title":"Jason Flemyng"},{"ns":0,"title":"Kick-Ass:
+        The Game"},{"ns":0,"title":"Kick-Ass (comics)"},{"ns":0,"title":"Kick-Ass
+        (film)"},{"ns":0,"title":"Kick-Ass 2 (film)"},{"ns":0,"title":"Kingsman: The
+        Secret Service"},{"ns":0,"title":"Layer Cake (film)"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lock, Stock..."},{"ns":0,"title":"Lock,
+        Stock and Two Smoking Barrels"},{"ns":0,"title":"London"},{"ns":0,"title":"Los
+        Angeles, California"},{"ns":0,"title":"Mark Millar"},{"ns":0,"title":"Marv
+        Films"},{"ns":0,"title":"Mean Machine (film)"},{"ns":0,"title":"Michael Gambon"},{"ns":0,"title":"Notting
+        Hill"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Robert Vaughn"},{"ns":0,"title":"SFX
+        (magazine)"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"Scream
+        Awards"},{"ns":0,"title":"Screenwriter"},{"ns":0,"title":"Shimpling"},{"ns":0,"title":"Short
+        film"},{"ns":0,"title":"Snatch (film)"},{"ns":0,"title":"Stardust (2007 film)"},{"ns":0,"title":"Stowe
+        School"},{"ns":0,"title":"Suffolk"},{"ns":0,"title":"Swag (TV series)"},{"ns":0,"title":"Swept
+        Away (2002)"},{"ns":0,"title":"Swept Away (2002 film)"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Taron Egerton"},{"ns":0,"title":"The
+        Debt (2011 film)"},{"ns":0,"title":"The Fantastic Four (2015 film)"},{"ns":0,"title":"The
+        Innocent Sleep"},{"ns":0,"title":"The Secret Service (comics)"},{"ns":0,"title":"University
+        College London"},{"ns":0,"title":"Untitled Fantastic Four reboot"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Writers'' Guild of Great Britain"},{"ns":0,"title":"X-Men:
+        Days of Future Past"},{"ns":0,"title":"X-Men: First Class"},{"ns":0,"title":"X-Men:
+        First Class (film)"},{"ns":0,"title":"X-Men: The Last Stand"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Matthew
+        Vaughn"},{"ns":11,"title":"Template talk:Matthew Vaughn"},{"ns":14,"title":"Category:Use
+        British English from February 2013"},{"ns":14,"title":"Category:Use dmy dates
+        from February 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:39 GMT
+recorded_with: VCR 2.9.2

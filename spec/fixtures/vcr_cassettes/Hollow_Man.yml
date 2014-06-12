@@ -1,0 +1,126 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Hollow%20Man
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332273844, 2340327965, 1613054413
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1935'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:18 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1332901":{"pageid":1332901,"ns":0,"title":"Hollow
+        Man","links":[{"ns":0,"title":"1080p"},{"ns":0,"title":"73rd Academy Awards"},{"ns":0,"title":"Abbey
+        Road Studios"},{"ns":0,"title":"Abbott and Costello Meet Frankenstein"},{"ns":0,"title":"Abbott
+        and Costello Meet the Invisible Man"},{"ns":0,"title":"Academy Award for Visual
+        Effects"},{"ns":0,"title":"Achilles tendon"},{"ns":0,"title":"Alan Marshall
+        (film producer)"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"AllMusic"},{"ns":0,"title":"All
+        Things Pass"},{"ns":0,"title":"Along Came a Spider (film)"},{"ns":0,"title":"Andrew
+        W. Marlowe"},{"ns":0,"title":"Aspect ratio (image)"},{"ns":0,"title":"Audio
+        commentary"},{"ns":0,"title":"BBC News"},{"ns":0,"title":"Basic Instinct"},{"ns":0,"title":"Bauer
+        Media Group"},{"ns":0,"title":"Black Book (film)"},{"ns":0,"title":"Blu-ray
+        Disc"},{"ns":0,"title":"Business Is Business (film)"},{"ns":0,"title":"CBS
+        Interactive"},{"ns":0,"title":"California Polytechnic State University"},{"ns":0,"title":"Canoe.ca"},{"ns":0,"title":"Carotid
+        artery"},{"ns":0,"title":"Centrifuge"},{"ns":0,"title":"Christian Slater"},{"ns":0,"title":"Chronology"},{"ns":0,"title":"Columbia
+        Pictures"},{"ns":0,"title":"Compact Disc"},{"ns":0,"title":"Contact lens"},{"ns":0,"title":"Culver
+        City, California"},{"ns":0,"title":"DVD"},{"ns":0,"title":"DVD Talk"},{"ns":0,"title":"David
+        Manning (fictitious writer)"},{"ns":0,"title":"Defibrillator"},{"ns":0,"title":"Den
+        of Geek"},{"ns":0,"title":"Dentures"},{"ns":0,"title":"Digital compositing"},{"ns":0,"title":"Direct-to-video"},{"ns":0,"title":"Director''s
+        cut"},{"ns":0,"title":"Discogs"},{"ns":0,"title":"Douglas Wick"},{"ns":0,"title":"Edward
+        Norton"},{"ns":0,"title":"Effects unit"},{"ns":0,"title":"Electronic drum"},{"ns":0,"title":"Elisabeth
+        Shue"},{"ns":0,"title":"Empire (film magazine)"},{"ns":0,"title":"Entertainment
+        Experience"},{"ns":0,"title":"Featurette"},{"ns":0,"title":"Federal government
+        of the United States"},{"ns":0,"title":"Film score"},{"ns":0,"title":"Filmtracks.com"},{"ns":0,"title":"Flesh
+        and Blood (1985 film)"},{"ns":0,"title":"Flixster"},{"ns":0,"title":"Florence"},{"ns":0,"title":"Gary
+        Scott Thompson"},{"ns":0,"title":"Gemini Man"},{"ns":0,"title":"Geoffrey Radcliffe"},{"ns":0,"title":"Gladiator
+        (2000 film)"},{"ns":0,"title":"Goggles"},{"ns":0,"title":"Gorilla"},{"ns":0,"title":"Greg
+        Grunberg"},{"ns":0,"title":"Griffin (The Invisible Man)"},{"ns":0,"title":"Guy
+        Pearce"},{"ns":0,"title":"H. G. Wells"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hair
+        dryer"},{"ns":0,"title":"Hollow Man 2"},{"ns":0,"title":"Horror film"},{"ns":0,"title":"Hotel
+        Transylvania"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Invisibility"},{"ns":0,"title":"Invisible
+        Agent"},{"ns":0,"title":"Jam!"},{"ns":0,"title":"Jerry Goldsmith"},{"ns":0,"title":"Joey
+        Slotnick"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Jost Vacano"},{"ns":0,"title":"Keetje
+        Tippel"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kim Dickens"},{"ns":0,"title":"La
+        Specola"},{"ns":0,"title":"Latex clothing"},{"ns":0,"title":"London"},{"ns":0,"title":"Mad
+        Mad Mad Monsters"},{"ns":0,"title":"Mad Monster Party?"},{"ns":0,"title":"Mark
+        Goldblatt"},{"ns":0,"title":"Memoirs of an Invisible Man"},{"ns":0,"title":"Memoirs
+        of an Invisible Man (film)"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Motif
+        (music)"},{"ns":0,"title":"Motion Picture Association of America"},{"ns":0,"title":"Motion
+        control photography"},{"ns":0,"title":"Multi-storey car park"},{"ns":0,"title":"Music
+        genre"},{"ns":0,"title":"Nitroglycerin"},{"ns":0,"title":"Orchestra"},{"ns":0,"title":"Ostinato"},{"ns":0,"title":"Paul
+        Verhoeven"},{"ns":0,"title":"Peter Facinelli"},{"ns":0,"title":"Piano"},{"ns":0,"title":"Picture-in-picture"},{"ns":0,"title":"Post-production"},{"ns":0,"title":"Principal
+        photography"},{"ns":0,"title":"Random House Canada"},{"ns":0,"title":"Record
+        label"},{"ns":0,"title":"Record producer"},{"ns":0,"title":"Rhona Mitra"},{"ns":0,"title":"RoboCop"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Science fiction"},{"ns":0,"title":"Showgirls"},{"ns":0,"title":"Slasher
+        film"},{"ns":0,"title":"Soldier of Orange"},{"ns":0,"title":"Sony"},{"ns":0,"title":"Sony
+        Pictures Home Entertainment"},{"ns":0,"title":"Sony Pictures Imageworks"},{"ns":0,"title":"Sony
+        Pictures Studios"},{"ns":0,"title":"Soundtrack album"},{"ns":0,"title":"Special
+        effect"},{"ns":0,"title":"Special effects supervisor"},{"ns":0,"title":"Spetters"},{"ns":0,"title":"Starship
+        Troopers (film)"},{"ns":0,"title":"Storyboard"},{"ns":0,"title":"String section"},{"ns":0,"title":"Superbit"},{"ns":0,"title":"Synthesizer"},{"ns":0,"title":"Teaser
+        campaign"},{"ns":0,"title":"Test screening"},{"ns":0,"title":"The 13th Warrior"},{"ns":0,"title":"The
+        Fourth Man (1983 film)"},{"ns":0,"title":"The Haunting (1999 film)"},{"ns":0,"title":"The
+        Hollow Man (disambiguation)"},{"ns":0,"title":"The Hollywood Reporter"},{"ns":0,"title":"The
+        Invisible Man"},{"ns":0,"title":"The Invisible Man''s Revenge"},{"ns":0,"title":"The
+        Invisible Man (1958 TV series)"},{"ns":0,"title":"The Invisible Man (1975
+        TV series)"},{"ns":0,"title":"The Invisible Man (1984 TV series)"},{"ns":0,"title":"The
+        Invisible Man (2000 TV series)"},{"ns":0,"title":"The Invisible Man (cartoon
+        series)"},{"ns":0,"title":"The Invisible Man (film)"},{"ns":0,"title":"The
+        Invisible Man Returns"},{"ns":0,"title":"The Invisible Mouse"},{"ns":0,"title":"The
+        Invisible Woman (1940 film)"},{"ns":0,"title":"The League of Extraordinary
+        Gentlemen"},{"ns":0,"title":"The Nobody"},{"ns":0,"title":"The Pentagon"},{"ns":0,"title":"Thermography"},{"ns":0,"title":"Thriller
+        (genre)"},{"ns":0,"title":"Tippett Studio"},{"ns":0,"title":"Tomei Ningen"},{"ns":0,"title":"Total
+        Recall (1990 film)"},{"ns":0,"title":"Trailer (promotion)"},{"ns":0,"title":"Tranquilizer
+        gun"},{"ns":0,"title":"Turkish Delight (film)"},{"ns":0,"title":"Turner Entertainment"},{"ns":0,"title":"United
+        States Capitol"},{"ns":0,"title":"Universal Monsters"},{"ns":0,"title":"VHS"},{"ns":0,"title":"Var\u00e8se
+        Sarabande"},{"ns":0,"title":"Visual effects supervisor"},{"ns":0,"title":"Volume
+        rendering"},{"ns":0,"title":"Voyeurism"},{"ns":0,"title":"Washington, D.C."},{"ns":0,"title":"Widescreen"},{"ns":0,"title":"William
+        Devane"},{"ns":0,"title":"Woodwind instrument"},{"ns":0,"title":"\u00c9corch\u00e9"},{"ns":10,"title":"Template:Expand
+        section"},{"ns":10,"title":"Template:Paul Verhoeven"},{"ns":10,"title":"Template:The
+        Invisible Man"},{"ns":11,"title":"Template talk:Paul Verhoeven"},{"ns":11,"title":"Template
+        talk:The Invisible Man"},{"ns":14,"title":"Category:Articles to be expanded
+        from August 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:18 GMT
+recorded_with: VCR 2.9.2

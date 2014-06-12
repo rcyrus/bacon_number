@@ -1,0 +1,131 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Topher%20Grace
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401712087, 3085178960, 2597374945
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2035'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:19 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4010 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"440000":{"pageid":440000,"ns":0,"title":"Topher
+        Grace","links":[{"ns":0,"title":"40th Daytime Emmy Awards"},{"ns":0,"title":"A
+        Many Splintered Thing"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"American
+        Ultra"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Ashton Kutcher"},{"ns":0,"title":"Atomic
+        Tom"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Babysitting"},{"ns":0,"title":"Ben
+        Affleck"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Broadway
+        Theatre"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Cameo appearance"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Cheap Trick"},{"ns":0,"title":"Chlo\u00eb Sevigny"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Clifton Collins,
+        Jr."},{"ns":0,"title":"Cocaine"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Comedy
+        Bang Bang (TV series)"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Darien, Connecticut"},{"ns":0,"title":"Deirdre
+        Costello"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Dramedy"},{"ns":0,"title":"E!"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Eddie Brock"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Eric
+        Forman"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"FINCA International"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Gold
+        Dust Gasoline"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Hugo
+        Speer"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"In Good Company
+        (2004 film)"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Interstellar (film)"},{"ns":0,"title":"Ivanka
+        Trump"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Jim Wilkinson
+        (former U.S. government employee)"},{"ns":0,"title":"Jimmy Kimmel Live!"},{"ns":0,"title":"Joseph
+        Fiennes"},{"ns":0,"title":"Josh Meyers"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Kate
+        Bosworth"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Spacey"},{"ns":0,"title":"King of the Hill"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"List of King of the Hill episodes"},{"ns":0,"title":"List
+        of Saturday Night Live guests section E - H"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"MTV
+        Movie Award for Best Villain"},{"ns":0,"title":"Madison Avenue"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Microfinance"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Mike
+        Newell (director)"},{"ns":0,"title":"Mona Lisa Smile"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"National Board of Review"},{"ns":0,"title":"National
+        Board of Review Awards 2004"},{"ns":0,"title":"National Board of Review of
+        Motion Pictures"},{"ns":0,"title":"New Canaan Country School"},{"ns":0,"title":"New
+        York (magazine)"},{"ns":0,"title":"New York City"},{"ns":0,"title":"Ocean''s
+        Eleven (2001 film)"},{"ns":0,"title":"Ocean''s Thirteen"},{"ns":0,"title":"Ocean''s
+        Twelve"},{"ns":0,"title":"Opie & Anthony"},{"ns":0,"title":"P.S. (film)"},{"ns":0,"title":"Paul
+        Barber (actor)"},{"ns":0,"title":"Paul Weitz (filmmaker)"},{"ns":0,"title":"Personal
+        Effects"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Pinocchio
+        (2002 film)"},{"ns":0,"title":"Predator (franchise)"},{"ns":0,"title":"Predators
+        (film)"},{"ns":0,"title":"Richard Gere"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        Luketic"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Robot Chicken"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Russell Brand"},{"ns":0,"title":"Sam Raimi"},{"ns":0,"title":"Saturday
+        Night Live"},{"ns":0,"title":"Screen Actors Guild Award"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Rant"},{"ns":0,"title":"Seattle Post-Intelligencer"},{"ns":0,"title":"Shakespeare
+        in Love"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Spider-Man 3"},{"ns":0,"title":"Spider-Man
+        3 (video game)"},{"ns":0,"title":"Stella (TV series)"},{"ns":0,"title":"Steve
+        Huison"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Steven Soderbergh"},{"ns":0,"title":"TV
+        Guide"},{"ns":0,"title":"Take Me Home Tonight (film)"},{"ns":0,"title":"Teen
+        Choice Award"},{"ns":0,"title":"Teresa Palmer"},{"ns":0,"title":"That ''70s
+        Finale"},{"ns":0,"title":"That ''70s Show"},{"ns":0,"title":"That 70''s Show"},{"ns":0,"title":"The
+        Beauty Inside"},{"ns":0,"title":"The Big Wedding"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The
+        Debarted"},{"ns":0,"title":"The Double (2011 film)"},{"ns":0,"title":"The
+        Full Monty"},{"ns":0,"title":"The Giant Mechanical Man"},{"ns":0,"title":"The
+        Simpsons"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Time
+        Inc."},{"ns":0,"title":"Tobey Maguire"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Too Big to Fail
+        (film)"},{"ns":0,"title":"Traffic (2000 film)"},{"ns":0,"title":"Tribeca Film
+        Festival"},{"ns":0,"title":"Valentine''s Day (2010 film)"},{"ns":0,"title":"Venom
+        (comics)"},{"ns":0,"title":"Videogum"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"What''s New,
+        Scooby-Doo?"},{"ns":0,"title":"William Snape"},{"ns":0,"title":"Win a Date
+        with Tad Hamilton!"},{"ns":0,"title":"Yahoo!"},{"ns":0,"title":"Young Artist
+        Award"},{"ns":0,"title":"Young Hollywood Awards"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":12,"title":"Help:IPA for English"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:20 GMT
+recorded_with: VCR 2.9.2

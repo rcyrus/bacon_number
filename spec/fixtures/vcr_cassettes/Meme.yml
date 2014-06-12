@@ -1,0 +1,138 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Meme
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711865643, 983716275, 2597336878
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2507'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:38 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4018 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"19312":{"pageid":19312,"ns":0,"title":"Meme","links":[{"ns":0,"title":"4chan"},{"ns":0,"title":"A
+        Devil''s Chaplain"},{"ns":0,"title":"A Theory of Architecture"},{"ns":0,"title":"Aaron
+        Lynch"},{"ns":0,"title":"Altruism"},{"ns":0,"title":"An Appetite for Wonder"},{"ns":0,"title":"Analemma"},{"ns":0,"title":"Ancient
+        Greek"},{"ns":0,"title":"Anthropology"},{"ns":0,"title":"Antipattern"},{"ns":0,"title":"Apostasy"},{"ns":0,"title":"Atom"},{"ns":0,"title":"Bandwagon
+        effect"},{"ns":0,"title":"Bertrand Russell"},{"ns":0,"title":"Beyond Belief:
+        Science, Religion, Reason and Survival"},{"ns":0,"title":"Bibcode"},{"ns":0,"title":"Biological
+        evolution"},{"ns":0,"title":"Biosemiotics"},{"ns":0,"title":"Blog"},{"ns":0,"title":"Break
+        the Science Barrier"},{"ns":0,"title":"Cambridge, Massachusetts"},{"ns":0,"title":"Catch-phrase"},{"ns":0,"title":"Charles
+        J. Lumsden"},{"ns":0,"title":"Christian cross"},{"ns":0,"title":"Christianity"},{"ns":0,"title":"Chromosome"},{"ns":0,"title":"Climbing
+        Mount Improbable"},{"ns":0,"title":"Cognitive psychology"},{"ns":0,"title":"Competition"},{"ns":0,"title":"Concept"},{"ns":0,"title":"Consciousness"},{"ns":0,"title":"Consilience:
+        The Unity of Knowledge"},{"ns":0,"title":"Copycat crime"},{"ns":0,"title":"Copycat
+        suicide"},{"ns":0,"title":"Crucifixion of Jesus"},{"ns":0,"title":"Cultural
+        anthropology"},{"ns":0,"title":"Cultural evolution"},{"ns":0,"title":"Culture"},{"ns":0,"title":"Culturgen"},{"ns":0,"title":"DNA"},{"ns":0,"title":"Dan
+        Sperber"},{"ns":0,"title":"Daniel Dennett"},{"ns":0,"title":"Darwin machine"},{"ns":0,"title":"Darwinism"},{"ns":0,"title":"Dawkins
+        vs. Gould"},{"ns":0,"title":"Diffusion of innovations"},{"ns":0,"title":"Digital
+        object identifier"},{"ns":0,"title":"Dogma"},{"ns":0,"title":"Dual inheritance
+        theory"},{"ns":0,"title":"E-mail"},{"ns":0,"title":"E. O. Wilson"},{"ns":0,"title":"Edward
+        Burnett Tylor"},{"ns":0,"title":"Eliminative materialism"},{"ns":0,"title":"Empirical"},{"ns":0,"title":"Epidemiology"},{"ns":0,"title":"Ernst
+        Mayr"},{"ns":0,"title":"Evidence"},{"ns":0,"title":"Evolution"},{"ns":0,"title":"Evolutionary
+        biology"},{"ns":0,"title":"Evolutionary model"},{"ns":0,"title":"Evolutionary
+        psychology"},{"ns":0,"title":"Evolutionary psychology of religion"},{"ns":0,"title":"Extinction"},{"ns":0,"title":"Facebook"},{"ns":0,"title":"Faith"},{"ns":0,"title":"Faith
+        School Menace"},{"ns":0,"title":"Fecundity"},{"ns":0,"title":"Frameshift (band)"},{"ns":0,"title":"Francis
+        Heylighen"},{"ns":0,"title":"Functional neuroimaging"},{"ns":0,"title":"Gene"},{"ns":0,"title":"Generation"},{"ns":0,"title":"Genetic
+        diversity"},{"ns":0,"title":"Genetics"},{"ns":0,"title":"Gerin oil"},{"ns":0,"title":"Go
+        God Go"},{"ns":0,"title":"Grounded theory"},{"ns":0,"title":"Growing Up in
+        the Universe"},{"ns":0,"title":"Heaven"},{"ns":0,"title":"Hell"},{"ns":0,"title":"Heredity"},{"ns":0,"title":"Howard
+        Bloom"},{"ns":0,"title":"Hylobiini"},{"ns":0,"title":"Hysterical contagion"},{"ns":0,"title":"Ideology"},{"ns":0,"title":"Imageboard"},{"ns":0,"title":"Imitation"},{"ns":0,"title":"Infectious
+        disease"},{"ns":0,"title":"Infidels"},{"ns":0,"title":"Information transfer"},{"ns":0,"title":"Instant
+        messaging"},{"ns":0,"title":"Intelligent Design"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Serial Number"},{"ns":0,"title":"Internet"},{"ns":0,"title":"Internet
+        forum"},{"ns":0,"title":"Internet meme"},{"ns":0,"title":"JSTOR"},{"ns":0,"title":"Jack
+        Balkin"},{"ns":0,"title":"John N. Gray"},{"ns":0,"title":"John Tooby"},{"ns":0,"title":"J\u00fcrgen
+        Mittelstra\u00df"},{"ns":0,"title":"Kalevi Kull"},{"ns":0,"title":"Keith Henson"},{"ns":0,"title":"Keith
+        Stanovich"},{"ns":0,"title":"Kilroy was here"},{"ns":0,"title":"L. L. Cavalli-Sforza"},{"ns":0,"title":"Lalla
+        Ward"},{"ns":0,"title":"Lamarckism"},{"ns":0,"title":"Law"},{"ns":0,"title":"List
+        of Internet phenomena"},{"ns":0,"title":"List of publications by Richard Dawkins"},{"ns":0,"title":"Ludwig
+        van Beethoven"},{"ns":0,"title":"MIT Press"},{"ns":0,"title":"Marian Stamp
+        Dawkins"},{"ns":0,"title":"Max Weber"},{"ns":0,"title":"Meme (disambiguation)"},{"ns":0,"title":"Memeplex"},{"ns":0,"title":"Memes"},{"ns":0,"title":"Memetic
+        algorithms"},{"ns":0,"title":"Memetic engineering"},{"ns":0,"title":"Memeticist"},{"ns":0,"title":"Memetics"},{"ns":0,"title":"Memory"},{"ns":0,"title":"Metonymy"},{"ns":0,"title":"Middle
+        World"},{"ns":0,"title":"Mike Godwin"},{"ns":0,"title":"Mimicry"},{"ns":0,"title":"Modularity
+        of mind"},{"ns":0,"title":"Mutation"},{"ns":0,"title":"Narrative"},{"ns":0,"title":"Natural
+        science"},{"ns":0,"title":"Natural selection"},{"ns":0,"title":"Neurathian
+        bootstrap"},{"ns":0,"title":"Nice Guys Finish First"},{"ns":0,"title":"Nikos
+        Salingaros"},{"ns":0,"title":"Observation"},{"ns":0,"title":"Open access"},{"ns":0,"title":"Organic
+        agriculture"},{"ns":0,"title":"Out Campaign"},{"ns":0,"title":"Pascal Boyer"},{"ns":0,"title":"Pattern
+        language"},{"ns":0,"title":"Personal identity"},{"ns":0,"title":"Perspectives
+        on Science"},{"ns":0,"title":"Phenotype"},{"ns":0,"title":"Philosophy of science"},{"ns":0,"title":"Population
+        genetics"},{"ns":0,"title":"Proselytism"},{"ns":0,"title":"Protoscience"},{"ns":0,"title":"Pseudoscience"},{"ns":0,"title":"Psycholinguistics"},{"ns":0,"title":"Quantization
+        (physics)"},{"ns":0,"title":"Reason"},{"ns":0,"title":"Redeemer (Christianity)"},{"ns":0,"title":"Religion"},{"ns":0,"title":"Richard
+        Brodie (programmer)"},{"ns":0,"title":"Richard Dawkins"},{"ns":0,"title":"Richard
+        Dawkins: How a Scientist Changed the Way We Think"},{"ns":0,"title":"Richard
+        Dawkins Foundation for Reason and Science"},{"ns":0,"title":"Richard Lewontin"},{"ns":0,"title":"River
+        Out of Eden"},{"ns":0,"title":"Ruth Garrett Millikan"},{"ns":0,"title":"Sacrament"},{"ns":0,"title":"Scientific
+        discipline"},{"ns":0,"title":"Scott Atran"},{"ns":0,"title":"Scripture"},{"ns":0,"title":"Selection"},{"ns":0,"title":"Self-replication"},{"ns":0,"title":"Semiotic"},{"ns":0,"title":"Separatism"},{"ns":0,"title":"Sex,
+        Death and the Meaning of Life"},{"ns":0,"title":"Sheet music"},{"ns":0,"title":"Sign
+        (semiotics)"},{"ns":0,"title":"Social networking site"},{"ns":0,"title":"Social
+        psychology"},{"ns":0,"title":"Social sciences"},{"ns":0,"title":"Sociocultural
+        evolution"},{"ns":0,"title":"Sociology"},{"ns":0,"title":"Spiral Dynamics"},{"ns":0,"title":"Susan
+        Blackmore"},{"ns":0,"title":"Symphony No. 5 (Beethoven)"},{"ns":0,"title":"Taboo"},{"ns":0,"title":"Ten
+        Commandments"},{"ns":0,"title":"Terrence Deacon"},{"ns":0,"title":"The Ancestor''s
+        Tale"},{"ns":0,"title":"The Atheism Tapes"},{"ns":0,"title":"The Blind Watchmaker"},{"ns":0,"title":"The
+        Courtier''s Reply"},{"ns":0,"title":"The Electronic Revolution"},{"ns":0,"title":"The
+        Enemies of Reason"},{"ns":0,"title":"The Extended Phenotype"},{"ns":0,"title":"The
+        Genius of Charles Darwin"},{"ns":0,"title":"The God Delusion"},{"ns":0,"title":"The
+        Greatest Show on Earth: The Evidence for Evolution"},{"ns":0,"title":"The
+        Magic of Reality"},{"ns":0,"title":"The Oxford Book of Modern Science Writing"},{"ns":0,"title":"The
+        Root of All Evil?"},{"ns":0,"title":"The Selfish Gene"},{"ns":0,"title":"The
+        Unbelievers"},{"ns":0,"title":"Theory of mind"},{"ns":0,"title":"Tim Ingold"},{"ns":0,"title":"Tool"},{"ns":0,"title":"Transect"},{"ns":0,"title":"Twitter"},{"ns":0,"title":"Ultimate
+        Boeing 747 gambit"},{"ns":0,"title":"Universal Darwinism"},{"ns":0,"title":"Unweaving
+        the Rainbow"},{"ns":0,"title":"Video hosting service"},{"ns":0,"title":"Viral
+        marketing"},{"ns":0,"title":"Viral phenomenon"},{"ns":0,"title":"Viral video"},{"ns":0,"title":"Weasel
+        program"},{"ns":0,"title":"Wired (magazine)"},{"ns":0,"title":"YouTube"},{"ns":1,"title":"Talk:Meme"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Manual of Style/Words to watch"},{"ns":4,"title":"Wikipedia:Media
+        help"},{"ns":4,"title":"Wikipedia:Please clarify"},{"ns":4,"title":"Wikipedia:Pronunciation
+        respelling key"},{"ns":4,"title":"Wikipedia:Splitting"},{"ns":6,"title":"File:Beet5mov1bars1to5.ogg"},{"ns":10,"title":"Template:Richard
+        Dawkins"},{"ns":11,"title":"Template talk:Richard Dawkins"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":12,"title":"Help:IPA for English"},{"ns":12,"title":"Help:IPA
+        for Greek"},{"ns":14,"title":"Category:Articles to be split from July 2013"},{"ns":14,"title":"Category:Articles
+        with specifically marked weasel-worded phrases from September 2009"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from December 2010"},{"ns":14,"title":"Category:Richard
+        Dawkins"},{"ns":14,"title":"Category:Wikipedia articles needing clarification
+        from February 2009"},{"ns":100,"title":"Portal:Biography"},{"ns":108,"title":"Book:Richard
+        Dawkins"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:39 GMT
+recorded_with: VCR 2.9.2

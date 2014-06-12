@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Saturn%20Award%20for%20Best%20Actor%20on%20Television
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401686567, 3085168000, 1613095243
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1098'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:02 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1101454":{"pageid":1101454,"ns":0,"title":"Saturn
+        Award for Best Actor on Television","links":[{"ns":0,"title":"10th Saturn
+        Awards"},{"ns":0,"title":"11th Saturn Awards"},{"ns":0,"title":"12th Saturn
+        Awards"},{"ns":0,"title":"13th Saturn Awards"},{"ns":0,"title":"14th Saturn
+        Awards"},{"ns":0,"title":"15th Saturn Awards"},{"ns":0,"title":"16th Saturn
+        Awards"},{"ns":0,"title":"17th Saturn Awards"},{"ns":0,"title":"18th Saturn
+        Awards"},{"ns":0,"title":"1996 in television"},{"ns":0,"title":"1997 in television"},{"ns":0,"title":"1998
+        in television"},{"ns":0,"title":"1999 in television"},{"ns":0,"title":"19th
+        Saturn Awards"},{"ns":0,"title":"1st Saturn Awards"},{"ns":0,"title":"2000
+        in television"},{"ns":0,"title":"2001 in television"},{"ns":0,"title":"2002
+        in television"},{"ns":0,"title":"2003 in television"},{"ns":0,"title":"2004
+        in television"},{"ns":0,"title":"2005 in television"},{"ns":0,"title":"2006
+        in television"},{"ns":0,"title":"2007 in television"},{"ns":0,"title":"2008
+        in television"},{"ns":0,"title":"2009 in television"},{"ns":0,"title":"2010
+        in television"},{"ns":0,"title":"2011 in television"},{"ns":0,"title":"2012
+        in television"},{"ns":0,"title":"20th Saturn Awards"},{"ns":0,"title":"21st
+        Saturn Awards"},{"ns":0,"title":"22nd Saturn Awards"},{"ns":0,"title":"23rd
+        Saturn Awards"},{"ns":0,"title":"24th Saturn Awards"},{"ns":0,"title":"25th
+        Saturn Awards"},{"ns":0,"title":"26th Saturn Awards"},{"ns":0,"title":"27th
+        Saturn Awards"},{"ns":0,"title":"28th Saturn Awards"},{"ns":0,"title":"29th
+        Saturn Awards"},{"ns":0,"title":"2nd Saturn Awards"},{"ns":0,"title":"30th
+        Saturn Awards"},{"ns":0,"title":"31st Saturn Awards"},{"ns":0,"title":"32nd
+        Saturn Awards"},{"ns":0,"title":"33rd Saturn Awards"},{"ns":0,"title":"34th
+        Saturn Awards"},{"ns":0,"title":"35th Saturn Awards"},{"ns":0,"title":"36th
+        Saturn Awards"},{"ns":0,"title":"37th Saturn Awards"},{"ns":0,"title":"38th
+        Saturn Awards"},{"ns":0,"title":"39th Saturn Awards"},{"ns":0,"title":"3rd
+        Saturn Awards"},{"ns":0,"title":"40th Saturn Awards"},{"ns":0,"title":"4th
+        Saturn Awards"},{"ns":0,"title":"5th Saturn Awards"},{"ns":0,"title":"6th
+        Saturn Awards"},{"ns":0,"title":"7th Saturn Awards"},{"ns":0,"title":"8th
+        Saturn Awards"},{"ns":0,"title":"9th Saturn Awards"},{"ns":0,"title":"Angel
+        (TV Series)"},{"ns":0,"title":"Battlestar Galactica (2004 TV series)"},{"ns":0,"title":"Ben
+        Browder"},{"ns":0,"title":"Breaking Bad"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"David
+        Boreanaz"},{"ns":0,"title":"Dexter (TV series)"},{"ns":0,"title":"Early Edition"},{"ns":0,"title":"Edward
+        James Olmos"},{"ns":0,"title":"Farscape"},{"ns":0,"title":"Farscape: The Peacekeeper
+        Wars"},{"ns":0,"title":"Josh Holloway"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kyle
+        Chandler"},{"ns":0,"title":"Lost (TV series)"},{"ns":0,"title":"Matthew Fox"},{"ns":0,"title":"Matthew
+        Fox (actor)"},{"ns":0,"title":"Michael C. Hall"},{"ns":0,"title":"Richard
+        Dean Anderson"},{"ns":0,"title":"Robert Patrick"},{"ns":0,"title":"Saturn
+        Award"},{"ns":0,"title":"Saturn Award for Best Action or Adventure Film"},{"ns":0,"title":"Saturn
+        Award for Best Actor"},{"ns":0,"title":"Saturn Award for Best Actress"},{"ns":0,"title":"Saturn
+        Award for Best Actress on Television"},{"ns":0,"title":"Saturn Award for Best
+        Animated Film"},{"ns":0,"title":"Saturn Award for Best Classic Film DVD Release"},{"ns":0,"title":"Saturn
+        Award for Best Costume"},{"ns":0,"title":"Saturn Award for Best DVD or Blu-ray
+        Collection"},{"ns":0,"title":"Saturn Award for Best DVD or Blu-ray Release"},{"ns":0,"title":"Saturn
+        Award for Best DVD or Blu-ray Special Edition Release"},{"ns":0,"title":"Saturn
+        Award for Best Director"},{"ns":0,"title":"Saturn Award for Best Editing"},{"ns":0,"title":"Saturn
+        Award for Best Fantasy Film"},{"ns":0,"title":"Saturn Award for Best Guest
+        Starring Role on Television"},{"ns":0,"title":"Saturn Award for Best Horror
+        or Thriller Film"},{"ns":0,"title":"Saturn Award for Best International Film"},{"ns":0,"title":"Saturn
+        Award for Best International Series"},{"ns":0,"title":"Saturn Award for Best
+        Make-up"},{"ns":0,"title":"Saturn Award for Best Music"},{"ns":0,"title":"Saturn
+        Award for Best Network Television Series"},{"ns":0,"title":"Saturn Award for
+        Best Performance by a Younger Actor"},{"ns":0,"title":"Saturn Award for Best
+        Retro Television Series on DVD"},{"ns":0,"title":"Saturn Award for Best Science
+        Fiction Film"},{"ns":0,"title":"Saturn Award for Best Special Effects"},{"ns":0,"title":"Saturn
+        Award for Best Supporting Actor"},{"ns":0,"title":"Saturn Award for Best Supporting
+        Actor on Television"},{"ns":0,"title":"Saturn Award for Best Supporting Actress"},{"ns":0,"title":"Saturn
+        Award for Best Supporting Actress on Television"},{"ns":0,"title":"Saturn
+        Award for Best Syndicated/Cable Television Series"},{"ns":0,"title":"Saturn
+        Award for Best Television DVD Release"},{"ns":0,"title":"Saturn Award for
+        Best Television Presentation"},{"ns":0,"title":"Saturn Award for Best Writing"},{"ns":0,"title":"Stargate
+        SG-1"},{"ns":0,"title":"Stephen Moyer"},{"ns":0,"title":"Steven Weber (actor)"},{"ns":0,"title":"The
+        Following"},{"ns":0,"title":"The George Pal Memorial Award"},{"ns":0,"title":"The
+        Life Career Award"},{"ns":0,"title":"The President''s Memorial Award"},{"ns":0,"title":"The
+        Shining (TV miniseries)"},{"ns":0,"title":"The X-Files"},{"ns":0,"title":"True
+        Blood"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Saturn
+        Award for Best Actor on Television"},{"ns":10,"title":"Template:Saturn Awards"},{"ns":10,"title":"Template:Unreferenced"},{"ns":11,"title":"Template
+        talk:Saturn Award for Best Actor on Television"},{"ns":11,"title":"Template
+        talk:Saturn Awards"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        lacking sources from December 2009"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:02 GMT
+recorded_with: VCR 2.9.2

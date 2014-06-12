@@ -1,0 +1,147 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Kyra%20Sedgwick
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711857766, 2340336278, 1309468112
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2260'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:32 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4016 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1547579":{"pageid":1547579,"ns":0,"title":"Kyra
+        Sedgwick","links":[{"ns":0,"title":"100 Sexiest Artists"},{"ns":0,"title":"ABC
+        Afterschool Special"},{"ns":0,"title":"Actress"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"Ally McBeal"},{"ns":0,"title":"Amazing Stories (TV
+        series)"},{"ns":0,"title":"American Comedy Awards"},{"ns":0,"title":"American
+        Experience"},{"ns":0,"title":"Anna Paquin"},{"ns":0,"title":"Another World
+        (TV series)"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Barbara
+        Babcock"},{"ns":0,"title":"Barbara Bain"},{"ns":0,"title":"Barbara Bel Geddes"},{"ns":0,"title":"Barbara
+        Stanwyck"},{"ns":0,"title":"Batman: Mystery of the Batwoman"},{"ns":0,"title":"Batwoman"},{"ns":0,"title":"Behind
+        the Red Door"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Big
+        Sky (2014 film)"},{"ns":0,"title":"Born on the Fourth of July (film)"},{"ns":0,"title":"Boston"},{"ns":0,"title":"Brenda
+        Leigh Johnson"},{"ns":0,"title":"C. C. H. Pounder"},{"ns":0,"title":"Camryn
+        Manheim"},{"ns":0,"title":"Cavedweller (film)"},{"ns":0,"title":"Chicago Film
+        Critics Association Award for Best Supporting Actress"},{"ns":0,"title":"Chicago
+        Film Critics Association Awards"},{"ns":0,"title":"Chlorine (2013 film)"},{"ns":0,"title":"Chlorine
+        (film)"},{"ns":0,"title":"Christine Lahti"},{"ns":0,"title":"Claire Danes"},{"ns":0,"title":"Connie
+        Britton"},{"ns":0,"title":"Critical Care (film)"},{"ns":0,"title":"Dana Delany"},{"ns":0,"title":"Door
+        to Door (film)"},{"ns":0,"title":"Edie Falco"},{"ns":0,"title":"Edie Sedgwick"},{"ns":0,"title":"Educational"},{"ns":0,"title":"Ellen
+        Pompeo"},{"ns":0,"title":"Ellery Sedgwick"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Endicott
+        Peabody (educator)"},{"ns":0,"title":"English people"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Episcopal Church in the United States of America"},{"ns":0,"title":"Family
+        Pictures"},{"ns":0,"title":"Family therapist"},{"ns":0,"title":"First cousin"},{"ns":0,"title":"Frances
+        Conroy"},{"ns":0,"title":"Friends Seminary"},{"ns":0,"title":"Gamer (film)"},{"ns":0,"title":"Geena
+        Davis"},{"ns":0,"title":"George Nozuka"},{"ns":0,"title":"Gillian Anderson"},{"ns":0,"title":"Glenda
+        Jackson"},{"ns":0,"title":"Glenn Close"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Globe Award for Best Actress \u2013
+        Miniseries or Television Film"},{"ns":0,"title":"Golden Globe Award for Best
+        Actress \u2013 Television Series Drama"},{"ns":0,"title":"Golden Globe Award
+        for Best Supporting Actress \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Awards"},{"ns":0,"title":"Gracie Allen Awards"},{"ns":0,"title":"Groton
+        School"},{"ns":0,"title":"Heart and Souls"},{"ns":0,"title":"Helen Hayes"},{"ns":0,"title":"Henry
+        Dwight Sedgwick"},{"ns":0,"title":"Henry Louis Gates"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Hollywood
+        Walk of Fame"},{"ns":0,"title":"Independent Spirit Award for Best Female Lead"},{"ns":0,"title":"Independent
+        Spirit Awards"},{"ns":0,"title":"Inside the Actors Studio"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jean Marsh"},{"ns":0,"title":"Jennifer Garner"},{"ns":0,"title":"Jeri
+        Ryan"},{"ns":0,"title":"Jew"},{"ns":0,"title":"John Lathrop (American minister)"},{"ns":0,"title":"John
+        Travolta"},{"ns":0,"title":"Judaism"},{"ns":0,"title":"Julianna Margulies"},{"ns":0,"title":"Just
+        a Kiss (2002 film)"},{"ns":0,"title":"Justice League: The New Frontier"},{"ns":0,"title":"Justin
+        Nozuka"},{"ns":0,"title":"Kansas (film)"},{"ns":0,"title":"Kate Mulgrew"},{"ns":0,"title":"Katey
+        Sagal"},{"ns":0,"title":"Kathy Baker"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kill
+        Your Darlings (2013 film)"},{"ns":0,"title":"Labor Pains"},{"ns":0,"title":"Lanford
+        Wilson"},{"ns":0,"title":"Laurel Holloman"},{"ns":0,"title":"Lemon Sky"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lindsay Wagner"},{"ns":0,"title":"Lois
+        Lane"},{"ns":0,"title":"Loretta Young"},{"ns":0,"title":"Losing Chase"},{"ns":0,"title":"Loverboy
+        (2005 film)"},{"ns":0,"title":"MTV Movie Award for Best Kiss"},{"ns":0,"title":"MTV
+        Movie Awards"},{"ns":0,"title":"Man on a Ledge"},{"ns":0,"title":"Mariette
+        Hartley"},{"ns":0,"title":"Mariska Hargitay"},{"ns":0,"title":"Married and
+        maiden names"},{"ns":0,"title":"Massachusetts"},{"ns":0,"title":"Miami Vice"},{"ns":0,"title":"Michael
+        Learned"},{"ns":0,"title":"Mike Stern"},{"ns":0,"title":"Miss Rose White"},{"ns":0,"title":"Montana
+        (1998 film)"},{"ns":0,"title":"Mr. and Mrs. Bridge"},{"ns":0,"title":"Murder
+        in the First (film)"},{"ns":0,"title":"Myspace"},{"ns":0,"title":"New York"},{"ns":0,"title":"New
+        York City"},{"ns":0,"title":"New York City, New York"},{"ns":0,"title":"Passover
+        seder"},{"ns":0,"title":"Patricia Arquette"},{"ns":0,"title":"Patricia Wettig"},{"ns":0,"title":"People''s
+        Choice Awards"},{"ns":0,"title":"Personal Velocity: Three Portraits"},{"ns":0,"title":"Phenomenon
+        (film)"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Lead Actress
+        in a Drama Series"},{"ns":0,"title":"Primetime Emmy Awards"},{"ns":0,"title":"Pyrates"},{"ns":0,"title":"Queens
+        Supreme"},{"ns":0,"title":"Reach Me"},{"ns":0,"title":"Robert Sedgwick (actor)"},{"ns":0,"title":"Robin
+        Wright"},{"ns":0,"title":"Sada Thompson"},{"ns":0,"title":"Sally Field"},{"ns":0,"title":"Sarah
+        Lawrence College"},{"ns":0,"title":"Satellite Award for Best Actress \u2013
+        Television Series Drama"},{"ns":0,"title":"Satellite Award for Best Supporting
+        Actress \u2013 Motion Picture"},{"ns":0,"title":"Satellite Awards"},{"ns":0,"title":"Saturn
+        Award for Best Actress on Television"},{"ns":0,"title":"Saturn Award for Best
+        Supporting Actress"},{"ns":0,"title":"Saturn Awards"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Female Actor in a Drama
+        Series"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by an Ensemble in a Drama Series"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Secondhand
+        Lions"},{"ns":0,"title":"Sela Ward"},{"ns":0,"title":"Sharon Gless"},{"ns":0,"title":"Singles
+        (1992 film)"},{"ns":0,"title":"Something the Lord Made"},{"ns":0,"title":"Something
+        to Talk About (film)"},{"ns":0,"title":"Sosie Bacon"},{"ns":0,"title":"Speech"},{"ns":0,"title":"Stanley
+        (2001 TV series)"},{"ns":0,"title":"Susan Hampshire"},{"ns":0,"title":"TCA
+        Award for Individual Achievement in Drama"},{"ns":0,"title":"TCA Awards"},{"ns":0,"title":"TNT
+        (TV channel)"},{"ns":0,"title":"TV Tropes"},{"ns":0,"title":"Tai-Pan (film)"},{"ns":0,"title":"Teacher"},{"ns":0,"title":"Television
+        movie"},{"ns":0,"title":"The Atlantic Monthly"},{"ns":0,"title":"The Closer"},{"ns":0,"title":"The
+        Game Plan (film)"},{"ns":0,"title":"The Low Life"},{"ns":0,"title":"The Possession
+        (2012 film)"},{"ns":0,"title":"The Woodsman"},{"ns":0,"title":"Theodore Sedgwick"},{"ns":0,"title":"Twitter"},{"ns":0,"title":"Tyne
+        Daly"},{"ns":0,"title":"US$"},{"ns":0,"title":"United States"},{"ns":0,"title":"United
+        States Declaration of Independence"},{"ns":0,"title":"University of Southern
+        California"},{"ns":0,"title":"Venture capitalist"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"What''s Cooking?"},{"ns":0,"title":"William
+        Ellery"},{"ns":0,"title":"Women & Men 2"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Wikimedia
+        sister projects"},{"ns":10,"title":"Template:EmmyAward DramaLeadActress"},{"ns":10,"title":"Template:EmmyAward
+        DramaLeadActress 1952\u20131975"},{"ns":10,"title":"Template:EmmyAward DramaLeadActress
+        1976\u20132000"},{"ns":10,"title":"Template:EmmyAward DramaLeadActress 2001\u20132025"},{"ns":10,"title":"Template:GoldenGlobeBestActressTVDrama
+        1969\u20131979"},{"ns":10,"title":"Template:GoldenGlobeBestActressTVDrama
+        1980\u20131999"},{"ns":10,"title":"Template:GoldenGlobeBestActressTVDrama
+        2000\u20132019"},{"ns":10,"title":"Template:Golden Globe Award Best Actress
+        TV Drama"},{"ns":10,"title":"Template:Satellite Award Best Actress Television
+        Series Drama"},{"ns":11,"title":"Template talk:EmmyAward DramaLeadActress"},{"ns":11,"title":"Template
+        talk:GoldenGlobeBestActressTVDrama 2000\u20132019"},{"ns":11,"title":"Template
+        talk:Satellite Award Best Actress Television Series Drama"},{"ns":12,"title":"Help:CS1
+        errors"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:33 GMT
+recorded_with: VCR 2.9.2

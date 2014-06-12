@@ -1,0 +1,256 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Oliver%20Stone
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704705012, 2340344081, 1309480904
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5117'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:46 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4016 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"21486951|10|Academy_Award_Best_Adapted_Screenplay"}},"query":{"pages":{"21486951":{"pageid":21486951,"ns":0,"title":"Oliver
+        Stone","links":[{"ns":0,"title":"\"V\" device"},{"ns":0,"title":"1st Cavalry
+        Division (United States)"},{"ns":0,"title":"2003 invasion of Iraq"},{"ns":0,"title":"2007\u20132008
+        Writers Guild of America strike"},{"ns":0,"title":"2010 Cannes Film Festival"},{"ns":0,"title":"25th
+        Infantry Division (United States)"},{"ns":0,"title":"8 Million Ways to Die"},{"ns":0,"title":"AFI''s
+        100 Years... 100 Movies"},{"ns":0,"title":"Aaron Sorkin"},{"ns":0,"title":"Abby
+        Mann"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award for
+        Best Adapted Screenplay"},{"ns":0,"title":"Academy Award for Best Director"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Air Medal"},{"ns":0,"title":"Akira Kurosawa"},{"ns":0,"title":"Akiva
+        Goldsman"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Ball (screenwriter)"},{"ns":0,"title":"Alan
+        Jay Lerner"},{"ns":0,"title":"Alan Parker"},{"ns":0,"title":"Alex Gibney"},{"ns":0,"title":"Alexander
+        (film)"},{"ns":0,"title":"Alexander Payne"},{"ns":0,"title":"Alexander the
+        Great"},{"ns":0,"title":"Alfonso Cuar\u00f3n"},{"ns":0,"title":"Alfred Uhry"},{"ns":0,"title":"Alvin
+        Sargent"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"American
+        Film Institute"},{"ns":0,"title":"American Israel Public Affairs Committee"},{"ns":0,"title":"American
+        Jewish Committee"},{"ns":0,"title":"American University"},{"ns":0,"title":"American
+        football"},{"ns":0,"title":"Ang Lee"},{"ns":0,"title":"Anthony Harvey"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Anthony Minghella"},{"ns":0,"title":"Anti-Defamation
+        League"},{"ns":0,"title":"Any Given Sunday"},{"ns":0,"title":"Army Commendation
+        Medal"},{"ns":0,"title":"Arthur Hiller"},{"ns":0,"title":"Arthur Wimperis"},{"ns":0,"title":"Assassination
+        Records Review Board"},{"ns":0,"title":"Assassination of John F. Kennedy"},{"ns":0,"title":"Austin
+        Film Festival"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA
+        Award for Best Direction"},{"ns":0,"title":"Bachelor of Fine Arts"},{"ns":0,"title":"Barack
+        Obama"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Barry Levinson"},{"ns":0,"title":"Baz
+        Luhrmann"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benjamin Glazer"},{"ns":0,"title":"Benjamin
+        Netanyahu"},{"ns":0,"title":"Bernardo Bertolucci"},{"ns":0,"title":"Biblioteca
+        Nacional de Espa\u00f1a"},{"ns":0,"title":"Biblioth\u00e8que nationale de
+        France"},{"ns":0,"title":"Bill Condon"},{"ns":0,"title":"Bill Forsyth"},{"ns":0,"title":"Billy
+        Bob Thornton"},{"ns":0,"title":"Billy Hayes (writer)"},{"ns":0,"title":"Billy
+        Wilder"},{"ns":0,"title":"Biopic"},{"ns":0,"title":"Blue Steel (1989 film)"},{"ns":0,"title":"Bo
+        Goldman"},{"ns":0,"title":"Bob Fosse"},{"ns":0,"title":"Bolivia"},{"ns":0,"title":"Born
+        on the Fourth of July"},{"ns":0,"title":"Born on the Fourth of July (film)"},{"ns":0,"title":"Brazil"},{"ns":0,"title":"Brian
+        Helgeland"},{"ns":0,"title":"Bridget Boland"},{"ns":0,"title":"Bronze Star
+        Medal"},{"ns":0,"title":"Buddhism"},{"ns":0,"title":"CNN News"},{"ns":0,"title":"Callie
+        Khouri"},{"ns":0,"title":"Capitol Hill"},{"ns":0,"title":"Carl Foreman"},{"ns":0,"title":"Carl
+        Franklin"},{"ns":0,"title":"Carol Reed"},{"ns":0,"title":"Cecil Arthur Lewis"},{"ns":0,"title":"Cecil
+        B. DeMille"},{"ns":0,"title":"Channel 4"},{"ns":0,"title":"Charles Brackett"},{"ns":0,"title":"Charles
+        Burnett (director)"},{"ns":0,"title":"Charles Jarrott"},{"ns":0,"title":"Charles
+        Schnee"},{"ns":0,"title":"Chelsea Manning"},{"ns":0,"title":"Chris Terrio"},{"ns":0,"title":"Christopher
+        Hampton"},{"ns":0,"title":"Christopher McQuarrie"},{"ns":0,"title":"Christopher
+        Nolan"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Cocaine"},{"ns":0,"title":"Coen
+        brothers"},{"ns":0,"title":"College-preparatory"},{"ns":0,"title":"Comandante"},{"ns":0,"title":"Company
+        E, 52nd Infantry (LRP) (United States)"},{"ns":0,"title":"Conan the Barbarian
+        (1982 film)"},{"ns":0,"title":"Conspiracy theory"},{"ns":0,"title":"Costa-Gavras"},{"ns":0,"title":"Cuba"},{"ns":0,"title":"Curtis
+        Hanson"},{"ns":0,"title":"Dale Carnegie"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Daniel
+        Taradash"},{"ns":0,"title":"Daniel Yost"},{"ns":0,"title":"Danny Boyle"},{"ns":0,"title":"Darren
+        Aronofsky"},{"ns":0,"title":"Dave (film)"},{"ns":0,"title":"David Fincher"},{"ns":0,"title":"David
+        Lean"},{"ns":0,"title":"David Lee Henry"},{"ns":0,"title":"David O. Russell"},{"ns":0,"title":"Delbert
+        Mann"},{"ns":0,"title":"Diana Ossana"},{"ns":0,"title":"Directors Guild of
+        America Award for Outstanding Directing \u2013 Feature Film"},{"ns":0,"title":"Don
+        Roos"},{"ns":0,"title":"Don Winslow"},{"ns":0,"title":"Donald E. Stewart"},{"ns":0,"title":"Donald
+        Ogden Stewart"},{"ns":0,"title":"Drug rehabilitation"},{"ns":0,"title":"Dudley
+        Nichols"},{"ns":0,"title":"Ecuador"},{"ns":0,"title":"Edward Anhalt"},{"ns":0,"title":"Edwin
+        J. Burke"},{"ns":0,"title":"Ehud Barak"},{"ns":0,"title":"Elia Kazan"},{"ns":0,"title":"Emma
+        Thompson"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Episcopal
+        Church in the United States of America"},{"ns":0,"title":"Eric Bogosian"},{"ns":0,"title":"Eric
+        Roth"},{"ns":0,"title":"Erich Segal"},{"ns":0,"title":"Ernest Thompson"},{"ns":0,"title":"Ernest
+        Tidyman"},{"ns":0,"title":"Evita (film)"},{"ns":0,"title":"Evita (musical)"},{"ns":0,"title":"Evo
+        Morales"},{"ns":0,"title":"FARC"},{"ns":0,"title":"Fernando Lugo"},{"ns":0,"title":"Fidel
+        Castro"},{"ns":0,"title":"Film director"},{"ns":0,"title":"Filmmaking"},{"ns":0,"title":"Fran
+        Walsh"},{"ns":0,"title":"Frances Marion"},{"ns":0,"title":"Francis Ford Coppola"},{"ns":0,"title":"Frank
+        Borzage"},{"ns":0,"title":"Frank Butler (writer)"},{"ns":0,"title":"Frank
+        Capra"},{"ns":0,"title":"Frank Lloyd"},{"ns":0,"title":"Franklin J. Schaffner"},{"ns":0,"title":"Fran\u00e7ois
+        Truffaut"},{"ns":0,"title":"Fred Zinnemann"},{"ns":0,"title":"Freeway (1996
+        film)"},{"ns":0,"title":"French American"},{"ns":0,"title":"French language"},{"ns":0,"title":"Geoffrey
+        S. Fletcher"},{"ns":0,"title":"George Bernard Shaw"},{"ns":0,"title":"George
+        Cukor"},{"ns":0,"title":"George Froeschel"},{"ns":0,"title":"George Roy Hill"},{"ns":0,"title":"George
+        Seaton"},{"ns":0,"title":"George Stevens"},{"ns":0,"title":"George W. Bush"},{"ns":0,"title":"Glenn
+        Greenwald"},{"ns":0,"title":"Going Clear: Scientology, Hollywood, and the
+        Prison of Belief"},{"ns":0,"title":"Golden Globe Award for Best Director"},{"ns":0,"title":"Golden
+        Globe Award for Best Screenplay"},{"ns":0,"title":"Gravesend (film)"},{"ns":0,"title":"Greystone
+        Park"},{"ns":0,"title":"Gus Van Sant"},{"ns":0,"title":"Hanns Kr\u00e4ly"},{"ns":0,"title":"Harry
+        Brown (writer)"},{"ns":0,"title":"Heaven & Earth (1993 film)"},{"ns":0,"title":"Helmut
+        Kohl"},{"ns":0,"title":"Henry King (director)"},{"ns":0,"title":"Herbert Ross"},{"ns":0,"title":"Historical
+        revisionism (negationism)"},{"ns":0,"title":"Holocaust"},{"ns":0,"title":"Horton
+        Foote"},{"ns":0,"title":"Howard E. Koch"},{"ns":0,"title":"Howard Estabrook"},{"ns":0,"title":"Hudson
+        Institute"},{"ns":0,"title":"Hugo Ch\u00e1vez"},{"ns":0,"title":"Humanism
+        and Its Aspirations"},{"ns":0,"title":"Humanitarian exchange"},{"ns":0,"title":"IMDb"},{"ns":0,"title":"Ian
+        Dalrymple"},{"ns":0,"title":"Independent Spirit Award for Best Director"},{"ns":0,"title":"Independent
+        Spirit Award for Best Screenplay"},{"ns":0,"title":"Indictment: The McMartin
+        Trial"},{"ns":0,"title":"IndieWire"},{"ns":0,"title":"Integrated Authority
+        File"},{"ns":0,"title":"International Herald Tribune"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Istituto Centrale per il Catalogo Unico"},{"ns":0,"title":"JFK
+        (film)"},{"ns":0,"title":"Jack Cardiff"},{"ns":0,"title":"James Cameron"},{"ns":0,"title":"James
+        Goldman"},{"ns":0,"title":"James Hilton (novelist)"},{"ns":0,"title":"James
+        L. Brooks"},{"ns":0,"title":"James Poe"},{"ns":0,"title":"Jason Reitman"},{"ns":0,"title":"Jerome
+        Robbins"},{"ns":0,"title":"Jew"},{"ns":0,"title":"Jewish American"},{"ns":0,"title":"Jim
+        Morrison"},{"ns":0,"title":"Jim Rash"},{"ns":0,"title":"Jim Taylor (writer)"},{"ns":0,"title":"Joel
+        and Ethan Coen"},{"ns":0,"title":"John Briley"},{"ns":0,"title":"John Densmore"},{"ns":0,"title":"John
+        Farrow"},{"ns":0,"title":"John Ford"},{"ns":0,"title":"John G. Avildsen"},{"ns":0,"title":"John
+        Huston"},{"ns":0,"title":"John Irving"},{"ns":0,"title":"John McCain"},{"ns":0,"title":"John
+        Milius"},{"ns":0,"title":"John Osborne"},{"ns":0,"title":"John Ridley"},{"ns":0,"title":"John
+        Schlesinger"},{"ns":0,"title":"Jonathan Dayton and Valerie Faris"},{"ns":0,"title":"Jonathan
+        Demme"},{"ns":0,"title":"Joseph Farnham"},{"ns":0,"title":"Joseph L. Mankiewicz"},{"ns":0,"title":"Joshua
+        Logan"},{"ns":0,"title":"Jos\u00e9 Luis Torrente"},{"ns":0,"title":"Julian
+        Assange"},{"ns":0,"title":"Julian Schnabel"},{"ns":0,"title":"Julius J. Epstein"},{"ns":0,"title":"Kathryn
+        Bigelow"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kenneth Lonergan"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kevin Smith"},{"ns":0,"title":"Killer: A Journal
+        of Murder"},{"ns":0,"title":"Kurt Luedtke"},{"ns":0,"title":"LIBRIS"},{"ns":0,"title":"Larry
+        McMurtry"},{"ns":0,"title":"Latin America"},{"ns":0,"title":"Lawrence Wright"},{"ns":0,"title":"Le
+        Ly Hayslip"},{"ns":0,"title":"Lee Daniels"},{"ns":0,"title":"Left wing"},{"ns":0,"title":"Lennox
+        Robinson"},{"ns":0,"title":"Leo McCarey"},{"ns":0,"title":"Lewis Milestone"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lisa Cholodenko"},{"ns":0,"title":"Looking
+        for Fidel"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Louis Malle"},{"ns":0,"title":"Lula
+        da Silva"},{"ns":0,"title":"L\u00e1szl\u00f3 Benedek"},{"ns":0,"title":"L\u00e9gion
+        d''Honneur"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Marc Norman"},{"ns":0,"title":"Mario
+        Puzo"},{"ns":0,"title":"Mark Peploe"},{"ns":0,"title":"Martha Coolidge"},{"ns":0,"title":"Martin
+        Flavin"},{"ns":0,"title":"Martin Scorsese"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matt
+        Graham (screenwriter)"},{"ns":0,"title":"Mel Gibson"},{"ns":0,"title":"Michael
+        Blake (author)"},{"ns":0,"title":"Michael C. Moynihan"},{"ns":0,"title":"Michael
+        Cimino"},{"ns":0,"title":"Michael Curtiz"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        H. Weber"},{"ns":0,"title":"Michael Moore"},{"ns":0,"title":"Michael Radford"},{"ns":0,"title":"Michael
+        Wilson (writer)"},{"ns":0,"title":"Michel Hazanavicius"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Midnight Express (book)"},{"ns":0,"title":"Midnight
+        Express (film)"},{"ns":0,"title":"Mike Figgis"},{"ns":0,"title":"Mike Leigh"},{"ns":0,"title":"Mike
+        Newell (director)"},{"ns":0,"title":"Mike Nichols"},{"ns":0,"title":"Mike
+        White (scriptwriter)"},{"ns":0,"title":"Mikhail Gorbachev"},{"ns":0,"title":"Milo\u0161
+        Forman"},{"ns":0,"title":"Miniseries"},{"ns":0,"title":"Mitt Romney"},{"ns":0,"title":"Moral
+        equivalence"},{"ns":0,"title":"MovieMaker"},{"ns":0,"title":"My Lai Massacre"},{"ns":0,"title":"Naomi
+        Foner Gyllenhaal"},{"ns":0,"title":"Nat Faxon"},{"ns":0,"title":"National
+        Diet Library"},{"ns":0,"title":"National Library of Australia"},{"ns":0,"title":"National
+        Library of the Czech Republic"},{"ns":0,"title":"Natural Born Killers"},{"ns":0,"title":"Nazi"},{"ns":0,"title":"Neal
+        Jimenez"},{"ns":0,"title":"Neil Paterson (writer)"},{"ns":0,"title":"Neil
+        Simon"},{"ns":0,"title":"New York"},{"ns":0,"title":"New York City"},{"ns":0,"title":"New
+        York Post"},{"ns":0,"title":"New York Times"},{"ns":0,"title":"New York University"},{"ns":0,"title":"Newsday"},{"ns":0,"title":"Nixon
+        (film)"},{"ns":0,"title":"Norman Reilly Raine"},{"ns":0,"title":"Norman Taurog"},{"ns":0,"title":"Oli
+        Stone"},{"ns":0,"title":"Oliver Stone''s Untold History of the United States"},{"ns":0,"title":"Operation
+        Emmanuel"},{"ns":0,"title":"Oregon"},{"ns":0,"title":"Paddy Chayefsky"},{"ns":0,"title":"Palestine
+        Liberation Organization"},{"ns":0,"title":"Paraguay"},{"ns":0,"title":"Patricia
+        Kennealy Morrison"},{"ns":0,"title":"Paul Greengrass"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"Pedro Almod\u00f3var"},{"ns":0,"title":"People for
+        the Ethical Treatment of Animals"},{"ns":0,"title":"Persona Non Grata (film)"},{"ns":0,"title":"Peter
+        J. Kuznick"},{"ns":0,"title":"Peter Jackson"},{"ns":0,"title":"Peter Morgan"},{"ns":0,"title":"Peter
+        Shaffer"},{"ns":0,"title":"Peter Weir"},{"ns":0,"title":"Philip G. Epstein"},{"ns":0,"title":"Philippa
+        Boyens"},{"ns":0,"title":"Pinkville"},{"ns":0,"title":"Platoon (film)"},{"ns":0,"title":"Port
+        Authority Police Department"},{"ns":0,"title":"Pottstown, Pennsylvania"},{"ns":0,"title":"President
+        of the United States"},{"ns":0,"title":"Protestant"},{"ns":0,"title":"Protocols
+        of the Elders of Zion"},{"ns":0,"title":"Pulitzer Prize"},{"ns":0,"title":"Purple
+        Heart"},{"ns":0,"title":"Quentin Tarantino"},{"ns":0,"title":"Ramon Menendez"},{"ns":0,"title":"Ram\u00f3n
+        Men\u00e9ndez"},{"ns":0,"title":"Ray Manzarek"},{"ns":0,"title":"Ra\u00fal
+        Castro"},{"ns":0,"title":"Research fellow"},{"ns":0,"title":"Reversal of Fortune"},{"ns":0,"title":"Richard
+        Attenborough"},{"ns":0,"title":"Richard Brooks"},{"ns":0,"title":"Richard
+        Nixon"},{"ns":0,"title":"Ring Lardner, Jr."},{"ns":0,"title":"Rob Marshall"},{"ns":0,"title":"Robby
+        Krieger"},{"ns":0,"title":"Robert Altman"},{"ns":0,"title":"Robert Benton"},{"ns":0,"title":"Robert
+        Bolt"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert E. Sherwood"},{"ns":0,"title":"Robert
+        Redford"},{"ns":0,"title":"Robert Riskin"},{"ns":0,"title":"Robert Rossen"},{"ns":0,"title":"Robert
+        Towne"},{"ns":0,"title":"Robert Wise"},{"ns":0,"title":"Robert Zemeckis"},{"ns":0,"title":"Roger
+        Avary"},{"ns":0,"title":"Roger Ebert"},{"ns":0,"title":"Roman Catholic"},{"ns":0,"title":"Roman
+        Polanski"},{"ns":0,"title":"Rome"},{"ns":0,"title":"Ron Howard"},{"ns":0,"title":"Ron
+        Kovic"},{"ns":0,"title":"Ron Paul"},{"ns":0,"title":"Ronald Harwood"},{"ns":0,"title":"Ronald
+        Radosh"},{"ns":0,"title":"Ruth Prawer Jhabvala"},{"ns":0,"title":"S. J. Perelman"},{"ns":0,"title":"Salvador
+        (film)"},{"ns":0,"title":"Sam Mendes"},{"ns":0,"title":"San Francisco Chronicle"},{"ns":0,"title":"San
+        Sebasti\u00e1n International Film Festival"},{"ns":0,"title":"Sarah Y. Mason"},{"ns":0,"title":"Savages
+        (2012 film)"},{"ns":0,"title":"Savior (film)"},{"ns":0,"title":"Scarface (1983
+        film)"},{"ns":0,"title":"Scientology"},{"ns":0,"title":"Scientology in Germany"},{"ns":0,"title":"Scott
+        Alexander and Larry Karaszewski"},{"ns":0,"title":"Scott Neustadter"},{"ns":0,"title":"Screenwriter"},{"ns":0,"title":"Sean
+        Stone"},{"ns":0,"title":"Seizure (film)"},{"ns":0,"title":"September 11 attacks"},{"ns":0,"title":"Seton
+        I. Miller"},{"ns":0,"title":"Sheldon Turner"},{"ns":0,"title":"Shimon Peres"},{"ns":0,"title":"Showtime
+        (TV network)"},{"ns":0,"title":"Sidney Buchman"},{"ns":0,"title":"Sidney Howard"},{"ns":0,"title":"Sidney
+        Lumet"},{"ns":0,"title":"Simon Beaufoy"},{"ns":0,"title":"Simon Wiesenthal
+        Center"},{"ns":0,"title":"Sofia Coppola"},{"ns":0,"title":"South Central (film)"},{"ns":0,"title":"South
+        Vietnam"},{"ns":0,"title":"South of the Border (2009 film)"},{"ns":0,"title":"Soviet
+        Union"},{"ns":0,"title":"Spike Jonze"},{"ns":0,"title":"St. Martin''s Press"},{"ns":0,"title":"Stamford,
+        Connecticut"},{"ns":0,"title":"Stanley Kramer"},{"ns":0,"title":"Stanley Kubrick"},{"ns":0,"title":"Stephen
+        Gaghan"},{"ns":0,"title":"Steve McQueen (director)"},{"ns":0,"title":"Steven
+        Soderbergh"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Steven Zaillian"},{"ns":0,"title":"Stirling
+        Silliphant"},{"ns":0,"title":"Stockbroker"},{"ns":0,"title":"Strange Days:
+        My Life With and Without Jim Morrison"},{"ns":0,"title":"Stuart Blumberg"},{"ns":0,"title":"Sugar
+        Cookies (film)"},{"ns":0,"title":"Sydney Pollack"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Talk Radio (film)"},{"ns":0,"title":"Tamara
+        Jenkins"},{"ns":0,"title":"Tavis Smiley"},{"ns":0,"title":"Ted Tally"},{"ns":0,"title":"TeleSUR"},{"ns":0,"title":"The
+        Battle of Love''s Return"},{"ns":0,"title":"The Corruptor"},{"ns":0,"title":"The
+        Day Reagan Was Shot"},{"ns":0,"title":"The Doors"},{"ns":0,"title":"The Doors
+        (film)"},{"ns":0,"title":"The Guardian"},{"ns":0,"title":"The Hand (film)"},{"ns":0,"title":"The
+        Hill School"},{"ns":0,"title":"The Joy Luck Club (film)"},{"ns":0,"title":"The
+        New Age (film)"},{"ns":0,"title":"The Observer"},{"ns":0,"title":"The People
+        vs. Larry Flynt"},{"ns":0,"title":"The Times"},{"ns":0,"title":"The Washington
+        Post"},{"ns":0,"title":"Thomas McCarthy (actor)"},{"ns":0,"title":"Time (magazine)"},{"ns":0,"title":"Todd
+        Haynes"},{"ns":0,"title":"Tom Hooper"},{"ns":0,"title":"Tom Musca"},{"ns":0,"title":"Tom
+        Stoppard"},{"ns":0,"title":"Tony Richardson"},{"ns":0,"title":"Total Film"},{"ns":0,"title":"Trinity
+        School (New York City)"},{"ns":0,"title":"U Turn (1997 film)"},{"ns":0,"title":"United
+        Artists"},{"ns":0,"title":"United States Congress"},{"ns":0,"title":"United
+        States Merchant Marine"},{"ns":0,"title":"United States presidential election,
+        2008"},{"ns":0,"title":"United States presidential election, 2012"},{"ns":0,"title":"Venezuela"},{"ns":0,"title":"Venice
+        International Film Festival"},{"ns":0,"title":"Veteran"},{"ns":0,"title":"Victor
+        Fleming"},{"ns":0,"title":"Victor Heerman"},{"ns":0,"title":"Vietnam War"},{"ns":0,"title":"Vietnam
+        war"},{"ns":0,"title":"Vincente Minnelli"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"W. (film)"},{"ns":0,"title":"W. P. Lipscomb"},{"ns":0,"title":"Waldo
+        Salt"},{"ns":0,"title":"Wall Street: Money Never Sleeps"},{"ns":0,"title":"Wall
+        Street (1987 film)"},{"ns":0,"title":"Warren Beatty"},{"ns":0,"title":"Wes
+        Anderson"},{"ns":0,"title":"Western world"},{"ns":0,"title":"When Heaven and
+        Earth Changed Places"},{"ns":0,"title":"WikiLeaks"},{"ns":0,"title":"Wild
+        Palms"},{"ns":0,"title":"William Friedkin"},{"ns":0,"title":"William Goldman"},{"ns":0,"title":"William
+        Monahan"},{"ns":0,"title":"William Peter Blatty"},{"ns":0,"title":"William
+        Wyler"},{"ns":0,"title":"Wim Wenders"},{"ns":0,"title":"Wiper (occupation)"},{"ns":0,"title":"Woody
+        Allen"},{"ns":0,"title":"World Trade Center (film)"},{"ns":0,"title":"World
+        War II"},{"ns":0,"title":"Yale Daily News"},{"ns":0,"title":"Yale University"},{"ns":0,"title":"Yasser
+        Arafat"},{"ns":0,"title":"Year of the Dragon (film)"},{"ns":0,"title":"Zebrahead
+        (film)"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Persondata"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:47 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Library%20of%20Congress%20Control%20Number
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711859262, 3536756509, 3142912390
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '271'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:34 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4008 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1491462":{"pageid":1491462,"ns":0,"title":"Library
+        of Congress Control Number","links":[{"ns":0,"title":"CODEN"},{"ns":0,"title":"Hyphen"},{"ns":0,"title":"Identifier"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Librarian"},{"ns":0,"title":"Library
+        catalog"},{"ns":0,"title":"Library of Congress"},{"ns":0,"title":"Library
+        of Congress Classification"},{"ns":0,"title":"Serial number"},{"ns":0,"title":"Universal
+        Authority File"},{"ns":4,"title":"Wikipedia:Stub"},{"ns":10,"title":"Template:LOC-stub"},{"ns":11,"title":"Template
+        talk:LOC-stub"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:34 GMT
+recorded_with: VCR 2.9.2

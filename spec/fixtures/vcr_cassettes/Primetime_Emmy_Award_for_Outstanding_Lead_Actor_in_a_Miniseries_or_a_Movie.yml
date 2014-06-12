@@ -1,0 +1,307 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Primetime%20Emmy%20Award%20for%20Outstanding%20Lead%20Actor%20in%20a%20Miniseries%20or%20a%20Movie
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287168425, 3085163458, 1309488539
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4692'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:55 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"4038261|0|Sam_Neill"}},"query":{"pages":{"4038261":{"pageid":4038261,"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie","links":[{"ns":0,"title":"12
+        Angry Men (1997 film)"},{"ns":0,"title":"1980 in television"},{"ns":0,"title":"1981
+        in television"},{"ns":0,"title":"1982 in television"},{"ns":0,"title":"1983
+        in television"},{"ns":0,"title":"1984 in television"},{"ns":0,"title":"1985
+        in television"},{"ns":0,"title":"1986 in television"},{"ns":0,"title":"1987
+        in television"},{"ns":0,"title":"1988 in television"},{"ns":0,"title":"1989
+        in television"},{"ns":0,"title":"1990 in television"},{"ns":0,"title":"1991
+        in television"},{"ns":0,"title":"1992 in television"},{"ns":0,"title":"1993
+        in television"},{"ns":0,"title":"1994 in television"},{"ns":0,"title":"1995
+        in television"},{"ns":0,"title":"1996 in television"},{"ns":0,"title":"1997
+        in television"},{"ns":0,"title":"1998 in television"},{"ns":0,"title":"1999
+        in television"},{"ns":0,"title":"2000 in television"},{"ns":0,"title":"2001
+        in television"},{"ns":0,"title":"2002 in television"},{"ns":0,"title":"2003
+        in television"},{"ns":0,"title":"2004 in television"},{"ns":0,"title":"2005
+        in television"},{"ns":0,"title":"2006 in television"},{"ns":0,"title":"2007
+        in television"},{"ns":0,"title":"2008 in television"},{"ns":0,"title":"2009
+        in television"},{"ns":0,"title":"2010 in television"},{"ns":0,"title":"2011
+        in television"},{"ns":0,"title":"2012 in television"},{"ns":0,"title":"2013
+        in television"},{"ns":0,"title":"24: Redemption"},{"ns":0,"title":"32nd Primetime
+        Emmy Awards"},{"ns":0,"title":"33rd Primetime Emmy Awards"},{"ns":0,"title":"34th
+        Primetime Emmy Awards"},{"ns":0,"title":"35th Primetime Emmy Awards"},{"ns":0,"title":"36th
+        Primetime Emmy Awards"},{"ns":0,"title":"37th Primetime Emmy Awards"},{"ns":0,"title":"38th
+        Primetime Emmy Awards"},{"ns":0,"title":"39th Primetime Emmy Awards"},{"ns":0,"title":"40th
+        Primetime Emmy Awards"},{"ns":0,"title":"41st Primetime Emmy Awards"},{"ns":0,"title":"42nd
+        Primetime Emmy Awards"},{"ns":0,"title":"43rd Primetime Emmy Awards"},{"ns":0,"title":"44th
+        Primetime Emmy Awards"},{"ns":0,"title":"45th Primetime Emmy Awards"},{"ns":0,"title":"46th
+        Primetime Emmy Awards"},{"ns":0,"title":"47th Primetime Emmy Awards"},{"ns":0,"title":"48th
+        Primetime Emmy Awards"},{"ns":0,"title":"49th Primetime Emmy Awards"},{"ns":0,"title":"50th
+        Primetime Emmy Awards"},{"ns":0,"title":"51st Primetime Emmy Awards"},{"ns":0,"title":"52nd
+        Primetime Emmy Awards"},{"ns":0,"title":"53rd Primetime Emmy Awards"},{"ns":0,"title":"54th
+        Primetime Emmy Awards"},{"ns":0,"title":"55th Primetime Emmy Awards"},{"ns":0,"title":"56th
+        Primetime Emmy Awards"},{"ns":0,"title":"57th Primetime Emmy Awards"},{"ns":0,"title":"58th
+        Primetime Emmy Awards"},{"ns":0,"title":"59th Primetime Emmy Awards"},{"ns":0,"title":"60th
+        Primetime Emmy Awards"},{"ns":0,"title":"61*"},{"ns":0,"title":"61st Primetime
+        Emmy Awards"},{"ns":0,"title":"62nd Primetime Emmy Awards"},{"ns":0,"title":"63rd
+        Primetime Emmy Awards"},{"ns":0,"title":"64th Primetime Emmy Awards"},{"ns":0,"title":"65th
+        Primetime Emmy Awards"},{"ns":0,"title":"A&E (TV channel)"},{"ns":0,"title":"A&E
+        Network"},{"ns":0,"title":"AMC (TV channel)"},{"ns":0,"title":"A Christmas
+        Carol (1984 film)"},{"ns":0,"title":"A Dog Year"},{"ns":0,"title":"A Family
+        Upside Down"},{"ns":0,"title":"A Gathering of Old Men (film)"},{"ns":0,"title":"A
+        Lesson Before Dying"},{"ns":0,"title":"A Moon for the Misbegotten"},{"ns":0,"title":"A
+        Scandal in Belgravia"},{"ns":0,"title":"A Storm in Summer"},{"ns":0,"title":"A
+        Streetcar Named Desire (1995 film)"},{"ns":0,"title":"Academy of Television
+        Arts & Sciences"},{"ns":0,"title":"Adam (TV film)"},{"ns":0,"title":"Adolf
+        Eichmann"},{"ns":0,"title":"Adolf Hitler"},{"ns":0,"title":"Age-Old Friends"},{"ns":0,"title":"Aidan
+        Quinn"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Alda"},{"ns":0,"title":"Alan
+        Arkin"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec
+        Baldwin"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alfred Blalock"},{"ns":0,"title":"Alfred
+        Hitchcock"},{"ns":0,"title":"Alfred Lunt"},{"ns":0,"title":"American Broadcasting
+        Company"},{"ns":0,"title":"An Early Frost"},{"ns":0,"title":"An Evening With
+        Fred Astaire"},{"ns":0,"title":"And Starring Pancho Villa as Himself"},{"ns":0,"title":"And
+        the Band Played On"},{"ns":0,"title":"Andre Braugher"},{"ns":0,"title":"Andy
+        Garc\u00eda"},{"ns":0,"title":"Andy Millman"},{"ns":0,"title":"Angels in America
+        (miniseries)"},{"ns":0,"title":"Anne Frank: The Whole Story"},{"ns":0,"title":"Anthony
+        Andrews"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony Murphy
+        (actor)"},{"ns":0,"title":"Antonio Banderas"},{"ns":0,"title":"Anwar Sadat"},{"ns":0,"title":"Armand
+        Assante"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Arturo Sandoval"},{"ns":0,"title":"BBC
+        America"},{"ns":0,"title":"Backstairs at the White House"},{"ns":0,"title":"Barbarians
+        at the Gate (film)"},{"ns":0,"title":"Barefoot in Athens"},{"ns":0,"title":"Barry
+        Pepper"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Beauty and the Beast
+        (1976 film)"},{"ns":0,"title":"Behind the Candelabra"},{"ns":0,"title":"Ben
+        Gazzara"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benedict Cumberbatch"},{"ns":0,"title":"Bernard
+        Lafferty"},{"ns":0,"title":"Bernard and Doris"},{"ns":0,"title":"Bill: On
+        His Own"},{"ns":0,"title":"Bill (1981 film)"},{"ns":0,"title":"Bill Clinton"},{"ns":0,"title":"Bill
+        Paxton"},{"ns":0,"title":"Bill Porter (salesman)"},{"ns":0,"title":"Bill Robinson"},{"ns":0,"title":"Bill
+        Sackter"},{"ns":0,"title":"Bill W."},{"ns":0,"title":"Bleak House (2005 TV
+        serial)"},{"ns":0,"title":"Blood Feud (1983 film)"},{"ns":0,"title":"Bojangles
+        (film)"},{"ns":0,"title":"Brad Garrett"},{"ns":0,"title":"Breathing Lessons"},{"ns":0,"title":"Brendan
+        Gleeson"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Brideshead Revisited
+        (TV serial)"},{"ns":0,"title":"Broadcast syndication"},{"ns":0,"title":"Broken
+        Trail"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Caine Mutiny Court Marshal"},{"ns":0,"title":"Captains
+        and the Kings"},{"ns":0,"title":"Carlos (TV miniseries)"},{"ns":0,"title":"Carlos
+        the Jackal"},{"ns":0,"title":"Charles Dance"},{"ns":0,"title":"Charles S.
+        Dutton"},{"ns":0,"title":"Chico Mendes"},{"ns":0,"title":"Christmas on Division
+        Street"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Citizen Cohn"},{"ns":0,"title":"Clarence Earl Gideon"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Clive Owen"},{"ns":0,"title":"Columbo (TV series)"},{"ns":0,"title":"Conspiracy
+        (2001 film)"},{"ns":0,"title":"Crazy from the Heart"},{"ns":0,"title":"Cyrano
+        de Bergerac (2008 film)"},{"ns":0,"title":"Cyrano de Bergerac (writer)"},{"ns":0,"title":"Daniel
+        J. Travanti"},{"ns":0,"title":"Danny Glover"},{"ns":0,"title":"Dash and Lilly"},{"ns":0,"title":"Dashiell
+        Hammett"},{"ns":0,"title":"David O. Selznick"},{"ns":0,"title":"Death of a
+        Salesman (1985 film)"},{"ns":0,"title":"Death of a Salesman (2000 film)"},{"ns":0,"title":"Decoration
+        Day (film)"},{"ns":0,"title":"Dennis Hopper"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Devil
+        Anse Hatfield"},{"ns":0,"title":"Do Not Go Gentle Into That Good Night (film)"},{"ns":0,"title":"Do
+        You Remember Love (TV Movie)"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Don
+        King: Only in America"},{"ns":0,"title":"Don King (boxing promoter)"},{"ns":0,"title":"Donald
+        Sutherland"},{"ns":0,"title":"Door to Door (film)"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Ebenezer Scrooge"},{"ns":0,"title":"Ed Flanders"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Edward Herrmann"},{"ns":0,"title":"Eleanor and Franklin"},{"ns":0,"title":"Eleanor
+        and Franklin: The White House Years"},{"ns":0,"title":"Elvis (1979 film)"},{"ns":0,"title":"Elvis
+        (TV miniseries)"},{"ns":0,"title":"Elvis Presley"},{"ns":0,"title":"Empire
+        Falls (miniseries)"},{"ns":0,"title":"Ernest Hemingway"},{"ns":0,"title":"Ernest
+        Shackleton"},{"ns":0,"title":"Escape from Sobibor"},{"ns":0,"title":"Extras
+        (TV series)"},{"ns":0,"title":"F.D.R.: The Last Year"},{"ns":0,"title":"F.
+        Ross Johnson"},{"ns":0,"title":"FX (TV channel)"},{"ns":0,"title":"Fear on
+        Trial"},{"ns":0,"title":"For Love or Country: The Arturo Sandoval Story"},{"ns":0,"title":"Fox
+        Broadcasting Company"},{"ns":0,"title":"Foxfire (1987 film)"},{"ns":0,"title":"Frank
+        Pakenham, 7th Earl of Longford"},{"ns":0,"title":"Franklin D. Roosevelt"},{"ns":0,"title":"Franklin
+        Delano Roosevelt"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Friendly
+        Fire (1979 film)"},{"ns":0,"title":"Fritz Weaver"},{"ns":0,"title":"Game Change
+        (film)"},{"ns":0,"title":"Gary Gilmore"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George Grizzard"},{"ns":0,"title":"George
+        Smiley"},{"ns":0,"title":"George Wallace"},{"ns":0,"title":"George Wallace
+        (film)"},{"ns":0,"title":"Gideon''s Trumpet"},{"ns":0,"title":"Golden Globe
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Gotti
+        (1996 film)"},{"ns":0,"title":"Greg Kinnear"},{"ns":0,"title":"Gregory Hines"},{"ns":0,"title":"Grigori
+        Rasputin"},{"ns":0,"title":"Guyana Tragedy: The Story of Jim Jones"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hal
+        Holbrook"},{"ns":0,"title":"Hank Paulson"},{"ns":0,"title":"Harry S. Truman
+        Plain Speaking"},{"ns":0,"title":"Harry Truman"},{"ns":0,"title":"Hatfields
+        & McCoys (miniseries)"},{"ns":0,"title":"Heartsounds"},{"ns":0,"title":"Hemingway
+        & Gellhorn"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Herman Tarnower"},{"ns":0,"title":"Hidden
+        in America"},{"ns":0,"title":"History (U.S. TV channel)"},{"ns":0,"title":"Holocaust
+        (TV miniseries)"},{"ns":0,"title":"How Green Was My Valley (TV miniseries)"},{"ns":0,"title":"Huey
+        P. Long"},{"ns":0,"title":"Human Trafficking (TV miniseries)"},{"ns":0,"title":"Hume
+        Cronyn"},{"ns":0,"title":"I''ll Fly Away: Then and Now"},{"ns":0,"title":"ITV
+        Network"},{"ns":0,"title":"Ian Holm"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Idris
+        Elba"},{"ns":0,"title":"Indictment: The McMartin Trial"},{"ns":0,"title":"Inherit
+        the Wind (1988 film)"},{"ns":0,"title":"Inherit the Wind (1999 film)"},{"ns":0,"title":"Into
+        the Storm (2009 film)"},{"ns":0,"title":"Jack Bauer"},{"ns":0,"title":"Jack
+        Kevorkian"},{"ns":0,"title":"Jack Klugman"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack
+        Palance"},{"ns":0,"title":"Jackie Gleason"},{"ns":0,"title":"James Baker"},{"ns":0,"title":"James
+        Brady"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James Dean"},{"ns":0,"title":"James
+        Dean (film)"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James
+        Stacy"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jekyll & Hyde"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jesse
+        Stone: Sea Change"},{"ns":0,"title":"Jesse Stone (character)"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"Jim Jones"},{"ns":0,"title":"Jimmy Hoffa"},{"ns":0,"title":"John
+        Adams"},{"ns":0,"title":"John Adams (TV miniseries)"},{"ns":0,"title":"John
+        Blackthorne"},{"ns":0,"title":"John F. Kennedy"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Goodman"},{"ns":0,"title":"John Gotti"},{"ns":0,"title":"John List"},{"ns":0,"title":"John
+        Lithgow"},{"ns":0,"title":"John Marshall Slaton"},{"ns":0,"title":"John Walsh
+        (television host)"},{"ns":0,"title":"John Wayne Gacy"},{"ns":0,"title":"Jon
+        Katz"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Joseph
+        Merrick"},{"ns":0,"title":"Joseph Stalin"},{"ns":0,"title":"Judgment Day:
+        The John List Story"},{"ns":0,"title":"Keith Michell"},{"ns":0,"title":"Kenneth
+        Branagh"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kevin
+        Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kiefer Sutherland"},{"ns":0,"title":"Kill
+        Me If You Can (1977 film)"},{"ns":0,"title":"King (TV miniseries)"},{"ns":0,"title":"King
+        Lear"},{"ns":0,"title":"King Lear (1983 TV drama)"},{"ns":0,"title":"King
+        Lear (1998 film)"},{"ns":0,"title":"King Lear (2008 TV film)"},{"ns":0,"title":"Kingfish:
+        The Story of Huey P. Long"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Kissinger
+        and Nixon"},{"ns":0,"title":"Kurt Russell"},{"ns":0,"title":"Kurt Wallander"},{"ns":0,"title":"LBJ:
+        The Early Years"},{"ns":0,"title":"Laurence Fishburne"},{"ns":0,"title":"Laurence
+        Olivier"},{"ns":0,"title":"Leon Feldhendler"},{"ns":0,"title":"Liberace"},{"ns":0,"title":"Liev
+        Schreiber"},{"ns":0,"title":"Lifetime (TV network)"},{"ns":0,"title":"List
+        of Luther characters"},{"ns":0,"title":"Lloyd Nolan"},{"ns":0,"title":"Lonesome
+        Dove (TV miniseries)"},{"ns":0,"title":"Long Day''s Journey into Night"},{"ns":0,"title":"Longford
+        (film)"},{"ns":0,"title":"Louis Gossett, Jr."},{"ns":0,"title":"Love Among
+        the Ruins (film)"},{"ns":0,"title":"Lucius Flavius Silva"},{"ns":0,"title":"Luther
+        (TV series)"},{"ns":0,"title":"Lyndon B. Johnson"},{"ns":0,"title":"Macbeth
+        (1960 TV film)"},{"ns":0,"title":"Male of the Species"},{"ns":0,"title":"Mandela
+        (1987 film)"},{"ns":0,"title":"Mandela and De Klerk"},{"ns":0,"title":"Martin
+        Sheen"},{"ns":0,"title":"Masada (miniseries)"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matthew
+        Modine"},{"ns":0,"title":"Matthew Perry"},{"ns":0,"title":"Maurice Evans (actor)"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Merlin"},{"ns":0,"title":"Merlin
+        (film)"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Gambon"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Michael Sheen"},{"ns":0,"title":"Michael
+        Strobl"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Mickey Schwerner"},{"ns":0,"title":"Miss
+        Evers'' Boys"},{"ns":0,"title":"Miss Rose White"},{"ns":0,"title":"Moby Dick
+        (1998 film)"},{"ns":0,"title":"Morrie Schwartz"},{"ns":0,"title":"Mos Def"},{"ns":0,"title":"Moviola:
+        The Scarlett O''Hara War"},{"ns":0,"title":"Mrs. Harris (film)"},{"ns":0,"title":"Murder
+        in Mississippi"},{"ns":0,"title":"Murderers Among Us: The Simon Wiesenthal
+        Story"},{"ns":0,"title":"My Brother''s Keeper (1995 film)"},{"ns":0,"title":"My
+        Name Is Bill W."},{"ns":0,"title":"NBC"},{"ns":0,"title":"Ned Beatty"},{"ns":0,"title":"Nelson
+        Mandela"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nightmares & Dreamscapes:
+        From the Stories of Stephen King"},{"ns":0,"title":"Normal (2003 film)"},{"ns":0,"title":"Number
+        Two (The Prisoner)"},{"ns":0,"title":"Operation Prime Time"},{"ns":0,"title":"Orson
+        Welles"},{"ns":0,"title":"Otto Frank"},{"ns":0,"title":"Our Town"},{"ns":0,"title":"Our
+        Town (2003 film)"},{"ns":0,"title":"P. T. Barnum"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Pancho
+        Villa"},{"ns":0,"title":"Parade''s End (TV series)"},{"ns":0,"title":"Paris
+        Trout"},{"ns":0,"title":"Path to War"},{"ns":0,"title":"Patrick Stewart"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Paul
+        Winfield"},{"ns":0,"title":"Peter Boyle"},{"ns":0,"title":"Peter Falk"},{"ns":0,"title":"Peter
+        Finch"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Peter
+        Strauss"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Phil Spector"},{"ns":0,"title":"Phil
+        Spector (film)"},{"ns":0,"title":"Philip Anglim"},{"ns":0,"title":"Pope John
+        Paul II"},{"ns":0,"title":"Pope John Paul II (TV miniseries)"},{"ns":0,"title":"Powers
+        Boothe"},{"ns":0,"title":"Primetime Emmy Award"},{"ns":0,"title":"Primetime
+        Emmy Award for Actor of the Year"},{"ns":0,"title":"Primetime Emmy Award for
+        Actress of the Year"},{"ns":0,"title":"Primetime Emmy Award for Individual
+        Performance in a Variety or Music Program"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Animated Program (for Programming Less Than One Hour)"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Animated Program (for Programming One Hour or More)"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Casting for a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Casting for a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Casting for a Miniseries, Movie, or a Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Character Voice-Over Performance"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Choreography"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Cinematography for a Half-Hour Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Cinematography for a Multi-Camera Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Cinematography for a One Hour Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Cinematography for a Single-Camera Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Comedy Series"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Costumes for a Miniseries, Movie or a Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Costumes for a Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Directing for a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Directing for a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Directing for a Miniseries, Movie or a Dramatic
+        Special"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actor in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actress in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actress in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Host for a Reality or Reality-Competition Program"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actress in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actress in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actress in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Main Title Design"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Main Title Theme Music"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Miniseries"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Miniseries or Movie"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Music Composition for a Miniseries, Movie, or a Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Music Composition for a Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Narrator"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Original Music and Lyrics"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Reality-Competition Program"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Reality Program"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Single-Camera Picture Editing for a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Single-Camera Picture Editing for a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Special Visual Effects"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actress in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actress in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actress in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Television Movie"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Variety, Music, or Comedy Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Variety Series"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Voice-Over Performance"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Miniseries, Movie or a Dramatic Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Variety Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Short-format Animation"},{"ns":0,"title":"Promise (film)"},{"ns":0,"title":"Pueblo
+        (film)"},{"ns":0,"title":"Quasimodo"},{"ns":0,"title":"RKO 281"},{"ns":0,"title":"Raid
+        on Entebbe (film)"},{"ns":0,"title":"Ralph Fiennes"},{"ns":0,"title":"Randolph
+        McCoy"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Raoul Wallenberg"},{"ns":0,"title":"Rasputin:
+        Dark Servant of Destiny"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Recount
+        (film)"},{"ns":0,"title":"ReelzChannel"},{"ns":0,"title":"Reinhard Heydrich"},{"ns":0,"title":"Requiem
+        for a Heavyweight"},{"ns":0,"title":"Resting Place"},{"ns":0,"title":"Rich
+        Man, Poor Man (TV miniseries)"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard
+        Crenna"},{"ns":0,"title":"Richard Jordan"},{"ns":0,"title":"Richard Kiley"},{"ns":0,"title":"Richard
+        Nixon"},{"ns":0,"title":"Ricky Gervais"},{"ns":0,"title":"Robert Blake (actor)"},{"ns":0,"title":"Robert
+        Cummings"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert F. Kennedy"},{"ns":0,"title":"Robert
+        Morse"},{"ns":0,"title":"Roger Maris"},{"ns":0,"title":"Roger Rees"},{"ns":0,"title":"Ron
+        Clark (teacher)"},{"ns":0,"title":"Ron Klain"},{"ns":0,"title":"Ronald Reagan"},{"ns":0,"title":"Roy
+        Cohn"},{"ns":0,"title":"Rub\u00e9n Blades"},{"ns":0,"title":"Rudy: The Rudy
+        Giuliani Story"},{"ns":0,"title":"Rudy Giuliani"},{"ns":0,"title":"Sadat (film)"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:55 GMT
+recorded_with: VCR 2.9.2

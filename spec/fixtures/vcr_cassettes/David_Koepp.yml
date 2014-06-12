@@ -1,0 +1,117 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=David%20Koepp
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711816323, 3085130961, 2597301538
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1649'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:01 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4010 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"625105":{"pageid":625105,"ns":0,"title":"David
+        Koepp","links":[{"ns":0,"title":"21st Saturn Awards"},{"ns":0,"title":"30th
+        Saturn Awards"},{"ns":0,"title":"31st Saturn Awards"},{"ns":0,"title":"32nd
+        Saturn Awards"},{"ns":0,"title":"33rd Saturn Awards"},{"ns":0,"title":"34th
+        Saturn Awards"},{"ns":0,"title":"35th Saturn Awards"},{"ns":0,"title":"36th
+        Saturn Awards"},{"ns":0,"title":"37th Saturn Awards"},{"ns":0,"title":"Adam
+        Cozad"},{"ns":0,"title":"Akiva Goldsman"},{"ns":0,"title":"Alvin Sargent"},{"ns":0,"title":"Andrew
+        Kevin Walker"},{"ns":0,"title":"Andrew Niccol"},{"ns":0,"title":"Angels &
+        Demons (film)"},{"ns":0,"title":"Anne Spielberg"},{"ns":0,"title":"Anthony
+        Peckham"},{"ns":0,"title":"Apartment Zero"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Bad
+        Influence (film)"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Billboard
+        (advertising)"},{"ns":0,"title":"Brad Bird"},{"ns":0,"title":"Brian De Palma"},{"ns":0,"title":"Carlito''s
+        Way"},{"ns":0,"title":"Charlie Kaufman"},{"ns":0,"title":"Christopher Nolan"},{"ns":0,"title":"Dan
+        Harris (screenwriter)"},{"ns":0,"title":"Daniel Petrie, Jr."},{"ns":0,"title":"David
+        Hayter"},{"ns":0,"title":"David Morse (actor)"},{"ns":0,"title":"David S.
+        Goyer"},{"ns":0,"title":"Death Becomes Her"},{"ns":0,"title":"Delafield, Wisconsin"},{"ns":0,"title":"Donald
+        E. Westlake"},{"ns":0,"title":"Edward Neumeier"},{"ns":0,"title":"Edwin Torres
+        (judge)"},{"ns":0,"title":"Elaine May"},{"ns":0,"title":"Ewan McGregor"},{"ns":0,"title":"Fran
+        Walsh"},{"ns":0,"title":"Gale Anne Hurd"},{"ns":0,"title":"Gary Ross"},{"ns":0,"title":"George
+        Lucas"},{"ns":0,"title":"Ghost Town (film)"},{"ns":0,"title":"Greg Kinnear"},{"ns":0,"title":"Gwyneth
+        Paltrow"},{"ns":0,"title":"Hack (American TV series)"},{"ns":0,"title":"Hack
+        (TV series)"},{"ns":0,"title":"Harlan Ellison"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"I
+        Come in Peace"},{"ns":0,"title":"Ib Melchior"},{"ns":0,"title":"Indiana Jones
+        and the Kingdom of the Crystal Skull"},{"ns":0,"title":"Inferno (Dan Brown
+        novel)"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jack
+        Ryan: Shadow Recruit"},{"ns":0,"title":"James Cameron"},{"ns":0,"title":"James
+        V. Hart"},{"ns":0,"title":"Jeff Nathanson"},{"ns":0,"title":"Jeff Nichols"},{"ns":0,"title":"Jim
+        Harrison"},{"ns":0,"title":"Jimmy Sangster"},{"ns":0,"title":"John Kamps"},{"ns":0,"title":"Johnny
+        Depp"},{"ns":0,"title":"Jonathan Nolan"},{"ns":0,"title":"Jonathan Tydor"},{"ns":0,"title":"Josh
+        Friedman"},{"ns":0,"title":"Jurassic Park (film)"},{"ns":0,"title":"Kettle
+        Moraine High School"},{"ns":0,"title":"Kevin Williamson (screenwriter)"},{"ns":0,"title":"Kyril
+        Bonfiglioli"},{"ns":0,"title":"Lawrence Kasdan"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lionsgate Entertainment"},{"ns":0,"title":"Marcus
+        Sakey"},{"ns":0,"title":"Martin Donovan"},{"ns":0,"title":"Melissa Mathison"},{"ns":0,"title":"Men
+        in Black 3"},{"ns":0,"title":"Michael Colleary"},{"ns":0,"title":"Michael
+        Crichton"},{"ns":0,"title":"Michael Dougherty"},{"ns":0,"title":"Michael Miner"},{"ns":0,"title":"Michael
+        Soccio"},{"ns":0,"title":"Mike Werb"},{"ns":0,"title":"Mission: Impossible
+        (film)"},{"ns":0,"title":"Mortdecai (film)"},{"ns":0,"title":"National Diet
+        Library"},{"ns":0,"title":"Nicholas Meyer"},{"ns":0,"title":"Noomi Rapace"},{"ns":0,"title":"Panic
+        Room"},{"ns":0,"title":"Panic Room (film)"},{"ns":0,"title":"Paul Bettany"},{"ns":0,"title":"Peter
+        Jackson"},{"ns":0,"title":"Pewaukee, Wisconsin"},{"ns":0,"title":"Philippa
+        Boyens"},{"ns":0,"title":"Premium Rush"},{"ns":0,"title":"Quentin Tarantino"},{"ns":0,"title":"Ray
+        Bradbury"},{"ns":0,"title":"Reed Business Information"},{"ns":0,"title":"Ricky
+        Gervais"},{"ns":0,"title":"Robert Towne"},{"ns":0,"title":"San Diego"},{"ns":0,"title":"Saturn
+        Award for Best Writing"},{"ns":0,"title":"Scott Frank"},{"ns":0,"title":"Secret
+        Window"},{"ns":0,"title":"Snake Eyes (film)"},{"ns":0,"title":"Spider-Man
+        (2002 film)"},{"ns":0,"title":"Stephen Koepp"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Steven
+        Zaillian"},{"ns":0,"title":"Stir of Echoes"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Ted Tally"},{"ns":0,"title":"The
+        Little Engine That Could (2011 film)"},{"ns":0,"title":"The Lost World: Jurassic
+        Park"},{"ns":0,"title":"The Paper"},{"ns":0,"title":"The Shadow (1994 film)"},{"ns":0,"title":"The
+        Taking of Pelham 1 2 3 (2009 film)"},{"ns":0,"title":"The Trigger Effect"},{"ns":0,"title":"The
+        Ultimate Rush"},{"ns":0,"title":"Tom Holland (director)"},{"ns":0,"title":"Toy
+        Soldiers (1991 film)"},{"ns":0,"title":"United States"},{"ns":0,"title":"University
+        of California, Los Angeles"},{"ns":0,"title":"Variety (magazine)"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Wales, Wisconsin"},{"ns":0,"title":"War
+        of the Worlds (2005 film)"},{"ns":0,"title":"Warren Beatty"},{"ns":0,"title":"Wesley
+        Strick"},{"ns":0,"title":"Why Me?"},{"ns":0,"title":"Will Smith"},{"ns":0,"title":"William
+        Peter Blatty"},{"ns":0,"title":"Zathura (film)"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:David
+        Koepp"},{"ns":10,"title":"Template:Saturn Award for Best Writing"},{"ns":11,"title":"Template
+        talk:David Koepp"},{"ns":11,"title":"Template talk:Saturn Award for Best Writing"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:02 GMT
+recorded_with: VCR 2.9.2

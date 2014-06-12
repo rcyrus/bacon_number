@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Pyrates
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390686347, 1102700265, 1613089861
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '486'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:56 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4017 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"3007262":{"pageid":3007262,"ns":0,"title":"Pyrates","links":[{"ns":0,"title":"1991
+        in film"},{"ns":0,"title":"Act III Communications"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Bruce
+        Payne"},{"ns":0,"title":"Byrne Piven"},{"ns":0,"title":"Cinema of the United
+        States"},{"ns":0,"title":"Clifford David"},{"ns":0,"title":"Comedy film"},{"ns":0,"title":"David
+        Pressman"},{"ns":0,"title":"Deborah Falconer"},{"ns":0,"title":"English language"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Janusz Kami\u0144ski"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kristin Dattilo"},{"ns":0,"title":"Kyra Sedgwick"},{"ns":0,"title":"Lionsgate"},{"ns":0,"title":"Mickey
+        Jones"},{"ns":0,"title":"Peter Himmelman"},{"ns":0,"title":"Petra Verkaik"},{"ns":0,"title":"Pyrates
+        (disambiguation)"},{"ns":0,"title":"Pyrokinesis"},{"ns":0,"title":"Raymond
+        O''Connor"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Sex"},{"ns":0,"title":"Time
+        Out (company)"},{"ns":0,"title":"Tom Adams (actor)"},{"ns":0,"title":"VHS"},{"ns":0,"title":"Vestron
+        Video"},{"ns":4,"title":"Wikipedia:Stub"},{"ns":10,"title":"Template:1990s-romantic-comedy-film-stub"},{"ns":11,"title":"Template
+        talk:1990s-romantic-comedy-film-stub"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:57 GMT
+recorded_with: VCR 2.9.2

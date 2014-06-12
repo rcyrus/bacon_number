@@ -1,0 +1,98 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Steve%20Huison
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704745410, 1409550035, 1613103465
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1250'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:10 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4009 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"13646550":{"pageid":13646550,"ns":0,"title":"Steve
+        Huison","links":[{"ns":0,"title":"Actor"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo
+        13 (film)"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Bruce
+        Jones (actor)"},{"ns":0,"title":"Casualty (TV series)"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Coronation
+        Street"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Defamation"},{"ns":0,"title":"Deirdre
+        Costello"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Dinnerladies"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Eddie Windass"},{"ns":0,"title":"Emily
+        Woof"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Films"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Gwyneth
+        Paltrow"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Heartbeat (UK TV
+        series)"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"Jim
+        Carter (actor)"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Kathleen
+        Quinlan"},{"ns":0,"title":"Ken Loach"},{"ns":0,"title":"Kent"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Leeds"},{"ns":0,"title":"Lesley
+        Sharp"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Martin
+        Clunes"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"Paul Barber (actor)"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Rose Bruford College"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Shakespeare
+        in Love"},{"ns":0,"title":"Sidcup"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Steven
+        Bauer"},{"ns":0,"title":"TV"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The
+        Full Monty"},{"ns":0,"title":"The Navigators (film)"},{"ns":0,"title":"The
+        Royal"},{"ns":0,"title":"The Royal Today"},{"ns":0,"title":"The Royle Family"},{"ns":0,"title":"Thora
+        Birch"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas
+        Milian"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Traffic (2000 film)"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"West
+        Riding of Yorkshire"},{"ns":0,"title":"Where the Heart Is (1997 TV series)"},{"ns":0,"title":"William
+        Snape"},{"ns":4,"title":"Wikipedia:Biographies of living persons"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Identifying reliable sources"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Stub"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:BLP
+        sources"},{"ns":10,"title":"Template:England-tv-actor-stub"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:England-tv-actor-stub"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward CastMotionPicture 1995\u20132000"},{"ns":14,"title":"Category:BLP
+        articles lacking sources from July 2010"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:11 GMT
+recorded_with: VCR 2.9.2

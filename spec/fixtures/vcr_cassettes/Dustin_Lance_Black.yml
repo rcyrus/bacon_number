@@ -1,0 +1,120 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Dustin%20Lance%20Black
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704633303, 2340320572, 1061624384
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1618'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:05 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4016 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"18578140":{"pageid":18578140,"ns":0,"title":"Dustin
+        Lance Black","links":[{"ns":0,"title":"2008 Toronto International Film Festival"},{"ns":0,"title":"81st
+        Academy Awards"},{"ns":0,"title":"8: The Mormon Proposition"},{"ns":0,"title":"8
+        (play)"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award for
+        Best Original Screenplay"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"American
+        Foundation for Equal Rights"},{"ns":0,"title":"American Idiot (film)"},{"ns":0,"title":"Anne
+        Kronenberg"},{"ns":0,"title":"Art Agnos"},{"ns":0,"title":"Associated Press"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA Award for Best Original Screenplay"},{"ns":0,"title":"Bare:
+        a pop opera"},{"ns":0,"title":"Bay Area Reporter"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Big Love"},{"ns":0,"title":"Boston
+        Society of Film Critics Award for Best Screenplay"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Writer"},{"ns":0,"title":"Burning
+        Man"},{"ns":0,"title":"California Proposition 8"},{"ns":0,"title":"Charlie
+        Kaufman"},{"ns":0,"title":"Chicago Film Critics Association Award for Best
+        Original Screenplay"},{"ns":0,"title":"Cleve Jones"},{"ns":0,"title":"Clint
+        Eastwood"},{"ns":0,"title":"Coming out"},{"ns":0,"title":"Dallas-Fort Worth
+        Film Critics Association Award for Best Screenplay"},{"ns":0,"title":"Dan
+        Jinks"},{"ns":0,"title":"David Seidler"},{"ns":0,"title":"Diablo Cody"},{"ns":0,"title":"E!"},{"ns":0,"title":"Ebell
+        of Los Angeles"},{"ns":0,"title":"Eugene O''Neill Theatre"},{"ns":0,"title":"Faking
+        It"},{"ns":0,"title":"Film adaptation"},{"ns":0,"title":"Focus Features"},{"ns":0,"title":"Genre
+        (magazine)"},{"ns":0,"title":"Gus Van Sant"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hollingsworth
+        v. Perry"},{"ns":0,"title":"Hollywood Film Festival"},{"ns":0,"title":"Hollywood
+        to Dollywood"},{"ns":0,"title":"Humanitas Prize"},{"ns":0,"title":"Independent
+        Spirit Award for Best First Screenplay"},{"ns":0,"title":"Integrated Authority
+        File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"J. Edgar"},{"ns":0,"title":"Jennifer Connelly"},{"ns":0,"title":"Julian
+        Fellowes"},{"ns":0,"title":"LGBT rights"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Los
+        Angeles Times"},{"ns":0,"title":"Mark Boal"},{"ns":0,"title":"Marriage equality
+        movement"},{"ns":0,"title":"Metro Weekly"},{"ns":0,"title":"Michael Arndt"},{"ns":0,"title":"Michel
+        Gondry"},{"ns":0,"title":"Military base"},{"ns":0,"title":"Milk (film)"},{"ns":0,"title":"Missionary"},{"ns":0,"title":"Monterey,
+        California"},{"ns":0,"title":"Mormon"},{"ns":0,"title":"National Equality
+        March"},{"ns":0,"title":"Nevada"},{"ns":0,"title":"On the Bus"},{"ns":0,"title":"Online
+        Film Critics Society Award for Best Original Screenplay"},{"ns":0,"title":"PEN
+        Center USA"},{"ns":0,"title":"Paris Barclay"},{"ns":0,"title":"Paul Haggis"},{"ns":0,"title":"Pedro
+        (film)"},{"ns":0,"title":"Pedro Almod\u00f3var"},{"ns":0,"title":"Pedro Zamora"},{"ns":0,"title":"Perry
+        v. Schwarzenegger"},{"ns":0,"title":"Pierre Bismuth"},{"ns":0,"title":"Polygamy"},{"ns":0,"title":"Proposition
+        8"},{"ns":0,"title":"Quentin Tarantino"},{"ns":0,"title":"Rob Epstein"},{"ns":0,"title":"Robert
+        Moresco"},{"ns":0,"title":"Sacramento"},{"ns":0,"title":"Sacramento, California"},{"ns":0,"title":"Salinas,
+        California"},{"ns":0,"title":"San Antonio, Texas"},{"ns":0,"title":"San Francisco
+        Chronicle"},{"ns":0,"title":"San Francisco Film Critics Circle Award for Best
+        Original Screenplay"},{"ns":0,"title":"Satellite Award for Best Original Screenplay"},{"ns":0,"title":"Sofia
+        Coppola"},{"ns":0,"title":"Southeastern Film Critics Association Award for
+        Best Original Screenplay"},{"ns":0,"title":"Spec script"},{"ns":0,"title":"Spike
+        Jonze"},{"ns":0,"title":"The Advocate"},{"ns":0,"title":"The Church of Jesus
+        Christ of Latter-day Saints"},{"ns":0,"title":"The Electric Kool-Aid Acid
+        Test"},{"ns":0,"title":"The Huffington Post"},{"ns":0,"title":"The Journey
+        of Jared Price"},{"ns":0,"title":"The Los Angeles Times"},{"ns":0,"title":"The
+        President''s Memorial Award"},{"ns":0,"title":"The Singing Forest"},{"ns":0,"title":"The
+        Times of Harvey Milk"},{"ns":0,"title":"The Washington Post"},{"ns":0,"title":"Tom
+        Daley"},{"ns":0,"title":"Tom Wolfe"},{"ns":0,"title":"UCLA"},{"ns":0,"title":"UCLA
+        School of Theater, Film and Television"},{"ns":0,"title":"United States Capitol"},{"ns":0,"title":"Variety
+        (magazine)"},{"ns":0,"title":"Virginia (2010 film)"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"White Knot"},{"ns":0,"title":"Woody
+        Allen"},{"ns":0,"title":"Writers Guild of America Award"},{"ns":0,"title":"Writers
+        Guild of America Award for Best Original Screenplay"},{"ns":0,"title":"Writers
+        Guild of America Awards 2009"},{"ns":0,"title":"YouTube"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Protection
+        policy"},{"ns":10,"title":"Template:AcademyAwardBestOriginalScreenplay 1940\u20131960"},{"ns":10,"title":"Template:AcademyAwardBestOriginalScreenplay
+        1961\u20131980"},{"ns":10,"title":"Template:AcademyAwardBestOriginalScreenplay
+        1981\u20132000"},{"ns":10,"title":"Template:AcademyAwardBestOriginalScreenplay
+        2001\u20132020"},{"ns":10,"title":"Template:Academy Award Best Original Screenplay"},{"ns":11,"title":"Template
+        talk:AcademyAwardBestOriginalScreenplay 2001\u20132020"},{"ns":14,"title":"Category:Articles
+        with dead external links from October 2010"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from December 2013"},{"ns":14,"title":"Category:Use
+        mdy dates from October 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:06 GMT
+recorded_with: VCR 2.9.2

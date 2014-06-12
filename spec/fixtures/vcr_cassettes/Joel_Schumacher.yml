@@ -1,0 +1,114 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Joel%20Schumacher
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401635940, 2340333167, 1061645282
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1662'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:26 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4016 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"275103":{"pageid":275103,"ns":0,"title":"Joel Schumacher","links":[{"ns":0,"title":"49th
+        Berlin International Film Festival"},{"ns":0,"title":"8mm (film)"},{"ns":0,"title":"A
+        Time to Kill (film)"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Amy
+        Morton"},{"ns":0,"title":"Andrew Lloyd Webber"},{"ns":0,"title":"Anthony Heald"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Bad Company
+        (2002 film)"},{"ns":0,"title":"Baptist"},{"ns":0,"title":"Batman: Year One"},{"ns":0,"title":"Batman
+        & Robin (film)"},{"ns":0,"title":"Batman Forever"},{"ns":0,"title":"Batman
+        Returns"},{"ns":0,"title":"Batman in film"},{"ns":0,"title":"Beltway sniper
+        attacks"},{"ns":0,"title":"Beth Grant"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Blood Creek"},{"ns":0,"title":"Bob
+        Zmuda"},{"ns":0,"title":"Brad Anderson (director)"},{"ns":0,"title":"Brat
+        Pack"},{"ns":0,"title":"Brenda Fricker"},{"ns":0,"title":"Bush (band)"},{"ns":0,"title":"Car
+        Wash (film)"},{"ns":0,"title":"Cate Blanchett"},{"ns":0,"title":"Chris Bauer"},{"ns":0,"title":"Chris
+        Rock"},{"ns":0,"title":"Christopher Nolan"},{"ns":0,"title":"Ciar\u00e1n Hinds"},{"ns":0,"title":"Colin
+        Farrell"},{"ns":0,"title":"Cousins (film)"},{"ns":0,"title":"D.C. Cab"},{"ns":0,"title":"David
+        Fincher"},{"ns":0,"title":"Defamation"},{"ns":0,"title":"Doug Hutchison"},{"ns":0,"title":"Dying
+        Young"},{"ns":0,"title":"Emily Meade"},{"ns":0,"title":"Falling Down"},{"ns":0,"title":"Flatliners"},{"ns":0,"title":"Flawless
+        (1999 film)"},{"ns":0,"title":"Gay"},{"ns":0,"title":"Gerard McSorley"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"Harry Gregson-Williams"},{"ns":0,"title":"History
+        of the Jews in Sweden"},{"ns":0,"title":"House of Cards (U.S. TV series)"},{"ns":0,"title":"House
+        of Cards (US TV series)"},{"ns":0,"title":"Howard Rosenman"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jerry Bruckheimer"},{"ns":0,"title":"Jim
+        Carrey"},{"ns":0,"title":"Jim McMullan"},{"ns":0,"title":"John Diehl"},{"ns":0,"title":"John
+        Enos III"},{"ns":0,"title":"John Glover (actor)"},{"ns":0,"title":"John Grisham"},{"ns":0,"title":"Jonathan
+        Dayton and Valerie Faris"},{"ns":0,"title":"Julia Roberts"},{"ns":0,"title":"Karina
+        Arroyave"},{"ns":0,"title":"Kiefer Sutherland"},{"ns":0,"title":"Kimberly
+        Scott"},{"ns":0,"title":"Kiss from a Rose"},{"ns":0,"title":"Knoxville, Tennessee"},{"ns":0,"title":"Letting
+        the Cables Sleep"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lily
+        Tomlin"},{"ns":0,"title":"Luis Saguar"},{"ns":0,"title":"Lynn Collins"},{"ns":0,"title":"Maile
+        Flanagan"},{"ns":0,"title":"Mark Stevens (film editor)"},{"ns":0,"title":"Michael
+        Keaton"},{"ns":0,"title":"Michael Paul Chan"},{"ns":0,"title":"Nicky Katt"},{"ns":0,"title":"Nico
+        Tortorella"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Nicole Kidman"},{"ns":0,"title":"Oliver
+        Platt"},{"ns":0,"title":"Parsons The New School for Design"},{"ns":0,"title":"Patricia
+        Belcher"},{"ns":0,"title":"Peter Stormare"},{"ns":0,"title":"Phone Booth (film)"},{"ns":0,"title":"Recruit
+        training"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Romania"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Scars on Broadway"},{"ns":0,"title":"Seal (musician)"},{"ns":0,"title":"September
+        11 attacks"},{"ns":0,"title":"Shea Whigham"},{"ns":0,"title":"Sleeper (1973
+        film)"},{"ns":0,"title":"Sparkle (1976 film)"},{"ns":0,"title":"St. Elmo''s
+        Fire (film)"},{"ns":0,"title":"Taormina"},{"ns":0,"title":"Taormina Film Fest"},{"ns":0,"title":"Terrorist"},{"ns":0,"title":"The
+        Advocate"},{"ns":0,"title":"The Client (1994 film)"},{"ns":0,"title":"The
+        End Is the Beginning Is the End"},{"ns":0,"title":"The Hollywood Reporter"},{"ns":0,"title":"The
+        Incredible Shrinking Woman"},{"ns":0,"title":"The Lost Boys"},{"ns":0,"title":"The
+        Number 23"},{"ns":0,"title":"The Phantom of the Opera (1986 musical)"},{"ns":0,"title":"The
+        Phantom of the Opera (2004 film)"},{"ns":0,"title":"The Smashing Pumpkins"},{"ns":0,"title":"The
+        Wiz (film)"},{"ns":0,"title":"Tigerland"},{"ns":0,"title":"Tim Burton"},{"ns":0,"title":"Tommy
+        Lee Jones"},{"ns":0,"title":"Tory Kittles"},{"ns":0,"title":"Toyetic"},{"ns":0,"title":"Trespass
+        (2011 film)"},{"ns":0,"title":"Twelve (film)"},{"ns":0,"title":"University
+        of California, Los Angeles"},{"ns":0,"title":"Val Kilmer"},{"ns":0,"title":"Vampire"},{"ns":0,"title":"Veronica
+        Guerin"},{"ns":0,"title":"Veronica Guerin (film)"},{"ns":0,"title":"Vietnam
+        War"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"World
+        Long Gone"},{"ns":4,"title":"Wikipedia:Biographies of living persons"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Identifying
+        reliable sources"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:BLP
+        sources section"},{"ns":10,"title":"Template:Joel Schumacher"},{"ns":11,"title":"Template
+        talk:Joel Schumacher"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from February 2013"},{"ns":14,"title":"Category:BLP articles lacking
+        sources from June 2011"},{"ns":14,"title":"Category:Use mdy dates from June
+        2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:27 GMT
+recorded_with: VCR 2.9.2

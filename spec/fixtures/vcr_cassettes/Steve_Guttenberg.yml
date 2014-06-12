@@ -1,0 +1,134 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Steve%20Guttenberg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87321071, 3536778842, 2597366455
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2029'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:10 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4008 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"724645":{"pageid":724645,"ns":0,"title":"Steve
+        Guttenberg","links":[{"ns":0,"title":"A Novel Romance"},{"ns":0,"title":"Adam
+        Carolla"},{"ns":0,"title":"Airborne (1998 film)"},{"ns":0,"title":"Amazon
+        Women on the Moon"},{"ns":0,"title":"Anna Trebunskaya"},{"ns":0,"title":"Ashley
+        Olsen"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Ay Lav Yu"},{"ns":0,"title":"Bad
+        Medicine (film)"},{"ns":0,"title":"Beverly Hills"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Billy (1979 TV series)"},{"ns":0,"title":"Bobcat
+        Goldthwait"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Bromley"},{"ns":0,"title":"Brooklyn"},{"ns":0,"title":"Brooklyn,
+        New York"},{"ns":0,"title":"California"},{"ns":0,"title":"Can''t Stop the
+        Music"},{"ns":0,"title":"Casper: A Spirited Beginning"},{"ns":0,"title":"Central
+        Park"},{"ns":0,"title":"Channel 4"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Churchill
+        Theatre"},{"ns":0,"title":"Coca-Cola"},{"ns":0,"title":"Cocoon: The Return"},{"ns":0,"title":"Cocoon
+        (film)"},{"ns":0,"title":"Comedian"},{"ns":0,"title":"Cornered! (film)"},{"ns":0,"title":"Cristi\u00e1n
+        de la Fuente"},{"ns":0,"title":"Cult classic"},{"ns":0,"title":"Dancing with
+        the Stars"},{"ns":0,"title":"Dancing with the Stars (U.S. season 6)"},{"ns":0,"title":"David
+        Diamond (screenwriter)"},{"ns":0,"title":"David Weissman"},{"ns":0,"title":"Diner
+        (film)"},{"ns":0,"title":"Direct-to-video"},{"ns":0,"title":"Disney''s Hollywood
+        Studios"},{"ns":0,"title":"Don''t Tell Her It''s Me"},{"ns":0,"title":"England"},{"ns":0,"title":"Entertainment
+        Industry Foundation"},{"ns":0,"title":"Fire Island"},{"ns":0,"title":"Foster
+        child"},{"ns":0,"title":"Funny or Die"},{"ns":0,"title":"Funnyordie.com"},{"ns":0,"title":"Guinness
+        World Records"},{"ns":0,"title":"Heidi 4 Paws"},{"ns":0,"title":"Helen Hayes
+        Theatre"},{"ns":0,"title":"High School of Performing Arts"},{"ns":0,"title":"High
+        Spirits (film)"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Hollywood Walk
+        of Fame"},{"ns":0,"title":"Home Team (film)"},{"ns":0,"title":"Home for the
+        Holidays (film)"},{"ns":0,"title":"Hot dog"},{"ns":0,"title":"Integrated Authority
+        File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Ira Levin"},{"ns":0,"title":"It Takes Two
+        (1995 film)"},{"ns":0,"title":"Jackson (film)"},{"ns":0,"title":"James Kirkwood,
+        Jr."},{"ns":0,"title":"Jason Taylor (American football)"},{"ns":0,"title":"Jewish"},{"ns":0,"title":"Jim
+        Craig (ice hockey)"},{"ns":0,"title":"John Houseman"},{"ns":0,"title":"Juilliard
+        School"},{"ns":0,"title":"Kim Cattrall"},{"ns":0,"title":"Kirsten Dunst"},{"ns":0,"title":"Kirstie
+        Alley"},{"ns":0,"title":"Kristi Yamaguchi"},{"ns":0,"title":"Lake Buena Vista,
+        Florida"},{"ns":0,"title":"Liberian Girl"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Major
+        Movie Star"},{"ns":0,"title":"Mario (American singer)"},{"ns":0,"title":"Marissa
+        Jaret Winokur"},{"ns":0,"title":"Marlee Matlin"},{"ns":0,"title":"Married
+        and maiden names"},{"ns":0,"title":"Mary-Kate Olsen"},{"ns":0,"title":"Michael
+        Jackson"},{"ns":0,"title":"Miracle on Ice"},{"ns":0,"title":"Miracle on Ice
+        (1981 film)"},{"ns":0,"title":"Mojave Phone Booth (film)"},{"ns":0,"title":"Monica
+        Seles"},{"ns":0,"title":"NBC"},{"ns":0,"title":"New York"},{"ns":0,"title":"North
+        Massapequa"},{"ns":0,"title":"P.S. Your Cat Is Dead"},{"ns":0,"title":"P.
+        S. Your Cat Is Dead!"},{"ns":0,"title":"Party Down"},{"ns":0,"title":"Penn
+        Jillette"},{"ns":0,"title":"Plainedge, New York"},{"ns":0,"title":"Players
+        (1979 film)"},{"ns":0,"title":"Police Academy (film)"},{"ns":0,"title":"Police
+        Academy (film series)"},{"ns":0,"title":"Police Academy 2: Their First Assignment"},{"ns":0,"title":"Police
+        Academy 3: Back in Training"},{"ns":0,"title":"Police Academy 4: Citizens
+        on Patrol"},{"ns":0,"title":"Prelude to a Kiss (play)"},{"ns":0,"title":"Priscilla
+        Presley"},{"ns":0,"title":"Quick To Duck"},{"ns":0,"title":"Relatively Speaking
+        (2011 play)"},{"ns":0,"title":"Rollercoaster"},{"ns":0,"title":"Rollercoaster
+        (1977 film)"},{"ns":0,"title":"Rome News-Tribune"},{"ns":0,"title":"Shannon''s
+        Rainbow"},{"ns":0,"title":"Shannon Elizabeth"},{"ns":0,"title":"Sharon Stone"},{"ns":0,"title":"Short
+        Circuit"},{"ns":0,"title":"Short Circuit 2"},{"ns":0,"title":"Single Santa
+        Seeks Mrs. Claus"},{"ns":0,"title":"Sitcom"},{"ns":0,"title":"Social worker"},{"ns":0,"title":"Something
+        for Joey"},{"ns":0,"title":"South Los Angeles"},{"ns":0,"title":"Starz (TV
+        channel)"},{"ns":0,"title":"Surrender (1987 film)"},{"ns":0,"title":"Ted Danson"},{"ns":0,"title":"Television
+        movie"},{"ns":0,"title":"The Bedroom Window"},{"ns":0,"title":"The Bedroom
+        Window (film)"},{"ns":0,"title":"The Big Green"},{"ns":0,"title":"The Boys
+        From Brazil"},{"ns":0,"title":"The Boys from Brazil (film)"},{"ns":0,"title":"The
+        Chicken Chronicles"},{"ns":0,"title":"The Day After"},{"ns":0,"title":"The
+        Lion in Winter"},{"ns":0,"title":"The Man Who Wasn''t There (1983 film)"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Paul O''Grady Show"},{"ns":0,"title":"The
+        Poseidon Adventure (2005 film)"},{"ns":0,"title":"Three Men and a Baby"},{"ns":0,"title":"Three
+        Men and a Little Lady"},{"ns":0,"title":"Timothy Hutton"},{"ns":0,"title":"Tom
+        Selleck"},{"ns":0,"title":"Tony Martin (comedian)"},{"ns":0,"title":"Tony
+        Randall"},{"ns":0,"title":"Tower of Terror (film)"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"VEVO"},{"ns":0,"title":"Veronica Mars"},{"ns":0,"title":"Village
+        People"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Walt
+        Disney World Resort"},{"ns":0,"title":"Walter Mitty"},{"ns":0,"title":"Washington
+        Post"},{"ns":0,"title":"West End of London"},{"ns":0,"title":"Who''s Johnny"},{"ns":0,"title":"Will
+        Ferrell"},{"ns":0,"title":"Woody Allen"},{"ns":0,"title":"Woody Goodman"},{"ns":0,"title":"Woody
+        Harrelson"},{"ns":0,"title":"Youngstown Vindicator"},{"ns":0,"title":"Zeus
+        and Roxanne"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Dancing
+        with the Stars Season 6"},{"ns":10,"title":"Template:Short Circuit"},{"ns":11,"title":"Template
+        talk:Dancing with the Stars Season 6"},{"ns":11,"title":"Template talk:Short
+        Circuit"},{"ns":14,"title":"Category:Articles with dead external links from
+        October 2011"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from April 2012"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from February 2012"},{"ns":14,"title":"Category:Use mdy dates from April 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:11 GMT
+recorded_with: VCR 2.9.2

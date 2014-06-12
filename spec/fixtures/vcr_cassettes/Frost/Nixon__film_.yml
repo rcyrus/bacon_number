@@ -1,0 +1,196 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Frost/Nixon%20(film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001120028, 3085138087, 1613049244
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3307'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:12 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"12130331":{"pageid":12130331,"ns":0,"title":"Frost/Nixon
+        (film)","links":[{"ns":0,"title":"15th Screen Actors Guild Awards"},{"ns":0,"title":"1952
+        Republican National Convention"},{"ns":0,"title":"1956 Republican National
+        Convention"},{"ns":0,"title":"1960 Republican National Convention"},{"ns":0,"title":"1968
+        Republican National Convention"},{"ns":0,"title":"1972 Nixon visit to China"},{"ns":0,"title":"1972
+        Republican National Convention"},{"ns":0,"title":"24: Live Another Day"},{"ns":0,"title":"24:
+        Redemption"},{"ns":0,"title":"24 (TV series)"},{"ns":0,"title":"360 (film)"},{"ns":0,"title":"62nd
+        British Academy Film Awards"},{"ns":0,"title":"66th Golden Globe Awards"},{"ns":0,"title":"81st
+        Academy Awards"},{"ns":0,"title":"8 Mile (film)"},{"ns":0,"title":"A Beautiful
+        Mind (film)"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Actor"},{"ns":0,"title":"Academy Award for Best Director"},{"ns":0,"title":"American
+        Gangster (film)"},{"ns":0,"title":"Andy Milder"},{"ns":0,"title":"Angels &
+        Demons (film)"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Armed
+        and Dangerous (film)"},{"ns":0,"title":"Arrested Development (TV series)"},{"ns":0,"title":"Audio
+        commentary"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Backdraft (film)"},{"ns":0,"title":"Best
+        Picture"},{"ns":0,"title":"Beyond the Mat"},{"ns":0,"title":"Birthplace of
+        Richard Nixon"},{"ns":0,"title":"Blue Crush"},{"ns":0,"title":"Bob Zelnick"},{"ns":0,"title":"Boomerang
+        (1992 film)"},{"ns":0,"title":"Boston University"},{"ns":0,"title":"Bowfinger"},{"ns":0,"title":"Box
+        Office Mojo"},{"ns":0,"title":"Breakfast with Frost"},{"ns":0,"title":"Brian
+        Grazer"},{"ns":0,"title":"Bring Us Together"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"California"},{"ns":0,"title":"California''s
+        12th congressional district election, 1946"},{"ns":0,"title":"California gubernatorial
+        election, 1962"},{"ns":0,"title":"Center for the National Interest"},{"ns":0,"title":"Changeling
+        (film)"},{"ns":0,"title":"Charles Colson"},{"ns":0,"title":"Checkers speech"},{"ns":0,"title":"Chicago
+        Sun-Times"},{"ns":0,"title":"Christopher Nixon Cox"},{"ns":0,"title":"Cinderella
+        Man"},{"ns":0,"title":"Clint Howard"},{"ns":0,"title":"Cocoon (film)"},{"ns":0,"title":"Cold
+        War (1962\u201379)"},{"ns":0,"title":"Colditz (film)"},{"ns":0,"title":"Cowboys
+        & Aliens"},{"ns":0,"title":"Curious George (TV series)"},{"ns":0,"title":"Curious
+        George 2: Follow That Monkey!"},{"ns":0,"title":"Daniel P. Hanley"},{"ns":0,"title":"David
+        Edelstein"},{"ns":0,"title":"David Frost"},{"ns":0,"title":"David Frost on
+        Sunday"},{"ns":0,"title":"David Paradine Productions"},{"ns":0,"title":"Dear
+        Rosie"},{"ns":0,"title":"Death and funeral of Richard Nixon"},{"ns":0,"title":"Diane
+        Sawyer"},{"ns":0,"title":"Donald A. Nixon"},{"ns":0,"title":"Donald Nixon"},{"ns":0,"title":"Dr.
+        Seuss'' How the Grinch Stole Christmas (film)"},{"ns":0,"title":"Dramatic
+        license"},{"ns":0,"title":"D\u00e9tente"},{"ns":0,"title":"EDtv"},{"ns":0,"title":"Edward
+        Nixon"},{"ns":0,"title":"Electoral history of Richard Nixon"},{"ns":0,"title":"Elizabeth
+        Drew"},{"ns":0,"title":"Eric Fellner"},{"ns":0,"title":"Far and Away"},{"ns":0,"title":"Fear
+        (1996 film)"},{"ns":0,"title":"Felicity (TV series)"},{"ns":0,"title":"Flightplan"},{"ns":0,"title":"For
+        Love or Money (1993 film)"},{"ns":0,"title":"Francis A. Nixon"},{"ns":0,"title":"Frank
+        Langella"},{"ns":0,"title":"Friday Night Lights (TV series)"},{"ns":0,"title":"Friday
+        Night Lights (film)"},{"ns":0,"title":"Friends with Benefits (TV series)"},{"ns":0,"title":"From
+        the Earth to the Moon (TV miniseries)"},{"ns":0,"title":"Frost/Nixon (play)"},{"ns":0,"title":"Frost
+        Over the World"},{"ns":0,"title":"Fun with Dick and Jane (2005 film)"},{"ns":0,"title":"Gabriel
+        Jarret"},{"ns":0,"title":"Gang Related (TV series)"},{"ns":0,"title":"Gene
+        Boyer"},{"ns":0,"title":"Geoffrey Blake (actor)"},{"ns":0,"title":"Grand Theft
+        Auto (film)"},{"ns":0,"title":"Greedy (film)"},{"ns":0,"title":"Gung Ho (film)"},{"ns":0,"title":"Hannah
+        Milhous Nixon"},{"ns":0,"title":"Hans Zimmer"},{"ns":0,"title":"Henry VIII
+        (TV serial)"},{"ns":0,"title":"Hereafter (film)"},{"ns":0,"title":"Hiller
+        and Diller"},{"ns":0,"title":"Housesitter (film)"},{"ns":0,"title":"How to
+        Live with Your Parents (For the Rest of Your Life)"},{"ns":0,"title":"Huffington
+        Post"},{"ns":0,"title":"Hugh Hefner"},{"ns":0,"title":"Imagine Entertainment"},{"ns":0,"title":"In
+        the Heart of the Sea (film)"},{"ns":0,"title":"Inside Deep Throat"},{"ns":0,"title":"Inside
+        Man"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Intolerable
+        Cruelty"},{"ns":0,"title":"Inventing the Abbotts"},{"ns":0,"title":"Irving
+        Paul Lazar"},{"ns":0,"title":"J. Edgar"},{"ns":0,"title":"Jack Brennan"},{"ns":0,"title":"James
+        Reston Jr."},{"ns":0,"title":"Jennie Eisenhower"},{"ns":0,"title":"Jim Meskimen"},{"ns":0,"title":"John
+        Birt"},{"ns":0,"title":"Jonathan Aitken"},{"ns":0,"title":"Julie Nixon Eisenhower"},{"ns":0,"title":"Kaine
+        Bennett Charleston"},{"ns":0,"title":"Katy Perry: Part of Me"},{"ns":0,"title":"Ken
+        Khachigian"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kindergarten
+        Cop"},{"ns":0,"title":"Kitchen Debate"},{"ns":0,"title":"La Casa Pacifica"},{"ns":0,"title":"Las
+        Vegas Film Critics Society Awards 2008"},{"ns":0,"title":"Liar Liar"},{"ns":0,"title":"Lie
+        to Me"},{"ns":0,"title":"Life (1999 film)"},{"ns":0,"title":"Like Father Like
+        Son (1987 film)"},{"ns":0,"title":"Linkage (policy)"},{"ns":0,"title":"List
+        of Presidents of the United States"},{"ns":0,"title":"List of United States
+        Senators from California"},{"ns":0,"title":"List of Vice Presidents of the
+        United States"},{"ns":0,"title":"List of federal judges appointed by Richard
+        Nixon"},{"ns":0,"title":"List of historical drama films"},{"ns":0,"title":"List
+        of scandals with \"-gate\" suffix"},{"ns":0,"title":"London Film Festival"},{"ns":0,"title":"London
+        Weekend Television"},{"ns":0,"title":"Longford (film)"},{"ns":0,"title":"Made
+        in America (2013 film)"},{"ns":0,"title":"Martha, Meet Frank, Daniel and Laurence"},{"ns":0,"title":"Marvin
+        Minoff"},{"ns":0,"title":"Matthew Macfadyen"},{"ns":0,"title":"Memoir"},{"ns":0,"title":"Mercury
+        (film)"},{"ns":0,"title":"Mercury Rising"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Michael
+        Sheen"},{"ns":0,"title":"Michael York (actor)"},{"ns":0,"title":"Mike Hill
+        (film editor)"},{"ns":0,"title":"Misconceptions"},{"ns":0,"title":"Miss Match"},{"ns":0,"title":"My
+        Girl (film)"},{"ns":0,"title":"My Girl 2"},{"ns":0,"title":"National Review"},{"ns":0,"title":"Neil
+        Diamond"},{"ns":0,"title":"New York (magazine)"},{"ns":0,"title":"Night Shift
+        (film)"},{"ns":0,"title":"Nixon (film)"},{"ns":0,"title":"Nixon Doctrine"},{"ns":0,"title":"Nixon
+        White House tapes"},{"ns":0,"title":"Nixon goes to China"},{"ns":0,"title":"Nixon
+        in China (opera)"},{"ns":0,"title":"Nixonomics"},{"ns":0,"title":"Not So Much
+        a Programme, More a Way of Life"},{"ns":0,"title":"Nutty Professor II: The
+        Klumps"},{"ns":0,"title":"Oliver Platt"},{"ns":0,"title":"Oliver Stone"},{"ns":0,"title":"Parenthood
+        (2010 TV series)"},{"ns":0,"title":"Parenthood (film)"},{"ns":0,"title":"Pat
+        Nixon"},{"ns":0,"title":"Patty McCormack"},{"ns":0,"title":"Peace with Honor"},{"ns":0,"title":"Peter
+        Morgan"},{"ns":0,"title":"Peter Travers"},{"ns":0,"title":"Phlebitis"},{"ns":0,"title":"President
+        of the United States"},{"ns":0,"title":"Psycho (1998 film)"},{"ns":0,"title":"Rance
+        Howard"},{"ns":0,"title":"Ransom (1996 film)"},{"ns":0,"title":"Ray Price
+        (speechwriter)"},{"ns":0,"title":"Real Genius"},{"ns":0,"title":"Rebecca Hall"},{"ns":0,"title":"Relativity
+        Media"},{"ns":0,"title":"Republican Party presidential primaries, 1960"},{"ns":0,"title":"Republican
+        Party presidential primaries, 1964"},{"ns":0,"title":"Republican Party presidential
+        primaries, 1968"},{"ns":0,"title":"Republican Party presidential primaries,
+        1972"},{"ns":0,"title":"Restless (2011 film)"},{"ns":0,"title":"Richard Nixon"},{"ns":0,"title":"Richard
+        Nixon''s last press conference"},{"ns":0,"title":"Richard Nixon''s resignation
+        speech"},{"ns":0,"title":"Richard Nixon Foundation"},{"ns":0,"title":"Richard
+        Nixon Presidential Library"},{"ns":0,"title":"Richard Nixon Presidential Library
+        and Museum"},{"ns":0,"title":"Richard Nixon bibliography"},{"ns":0,"title":"Richard
+        Nixon presidential campaign, 1968"},{"ns":0,"title":"Robin Hood (2010 film)"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Rolling Stone"},{"ns":0,"title":"Ron Howard"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Rush (2013 film)"},{"ns":0,"title":"Salvatore
+        Totino"},{"ns":0,"title":"Sam Rockwell"},{"ns":0,"title":"San Clemente"},{"ns":0,"title":"Saved
+        (TV series)"},{"ns":0,"title":"Sgt. Bilko"},{"ns":0,"title":"Shadow Chasers"},{"ns":0,"title":"Shark
+        (TV series)"},{"ns":0,"title":"Silent majority"},{"ns":0,"title":"Six Crises"},{"ns":0,"title":"Spies
+        Like Us"},{"ns":0,"title":"Splash (film)"},{"ns":0,"title":"Sports Night"},{"ns":0,"title":"StudioCanal"},{"ns":0,"title":"Sue
+        Mengers"},{"ns":0,"title":"Swifty Lazar"},{"ns":0,"title":"That Was the Week
+        That Was"},{"ns":0,"title":"The Audience (2013 play)"},{"ns":0,"title":"The
+        Beast (2001 TV series)"},{"ns":0,"title":"The Big House (2004 TV series)"},{"ns":0,"title":"The
+        Cat in the Hat (film)"},{"ns":0,"title":"The Chamber (film)"},{"ns":0,"title":"The
+        Cowboy Way (film)"},{"ns":0,"title":"The Da Vinci Code (film)"},{"ns":0,"title":"The
+        Daily Mail"},{"ns":0,"title":"The Damned United"},{"ns":0,"title":"The Deal
+        (2003 film)"},{"ns":0,"title":"The Dilemma"},{"ns":0,"title":"The Frost Report"},{"ns":0,"title":"The
+        Inside (TV series)"},{"ns":0,"title":"The Jury (TV serial)"},{"ns":0,"title":"The
+        Last King of Scotland (film)"},{"ns":0,"title":"The Miami Herald"},{"ns":0,"title":"The
+        Missing"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The Nixon
+        Interviews"},{"ns":0,"title":"The Nutty Professor (1996 film)"},{"ns":0,"title":"The
+        Other Boleyn Girl (2008 film)"},{"ns":0,"title":"The PJs"},{"ns":0,"title":"The
+        Paper"},{"ns":0,"title":"The Playboy Club"},{"ns":0,"title":"The Queen (film)"},{"ns":0,"title":"The
+        Rise and Rise of Michael Rimmer"},{"ns":0,"title":"The Rumble in the Jungle"},{"ns":0,"title":"The
+        Slipper and the Rose"},{"ns":0,"title":"The Special Relationship (film)"},{"ns":0,"title":"Those
+        Who Kill (U.S. TV series)"},{"ns":0,"title":"Through the Keyhole"},{"ns":0,"title":"Tim
+        Bevan"},{"ns":0,"title":"Toby Jones"},{"ns":0,"title":"Tower Heist"},{"ns":0,"title":"Treasure
+        Hunters (TV series)"},{"ns":0,"title":"Tricia Nixon Cox"},{"ns":0,"title":"Undercover
+        Brother"},{"ns":0,"title":"United Kingdom"},{"ns":0,"title":"United States"},{"ns":0,"title":"United
+        States House of Representatives"},{"ns":0,"title":"United States House of
+        Representatives elections, 1948"},{"ns":0,"title":"United States Senate"},{"ns":0,"title":"United
+        States Senate election in California, 1950"},{"ns":0,"title":"United States
+        presidential election, 1952"},{"ns":0,"title":"United States presidential
+        election, 1956"},{"ns":0,"title":"United States presidential election, 1960"},{"ns":0,"title":"United
+        States presidential election, 1968"},{"ns":0,"title":"United States presidential
+        election, 1972"},{"ns":0,"title":"Universal Pictures"},{"ns":0,"title":"Universal
+        Studios"},{"ns":0,"title":"Universal Studios Home Entertainment"},{"ns":0,"title":"Variety
+        (magazine)"},{"ns":0,"title":"Vice President of the United States"},{"ns":0,"title":"Vietnam
+        War"},{"ns":0,"title":"Washington, D.C."},{"ns":0,"title":"Watergate scandal"},{"ns":0,"title":"West
+        End theatre"},{"ns":0,"title":"Willow (film)"},{"ns":0,"title":"Wonderland
+        (TV series)"},{"ns":0,"title":"Working Title Films"},{"ns":0,"title":"Yorba
+        Linda, California"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":10,"title":"Template:Brian
+        Grazer"},{"ns":10,"title":"Template:David Frost"},{"ns":10,"title":"Template:Gerald
+        Ford"},{"ns":10,"title":"Template:Lyndon B. Johnson"},{"ns":10,"title":"Template:Peter
+        Morgan"},{"ns":10,"title":"Template:Richard Nixon"},{"ns":10,"title":"Template:Ron
+        Howard"},{"ns":11,"title":"Template talk:Brian Grazer"},{"ns":11,"title":"Template
+        talk:David Frost"},{"ns":11,"title":"Template talk:Peter Morgan"},{"ns":11,"title":"Template
+        talk:Richard Nixon"},{"ns":11,"title":"Template talk:Ron Howard"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":14,"title":"Category:Articles with dead external links from
+        October 2010"},{"ns":14,"title":"Category:Richard Nixon in film and television"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:13 GMT
+recorded_with: VCR 2.9.2

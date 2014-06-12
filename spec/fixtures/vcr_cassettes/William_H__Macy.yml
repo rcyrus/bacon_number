@@ -1,0 +1,238 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=William%20H.%20Macy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401718786, 983742108, 1613116133
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4309'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:23 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4018 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"398602":{"pageid":398602,"ns":0,"title":"William
+        H. Macy","links":[{"ns":0,"title":"1984 in film"},{"ns":0,"title":"2012 Toronto
+        International Film Festival"},{"ns":0,"title":"55th Primetime Emmy Awards"},{"ns":0,"title":"A
+        Civil Action (film)"},{"ns":0,"title":"A Midsummer Night''s Dream"},{"ns":0,"title":"A
+        Single Shot"},{"ns":0,"title":"Abby Mann"},{"ns":0,"title":"Abi Morgan"},{"ns":0,"title":"Above
+        Suspicion (1995 film)"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Action
+        movie"},{"ns":0,"title":"Adam Mazer"},{"ns":0,"title":"Air Force One (film)"},{"ns":0,"title":"Air
+        Medal"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Brooks"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alfred Lunt"},{"ns":0,"title":"Allegany
+        High School"},{"ns":0,"title":"American Buffalo (play)"},{"ns":0,"title":"American
+        Comedy Awards"},{"ns":0,"title":"Andersonville (film)"},{"ns":0,"title":"Andre
+        Braugher"},{"ns":0,"title":"Andrew Davies (writer)"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Anthony Murphy (actor)"},{"ns":0,"title":"Armand
+        Assante"},{"ns":0,"title":"Armin Mueller-Stahl"},{"ns":0,"title":"Arthur Miller"},{"ns":0,"title":"Atlanta,
+        Georgia"},{"ns":0,"title":"Atlantic Theater Company"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"B-17 Flying Fortress"},{"ns":0,"title":"Bakersfield
+        P.D."},{"ns":0,"title":"Barry Morrow"},{"ns":0,"title":"Barry Pepper"},{"ns":0,"title":"Bart
+        Got a Room"},{"ns":0,"title":"Batman Beyond"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Being
+        Human (film)"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benedict Cumberbatch"},{"ns":0,"title":"Benny
+        & Joon"},{"ns":0,"title":"Bethany College (West Virginia)"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Macy"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Bill
+        Nighy"},{"ns":0,"title":"Bill Porter (salesman)"},{"ns":0,"title":"Bobby (2006
+        film)"},{"ns":0,"title":"Boogie Nights"},{"ns":0,"title":"Boston Society of
+        Film Critics Award for Best Supporting Actor"},{"ns":0,"title":"Boston Society
+        of Film Critics Awards"},{"ns":0,"title":"Brendan Gleeson"},{"ns":0,"title":"Brian
+        Dennehy"},{"ns":0,"title":"Brian Griffin"},{"ns":0,"title":"Broadcast Film
+        Critics Association Award for Best Cast"},{"ns":0,"title":"Broadcast Film
+        Critics Association Awards"},{"ns":0,"title":"Broadway play"},{"ns":0,"title":"Bruce
+        Greenwood"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"Cake (2015 film)"},{"ns":0,"title":"California"},{"ns":0,"title":"Casey
+        Affleck"},{"ns":0,"title":"Cellular (film)"},{"ns":0,"title":"Cerebral palsy"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Chicago
+        Film Critics Association Award for Best Actor"},{"ns":0,"title":"Chicago Film
+        Critics Association Awards"},{"ns":0,"title":"Choose Your Own Adventure DVD
+        Series"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Markus and Stephen McFeely"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Reeve"},{"ns":0,"title":"Christopher Walken"},{"ns":0,"title":"Cincinnati"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Colin Fitz Lives!"},{"ns":0,"title":"Critics''
+        Choice Television Award for Best Actor in a Drama Series"},{"ns":0,"title":"Critics''
+        Choice Television Awards"},{"ns":0,"title":"Cuba Gooding, Jr."},{"ns":0,"title":"Cumberland,
+        Maryland"},{"ns":0,"title":"Curious George (TV series)"},{"ns":0,"title":"Daniel
+        Lipman"},{"ns":0,"title":"Danny Glover"},{"ns":0,"title":"Danny Huston"},{"ns":0,"title":"Danny
+        Strong"},{"ns":0,"title":"David Butler (screenwriter)"},{"ns":0,"title":"David
+        Chase"},{"ns":0,"title":"David Mamet"},{"ns":0,"title":"David Mills (TV writer)"},{"ns":0,"title":"David
+        Oyelowo"},{"ns":0,"title":"David Simon"},{"ns":0,"title":"Dead on Sight"},{"ns":0,"title":"Delroy
+        Lindo"},{"ns":0,"title":"Dennis Haysbert"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Derek
+        Luke"},{"ns":0,"title":"Dirty Girl (2010 film)"},{"ns":0,"title":"Distinguished
+        Flying Cross (United States)"},{"ns":0,"title":"Djimon Hounsou"},{"ns":0,"title":"Donald
+        Sutherland"},{"ns":0,"title":"Doogal"},{"ns":0,"title":"Door to Door (film)"},{"ns":0,"title":"Down
+        Periscope"},{"ns":0,"title":"Dun & Bradstreet"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"ER
+        (TV series)"},{"ns":0,"title":"Easy Riders, Raging Bulls"},{"ns":0,"title":"Ed
+        Flanders"},{"ns":0,"title":"Edmond (film)"},{"ns":0,"title":"Edward James
+        Olmos"},{"ns":0,"title":"Edward Zwick"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Ernest & Celestine"},{"ns":0,"title":"Eugene Levy"},{"ns":0,"title":"Everyman"},{"ns":0,"title":"Everyone''s
+        Hero"},{"ns":0,"title":"Evolver (movie)"},{"ns":0,"title":"Family Guy"},{"ns":0,"title":"Fargo
+        (film)"},{"ns":0,"title":"Felicity Huffman"},{"ns":0,"title":"Fine Woodworking"},{"ns":0,"title":"Florida"},{"ns":0,"title":"Florida
+        Film Critics Circle Award for Best Cast"},{"ns":0,"title":"Florida Film Critics
+        Circle Award for Best Supporting Actor"},{"ns":0,"title":"Florida Film Critics
+        Circle Awards"},{"ns":0,"title":"Focus (2001 film)"},{"ns":0,"title":"Foolin''
+        Around"},{"ns":0,"title":"Frank Deasy"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"Georgia
+        (U.S. state)"},{"ns":0,"title":"Ghosts of Mississippi"},{"ns":0,"title":"Goddard
+        College"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden Globe
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Awards"},{"ns":0,"title":"Gus Van Sant"},{"ns":0,"title":"Hal Holbrook"},{"ns":0,"title":"Happy,
+        Texas (film)"},{"ns":0,"title":"Harley-Davidson"},{"ns":0,"title":"Harry Lennix"},{"ns":0,"title":"Harvey
+        Keitel"},{"ns":0,"title":"He Was a Quiet Man"},{"ns":0,"title":"Hollywood
+        Film Festival"},{"ns":0,"title":"Hollywood Walk of Fame"},{"ns":0,"title":"Homicide
+        (1991 film)"},{"ns":0,"title":"Horton Foote"},{"ns":0,"title":"House of Games"},{"ns":0,"title":"Hugh
+        Whitemore"},{"ns":0,"title":"Hume Cronyn"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Ichabod
+        Crane"},{"ns":0,"title":"Illinois"},{"ns":0,"title":"Improvisation"},{"ns":0,"title":"In
+        Enemy Hands (film)"},{"ns":0,"title":"Independent Spirit Award for Best Male
+        Lead"},{"ns":0,"title":"Independent Spirit Award for Best Supporting Male"},{"ns":0,"title":"Independent
+        Spirit Awards"},{"ns":0,"title":"Independent films"},{"ns":0,"title":"Inland
+        Empire (film)"},{"ns":0,"title":"Inside the Actors Studio"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"It''s
+        A Very Merry Muppet Christmas Movie"},{"ns":0,"title":"Jack Klugman"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Palance"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        Sandecker"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jane
+        Anderson"},{"ns":0,"title":"Jared Leto"},{"ns":0,"title":"Jason Isaacs"},{"ns":0,"title":"Jason
+        Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy Piven"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"John Falsey"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Hawkes (actor)"},{"ns":0,"title":"John Kerry"},{"ns":0,"title":"Jonathan Rhys
+        Meyers"},{"ns":0,"title":"Joshua Brand"},{"ns":0,"title":"Julian Fellowes"},{"ns":0,"title":"Juno
+        Temple"},{"ns":0,"title":"Jurassic Park III"},{"ns":0,"title":"Kario Salem"},{"ns":0,"title":"Kate
+        & Allie"},{"ns":0,"title":"Keith Michell"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"King
+        of the Hill"},{"ns":0,"title":"L.A. Law"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Law
+        & Order"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Library of
+        Congress Control Number"},{"ns":0,"title":"List of people from Miami"},{"ns":0,"title":"Lloyd
+        Nolan"},{"ns":0,"title":"Loring Mandel"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Lutheranism"},{"ns":0,"title":"M.
+        Emmet Walsh"},{"ns":0,"title":"Magnolia (film)"},{"ns":0,"title":"Marmaduke
+        (film)"},{"ns":0,"title":"Marshall Herskovitz"},{"ns":0,"title":"Mary Steenburgen"},{"ns":0,"title":"Maryland"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Maurice Evans
+        (actor)"},{"ns":0,"title":"Maxim (magazine)"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Miami"},{"ns":0,"title":"Michael
+        Constantine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Mann (director)"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Michael
+        Shannon"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Mickey Rourke"},{"ns":0,"title":"Middle
+        America (United States)"},{"ns":0,"title":"Milla Jovovich"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"Mr. Holland''s Opus"},{"ns":0,"title":"Murder in
+        the First (film)"},{"ns":0,"title":"Mystery Men"},{"ns":0,"title":"National
+        Board of Review"},{"ns":0,"title":"National Board of Review Award for Best
+        Cast"},{"ns":0,"title":"New York"},{"ns":0,"title":"New York City"},{"ns":0,"title":"Nightmares
+        and Dreamscapes: From the Stories of Stephen King"},{"ns":0,"title":"Norbert
+        Leo Butz"},{"ns":0,"title":"Off Broadway"},{"ns":0,"title":"Oleanna (film)"},{"ns":0,"title":"Oleanna
+        (play)"},{"ns":0,"title":"Online Film Critics Society Award for Best Cast"},{"ns":0,"title":"Online
+        Film Critics Society Awards"},{"ns":0,"title":"Out of Order (TV miniseries)"},{"ns":0,"title":"Pacific
+        Coast"},{"ns":0,"title":"Panic (2000 film)"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"People Magazine"},{"ns":0,"title":"Peter
+        Falk"},{"ns":0,"title":"Peter Strauss"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Philip
+        Seymour Hoffman"},{"ns":0,"title":"Pleasantville (film)"},{"ns":0,"title":"Portland,
+        Oregon"},{"ns":0,"title":"Powers Boothe"},{"ns":0,"title":"Practical Aesthetics"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actor in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Made for Television Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Miniseries, Movie or a Dramatic Special"},{"ns":0,"title":"Primetime
+        Emmy Awards"},{"ns":0,"title":"Prism Awards"},{"ns":0,"title":"Psycho (1998
+        film)"},{"ns":0,"title":"Radio Days"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Reversible
+        Errors (film)"},{"ns":0,"title":"Richard Crenna"},{"ns":0,"title":"Richard
+        Curtis"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard Farnsworth"},{"ns":0,"title":"Richard
+        Friedenberg"},{"ns":0,"title":"River Phoenix"},{"ns":0,"title":"Rob Cowan"},{"ns":0,"title":"Robert
+        Cummings"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Rudderless"},{"ns":0,"title":"Rupert Everett"},{"ns":0,"title":"Ryan
+        Gosling"},{"ns":0,"title":"Sahara (2005 film)"},{"ns":0,"title":"Sahara (2005
+        movie)"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"Satellite Award
+        for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Television Series Drama"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor \u2013 Series, Miniseries or Television Film"},{"ns":0,"title":"Satellite
+        Awards"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors Guild Award
+        for Outstanding Performance by a Male Actor in a Miniseries or Television
+        Movie"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Male Actor in a Supporting Role"},{"ns":0,"title":"Screen Actors Guild
+        Awards"},{"ns":0,"title":"Screenwriter"},{"ns":0,"title":"Seabiscuit (film)"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Searching for Bobby Fischer"},{"ns":0,"title":"Sequel"},{"ns":0,"title":"Seth
+        MacFarlane"},{"ns":0,"title":"Shameless (U.S. TV series)"},{"ns":0,"title":"Sherman
+        Yellen"},{"ns":0,"title":"Shorts (2009 film)"},{"ns":0,"title":"Showtime (TV
+        channel)"},{"ns":0,"title":"Simon Moore (writer)"},{"ns":0,"title":"Somewhere
+        in Time (film)"},{"ns":0,"title":"Southern belle"},{"ns":0,"title":"Spartan
+        (film)"},{"ns":0,"title":"Speed-the-Plow"},{"ns":0,"title":"Spencer: For Hire"},{"ns":0,"title":"Sports
+        Night"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"State and Main"},{"ns":0,"title":"Stealing
+        Sinatra"},{"ns":0,"title":"Steven Schachter"},{"ns":0,"title":"Tall Tale (film)"},{"ns":0,"title":"Television
+        pilot"},{"ns":0,"title":"Terrence McNally"},{"ns":0,"title":"Thank You for
+        Smoking (film)"},{"ns":0,"title":"The Awakening Land"},{"ns":0,"title":"The
+        Boy Who Loved Trolls"},{"ns":0,"title":"The Client (1994 film)"},{"ns":0,"title":"The
+        Con (film)"},{"ns":0,"title":"The Cooler"},{"ns":0,"title":"The Deal (2008
+        film)"},{"ns":0,"title":"The Equalizer"},{"ns":0,"title":"The Heart of Justice"},{"ns":0,"title":"The
+        Last Dragon"},{"ns":0,"title":"The Lincoln Lawyer (film)"},{"ns":0,"title":"The
+        Lionhearts"},{"ns":0,"title":"The Maiden Heist"},{"ns":0,"title":"The Murder
+        of Mary Phagan"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The
+        Night of the Headless Horseman"},{"ns":0,"title":"The Secret of NIMH 2: Timmy
+        to the Rescue"},{"ns":0,"title":"The Sessions (film)"},{"ns":0,"title":"The
+        Simpsons"},{"ns":0,"title":"The Tale of Despereaux (film)"},{"ns":0,"title":"The
+        Three Penny Opera"},{"ns":0,"title":"The Unit"},{"ns":0,"title":"The Water
+        Engine"},{"ns":0,"title":"The Wind Rises"},{"ns":0,"title":"The Wool Cap"},{"ns":0,"title":"Theatre
+        in Chicago"},{"ns":0,"title":"Things Change"},{"ns":0,"title":"Thomas Haden
+        Church"},{"ns":0,"title":"Thomas Mitchell (actor)"},{"ns":0,"title":"Tim McGraw"},{"ns":0,"title":"Tom
+        Wilkinson"},{"ns":0,"title":"Tommy Lee Jones"},{"ns":0,"title":"Tony Kushner"},{"ns":0,"title":"Toronto
+        International Film Festival"},{"ns":0,"title":"Trevor Howard"},{"ns":0,"title":"Trust
+        Me (2013 film)"},{"ns":0,"title":"Turner Network Television"},{"ns":0,"title":"Typecasting
+        (acting)"},{"ns":0,"title":"USA Today"},{"ns":0,"title":"Ukulele"},{"ns":0,"title":"United
+        Cerebral Palsy"},{"ns":0,"title":"Val Kilmer"},{"ns":0,"title":"Vermont"},{"ns":0,"title":"Veterinary
+        medicine"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Wag
+        the Dog"},{"ns":0,"title":"Welcome to Collinwood"},{"ns":0,"title":"West Virginia"},{"ns":0,"title":"White
+        Anglo-Saxon Protestant"},{"ns":0,"title":"Wild Hogs"},{"ns":0,"title":"Willem
+        Dafoe"},{"ns":0,"title":"William Hanley"},{"ns":0,"title":"William Holden"},{"ns":0,"title":"Without
+        a Trace (film)"},{"ns":0,"title":"Woodturner"},{"ns":0,"title":"World War
+        II"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:EmmyAward
+        DramaMiniseriesWriting"},{"ns":10,"title":"Template:EmmyAward MiniseriesLeadActor"},{"ns":10,"title":"Template:IndependentSpiritBestMaleLead"},{"ns":10,"title":"Template:Satellite
+        Award Best Actor Television Miniseries or Film"},{"ns":10,"title":"Template:Satellite
+        Award Best Supporting Actor Motion Picture"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        MaleTVMiniseriesMovie"},{"ns":11,"title":"Template talk:EmmyAward DramaMiniseriesWriting"},{"ns":11,"title":"Template
+        talk:EmmyAward MiniseriesLeadActor"},{"ns":11,"title":"Template talk:IndependentSpiritBestMaleLead"},{"ns":11,"title":"Template
+        talk:Satellite Award Best Actor Television Miniseries or Film"},{"ns":11,"title":"Template
+        talk:Satellite Award Best Supporting Actor Motion Picture"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":14,"title":"Category:Articles
+        with dead external links from October 2010"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:24 GMT
+recorded_with: VCR 2.9.2

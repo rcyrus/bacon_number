@@ -1,0 +1,260 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Christopher%20Reeve
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390610148, 2340315498, 2899089464
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5015'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:57 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4016 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"73626|0|Washington_Post"}},"query":{"pages":{"73626":{"pageid":73626,"ns":0,"title":"Christopher
+        Reeve","links":[{"ns":0,"title":"68th Academy Awards"},{"ns":0,"title":"A&E
+        Network"},{"ns":0,"title":"ABC News"},{"ns":0,"title":"ALYN Hospital"},{"ns":0,"title":"A
+        Matter of Gravity"},{"ns":0,"title":"A Month in the Country (play)"},{"ns":0,"title":"A
+        View from the Bridge"},{"ns":0,"title":"Above Suspicion (1995 film)"},{"ns":0,"title":"Abraham
+        Lincoln"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Costume Design"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Adventures
+        of Superman (TV series)"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"Alfred Hitchcock"},{"ns":0,"title":"All-Star
+        Superman (film)"},{"ns":0,"title":"Allan Pinkerton"},{"ns":0,"title":"Allergy"},{"ns":0,"title":"Alopecia
+        areata"},{"ns":0,"title":"American Gigolo"},{"ns":0,"title":"American Legion"},{"ns":0,"title":"American
+        Museum of Natural History"},{"ns":0,"title":"Amnesty International"},{"ns":0,"title":"Anaphylactic
+        shock"},{"ns":0,"title":"Animated film"},{"ns":0,"title":"Anna Karenina (1985
+        film)"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Antibiotic"},{"ns":0,"title":"Antihistamines"},{"ns":0,"title":"Apprentice"},{"ns":0,"title":"Ariel
+        Dorfman"},{"ns":0,"title":"Art film"},{"ns":0,"title":"Asthma"},{"ns":0,"title":"Atlanta"},{"ns":0,"title":"Atlas
+        (anatomy)"},{"ns":0,"title":"Atom Man vs. Superman"},{"ns":0,"title":"Augusto
+        Pinochet"},{"ns":0,"title":"Aviator"},{"ns":0,"title":"Axis (anatomy)"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BBC
+        News"},{"ns":0,"title":"Bachelor''s degree"},{"ns":0,"title":"Barnard College"},{"ns":0,"title":"Batman"},{"ns":0,"title":"Batman:
+        The Dark Knight Returns (film)"},{"ns":0,"title":"Batman v Superman: Dawn
+        of Justice"},{"ns":0,"title":"Battle of Britain"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Bizarro
+        Classic"},{"ns":0,"title":"Blood transfusion"},{"ns":0,"title":"Blythe Danner"},{"ns":0,"title":"Body
+        Heat"},{"ns":0,"title":"Boothbay, Maine"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Box
+        office"},{"ns":0,"title":"Box office bomb"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Bridget
+        Fonda"},{"ns":0,"title":"Bridle"},{"ns":0,"title":"Bringing Up Baby"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Brooke Ellison"},{"ns":0,"title":"Brown University"},{"ns":0,"title":"Burt
+        Reynolds"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CNN"},{"ns":0,"title":"California
+        Constitution Article XXXV"},{"ns":0,"title":"California Institute for Regenerative
+        Medicine"},{"ns":0,"title":"Cambridge, Massachusetts"},{"ns":0,"title":"Can
+        You Read My Mind"},{"ns":0,"title":"Cannon Films"},{"ns":0,"title":"Cardiac
+        arrest"},{"ns":0,"title":"Cardiovascular"},{"ns":0,"title":"Carnegie Mellon"},{"ns":0,"title":"Carnegie
+        Mellon University"},{"ns":0,"title":"Cary Grant"},{"ns":0,"title":"Centers
+        for Disease Control"},{"ns":0,"title":"Cervical spinal injury"},{"ns":0,"title":"Charles
+        Kuralt"},{"ns":0,"title":"Chesapeake Bay"},{"ns":0,"title":"Chicago Hope"},{"ns":0,"title":"Chief
+        executive officer"},{"ns":0,"title":"Chris Reeve"},{"ns":0,"title":"Christopher
+        Reeve Foundation"},{"ns":0,"title":"Christopher Reeve Paralysis Foundation"},{"ns":0,"title":"Christopher
+        Reeve filmography"},{"ns":0,"title":"Christopher and Dana Reeve Foundation"},{"ns":0,"title":"Circle
+        Repertory Company"},{"ns":0,"title":"Circle in the Square Theatre"},{"ns":0,"title":"Clark
+        Kent"},{"ns":0,"title":"Columbia University"},{"ns":0,"title":"Coma"},{"ns":0,"title":"Comic
+        book"},{"ns":0,"title":"Concorde"},{"ns":0,"title":"Cool Runnings"},{"ns":0,"title":"Cornell
+        University"},{"ns":0,"title":"Creative Coalition"},{"ns":0,"title":"Creative
+        Consultant"},{"ns":0,"title":"Cremation"},{"ns":0,"title":"Culpeper, Virginia"},{"ns":0,"title":"Cult
+        film"},{"ns":0,"title":"DC Comics"},{"ns":0,"title":"DC Universe Online"},{"ns":0,"title":"DNA"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Dana
+        Reeve"},{"ns":0,"title":"Darth Vader"},{"ns":0,"title":"David Lean"},{"ns":0,"title":"David
+        Ogden Stiers"},{"ns":0,"title":"David Prowse"},{"ns":0,"title":"David Strathairn"},{"ns":0,"title":"Dean
+        (education)"},{"ns":0,"title":"Dean Cain"},{"ns":0,"title":"Death Battle"},{"ns":0,"title":"Deathtrap
+        (film)"},{"ns":0,"title":"Delirium"},{"ns":0,"title":"Democratic National
+        Convention"},{"ns":0,"title":"Democratic Party (United States)"},{"ns":0,"title":"Dialect"},{"ns":0,"title":"Dinosaur!"},{"ns":0,"title":"Dressage"},{"ns":0,"title":"East
+        of the Sun (and West of the Moon)"},{"ns":0,"title":"Edward IV"},{"ns":0,"title":"Eleanor
+        Parker"},{"ns":0,"title":"Elias Boudinot"},{"ns":0,"title":"Embryonic stem
+        cell research"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Enemies & Allies"},{"ns":0,"title":"Epinephrine"},{"ns":0,"title":"Equestrianism"},{"ns":0,"title":"Eventing"},{"ns":0,"title":"Everyone''s
+        Hero"},{"ns":0,"title":"F.D. Reeve"},{"ns":0,"title":"F. D. Reeve"},{"ns":0,"title":"Fatal
+        Attraction"},{"ns":0,"title":"Fifty Who Made DC Great"},{"ns":0,"title":"Film
+        director"},{"ns":0,"title":"Find a Grave"},{"ns":0,"title":"Fletcher Christian"},{"ns":0,"title":"Frank
+        Gifford"},{"ns":0,"title":"Franklin D''Olier"},{"ns":0,"title":"Freshman"},{"ns":0,"title":"Gary
+        Boyd Roberts"},{"ns":0,"title":"Gary Oldman"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George Burns"},{"ns":0,"title":"George
+        Reeves"},{"ns":0,"title":"George W. Bush"},{"ns":0,"title":"Gilda Radner"},{"ns":0,"title":"Glasgow"},{"ns":0,"title":"Glenn
+        Close"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Gracie: A Love Story"},{"ns":0,"title":"Grammy
+        Award for Best Spoken Word Album"},{"ns":0,"title":"Gray Lady Down"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hamlet"},{"ns":0,"title":"Hannibal
+        (film)"},{"ns":0,"title":"Hannibal (novel)"},{"ns":0,"title":"Hartford Courant"},{"ns":0,"title":"Harvard
+        University"},{"ns":0,"title":"Heart failure"},{"ns":0,"title":"Hemoglobin"},{"ns":0,"title":"Henry
+        Baldwin (judge)"},{"ns":0,"title":"Henry Rollins"},{"ns":0,"title":"Hillary
+        Rodham Clinton"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Hollywood Walk
+        of Fame"},{"ns":0,"title":"Hollywoodland"},{"ns":0,"title":"Honors student"},{"ns":0,"title":"Horse
+        riding"},{"ns":0,"title":"Horse tack"},{"ns":0,"title":"Human Cloning"},{"ns":0,"title":"Ilya
+        Salkind"},{"ns":0,"title":"In the Gloaming (film)"},{"ns":0,"title":"Infinite
+        Crisis (video game)"},{"ns":0,"title":"Inflation"},{"ns":0,"title":"Injustice:
+        Gods Among Us"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Ira
+        Levin"},{"ns":0,"title":"Ireland"},{"ns":0,"title":"Israel"},{"ns":0,"title":"It''s
+        Superman!"},{"ns":0,"title":"It''s a Bird...It''s a Plane...It''s Superman"},{"ns":0,"title":"It
+        Takes a Village"},{"ns":0,"title":"JLA Adventures: Trapped in Time"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jamaica"},{"ns":0,"title":"Jane Seymour (actress)"},{"ns":0,"title":"Jean-Pierre
+        Dorl\u00e9ac"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Joey Cavalieri"},{"ns":0,"title":"John
+        A. Jane"},{"ns":0,"title":"John Glover (actor)"},{"ns":0,"title":"John Houseman"},{"ns":0,"title":"John
+        Williams"},{"ns":0,"title":"John Winthrop"},{"ns":0,"title":"Jor-El"},{"ns":0,"title":"Juilliard
+        School"},{"ns":0,"title":"Julia Roberts"},{"ns":0,"title":"Justice League:
+        Crisis on Two Earths"},{"ns":0,"title":"Justice League: Doom"},{"ns":0,"title":"Justice
+        League: The Flashpoint Paradox"},{"ns":0,"title":"Justice League: The New
+        Frontier"},{"ns":0,"title":"Justice League: War"},{"ns":0,"title":"Justice
+        League (TV series)"},{"ns":0,"title":"Justice League Heroes"},{"ns":0,"title":"Justice
+        League Unlimited"},{"ns":0,"title":"Katharine Hepburn"},{"ns":0,"title":"Kathleen
+        Turner"},{"ns":0,"title":"Ken Burns"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Kidnapped (1995
+        film)"},{"ns":0,"title":"Kranjska Gora"},{"ns":0,"title":"Krypto the Superdog"},{"ns":0,"title":"Lamina
+        of the vertebral arch"},{"ns":0,"title":"Larry King Live"},{"ns":0,"title":"Legion
+        of Super Heroes (TV series)"},{"ns":0,"title":"Lego Batman: The Movie \u2013
+        DC Super Heroes Unite"},{"ns":0,"title":"Lego Batman 2: DC Super Heroes"},{"ns":0,"title":"Lego
+        Batman 3: Beyond Gotham"},{"ns":0,"title":"Lethal Weapon"},{"ns":0,"title":"Lex
+        Luthor"},{"ns":0,"title":"Lex Luthor in other media"},{"ns":0,"title":"Life
+        is a Dream"},{"ns":0,"title":"Lionel Luthor"},{"ns":0,"title":"List of Superman
+        video games"},{"ns":0,"title":"Lois & Clark: A Superman Novel"},{"ns":0,"title":"Lois
+        & Clark: The New Adventures of Superman"},{"ns":0,"title":"London"},{"ns":0,"title":"Long
+        Island"},{"ns":0,"title":"Look, Up in the Sky: The Amazing Story of Superman"},{"ns":0,"title":"Lortel
+        Archives"},{"ns":0,"title":"Los Angeles, California"},{"ns":0,"title":"Love''s
+        Labour''s Lost"},{"ns":0,"title":"Love of Life"},{"ns":0,"title":"Lucy and
+        Superman"},{"ns":0,"title":"Lung cancer"},{"ns":0,"title":"Lynn Stalmaster"},{"ns":0,"title":"Mackinac
+        Island"},{"ns":0,"title":"Magic Johnson"},{"ns":0,"title":"Mahlon Pitney"},{"ns":0,"title":"Make-A-Wish
+        Foundation"},{"ns":0,"title":"Malnutrition"},{"ns":0,"title":"Man of Steel,
+        Woman of Kleenex"},{"ns":0,"title":"Man of Steel (film)"},{"ns":0,"title":"Mark
+        Snow"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Marriage of Figaro"},{"ns":0,"title":"Married
+        and maiden names"},{"ns":0,"title":"Martha''s Vineyard"},{"ns":0,"title":"Mass
+        media"},{"ns":0,"title":"Massachusetts Institute of Technology"},{"ns":0,"title":"Master''s
+        degree"},{"ns":0,"title":"Maya Angelou"},{"ns":0,"title":"Mayflower"},{"ns":0,"title":"Medical
+        ventilator"},{"ns":0,"title":"Mel Gibson"},{"ns":0,"title":"Miami Herald"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Keaton"},{"ns":0,"title":"Mighty
+        Mouse"},{"ns":0,"title":"Miracle Monday"},{"ns":0,"title":"Monsignor (film)"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"Mortal Kombat vs. DC Universe"},{"ns":0,"title":"Mount
+        Kisco, New York"},{"ns":0,"title":"Mutiny on the Bounty"},{"ns":0,"title":"My
+        Hero (UK TV series)"},{"ns":0,"title":"My Life (play)"},{"ns":0,"title":"National
+        Comics Publications v. Fawcett Publications"},{"ns":0,"title":"Natural Resources
+        Defense Council"},{"ns":0,"title":"Nervous system"},{"ns":0,"title":"New England
+        Historic Genealogical Society"},{"ns":0,"title":"New Mexico"},{"ns":0,"title":"New
+        Mobility magazine"},{"ns":0,"title":"New York"},{"ns":0,"title":"New York
+        City"},{"ns":0,"title":"New York Times Best Seller list"},{"ns":0,"title":"Newsweek"},{"ns":0,"title":"Nine
+        Months"},{"ns":0,"title":"North Adams, Massachusetts"},{"ns":0,"title":"Northwestern
+        University"},{"ns":0,"title":"Nova Scotia"},{"ns":0,"title":"Nuclear disarmament"},{"ns":0,"title":"O.
+        J. Simpson"},{"ns":0,"title":"Old Globe Theatre"},{"ns":0,"title":"Old Vic"},{"ns":0,"title":"Olympia
+        Dukakis"},{"ns":0,"title":"On the Pulse of Morning"},{"ns":0,"title":"Out-of-body
+        experience"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Paralympics"},{"ns":0,"title":"Paralysis"},{"ns":0,"title":"Patrick
+        Leahy"},{"ns":0,"title":"Patti LuPone"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"People for the American Way"},{"ns":0,"title":"Physical
+        medicine and rehabilitation"},{"ns":0,"title":"Picket Fences"},{"ns":0,"title":"Point
+        Reyes"},{"ns":0,"title":"Pozzo (Waiting for Godot)"},{"ns":0,"title":"President
+        of the United States"},{"ns":0,"title":"Pressure ulcer"},{"ns":0,"title":"Pretty
+        Woman"},{"ns":0,"title":"Princeton, New Jersey"},{"ns":0,"title":"Princeton
+        Day School"},{"ns":0,"title":"Princeton University"},{"ns":0,"title":"Proctologist"},{"ns":0,"title":"Protein"},{"ns":0,"title":"Prudential
+        Financial"},{"ns":0,"title":"Quadriplegic"},{"ns":0,"title":"Random House"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Rear Window"},{"ns":0,"title":"Rear Window (1998
+        film)"},{"ns":0,"title":"Rectal exam"},{"ns":0,"title":"Refusal (horse)"},{"ns":0,"title":"Reproductive
+        cloning"},{"ns":0,"title":"Return of Mr. Superman"},{"ns":0,"title":"Richard
+        Chamberlain"},{"ns":0,"title":"Richard Donner"},{"ns":0,"title":"Richard Gere"},{"ns":0,"title":"Richard
+        III (play)"},{"ns":0,"title":"Richard Lester"},{"ns":0,"title":"Richard Pryor"},{"ns":0,"title":"Robert
+        Redford"},{"ns":0,"title":"Robert Sean Leonard"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Romancing
+        the Stone"},{"ns":0,"title":"Ron Silver"},{"ns":0,"title":"Ronald Reagan"},{"ns":0,"title":"Rosencrantz
+        and Guildenstern Are Dead"},{"ns":0,"title":"Royal Air Force"},{"ns":0,"title":"Russian
+        language"},{"ns":0,"title":"Sailplane"},{"ns":0,"title":"San Francisco Chronicle"},{"ns":0,"title":"Santiago,
+        Chile"},{"ns":0,"title":"Save Me (Remy Zero song)"},{"ns":0,"title":"Save
+        the Children"},{"ns":0,"title":"Scientology"},{"ns":0,"title":"Screen Actors
+        Guild Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Male Actor in a Miniseries or Television Movie"},{"ns":0,"title":"Screen
+        test"},{"ns":0,"title":"Sepsis"},{"ns":0,"title":"Sesame Street"},{"ns":0,"title":"Sherry
+        Netherland Hotel"},{"ns":0,"title":"Short Hills, New Jersey"},{"ns":0,"title":"Sidney
+        Lumet"},{"ns":0,"title":"Smallville"},{"ns":0,"title":"Smallville (Season
+        2)"},{"ns":0,"title":"Smallville (Season 3)"},{"ns":0,"title":"Smallville
+        (TV series)"},{"ns":0,"title":"Socialized medicine"},{"ns":0,"title":"Somatic
+        cell nuclear transfer"},{"ns":0,"title":"Somewhere in Time (film)"},{"ns":0,"title":"Special
+        Olympics"},{"ns":0,"title":"Speechless (1994 film)"},{"ns":0,"title":"Spinal-cord
+        injury"},{"ns":0,"title":"Spinal column"},{"ns":0,"title":"Spinal cord injury"},{"ns":0,"title":"Splash
+        (film)"},{"ns":0,"title":"Stamp Day for Superman"},{"ns":0,"title":"Star Wars"},{"ns":0,"title":"Starlog"},{"ns":0,"title":"Stearman
+        Aircraft"},{"ns":0,"title":"Steel (1997 film)"},{"ns":0,"title":"Stem cell"},{"ns":0,"title":"Stem
+        cell research"},{"ns":0,"title":"Stem cells"},{"ns":0,"title":"Stevedore"},{"ns":0,"title":"Still
+        Me"},{"ns":0,"title":"Stockbroker"},{"ns":0,"title":"Street Smart (film)"},{"ns":0,"title":"Stupor
+        Duck"},{"ns":0,"title":"Suicide"},{"ns":0,"title":"Super-Rabbit"},{"ns":0,"title":"Super
+        Friends"},{"ns":0,"title":"Superboy (TV series)"},{"ns":0,"title":"Supergirl
+        (film)"},{"ns":0,"title":"Supergirl in other media"},{"ns":0,"title":"Superman"},{"ns":0,"title":"Superman/Batman:
+        Apocalypse"},{"ns":0,"title":"Superman/Batman: Public Enemies"},{"ns":0,"title":"Superman/Shazam!:
+        The Return of Black Adam"},{"ns":0,"title":"Superman: Brainiac Attacks"},{"ns":0,"title":"Superman:
+        Countdown to Apokolips"},{"ns":0,"title":"Superman: Doomsday"},{"ns":0,"title":"Superman:
+        Doomsday & Beyond"},{"ns":0,"title":"Superman: Last Son of Krypton"},{"ns":0,"title":"Superman:
+        Shadow of Apokolips"},{"ns":0,"title":"Superman: The Animated Series"},{"ns":0,"title":"Superman:
+        The Game"},{"ns":0,"title":"Superman: The Man of Steel (1989 video game)"},{"ns":0,"title":"Superman:
+        The Man of Steel (2002 video game)"},{"ns":0,"title":"Superman: Unbound"},{"ns":0,"title":"Superman
+        (1940s cartoons)"},{"ns":0,"title":"Superman (1978 film)"},{"ns":0,"title":"Superman
+        (1999 video game)"},{"ns":0,"title":"Superman (Atari 2600 video game)"},{"ns":0,"title":"Superman
+        (It''s Not Easy)"},{"ns":0,"title":"Superman (Kemco game)"},{"ns":0,"title":"Superman
+        (Sunsoft game)"},{"ns":0,"title":"Superman (TV series)"},{"ns":0,"title":"Superman
+        (arcade game)"},{"ns":0,"title":"Superman (comic strip)"},{"ns":0,"title":"Superman
+        (serial)"},{"ns":0,"title":"Superman Classic"},{"ns":0,"title":"Superman II"},{"ns":0,"title":"Superman
+        II: The Richard Donner Cut"},{"ns":0,"title":"Superman III"},{"ns":0,"title":"Superman
+        IV: The Quest for Peace"},{"ns":0,"title":"Superman Returns"},{"ns":0,"title":"Superman
+        Returns: Fortress of Solitude"},{"ns":0,"title":"Superman Returns (novel)"},{"ns":0,"title":"Superman
+        Returns (video game)"},{"ns":0,"title":"Superman and the Mole Men"},{"ns":0,"title":"Superman
+        curse"},{"ns":0,"title":"Superman in film"},{"ns":0,"title":"Superman in other
+        media"},{"ns":0,"title":"Superman vs. The Elite"},{"ns":0,"title":"Susan Sarandon"},{"ns":0,"title":"Switching
+        Channels"},{"ns":0,"title":"Technion \u2013 Israel Institute of Technology"},{"ns":0,"title":"Tel
+        Aviv"},{"ns":0,"title":"Teleprompter"},{"ns":0,"title":"The Adventures of
+        Seinfeld & Superman"},{"ns":0,"title":"The Adventures of Superboy"},{"ns":0,"title":"The
+        Adventures of Superboy (TV series)"},{"ns":0,"title":"The Adventures of Superman
+        (BBC Radio series)"},{"ns":0,"title":"The Adventures of Superman (novel)"},{"ns":0,"title":"The
+        Adventures of Superman (radio)"},{"ns":0,"title":"The Adventures of Superpup"},{"ns":0,"title":"The
+        Age"},{"ns":0,"title":"The Aspern Papers"},{"ns":0,"title":"The Aviator (1985
+        film)"},{"ns":0,"title":"The Bizarro Jerry"},{"ns":0,"title":"The Bostonians
+        (film)"},{"ns":0,"title":"The Bounty"},{"ns":0,"title":"The Civil War (TV
+        series)"},{"ns":0,"title":"The Death and Return of Superman"},{"ns":0,"title":"The
+        Death and Return of Superman (film)"},{"ns":0,"title":"The Flintstone Comedy
+        Show (1980)"},{"ns":0,"title":"The Front Page"},{"ns":0,"title":"The Guardian"},{"ns":0,"title":"The
+        Harvard Crimson"},{"ns":0,"title":"The Hostage (film)"},{"ns":0,"title":"The
+        Lego Movie"},{"ns":0,"title":"The Marriage of Figaro"},{"ns":0,"title":"The
+        Merry Wives of Windsor"},{"ns":0,"title":"The Muppet Show"},{"ns":0,"title":"The
+        New Adventures of Superman (TV series)"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The
+        Paper Chase (film)"},{"ns":0,"title":"The Race (Seinfeld)"},{"ns":0,"title":"The
+        Reign of the Superman"},{"ns":0,"title":"The Remains of the Day (film)"},{"ns":0,"title":"The
+        Royal Family (play)"},{"ns":0,"title":"The WB Television Network"},{"ns":0,"title":"The
+        Winter''s Tale"},{"ns":0,"title":"The World''s Greatest Superheroes"},{"ns":0,"title":"The
+        World According to Garp (film)"},{"ns":0,"title":"The Yeomen of the Guard"},{"ns":0,"title":"Thomas
+        Dudley"},{"ns":0,"title":"Thomas Lloyd (lieutenant governor)"},{"ns":0,"title":"Thoroughbred"},{"ns":0,"title":"Time
+        (magazine)"},{"ns":0,"title":"Titanium"},{"ns":0,"title":"Tom Mankiewicz"},{"ns":0,"title":"Tom
+        Welling"},{"ns":0,"title":"Total Film"},{"ns":0,"title":"Track and field"},{"ns":0,"title":"Trampoline"},{"ns":0,"title":"Turboprop"},{"ns":0,"title":"U.S."},{"ns":0,"title":"Underdog
+        (TV series)"},{"ns":0,"title":"Understudy"},{"ns":0,"title":"Unitarian Universalist
+        Association"},{"ns":0,"title":"United Nations"},{"ns":0,"title":"United States
+        Congress"},{"ns":0,"title":"University of Virginia"},{"ns":0,"title":"Van
+        Nuys"},{"ns":0,"title":"Vanessa Redgrave"},{"ns":0,"title":"Vassar College"},{"ns":0,"title":"Verisimilitude"},{"ns":0,"title":"Vermont"},{"ns":0,"title":"Vertebrae"},{"ns":0,"title":"Vietnam
+        veteran"},{"ns":0,"title":"Village of the Damned (1995 film)"},{"ns":0,"title":"Waiting
+        for Godot"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:58 GMT
+recorded_with: VCR 2.9.2

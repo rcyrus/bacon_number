@@ -1,0 +1,257 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Hank%20Azaria
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287115376, 3536746542, 1613053401
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4877'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:17 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4008 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"113159":{"pageid":113159,"ns":0,"title":"Hank Azaria","links":[{"ns":0,"title":"2010
+        World Series of Poker"},{"ns":0,"title":"ABC News (Australia)"},{"ns":0,"title":"AOL"},{"ns":0,"title":"Aaron
+        Sorkin"},{"ns":0,"title":"Abbie Hoffman"},{"ns":0,"title":"Abraham"},{"ns":0,"title":"Abraham
+        Lincoln"},{"ns":0,"title":"Academy Award for Best Picture"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Tudyk"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Allen
+        Ginsberg"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Along Came Polly"},{"ns":0,"title":"America''s
+        Sweethearts"},{"ns":0,"title":"American Academy of Dramatic Arts"},{"ns":0,"title":"American
+        Beauty (1999 film)"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"American
+        Comedy Award"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Anastasia (1997
+        film)"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Annie
+        Award"},{"ns":0,"title":"Annie Award for Voice Acting in a Feature Production"},{"ns":0,"title":"Annie
+        Awards"},{"ns":0,"title":"Anthony Quayle"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo
+        13 (film)"},{"ns":0,"title":"Apu Nahasapeemapetilon"},{"ns":0,"title":"Art
+        Carney"},{"ns":0,"title":"Atlanta Journal-Constitution"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Babes"},{"ns":0,"title":"Bark!"},{"ns":0,"title":"Bartok
+        the Magnificent"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Beethoven
+        (TV series)"},{"ns":0,"title":"Bel Air, Los Angeles"},{"ns":0,"title":"Ben
+        Affleck"},{"ns":0,"title":"Ben Gazzara"},{"ns":0,"title":"Ben Stiller"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Bill
+        Paxton"},{"ns":0,"title":"Blockbuster (entertainment)"},{"ns":0,"title":"Bob
+        Murphy (announcer)"},{"ns":0,"title":"Bonita Pietila"},{"ns":0,"title":"Boris
+        Karloff"},{"ns":0,"title":"Brad Bird"},{"ns":0,"title":"Brian Cox (actor)"},{"ns":0,"title":"Broadcast
+        Film Critics Association Awards"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Bubble
+        (poker)"},{"ns":0,"title":"Buck teeth"},{"ns":0,"title":"Burgess Meredith"},{"ns":0,"title":"Busboy"},{"ns":0,"title":"CBS
+        News"},{"ns":0,"title":"Canadian Online Explorer"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Celebrity (film)"},{"ns":0,"title":"Celebrity
+        Poker Showdown"},{"ns":0,"title":"Charles Bronson"},{"ns":0,"title":"Chevrolet
+        Aveo"},{"ns":0,"title":"Chicago 10 (film)"},{"ns":0,"title":"Chief Wiggum"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christopher
+        Collins"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Cindy Sherman"},{"ns":0,"title":"Cletus
+        Spuckler"},{"ns":0,"title":"Clifton Collins, Jr."},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Columbia Pictures"},{"ns":0,"title":"Comedian"},{"ns":0,"title":"Comic
+        Book Guy"},{"ns":0,"title":"Cool Blue"},{"ns":0,"title":"Cooperative housing"},{"ns":0,"title":"Cradle
+        Will Rock"},{"ns":0,"title":"Craig Bierko"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dabney
+        Coleman"},{"ns":0,"title":"Dan Castellaneta"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Dan
+        Patrick"},{"ns":0,"title":"Darth Vader"},{"ns":0,"title":"Daveigh Chase"},{"ns":0,"title":"David
+        Alan Grier"},{"ns":0,"title":"David Brinkley"},{"ns":0,"title":"David Mamet"},{"ns":0,"title":"David
+        N. Weiss"},{"ns":0,"title":"David Sarnoff"},{"ns":0,"title":"David Schwimmer"},{"ns":0,"title":"David
+        Strathairn"},{"ns":0,"title":"David Warner (actor)"},{"ns":0,"title":"Deb
+        Lacusta"},{"ns":0,"title":"Deep Throat (film)"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Democratic
+        Party (United States)"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Derek
+        Jacobi"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Digital Spy"},{"ns":0,"title":"Direct-to-video"},{"ns":0,"title":"Dodgeball:
+        A True Underdog Story"},{"ns":0,"title":"Dog Day Afternoon"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Donald Sutherland"},{"ns":0,"title":"Dubbing (filmmaking)"},{"ns":0,"title":"Dumbbell
+        Indemnity"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"ESPN"},{"ns":0,"title":"Eartha
+        Kitt"},{"ns":0,"title":"Ed Flanders"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Eddie
+        Brock"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Edward G. Robinson"},{"ns":0,"title":"Eli
+        Marienthal"},{"ns":0,"title":"Ellen DeGeneres"},{"ns":0,"title":"Elvis Costello"},{"ns":0,"title":"Emily
+        Woof"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Empire (magazine)"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Eulogy (film)"},{"ns":0,"title":"Fail
+        Safe (2000 TV)"},{"ns":0,"title":"Family Guy"},{"ns":0,"title":"Family Ties"},{"ns":0,"title":"Film
+        director"},{"ns":0,"title":"Film producer"},{"ns":0,"title":"Forest Hills,
+        Queens"},{"ns":0,"title":"Frank Nitti"},{"ns":0,"title":"Free Agents"},{"ns":0,"title":"Free
+        Agents (U.S. TV series)"},{"ns":0,"title":"Friends"},{"ns":0,"title":"Friends
+        (season 7)"},{"ns":0,"title":"Friends (season 9)"},{"ns":0,"title":"Funny
+        or Die"},{"ns":0,"title":"Futurama"},{"ns":0,"title":"Gargamel"},{"ns":0,"title":"Gary
+        Allen Feess"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George Grizzard"},{"ns":0,"title":"Gerard
+        Damiano"},{"ns":0,"title":"Godparent"},{"ns":0,"title":"Godzilla (1998 film)"},{"ns":0,"title":"Great
+        Expectations (1998 film)"},{"ns":0,"title":"Greece"},{"ns":0,"title":"Grosse
+        Pointe Blank"},{"ns":0,"title":"Growing Pains"},{"ns":0,"title":"Guy Pearce"},{"ns":0,"title":"Gwyneth
+        Paltrow"},{"ns":0,"title":"Happy Feet 2"},{"ns":0,"title":"Happy Feet Two"},{"ns":0,"title":"Harold
+        Pinter"},{"ns":0,"title":"Hearst Corporation"},{"ns":0,"title":"Heat (1995
+        film)"},{"ns":0,"title":"Helen Hunt"},{"ns":0,"title":"Herman''s Head"},{"ns":0,"title":"Homegrown
+        (film)"},{"ns":0,"title":"Homer''s Barbershop Quartet"},{"ns":0,"title":"Homer''s
+        Enemy"},{"ns":0,"title":"Homer''s Triple Bypass"},{"ns":0,"title":"Hop (film)"},{"ns":0,"title":"Hot
+        Cocoa Bang Bang"},{"ns":0,"title":"Howard Da Silva"},{"ns":0,"title":"Huff
+        (TV series)"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Hume Cronyn"},{"ns":0,"title":"Hyperion
+        (publisher)"},{"ns":0,"title":"I Know That Voice"},{"ns":0,"title":"Ian Holm"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Immigrants
+        (2008 film)"},{"ns":0,"title":"Independent Lens"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Ja''net Dubois"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jackie
+        Mason"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James
+        Cromwell"},{"ns":0,"title":"James Earl Jones"},{"ns":0,"title":"Jay Baruchel"},{"ns":0,"title":"Jay
+        Kogen"},{"ns":0,"title":"Jeffrey Wright (actor)"},{"ns":0,"title":"Jell-O"},{"ns":0,"title":"Jennifer
+        Cody"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jerry Lewis"},{"ns":0,"title":"Jim
+        Carter (actor)"},{"ns":0,"title":"Joan Cusack"},{"ns":0,"title":"Joe Bash"},{"ns":0,"title":"Joey
+        Tribbiani"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John Shea"},{"ns":0,"title":"Jon
+        Avnet"},{"ns":0,"title":"Jonathan Katz"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Josh
+        Gad"},{"ns":0,"title":"Judeo-Spanish"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Julie
+        Harris"},{"ns":0,"title":"Julie Kavner"},{"ns":0,"title":"Julie Warner"},{"ns":0,"title":"Karl
+        Malden"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kathryn Hahn"},{"ns":0,"title":"Katie
+        Wright"},{"ns":0,"title":"Keith David"},{"ns":0,"title":"Kelsey Grammer"},{"ns":0,"title":"Ken
+        Howard"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kirk
+        Van Houten"},{"ns":0,"title":"Lancelot"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lenny
+        and Carl"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Lily Tomlin"},{"ns":0,"title":"Lincoln Memorial"},{"ns":0,"title":"List
+        of The Simpsons cast members"},{"ns":0,"title":"List of recurring The Simpsons
+        characters"},{"ns":0,"title":"Love & Other Drugs"},{"ns":0,"title":"Love and
+        Other Drugs"},{"ns":0,"title":"Lovelace (film)"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"Mad
+        About You"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Marc Blitzstein"},{"ns":0,"title":"Marcia
+        Wallace"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Mark Heap"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Matt Groening"},{"ns":0,"title":"Matthew
+        Perry"},{"ns":0,"title":"Maurice LaMarche"},{"ns":0,"title":"Media Wales"},{"ns":0,"title":"Mena
+        Suvari"},{"ns":0,"title":"Metro International"},{"ns":0,"title":"Mexico"},{"ns":0,"title":"Michael
+        A. Goorjian"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Kelly (editor)"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"Mike Nichols"},{"ns":0,"title":"Milford, Connecticut"},{"ns":0,"title":"Ming-Na
+        Wen"},{"ns":0,"title":"Minnie Driver"},{"ns":0,"title":"Minsk"},{"ns":0,"title":"Mitch
+        Albom"},{"ns":0,"title":"Moe Szyslak"},{"ns":0,"title":"Monty Python"},{"ns":0,"title":"Monty
+        Python and the Holy Grail"},{"ns":0,"title":"Mordechaj Anielewicz"},{"ns":0,"title":"My
+        Life as a 10-Year-Old Boy"},{"ns":0,"title":"Mystery, Alaska"},{"ns":0,"title":"Mystery
+        Men"},{"ns":0,"title":"NBC"},{"ns":0,"title":"NBC.com"},{"ns":0,"title":"NFL
+        Network"},{"ns":0,"title":"Nancy Cartwright"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"National
+        Football League"},{"ns":0,"title":"National Public Radio"},{"ns":0,"title":"New
+        York (magazine)"},{"ns":0,"title":"New York Observer"},{"ns":0,"title":"Nick
+        Riviera"},{"ns":0,"title":"Night at the Museum: Battle of the Smithsonian"},{"ns":0,"title":"Night
+        at the Museum: Battle of the Smithsonian (video game)"},{"ns":0,"title":"No
+        Country Club for Old Men"},{"ns":0,"title":"Nobody''s Perfect (2004 film)"},{"ns":0,"title":"Now
+        and Then (film)"},{"ns":0,"title":"Oliver Platt"},{"ns":0,"title":"Orlando
+        Sentinel"},{"ns":0,"title":"Oscar the Grouch"},{"ns":0,"title":"Pacific Palisades,
+        Los Angeles"},{"ns":0,"title":"Pamela Adlon"},{"ns":0,"title":"Party Down"},{"ns":0,"title":"Paul
+        Barber (actor)"},{"ns":0,"title":"Paul Clinton"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul
+        Winchell"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Peter Boyle"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Peter Macon"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Peter
+        Riegert"},{"ns":0,"title":"Peter Sallis"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Phil
+        Rizzuto"},{"ns":0,"title":"Phoebe Buffay"},{"ns":0,"title":"Playbill"},{"ns":0,"title":"Poker"},{"ns":0,"title":"Pretty
+        Woman"},{"ns":0,"title":"Primetime Emmy Award"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actor in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Voice-Over Performance"},{"ns":0,"title":"Primetime
+        Emmy Awards"},{"ns":0,"title":"Professor Frink"},{"ns":0,"title":"Psychiatrist"},{"ns":0,"title":"Psychotherapy"},{"ns":0,"title":"Quiz
+        Show (1994 film)"},{"ns":0,"title":"RCA"},{"ns":0,"title":"Radio Times"},{"ns":0,"title":"Ray
+        Donovan"},{"ns":0,"title":"Ray Ellin"},{"ns":0,"title":"Read-through"},{"ns":0,"title":"Rich
+        Eisen"},{"ns":0,"title":"Richard Kiley"},{"ns":0,"title":"Ricky Ricardo"},{"ns":0,"title":"Rik
+        Mayall"},{"ns":0,"title":"Rip Torn"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        Newton"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Roy
+        London"},{"ns":0,"title":"Run Fatboy Run"},{"ns":0,"title":"Sam Simon"},{"ns":0,"title":"San
+        Francisco Chronicle"},{"ns":0,"title":"Screen Actors Guild"},{"ns":0,"title":"Screen
+        Actors Guild Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Male Actor in a Drama Series"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries
+        or Television Movie"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Male Actor in a Supporting Role"},{"ns":0,"title":"Screenwriter"},{"ns":0,"title":"Sephardi
+        Jews"},{"ns":0,"title":"Seth MacFarlane"},{"ns":0,"title":"Sexual Perversity
+        in Chicago"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Shattered
+        Glass (film)"},{"ns":0,"title":"Showtime (TV network)"},{"ns":0,"title":"Shubert
+        Theatre (Broadway)"},{"ns":0,"title":"Sic"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Simon
+        Pegg"},{"ns":0,"title":"Soho (Manhattan)"},{"ns":0,"title":"Some Enchanted
+        Evening (The Simpsons)"},{"ns":0,"title":"Sony Pictures Entertainment"},{"ns":0,"title":"Spamalot"},{"ns":0,"title":"Spider-Man
+        (1994 TV series)"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steven
+        Bauer"},{"ns":0,"title":"Street Sharks"},{"ns":0,"title":"Stressed Eric"},{"ns":0,"title":"Sylvester
+        Stallone"},{"ns":0,"title":"TV Guide"},{"ns":0,"title":"Tales from the Crypt
+        (TV series)"},{"ns":0,"title":"Teen Choice Awards"},{"ns":0,"title":"Telegram
+        & Gazette"},{"ns":0,"title":"Terry Gross"},{"ns":0,"title":"That''s Lobstertainment!"},{"ns":0,"title":"The
+        A.V. Club"},{"ns":0,"title":"The Aristocrats (film)"},{"ns":0,"title":"The
+        Austin Chronicle"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The Boston
+        Globe"},{"ns":0,"title":"The Cleveland Show"},{"ns":0,"title":"The Comedy
+        Festival"},{"ns":0,"title":"The Daily Telegraph (Australia)"},{"ns":0,"title":"The
+        Dan Patrick Show"},{"ns":0,"title":"The Deseret News"},{"ns":0,"title":"The
+        Dumb Waiter"},{"ns":0,"title":"The Farnsworth Invention"},{"ns":0,"title":"The
+        Fresh Prince of Bel-Air"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The
+        Godfather"},{"ns":0,"title":"The Grand (film)"},{"ns":0,"title":"The Hollywood
+        Reporter"},{"ns":0,"title":"The Jerusalem Post"},{"ns":0,"title":"The Kew-Forest
+        School"},{"ns":0,"title":"The Larry Sanders Show"},{"ns":0,"title":"The Los
+        Angeles Times"},{"ns":0,"title":"The Merchant of Venice"},{"ns":0,"title":"The
+        New Republic"},{"ns":0,"title":"The New York Observer"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The New York Times Company"},{"ns":0,"title":"The
+        Nutty Professor"},{"ns":0,"title":"The Party (film)"},{"ns":0,"title":"The
+        San Francisco Chronicle"},{"ns":0,"title":"The Simpsons"},{"ns":0,"title":"The
+        Simpsons: Tapped Out"},{"ns":0,"title":"The Simpsons: Virtual Springfield"},{"ns":0,"title":"The
+        Simpsons (season 2)"},{"ns":0,"title":"The Simpsons (season 20)"},{"ns":0,"title":"The
+        Simpsons 20th Anniversary Special \u2013 In 3-D! On Ice!"},{"ns":0,"title":"The
+        Simpsons Beyond Forever!: A Complete Guide to Our Favorite Family ...Still
+        Continued"},{"ns":0,"title":"The Simpsons Cartoon Studio"},{"ns":0,"title":"The
+        Simpsons Game"},{"ns":0,"title":"The Simpsons Hit & Run"},{"ns":0,"title":"The
+        Simpsons Movie"},{"ns":0,"title":"The Simpsons Ride"},{"ns":0,"title":"The
+        Simpsons Road Rage"},{"ns":0,"title":"The Simpsons Skateboarding"},{"ns":0,"title":"The
+        Simpsons Wrestling"},{"ns":0,"title":"The Smurfs: A Christmas Carol"},{"ns":0,"title":"The
+        Smurfs: The Legend of Smurfy Hollow"},{"ns":0,"title":"The Smurfs (film)"},{"ns":0,"title":"The
+        Smurfs 2"},{"ns":0,"title":"The Thinker"},{"ns":0,"title":"The Washington
+        Post"},{"ns":0,"title":"Thessaloniki"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Thora
+        Birch"},{"ns":0,"title":"Tim Allen"},{"ns":0,"title":"Tim Robbins"},{"ns":0,"title":"Time
+        Out (magazine)"},{"ns":0,"title":"Tom Berenger"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Hulce"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Tony
+        Award"},{"ns":0,"title":"Tony Award for Best Performance by a Leading Actor
+        in a Musical"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Toronto Star"},{"ns":0,"title":"Traffic
+        (2000 film)"},{"ns":0,"title":"Tuesdays with Morrie (film)"},{"ns":0,"title":"Tufts
+        University"},{"ns":0,"title":"Twitter"},{"ns":0,"title":"USA Today"},{"ns":0,"title":"Uprising
+        (2001 film)"},{"ns":0,"title":"Variety (magazine)"},{"ns":0,"title":"Ventura
+        County Star"},{"ns":0,"title":"Vincent Gardenia"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Voice acting"},{"ns":0,"title":"Voice
+        actor"},{"ns":0,"title":"WHYY-FM"},{"ns":0,"title":"Walt Frazier"},{"ns":0,"title":"Warsaw
+        Ghetto Uprising"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"What-a-Cartoon"},{"ns":0,"title":"Who
+        Framed Roger Rabbit?"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"William
+        Snape"},{"ns":0,"title":"Year One (film)"},{"ns":0,"title":"Yeardley Smith"},{"ns":4,"title":"Wikipedia:Good
+        articles"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Pronunciation
+        respelling key"},{"ns":10,"title":"Template:Annie Award for Voice Acting in
+        a Feature Production"},{"ns":10,"title":"Template:EmmyAward MiniseriesSupportingActor"},{"ns":10,"title":"Template:EmmyAward
+        VoiceOver"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture 1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture 2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture 2011\u20132020"},{"ns":11,"title":"Template talk:Annie Award
+        for Voice Acting in a Feature Production"},{"ns":11,"title":"Template talk:EmmyAward
+        MiniseriesSupportingActor"},{"ns":11,"title":"Template talk:EmmyAward VoiceOver"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward CastMotionPicture 1995\u20132000"},{"ns":12,"title":"Help:IPA
+        for English"},{"ns":100,"title":"Portal:The Simpsons"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:17 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,173 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Sebastian%20Shaw%20(comics)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704735951, 983731024, 1613098162
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2687'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:05 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4018 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"398166":{"pageid":398166,"ns":0,"title":"Sebastian
+        Shaw (comics)","links":[{"ns":0,"title":"1980 in comics"},{"ns":0,"title":"Acolytes
+        (comics)"},{"ns":0,"title":"Agatha Harkness"},{"ns":0,"title":"Age of Apocalypse"},{"ns":0,"title":"Alliance
+        of Evil"},{"ns":0,"title":"Alpha Flight"},{"ns":0,"title":"Amanda Mueller"},{"ns":0,"title":"Anole
+        (comics)"},{"ns":0,"title":"Apocalypse (comics)"},{"ns":0,"title":"Arcade
+        (Marvel Comics)"},{"ns":0,"title":"Archangel (comics)"},{"ns":0,"title":"Ariel
+        (comics)"},{"ns":0,"title":"Armor (comics)"},{"ns":0,"title":"Asteroid M"},{"ns":0,"title":"Astonishing
+        X-Men"},{"ns":0,"title":"Aurora (comics)"},{"ns":0,"title":"Avalon (Marvel
+        Comics)"},{"ns":0,"title":"Banshee (comics)"},{"ns":0,"title":"Bastion (comics)"},{"ns":0,"title":"Beast
+        (comics)"},{"ns":0,"title":"Bishop (comics)"},{"ns":0,"title":"Black Tom Cassidy"},{"ns":0,"title":"Blackbird
+        (comics)"},{"ns":0,"title":"Blackheart"},{"ns":0,"title":"Blindfold (comics)"},{"ns":0,"title":"Blink
+        (comics)"},{"ns":0,"title":"Bolivar Trask"},{"ns":0,"title":"Brood (comics)"},{"ns":0,"title":"Brotherhood
+        of Mutants"},{"ns":0,"title":"Cable (comics)"},{"ns":0,"title":"Caliban (comics)"},{"ns":0,"title":"Cameron
+        Hodge"},{"ns":0,"title":"Cannonball (comics)"},{"ns":0,"title":"Captain Britain"},{"ns":0,"title":"Cassandra
+        Nova"},{"ns":0,"title":"Cecilia Reyes"},{"ns":0,"title":"Cerebro"},{"ns":0,"title":"Chamber
+        (comics)"},{"ns":0,"title":"Children of the Vault"},{"ns":0,"title":"Chris
+        Claremont"},{"ns":0,"title":"Chris Sotomayor"},{"ns":0,"title":"Christos Gage"},{"ns":0,"title":"Cipher
+        (comics)"},{"ns":0,"title":"Cloak and Dagger (comics)"},{"ns":0,"title":"Colossus
+        (comics)"},{"ns":0,"title":"Comic book"},{"ns":0,"title":"Courtney Ross"},{"ns":0,"title":"Covert
+        listening device"},{"ns":0,"title":"Crimson Dawn"},{"ns":0,"title":"Crossmore"},{"ns":0,"title":"Cuban
+        missile crisis"},{"ns":0,"title":"Cyclops (comics)"},{"ns":0,"title":"Cypher
+        (comics)"},{"ns":0,"title":"DNA"},{"ns":0,"title":"Daken"},{"ns":0,"title":"Danger
+        Room"},{"ns":0,"title":"Danielle Moonstar"},{"ns":0,"title":"Dark Beast"},{"ns":0,"title":"Dark
+        X-Men"},{"ns":0,"title":"Darwin (comics)"},{"ns":0,"title":"Dazzler"},{"ns":0,"title":"Deadpool"},{"ns":0,"title":"Destiny
+        (Irene Adler)"},{"ns":0,"title":"District X"},{"ns":0,"title":"Doctor Nemesis"},{"ns":0,"title":"Domino
+        (comics)"},{"ns":0,"title":"Donald Pierce"},{"ns":0,"title":"Dormammu"},{"ns":0,"title":"Dust
+        (comics)"},{"ns":0,"title":"Edward Buckman"},{"ns":0,"title":"Elixir (comics)"},{"ns":0,"title":"Emma
+        Frost"},{"ns":0,"title":"Energy"},{"ns":0,"title":"Excalibur (comics)"},{"ns":0,"title":"Exodus
+        (comics)"},{"ns":0,"title":"Externals"},{"ns":0,"title":"Fantomex"},{"ns":0,"title":"Fastball
+        Special"},{"ns":0,"title":"Fenris (comics)"},{"ns":0,"title":"Fictional character"},{"ns":0,"title":"Finesse
+        (comics)"},{"ns":0,"title":"Firestar"},{"ns":0,"title":"First appearance"},{"ns":0,"title":"Forge
+        (comics)"},{"ns":0,"title":"Friends of Humanity"},{"ns":0,"title":"Gambit
+        (comics)"},{"ns":0,"title":"Gene Nation"},{"ns":0,"title":"Generation Hope
+        (comics)"},{"ns":0,"title":"Generation X (comics)"},{"ns":0,"title":"Genosha"},{"ns":0,"title":"Gentle
+        (comics)"},{"ns":0,"title":"George Washington"},{"ns":0,"title":"Graham McTavish"},{"ns":0,"title":"Graydon
+        Creed"},{"ns":0,"title":"Graymalkin"},{"ns":0,"title":"Graymalkin Industries"},{"ns":0,"title":"Harry
+        Leland"},{"ns":0,"title":"Havok (comics)"},{"ns":0,"title":"Hellfire Club
+        (comics)"},{"ns":0,"title":"Hellion"},{"ns":0,"title":"Hellions"},{"ns":0,"title":"Henry
+        Peter Gyrich"},{"ns":0,"title":"Hepzibah (comics)"},{"ns":0,"title":"Holocaust
+        (comics)"},{"ns":0,"title":"Hope Summers (comics)"},{"ns":0,"title":"Horsemen
+        of Apocalypse"},{"ns":0,"title":"House of M"},{"ns":0,"title":"Howard Stark"},{"ns":0,"title":"Humanity''s
+        Last Stand"},{"ns":0,"title":"Husk (comics)"},{"ns":0,"title":"IGN"},{"ns":0,"title":"Iceman
+        (comics)"},{"ns":0,"title":"Ink (comics)"},{"ns":0,"title":"Iron Man"},{"ns":0,"title":"Jack
+        Kirby"},{"ns":0,"title":"Jacob Shaw (comics)"},{"ns":0,"title":"Jean Grey"},{"ns":0,"title":"Joanna
+        Cargill"},{"ns":0,"title":"John Byrne (comics)"},{"ns":0,"title":"John Cassaday"},{"ns":0,"title":"Joseph
+        (comics)"},{"ns":0,"title":"Jubilee (comics)"},{"ns":0,"title":"Juggernaut
+        (comics)"},{"ns":0,"title":"Karima Shapandar"},{"ns":0,"title":"Karma (comics)"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Sydney"},{"ns":0,"title":"Kitty Pryde"},{"ns":0,"title":"Lady
+        Deathstrike"},{"ns":0,"title":"Lady Grey (comics)"},{"ns":0,"title":"Lady
+        Mastermind"},{"ns":0,"title":"Las Cruces, New Mexico"},{"ns":0,"title":"Legacy
+        Virus"},{"ns":0,"title":"Legion (Marvel Comics)"},{"ns":0,"title":"Lifeguard
+        (comics)"},{"ns":0,"title":"List of Brotherhood of Mutants members"},{"ns":0,"title":"List
+        of X-Men comics"},{"ns":0,"title":"List of X-Men enemies"},{"ns":0,"title":"List
+        of X-Men enemy teams"},{"ns":0,"title":"List of X-Men members"},{"ns":0,"title":"Lockheed
+        (comics)"},{"ns":0,"title":"Longshot"},{"ns":0,"title":"Lourdes Chantel"},{"ns":0,"title":"M''Kraan
+        Crystal"},{"ns":0,"title":"M (comics)"},{"ns":0,"title":"Machine Man"},{"ns":0,"title":"Madelyne
+        Pryor"},{"ns":0,"title":"Madison Jeffries"},{"ns":0,"title":"Madripoor"},{"ns":0,"title":"Maggott"},{"ns":0,"title":"Magik
+        (comics)"},{"ns":0,"title":"Magma (comics)"},{"ns":0,"title":"Magneto (comics)"},{"ns":0,"title":"Marauders
+        (comics)"},{"ns":0,"title":"Marrow (comics)"},{"ns":0,"title":"Marvel Comics"},{"ns":0,"title":"Marvel
+        Noir"},{"ns":0,"title":"Massachusetts Academy (comics)"},{"ns":0,"title":"Mastermind
+        (Jason Wyngarde)"},{"ns":0,"title":"Mercury (Marvel Comics)"},{"ns":0,"title":"Mesmero"},{"ns":0,"title":"Metabolizes"},{"ns":0,"title":"Mimic
+        (comics)"},{"ns":0,"title":"Miss Sinister"},{"ns":0,"title":"Mister Sinister"},{"ns":0,"title":"Mojo
+        (comics)"},{"ns":0,"title":"Morlocks (comics)"},{"ns":0,"title":"Mr. Sinister"},{"ns":0,"title":"Muir
+        Island"},{"ns":0,"title":"Mutant (Marvel Comics)"},{"ns":0,"title":"Mutant
+        Liberation Front"},{"ns":0,"title":"Mutant X (comics)"},{"ns":0,"title":"Mystique
+        (comics)"},{"ns":0,"title":"N''astirh"},{"ns":0,"title":"Namor"},{"ns":0,"title":"Nasty
+        Boys"},{"ns":0,"title":"Nate Grey"},{"ns":0,"title":"Nazi"},{"ns":0,"title":"Neo
+        (Marvel Comics species)"},{"ns":0,"title":"New Mutants"},{"ns":0,"title":"New
+        Warriors"},{"ns":0,"title":"Nightcrawler (comics)"},{"ns":0,"title":"Nimrod
+        (comics)"},{"ns":0,"title":"Northstar"},{"ns":0,"title":"Omega Red"},{"ns":0,"title":"Onslaught
+        (comics)"},{"ns":0,"title":"Otherplace"},{"ns":0,"title":"Penance (X-Men)"},{"ns":0,"title":"Pennsylvania"},{"ns":0,"title":"Petra
+        (comics)"},{"ns":0,"title":"Phalanx (comics)"},{"ns":0,"title":"Phoenix (comics)"},{"ns":0,"title":"Phoenix
+        Force (comics)"},{"ns":0,"title":"Pittsburgh, Pennsylvania"},{"ns":0,"title":"Pixie
+        (X-Men)"},{"ns":0,"title":"Polaris (comics)"},{"ns":0,"title":"Predator X
+        (comics)"},{"ns":0,"title":"Prodigy (David Alleyne)"},{"ns":0,"title":"Professor
+        X"},{"ns":0,"title":"Project Wideawake"},{"ns":0,"title":"Proteus (Marvel
+        Comics)"},{"ns":0,"title":"Providence (comics)"},{"ns":0,"title":"Psylocke"},{"ns":0,"title":"Purifiers"},{"ns":0,"title":"Quentin
+        Quire"},{"ns":0,"title":"Rachel Summers"},{"ns":0,"title":"Reavers (comics)"},{"ns":0,"title":"Registration
+        acts (comics)"},{"ns":0,"title":"Revanche"},{"ns":0,"title":"Ricochet (comics)"},{"ns":0,"title":"Robert
+        Kelly (comics)"},{"ns":0,"title":"Robert Shaw (actor)"},{"ns":0,"title":"Rockslide
+        (comics)"},{"ns":0,"title":"Rogue (comics)"},{"ns":0,"title":"Russians"},{"ns":0,"title":"S.H.I.E.L.D."},{"ns":0,"title":"Sabretooth
+        (comics)"},{"ns":0,"title":"Sage (comics)"},{"ns":0,"title":"Salem Witch Trials"},{"ns":0,"title":"Sat-Yr-9"},{"ns":0,"title":"Sauron
+        (comics)"},{"ns":0,"title":"Savage Land"},{"ns":0,"title":"Savage Land Mutates"},{"ns":0,"title":"Secret
+        society"},{"ns":0,"title":"Sega Game Gear"},{"ns":0,"title":"Selene (comics)"},{"ns":0,"title":"Sentence
+        (law)"},{"ns":0,"title":"Sentinel (comics)"},{"ns":0,"title":"Sentinels (comics)"},{"ns":0,"title":"Shadow-X"},{"ns":0,"title":"Shadow
+        King"},{"ns":0,"title":"Shi''ar"},{"ns":0,"title":"Shinobi Shaw"},{"ns":0,"title":"Silver
+        Samurai"},{"ns":0,"title":"Slipstream (comics)"},{"ns":0,"title":"Sorcerer
+        Supreme"},{"ns":0,"title":"Speed"},{"ns":0,"title":"Sphinx (Marvel Comics)"},{"ns":0,"title":"Spiral
+        (comics)"},{"ns":0,"title":"Stacy X"},{"ns":0,"title":"Stamina"},{"ns":0,"title":"Stan
+        Lee"},{"ns":0,"title":"Starjammers"},{"ns":0,"title":"Steve Lyons (writer)"},{"ns":0,"title":"Steven
+        Lang (comics)"},{"ns":0,"title":"Storm (Marvel Comics)"},{"ns":0,"title":"Strip
+        club"},{"ns":0,"title":"Stripper"},{"ns":0,"title":"Stryfe"},{"ns":0,"title":"Sublime
+        (Marvel Comics)"},{"ns":0,"title":"Sugar Man"},{"ns":0,"title":"Sunfire (comics)"},{"ns":0,"title":"Sunspot
+        (comics)"},{"ns":0,"title":"Superhuman"},{"ns":0,"title":"Supervillain"},{"ns":0,"title":"Surge
+        (comics)"},{"ns":0,"title":"Sway (comics)"},{"ns":0,"title":"Tabitha Smith"},{"ns":0,"title":"Taki
+        Matsuya"},{"ns":0,"title":"Technarchy"},{"ns":0,"title":"The Uncanny X-Men"},{"ns":0,"title":"Thunderbird
+        (Neal Shaara)"},{"ns":0,"title":"Thunderbird (comics)"},{"ns":0,"title":"Tigra"},{"ns":0,"title":"Tom
+        Grummett"},{"ns":0,"title":"Trevor Fitzroy"},{"ns":0,"title":"U-Men (comics)"},{"ns":0,"title":"Ultimate
+        X-Men"},{"ns":0,"title":"Uncanny X-Men"},{"ns":0,"title":"Vulcan (Marvel Comics)"},{"ns":0,"title":"Waltham
+        Pierce"},{"ns":0,"title":"Warhawk (Marvel Comics)"},{"ns":0,"title":"Warlock
+        (New Mutants)"},{"ns":0,"title":"Warpath (comics)"},{"ns":0,"title":"Warren
+        Worthington III"},{"ns":0,"title":"Weapon X"},{"ns":0,"title":"William Stryker"},{"ns":0,"title":"Wolf
+        Cub (comics)"},{"ns":0,"title":"Wolverine (comics)"},{"ns":0,"title":"Wolverine
+        and the X-Men (TV series)"},{"ns":0,"title":"World War II"},{"ns":0,"title":"World
+        War III"},{"ns":0,"title":"X-23"},{"ns":0,"title":"X-Corporation"},{"ns":0,"title":"X-Cutioner"},{"ns":0,"title":"X-Factor
+        (comics)"},{"ns":0,"title":"X-Force"},{"ns":0,"title":"X-Man"},{"ns":0,"title":"X-Mansion"},{"ns":0,"title":"X-Men"},{"ns":0,"title":"X-Men:
+        First Class"},{"ns":0,"title":"X-Men: First Class (2011)"},{"ns":0,"title":"X-Men
+        (1993 video game)"},{"ns":0,"title":"X-Men (TV series)"},{"ns":0,"title":"X-Men
+        Legends II: Rise of Apocalypse"},{"ns":0,"title":"X-Men Origins: Wolverine"},{"ns":0,"title":"X-Men
+        Origins: Wolverine (video game)"},{"ns":0,"title":"X-Men in other media"},{"ns":0,"title":"X-Terminators"},{"ns":0,"title":"X-Treme
+        X-Men"},{"ns":0,"title":"X2 (film)"},{"ns":0,"title":"Xorn"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Unreferenced
+        section"},{"ns":10,"title":"Template:X-Men"},{"ns":11,"title":"Template talk:X-Men"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from November 2008"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from December 2012"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from September 2011"},{"ns":14,"title":"Category:Comics creators"},{"ns":14,"title":"Category:Comics
+        publishing companies"},{"ns":14,"title":"Category:X-Men storylines"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:06 GMT
+recorded_with: VCR 2.9.2

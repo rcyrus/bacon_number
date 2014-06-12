@@ -1,0 +1,117 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=John%20Hughes%20(filmmaker)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332287862, 3536753184, 2597326597
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1712'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:27 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4008 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"102467":{"pageid":102467,"ns":0,"title":"John Hughes
+        (filmmaker)","links":[{"ns":0,"title":"101 Dalmatians (1996 film)"},{"ns":0,"title":"82nd
+        Academy Awards"},{"ns":0,"title":"9-1-1"},{"ns":0,"title":"Alexandre Dumas"},{"ns":0,"title":"Allison
+        Lynn"},{"ns":0,"title":"Ally Sheedy"},{"ns":0,"title":"American nationality
+        law"},{"ns":0,"title":"Animal House"},{"ns":0,"title":"Anthony Michael Hall"},{"ns":0,"title":"April
+        Fools'' Day"},{"ns":0,"title":"Arizona State University"},{"ns":0,"title":"At
+        Ease (TV series)"},{"ns":0,"title":"Audio commentary"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BIBSYS"},{"ns":0,"title":"Baby''s Day Out"},{"ns":0,"title":"Beethoven
+        (film)"},{"ns":0,"title":"Beethoven (film series)"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Bob''s
+        Burgers"},{"ns":0,"title":"Bob Dylan"},{"ns":0,"title":"Brat Pack (actors)"},{"ns":0,"title":"Bringing
+        It All Back Home"},{"ns":0,"title":"Career Opportunities (film)"},{"ns":0,"title":"Community
+        (TV series)"},{"ns":0,"title":"Copywriting"},{"ns":0,"title":"Curly Sue"},{"ns":0,"title":"DMOZ"},{"ns":0,"title":"Delta
+        House"},{"ns":0,"title":"Dennis the Menace (film)"},{"ns":0,"title":"Disney"},{"ns":0,"title":"Don''t
+        You (Forget About Me)"},{"ns":0,"title":"Don''t You Forget About Me (film)"},{"ns":0,"title":"Drillbit
+        Taylor"},{"ns":0,"title":"Dutch (film)"},{"ns":0,"title":"Edmond Dantes"},{"ns":0,"title":"Elizabeth
+        Searle"},{"ns":0,"title":"Ferris Bueller''s Day Off"},{"ns":0,"title":"Flubber
+        (film)"},{"ns":0,"title":"Glenbrook North High School"},{"ns":0,"title":"Grosse
+        Pointe, Michigan"},{"ns":0,"title":"Heart attack"},{"ns":0,"title":"Hefty
+        Records"},{"ns":0,"title":"Home Alone"},{"ns":0,"title":"Home Alone 2: Lost
+        in New York"},{"ns":0,"title":"Home Alone 3"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Joan Rivers"},{"ns":0,"title":"John Candy"},{"ns":0,"title":"John
+        Hughes (disambiguation)"},{"ns":0,"title":"John Lennon"},{"ns":0,"title":"Jon
+        Cryer"},{"ns":0,"title":"Judd Apatow"},{"ns":0,"title":"Judd Nelson"},{"ns":0,"title":"Just
+        Visiting (film)"},{"ns":0,"title":"Lake Forest, Illinois"},{"ns":0,"title":"Lake
+        Forest Cemetery"},{"ns":0,"title":"Lansing, Michigan"},{"ns":0,"title":"Leo
+        Burnett Worldwide"},{"ns":0,"title":"Lewis Robinson"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lisa Gabriele"},{"ns":0,"title":"Los
+        Angeles Times"},{"ns":0,"title":"Macaulay Culkin"},{"ns":0,"title":"Maid in
+        Manhattan"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Matthew Broderick"},{"ns":0,"title":"Michael
+        Keaton"},{"ns":0,"title":"Miracle on 34th Street (1994 film)"},{"ns":0,"title":"Molly
+        Ringwald"},{"ns":0,"title":"Moon Unit Zappa"},{"ns":0,"title":"Mr. Mom"},{"ns":0,"title":"Nate
+        and Hayes"},{"ns":0,"title":"National Diet Library"},{"ns":0,"title":"National
+        Lampoon''s Christmas Vacation"},{"ns":0,"title":"National Lampoon''s Class
+        Reunion"},{"ns":0,"title":"National Lampoon''s European Vacation"},{"ns":0,"title":"National
+        Lampoon''s Vacation"},{"ns":0,"title":"National Lampoon (magazine)"},{"ns":0,"title":"National
+        Lampoon Sunday Newspaper Parody"},{"ns":0,"title":"New Port South"},{"ns":0,"title":"Northbrook,
+        Illinois"},{"ns":0,"title":"One Tree Hill (TV series)"},{"ns":0,"title":"Only
+        the Lonely (film)"},{"ns":0,"title":"P. J. O''Rourke"},{"ns":0,"title":"Pablo
+        Picasso"},{"ns":0,"title":"ParaNorman"},{"ns":0,"title":"Phillip Morris USA"},{"ns":0,"title":"Planes,
+        Trains and Automobiles"},{"ns":0,"title":"Porky''s"},{"ns":0,"title":"Pretty
+        in Pink"},{"ns":0,"title":"Protagonist"},{"ns":0,"title":"Reach the Rock"},{"ns":0,"title":"Rebecca
+        Wolff"},{"ns":0,"title":"Rodney Dangerfield"},{"ns":0,"title":"Shake It Up
+        (TV series)"},{"ns":0,"title":"She''s Having a Baby"},{"ns":0,"title":"Simple
+        Minds"},{"ns":0,"title":"Sixteen Candles"},{"ns":0,"title":"Some Kind of Wonderful
+        (film)"},{"ns":0,"title":"Spy (magazine)"},{"ns":0,"title":"St. Luke''s-Roosevelt
+        Hospital Center"},{"ns":0,"title":"Steve Almond"},{"ns":0,"title":"Steve Martin"},{"ns":0,"title":"Sylvester
+        Stallone"},{"ns":0,"title":"T Cooper"},{"ns":0,"title":"Tara Ison"},{"ns":0,"title":"The
+        Beatles"},{"ns":0,"title":"The Breakfast Club"},{"ns":0,"title":"The Count
+        of Monte Cristo"},{"ns":0,"title":"The Great Outdoors (film)"},{"ns":0,"title":"The
+        Guardian"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"Tod Goldberg"},{"ns":0,"title":"Uncle
+        Buck"},{"ns":0,"title":"Universal Studios"},{"ns":0,"title":"University of
+        Arizona"},{"ns":0,"title":"Upper middle class"},{"ns":0,"title":"Vince Vaughn"},{"ns":0,"title":"Virginia
+        Slims"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Weird
+        Science (film)"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:John
+        Hughes"},{"ns":10,"title":"Template:Refimprove"},{"ns":11,"title":"Template
+        talk:John Hughes"},{"ns":12,"title":"Help:CS1 errors"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from December 2010"},{"ns":14,"title":"Category:Use mdy dates from
+        October 2013"},{"ns":14,"title":"Category:Wikipedia articles needing factual
+        verification from March 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:28 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Phoenix%20Theater
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332322762, 3536767928, 1061669732
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '566'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:53 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4008 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"2606930":{"pageid":2606930,"ns":0,"title":"Phoenix
+        Theater","links":[{"ns":0,"title":"AFI (band)"},{"ns":0,"title":"Adam Carson"},{"ns":0,"title":"Alice''s
+        Adventures in Wonderland"},{"ns":0,"title":"Arrythmia"},{"ns":0,"title":"Bradley
+        Nowell"},{"ns":0,"title":"Cerent Corporation"},{"ns":0,"title":"Circle Jerks"},{"ns":0,"title":"Clinic"},{"ns":0,"title":"Cockpit
+        Theatre"},{"ns":0,"title":"Davey Havok"},{"ns":0,"title":"Disciples of Ed"},{"ns":0,"title":"Enrico
+        Caruso"},{"ns":0,"title":"Escrow"},{"ns":0,"title":"Farallon (band)"},{"ns":0,"title":"Graffiti"},{"ns":0,"title":"Green
+        Day"},{"ns":0,"title":"Harry Houdini"},{"ns":0,"title":"Lily Langtree"},{"ns":0,"title":"Long
+        Beach Dub Allstars"},{"ns":0,"title":"Metallica"},{"ns":0,"title":"Mr. Bungle"},{"ns":0,"title":"Petaluma,
+        California"},{"ns":0,"title":"Phoenix (mythology)"},{"ns":0,"title":"Primus
+        (band)"},{"ns":0,"title":"Red Hot Chili Peppers"},{"ns":0,"title":"Resilience
+        (band)"},{"ns":0,"title":"Sir Mix-a-Lot"},{"ns":0,"title":"Skateboard"},{"ns":0,"title":"Sublime
+        (band)"},{"ns":0,"title":"The Conspiracy (band)"},{"ns":0,"title":"The Days
+        of the Phoenix"},{"ns":0,"title":"The Distillers"},{"ns":0,"title":"The Ramones"},{"ns":0,"title":"The
+        Specials"},{"ns":0,"title":"The Velvet Teen"},{"ns":0,"title":"Toast Machine"},{"ns":0,"title":"Tom
+        Gaffey"},{"ns":0,"title":"Victims Family"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":14,"title":"Category:Articles with unsourced statements from
+        September 2008"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:54 GMT
+recorded_with: VCR 2.9.2

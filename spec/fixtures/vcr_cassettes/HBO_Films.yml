@@ -1,0 +1,154 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=HBO%20Films
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87229763, 3085140545, 1309453295
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2061'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:16 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"866593":{"pageid":866593,"ns":0,"title":"HBO Films","links":[{"ns":0,"title":"91kt.com"},{"ns":0,"title":"Adult
+        Swim"},{"ns":0,"title":"Albert Warner"},{"ns":0,"title":"Alloy Entertainment"},{"ns":0,"title":"American
+        Splendor (film)"},{"ns":0,"title":"Angels in America (TV miniseries)"},{"ns":0,"title":"Bamzu"},{"ns":0,"title":"Band
+        of Brothers (TV miniseries)"},{"ns":0,"title":"Bleacher Report"},{"ns":0,"title":"Boing
+        (French TV channel)"},{"ns":0,"title":"Boing (Italy)"},{"ns":0,"title":"Boing
+        (Spain)"},{"ns":0,"title":"Boomerang (Australian TV channel)"},{"ns":0,"title":"Boomerang
+        (CEE)"},{"ns":0,"title":"Boomerang (EMEA)"},{"ns":0,"title":"Boomerang (France)"},{"ns":0,"title":"Boomerang
+        (Germany)"},{"ns":0,"title":"Boomerang (Italy)"},{"ns":0,"title":"Boomerang
+        (Latin America)"},{"ns":0,"title":"Boomerang (Southeast Asia TV channel)"},{"ns":0,"title":"Boomerang
+        (Spain)"},{"ns":0,"title":"Boomerang (TV channel)"},{"ns":0,"title":"Boomerang
+        (UK & Ireland)"},{"ns":0,"title":"Boomerang +1"},{"ns":0,"title":"CBS Corporation"},{"ns":0,"title":"CNN"},{"ns":0,"title":"CNN+"},{"ns":0,"title":"CNN-IBN"},{"ns":0,"title":"CNNMoney.com"},{"ns":0,"title":"CNN
+        Airport"},{"ns":0,"title":"CNN Chile"},{"ns":0,"title":"CNN Films"},{"ns":0,"title":"CNN
+        International"},{"ns":0,"title":"CNN International Asia Pacific"},{"ns":0,"title":"CNN
+        International Europe/Middle East/Africa"},{"ns":0,"title":"CNN International
+        South Asia"},{"ns":0,"title":"CNN International in Latin America"},{"ns":0,"title":"CNN
+        Sports Illustrated"},{"ns":0,"title":"CNN T\u00fcrk"},{"ns":0,"title":"CNN
+        en Espa\u00f1ol"},{"ns":0,"title":"CNNfn"},{"ns":0,"title":"CNX"},{"ns":0,"title":"Cable
+        Music Channel"},{"ns":0,"title":"Cable television"},{"ns":0,"title":"Cannes
+        Film Festival"},{"ns":0,"title":"Cartoon Network"},{"ns":0,"title":"Cartoon
+        Network (Australia)"},{"ns":0,"title":"Cartoon Network (Central & Eastern
+        Europe)"},{"ns":0,"title":"Cartoon Network (EMEA)"},{"ns":0,"title":"Cartoon
+        Network (Europe)"},{"ns":0,"title":"Cartoon Network (France)"},{"ns":0,"title":"Cartoon
+        Network (Germany)"},{"ns":0,"title":"Cartoon Network (Greece)"},{"ns":0,"title":"Cartoon
+        Network (India)"},{"ns":0,"title":"Cartoon Network (Italy)"},{"ns":0,"title":"Cartoon
+        Network (Japan)"},{"ns":0,"title":"Cartoon Network (Latin America)"},{"ns":0,"title":"Cartoon
+        Network (Netherlands)"},{"ns":0,"title":"Cartoon Network (Nordic)"},{"ns":0,"title":"Cartoon
+        Network (Pakistan)"},{"ns":0,"title":"Cartoon Network (Philippines)"},{"ns":0,"title":"Cartoon
+        Network (Portugal)"},{"ns":0,"title":"Cartoon Network (Russia and Southeastern
+        Europe)"},{"ns":0,"title":"Cartoon Network (Southeast Asia)"},{"ns":0,"title":"Cartoon
+        Network (Spain)"},{"ns":0,"title":"Cartoon Network (Taiwan)"},{"ns":0,"title":"Cartoon
+        Network (Turkey)"},{"ns":0,"title":"Cartoon Network (UK & Ireland)"},{"ns":0,"title":"Cartoon
+        Network +1"},{"ns":0,"title":"Cartoon Network Arabic"},{"ns":0,"title":"Cartoon
+        Network Development Studio Europe"},{"ns":0,"title":"Cartoon Network Studios"},{"ns":0,"title":"Cartoon
+        Network Too"},{"ns":0,"title":"Cartoon Network Video"},{"ns":0,"title":"Cartoonito"},{"ns":0,"title":"Cartoonito
+        (Asia)"},{"ns":0,"title":"Castle Rock Entertainment"},{"ns":0,"title":"Chilevisi\u00f3n"},{"ns":0,"title":"China
+        Entertainment Television"},{"ns":0,"title":"Cinemax"},{"ns":0,"title":"Cinemax
+        (Asia)"},{"ns":0,"title":"Crime Library"},{"ns":0,"title":"DC Comics"},{"ns":0,"title":"Deborah
+        Wright"},{"ns":0,"title":"Elephant (2003 film)"},{"ns":0,"title":"Esporte
+        Interativo"},{"ns":0,"title":"Feature films"},{"ns":0,"title":"Flixster"},{"ns":0,"title":"Frank
+        J. Caufield"},{"ns":0,"title":"Gameloft"},{"ns":0,"title":"Generation Kill
+        (TV series)"},{"ns":0,"title":"Glitz* (TV channel)"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"HBO"},{"ns":0,"title":"HBO (Asia)"},{"ns":0,"title":"HBO
+        (International)"},{"ns":0,"title":"HBO Family Asia"},{"ns":0,"title":"HBO
+        Hits"},{"ns":0,"title":"HBO Home Entertainment"},{"ns":0,"title":"HBO Latin
+        America Group"},{"ns":0,"title":"HBO Netherlands"},{"ns":0,"title":"HBO Signature
+        Asia"},{"ns":0,"title":"HLN (TV channel)"},{"ns":0,"title":"HLN (TV network)"},{"ns":0,"title":"Harry
+        Warner"},{"ns":0,"title":"Herbert M. Allison"},{"ns":0,"title":"Hispanic Television"},{"ns":0,"title":"I.Sat"},{"ns":0,"title":"Imagine
+        TV"},{"ns":0,"title":"Internet"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jack
+        Warner"},{"ns":0,"title":"Jeffrey Bewkes"},{"ns":0,"title":"Jessica Einhorn"},{"ns":0,"title":"Jim
+        Barksdale"},{"ns":0,"title":"Ken Novack"},{"ns":0,"title":"Kevin Tsujihara"},{"ns":0,"title":"Kids''
+        WB"},{"ns":0,"title":"List of HBO Films"},{"ns":0,"title":"Local marketing
+        agreement"},{"ns":0,"title":"Lumiere Movies"},{"ns":0,"title":"Luxe.tv"},{"ns":0,"title":"Mad
+        (magazine)"},{"ns":0,"title":"Mathias D\u00f6pfner"},{"ns":0,"title":"Mediaset"},{"ns":0,"title":"Mediaset
+        Espa\u00f1a Comunicaci\u00f3n"},{"ns":0,"title":"Meredith Corporation"},{"ns":0,"title":"Mezzo
+        TV"},{"ns":0,"title":"Michael A. Miles"},{"ns":0,"title":"Mildred Pierce (miniseries)"},{"ns":0,"title":"Miniseries"},{"ns":0,"title":"Momlogic"},{"ns":0,"title":"Monolith
+        Productions"},{"ns":0,"title":"MovieTickets.com"},{"ns":0,"title":"NBA TV"},{"ns":0,"title":"National
+        Basketball Association"},{"ns":0,"title":"NetherRealm Studios"},{"ns":0,"title":"New
+        Line Cinema"},{"ns":0,"title":"NonStop Television"},{"ns":0,"title":"North
+        America"},{"ns":0,"title":"Nuts TV"},{"ns":0,"title":"Outdoor Channel (Asia)"},{"ns":0,"title":"Palme
+        d''Or"},{"ns":0,"title":"Picturehouse (company)"},{"ns":0,"title":"Pogo (TV
+        channel)"},{"ns":0,"title":"Primetime Emmy Award"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Television Movie"},{"ns":0,"title":"Raw Feed"},{"ns":0,"title":"Real
+        (TV channel)"},{"ns":0,"title":"Richard Parsons (businessman)"},{"ns":0,"title":"Robert
+        C. Clark"},{"ns":0,"title":"Rocksteady Studios"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Sam
+        Warner"},{"ns":0,"title":"Screen Red"},{"ns":0,"title":"Shed Media"},{"ns":0,"title":"Shed
+        Productions"},{"ns":0,"title":"Showtime Scandinavia"},{"ns":0,"title":"Silver
+        (TV channel)"},{"ns":0,"title":"Space (Latin American TV channel)"},{"ns":0,"title":"SportSouth"},{"ns":0,"title":"Star!
+        Scandinavia"},{"ns":0,"title":"Stephen Bollenbach"},{"ns":0,"title":"Super
+        Deluxe"},{"ns":0,"title":"TBS (Latin American TV channel)"},{"ns":0,"title":"TBS
+        (TV channel)"},{"ns":0,"title":"TNT7"},{"ns":0,"title":"TNT (TV channel)"},{"ns":0,"title":"TT
+        Fusion"},{"ns":0,"title":"TT Games"},{"ns":0,"title":"Telepictures"},{"ns":0,"title":"Television
+        network"},{"ns":0,"title":"The CW"},{"ns":0,"title":"The Pacific (TV miniseries)"},{"ns":0,"title":"The
+        Smoking Gun"},{"ns":0,"title":"The Terry Fox Story"},{"ns":0,"title":"The
+        WB Television Network"},{"ns":0,"title":"Time Warner"},{"ns":0,"title":"Toonami"},{"ns":0,"title":"Toonami
+        (Asia)"},{"ns":0,"title":"Toonami (UK & Ireland)"},{"ns":0,"title":"Toonami
+        Jetstream"},{"ns":0,"title":"Tooncast"},{"ns":0,"title":"Traveller''s Tales"},{"ns":0,"title":"TruTV"},{"ns":0,"title":"TruTV
+        (Asia)"},{"ns":0,"title":"TruTV (Latin America)"},{"ns":0,"title":"Turbine,
+        Inc."},{"ns":0,"title":"Turner Broadcasting System"},{"ns":0,"title":"Turner
+        Broadcasting System Asia Pacific"},{"ns":0,"title":"Turner Broadcasting System
+        Europe"},{"ns":0,"title":"Turner Broadcasting System Latin America"},{"ns":0,"title":"Turner
+        Classic Movies"},{"ns":0,"title":"Turner Classic Movies (Asia)"},{"ns":0,"title":"Turner
+        Classic Movies (UK & Ireland)"},{"ns":0,"title":"Turner Classic Movies (around
+        the world)"},{"ns":0,"title":"Turner Entertainment"},{"ns":0,"title":"Turner
+        International India Pvt Ltd"},{"ns":0,"title":"Turner South"},{"ns":0,"title":"Vertigo
+        (DC Comics)"},{"ns":0,"title":"Viz Media"},{"ns":0,"title":"Voom HD (Scandinavia)"},{"ns":0,"title":"WB
+        Channel"},{"ns":0,"title":"WCNC-TV"},{"ns":0,"title":"WPCH-TV"},{"ns":0,"title":"WarnerTV"},{"ns":0,"title":"WarnerTV
+        Asia"},{"ns":0,"title":"Warner Archive Collection"},{"ns":0,"title":"Warner
+        Bros."},{"ns":0,"title":"Warner Bros. Animation"},{"ns":0,"title":"Warner
+        Bros. Family Entertainment"},{"ns":0,"title":"Warner Bros. Games Montr\u00e9al"},{"ns":0,"title":"Warner
+        Bros. Interactive Entertainment"},{"ns":0,"title":"Warner Bros. International
+        Television"},{"ns":0,"title":"Warner Bros. Television"},{"ns":0,"title":"Warner
+        Bros. Television Distribution"},{"ns":0,"title":"Warner Channel"},{"ns":0,"title":"Warner
+        Home Video"},{"ns":0,"title":"Warner Premiere"},{"ns":0,"title":"WaterTower
+        Music"},{"ns":0,"title":"Williams Street"},{"ns":0,"title":"Witness Protection
+        (film)"},{"ns":0,"title":"World Championship Wrestling"},{"ns":4,"title":"Wikipedia:Stub"},{"ns":10,"title":"Template:Time
+        Warner"},{"ns":10,"title":"Template:Turner Broadcasting System"},{"ns":10,"title":"Template:US-film-company-stub"},{"ns":10,"title":"Template:Warner
+        Bros."},{"ns":11,"title":"Template talk:Time Warner"},{"ns":11,"title":"Template
+        talk:Turner Broadcasting System"},{"ns":11,"title":"Template talk:US-film-company-stub"},{"ns":11,"title":"Template
+        talk:Warner Bros."}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:17 GMT
+recorded_with: VCR 2.9.2

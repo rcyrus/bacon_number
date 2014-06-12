@@ -1,0 +1,183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Joseph%20Fiennes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390650279, 2340333908, 1613063962
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3053'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:28 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"88076":{"pageid":88076,"ns":0,"title":"Joseph Fiennes","links":[{"ns":0,"title":"1990s
+        in film"},{"ns":0,"title":"1992 in film"},{"ns":0,"title":"1993 in film"},{"ns":0,"title":"1994
+        in film"},{"ns":0,"title":"1995 in film"},{"ns":0,"title":"1996 in film"},{"ns":0,"title":"1997
+        in film"},{"ns":0,"title":"1998 in film"},{"ns":0,"title":"1999 in film"},{"ns":0,"title":"2,000
+        Feet Away"},{"ns":0,"title":"2000 in film"},{"ns":0,"title":"2000s in film"},{"ns":0,"title":"2001
+        in film"},{"ns":0,"title":"2002 in film"},{"ns":0,"title":"2003 in film"},{"ns":0,"title":"2004
+        in film"},{"ns":0,"title":"2005 in film"},{"ns":0,"title":"2006 in film"},{"ns":0,"title":"2007
+        in film"},{"ns":0,"title":"2008 in film"},{"ns":0,"title":"2009 in film"},{"ns":0,"title":"2010
+        in film"},{"ns":0,"title":"2010s in film"},{"ns":0,"title":"2011 in film"},{"ns":0,"title":"2012
+        in film"},{"ns":0,"title":"2013 in film"},{"ns":0,"title":"2014 in film"},{"ns":0,"title":"A
+        Month in the Country (play)"},{"ns":0,"title":"A View from the Bridge"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Adam Sandler"},{"ns":0,"title":"Against the Current
+        (film)"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"American
+        Beauty (1999 film)"},{"ns":0,"title":"American Horror Story"},{"ns":0,"title":"American
+        Horror Story: Asylum"},{"ns":0,"title":"American Pie 2"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Amy Smart"},{"ns":0,"title":"Anna Chlumsky"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Anthony Guidera"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo
+        13 (film)"},{"ns":0,"title":"Art school"},{"ns":0,"title":"Arthur Roy Brown"},{"ns":0,"title":"As
+        You Like It"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Awards"},{"ns":0,"title":"Bassanio"},{"ns":0,"title":"Ben
+        Affleck"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Bille
+        August"},{"ns":0,"title":"Bishop Wordsworth''s School"},{"ns":0,"title":"Blockbuster
+        LLC"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Briana
+        Evigan"},{"ns":0,"title":"British Film Institute"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award"},{"ns":0,"title":"Broadcast Film Critics Association
+        Awards"},{"ns":0,"title":"Brokeback Mountain"},{"ns":0,"title":"Bruce Jones
+        (actor)"},{"ns":0,"title":"Camelot (TV series)"},{"ns":0,"title":"Carmen Electra"},{"ns":0,"title":"Cate
+        Blanchett"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Chicago
+        Film Critics Association"},{"ns":0,"title":"Chicago Film Critics Association
+        Award"},{"ns":0,"title":"Chicago Film Critics Association Awards"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christian Slater"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Cruel Intentions"},{"ns":0,"title":"Cyrano
+        de Bergerac (play)"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Demi Moore"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"DreamWorks
+        Animation"},{"ns":0,"title":"Drew Barrymore"},{"ns":0,"title":"Dumb and Dumber"},{"ns":0,"title":"Dust
+        (2001 film)"},{"ns":0,"title":"E. L. James"},{"ns":0,"title":"EBay"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Edward II (play)"},{"ns":0,"title":"Elizabeth (film)"},{"ns":0,"title":"Emily
+        Woof"},{"ns":0,"title":"Emma Roberts"},{"ns":0,"title":"Enemy at the Gates"},{"ns":0,"title":"Epitaph
+        for George Dillon"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"FlashForward"},{"ns":0,"title":"FlashForward
+        (TV series)"},{"ns":0,"title":"Forever Mine"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Goodbye Bafana"},{"ns":0,"title":"Grammar
+        school"},{"ns":0,"title":"Guildhall School of Music and Drama"},{"ns":0,"title":"Gwyneth
+        Paltrow"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Helen
+        Mirren"},{"ns":0,"title":"Hercules (2014 film)"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Imelda
+        Staunton"},{"ns":0,"title":"Indecent Proposal"},{"ns":0,"title":"Independence
+        Day (1996 film)"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jacob
+        Vargas"},{"ns":0,"title":"Jake Gyllenhaal"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James
+        Gregory (writer)"},{"ns":0,"title":"Jason Biggs"},{"ns":0,"title":"Jennifer
+        Aniston"},{"ns":0,"title":"Jennifer Lash"},{"ns":0,"title":"Jennifer Lawrence"},{"ns":0,"title":"Jim
+        Carrey"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Jo Brand"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Julia Stiles"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Keith
+        Douglas"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Killing
+        Me Softly (film)"},{"ns":0,"title":"Kirsten Dunst"},{"ns":0,"title":"Kristen
+        Stewart"},{"ns":0,"title":"Las Vegas Film Critics Society Awards"},{"ns":0,"title":"Lauren
+        Holly"},{"ns":0,"title":"Leehurst Swan School"},{"ns":0,"title":"Leo (film)"},{"ns":0,"title":"Les
+        Enfants du Paradis"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Liv Tyler"},{"ns":0,"title":"Love''s
+        Labour''s Lost"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"Luther
+        (2003 film)"},{"ns":0,"title":"MTV Movie Award"},{"ns":0,"title":"MTV Movie
+        Award for Best Kiss"},{"ns":0,"title":"MTV Movie Awards"},{"ns":0,"title":"Macaulay
+        Culkin"},{"ns":0,"title":"Magnus Fiennes"},{"ns":0,"title":"Man to Man (2005
+        film)"},{"ns":0,"title":"Marisa Tomei"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Mark
+        Fiennes"},{"ns":0,"title":"Martha, Meet Frank, Daniel and Laurence"},{"ns":0,"title":"Martha
+        Fiennes"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Martin Luther"},{"ns":0,"title":"Mena
+        Suvari"},{"ns":0,"title":"Merlin"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"My Girl (film)"},{"ns":0,"title":"Natasha Henstridge"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"Old Vic"},{"ns":0,"title":"Othello"},{"ns":0,"title":"Owen
+        Wilson"},{"ns":0,"title":"Paul Barber (actor)"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter
+        Riegert"},{"ns":0,"title":"Pretty/Handsome"},{"ns":0,"title":"Proteus"},{"ns":0,"title":"Rachel
+        McAdams"},{"ns":0,"title":"Rachel Riley"},{"ns":0,"title":"Ralph Fiennes"},{"ns":0,"title":"Rancid
+        Aluminum"},{"ns":0,"title":"Ranulph Fiennes"},{"ns":0,"title":"Real Classy
+        Affair"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert Dudley,
+        1st Earl of Leicester"},{"ns":0,"title":"Robert Hoffman (actor)"},{"ns":0,"title":"Robert
+        Pattinson"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Royal Shakespeare
+        Company"},{"ns":0,"title":"Running with Scissors (film)"},{"ns":0,"title":"Ryan
+        Gosling"},{"ns":0,"title":"Sacha Baron Cohen"},{"ns":0,"title":"Salisbury"},{"ns":0,"title":"Salisbury,
+        England"},{"ns":0,"title":"Sarah Michelle Gellar"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor - Motion Picture"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Satellite
+        Awards"},{"ns":0,"title":"Save the Last Dance"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Leading
+        Role"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Screenonline"},{"ns":0,"title":"Sean
+        Patrick Thomas"},{"ns":0,"title":"Seann William Scott"},{"ns":0,"title":"Selma
+        Blair"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Silver Linings
+        Playbook"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Sinbad: Legend
+        of the Seven Seas"},{"ns":0,"title":"Son Of Man"},{"ns":0,"title":"Sonnet"},{"ns":0,"title":"Sophie
+        Fiennes"},{"ns":0,"title":"Species (film)"},{"ns":0,"title":"Spider-Man (2002
+        film)"},{"ns":0,"title":"Starsky & Hutch (film)"},{"ns":0,"title":"Stealing
+        Beauty"},{"ns":0,"title":"Step Up 2: The Streets"},{"ns":0,"title":"Steve
+        Huison"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Strangerland"},{"ns":0,"title":"Talladega
+        Nights: The Ballad of Ricky Bobby"},{"ns":0,"title":"Teen Choice Award"},{"ns":0,"title":"Teen
+        Choice Awards"},{"ns":0,"title":"Television movie"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The
+        Carte Noire Readers"},{"ns":0,"title":"The Darwin Awards (film)"},{"ns":0,"title":"The
+        Escapist (2008 film)"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The
+        Great Raid"},{"ns":0,"title":"The Herbal Bed"},{"ns":0,"title":"The Merchant
+        of Venice (2004 film)"},{"ns":0,"title":"The Notebook (2004 film)"},{"ns":0,"title":"The
+        Red Baron (film)"},{"ns":0,"title":"The Tempest"},{"ns":0,"title":"The Twilight
+        Saga: Breaking Dawn \u2013 Part 2"},{"ns":0,"title":"The Twilight Saga: Eclipse"},{"ns":0,"title":"The
+        Twilight Saga: New Moon"},{"ns":0,"title":"The Wedding Singer"},{"ns":0,"title":"The
+        Woman in Black"},{"ns":0,"title":"The Woman in Black (play)"},{"ns":0,"title":"Thomas
+        Coram Foundation for Children"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Tobey
+        Maguire"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom Hiddleston"},{"ns":0,"title":"Tom
+        Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Traffic
+        (2000 film)"},{"ns":0,"title":"Troilus and Cressida"},{"ns":0,"title":"Tuscany"},{"ns":0,"title":"Twilight
+        (2008 film)"},{"ns":0,"title":"Untamed Heart"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"Vivica A. Fox"},{"ns":0,"title":"Voluntary-aided"},{"ns":0,"title":"War
+        Poet''s Reading"},{"ns":0,"title":"We''re the Millers"},{"ns":0,"title":"Wes
+        Bentley"},{"ns":0,"title":"When Love Speaks"},{"ns":0,"title":"Will Ferrell"},{"ns":0,"title":"Will
+        Poulter"},{"ns":0,"title":"Will Smith"},{"ns":0,"title":"William Shakespeare"},{"ns":0,"title":"William
+        Snape"},{"ns":0,"title":"Woody Harrelson"},{"ns":0,"title":"You Me and Captain
+        Longbridge"},{"ns":0,"title":"Young Vic"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:MTV
+        Movie Award for Best Kiss"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:MTV Movie Award for Best
+        Kiss"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":12,"title":"Help:IPA for English"},{"ns":14,"title":"Category:Articles
+        with dead external links from April 2014"},{"ns":14,"title":"Category:Articles
+        with dead external links from October 2011"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from October 2012"},{"ns":14,"title":"Category:Use
+        British English from October 2011"},{"ns":14,"title":"Category:Use dmy dates
+        from October 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:29 GMT
+recorded_with: VCR 2.9.2

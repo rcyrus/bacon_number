@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Boston%20Society%20of%20Film%20Critics%20Award%20for%20Best%20Cast
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87189085, 3085124939, 3142873506
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1226'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:52 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4010 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"12675773":{"pageid":12675773,"ns":0,"title":"Boston
+        Society of Film Critics Award for Best Cast","links":[{"ns":0,"title":"29th
+        Boston Society of Film Critics Awards"},{"ns":0,"title":"Abbie Cornish"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Amanda Peet"},{"ns":0,"title":"Amy Adams"},{"ns":0,"title":"Anton
+        Yelchin"},{"ns":0,"title":"Before the Devil Knows You''re Dead"},{"ns":0,"title":"Ben
+        Cross"},{"ns":0,"title":"Ben Stiller"},{"ns":0,"title":"Bill Hader"},{"ns":0,"title":"Bob
+        Odenkirk"},{"ns":0,"title":"Boston Society of Film Critics"},{"ns":0,"title":"Boston
+        Society of Film Critics Award for Best Actor"},{"ns":0,"title":"Boston Society
+        of Film Critics Award for Best Actress"},{"ns":0,"title":"Boston Society of
+        Film Critics Award for Best Cinematography"},{"ns":0,"title":"Boston Society
+        of Film Critics Award for Best Director"},{"ns":0,"title":"Boston Society
+        of Film Critics Award for Best Documentary Film"},{"ns":0,"title":"Boston
+        Society of Film Critics Award for Best Film"},{"ns":0,"title":"Boston Society
+        of Film Critics Award for Best Foreign Language Film"},{"ns":0,"title":"Boston
+        Society of Film Critics Award for Best Screenplay"},{"ns":0,"title":"Boston
+        Society of Film Critics Award for Best Supporting Actor"},{"ns":0,"title":"Boston
+        Society of Film Critics Award for Best Supporting Actress"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 1980"},{"ns":0,"title":"Boston Society of Film
+        Critics Awards 1981"},{"ns":0,"title":"Boston Society of Film Critics Awards
+        1982"},{"ns":0,"title":"Boston Society of Film Critics Awards 1983"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 1984"},{"ns":0,"title":"Boston Society of Film
+        Critics Awards 1985"},{"ns":0,"title":"Boston Society of Film Critics Awards
+        1986"},{"ns":0,"title":"Boston Society of Film Critics Awards 1987"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 1988"},{"ns":0,"title":"Boston Society of Film
+        Critics Awards 1989"},{"ns":0,"title":"Boston Society of Film Critics Awards
+        1990"},{"ns":0,"title":"Boston Society of Film Critics Awards 1991"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 1992"},{"ns":0,"title":"Boston Society of Film
+        Critics Awards 1993"},{"ns":0,"title":"Boston Society of Film Critics Awards
+        1994"},{"ns":0,"title":"Boston Society of Film Critics Awards 1995"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 1996"},{"ns":0,"title":"Boston Society of Film
+        Critics Awards 1997"},{"ns":0,"title":"Boston Society of Film Critics Awards
+        1998"},{"ns":0,"title":"Boston Society of Film Critics Awards 1999"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 2000"},{"ns":0,"title":"Boston Society of Film
+        Critics Awards 2001"},{"ns":0,"title":"Boston Society of Film Critics Awards
+        2002"},{"ns":0,"title":"Boston Society of Film Critics Awards 2003"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 2004"},{"ns":0,"title":"Boston Society of Film
+        Critics Awards 2005"},{"ns":0,"title":"Boston Society of Film Critics Awards
+        2006"},{"ns":0,"title":"Boston Society of Film Critics Awards 2007"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 2009"},{"ns":0,"title":"Boston Society of Film
+        Critics Awards 2010"},{"ns":0,"title":"Boston Society of Film Critics Awards
+        2011"},{"ns":0,"title":"Boston Society of Film Critics Awards 2012"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 2013"},{"ns":0,"title":"Brandon Soo Hoo"},{"ns":0,"title":"Brandon
+        T. Jackson"},{"ns":0,"title":"Bruce Dern"},{"ns":0,"title":"Bruce Greenwood"},{"ns":0,"title":"Carnage
+        (2011 film)"},{"ns":0,"title":"Chris Cooper (actor)"},{"ns":0,"title":"Chris
+        Pine"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Plummer"},{"ns":0,"title":"Christopher Walken"},{"ns":0,"title":"Chyna Layne"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Colin Farrell"},{"ns":0,"title":"Danny McBride"},{"ns":0,"title":"Eric
+        Bana"},{"ns":0,"title":"Ethan Hawke"},{"ns":0,"title":"Gabourey Sidibe"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"Jack Black"},{"ns":0,"title":"Jack McGee (actor)"},{"ns":0,"title":"Jay
+        Baruchel"},{"ns":0,"title":"Jeffrey Wright (actor)"},{"ns":0,"title":"Jodie
+        Foster"},{"ns":0,"title":"John C. Reilly"},{"ns":0,"title":"John Cho"},{"ns":0,"title":"June
+        Squibb"},{"ns":0,"title":"Karl Urban"},{"ns":0,"title":"Kate Winslet"},{"ns":0,"title":"Kayvan
+        Novak"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Laura Linney"},{"ns":0,"title":"Laurence
+        Fishburne"},{"ns":0,"title":"Lenny Kravitz"},{"ns":0,"title":"Marcia Gay Harden"},{"ns":0,"title":"Mariah
+        Carey"},{"ns":0,"title":"Marisa Tomei"},{"ns":0,"title":"Mark Wahlberg"},{"ns":0,"title":"Matt
+        Damon"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Melissa Leo"},{"ns":0,"title":"Mo''Nique"},{"ns":0,"title":"Mystic
+        River (film)"},{"ns":0,"title":"Nebraska (film)"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Olga
+        Kurylenko"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paula Patton"},{"ns":0,"title":"Philip
+        Seymour Hoffman"},{"ns":0,"title":"Precious (film)"},{"ns":0,"title":"Reggie
+        Lee (actor)"},{"ns":0,"title":"Robert Downey, Jr."},{"ns":0,"title":"Rosemary
+        Harris"},{"ns":0,"title":"Sam Rockwell"},{"ns":0,"title":"Sandra Oh"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Seven Psychopaths"},{"ns":0,"title":"Sherri Shepherd"},{"ns":0,"title":"Sideways
+        (film)"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Star Trek (film)"},{"ns":0,"title":"Stephanie
+        Andujar"},{"ns":0,"title":"Steve Coogan"},{"ns":0,"title":"Syriana"},{"ns":0,"title":"The
+        Fighter (2010 film)"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Tim
+        Robbins"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom Waits"},{"ns":0,"title":"Tropic
+        Thunder"},{"ns":0,"title":"United 93 (film)"},{"ns":0,"title":"Virginia Madsen"},{"ns":0,"title":"Will
+        Forte"},{"ns":0,"title":"Woody Harrelson"},{"ns":0,"title":"Zachary Quinto"},{"ns":0,"title":"Zoe
+        Saldana"},{"ns":10,"title":"Template:BSFC Awards Chron"},{"ns":11,"title":"Template
+        talk:BSFC Awards Chron"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:53 GMT
+recorded_with: VCR 2.9.2

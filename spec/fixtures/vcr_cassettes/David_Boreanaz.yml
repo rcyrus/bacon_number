@@ -1,0 +1,115 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=David%20Boreanaz
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001104373, 3536736465, 2899093397
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1621'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:01 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4008 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"159269":{"pageid":159269,"ns":0,"title":"David
+        Boreanaz","links":[{"ns":0,"title":"ABC News"},{"ns":0,"title":"Actor"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"American Dad!"},{"ns":0,"title":"Angel
+        (1999 TV series)"},{"ns":0,"title":"Angel (Buffy the Vampire Slayer)"},{"ns":0,"title":"Angel
+        (TV series)"},{"ns":0,"title":"Anterior cruciate ligament"},{"ns":0,"title":"Aspen
+        Extreme"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Baby Blues
+        (US TV series)"},{"ns":0,"title":"Ben Browder"},{"ns":0,"title":"Best of the
+        Best 2"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bones
+        (TV series)"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"BuddyTV"},{"ns":0,"title":"Buffalo,
+        New York"},{"ns":0,"title":"Buffy the Vampire Slayer"},{"ns":0,"title":"Buffy
+        the Vampire Slayer (TV series)"},{"ns":0,"title":"Buffy the Vampire Slayer
+        (video game)"},{"ns":0,"title":"Cathy Rush"},{"ns":0,"title":"Crime drama"},{"ns":0,"title":"DC
+        Comics"},{"ns":0,"title":"Dave Roberts (broadcaster)"},{"ns":0,"title":"Denise
+        Richards"},{"ns":0,"title":"Dido (singer)"},{"ns":0,"title":"Direct to video"},{"ns":0,"title":"E!"},{"ns":0,"title":"Ed
+        Rush"},{"ns":0,"title":"Ed T. Rush"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"Emily
+        Deschanel"},{"ns":0,"title":"Examiner.com"},{"ns":0,"title":"Family Guy"},{"ns":0,"title":"Green
+        Lantern"},{"ns":0,"title":"Hal Jordan"},{"ns":0,"title":"High school"},{"ns":0,"title":"I''m
+        with Lucy"},{"ns":0,"title":"Independent film"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Italians"},{"ns":0,"title":"Ithaca, New
+        York"},{"ns":0,"title":"Ithaca College"},{"ns":0,"title":"Jaime Bergman"},{"ns":0,"title":"Josh
+        Holloway"},{"ns":0,"title":"Justice League: The New Frontier"},{"ns":0,"title":"Katherine
+        Heigl"},{"ns":0,"title":"Kelly Bundy"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kids''
+        Choice Awards"},{"ns":0,"title":"Kingdom Hearts"},{"ns":0,"title":"Kingdom
+        Hearts HD 1.5 Remix"},{"ns":0,"title":"Kyle Chandler"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lifetime (TV network)"},{"ns":0,"title":"Malvern,
+        Pennsylvania"},{"ns":0,"title":"Malvern Preparatory School"},{"ns":0,"title":"Married...
+        with Children"},{"ns":0,"title":"Married and maiden names"},{"ns":0,"title":"Matthew
+        Fox"},{"ns":0,"title":"Michael C. Hall"},{"ns":0,"title":"Motorcycle"},{"ns":0,"title":"Movie
+        Show"},{"ns":0,"title":"Mr. Fix It (2006 film)"},{"ns":0,"title":"Music video"},{"ns":0,"title":"New
+        York Daily News"},{"ns":0,"title":"Nick Lachey"},{"ns":0,"title":"Officer
+        Down (film)"},{"ns":0,"title":"Paleyfest"},{"ns":0,"title":"Pennsylvania"},{"ns":0,"title":"People''s
+        Choice Awards"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Philadelphia"},{"ns":0,"title":"Philadelphia
+        Flyers"},{"ns":0,"title":"Prime time"},{"ns":0,"title":"Punk''d"},{"ns":0,"title":"Rachel
+        Uchitel"},{"ns":0,"title":"Resident Evil (film)"},{"ns":0,"title":"Richard
+        Dean Anderson"},{"ns":0,"title":"Road to the North Pole"},{"ns":0,"title":"Robert
+        Patrick"},{"ns":0,"title":"Rosemont, Pennsylvania"},{"ns":0,"title":"San Diego
+        Comic-Con International"},{"ns":0,"title":"Sarah Michelle Gellar"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Television Series Drama"},{"ns":0,"title":"Saturn
+        Award for Best Actor on Television"},{"ns":0,"title":"Seeley Booth"},{"ns":0,"title":"Slasher
+        film"},{"ns":0,"title":"Slovaks"},{"ns":0,"title":"Soul Purpose (Angel)"},{"ns":0,"title":"Spin-off
+        (media)"},{"ns":0,"title":"Squall Leonhart"},{"ns":0,"title":"Stephen Moyer"},{"ns":0,"title":"Steven
+        Weber (actor)"},{"ns":0,"title":"Suffering Man''s Charity"},{"ns":0,"title":"Supernatural
+        drama"},{"ns":0,"title":"Syst\u00e8me universitaire de documentation"},{"ns":0,"title":"TV
+        Guide"},{"ns":0,"title":"Tara Reid"},{"ns":0,"title":"Teen Choice Awards"},{"ns":0,"title":"Television"},{"ns":0,"title":"Television
+        producer"},{"ns":0,"title":"The Crow: Wicked Prayer"},{"ns":0,"title":"The
+        Hard Easy"},{"ns":0,"title":"The Mighty Macs (film)"},{"ns":0,"title":"The
+        Morning Call"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"These
+        Girls"},{"ns":0,"title":"Tiger Woods"},{"ns":0,"title":"Toronto Film Festival"},{"ns":0,"title":"Travel
+        agent"},{"ns":0,"title":"Twentieth Century Fox"},{"ns":0,"title":"United States"},{"ns":0,"title":"Valentine
+        (film)"},{"ns":0,"title":"Vampire (Buffy the Vampire Slayer)"},{"ns":0,"title":"Vancouver
+        International Film Festival"},{"ns":0,"title":"Video game"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Voice actor"},{"ns":0,"title":"WKBW-TV"},{"ns":0,"title":"WPVI-TV"},{"ns":0,"title":"White
+        Flag (song)"},{"ns":0,"title":"WorldCat"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Saturn
+        Award for Best Actor on Television"},{"ns":11,"title":"Template talk:Saturn
+        Award for Best Actor on Television"},{"ns":12,"title":"Help:IPA for English"},{"ns":12,"title":"Help:IPA
+        for Italian"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from December 2013"},{"ns":14,"title":"Category:Use mdy dates from November
+        2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:01 GMT
+recorded_with: VCR 2.9.2

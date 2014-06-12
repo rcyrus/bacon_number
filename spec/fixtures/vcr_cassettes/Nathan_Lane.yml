@@ -1,0 +1,254 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Nathan%20Lane
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711874148, 1102694156, 1309479902
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4787'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:45 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4017 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"271874|0|Trumbo_(film)"}},"query":{"pages":{"271874":{"pageid":271874,"ns":0,"title":"Nathan
+        Lane","links":[{"ns":0,"title":"30 Rock"},{"ns":0,"title":"A Celebration in
+        Song"},{"ns":0,"title":"A Funny Thing Happened on the Way to the Forum"},{"ns":0,"title":"A
+        Midsummer Night''s Dream"},{"ns":0,"title":"A Muppet Christmas: Letters to
+        Santa"},{"ns":0,"title":"Abe Burrows"},{"ns":0,"title":"Absolutely Fabulous"},{"ns":0,"title":"Actors
+        Equity"},{"ns":0,"title":"Addams Family Values"},{"ns":0,"title":"Adolph Caesar"},{"ns":0,"title":"Adrian
+        Lester"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Bates"},{"ns":0,"title":"Alan
+        Bennett"},{"ns":0,"title":"Alan Cumming"},{"ns":0,"title":"Alan Feinstein
+        (actor)"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alec
+        McCowen"},{"ns":0,"title":"Alex Jennings"},{"ns":0,"title":"Alfred Lunt"},{"ns":0,"title":"Alfred
+        Molina"},{"ns":0,"title":"Alice In Wonderland"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Alun
+        Armstrong"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"American
+        Theatre Hall of Fame"},{"ns":0,"title":"American Theatre Wing"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Aneurin Barnard"},{"ns":0,"title":"Angela Lansbury"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony LaPaglia"},{"ns":0,"title":"Anthony
+        Quayle"},{"ns":0,"title":"Anton Rodgers"},{"ns":0,"title":"Antonio Banderas"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Assassins (musical)"},{"ns":0,"title":"Astro
+        Boy (film)"},{"ns":0,"title":"At First Sight"},{"ns":0,"title":"Audio-Animatronic"},{"ns":0,"title":"Audra
+        McDonald"},{"ns":0,"title":"Austin Powers in Goldmember"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BD Wong"},{"ns":0,"title":"Back Stage"},{"ns":0,"title":"Bad
+        Habits (play)"},{"ns":0,"title":"Barnard Hughes"},{"ns":0,"title":"Barry Bostwick"},{"ns":0,"title":"Barry
+        Miller (actor)"},{"ns":0,"title":"Bea Arthur"},{"ns":0,"title":"Bebe Neuwirth"},{"ns":0,"title":"Ben
+        Affleck"},{"ns":0,"title":"Ben Harney (actor)"},{"ns":0,"title":"Benicio del
+        Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bernadette Peters"},{"ns":0,"title":"Bert
+        Lytell"},{"ns":0,"title":"Bertie Carvel"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Billy
+        Porter (entertainer)"},{"ns":0,"title":"Bipolar disorder"},{"ns":0,"title":"Bob
+        Dishy"},{"ns":0,"title":"Bobby Cannavale"},{"ns":0,"title":"Bobby Van (actor)"},{"ns":0,"title":"Boston
+        Pops"},{"ns":0,"title":"Bounce (musical)"},{"ns":0,"title":"Boyd Gaines"},{"ns":0,"title":"Brent
+        Carver"},{"ns":0,"title":"Brian Backer"},{"ns":0,"title":"Brian Bedford"},{"ns":0,"title":"Brian
+        Dennehy"},{"ns":0,"title":"Brian Murray (actor)"},{"ns":0,"title":"Brian Stokes
+        Mitchell"},{"ns":0,"title":"Brian d''Arcy James"},{"ns":0,"title":"Broadway
+        Bound"},{"ns":0,"title":"Broadway Cares/Equity Fights AIDS"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Brock Pemberton"},{"ns":0,"title":"Bruce Jones
+        (actor)"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"Br\u00edan F.
+        O''Byrne"},{"ns":0,"title":"Bud Collyer"},{"ns":0,"title":"Butley (play)"},{"ns":0,"title":"Carol
+        Lawrence"},{"ns":0,"title":"Catch Me If You Can (musical)"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Catholic"},{"ns":0,"title":"Cedric Hardwicke"},{"ns":0,"title":"Celeste
+        Holm"},{"ns":0,"title":"Charles Boyer"},{"ns":0,"title":"Charles Durning"},{"ns":0,"title":"Charles
+        S. Dutton"},{"ns":0,"title":"Cherry Jones"},{"ns":0,"title":"Children''s Defense
+        Fund"},{"ns":0,"title":"Chita Rivera"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christine
+        Baranski"},{"ns":0,"title":"Christine Ebersole"},{"ns":0,"title":"Christine
+        Lahti"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Circle in
+        the Square Theatre"},{"ns":0,"title":"Claire Bloom"},{"ns":0,"title":"Claude
+        Rains"},{"ns":0,"title":"Clifton Collins, Jr."},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Coming
+        out"},{"ns":0,"title":"Con O''Neill (actor)"},{"ns":0,"title":"Curb Your Enthusiasm"},{"ns":0,"title":"Cyril
+        Ritchard"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"DMOZ"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Dana Carvey"},{"ns":0,"title":"Dana Ivey"},{"ns":0,"title":"Daniel
+        Evans (actor)"},{"ns":0,"title":"Danny Burstein"},{"ns":0,"title":"Danny Kaye"},{"ns":0,"title":"David
+        Bedella"},{"ns":0,"title":"David Hyde Pierce"},{"ns":0,"title":"David Mamet"},{"ns":0,"title":"David
+        Morse (actor)"},{"ns":0,"title":"David Rounds"},{"ns":0,"title":"David Thaxton"},{"ns":0,"title":"David
+        Wayne"},{"ns":0,"title":"Daytime Emmy Award"},{"ns":0,"title":"Deborah Kerr"},{"ns":0,"title":"Deirdre
+        Costello"},{"ns":0,"title":"Denis Lawson"},{"ns":0,"title":"Denis Quilley"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Derek Jacobi"},{"ns":0,"title":"Diahann Carroll"},{"ns":0,"title":"Dianne
+        Wiest"},{"ns":0,"title":"Disneyland"},{"ns":0,"title":"Do Re Mi (musical)"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Doug Henning"},{"ns":0,"title":"Douglas Carter
+        Beane"},{"ns":0,"title":"Douglas Hodge"},{"ns":0,"title":"Drama Desk Award"},{"ns":0,"title":"Drama
+        Desk Award for Outstanding Actor in a Musical"},{"ns":0,"title":"Drama Desk
+        Award for Outstanding Actor in a Play"},{"ns":0,"title":"Drama Desk Award
+        for Outstanding Featured Actor in a Play"},{"ns":0,"title":"Drama League Award"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Eddie Albert"},{"ns":0,"title":"Eddie
+        Izzard"},{"ns":0,"title":"Edward Asner"},{"ns":0,"title":"Edward Herrmann"},{"ns":0,"title":"Eileen
+        Atkins"},{"ns":0,"title":"Eileen Heckart"},{"ns":0,"title":"Eli Wallach"},{"ns":0,"title":"Ellen
+        Burstyn"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Encore! Encore!"},{"ns":0,"title":"Encores!"},{"ns":0,"title":"Erika
+        Christensen"},{"ns":0,"title":"Eugene O''Neill"},{"ns":0,"title":"Eva Le Gallienne"},{"ns":0,"title":"Faith
+        Prince"},{"ns":0,"title":"Faye Emerson"},{"ns":0,"title":"Fiddler on the Roof"},{"ns":0,"title":"Florence
+        Henderson"},{"ns":0,"title":"Frances Sternhagen"},{"ns":0,"title":"Frank Langella"},{"ns":0,"title":"Frankie
+        and Johnny (1991 film)"},{"ns":0,"title":"Frasier"},{"ns":0,"title":"GLAAD
+        Media Awards"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gavin Creel"},{"ns":0,"title":"Gay
+        & Lesbian Alliance Against Defamation"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Abbott"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        Hearn"},{"ns":0,"title":"George Maguire (actor)"},{"ns":0,"title":"George
+        Rose (actor)"},{"ns":0,"title":"George S. Irving"},{"ns":0,"title":"George
+        and Martha"},{"ns":0,"title":"Get Bruce!"},{"ns":0,"title":"Ginger Rogers"},{"ns":0,"title":"Glenn
+        Close"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Goodman
+        Theatre"},{"ns":0,"title":"Grace George"},{"ns":0,"title":"Great Performances"},{"ns":0,"title":"Gregory
+        Hines"},{"ns":0,"title":"Guys and Dolls"},{"ns":0,"title":"Guys and Dolls
+        (musical)"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Harvey
+        Fierstein"},{"ns":0,"title":"He Said, She Said"},{"ns":0,"title":"Helen Hayes"},{"ns":0,"title":"Henry
+        Fonda"},{"ns":0,"title":"Henry Goodman"},{"ns":0,"title":"Hiram Sherman"},{"ns":0,"title":"Hollywood
+        Walk of Fame"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Human
+        Rights Campaign"},{"ns":0,"title":"Hume Cronyn"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Ian
+        Richardson"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Ingrid Bergman"},{"ns":0,"title":"Innoventions
+        (Disneyland)"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Ironweed (film)"},{"ns":0,"title":"Isn''t
+        She Great"},{"ns":0,"title":"Jack Carter (comedian)"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack O''Brien (director)"},{"ns":0,"title":"Jacob
+        Vargas"},{"ns":0,"title":"Jacqueline Susann''s Valley of the Dolls"},{"ns":0,"title":"James
+        Brolin"},{"ns":0,"title":"James Corden"},{"ns":0,"title":"James Earl Jones"},{"ns":0,"title":"James
+        Lomas (actor)"},{"ns":0,"title":"James Naughton"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"Jane
+        Alexander"},{"ns":0,"title":"Jane Fonda"},{"ns":0,"title":"Jason Alexander"},{"ns":0,"title":"Jason
+        Robards"},{"ns":0,"title":"Jean Smart"},{"ns":0,"title":"Jeff Award"},{"ns":0,"title":"Jefferson
+        Mays"},{"ns":0,"title":"Jeffrey (film)"},{"ns":0,"title":"Jeffrey DeMunn"},{"ns":0,"title":"Jeffrey
+        Wright (actor)"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jersey City"},{"ns":0,"title":"Jersey
+        City, New Jersey"},{"ns":0,"title":"Jessica Tandy"},{"ns":0,"title":"Jewish
+        News of Greater Phoenix"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Jim
+        Dale"},{"ns":0,"title":"Joe Mantello"},{"ns":0,"title":"Joe Versus the Volcano"},{"ns":0,"title":"John
+        Bardon"},{"ns":0,"title":"John Cullum"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Gordon Sinclair"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John Lloyd
+        Young"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John Randolph (actor)"},{"ns":0,"title":"John
+        Rubinstein"},{"ns":0,"title":"John Wood (English actor)"},{"ns":0,"title":"Jonathan
+        Pryce"},{"ns":0,"title":"Jose Ferrer"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Joseph
+        Maher"},{"ns":0,"title":"Joseph Papp"},{"ns":0,"title":"Josephine Hull"},{"ns":0,"title":"Judd
+        Hirsch"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Judith Anderson"},{"ns":0,"title":"Judith
+        Evelyn"},{"ns":0,"title":"Julie Andrews"},{"ns":0,"title":"Julie Harris"},{"ns":0,"title":"Kate
+        Burton (actress)"},{"ns":0,"title":"Kate Nelligan"},{"ns":0,"title":"Katharine
+        Cornell"},{"ns":0,"title":"Kathleen Chalfant"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kathleen
+        Turner"},{"ns":0,"title":"Ken Page"},{"ns":0,"title":"Kevin Anderson (actor)"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kiril
+        Kulish"},{"ns":0,"title":"LGBT"},{"ns":0,"title":"Larry Blyden"},{"ns":0,"title":"Larry
+        Kert"},{"ns":0,"title":"Laughter on the 23rd Floor"},{"ns":0,"title":"Lauren
+        Bacall"},{"ns":0,"title":"Laurence Fishburne"},{"ns":0,"title":"Laurence Olivier
+        Award for Best Actor in a Musical"},{"ns":0,"title":"Len Cariou"},{"ns":0,"title":"Lena
+        Horne"},{"ns":0,"title":"Lenny Baker"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Liam
+        Mower"},{"ns":0,"title":"Liam Neeson"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Liev Schreiber"},{"ns":0,"title":"Life with
+        Mikey"},{"ns":0,"title":"Lincoln Center"},{"ns":0,"title":"Lincoln Center
+        for the Performing Arts"},{"ns":0,"title":"Lips Together, Teeth Apart"},{"ns":0,"title":"List
+        of Tony Awards ceremonies"},{"ns":0,"title":"Liv Ullmann"},{"ns":0,"title":"Liza
+        Minnelli"},{"ns":0,"title":"London"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Louis
+        Calhern"},{"ns":0,"title":"Love"},{"ns":0,"title":"Love! Valour! Compassion!"},{"ns":0,"title":"Love''s
+        Labours Lost"},{"ns":0,"title":"Lucille Lortel"},{"ns":0,"title":"Lucille
+        Lortel Award"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"Luv (play)"},{"ns":0,"title":"Lynn
+        Fontanne"},{"ns":0,"title":"Mad About You"},{"ns":0,"title":"Madame Tussauds"},{"ns":0,"title":"Mady
+        Christians"},{"ns":0,"title":"Manhattan Theatre Club"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Mark Rylance"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Martin
+        Shaw (actor)"},{"ns":0,"title":"Martin Short"},{"ns":0,"title":"Mary-Louise
+        Parker"},{"ns":0,"title":"Mary Martin"},{"ns":0,"title":"Mary Tyler Moore"},{"ns":0,"title":"Matthew
+        Broderick"},{"ns":0,"title":"Matthew Shepard"},{"ns":0,"title":"Maurice Evans
+        (actor)"},{"ns":0,"title":"Max Bialystock"},{"ns":0,"title":"Measure for Measure"},{"ns":0,"title":"Mel
+        Brooks"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Merlin"},{"ns":0,"title":"Merlin
+        (musical)"},{"ns":0,"title":"Miami Vice"},{"ns":0,"title":"Michael Ball (singer)"},{"ns":0,"title":"Michael
+        Crawford"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michele Lee"},{"ns":0,"title":"Mickey
+        Rooney"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Mike Birbiglia"},{"ns":0,"title":"Milo
+        O''Shea"},{"ns":0,"title":"Mirror Mirror (film)"},{"ns":0,"title":"Modern
+        Family"},{"ns":0,"title":"MouseHunt (film)"},{"ns":0,"title":"Mr. Toad"},{"ns":0,"title":"Murray
+        Schisgal"},{"ns":0,"title":"Nathan Detroit"},{"ns":0,"title":"Nathan E. Lane"},{"ns":0,"title":"Neil
+        Patrick Harris"},{"ns":0,"title":"Neil Simon"},{"ns":0,"title":"New York City"},{"ns":0,"title":"Nicholas
+        Nickleby (2002 film)"},{"ns":0,"title":"Norbert Leo Butz"},{"ns":0,"title":"November
+        (play)"},{"ns":0,"title":"No\u00ebl Coward"},{"ns":0,"title":"Obie Award"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Olivier
+        Award"},{"ns":0,"title":"On Borrowed Time"},{"ns":0,"title":"One of the Boys
+        (TV series)"},{"ns":0,"title":"Outer Critics Circle Award"},{"ns":0,"title":"Patti
+        LuPone"},{"ns":0,"title":"Paul Barber (actor)"},{"ns":0,"title":"Paul Clarkson"},{"ns":0,"title":"Paul
+        Lukas"},{"ns":0,"title":"Paul Muni"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Pauline
+        Collins"},{"ns":0,"title":"Paulo Szot"},{"ns":0,"title":"Peter Frechette"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Phil Silvers"},{"ns":0,"title":"Philip
+        Anglim"},{"ns":0,"title":"Philip Bosco"},{"ns":0,"title":"Philip Quast"},{"ns":0,"title":"Playbill"},{"ns":0,"title":"Playwright"},{"ns":0,"title":"Present
+        Laughter"},{"ns":0,"title":"Primetime Emmy Award"},{"ns":0,"title":"Ralph
+        Bellamy"},{"ns":0,"title":"Ralph Fiennes"},{"ns":0,"title":"Ray Bolger"},{"ns":0,"title":"Raymond
+        Massey"},{"ns":0,"title":"Ra\u00fal Esparza"},{"ns":0,"title":"Richard Burton"},{"ns":0,"title":"Richard
+        Chamberlain"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard
+        Easton"},{"ns":0,"title":"Richard Griffiths"},{"ns":0,"title":"Richard Kiley"},{"ns":0,"title":"Road
+        Show (musical)"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        Cuccioli"},{"ns":0,"title":"Robert Falls"},{"ns":0,"title":"Robert Lindsay
+        (actor)"},{"ns":0,"title":"Robert Morley"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert
+        Preston (actor)"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Ron Leibman"},{"ns":0,"title":"Ron
+        Richardson"},{"ns":0,"title":"Ron Rifkin"},{"ns":0,"title":"Ron Silver"},{"ns":0,"title":"Rosemary
+        Harris"},{"ns":0,"title":"Rosie O''Donnell"},{"ns":0,"title":"Roundabout Theatre
+        Company"},{"ns":0,"title":"Roy Dotrice"},{"ns":0,"title":"Roy Hudd"},{"ns":0,"title":"Roy
+        Scheider"},{"ns":0,"title":"Saint Joseph''s University"},{"ns":0,"title":"Sam
+        Waterston"},{"ns":0,"title":"Saturday Night Live"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Sean
+        Hayes (actor)"},{"ns":0,"title":"Second Stage Theatre"},{"ns":0,"title":"Sex
+        and the City"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"She
+        Stoops to Conquer"},{"ns":0,"title":"Shirley Booth"},{"ns":0,"title":"Sid
+        Caesar"},{"ns":0,"title":"Sidney Blackmer"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Simon
+        Gray"},{"ns":0,"title":"Simon Russell Beale"},{"ns":0,"title":"Society of
+        Jesus"},{"ns":0,"title":"St. Clair Bayfield Award"},{"ns":0,"title":"St. Peter''s
+        Preparatory High School"},{"ns":0,"title":"Stephen Dillane"},{"ns":0,"title":"Stephen
+        Rea"},{"ns":0,"title":"Stephen Spinella"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steve
+        Kazee"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Stockard Channing"},{"ns":0,"title":"Stuart
+        Little (film)"},{"ns":0,"title":"Stuart Little 2"},{"ns":0,"title":"Swing
+        Vote (2008 film)"},{"ns":0,"title":"Teacher''s Pet (2004 film)"},{"ns":0,"title":"Teacher''s
+        Pet (TV series)"},{"ns":0,"title":"Terrence McNally"},{"ns":0,"title":"The
+        Addams Family (musical)"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The
+        Boston Globe"},{"ns":0,"title":"The Boys Next Door (1996 film)"},{"ns":0,"title":"The
+        Common Pursuit"},{"ns":0,"title":"The Days and Nights of Molly Dodd"},{"ns":0,"title":"The
+        English Teacher (film)"},{"ns":0,"title":"The Frogs"},{"ns":0,"title":"The
+        Frogs (musical)"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The Good
+        Wife"},{"ns":0,"title":"The Iceman Cometh"},{"ns":0,"title":"The Last Mile
+        (TV play)"},{"ns":0,"title":"The Lemon Sisters"},{"ns":0,"title":"The Lion
+        King"},{"ns":0,"title":"The Lion King 1\u00bd"},{"ns":0,"title":"The Lion
+        King II: Simba''s Pride"},{"ns":0,"title":"The Lisbon Traviata"},{"ns":0,"title":"The
+        Man Who Came to Dinner"},{"ns":0,"title":"The Merry Wives of Windsor"},{"ns":0,"title":"The
+        Nance"},{"ns":0,"title":"The New York Observer"},{"ns":0,"title":"The New
+        York Times"},{"ns":0,"title":"The Nutcracker"},{"ns":0,"title":"The Observer"},{"ns":0,"title":"The
+        Odd Couple"},{"ns":0,"title":"The Play What I Wrote"},{"ns":0,"title":"The
+        Producers (2005 film)"},{"ns":0,"title":"The Producers (musical)"},{"ns":0,"title":"The
+        School for Scandal"},{"ns":0,"title":"The Tony Awards"},{"ns":0,"title":"The
+        Trevor Project"},{"ns":0,"title":"The Wizard of Oz in Concert"},{"ns":0,"title":"The
+        drama league"},{"ns":0,"title":"Theatre Royal Drury Lane"},{"ns":0,"title":"Thora
+        Birch"},{"ns":0,"title":"Timon & Pumbaa (TV series)"},{"ns":0,"title":"Titan
+        A.E."},{"ns":0,"title":"Title role"},{"ns":0,"title":"Tom Bosley"},{"ns":0,"title":"Tom
+        Courtenay"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas
+        Milian"},{"ns":0,"title":"Tommy Tune"},{"ns":0,"title":"Tony Award"},{"ns":0,"title":"Tony
+        Award for Best Actor in a Musical"},{"ns":0,"title":"Tony Randall"},{"ns":0,"title":"Topher
+        Grace"},{"ns":0,"title":"Tracy Letts"},{"ns":0,"title":"Traffic (2000 film)"},{"ns":0,"title":"Trent
+        Kowalik"},{"ns":0,"title":"Trixie (film)"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:46 GMT
+recorded_with: VCR 2.9.2

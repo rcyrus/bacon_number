@@ -1,0 +1,222 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Bucknell%20University
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711808271, 1102665564, 1309432550
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3421'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:55 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4017 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"106198":{"pageid":106198,"ns":0,"title":"Bucknell
+        University","links":[{"ns":0,"title":"1935 Orange Bowl"},{"ns":0,"title":"2005
+        NCAA Men''s Division I Basketball Tournament"},{"ns":0,"title":"ACT (test)"},{"ns":0,"title":"Agnes
+        Scott College"},{"ns":0,"title":"Albion College"},{"ns":0,"title":"Albright
+        College"},{"ns":0,"title":"Allegheny College"},{"ns":0,"title":"Alma College"},{"ns":0,"title":"Alpha
+        Chi Omega"},{"ns":0,"title":"Alpha Delta Pi"},{"ns":0,"title":"Alpha Xi Delta"},{"ns":0,"title":"Alvernia
+        University"},{"ns":0,"title":"American Eagles"},{"ns":0,"title":"American
+        University"},{"ns":0,"title":"Amherst College"},{"ns":0,"title":"Annapolis
+        Group"},{"ns":0,"title":"Appleton-Century-Crofts"},{"ns":0,"title":"Arcadia
+        University"},{"ns":0,"title":"Army Black Knights"},{"ns":0,"title":"Art Institute
+        of Philadelphia"},{"ns":0,"title":"Art history"},{"ns":0,"title":"Athletic
+        nickname"},{"ns":0,"title":"Augustana College (Illinois)"},{"ns":0,"title":"Austin
+        College"},{"ns":0,"title":"Ball (dance)"},{"ns":0,"title":"Baptist Bible College
+        & Seminary"},{"ns":0,"title":"Baptist Church"},{"ns":0,"title":"Baptists"},{"ns":0,"title":"Barbados"},{"ns":0,"title":"Bard
+        College"},{"ns":0,"title":"Barnard College"},{"ns":0,"title":"Baseball"},{"ns":0,"title":"Bates
+        College"},{"ns":0,"title":"Beloit College"},{"ns":0,"title":"Bennington College"},{"ns":0,"title":"Berea
+        College"},{"ns":0,"title":"Berry College"},{"ns":0,"title":"Biology"},{"ns":0,"title":"Birmingham\u2013Southern
+        College"},{"ns":0,"title":"Board of trustees"},{"ns":0,"title":"Boston University"},{"ns":0,"title":"Boston
+        University Terriers"},{"ns":0,"title":"Bowdoin College"},{"ns":0,"title":"Bryn
+        Athyn College"},{"ns":0,"title":"Bryn Mawr College"},{"ns":0,"title":"Bucknell
+        Bison"},{"ns":0,"title":"Bucknell Bison football"},{"ns":0,"title":"Bucknell
+        Bison men''s basketball"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Cabrini
+        College"},{"ns":0,"title":"Carleton College"},{"ns":0,"title":"Carlow University"},{"ns":0,"title":"Carnegie
+        Mellon University"},{"ns":0,"title":"Cedar Crest College"},{"ns":0,"title":"Central
+        Penn College"},{"ns":0,"title":"Centre College"},{"ns":0,"title":"Chair (official)"},{"ns":0,"title":"Chapel"},{"ns":0,"title":"Charter"},{"ns":0,"title":"Charter
+        member"},{"ns":0,"title":"Chatham University"},{"ns":0,"title":"Chemistry"},{"ns":0,"title":"Chestnut
+        Hill College"},{"ns":0,"title":"Chi Omega"},{"ns":0,"title":"Chi Phi"},{"ns":0,"title":"Christy
+        Mathewson"},{"ns":0,"title":"Christy Mathewson\u2013Memorial Stadium"},{"ns":0,"title":"Claremont
+        McKenna College"},{"ns":0,"title":"Clark University"},{"ns":0,"title":"Coe
+        College"},{"ns":0,"title":"Colby College"},{"ns":0,"title":"Colgate Raiders"},{"ns":0,"title":"Colgate
+        University"},{"ns":0,"title":"College and university rankings"},{"ns":0,"title":"College
+        of Saint Benedict and Saint John''s University"},{"ns":0,"title":"College
+        of Wooster"},{"ns":0,"title":"College of the Holy Cross"},{"ns":0,"title":"Colorado
+        College"},{"ns":0,"title":"Connecticut College"},{"ns":0,"title":"Consortium
+        of Liberal Arts Colleges"},{"ns":0,"title":"Core curriculum"},{"ns":0,"title":"Cornell
+        College"},{"ns":0,"title":"Curtis Institute of Music"},{"ns":0,"title":"David
+        Jayne Hill"},{"ns":0,"title":"Davidson College"},{"ns":0,"title":"DePauw University"},{"ns":0,"title":"DeSales
+        University"},{"ns":0,"title":"Delaware Valley College"},{"ns":0,"title":"Delta
+        Gamma"},{"ns":0,"title":"Delta Sigma Theta"},{"ns":0,"title":"Delta Upsilon"},{"ns":0,"title":"Denison
+        University"},{"ns":0,"title":"Dickinson College"},{"ns":0,"title":"Division
+        I (NCAA)"},{"ns":0,"title":"Division I FCS"},{"ns":0,"title":"Drew University"},{"ns":0,"title":"Drexel
+        University"},{"ns":0,"title":"Duquesne University"},{"ns":0,"title":"ESPY
+        Awards"},{"ns":0,"title":"Earlham College"},{"ns":0,"title":"East Asian studies"},{"ns":0,"title":"Eastern
+        University (United States)"},{"ns":0,"title":"Eckerd College"},{"ns":0,"title":"Economics"},{"ns":0,"title":"Education"},{"ns":0,"title":"Elizabethtown
+        College"},{"ns":0,"title":"Engineering"},{"ns":0,"title":"English literature"},{"ns":0,"title":"Ethology"},{"ns":0,"title":"Financial
+        endowment"},{"ns":0,"title":"First Baptist Church (Lewisburg, Pennsylvania)"},{"ns":0,"title":"Forbes"},{"ns":0,"title":"Forbes
+        Magazine''s List of America''s Best Colleges"},{"ns":0,"title":"Fordham Rams"},{"ns":0,"title":"Fordham
+        University"},{"ns":0,"title":"Franklin & Marshall College"},{"ns":0,"title":"Fraternities
+        and sororities in North America"},{"ns":0,"title":"Furman University"},{"ns":0,"title":"Gannon
+        University"},{"ns":0,"title":"Geneva College"},{"ns":0,"title":"Geographic
+        coordinate system"},{"ns":0,"title":"Georgetown Hoyas"},{"ns":0,"title":"Georgetown
+        University"},{"ns":0,"title":"Gettysburg College"},{"ns":0,"title":"Gingerbread
+        house"},{"ns":0,"title":"Gordon College (Massachusetts)"},{"ns":0,"title":"Goucher
+        College"},{"ns":0,"title":"Granada, Spain"},{"ns":0,"title":"Gratz College"},{"ns":0,"title":"Grinnell
+        College"},{"ns":0,"title":"Grove City College"},{"ns":0,"title":"Gustavus
+        Adolphus College"},{"ns":0,"title":"Gwynedd Mercy University"},{"ns":0,"title":"Hamilton
+        (village), New York"},{"ns":0,"title":"Hamilton College (New York)"},{"ns":0,"title":"Hampden-Sydney
+        College"},{"ns":0,"title":"Hampshire College"},{"ns":0,"title":"Harcum College"},{"ns":0,"title":"Harrisburg,
+        Pennsylvania"},{"ns":0,"title":"Harrisburg University of Science and Technology"},{"ns":0,"title":"Harvey
+        Mudd College"},{"ns":0,"title":"Haverford College"},{"ns":0,"title":"Hendrix
+        College"},{"ns":0,"title":"Hidden Ivies: Thirty Colleges of Excellence"},{"ns":0,"title":"Hillel:
+        The Foundation for Jewish Campus Life"},{"ns":0,"title":"Hiram College"},{"ns":0,"title":"Hobart
+        and William Smith Colleges"},{"ns":0,"title":"Hollins University"},{"ns":0,"title":"Holy
+        Cross Crusaders"},{"ns":0,"title":"Holy Family University"},{"ns":0,"title":"Hope
+        College"},{"ns":0,"title":"Howard Malcom"},{"ns":0,"title":"Hussian School
+        of Art"},{"ns":0,"title":"Illinois Wesleyan University"},{"ns":0,"title":"Immaculata
+        University"},{"ns":0,"title":"Incorporation (business)"},{"ns":0,"title":"Ivy
+        League"},{"ns":0,"title":"James Buchanan"},{"ns":0,"title":"John C. Bravman"},{"ns":0,"title":"Juniata
+        College"},{"ns":0,"title":"Kalamazoo College"},{"ns":0,"title":"Kappa Alpha
+        Psi"},{"ns":0,"title":"Kappa Alpha Theta"},{"ns":0,"title":"Kappa Delta Rho"},{"ns":0,"title":"Kappa
+        Kappa Gamma"},{"ns":0,"title":"Kappa Sigma"},{"ns":0,"title":"Katherine Haley
+        Will"},{"ns":0,"title":"Kenyon College"},{"ns":0,"title":"Keystone College"},{"ns":0,"title":"King''s
+        College (Pennsylvania)"},{"ns":0,"title":"Kiplinger''s Personal Finance"},{"ns":0,"title":"Knox
+        College (Illinois)"},{"ns":0,"title":"La Roche College"},{"ns":0,"title":"La
+        Salle University"},{"ns":0,"title":"Lackawanna College"},{"ns":0,"title":"Lafayette
+        College"},{"ns":0,"title":"Lafayette Leopards"},{"ns":0,"title":"Lake Forest
+        College"},{"ns":0,"title":"Lambda Chi Alpha"},{"ns":0,"title":"Lancaster Bible
+        College"},{"ns":0,"title":"Lawrence University"},{"ns":0,"title":"Lebanon
+        Valley College"},{"ns":0,"title":"Lehigh Mountain Hawks"},{"ns":0,"title":"Lehigh
+        University"},{"ns":0,"title":"Leslie Moonves"},{"ns":0,"title":"Lewis & Clark
+        College"},{"ns":0,"title":"Lewisburg, Pennsylvania"},{"ns":0,"title":"Liberal
+        arts college"},{"ns":0,"title":"Liberal arts university"},{"ns":0,"title":"List
+        of Bucknell University alumni"},{"ns":0,"title":"List of presidents of Bucknell
+        University"},{"ns":0,"title":"Loyola Greyhounds"},{"ns":0,"title":"Loyola
+        University Maryland"},{"ns":0,"title":"Luther College (Iowa)"},{"ns":0,"title":"Lycoming
+        College"},{"ns":0,"title":"MIT Engineers"},{"ns":0,"title":"Macalester College"},{"ns":0,"title":"Management"},{"ns":0,"title":"Manhattan
+        College"},{"ns":0,"title":"Manor College"},{"ns":0,"title":"Marywood University"},{"ns":0,"title":"Massachusetts
+        Institute of Technology"},{"ns":0,"title":"Mathematics"},{"ns":0,"title":"McDaniel
+        College"},{"ns":0,"title":"Mercyhurst University"},{"ns":0,"title":"Messiah
+        College"},{"ns":0,"title":"Miami Hurricanes football"},{"ns":0,"title":"Middlebury
+        College"},{"ns":0,"title":"Mills College"},{"ns":0,"title":"Millsaps College"},{"ns":0,"title":"Misericordia
+        University"},{"ns":0,"title":"Monmouth College"},{"ns":0,"title":"Moore College
+        of Art and Design"},{"ns":0,"title":"Moravian College"},{"ns":0,"title":"Morehouse
+        College"},{"ns":0,"title":"Mount Aloysius College"},{"ns":0,"title":"Mount
+        Holyoke College"},{"ns":0,"title":"Mu Sigma Upsilon"},{"ns":0,"title":"Muhlenberg
+        College"},{"ns":0,"title":"Muslim Students'' Association"},{"ns":0,"title":"NCAA
+        Men''s Basketball Tournament"},{"ns":0,"title":"National Collegiate Athletic
+        Association"},{"ns":0,"title":"Navy Midshipmen"},{"ns":0,"title":"Nebraska
+        Wesleyan University"},{"ns":0,"title":"Neumann University"},{"ns":0,"title":"Nicaragua"},{"ns":0,"title":"Oberlin
+        College"},{"ns":0,"title":"Oberlin Group"},{"ns":0,"title":"Occidental College"},{"ns":0,"title":"Oglethorpe
+        University"},{"ns":0,"title":"Ohio Wesleyan University"},{"ns":0,"title":"Patriot
+        League"},{"ns":0,"title":"PayScale"},{"ns":0,"title":"Peirce College"},{"ns":0,"title":"Pennsylvania"},{"ns":0,"title":"Pennsylvania
+        College of Art and Design"},{"ns":0,"title":"Pennsylvania General Assembly"},{"ns":0,"title":"Ph.D."},{"ns":0,"title":"Phi
+        Gamma Delta"},{"ns":0,"title":"Phi Kappa Psi"},{"ns":0,"title":"Philadelphia
+        Biblical University"},{"ns":0,"title":"Philadelphia University"},{"ns":0,"title":"Philip
+        Roth"},{"ns":0,"title":"Pi Beta Phi"},{"ns":0,"title":"Pitzer College"},{"ns":0,"title":"Point
+        Park University"},{"ns":0,"title":"Pomona College"},{"ns":0,"title":"Postgraduate
+        education"},{"ns":0,"title":"Presbyterian College"},{"ns":0,"title":"Princeton
+        Review"},{"ns":0,"title":"Private university"},{"ns":0,"title":"Randolph-Macon
+        College"},{"ns":0,"title":"Randolph College"},{"ns":0,"title":"Reed College"},{"ns":0,"title":"Rhodes
+        College"},{"ns":0,"title":"Ripon College (Wisconsin)"},{"ns":0,"title":"Rob
+        Andrews"},{"ns":0,"title":"Robert Morris University"},{"ns":0,"title":"Rollins
+        College"},{"ns":0,"title":"Rosemont College"},{"ns":0,"title":"Rural"},{"ns":0,"title":"SAT"},{"ns":0,"title":"Saint
+        Francis University"},{"ns":0,"title":"Saint Joseph''s University"},{"ns":0,"title":"Saint
+        Vincent College"},{"ns":0,"title":"Salem College"},{"ns":0,"title":"Salus
+        University"},{"ns":0,"title":"Sarah Lawrence College"},{"ns":0,"title":"School
+        colors"},{"ns":0,"title":"Scripps College"},{"ns":0,"title":"Seton Hill University"},{"ns":0,"title":"Sewanee:
+        The University of the South"},{"ns":0,"title":"Sigma Alpha Epsilon"},{"ns":0,"title":"Sigma
+        Alpha Mu"},{"ns":0,"title":"Sigma Chi"},{"ns":0,"title":"Sigma Phi Epsilon"},{"ns":0,"title":"Simmons
+        College (Massachusetts)"},{"ns":0,"title":"Skidmore College"},{"ns":0,"title":"Smith
+        College"},{"ns":0,"title":"Southwestern University"},{"ns":0,"title":"Spelman
+        College"},{"ns":0,"title":"Sport"},{"ns":0,"title":"St. Charles Borromeo Seminary"},{"ns":0,"title":"St.
+        John''s College (Annapolis/Santa Fe)"},{"ns":0,"title":"St. Lawrence University"},{"ns":0,"title":"St.
+        Olaf College"},{"ns":0,"title":"Student organization"},{"ns":0,"title":"Susquehanna
+        River"},{"ns":0,"title":"Susquehanna University"},{"ns":0,"title":"Swarthmore
+        College"},{"ns":0,"title":"Sweet Briar College"},{"ns":0,"title":"Tau Kappa
+        Epsilon"},{"ns":0,"title":"The American College (Bryn Mawr, PA)"},{"ns":0,"title":"The
+        Bucknellian"},{"ns":0,"title":"The Depression"},{"ns":0,"title":"Theatre"},{"ns":0,"title":"Theta
+        Chi"},{"ns":0,"title":"Thiel College"},{"ns":0,"title":"Thomas Jefferson University"},{"ns":0,"title":"Tours,
+        France"},{"ns":0,"title":"Transylvania University"},{"ns":0,"title":"Trinity
+        College (Connecticut)"},{"ns":0,"title":"Trinity University (Texas)"},{"ns":0,"title":"U.S.
+        News & World Report"},{"ns":0,"title":"U.S. Route 15"},{"ns":0,"title":"Undergraduate
+        education"},{"ns":0,"title":"Union College (New York)"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"United States Military Academy"},{"ns":0,"title":"United
+        States Naval Academy"},{"ns":0,"title":"University of Kansas"},{"ns":0,"title":"University
+        of Pennsylvania"},{"ns":0,"title":"University of Pittsburgh"},{"ns":0,"title":"University
+        of Puget Sound"},{"ns":0,"title":"University of Scranton"},{"ns":0,"title":"University
+        of Wisconsin\u2013Madison"},{"ns":0,"title":"University of the Arts (Philadelphia)"},{"ns":0,"title":"University
+        of the Sciences"},{"ns":0,"title":"University president"},{"ns":0,"title":"Ursinus
+        College"},{"ns":0,"title":"Valley Forge Christian College"},{"ns":0,"title":"Vassar
+        College"},{"ns":0,"title":"Victorian-era"},{"ns":0,"title":"Villanova University"},{"ns":0,"title":"WVBU-FM"},{"ns":0,"title":"Wabash
+        College"},{"ns":0,"title":"Washington & Jefferson College"},{"ns":0,"title":"Washington
+        College"},{"ns":0,"title":"Washington Monthly"},{"ns":0,"title":"Washington
+        and Lee University"},{"ns":0,"title":"Waynesburg University"},{"ns":0,"title":"Wellesley
+        College"},{"ns":0,"title":"Wesleyan College"},{"ns":0,"title":"Wesleyan University"},{"ns":0,"title":"West
+        Branch Susquehanna River"},{"ns":0,"title":"Westminster College (Pennsylvania)"},{"ns":0,"title":"Westmont
+        College"},{"ns":0,"title":"Wheaton College (Illinois)"},{"ns":0,"title":"Wheaton
+        College (Massachusetts)"},{"ns":0,"title":"Whitman College"},{"ns":0,"title":"Whittier
+        College"},{"ns":0,"title":"Widener University"},{"ns":0,"title":"Wilkes-Barre,
+        Pennsylvania"},{"ns":0,"title":"Wilkes University"},{"ns":0,"title":"Willamette
+        University"},{"ns":0,"title":"William Bucknell"},{"ns":0,"title":"William
+        Jewell College"},{"ns":0,"title":"Williams College"},{"ns":0,"title":"Wilson
+        College (Pennsylvania)"},{"ns":0,"title":"Wittenberg University"},{"ns":0,"title":"Women"},{"ns":0,"title":"York
+        College of Pennsylvania"},{"ns":1,"title":"Talk:Bucknell University"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Annapolis
+        Group"},{"ns":10,"title":"Template:CLAC"},{"ns":10,"title":"Template:Oberlin
+        Group"},{"ns":10,"title":"Template:Patriot League navbox"},{"ns":10,"title":"Template:Private
+        Colleges and Universities in Pennsylvania"},{"ns":10,"title":"Template:Unreferenced
+        section"},{"ns":11,"title":"Template talk:Annapolis Group"},{"ns":11,"title":"Template
+        talk:CLAC"},{"ns":11,"title":"Template talk:Oberlin Group"},{"ns":11,"title":"Template
+        talk:Patriot League navbox"},{"ns":11,"title":"Template talk:Private Colleges
+        and Universities in Pennsylvania"},{"ns":12,"title":"Help:Introduction to
+        referencing/1"},{"ns":14,"title":"Category:Articles needing additional references
+        from February 2012"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from February 2012"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from June 2013"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from October 2009"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:56 GMT
+recorded_with: VCR 2.9.2

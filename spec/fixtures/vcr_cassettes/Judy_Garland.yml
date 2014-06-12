@@ -1,0 +1,264 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Judy%20Garland
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001143317, 1409527179, 1613064952
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5007'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:29 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4009 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"58719":{"pageid":58719,"ns":0,"title":"Judy Garland","links":[{"ns":0,"title":"\"Live\"
+        at the London Palladium"},{"ns":0,"title":"13th Academy Awards"},{"ns":0,"title":"1939
+        in film"},{"ns":0,"title":"1959 in music"},{"ns":0,"title":"1960 in music"},{"ns":0,"title":"1960s
+        in music"},{"ns":0,"title":"1961 in music"},{"ns":0,"title":"1962 in music"},{"ns":0,"title":"1963
+        in music"},{"ns":0,"title":"1964 in music"},{"ns":0,"title":"1965 in music"},{"ns":0,"title":"1966
+        in music"},{"ns":0,"title":"1967 in music"},{"ns":0,"title":"1968 in music"},{"ns":0,"title":"1969
+        in music"},{"ns":0,"title":"20th Century Fox"},{"ns":0,"title":"27th Academy
+        Awards"},{"ns":0,"title":"4 for Texas"},{"ns":0,"title":"AFI''s 100 Years\u2026100
+        Stars"},{"ns":0,"title":"A Child Is Waiting"},{"ns":0,"title":"A Man and His
+        Music"},{"ns":0,"title":"A Star Is Born (1937 film)"},{"ns":0,"title":"A Star
+        Is Born (1954 film)"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Actress"},{"ns":0,"title":"Academy Award for Best Supporting
+        Actress"},{"ns":0,"title":"Academy Juvenile Award"},{"ns":0,"title":"Academy
+        of Television Arts & Sciences"},{"ns":0,"title":"Adrienne Barbeau"},{"ns":0,"title":"Alcohol"},{"ns":0,"title":"Alfred
+        Hitchcock"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Alone (Judy Garland
+        album)"},{"ns":0,"title":"Alyson Books"},{"ns":0,"title":"American Film Institute"},{"ns":0,"title":"American
+        Masters"},{"ns":0,"title":"Amphetamine"},{"ns":0,"title":"Amy Adams"},{"ns":0,"title":"Andrea
+        McArdle"},{"ns":0,"title":"Andy Hardy Meets Debutante"},{"ns":0,"title":"Angela
+        Bassett"},{"ns":0,"title":"Angie Dickinson"},{"ns":0,"title":"Ann-Margret"},{"ns":0,"title":"Anne
+        Bancroft"},{"ns":0,"title":"Anne Edwards"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Annie Get Your Gun (film)"},{"ns":0,"title":"Annie
+        Oakley"},{"ns":0,"title":"Apocalypse Oz"},{"ns":0,"title":"Arthur Freed"},{"ns":0,"title":"Artie
+        Shaw"},{"ns":0,"title":"Austen Riggs Center"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Ava
+        Gardner"},{"ns":0,"title":"B movie"},{"ns":0,"title":"Babes in Arms (film)"},{"ns":0,"title":"Back
+        taxes"},{"ns":0,"title":"Ballantine Books"},{"ns":0,"title":"Bancroft Middle
+        School (Los Angeles, California)"},{"ns":0,"title":"Band-Aid"},{"ns":0,"title":"Baptism"},{"ns":0,"title":"Barbara
+        Seaman"},{"ns":0,"title":"Barbiturate"},{"ns":0,"title":"Barbiturate overdose"},{"ns":0,"title":"Barbra
+        Streisand"},{"ns":0,"title":"Bernadette Peters"},{"ns":0,"title":"Bert Lahr"},{"ns":0,"title":"Bette
+        Davis"},{"ns":0,"title":"Bette Midler"},{"ns":0,"title":"Betty Hutton"},{"ns":0,"title":"Billie
+        Burke"},{"ns":0,"title":"Billing (filmmaking)"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Biography
+        (TV series)"},{"ns":0,"title":"Bo Diddley"},{"ns":0,"title":"Bob Hope"},{"ns":0,"title":"Bob
+        Newhart"},{"ns":0,"title":"Bonanza"},{"ns":0,"title":"Broadway Melody of 1938"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Buddy Adler"},{"ns":0,"title":"Burial"},{"ns":0,"title":"Burt
+        Lancaster"},{"ns":0,"title":"Busby Berkeley"},{"ns":0,"title":"By the Time
+        I Get to Phoenix (album)"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Cal Neva
+        Lodge & Casino"},{"ns":0,"title":"Camp (style)"},{"ns":0,"title":"Carole Lombard"},{"ns":0,"title":"Carrie
+        Snodgress"},{"ns":0,"title":"Cecil B. DeMille"},{"ns":0,"title":"Cecil B.
+        DeMille Award"},{"ns":0,"title":"Charles Grapewin"},{"ns":0,"title":"Charles
+        Walters"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chelsea, London"},{"ns":0,"title":"Cher"},{"ns":0,"title":"Chrissy
+        Amphlett"},{"ns":0,"title":"Cinema of the United States"},{"ns":0,"title":"Cirrhosis"},{"ns":0,"title":"Clara
+        Blandick"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Come Dance with
+        Me! (album)"},{"ns":0,"title":"Copenhagen"},{"ns":0,"title":"Crown (dentistry)"},{"ns":0,"title":"Dark
+        Side of the Rainbow"},{"ns":0,"title":"Darryl F. Zanuck"},{"ns":0,"title":"Dave
+        Brubeck"},{"ns":0,"title":"David Rose"},{"ns":0,"title":"David Rose (musician)"},{"ns":0,"title":"Dean
+        Martin"},{"ns":0,"title":"Deanna Durbin"},{"ns":0,"title":"Deborah Kerr"},{"ns":0,"title":"Desmond
+        Henley"},{"ns":0,"title":"Diane Keaton"},{"ns":0,"title":"Ding-Dong! The Witch
+        Is Dead"},{"ns":0,"title":"Dirk Bogarde"},{"ns":0,"title":"Disney Hyperion"},{"ns":0,"title":"Dorothy
+        Gale"},{"ns":0,"title":"Douglas Aircraft Company"},{"ns":0,"title":"Drug overdose"},{"ns":0,"title":"Easter
+        Parade (film)"},{"ns":0,"title":"Elizabeth Taylor"},{"ns":0,"title":"Ella
+        Fitzgerald"},{"ns":0,"title":"Ella Swings Brightly with Nelson"},{"ns":0,"title":"Ella
+        in Berlin: Mack the Knife"},{"ns":0,"title":"Ellen Burstyn"},{"ns":0,"title":"Emmy
+        Award"},{"ns":0,"title":"End of the Rainbow"},{"ns":0,"title":"England"},{"ns":0,"title":"Episcopal
+        Church (United States)"},{"ns":0,"title":"Ethel Merman"},{"ns":0,"title":"Every
+        Sunday"},{"ns":0,"title":"Ferncliff Cemetery"},{"ns":0,"title":"For Me and
+        My Gal (film)"},{"ns":0,"title":"Ford Center for the Performing Arts Oriental
+        Theatre"},{"ns":0,"title":"Ford Star Jubilee"},{"ns":0,"title":"Frank E. Campbell
+        Funeral Chapel"},{"ns":0,"title":"Frank Morgan"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Fred
+        Astaire"},{"ns":0,"title":"Freddie Fields"},{"ns":0,"title":"Friend of Dorothy"},{"ns":0,"title":"Garland
+        at the Grove"},{"ns":0,"title":"Gay Liberation"},{"ns":0,"title":"Gay Purr-ee"},{"ns":0,"title":"Gay
+        community"},{"ns":0,"title":"Gene Kelly"},{"ns":0,"title":"General Electric
+        Theater"},{"ns":0,"title":"Georg Solti"},{"ns":0,"title":"George Cukor"},{"ns":0,"title":"George
+        Harrison"},{"ns":0,"title":"George Jessel (actor)"},{"ns":0,"title":"George
+        M. Cohan"},{"ns":0,"title":"George Martin"},{"ns":0,"title":"Gerald Clarke
+        (author)"},{"ns":0,"title":"Get Happy: The Life of Judy Garland"},{"ns":0,"title":"Get
+        Happy (song)"},{"ns":0,"title":"Getz/Gilberto"},{"ns":0,"title":"Ginger Rogers"},{"ns":0,"title":"Gingham"},{"ns":0,"title":"Girl-next-door"},{"ns":0,"title":"Glen
+        Campbell"},{"ns":0,"title":"Glenda Jackson"},{"ns":0,"title":"Golden Globe
+        Award"},{"ns":0,"title":"Golden Globe Award for Best Actress \u2013 Motion
+        Picture Musical or Comedy"},{"ns":0,"title":"Golden Globe Cecil B. DeMille
+        Award"},{"ns":0,"title":"Grace Kelly"},{"ns":0,"title":"Grain (unit)"},{"ns":0,"title":"Grammy
+        Award"},{"ns":0,"title":"Grammy Award for Album of the Year"},{"ns":0,"title":"Grammy
+        Award for Best Female Pop Vocal Performance"},{"ns":0,"title":"Grammy Hall
+        of Fame Award"},{"ns":0,"title":"Grammy Lifetime Achievement Award"},{"ns":0,"title":"Grand
+        Rapids, Minnesota"},{"ns":0,"title":"Grauman''s Chinese Theatre"},{"ns":0,"title":"Great
+        Brink''s Robbery"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"Groucho
+        Marx"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"Hal B. Wallis"},{"ns":0,"title":"Harold
+        Arlen"},{"ns":0,"title":"Harper & Row"},{"ns":0,"title":"Hartsdale, New York"},{"ns":0,"title":"Have
+        Yourself a Merry Little Christmas"},{"ns":0,"title":"Hedda Hopper"},{"ns":0,"title":"Helen
+        Hunt"},{"ns":0,"title":"Henry Mancini"},{"ns":0,"title":"Hepatitis"},{"ns":0,"title":"Hippodrome,
+        London"},{"ns":0,"title":"Hoagy Carmichael"},{"ns":0,"title":"Hollister, California"},{"ns":0,"title":"Hollywood
+        Boulevard"},{"ns":0,"title":"Hollywood Foreign Press Association"},{"ns":0,"title":"Hollywood
+        High School"},{"ns":0,"title":"Hollywood Walk of Fame"},{"ns":0,"title":"Hong
+        Kong"},{"ns":0,"title":"Humphrey Bogart"},{"ns":0,"title":"ITV (TV network)"},{"ns":0,"title":"I
+        Could Go On Singing"},{"ns":0,"title":"If I Only Had a Brain"},{"ns":0,"title":"If
+        I Were King of the Forest"},{"ns":0,"title":"In the Good Old Summertime"},{"ns":0,"title":"Internal
+        Revenue Service"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Isabel
+        Keating"},{"ns":0,"title":"Jack Haley"},{"ns":0,"title":"Jack Warner"},{"ns":0,"title":"James
+        Dean (film)"},{"ns":0,"title":"James Mason"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"Jamie
+        Lee Curtis"},{"ns":0,"title":"Jane Powell"},{"ns":0,"title":"Janet McTeer"},{"ns":0,"title":"Jean
+        Hersholt"},{"ns":0,"title":"Jean Simmons"},{"ns":0,"title":"Jennifer Lawrence"},{"ns":0,"title":"Jessica
+        Tandy"},{"ns":0,"title":"Jingle Bells"},{"ns":0,"title":"Joan Crawford"},{"ns":0,"title":"Joe
+        Hyams"},{"ns":0,"title":"Joey Bishop"},{"ns":0,"title":"John Lennon"},{"ns":0,"title":"John
+        Wayne"},{"ns":0,"title":"Joseph E. Levine"},{"ns":0,"title":"Jo\u00e3o Gilberto"},{"ns":0,"title":"Judgment
+        at Nuremberg"},{"ns":0,"title":"Judith Anderson"},{"ns":0,"title":"Judy (Judy
+        Garland album)"},{"ns":0,"title":"Judy Davis"},{"ns":0,"title":"Judy Garland
+        Live!"},{"ns":0,"title":"Judy Garland as gay icon"},{"ns":0,"title":"Judy
+        Garland at Home at the Palace: Opening Night"},{"ns":0,"title":"Judy Garland
+        discography"},{"ns":0,"title":"Judy Holliday"},{"ns":0,"title":"Judy at Carnegie
+        Hall"},{"ns":0,"title":"Judy in Love"},{"ns":0,"title":"Julia Roberts"},{"ns":0,"title":"Julie
+        Andrews"},{"ns":0,"title":"Julie Walters"},{"ns":0,"title":"June Allyson"},{"ns":0,"title":"Kathleen
+        Turner"},{"ns":0,"title":"Kay Kendall"},{"ns":0,"title":"Kensington Books"},{"ns":0,"title":"Kirk
+        Douglas"},{"ns":0,"title":"L. Frank Baum"},{"ns":0,"title":"La Fiesta de Santa
+        Barbara"},{"ns":0,"title":"Ladies'' Home Journal"},{"ns":0,"title":"Lana Turner"},{"ns":0,"title":"Lancaster,
+        California"},{"ns":0,"title":"Laryngitis"},{"ns":0,"title":"Las Vegas Strip"},{"ns":0,"title":"Lauren
+        Bacall"},{"ns":0,"title":"Leo Singer"},{"ns":0,"title":"Life (magazine)"},{"ns":0,"title":"Life
+        with Judy Garland: Me and My Shadows"},{"ns":0,"title":"List of Judy Garland
+        biographies"},{"ns":0,"title":"List of Judy Garland performances"},{"ns":0,"title":"List
+        of awards and honors received by Judy Garland"},{"ns":0,"title":"Little Nellie
+        Kelly"},{"ns":0,"title":"Liza Minnelli"},{"ns":0,"title":"London Palladium"},{"ns":0,"title":"Lorna
+        Luft"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Louella Parsons"},{"ns":0,"title":"Louis
+        B. Mayer"},{"ns":0,"title":"Love Finds Andy Hardy"},{"ns":0,"title":"Lynn
+        Redgrave"},{"ns":0,"title":"Madonna (entertainer)"},{"ns":0,"title":"Maggie
+        Smith"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Margaret Hamilton"},{"ns":0,"title":"Marilyn
+        Monroe"},{"ns":0,"title":"Marion Cotillard"},{"ns":0,"title":"Mark Herron"},{"ns":0,"title":"Marriage
+        on the Rocks"},{"ns":0,"title":"Marsha Mason"},{"ns":0,"title":"Martha Raye"},{"ns":0,"title":"Martin
+        Duberman"},{"ns":0,"title":"Marvin Gaye"},{"ns":0,"title":"Maurice Chevalier"},{"ns":0,"title":"Me
+        and My Shadows: A Family Memoir"},{"ns":0,"title":"Medical prescription"},{"ns":0,"title":"Meet
+        Me in St. Louis"},{"ns":0,"title":"Meglin Kiddies"},{"ns":0,"title":"Melanie
+        Griffith"},{"ns":0,"title":"Melbourne"},{"ns":0,"title":"Meningitis"},{"ns":0,"title":"Mental
+        breakdown"},{"ns":0,"title":"Mervyn LeRoy"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Metro-Goldwyn-Mayer"},{"ns":0,"title":"Michael
+        Cumpsty"},{"ns":0,"title":"Michelle Williams (actress)"},{"ns":0,"title":"Mickey
+        Deans"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Migraine"},{"ns":0,"title":"Mills
+        Brothers"},{"ns":0,"title":"Miranda Richardson"},{"ns":0,"title":"Miss Show
+        Business"},{"ns":0,"title":"Mitchell Lewis"},{"ns":0,"title":"Morphine"},{"ns":0,"title":"Music
+        recording sales certification"},{"ns":0,"title":"Musical selections in The
+        Wizard of Oz"},{"ns":0,"title":"Musician"},{"ns":0,"title":"NBC"},{"ns":0,"title":"NNDB"},{"ns":0,"title":"National
+        Academy of Recording Arts and Sciences"},{"ns":0,"title":"New Frontier Hotel
+        and Casino"},{"ns":0,"title":"Nicole Kidman"},{"ns":0,"title":"Nielsen ratings"},{"ns":0,"title":"Norman
+        Fell"},{"ns":0,"title":"Ocean''s 11 (1960 film)"},{"ns":0,"title":"On the
+        Atchison, Topeka and the Santa Fe"},{"ns":0,"title":"Optimistic Voices"},{"ns":0,"title":"Over
+        the Rainbow"},{"ns":0,"title":"Over the Rainbow (2010 TV series)"},{"ns":0,"title":"Palace
+        Theatre (Broadway)"},{"ns":0,"title":"Parade (magazine)"},{"ns":0,"title":"Pat
+        Walshe"},{"ns":0,"title":"Patty Duke"},{"ns":0,"title":"Paul McCartney"},{"ns":0,"title":"Paul
+        Robeson"},{"ns":0,"title":"Peter Lawford"},{"ns":0,"title":"Phil Silvers"},{"ns":0,"title":"Photoplay"},{"ns":0,"title":"Pleurisy"},{"ns":0,"title":"Presenting
+        Lily Mars"},{"ns":0,"title":"Production company"},{"ns":0,"title":"Pyramid
+        Books"},{"ns":0,"title":"Random House"},{"ns":0,"title":"Raquel Welch"},{"ns":0,"title":"Rat
+        Pack"},{"ns":0,"title":"Ray Bolger"},{"ns":0,"title":"Reese Witherspoon"},{"ns":0,"title":"Reno,
+        Nevada"},{"ns":0,"title":"Ren\u00e9e Zellweger"},{"ns":0,"title":"Ringo Starr"},{"ns":0,"title":"Robert
+        Goulet"},{"ns":0,"title":"Robert Walker (actor)"},{"ns":0,"title":"Robin and
+        the 7 Hoods"},{"ns":0,"title":"Rosalind Russell"},{"ns":0,"title":"Roy Orbison"},{"ns":0,"title":"Royal
+        Wedding"},{"ns":0,"title":"Ruby slippers"},{"ns":0,"title":"Rufus! Rufus!
+        Rufus! Does Judy! Judy! Judy!: Live from the London Palladium"},{"ns":0,"title":"Rufus
+        Does Judy at Carnegie Hall"},{"ns":0,"title":"Sally Hawkins"},{"ns":0,"title":"Sammy
+        Davis, Jr."},{"ns":0,"title":"Samuel Goldwyn"},{"ns":0,"title":"Sanatorium"},{"ns":0,"title":"Screen
+        test"},{"ns":0,"title":"Secobarbital"},{"ns":0,"title":"September of My Years"},{"ns":0,"title":"Sergeants
+        3"},{"ns":0,"title":"Seven Stories Press"},{"ns":0,"title":"Sgt. Pepper''s
+        Lonely Hearts Club Band"},{"ns":0,"title":"Shell Chateau"},{"ns":0,"title":"Shell
+        Oil Company"},{"ns":0,"title":"Shirley MacLaine"},{"ns":0,"title":"Shirley
+        Temple"},{"ns":0,"title":"Sidney Luft"},{"ns":0,"title":"Simon & Schuster"},{"ns":0,"title":"Sissy
+        Spacek"},{"ns":0,"title":"Some Came Running"},{"ns":0,"title":"Sonny Burke"},{"ns":0,"title":"Soundtrack"},{"ns":0,"title":"Special
+        Tony Award"},{"ns":0,"title":"St Marylebone Parish Church"},{"ns":0,"title":"Stage
+        clothes"},{"ns":0,"title":"Stan Getz"},{"ns":0,"title":"Stars and Stripes
+        (newspaper)"},{"ns":0,"title":"Stevie Wonder"},{"ns":0,"title":"Stonewall
+        riots"},{"ns":0,"title":"Strike Up the Band (film)"},{"ns":0,"title":"Suicide"},{"ns":0,"title":"Summer
+        Stock"},{"ns":0,"title":"Surrender Dorothy"},{"ns":0,"title":"Susan Hayward"},{"ns":0,"title":"Sydney"},{"ns":0,"title":"Sydney
+        Stadium"},{"ns":0,"title":"Sylvia Rivera"},{"ns":0,"title":"TV Guide"},{"ns":0,"title":"Taina
+        Elg"},{"ns":0,"title":"Tammy Blanchard"},{"ns":0,"title":"Television special"},{"ns":0,"title":"Terry
+        (dog)"},{"ns":0,"title":"Texas Across the River"},{"ns":0,"title":"That''s
+        Entertainment! (album)"},{"ns":0,"title":"The Barbra Streisand Album"},{"ns":0,"title":"The
+        Barkleys of Broadway"},{"ns":0,"title":"The Beatles"},{"ns":0,"title":"The
+        Biography Channel"},{"ns":0,"title":"The Boy Next Door (song)"},{"ns":0,"title":"The
+        Boy from Oz"},{"ns":0,"title":"The Button-Down Mind of Bob Newhart"},{"ns":0,"title":"The
+        Clock (1945 film)"},{"ns":0,"title":"The Country Girl (1954 film)"},{"ns":0,"title":"The
+        Daily Review"},{"ns":0,"title":"The Ed Sullivan Show"},{"ns":0,"title":"The
+        First Family (album)"},{"ns":0,"title":"The Garland Touch"},{"ns":0,"title":"The
+        Harvey Girls"},{"ns":0,"title":"The Hollywood Palace"},{"ns":0,"title":"The
+        Jitterbug"},{"ns":0,"title":"The Judy Garland Show"},{"ns":0,"title":"The
+        Judy Monologues"},{"ns":0,"title":"The Letter (Judy Garland album)"},{"ns":0,"title":"The
+        Making of The Wizard of Oz"},{"ns":0,"title":"The Man That Got Away"},{"ns":0,"title":"The
+        Merry Old Land of Oz"},{"ns":0,"title":"The Music from Peter Gunn"},{"ns":0,"title":"The
+        Pirate"},{"ns":0,"title":"The Saturday Evening Post"},{"ns":0,"title":"The
+        Tonight Show Starring Johnny Carson"},{"ns":0,"title":"The Trolley Song"},{"ns":0,"title":"The
+        Ugly Duckling"},{"ns":0,"title":"The Wizard of Oz (1939 film)"},{"ns":0,"title":"The
+        Wizard of Oz (1942 musical)"},{"ns":0,"title":"The Wizard of Oz (1987 musical)"},{"ns":0,"title":"The
+        Wizard of Oz (2011 musical)"},{"ns":0,"title":"The Wizard of Oz (TV series)"},{"ns":0,"title":"The
+        Wizard of Oz in Concert: Dreams Come True"},{"ns":0,"title":"The Wizard of
+        Oz on television"},{"ns":0,"title":"The Wonderful Wizard of Oz"},{"ns":0,"title":"Thoroughbreds
+        Don''t Cry"},{"ns":0,"title":"Till the Clouds Roll By"},{"ns":0,"title":"Time
+        (magazine)"},{"ns":0,"title":"Tom and Jerry and the Wizard of Oz"},{"ns":0,"title":"Tracie
+        Bennett"},{"ns":0,"title":"Trial separation"},{"ns":0,"title":"Turner Classic
+        Movies"},{"ns":0,"title":"Twentieth Century (film)"},{"ns":0,"title":"Twiggy"},{"ns":0,"title":"United
+        Press International"},{"ns":0,"title":"Universal Studios"},{"ns":0,"title":"University
+        High School (Los Angeles, California)"},{"ns":0,"title":"Usher (occupation)"},{"ns":0,"title":"Valley
+        of the Dolls (film)"},{"ns":0,"title":"Vaudeville"},{"ns":0,"title":"Vaudevillian"},{"ns":0,"title":"Vaughn
+        Meader"},{"ns":0,"title":"Village Voice"},{"ns":0,"title":"Vincente Minnelli"},{"ns":0,"title":"Vine
+        St."},{"ns":0,"title":"Vitaphone"},{"ns":0,"title":"Walt Disney"},{"ns":0,"title":"Warner
+        Bros."},{"ns":0,"title":"Was (novel)"},{"ns":0,"title":"We''re Off to See
+        the Wizard"},{"ns":0,"title":"White-collar worker"},{"ns":0,"title":"Wisconsin
+        State Journal"},{"ns":0,"title":"Woman''s Home Companion"},{"ns":0,"title":"Yip
+        Harburg"},{"ns":0,"title":"You Made Me Love You (I Didn''t Want to Do It)"},{"ns":0,"title":"Zing!
+        Went the Strings of My Heart"},{"ns":4,"title":"Wikipedia:Featured articles"},{"ns":4,"title":"Wikipedia:N"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Cecil
+        B. DeMille Award"},{"ns":10,"title":"Template:Cecil B. DeMille Award 1952\u20131975"},{"ns":10,"title":"Template:Cecil
+        B. DeMille Award 1976\u20132000"},{"ns":10,"title":"Template:Cecil B. DeMille
+        Award 2001\u20132025"},{"ns":10,"title":"Template:Golden Globe Award Best
+        Actress Motion Picture Musical or Comedy"},{"ns":10,"title":"Template:Grammy
+        Award for Album of the Year"},{"ns":10,"title":"Template:Grammy Award for
+        Album of the Year 1960s"},{"ns":10,"title":"Template:Grammy Award for Album
+        of the Year 1970s"},{"ns":10,"title":"Template:Grammy Award for Album of the
+        Year 1980s"},{"ns":10,"title":"Template:Grammy Award for Album of the Year
+        1990s"},{"ns":10,"title":"Template:Grammy Award for Album of the Year 2000s"},{"ns":10,"title":"Template:Grammy
+        Award for Album of the Year 2010s"},{"ns":10,"title":"Template:Judy Garland"},{"ns":10,"title":"Template:Rat
+        Pack"},{"ns":10,"title":"Template:The Wizard of Oz (1939 film)"},{"ns":11,"title":"Template
+        talk:Cecil B. DeMille Award 1952\u20131975"},{"ns":11,"title":"Template talk:Golden
+        Globe Award Best Actress Motion Picture Musical or Comedy"},{"ns":11,"title":"Template
+        talk:Grammy Award for Album of the Year 1960s"},{"ns":11,"title":"Template
+        talk:Judy Garland"},{"ns":11,"title":"Template talk:Rat Pack"},{"ns":11,"title":"Template
+        talk:The Wizard of Oz (1939 film)"},{"ns":14,"title":"Category:Use mdy dates
+        from June 2011"},{"ns":100,"title":"Portal:Biography"},{"ns":108,"title":"Book:Rat
+        Pack"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:30 GMT
+recorded_with: VCR 2.9.2

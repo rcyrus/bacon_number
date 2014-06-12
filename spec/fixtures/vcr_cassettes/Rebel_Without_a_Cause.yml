@@ -1,0 +1,124 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Rebel%20Without%20a%20Cause
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001182472, 983727036, 1309491555
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1874'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:58 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4018 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"76040":{"pageid":76040,"ns":0,"title":"Rebel Without
+        a Cause","links":[{"ns":0,"title":"55 Days at Peking"},{"ns":0,"title":"AFI''s
+        100 Years... 100 Movie Quotes"},{"ns":0,"title":"AFI''s 100 Years... 100 Movies"},{"ns":0,"title":"A
+        Streetcar Named Desire (1951 film)"},{"ns":0,"title":"A Woman''s Secret"},{"ns":0,"title":"Academy
+        Award for Best Actor"},{"ns":0,"title":"Academy Award for Best Story"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Award for Best
+        Supporting Actress"},{"ns":0,"title":"Alcoholic"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"American
+        Film Institute"},{"ns":0,"title":"American Pie (song)"},{"ns":0,"title":"Ann
+        Doran"},{"ns":0,"title":"Arnold Rimmer"},{"ns":0,"title":"BAFTA Award"},{"ns":0,"title":"BAFTA
+        Award for Best Film"},{"ns":0,"title":"Badlands (film)"},{"ns":0,"title":"Beverly
+        Long"},{"ns":0,"title":"Big Girls Don''t Cry (The Sopranos)"},{"ns":0,"title":"Bigger
+        Than Life"},{"ns":0,"title":"Bitter Victory"},{"ns":0,"title":"Bob Dylan"},{"ns":0,"title":"Bonnie
+        Tyler"},{"ns":0,"title":"Born to Be Bad (1950 film)"},{"ns":0,"title":"Chicken
+        (game)"},{"ns":0,"title":"Christine (1983 film)"},{"ns":0,"title":"Christopher
+        Moltisanti"},{"ns":0,"title":"Cool As Ice"},{"ns":0,"title":"Corey Allen"},{"ns":0,"title":"DVD"},{"ns":0,"title":"David
+        Weisbart"},{"ns":0,"title":"Dennis Hopper"},{"ns":0,"title":"Drama film"},{"ns":0,"title":"East
+        of Eden (film)"},{"ns":0,"title":"Edward Platt"},{"ns":0,"title":"Empire (magazine)"},{"ns":0,"title":"End
+        of the universe"},{"ns":0,"title":"Ernest Haller"},{"ns":0,"title":"Every
+        Time I Die"},{"ns":0,"title":"Field trip"},{"ns":0,"title":"Flying Leathernecks"},{"ns":0,"title":"Frank
+        Mazzola"},{"ns":0,"title":"Futurama"},{"ns":0,"title":"Generation gap"},{"ns":0,"title":"Griffith
+        Observatory"},{"ns":0,"title":"Harley-Davidson"},{"ns":0,"title":"Harrison''s
+        Reports and Film Reviews"},{"ns":0,"title":"Homer Simpson"},{"ns":0,"title":"Hot
+        Blood (1956 film)"},{"ns":0,"title":"I''ll Be You"},{"ns":0,"title":"In a
+        Lonely Place"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Into
+        the Great Wide Open (song)"},{"ns":0,"title":"Irving Shulman"},{"ns":0,"title":"Jack
+        Warner"},{"ns":0,"title":"James Dean"},{"ns":0,"title":"Jim Backus"},{"ns":0,"title":"John
+        Adams (composer)"},{"ns":0,"title":"Johnny Guitar"},{"ns":0,"title":"Joni
+        Mitchell"},{"ns":0,"title":"Katsuhiro Otomo"},{"ns":0,"title":"Keanu Reeves"},{"ns":0,"title":"Kid
+        Rock"},{"ns":0,"title":"King of Kings (1961 film)"},{"ns":0,"title":"Knock
+        on Any Door"},{"ns":0,"title":"Kryten"},{"ns":0,"title":"Kryten (Red Dwarf)"},{"ns":0,"title":"Leonard
+        Rosenman"},{"ns":0,"title":"Library of Congress"},{"ns":0,"title":"Lightning
+        Over Water"},{"ns":0,"title":"List of characters from The Sopranos in the
+        Soprano crime family"},{"ns":0,"title":"List of characters from The Sopranos
+        \u2013 friends and family"},{"ns":0,"title":"Locnville"},{"ns":0,"title":"London
+        Sinfonietta"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin
+        Sheen"},{"ns":0,"title":"Mercury Eight"},{"ns":0,"title":"Middle-class"},{"ns":0,"title":"Natalie
+        Wood"},{"ns":0,"title":"National Automobile Museum"},{"ns":0,"title":"National
+        Film Registry"},{"ns":0,"title":"Nicholas Ray"},{"ns":0,"title":"Nick Adams
+        (actor)"},{"ns":0,"title":"Nonesuch Records"},{"ns":0,"title":"On Dangerous
+        Ground"},{"ns":0,"title":"Party Girl (1958 film)"},{"ns":0,"title":"Paula
+        Abdul"},{"ns":0,"title":"Philip J. Fry"},{"ns":0,"title":"Public Enemy (group)"},{"ns":0,"title":"Public
+        intoxication"},{"ns":0,"title":"Red Dwarf"},{"ns":0,"title":"Reno, Nevada"},{"ns":0,"title":"Robert
+        M. Lindner"},{"ns":0,"title":"Rochelle Hudson"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Run
+        for Cover (film)"},{"ns":0,"title":"Rush, Rush"},{"ns":0,"title":"Sal Mineo"},{"ns":0,"title":"Sandy
+        Cheeks"},{"ns":0,"title":"Santa Monica, California"},{"ns":0,"title":"Santa
+        Monica High School"},{"ns":0,"title":"Screen test"},{"ns":0,"title":"Shadows
+        and Light (Joni Mitchell album)"},{"ns":0,"title":"Shenandoah (band)"},{"ns":0,"title":"Sissy
+        Spacek"},{"ns":0,"title":"Slum"},{"ns":0,"title":"Space Goofs"},{"ns":0,"title":"SpongeBob
+        SquarePants"},{"ns":0,"title":"SpongeBob SquarePants (character)"},{"ns":0,"title":"Steffi
+        Sidney"},{"ns":0,"title":"Stewart Stern"},{"ns":0,"title":"Suburban"},{"ns":0,"title":"Switchblade"},{"ns":0,"title":"Take
+        My Wife, Sleaze"},{"ns":0,"title":"Teenage rebellion"},{"ns":0,"title":"Teenager"},{"ns":0,"title":"Terrence
+        Malick"},{"ns":0,"title":"The Bellamy Brothers"},{"ns":0,"title":"The Big
+        Dirty (album)"},{"ns":0,"title":"The Freewheelin'' Bob Dylan"},{"ns":0,"title":"The
+        Looney Tunes Show"},{"ns":0,"title":"The Lusty Men"},{"ns":0,"title":"The
+        Replacements (band)"},{"ns":0,"title":"The Room (film)"},{"ns":0,"title":"The
+        Savage Innocents"},{"ns":0,"title":"The Simpsons"},{"ns":0,"title":"The Sopranos"},{"ns":0,"title":"The
+        True Story of Jesse James"},{"ns":0,"title":"They Live by Night"},{"ns":0,"title":"Tom
+        Petty and the Heartbreakers"},{"ns":0,"title":"Tommy Wiseau"},{"ns":0,"title":"Turner
+        Classic Movies"},{"ns":0,"title":"Urban area"},{"ns":0,"title":"Vanity Fair
+        (magazine)"},{"ns":0,"title":"Variety Film Reviews"},{"ns":0,"title":"Virginia
+        Brissac"},{"ns":0,"title":"Warner Bros."},{"ns":0,"title":"We Can''t Go Home
+        Again"},{"ns":0,"title":"William Hopper"},{"ns":0,"title":"Wind Across the
+        Everglades"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Nicholas
+        Ray"},{"ns":10,"title":"Template:Unreferenced section"},{"ns":11,"title":"Template
+        talk:Nicholas Ray"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        needing additional references from September 2012"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from August 2012"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from July 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:58 GMT
+recorded_with: VCR 2.9.2

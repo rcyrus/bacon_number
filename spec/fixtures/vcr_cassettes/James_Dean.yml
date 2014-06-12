@@ -1,0 +1,146 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=James%20Dean
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332282471, 983708266, 2597322930
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2490'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:23 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4018 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"18622157":{"pageid":18622157,"ns":0,"title":"James
+        Dean","links":[{"ns":0,"title":"1956 in film"},{"ns":0,"title":"A&E Network"},{"ns":0,"title":"AFI''s
+        100 Years...100 Stars"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Actor"},{"ns":0,"title":"Actors Studio"},{"ns":0,"title":"Ad-lib"},{"ns":0,"title":"American
+        Film Institute"},{"ns":0,"title":"American Masters"},{"ns":0,"title":"Androgyny"},{"ns":0,"title":"Andr\u00e9
+        Gide"},{"ns":0,"title":"Anthony Perkins"},{"ns":0,"title":"Armstrong Circle
+        Theatre"},{"ns":0,"title":"Arthur Kennedy (actor)"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA Award for Best Actor in a Leading Role"},{"ns":0,"title":"Baseball"},{"ns":0,"title":"Basketball"},{"ns":0,"title":"Beat
+        the Clock"},{"ns":0,"title":"Betsy Palmer"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Biographical film"},{"ns":0,"title":"Blackwells
+        Corner, California"},{"ns":0,"title":"Boxing"},{"ns":0,"title":"Brentwood,
+        Los Angeles, California"},{"ns":0,"title":"British Broadcasting Corporation"},{"ns":0,"title":"Broken
+        neck"},{"ns":0,"title":"Bullfighting"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CBS
+        Evening News"},{"ns":0,"title":"CBS Television Workshop"},{"ns":0,"title":"California
+        Polytechnic State University"},{"ns":0,"title":"California State Route 46"},{"ns":0,"title":"Car
+        crash"},{"ns":0,"title":"Car racing"},{"ns":0,"title":"Catch phrase"},{"ns":0,"title":"Cholame,
+        California"},{"ns":0,"title":"Colliers Magazine"},{"ns":0,"title":"Crazy Man,
+        Crazy"},{"ns":0,"title":"Crossroads (1955 TV series)"},{"ns":0,"title":"Cultural
+        icon"},{"ns":0,"title":"Dane DeHaan"},{"ns":0,"title":"Danger (TV series)"},{"ns":0,"title":"David
+        Essex"},{"ns":0,"title":"Dead on arrival"},{"ns":0,"title":"Dean Martin"},{"ns":0,"title":"Death
+        of James Dean"},{"ns":0,"title":"Degrassi: The Next Generation"},{"ns":0,"title":"Dennis
+        Hopper"},{"ns":0,"title":"Driver safety"},{"ns":0,"title":"Eagles (band)"},{"ns":0,"title":"East
+        of Eden (film)"},{"ns":0,"title":"East of Eden (novel)"},{"ns":0,"title":"Elia
+        Kazan"},{"ns":0,"title":"Elizabeth Taylor"},{"ns":0,"title":"Ezra Pound"},{"ns":0,"title":"Fairmount,
+        Indiana"},{"ns":0,"title":"Family Theater"},{"ns":0,"title":"Find a Grave"},{"ns":0,"title":"Fixed
+        Bayonets!"},{"ns":0,"title":"Fonzie"},{"ns":0,"title":"Forbes"},{"ns":0,"title":"Ford
+        Country Squire"},{"ns":0,"title":"Ford Tudor"},{"ns":0,"title":"Franz Kafka"},{"ns":0,"title":"GE
+        True"},{"ns":0,"title":"Game show"},{"ns":0,"title":"Gavin Lambert"},{"ns":0,"title":"Gay"},{"ns":0,"title":"Gay
+        Times"},{"ns":0,"title":"General Electric Theater"},{"ns":0,"title":"George
+        Stevens"},{"ns":0,"title":"Giant (1956 film)"},{"ns":0,"title":"Golden Globe
+        Award"},{"ns":0,"title":"Golden Globe Awards"},{"ns":0,"title":"Good Morning
+        America"},{"ns":0,"title":"Grease (film)"},{"ns":0,"title":"Guy Madison"},{"ns":0,"title":"Hallmark
+        Hall of Fame"},{"ns":0,"title":"Happy Days"},{"ns":0,"title":"Harry Turtledove"},{"ns":0,"title":"Has
+        Anybody Seen My Gal? (film)"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Homeward
+        Bound (Turtledove novel)"},{"ns":0,"title":"Inquest"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jack & Diane"},{"ns":0,"title":"James Dean:
+        The First American Teenager"},{"ns":0,"title":"James Dean (disambiguation)"},{"ns":0,"title":"James
+        Dean (film)"},{"ns":0,"title":"James Dean (song)"},{"ns":0,"title":"James
+        Whitmore"},{"ns":0,"title":"Jeanne Eagels"},{"ns":0,"title":"Jerry Lewis"},{"ns":0,"title":"Jo
+        Van Fleet"},{"ns":0,"title":"Joe Hyams"},{"ns":0,"title":"John Gilmore (writer)"},{"ns":0,"title":"John
+        Howlett"},{"ns":0,"title":"John Mellencamp"},{"ns":0,"title":"John Steinbeck"},{"ns":0,"title":"Julie
+        Harris"},{"ns":0,"title":"Jussi Award"},{"ns":0,"title":"Jussi Awards"},{"ns":0,"title":"Kraft
+        Television Theatre"},{"ns":0,"title":"Lawrence J. Quirk"},{"ns":0,"title":"Lee
+        Strasberg"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Life
+        (magazine)"},{"ns":0,"title":"Liz Sheridan"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Lux
+        Video Theatre"},{"ns":0,"title":"Macbeth"},{"ns":0,"title":"Marion, Indiana"},{"ns":0,"title":"Marjorie
+        Garber"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Method
+        acting"},{"ns":0,"title":"Mike Connolly (columnist)"},{"ns":0,"title":"Mildred
+        Dunnock"},{"ns":0,"title":"Monterey"},{"ns":0,"title":"Montgomery Clift"},{"ns":0,"title":"Morrissey"},{"ns":0,"title":"NBC
+        Nightly News"},{"ns":0,"title":"Natalie Wood"},{"ns":0,"title":"National Diet
+        Library"},{"ns":0,"title":"Nicholas Ray"},{"ns":0,"title":"Nick Adams (actor)"},{"ns":0,"title":"Omnibus
+        (U.S. TV series)"},{"ns":0,"title":"Pacific Time Zone"},{"ns":0,"title":"Paramount
+        Pictures"},{"ns":0,"title":"Pepsi Cola"},{"ns":0,"title":"Pier Angeli"},{"ns":0,"title":"Porsche
+        550 Spyder"},{"ns":0,"title":"Porsche Super Speedster"},{"ns":0,"title":"Pre-law"},{"ns":0,"title":"Public
+        Broadcasting Service"},{"ns":0,"title":"Public speaking"},{"ns":0,"title":"Quaker"},{"ns":0,"title":"Queer
+        as Folk (2000 TV series)"},{"ns":0,"title":"Raymond Massey"},{"ns":0,"title":"Rebel
+        Without a Cause"},{"ns":0,"title":"Religious Society of Friends"},{"ns":0,"title":"Robert
+        Francis (actor)"},{"ns":0,"title":"Robert Montgomery Presents"},{"ns":0,"title":"Rock
+        Hudson"},{"ns":0,"title":"Rock On (song)"},{"ns":0,"title":"Rock and roll"},{"ns":0,"title":"Romeo
+        and Juliet"},{"ns":0,"title":"Ronald Reagan"},{"ns":0,"title":"Sailor Beware
+        (1952 film)"},{"ns":0,"title":"Sal Mineo"},{"ns":0,"title":"Salinas, California"},{"ns":0,"title":"Salinas
+        Valley"},{"ns":0,"title":"Santa Monica, California"},{"ns":0,"title":"Santa
+        Monica College"},{"ns":0,"title":"Saving Private Ryan"},{"ns":0,"title":"Schlitz
+        Playhouse"},{"ns":0,"title":"Sean Cameron"},{"ns":0,"title":"Sexual abuse"},{"ns":0,"title":"Sigma
+        Nu"},{"ns":0,"title":"Speed limit"},{"ns":0,"title":"Speeding"},{"ns":0,"title":"Stephen
+        McHattie"},{"ns":0,"title":"Studio One (CBS series)"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Tab Hunter"},{"ns":0,"title":"Tales
+        of Tomorrow"},{"ns":0,"title":"Teenage angst"},{"ns":0,"title":"Television
+        commercial"},{"ns":0,"title":"The Big Story (1949 TV series)"},{"ns":0,"title":"The
+        Bigelow Theatre"},{"ns":0,"title":"The Campbell Playhouse"},{"ns":0,"title":"The
+        Daily Beast"},{"ns":0,"title":"The Immoralist"},{"ns":0,"title":"The Immoralist
+        (play)"},{"ns":0,"title":"The Metamorphosis"},{"ns":0,"title":"The Philco
+        Television Playhouse"},{"ns":0,"title":"The Scarecrow (play)"},{"ns":0,"title":"The
+        Silver Chalice (film)"},{"ns":0,"title":"The Stu Erwin Show"},{"ns":0,"title":"The
+        United States Steel Hour"},{"ns":0,"title":"The Web (TV series)"},{"ns":0,"title":"Theater"},{"ns":0,"title":"Treasury
+        Men in Action"},{"ns":0,"title":"Triumph TR5 Trophy"},{"ns":0,"title":"Triumph
+        Tiger T110"},{"ns":0,"title":"Trouble Along the Way"},{"ns":0,"title":"Typecasting
+        (acting)"},{"ns":0,"title":"U.S. Route 466"},{"ns":0,"title":"UCLA"},{"ns":0,"title":"United
+        Methodist Church"},{"ns":0,"title":"University of California, Los Angeles"},{"ns":0,"title":"Ursula
+        Andress"},{"ns":0,"title":"Uterine cancer"},{"ns":0,"title":"Variety Obituaries"},{"ns":0,"title":"Vic
+        Damone"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Warner
+        Brothers"},{"ns":0,"title":"Warner Brothers Presents"},{"ns":0,"title":"Wayne
+        Federman"},{"ns":0,"title":"Westinghouse Studio One"},{"ns":0,"title":"William
+        Bast"},{"ns":0,"title":"Women of Trachis"},{"ns":0,"title":"World War II"},{"ns":0,"title":"You
+        Are There (series)"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Refimprove
+        section"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        needing additional references from May 2012"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from June 2014"},{"ns":14,"title":"Category:Use
+        mdy dates from September 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:24 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=The%20Big%20Picture%20(1989%20film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87327468, 983736137, 2597369749
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '683'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:14 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4018 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"2387940":{"pageid":2387940,"ns":0,"title":"The
+        Big Picture (1989 film)","links":[{"ns":0,"title":"A Mighty Wind"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Almost
+        Heroes"},{"ns":0,"title":"Attack of the 50 Ft. Woman (1993 film)"},{"ns":0,"title":"Best
+        in Show (film)"},{"ns":0,"title":"Christopher Guest"},{"ns":0,"title":"Columbia
+        Pictures"},{"ns":0,"title":"Comedy film"},{"ns":0,"title":"Dan Schneider (TV
+        producer)"},{"ns":0,"title":"David Puttnam"},{"ns":0,"title":"Don Franklin"},{"ns":0,"title":"Eddie
+        Albert"},{"ns":0,"title":"Elliott Gould"},{"ns":0,"title":"Emily Longstreth"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Family Tree (TV series)"},{"ns":0,"title":"For Your
+        Consideration (film)"},{"ns":0,"title":"Fran Drescher"},{"ns":0,"title":"Gary
+        Kroeger"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"J.T.
+        Walsh"},{"ns":0,"title":"J. T. Walsh"},{"ns":0,"title":"Jason Gould"},{"ns":0,"title":"Jennifer
+        Jason Leigh"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"June Lockhart"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kim Miyori"},{"ns":0,"title":"Martin Short"},{"ns":0,"title":"Michael
+        McKean"},{"ns":0,"title":"Michael Varhol"},{"ns":0,"title":"Morton & Hayes"},{"ns":0,"title":"Richard
+        Gilbert Abramson"},{"ns":0,"title":"Roddy McDowall"},{"ns":0,"title":"Teri
+        Hatcher"},{"ns":0,"title":"Tinseltown"},{"ns":0,"title":"Tracy Brooks Swope"},{"ns":0,"title":"Waiting
+        for Guffman"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Christopher
+        Guest"},{"ns":10,"title":"Template:Refimprove"},{"ns":11,"title":"Template
+        talk:Christopher Guest"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        needing additional references from October 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:14 GMT
+recorded_with: VCR 2.9.2

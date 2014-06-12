@@ -1,0 +1,135 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Martin%20Clunes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401651242, 3085152920, 2597335653
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2105'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:37 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4010 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"462466":{"pageid":462466,"ns":0,"title":"Martin
+        Clunes","links":[{"ns":0,"title":"A Is for Acid"},{"ns":0,"title":"Abner Pastoll"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec Clunes"},{"ns":0,"title":"All
+        at No 20"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"American Beauty
+        (1999 film)"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Ancestry.co.uk"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Arthur
+        Conan Doyle"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BAFTA
+        Award"},{"ns":0,"title":"BAFTA Awards"},{"ns":0,"title":"BBC"},{"ns":0,"title":"BBC
+        One"},{"ns":0,"title":"BBC Radio 4"},{"ns":0,"title":"Baldi (radio)"},{"ns":0,"title":"Beaminster"},{"ns":0,"title":"Ben
+        Affleck"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bill
+        Paxton"},{"ns":0,"title":"Born Free Foundation"},{"ns":0,"title":"Bournemouth
+        University"},{"ns":0,"title":"British Comedy Awards"},{"ns":0,"title":"British
+        Horse Society"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Chiswick"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christine
+        Baranski"},{"ns":0,"title":"Classicism"},{"ns":0,"title":"Clifton Collins,
+        Jr."},{"ns":0,"title":"Colchester"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Comic
+        Relief"},{"ns":0,"title":"Croydon"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"David Walliams"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Demob"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Desert Island Discs"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Doc
+        Martin"},{"ns":0,"title":"Doctor Who"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Dorset"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Edward Hogg"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"England"},{"ns":0,"title":"Erika
+        Christensen"},{"ns":0,"title":"Frank Zappa"},{"ns":0,"title":"Fungus the Bogeyman"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Gilbert
+        and George"},{"ns":0,"title":"Global Heresy"},{"ns":0,"title":"Goodbye Mr
+        Chips"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"HIV"},{"ns":0,"title":"Hampstead
+        Theatre"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Harry Enfield"},{"ns":0,"title":"Have
+        I Got News For You"},{"ns":0,"title":"Have I Got News for You"},{"ns":0,"title":"Hugo
+        Speer"},{"ns":0,"title":"Hunting Venus"},{"ns":0,"title":"ITV (TV channel)"},{"ns":0,"title":"ITV
+        (TV network)"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Islands
+        of Britain (TV series)"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James
+        Brolin"},{"ns":0,"title":"Jeeves and Wooster"},{"ns":0,"title":"Jim Carter
+        (actor)"},{"ns":0,"title":"John George Haigh"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Julie Graham"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kenya"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kipper the Dog"},{"ns":0,"title":"Lemur"},{"ns":0,"title":"Lesley
+        Sharp"},{"ns":0,"title":"Lion"},{"ns":0,"title":"London"},{"ns":0,"title":"London
+        Academy of Music and Dramatic Art"},{"ns":0,"title":"Lorna Doone"},{"ns":0,"title":"Lorna
+        Doone (2001 film)"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"Lung
+        cancer"},{"ns":0,"title":"Maasai people"},{"ns":0,"title":"Madagascar"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Matt Lucas"},{"ns":0,"title":"Me or the Dog"},{"ns":0,"title":"Men
+        Behaving Badly"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Mercury Theatre,
+        Colchester"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"No Place Like Home (TV series)"},{"ns":0,"title":"Orson
+        Welles"},{"ns":0,"title":"Over Here (TV serial)"},{"ns":0,"title":"Paul Barber
+        (actor)"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Reggie
+        Perrin"},{"ns":0,"title":"Richard Burbage"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Royal International Horse Show"},{"ns":0,"title":"Royal
+        Russell School"},{"ns":0,"title":"Saving Grace (2000 film)"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Awards"},{"ns":0,"title":"Secret Life of (2013 TV programme)"},{"ns":0,"title":"Serial
+        killer"},{"ns":0,"title":"Seven Network"},{"ns":0,"title":"Shakespeare in
+        Love"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Simon Nye"},{"ns":0,"title":"Situation
+        comedy"},{"ns":0,"title":"Snakedance"},{"ns":0,"title":"Stephen Fry"},{"ns":0,"title":"Steve
+        Huison"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Strike Back: Shadow
+        Warfare"},{"ns":0,"title":"Surrey"},{"ns":0,"title":"Survival International"},{"ns":0,"title":"Sweet
+        Revenge (1998 film)"},{"ns":0,"title":"Television producer"},{"ns":0,"title":"Terrence
+        Higgins Trust"},{"ns":0,"title":"The Acid House (film)"},{"ns":0,"title":"The
+        Arts Educational Schools"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The
+        Booze Cruise"},{"ns":0,"title":"The Fall and Rise of Reginald Perrin"},{"ns":0,"title":"The
+        Full Monty"},{"ns":0,"title":"The Man Who Lost His Head"},{"ns":0,"title":"The
+        Russia House (film)"},{"ns":0,"title":"The Sunday Star-Times"},{"ns":0,"title":"The
+        Town (2012 TV series)"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Topher
+        Grace"},{"ns":0,"title":"Traffic (2000 film)"},{"ns":0,"title":"UK"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Voice over"},{"ns":0,"title":"Wes
+        Bentley"},{"ns":0,"title":"William Snape"},{"ns":0,"title":"William and Mary
+        (TV series)"},{"ns":0,"title":"Wimbledon, London"},{"ns":0,"title":"YouTube"},{"ns":0,"title":"You
+        Are What You Is"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Please
+        clarify"},{"ns":6,"title":"File:Martin Clunes BBC Radio4 Desert Island Discs
+        18 Sept 2011 b014m6rc.flac"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":14,"title":"Category:Articles with dead external links
+        from November 2012"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from July 2012"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from November 2011"},{"ns":14,"title":"Category:Wikipedia articles needing
+        clarification from July 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:38 GMT
+recorded_with: VCR 2.9.2

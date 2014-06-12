@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Internet%20Broadway%20Database
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87236675, 3085143254, 2899112652
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '302'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:20 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4010 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1037348":{"pageid":1037348,"ns":0,"title":"Internet
+        Broadway Database","links":[{"ns":0,"title":"Alexa Internet"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Database"},{"ns":0,"title":"English language"},{"ns":0,"title":"Internet
+        Book Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Internet
+        Theatre Database"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"North
+        America"},{"ns":0,"title":"The Broadway League"},{"ns":0,"title":"Theater"},{"ns":0,"title":"Theatre"},{"ns":0,"title":"Trade
+        association"},{"ns":0,"title":"Uniform resource locator"},{"ns":14,"title":"Category:Articles
+        containing potentially dated statements from April 2014"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:21 GMT
+recorded_with: VCR 2.9.2

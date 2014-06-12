@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Edmund%20Bacon%20(architect)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704636331, 983698730, 3142887609
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1426'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:06 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4018 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"2499291":{"pageid":2499291,"ns":0,"title":"Edmund
+        Bacon (architect)","links":[{"ns":0,"title":"American Institute of Planners"},{"ns":0,"title":"Architect"},{"ns":0,"title":"Architecture"},{"ns":0,"title":"Author"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Baron Georges-Eug\u00e8ne Haussmann"},{"ns":0,"title":"Benjamin
+        Franklin Parkway"},{"ns":0,"title":"Bernard Samuel"},{"ns":0,"title":"Better
+        Philadelphia Exhibition"},{"ns":0,"title":"Bohemian"},{"ns":0,"title":"Boston"},{"ns":0,"title":"Buckminster
+        Fuller"},{"ns":0,"title":"Center City, Philadelphia"},{"ns":0,"title":"Center
+        City Commuter Connection"},{"ns":0,"title":"Center City Philadelphia"},{"ns":0,"title":"Cornell
+        University"},{"ns":0,"title":"Cranbrook Academy of Art"},{"ns":0,"title":"Democratic
+        Party (United States)"},{"ns":0,"title":"Design of Cities"},{"ns":0,"title":"Educator"},{"ns":0,"title":"Edward
+        Logue"},{"ns":0,"title":"Eliel Saarinen"},{"ns":0,"title":"Finland"},{"ns":0,"title":"Flint
+        Sit-Down Strike"},{"ns":0,"title":"Gentlemen''s Agreement"},{"ns":0,"title":"I-695
+        (PA)"},{"ns":0,"title":"Independence Mall (Philadelphia)"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Interstate
+        676"},{"ns":0,"title":"Interstate 76 (east)"},{"ns":0,"title":"Interstate
+        95 in Pennsylvania"},{"ns":0,"title":"James Hugh Joseph Tate"},{"ns":0,"title":"James
+        Rouse"},{"ns":0,"title":"John Nash (architect)"},{"ns":0,"title":"Joseph Sill
+        Clark"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Konstantinos Apostolos
+        Doxiadis"},{"ns":0,"title":"LIFE"},{"ns":0,"title":"LOVE Park"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Life Magazine"},{"ns":0,"title":"Louis
+        Kahn"},{"ns":0,"title":"Lyndon B. Johnson"},{"ns":0,"title":"MOVE"},{"ns":0,"title":"Market
+        East, Philadelphia, Pennsylvania"},{"ns":0,"title":"Married and maiden names"},{"ns":0,"title":"Mayor"},{"ns":0,"title":"Michael
+        Bacon (musician)"},{"ns":0,"title":"My Architect"},{"ns":0,"title":"National
+        Academy of Design"},{"ns":0,"title":"New York"},{"ns":0,"title":"Northeast
+        Philadelphia"},{"ns":0,"title":"One Liberty Place"},{"ns":0,"title":"Oskar
+        Stonorov"},{"ns":0,"title":"Pacific"},{"ns":0,"title":"Penn''s Landing"},{"ns":0,"title":"Penn
+        Center"},{"ns":0,"title":"Pennsylvania"},{"ns":0,"title":"Pennsylvania Historical
+        and Museum Commission"},{"ns":0,"title":"Peoples Republic of China"},{"ns":0,"title":"Philadelphia"},{"ns":0,"title":"Philadelphia
+        Award"},{"ns":0,"title":"Philadelphia City Hall"},{"ns":0,"title":"Philadelphia
+        City Planning Commission"},{"ns":0,"title":"Philadelphia Police Department"},{"ns":0,"title":"R.
+        Damon Childs"},{"ns":0,"title":"Richardson Dilworth"},{"ns":0,"title":"Robert
+        Mitchell"},{"ns":0,"title":"Robert Moses"},{"ns":0,"title":"Schuylkill Expressway"},{"ns":0,"title":"Shanghai"},{"ns":0,"title":"Sixtus
+        V"},{"ns":0,"title":"Society Hill, Philadelphia, Pennsylvania"},{"ns":0,"title":"South
+        Street (Philadelphia)"},{"ns":0,"title":"Steen Eiler Rasmussen"},{"ns":0,"title":"Swarthmore
+        High School"},{"ns":0,"title":"Syst\u00e8me universitaire de documentation"},{"ns":0,"title":"TIME"},{"ns":0,"title":"The
+        Ed Bacon Foundation"},{"ns":0,"title":"The Franklin Institute Awards"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"Time Magazine"},{"ns":0,"title":"USS Shoshone
+        (AKA-65)"},{"ns":0,"title":"Unintended consequence"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"United States Navy"},{"ns":0,"title":"United States
+        Senate"},{"ns":0,"title":"University of Illinois at Urbana-Champaign"},{"ns":0,"title":"University
+        of Pennsylvania"},{"ns":0,"title":"Urban planner"},{"ns":0,"title":"Urban
+        renewal"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"W.
+        Wilson Goode"},{"ns":0,"title":"White House"},{"ns":0,"title":"Willard Rouse"},{"ns":0,"title":"William
+        Penn"},{"ns":0,"title":"Works Progress Administration"},{"ns":0,"title":"World
+        War II"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":6,"title":"File:2010-11-08
+        15th and JFK Phila PA USA.png"},{"ns":10,"title":"Template:Refimprove"},{"ns":10,"title":"Template:Unreferenced"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from April 2014"},{"ns":14,"title":"Category:Articles needing additional
+        references from September 2009"},{"ns":100,"title":"Portal:Philadelphia"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:07 GMT
+recorded_with: VCR 2.9.2

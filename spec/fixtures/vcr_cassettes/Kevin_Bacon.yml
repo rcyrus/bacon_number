@@ -1,0 +1,191 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Kevin%20Bacon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332217654, 3536720608, 2899069831
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3257'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:38 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4008 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"16827":{"pageid":16827,"ns":0,"title":"Kevin Bacon","links":[{"ns":0,"title":"2004
+        in film"},{"ns":0,"title":"8 (play)"},{"ns":0,"title":"A Few Good Men"},{"ns":0,"title":"A
+        Few Good Men (film)"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Access
+        Hollywood"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"American
+        Beauty (1999 film)"},{"ns":0,"title":"American Foundation for Equal Rights"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Animal House"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Anthony
+        Andrews"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Atom
+        Egoyan"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Bacon number"},{"ns":0,"title":"Barack
+        Obama"},{"ns":0,"title":"Barry Levinson"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Beauty
+        Shop"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben Browder"},{"ns":0,"title":"Ben
+        Kingsley"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bernard
+        Madoff"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Big
+        screen"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Blockbuster
+        (entertainment)"},{"ns":0,"title":"Boston Society of Film Critics Award for
+        Best Cast"},{"ns":0,"title":"Boston Society of Film Critics Awards"},{"ns":0,"title":"Brian
+        Dennehy"},{"ns":0,"title":"Broadcast Film Critics Association Award for Best
+        Actor"},{"ns":0,"title":"Broadcast Film Critics Association Awards"},{"ns":0,"title":"Bruce
+        Jones (actor)"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"Bucknell
+        University"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Charles
+        J. Cooper"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christopher
+        Reeve"},{"ns":0,"title":"Circle in the Square"},{"ns":0,"title":"Clifton Collins,
+        Jr."},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Cosmopolitan (magazine)"},{"ns":0,"title":"D.
+        W. Moffett"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Daniel
+        Stern (actor)"},{"ns":0,"title":"David Boreanaz"},{"ns":0,"title":"David Koepp"},{"ns":0,"title":"Death
+        Sentence (2007 film)"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Desert Storm"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Digging
+        to China"},{"ns":0,"title":"Diner (film)"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Dustin Lance Black"},{"ns":0,"title":"EE (telecommunications
+        company)"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Edmund Bacon (architect)"},{"ns":0,"title":"Edward
+        James Olmos"},{"ns":0,"title":"Elizabeth Perkins"},{"ns":0,"title":"Ellen
+        Barkin"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Erd\u0151s number"},{"ns":0,"title":"Erd\u0151s\u2013Bacon
+        number"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Flatliners"},{"ns":0,"title":"Flux"},{"ns":0,"title":"Footloose
+        (1984 film)"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Forty Deuce"},{"ns":0,"title":"Fox
+        Broadcasting Company"},{"ns":0,"title":"Fraternities and sororities"},{"ns":0,"title":"Friday
+        the 13th (1980 film)"},{"ns":0,"title":"Frost/Nixon (film)"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden Globe
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Awards"},{"ns":0,"title":"Guiding Light"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"HBO
+        Films"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"He Said, She Said"},{"ns":0,"title":"Henry
+        Louis Gates"},{"ns":0,"title":"Hollow Man"},{"ns":0,"title":"Hollywood Walk
+        of Fame"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Idris
+        Elba"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Integrated Authority
+        File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"It''s
+        a New Day (song)"},{"ns":0,"title":"JFK (film)"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack
+        Nicholson"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James
+        Dean"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jeremy
+        Irons"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Joel
+        Schumacher"},{"ns":0,"title":"John Hughes (filmmaker)"},{"ns":0,"title":"Jonathan
+        Rhys Meyers"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Josh Holloway"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Judy Garland"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kevin
+        Bacon (disambiguation)"},{"ns":0,"title":"Kevin Bacon filmography"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kyle
+        Chandler"},{"ns":0,"title":"Kyra Sedgwick"},{"ns":0,"title":"Lanford Wilson"},{"ns":0,"title":"Lemon
+        Sky"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Losing
+        Chase"},{"ns":0,"title":"Loverboy (2005 film)"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"MPAA"},{"ns":0,"title":"MPAA
+        film rating system"},{"ns":0,"title":"MTV Movie Award for Best Villain"},{"ns":0,"title":"MTV
+        Movie Awards"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Matthew
+        Fox"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Matthew Vaughn"},{"ns":0,"title":"Meme"},{"ns":0,"title":"Mena
+        Suvari"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Michael Bacon (musician)"},{"ns":0,"title":"Michael
+        C. Hall"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Greif"},{"ns":0,"title":"Michael Strobl"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Murder in the First
+        (film)"},{"ns":0,"title":"Music album"},{"ns":0,"title":"Mystic River (film)"},{"ns":0,"title":"M\u00e9nage
+        \u00e0 trois"},{"ns":0,"title":"Nancy Mills"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"New
+        York"},{"ns":0,"title":"Obie Award"},{"ns":0,"title":"Oliver Stone"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Paul
+        Barber (actor)"},{"ns":0,"title":"Paul Erd\u0151s"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul Verhoeven"},{"ns":0,"title":"Payola"},{"ns":0,"title":"Pedophile"},{"ns":0,"title":"Pennsylvania"},{"ns":0,"title":"Pennsylvania
+        Governor''s School for the Arts"},{"ns":0,"title":"People''s Choice Awards"},{"ns":0,"title":"People
+        (American magazine)"},{"ns":0,"title":"Perry v. Brown"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Philadelphia"},{"ns":0,"title":"Philadelphia,
+        Pennsylvania"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Phoenix
+        Theater"},{"ns":0,"title":"Picture Perfect (1997 film)"},{"ns":0,"title":"Ponzi
+        scheme"},{"ns":0,"title":"Primetime Emmy Award"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Awards"},{"ns":0,"title":"Proposition 8"},{"ns":0,"title":"Pyrates"},{"ns":0,"title":"Rachel
+        Blanchard"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Rebel
+        Without a Cause"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard
+        Dean Anderson"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Robert Patrick"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Russell
+        Crowe"},{"ns":0,"title":"San Diego Comic-Con International"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Satellite
+        Awards"},{"ns":0,"title":"Saturn Award for Best Actor on Television"},{"ns":0,"title":"Saturn
+        Awards"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors Guild Award
+        for Outstanding Performance by a Male Actor in a Miniseries or Television
+        Movie"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Male Actor in a Supporting Role"},{"ns":0,"title":"Screen Actors Guild
+        Awards"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"Search for Tomorrow"},{"ns":0,"title":"Sebastian
+        Shaw (comics)"},{"ns":0,"title":"Second Stage Theatre"},{"ns":0,"title":"Shakespeare
+        in Love"},{"ns":0,"title":"She''s Having a Baby"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"SixDegrees.org"},{"ns":0,"title":"Six
+        Degrees of Kevin Bacon"},{"ns":0,"title":"Six degrees of separation"},{"ns":0,"title":"Slab
+        Boys"},{"ns":0,"title":"Sleepers (film)"},{"ns":0,"title":"Sosie Bacon"},{"ns":0,"title":"Stacy
+        Keach"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Stephen Moyer"},{"ns":0,"title":"Steve
+        Guttenberg"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Steven
+        Weber (actor)"},{"ns":0,"title":"Stir of Echoes"},{"ns":0,"title":"Taking
+        Chance"},{"ns":0,"title":"Ted Danson"},{"ns":0,"title":"Teen Choice Awards"},{"ns":0,"title":"Telling
+        Lies in America (film)"},{"ns":0,"title":"The Austin Chronicle"},{"ns":0,"title":"The
+        Bacon Brothers"},{"ns":0,"title":"The Big Picture (1989 film)"},{"ns":0,"title":"The
+        Birdcage"},{"ns":0,"title":"The Following"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The
+        Guardian"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The River
+        Wild"},{"ns":0,"title":"The Times"},{"ns":0,"title":"The Woodsman"},{"ns":0,"title":"Thora
+        Birch"},{"ns":0,"title":"Tim Daly"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Traffic
+        (2000 film)"},{"ns":0,"title":"Trapped (2002 film)"},{"ns":0,"title":"Tremors
+        (film)"},{"ns":0,"title":"Trivia"},{"ns":0,"title":"Typecasting (acting)"},{"ns":0,"title":"Upper
+        West Side"},{"ns":0,"title":"Val Kilmer"},{"ns":0,"title":"Ving Rhames"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"Where
+        the Truth Lies"},{"ns":0,"title":"Wild Things"},{"ns":0,"title":"Will.i.am"},{"ns":0,"title":"William
+        H. Macy"},{"ns":0,"title":"William Snape"},{"ns":0,"title":"Wilshire Ebell
+        Theatre"},{"ns":0,"title":"WorldCat"},{"ns":0,"title":"X-Men: First Class"},{"ns":0,"title":"YouTube"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Protection
+        policy"},{"ns":10,"title":"Template:Broadcast Film Critics Association Award
+        for Best Actor"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:Saturn
+        Award for Best Actor on Television"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":10,"title":"Template:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":11,"title":"Template
+        talk:Broadcast Film Critics Association Award for Best Actor"},{"ns":11,"title":"Template
+        talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template talk:Saturn
+        Award for Best Actor on Television"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward
+        CastMotionPicture 1995\u20132000"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward
+        MaleTVMiniseriesMovie"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from April 2014"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from January 2008"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from January 2010"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from July 2011"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from October 2009"},{"ns":14,"title":"Category:Use mdy dates from
+        June 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:39 GMT
+recorded_with: VCR 2.9.2

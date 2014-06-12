@@ -1,0 +1,286 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Russell%20Crowe
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001184910, 2340351948, 1613093529
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4144'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:00 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"25695|0|Michael_Douglas"}},"query":{"pages":{"25695":{"pageid":25695,"ns":0,"title":"Russell
+        Crowe","links":[{"ns":0,"title":"10th Empire Awards"},{"ns":0,"title":"11th
+        Empire Awards"},{"ns":0,"title":"12th Empire Awards"},{"ns":0,"title":"13th
+        Empire Awards"},{"ns":0,"title":"14th Empire Awards"},{"ns":0,"title":"15th
+        Empire Awards"},{"ns":0,"title":"16th Empire Awards"},{"ns":0,"title":"17th
+        Empire Awards"},{"ns":0,"title":"18th Empire Awards"},{"ns":0,"title":"1908
+        NSWRFL season"},{"ns":0,"title":"1908 South Sydney Rabbitohs season"},{"ns":0,"title":"1909
+        NSWRFL season"},{"ns":0,"title":"1909 South Sydney Rabbitohs season"},{"ns":0,"title":"1910
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1911 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1912 South Sydney Rabbitohs season"},{"ns":0,"title":"1913
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1914 NSWRFL season"},{"ns":0,"title":"1914
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1915 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1916 South Sydney Rabbitohs season"},{"ns":0,"title":"1917
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1918 NSWRFL season"},{"ns":0,"title":"1918
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1919 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1920 South Sydney Rabbitohs season"},{"ns":0,"title":"1921
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1922 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1923 South Sydney Rabbitohs season"},{"ns":0,"title":"1924
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1925 NSWRFL season"},{"ns":0,"title":"1925
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1926 NSWRFL season"},{"ns":0,"title":"1926
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1927 NSWRFL season"},{"ns":0,"title":"1927
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1928 NSWRFL season"},{"ns":0,"title":"1928
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1929 NSWRFL season"},{"ns":0,"title":"1929
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1930 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1931 NSWRFL season"},{"ns":0,"title":"1931 South
+        Sydney Rabbitohs season"},{"ns":0,"title":"1932 NSWRFL season"},{"ns":0,"title":"1932
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1933 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1934 South Sydney Rabbitohs season"},{"ns":0,"title":"1935
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1936 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1937 South Sydney Rabbitohs season"},{"ns":0,"title":"1938
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1939 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1940 South Sydney Rabbitohs season"},{"ns":0,"title":"1941
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1942 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1943 South Sydney Rabbitohs season"},{"ns":0,"title":"1944
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1945 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1946 South Sydney Rabbitohs season"},{"ns":0,"title":"1947
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1948 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1949 South Sydney Rabbitohs season"},{"ns":0,"title":"1950
+        NSWRFL season"},{"ns":0,"title":"1950 South Sydney Rabbitohs season"},{"ns":0,"title":"1951
+        NSWRFL season"},{"ns":0,"title":"1951 South Sydney Rabbitohs season"},{"ns":0,"title":"1952
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1953 NSWRFL season"},{"ns":0,"title":"1953
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1954 NSWRFL season"},{"ns":0,"title":"1954
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1955 NSWRFL season"},{"ns":0,"title":"1955
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1956 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1957 South Sydney Rabbitohs season"},{"ns":0,"title":"1958
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1959 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1960 South Sydney Rabbitohs season"},{"ns":0,"title":"1961
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1962 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1963 South Sydney Rabbitohs season"},{"ns":0,"title":"1964
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1965 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1966 South Sydney Rabbitohs season"},{"ns":0,"title":"1967
+        NSWRFL season"},{"ns":0,"title":"1967 South Sydney Rabbitohs season"},{"ns":0,"title":"1968
+        NSWRFL season"},{"ns":0,"title":"1968 South Sydney Rabbitohs season"},{"ns":0,"title":"1969
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1970 NSWRFL season"},{"ns":0,"title":"1970
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1971 NSWRFL season"},{"ns":0,"title":"1971
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1972 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1973 South Sydney Rabbitohs season"},{"ns":0,"title":"1974
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1975 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1976 South Sydney Rabbitohs season"},{"ns":0,"title":"1977
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1978 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1979 South Sydney Rabbitohs season"},{"ns":0,"title":"1980
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1981 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1982 South Sydney Rabbitohs season"},{"ns":0,"title":"1983
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1984 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1985 South Sydney Rabbitohs season"},{"ns":0,"title":"1986
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1987 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1988 South Sydney Rabbitohs season"},{"ns":0,"title":"1989
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1990 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1991 South Sydney Rabbitohs season"},{"ns":0,"title":"1992
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1993 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1994 South Sydney Rabbitohs season"},{"ns":0,"title":"1995
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1996 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"1997 South Sydney Rabbitohs season"},{"ns":0,"title":"1998
+        South Sydney Rabbitohs season"},{"ns":0,"title":"1999 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"19th Empire Awards"},{"ns":0,"title":"1st Empire
+        Awards"},{"ns":0,"title":"2002 South Sydney Rabbitohs season"},{"ns":0,"title":"2003
+        South Sydney Rabbitohs season"},{"ns":0,"title":"2004 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"2005 South Sydney Rabbitohs season"},{"ns":0,"title":"2006
+        Michigan Wolverines football team"},{"ns":0,"title":"2006 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"2007 Michigan Wolverines football team"},{"ns":0,"title":"2007
+        Notre Dame Fighting Irish football team"},{"ns":0,"title":"2007 South Sydney
+        Rabbitohs season"},{"ns":0,"title":"2007 Super League Grand Final"},{"ns":0,"title":"2008
+        South Sydney Rabbitohs season"},{"ns":0,"title":"2009 Ashes series"},{"ns":0,"title":"2009
+        NRL season"},{"ns":0,"title":"2009 South Sydney Rabbitohs season"},{"ns":0,"title":"2010
+        South Sydney Rabbitohs season"},{"ns":0,"title":"2011 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"2011 State of Origin series"},{"ns":0,"title":"2012
+        South Sydney Rabbitohs season"},{"ns":0,"title":"2013 Dally M Awards"},{"ns":0,"title":"2013
+        South Sydney Rabbitohs season"},{"ns":0,"title":"2014 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"2015 South Sydney Rabbitohs season"},{"ns":0,"title":"2016
+        South Sydney Rabbitohs season"},{"ns":0,"title":"2017 South Sydney Rabbitohs
+        season"},{"ns":0,"title":"2018 South Sydney Rabbitohs season"},{"ns":0,"title":"2019
+        South Sydney Rabbitohs season"},{"ns":0,"title":"2nd Empire Awards"},{"ns":0,"title":"30
+        Odd Foot of Grunts"},{"ns":0,"title":"3:10 to Yuma (2007 film)"},{"ns":0,"title":"3rd
+        Empire Awards"},{"ns":0,"title":"4th Empire Awards"},{"ns":0,"title":"5th
+        Empire Awards"},{"ns":0,"title":"6th Empire Awards"},{"ns":0,"title":"7th
+        Empire Awards"},{"ns":0,"title":"8th Empire Awards"},{"ns":0,"title":"9th
+        Empire Awards"},{"ns":0,"title":"AACTA Award for Best Actor in a Leading Role"},{"ns":0,"title":"AACTA
+        Award for Best Actor in a Supporting Role"},{"ns":0,"title":"ANZ Stadium"},{"ns":0,"title":"A
+        Beautiful Mind (film)"},{"ns":0,"title":"A Good Year"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Award for Best Actor"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Adrien Brody"},{"ns":0,"title":"Ahna O''Reilly"},{"ns":0,"title":"Al-Qaeda"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Doyle"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec
+        Baldwin"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alexander Knox"},{"ns":0,"title":"All
+        Blacks"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Alwyn Kurts"},{"ns":0,"title":"Amanda
+        Seyfried"},{"ns":0,"title":"Amco Cup"},{"ns":0,"title":"American Gangster
+        (film)"},{"ns":0,"title":"American football"},{"ns":0,"title":"Amy Ryan"},{"ns":0,"title":"Andrew
+        S. Gilbert"},{"ns":0,"title":"Ann Arbor, Michigan"},{"ns":0,"title":"Anna
+        Camp"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Anthony Anderson"},{"ns":0,"title":"Anthony
+        Franciosa"},{"ns":0,"title":"Anthony Hayes (actor)"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Anthony LaPaglia"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"Antony
+        Starr"},{"ns":0,"title":"Armin Mueller-Stahl"},{"ns":0,"title":"Arraignment"},{"ns":0,"title":"Art
+        Carney"},{"ns":0,"title":"Arthur Hennessy"},{"ns":0,"title":"Associated Press"},{"ns":0,"title":"Auckland"},{"ns":0,"title":"Auckland
+        Grammar School"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Australia Day"},{"ns":0,"title":"Australian
+        Associated Press"},{"ns":0,"title":"Australian Broadcasting Corporation"},{"ns":0,"title":"Australian
+        Film Institute Awards"},{"ns":0,"title":"Australian Labor Party leadership
+        spill, June 2013"},{"ns":0,"title":"Australian Rugby League"},{"ns":0,"title":"Australian
+        federal election, 2013"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Avondale
+        College"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BAFTA Award for Best Actor
+        in a Leading Role"},{"ns":0,"title":"Bad Boy Johnny and the Prophets of Doom"},{"ns":0,"title":"Barack
+        Obama"},{"ns":0,"title":"Barry Humphries"},{"ns":0,"title":"Barry Otto"},{"ns":0,"title":"Before
+        the Devil Knows You''re Dead"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Ben
+        Mendelsohn"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benny Wearing"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Hunter (actor)"},{"ns":0,"title":"Bill
+        Murray"},{"ns":0,"title":"Billy Bob Thornton"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Black
+        Caps"},{"ns":0,"title":"Blood Oath (movie)"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bob
+        McCarthy"},{"ns":0,"title":"Bob Odenkirk"},{"ns":0,"title":"Body of Lies (film)"},{"ns":0,"title":"Book
+        of Feuds"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Breitbart.com"},{"ns":0,"title":"Brendan
+        Fraser"},{"ns":0,"title":"Brian Kerwin"},{"ns":0,"title":"Brisbane Broncos"},{"ns":0,"title":"Bristol
+        City"},{"ns":0,"title":"British Academy of Film and Television Arts"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Actor"},{"ns":0,"title":"Broderick
+        Crawford"},{"ns":0,"title":"Bruce Dern"},{"ns":0,"title":"Bruce Spence"},{"ns":0,"title":"Bruno
+        Ganz"},{"ns":0,"title":"Bryan Brown"},{"ns":0,"title":"Bryce Dallas Howard"},{"ns":0,"title":"Br\u00edan
+        F. O''Byrne"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"Busking"},{"ns":0,"title":"CBS
+        News"},{"ns":0,"title":"Campbell Scott"},{"ns":0,"title":"Canadian Albums
+        Chart"},{"ns":0,"title":"Cate Blanchett"},{"ns":0,"title":"Cengage Learning"},{"ns":0,"title":"Centenary
+        Medal"},{"ns":0,"title":"Centennial Park, New South Wales"},{"ns":0,"title":"Charity
+        Shield (NRL)"},{"ns":0,"title":"Charles Laughton"},{"ns":0,"title":"Charlie
+        Rose"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris
+        Haywood"},{"ns":0,"title":"Chris Lowell"},{"ns":0,"title":"Chris O''Dowd"},{"ns":0,"title":"Christian
+        Bale"},{"ns":0,"title":"Christian theology"},{"ns":0,"title":"Christianity
+        Today"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Cicely Tyson"},{"ns":0,"title":"Cinderella
+        Man"},{"ns":0,"title":"Circumcision"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Clive Churchill"},{"ns":0,"title":"Coffs
+        Harbour"},{"ns":0,"title":"Coffs Harbour, New South Wales"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Colin Friels"},{"ns":0,"title":"Concierge"},{"ns":0,"title":"Cooper
+        Cronk"},{"ns":0,"title":"Crash (2004 film)"},{"ns":0,"title":"CraveOnline"},{"ns":0,"title":"DV
+        (newspaper)"},{"ns":0,"title":"Daily News (New York)"},{"ns":0,"title":"Dally
+        M Medal"},{"ns":0,"title":"Dana Ivey"},{"ns":0,"title":"Daniel Abineri"},{"ns":0,"title":"Daniel
+        Craig"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Daniel Henshall"},{"ns":0,"title":"Danielle
+        Spencer (Australian singer)"},{"ns":0,"title":"David Carradine"},{"ns":0,"title":"David
+        Fa''alogo"},{"ns":0,"title":"David Gulpilil"},{"ns":0,"title":"David Letterman"},{"ns":0,"title":"David
+        Ngoombujarra"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David Oyelowo"},{"ns":0,"title":"David
+        Thewlis"},{"ns":0,"title":"David Wenham"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Devin
+        Ratray"},{"ns":0,"title":"Dirk Bogarde"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Douglas,
+        Queensland"},{"ns":0,"title":"Drew Forsythe"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Eddie
+        Murphy"},{"ns":0,"title":"Eddie Redmayne"},{"ns":0,"title":"Eli Roth"},{"ns":0,"title":"Elijah
+        Wood"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emma Stone"},{"ns":0,"title":"Empire
+        Award for Best Actor"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Equine"},{"ns":0,"title":"Eric
+        Bana"},{"ns":0,"title":"Eric Watson (businessman)"},{"ns":0,"title":"Erik
+        Thomson"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"Ethan Hawke"},{"ns":0,"title":"F.
+        Murray Abraham"},{"ns":0,"title":"Fairfax Media"},{"ns":0,"title":"Federal
+        Bureau of Investigation"},{"ns":0,"title":"Fergie (singer)"},{"ns":0,"title":"Finger
+        Wharf"},{"ns":0,"title":"Firepower International"},{"ns":0,"title":"Folsom
+        Prison Blues"},{"ns":0,"title":"For the Moment (film)"},{"ns":0,"title":"Foreskin"},{"ns":0,"title":"Forest
+        Whitaker"},{"ns":0,"title":"Frank Lovece"},{"ns":0,"title":"Fran\u00e7ois
+        P\u00e9rier"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"Fruit bats"},{"ns":0,"title":"GQ"},{"ns":0,"title":"Gary
+        Busey"},{"ns":0,"title":"Gary Cooper"},{"ns":0,"title":"Gary Oldman"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Geoffrey Wright"},{"ns":0,"title":"George
+        Arliss"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George
+        Piggins"},{"ns":0,"title":"George Piggins Medal"},{"ns":0,"title":"George
+        Treweek"},{"ns":0,"title":"Gladiator (2000 film)"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"Golden Globe Award for Best Actor - Motion Picture
+        Drama"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Motion Picture
+        Drama"},{"ns":0,"title":"Great Big Sea"},{"ns":0,"title":"Greenwood Publishing
+        Group"},{"ns":0,"title":"Greg Inglis"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"G\u00e9rard
+        Depardieu"},{"ns":0,"title":"Haing S. Ngor"},{"ns":0,"title":"Harold Matthews
+        Cup"},{"ns":0,"title":"Harpa (concert hall)"},{"ns":0,"title":"Harvey Keitel"},{"ns":0,"title":"Helena
+        Bonham Carter"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Herald Sun"},{"ns":0,"title":"History
+        of the South Sydney Rabbitohs"},{"ns":0,"title":"Hollywood Walk of Fame"},{"ns":0,"title":"Hugh
+        Grant"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Hugo Weaving"},{"ns":0,"title":"Humphrey
+        Bogart"},{"ns":0,"title":"ITV Local"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Ian
+        Schubert"},{"ns":0,"title":"Indianapolis Colts"},{"ns":0,"title":"Inspector
+        Javert"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Business Times"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jack Rayner"},{"ns":0,"title":"Jack
+        Thompson (actor)"},{"ns":0,"title":"Jacksonville, Florida"},{"ns":0,"title":"Jacksonville
+        Jaguars"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James Cook University"},{"ns":0,"title":"James
+        Mason"},{"ns":0,"title":"James McAvoy"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"Jamie
+        Bell"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Jason
+        Taylor (rugby league)"},{"ns":0,"title":"Javert"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jeff
+        Crowe"},{"ns":0,"title":"Jeffrey Wigand"},{"ns":0,"title":"Jennifer Esposito"},{"ns":0,"title":"Jeremy
+        Irons"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jersey Flegg Cup"},{"ns":0,"title":"Jesse
+        Eisenberg"},{"ns":0,"title":"Jessica Chastain"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Joaquin
+        Phoenix"},{"ns":0,"title":"Joel Edgerton"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"John
+        Ewart"},{"ns":0,"title":"John F. Nash"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Hargreaves (actor)"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John Lynch
+        (actor)"},{"ns":0,"title":"John Meillon"},{"ns":0,"title":"John Polson"},{"ns":0,"title":"John
+        Sattler"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John Waters (actor)"},{"ns":0,"title":"John
+        Wayne"},{"ns":0,"title":"John Williamson (singer)"},{"ns":0,"title":"Johnny
+        Depp"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jor-El"},{"ns":0,"title":"Jos\u00e9
+        Ferrer"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Julia Gillard"},{"ns":0,"title":"June
+        Squibb"},{"ns":0,"title":"Kate Hudson"},{"ns":0,"title":"Keith Olbermann"},{"ns":0,"title":"Kenneth
+        More"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Rudd"},{"ns":0,"title":"Kevin
+        Spacey"},{"ns":0,"title":"Kim Gyngell"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"L.A.
+        Confidential (film)"},{"ns":0,"title":"Larenz Tate"},{"ns":0,"title":"Laurence
+        Olivier"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leeds Rhinos"},{"ns":0,"title":"Leeds
+        United"},{"ns":0,"title":"Leo McKern"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Les
+        Mis\u00e9rables (2012 film)"},{"ns":0,"title":"Leslie Jordan"},{"ns":0,"title":"Liam
+        Neeson"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lionel
+        Barrymore"},{"ns":0,"title":"List of South Sydney Rabbitohs coaches"},{"ns":0,"title":"List
+        of South Sydney Rabbitohs players"},{"ns":0,"title":"List of South Sydney
+        Rabbitohs records"},{"ns":0,"title":"List of South Sydney Rabbitohs representatives"},{"ns":0,"title":"List
+        of South Sydney Rabbitohs results"},{"ns":0,"title":"List of awards and nominations
+        received by Russell Crowe"},{"ns":0,"title":"Lloyd Carr"},{"ns":0,"title":"London
+        Film Critics Circle Award for Actor of the Year"},{"ns":0,"title":"London
+        Film Critics Circle Award for Best Actor"},{"ns":0,"title":"Los Angeles Film
+        Critics Association Award for Best Actor"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"Luke
+        Ford (actor)"},{"ns":0,"title":"Luxbet"},{"ns":0,"title":"Man of Steel (film)"},{"ns":0,"title":"Marcello
+        Mastroianni"},{"ns":0,"title":"Marina Hyde"},{"ns":0,"title":"Marion Cotillard"},{"ns":0,"title":"Marisa
+        Tomei"},{"ns":0,"title":"Mark Carroll (rugby league footballer)"},{"ns":0,"title":"Mark
+        Wahlberg"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin Crowe"},{"ns":0,"title":"Martin
+        Freeman"},{"ns":0,"title":"Martin Sheen"},{"ns":0,"title":"Martin Vaughn"},{"ns":0,"title":"Marton
+        Csokas"},{"ns":0,"title":"Mary Louise Wilson"},{"ns":0,"title":"Mary Steenburgen"},{"ns":0,"title":"Master
+        and Commander: The Far Side of the World"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Max Cullen"},{"ns":0,"title":"Max
+        von Sydow"},{"ns":0,"title":"Maximilian Schell"},{"ns":0,"title":"Meg Ryan"},{"ns":0,"title":"Mel
+        Gibson"},{"ns":0,"title":"Melbourne"},{"ns":0,"title":"Member of the Order
+        of the British Empire"},{"ns":0,"title":"Menningarn\u00f3tt"},{"ns":0,"title":"Mercer
+        Hotel"},{"ns":0,"title":"Michael Caine"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:01 GMT
+recorded_with: VCR 2.9.2

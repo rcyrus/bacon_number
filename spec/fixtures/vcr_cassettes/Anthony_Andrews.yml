@@ -1,0 +1,179 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Anthony%20Andrews
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287068503, 1409500707, 2899076411
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3341'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:44 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4009 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1898971":{"pageid":1898971,"ns":0,"title":"Anthony
+        Andrews","links":[{"ns":0,"title":"A.D. (miniseries)"},{"ns":0,"title":"Abigail
+        Breslin"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan
+        Badel"},{"ns":0,"title":"Alan Bates"},{"ns":0,"title":"Alan Bennett"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alice''s
+        Adventures in Wonderland"},{"ns":0,"title":"Allan Warren"},{"ns":0,"title":"American
+        Playhouse"},{"ns":0,"title":"Andrew Garfield"},{"ns":0,"title":"Andrew Lloyd
+        Webber"},{"ns":0,"title":"Andy Serkis"},{"ns":0,"title":"Anil Kapoor"},{"ns":0,"title":"Anne,
+        Princess Royal"},{"ns":0,"title":"Anthony Andrews (High Sheriff of Rutland)"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Antony Andrewes"},{"ns":0,"title":"Ashutosh Lobo
+        Gajiwala"},{"ns":0,"title":"August Diehl"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Ayush
+        Mahesh Khedekar"},{"ns":0,"title":"Azharuddin Mohammed Ismail"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BBC
+        Radio 2"},{"ns":0,"title":"BBC Television Shakespeare"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Ben Whishaw"},{"ns":0,"title":"Bernard Hill"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Billy
+        Boyd (actor)"},{"ns":0,"title":"Birdsong (TV serial)"},{"ns":0,"title":"Bob
+        Balaban"},{"ns":0,"title":"Bob Peck"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Brendan
+        Fraser"},{"ns":0,"title":"Brian Clemens"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Brideshead
+        Revisited (TV serial)"},{"ns":0,"title":"British Academy Television Award
+        for Best Actor"},{"ns":0,"title":"British public school"},{"ns":0,"title":"Cambridge
+        Spies"},{"ns":0,"title":"Cameron Mackintosh"},{"ns":0,"title":"Cate Blanchett"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Charles Dance"},{"ns":0,"title":"Chicago (2002
+        film)"},{"ns":0,"title":"Chichester Festival Theatre"},{"ns":0,"title":"Christine
+        Baranski"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Clive Owen"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Colm Feore"},{"ns":0,"title":"Crash (2004 film)"},{"ns":0,"title":"Danger
+        UXB"},{"ns":0,"title":"Daniel Br\u00fchl"},{"ns":0,"title":"Daniel Rigby"},{"ns":0,"title":"David
+        Copperfield (1974 TV serial)"},{"ns":0,"title":"David Copperfield (2000 film)"},{"ns":0,"title":"David
+        Jason"},{"ns":0,"title":"David Wenham"},{"ns":0,"title":"Denholm Elliott"},{"ns":0,"title":"Denis
+        Menochet"},{"ns":0,"title":"Denise Faye"},{"ns":0,"title":"Derek Jacobi"},{"ns":0,"title":"Dev
+        Patel"},{"ns":0,"title":"Diane Kruger"},{"ns":0,"title":"Dixon of Dock Green"},{"ns":0,"title":"Dominic
+        Monaghan"},{"ns":0,"title":"Dominic West"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Donald
+        Pleasence"},{"ns":0,"title":"Doomwatch"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Edward
+        Fox (actor)"},{"ns":0,"title":"Edward Woodward"},{"ns":0,"title":"Eileen Atkins"},{"ns":0,"title":"Ekaterina
+        Chtchelkanova"},{"ns":0,"title":"Eli Roth"},{"ns":0,"title":"Elijah Wood"},{"ns":0,"title":"Emily
+        Watson"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Eric Porter"},{"ns":0,"title":"Finchley"},{"ns":0,"title":"First
+        World War"},{"ns":0,"title":"Follyfoot"},{"ns":0,"title":"Forty Years On (play)"},{"ns":0,"title":"Frank
+        Finlay"},{"ns":0,"title":"Freida Pinto"},{"ns":0,"title":"Garret Dillahunt"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George VI"},{"ns":0,"title":"Geraldine
+        Somerville"},{"ns":0,"title":"Ghosts (play)"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Gosford
+        Park"},{"ns":0,"title":"Greg Kinnear"},{"ns":0,"title":"Guy Pearce"},{"ns":0,"title":"Hands
+        of a Murderer"},{"ns":0,"title":"Hanna''s War"},{"ns":0,"title":"Harry H.
+        Corbett"},{"ns":0,"title":"Haunted (1995 film)"},{"ns":0,"title":"Helen Mirren"},{"ns":0,"title":"Helena
+        Bonham Carter"},{"ns":0,"title":"Hugo Weaving"},{"ns":0,"title":"Hyponatraemia"},{"ns":0,"title":"ITV
+        Network"},{"ns":0,"title":"Ian Holm"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Ian
+        Richardson"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"Inglourious Basterds"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Irrfan Khan"},{"ns":0,"title":"Ivanhoe (1982
+        film)"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jacky Ido"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James Wilby"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jennifer Ehle"},{"ns":0,"title":"Jennifer
+        Esposito"},{"ns":0,"title":"Jeremy Northam"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"John
+        C. Reilly"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John
+        Le Mesurier"},{"ns":0,"title":"John Noble"},{"ns":0,"title":"John Rhys-Davies"},{"ns":0,"title":"John
+        Thaw"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Julie
+        Dreyfus"},{"ns":0,"title":"Karl Urban"},{"ns":0,"title":"Keith Michell"},{"ns":0,"title":"Kelly
+        Macdonald"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kristin Scott Thomas"},{"ns":0,"title":"Larenz
+        Tate"},{"ns":0,"title":"Lee Montague"},{"ns":0,"title":"Les Mis\u00e9rables
+        (musical)"},{"ns":0,"title":"Lewis Carroll"},{"ns":0,"title":"Lewis Collins"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"List of Columbo episodes"},{"ns":0,"title":"Little
+        Miss Sunshine"},{"ns":0,"title":"Liv Tyler"},{"ns":0,"title":"London"},{"ns":0,"title":"Lord
+        Sebastian Flyte"},{"ns":0,"title":"Lost in Siberia"},{"ns":0,"title":"Love
+        in a Cold Climate (TV serial)"},{"ns":0,"title":"Lucy Liu"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"Madhur
+        Mittal"},{"ns":0,"title":"Maggie Smith"},{"ns":0,"title":"Mark Rylance"},{"ns":0,"title":"Marple
+        (ITV TV series)"},{"ns":0,"title":"Martin Shaw"},{"ns":0,"title":"Martin Wuttke"},{"ns":0,"title":"Masterpiece
+        Theatre"},{"ns":0,"title":"Matt Dillon"},{"ns":0,"title":"Mermaid Theatre"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Fassbender"},{"ns":0,"title":"Michael
+        Gambon"},{"ns":0,"title":"Michael Gough"},{"ns":0,"title":"Michael Hordern"},{"ns":0,"title":"Mickey
+        Rooney"},{"ns":0,"title":"Mike Myers"},{"ns":0,"title":"Miranda Otto"},{"ns":0,"title":"Mothertime"},{"ns":0,"title":"My
+        Fair Lady"},{"ns":0,"title":"M\u00e9lanie Laurent"},{"ns":0,"title":"M\u00fda"},{"ns":0,"title":"Narrator"},{"ns":0,"title":"Nero"},{"ns":0,"title":"Nigel
+        Hawthorne"},{"ns":0,"title":"No Country for Old Men (film)"},{"ns":0,"title":"North
+        Finchley"},{"ns":0,"title":"Operation: Daybreak"},{"ns":0,"title":"Orlando
+        Bloom"},{"ns":0,"title":"Patrick McGoohan"},{"ns":0,"title":"Patrick Wymark"},{"ns":0,"title":"Paul
+        Dano"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul Rogers (actor)"},{"ns":0,"title":"Percy''s
+        Progress"},{"ns":0,"title":"Peter Barkworth"},{"ns":0,"title":"Peter Cushing"},{"ns":0,"title":"Play
+        for Today"},{"ns":0,"title":"Play of the Month"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Professor
+        Moriarty"},{"ns":0,"title":"QB VII"},{"ns":0,"title":"Queen Latifah"},{"ns":0,"title":"Randy
+        Quaid"},{"ns":0,"title":"Ray McAnally"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Ren\u00e9e
+        Zellweger"},{"ns":0,"title":"Rhys Ifans"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard
+        E. Grant"},{"ns":0,"title":"Richard Gere"},{"ns":0,"title":"Robbie Coltrane"},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Robert Lindsay (actor)"},{"ns":0,"title":"Rod Taylor"},{"ns":0,"title":"Rosemary
+        & Thyme"},{"ns":0,"title":"Roy Dotrice"},{"ns":0,"title":"Royal National Theatre"},{"ns":0,"title":"Rubina
+        Ali"},{"ns":0,"title":"Rupert Davies"},{"ns":0,"title":"Ryan Phillippe"},{"ns":0,"title":"Sandra
+        Bullock"},{"ns":0,"title":"Sandra Oh"},{"ns":0,"title":"Screen Actors Guild
+        Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Sean
+        Astin"},{"ns":0,"title":"Sean Bean"},{"ns":0,"title":"Sean Harris"},{"ns":0,"title":"Sideways
+        (film)"},{"ns":0,"title":"Simon Russell Beale"},{"ns":0,"title":"Simpsons
+        of Piccadilly"},{"ns":0,"title":"Slumdog Millionaire"},{"ns":0,"title":"Somerset
+        Maugham"},{"ns":0,"title":"Sophie Thompson"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stanley
+        Baldwin"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Stephen Dillane"},{"ns":0,"title":"Stephen
+        Fry"},{"ns":0,"title":"Steve Carell"},{"ns":0,"title":"Susan Misner"},{"ns":0,"title":"Sylvester
+        Groth"},{"ns":0,"title":"Syst\u00e8me universitaire de documentation"},{"ns":0,"title":"Take
+        Me High"},{"ns":0,"title":"Tales from the Crypt (TV series)"},{"ns":0,"title":"Tanay
+        Chheda"},{"ns":0,"title":"Tanvi Ganesh Lonkar"},{"ns":0,"title":"Taye Diggs"},{"ns":0,"title":"Ted
+        Danson"},{"ns":0,"title":"Terrence Howard"},{"ns":0,"title":"Tess Harper"},{"ns":0,"title":"Thandie
+        Newton"},{"ns":0,"title":"The Blitz"},{"ns":0,"title":"The Duchess of Duke
+        Street"},{"ns":0,"title":"The Holcroft Covenant"},{"ns":0,"title":"The King''s
+        Speech"},{"ns":0,"title":"The Lighthorsemen (film)"},{"ns":0,"title":"The
+        Lord of the Rings: The Return of the King"},{"ns":0,"title":"The Love Boat"},{"ns":0,"title":"The
+        Pallisers"},{"ns":0,"title":"The Professionals (TV series)"},{"ns":0,"title":"The
+        Ruth Rendell Mysteries"},{"ns":0,"title":"The Scarlet Pimpernel (1982 film)"},{"ns":0,"title":"The
+        Second Victory"},{"ns":0,"title":"The Wednesday Play"},{"ns":0,"title":"The
+        Woman He Loved"},{"ns":0,"title":"The Woman in White (musical)"},{"ns":0,"title":"Thomas
+        Haden Church"},{"ns":0,"title":"Til Schweiger"},{"ns":0,"title":"Tim Pigott-Smith"},{"ns":0,"title":"Timothy
+        Spall"},{"ns":0,"title":"Tom Courtenay"},{"ns":0,"title":"Tom Hollander"},{"ns":0,"title":"Tommy
+        Lee Jones"},{"ns":0,"title":"Toni Collette"},{"ns":0,"title":"Under the Volcano
+        (film)"},{"ns":0,"title":"University of Southampton"},{"ns":0,"title":"Upstairs,
+        Downstairs (1971 TV series)"},{"ns":0,"title":"Viggo Mortensen"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Virginia Madsen"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"Warren Mitchell"},{"ns":0,"title":"Water
+        intoxication"},{"ns":0,"title":"West End theatre"},{"ns":0,"title":"White
+        Rabbit"},{"ns":0,"title":"William Bodie"},{"ns":0,"title":"William Fichtner"},{"ns":0,"title":"Wings
+        (BBC TV series)"},{"ns":0,"title":"Woody Harrelson"},{"ns":0,"title":"World
+        War II"},{"ns":0,"title":"Wyndham''s Theatre"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:British
+        Academy Television Award for Best Actor"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:British Academy Television
+        Award for Best Actor"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward CastMotionPicture 2001\u20132010"},{"ns":12,"title":"Help:IPA
+        for English"},{"ns":14,"title":"Category:Use dmy dates from June 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:45 GMT
+recorded_with: VCR 2.9.2

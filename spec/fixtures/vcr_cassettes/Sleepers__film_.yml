@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Sleepers%20(film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390702280, 2340357023, 2899157564
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '861'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:08 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4016 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"725103":{"pageid":725103,"ns":0,"title":"Sleepers
+        (film)","links":[{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Alcohol
+        abuse"},{"ns":0,"title":"An Everlasting Piece"},{"ns":0,"title":"Avalon (1990
+        film)"},{"ns":0,"title":"Baltimore Pictures"},{"ns":0,"title":"Bandits (2001
+        film)"},{"ns":0,"title":"Barry Levinson"},{"ns":0,"title":"Billy Crudup"},{"ns":0,"title":"Box
+        Office Mojo"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Brad Renfro"},{"ns":0,"title":"British
+        Board of Film Classification"},{"ns":0,"title":"Bugsy"},{"ns":0,"title":"Child
+        abuse"},{"ns":0,"title":"Diner (film)"},{"ns":0,"title":"Disclosure (film)"},{"ns":0,"title":"District
+        attorney"},{"ns":0,"title":"Drama film"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Envy
+        (2004 film)"},{"ns":0,"title":"Geoffrey Wigdor"},{"ns":0,"title":"Good Morning,
+        Vietnam"},{"ns":0,"title":"Hell''s Kitchen, Manhattan"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jason Patric"},{"ns":0,"title":"Jeffrey
+        Donovan"},{"ns":0,"title":"Jimmy Hollywood"},{"ns":0,"title":"John Slattery"},{"ns":0,"title":"John
+        Williams"},{"ns":0,"title":"Jonathan Tucker"},{"ns":0,"title":"Joseph Perrino"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Legal drama"},{"ns":0,"title":"Liberty Heights"},{"ns":0,"title":"London
+        Film Critics Circle"},{"ns":0,"title":"Lorenzo Carcaterra"},{"ns":0,"title":"Man
+        of the Year (2006 film)"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Michael
+        Ballhaus"},{"ns":0,"title":"Minnie Driver"},{"ns":0,"title":"New York City"},{"ns":0,"title":"New
+        York Knicks"},{"ns":0,"title":"Perjury"},{"ns":0,"title":"Polygram Filmed
+        Entertainment"},{"ns":0,"title":"Propaganda Films"},{"ns":0,"title":"Rain
+        Man"},{"ns":0,"title":"Rape"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Rock
+        the Kasbah (film)"},{"ns":0,"title":"Ron Eldard"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Sleeper (disambiguation)"},{"ns":0,"title":"Sleepers"},{"ns":0,"title":"Social
+        work"},{"ns":0,"title":"Sphere (film)"},{"ns":0,"title":"Steve Golin"},{"ns":0,"title":"Stu
+        Linder"},{"ns":0,"title":"Terry Kinney"},{"ns":0,"title":"The Bay (film)"},{"ns":0,"title":"The
+        Natural (film)"},{"ns":0,"title":"Tin Men"},{"ns":0,"title":"Toys (film)"},{"ns":0,"title":"Upstate
+        New York"},{"ns":0,"title":"Vittorio Gassman"},{"ns":0,"title":"Wag the Dog"},{"ns":0,"title":"Warner
+        Bros."},{"ns":0,"title":"Wendell Pierce"},{"ns":0,"title":"What Just Happened"},{"ns":0,"title":"You
+        Don''t Know Jack (film)"},{"ns":0,"title":"Young Sherlock Holmes"},{"ns":10,"title":"Template:Barry
+        Levinson"},{"ns":11,"title":"Template talk:Barry Levinson"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:09 GMT
+recorded_with: VCR 2.9.2

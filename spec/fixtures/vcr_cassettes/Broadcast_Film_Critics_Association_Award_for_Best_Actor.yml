@@ -1,0 +1,175 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Broadcast%20Film%20Critics%20Association%20Award%20for%20Best%20Actor
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390605794, 1102664494, 2597293956
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2487'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:54 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4017 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"3396197":{"pageid":3396197,"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Actor","links":[{"ns":0,"title":"10th
+        Critics'' Choice Awards"},{"ns":0,"title":"11th Critics'' Choice Awards"},{"ns":0,"title":"127
+        Hours"},{"ns":0,"title":"12 Years a Slave (film)"},{"ns":0,"title":"12th Critics''
+        Choice Awards"},{"ns":0,"title":"13th Critics'' Choice Awards"},{"ns":0,"title":"14th
+        Critics'' Choice Awards"},{"ns":0,"title":"15th Critics'' Choice Awards"},{"ns":0,"title":"16th
+        Critics'' Choice Awards"},{"ns":0,"title":"17th Critics'' Choice Awards"},{"ns":0,"title":"18th
+        Critics'' Choice Awards"},{"ns":0,"title":"19th Critics'' Choice Awards"},{"ns":0,"title":"1st
+        Critics'' Choice Awards"},{"ns":0,"title":"2nd Critics'' Choice Awards"},{"ns":0,"title":"3rd
+        Critics'' Choice Awards"},{"ns":0,"title":"4th Critics'' Choice Awards"},{"ns":0,"title":"5th
+        Critics'' Choice Awards"},{"ns":0,"title":"6th Critics'' Choice Awards"},{"ns":0,"title":"7th
+        Critics'' Choice Awards"},{"ns":0,"title":"8th Critics'' Choice Awards"},{"ns":0,"title":"9th
+        Critics'' Choice Awards"},{"ns":0,"title":"A Beautiful Mind (film)"},{"ns":0,"title":"A
+        Single Man (film)"},{"ns":0,"title":"About Schmidt"},{"ns":0,"title":"Abraham
+        Lincoln"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Actor"},{"ns":0,"title":"Ali (film)"},{"ns":0,"title":"All Is Lost"},{"ns":0,"title":"American
+        Hustle (2013 film)"},{"ns":0,"title":"Aron Ralston"},{"ns":0,"title":"As Good
+        as It Gets"},{"ns":0,"title":"BAFTA Award for Best Actor in a Leading Role"},{"ns":0,"title":"Ben
+        Kingsley"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Billy Beane"},{"ns":0,"title":"Blood
+        Diamond (film)"},{"ns":0,"title":"Blue Valentine (film)"},{"ns":0,"title":"Brad
+        Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Broadcast Film Critics
+        Association"},{"ns":0,"title":"Broadcast Film Critics Association Award for
+        Best Action Film"},{"ns":0,"title":"Broadcast Film Critics Association Award
+        for Best Actor in a Comedy"},{"ns":0,"title":"Broadcast Film Critics Association
+        Award for Best Actor in an Action Movie"},{"ns":0,"title":"Broadcast Film
+        Critics Association Award for Best Actress"},{"ns":0,"title":"Broadcast Film
+        Critics Association Award for Best Actress in a Comedy"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Actress in an Action Movie"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Animated Feature"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Art Direction"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Cast"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Cinematography"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Comedy Film"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Composer"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Costume Design"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Director"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Documentary Film"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Editing"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Film"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Foreign Language Film"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Makeup"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Screenplay"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Song"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Sound"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Supporting Actor"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Supporting Actress"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Visual Effects"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Young Performer"},{"ns":0,"title":"Brokeback
+        Mountain"},{"ns":0,"title":"Bruce Dern"},{"ns":0,"title":"Capote (film)"},{"ns":0,"title":"Captain
+        Phillips (film)"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris
+        Gardner"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christopher McCandless"},{"ns":0,"title":"Cinderella
+        Man"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Crazy
+        Heart"},{"ns":0,"title":"Critics'' Choice Movie Award"},{"ns":0,"title":"Critics''
+        Choice Movie Awards"},{"ns":0,"title":"Dallas Buyers Club"},{"ns":0,"title":"Daniel
+        Day-Lewis"},{"ns":0,"title":"David Helfgott"},{"ns":0,"title":"David Strathairn"},{"ns":0,"title":"Denzel
+        Washington"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Drive (2011 film)"},{"ns":0,"title":"Eastern
+        Promises"},{"ns":0,"title":"Edward R. Murrow"},{"ns":0,"title":"Emile Hirsch"},{"ns":0,"title":"Ennis
+        Del Mar"},{"ns":0,"title":"Finding Neverland"},{"ns":0,"title":"Flight (2012
+        film)"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Frank Langella"},{"ns":0,"title":"Frost/Nixon
+        (film)"},{"ns":0,"title":"Gangs of New York"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George VI"},{"ns":0,"title":"Get Low (film)"},{"ns":0,"title":"Gladiator
+        (2000 film)"},{"ns":0,"title":"Gods and Monsters (film)"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Good
+        Night, and Good Luck"},{"ns":0,"title":"Gran Torino (film)"},{"ns":0,"title":"Half
+        Nelson (film)"},{"ns":0,"title":"Harvey Milk"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Hotel
+        Rwanda"},{"ns":0,"title":"House of Sand and Fog (film)"},{"ns":0,"title":"Howard
+        Hughes"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Hustle and Flow"},{"ns":0,"title":"I
+        Am Sam"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Idi Amin"},{"ns":0,"title":"Into
+        the Wild (film)"},{"ns":0,"title":"Invictus (film)"},{"ns":0,"title":"J. Edgar"},{"ns":0,"title":"J.
+        Edgar Hoover"},{"ns":0,"title":"J. M. Barrie"},{"ns":0,"title":"Jack Aubrey"},{"ns":0,"title":"Jack
+        Nicholson"},{"ns":0,"title":"Jack Sparrow"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        J. Braddock"},{"ns":0,"title":"James Whale"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jean Valjean"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jeffrey Wigand"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jesse
+        Eisenberg"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"John Forbes
+        Nash, Jr."},{"ns":0,"title":"John Hawkes (actor)"},{"ns":0,"title":"Johnny
+        Cash"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Lars
+        and the Real Girl"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Les
+        Mis\u00e9rables (2012 film)"},{"ns":0,"title":"Lincoln (2012 film)"},{"ns":0,"title":"List
+        of actors who won the Academy, BAFTA, Golden Globe, SAG, and Critic''s Choice
+        Award for a single performance"},{"ns":0,"title":"Lost in Translation (film)"},{"ns":0,"title":"Mark
+        O''Brien (poet)"},{"ns":0,"title":"Mark Zuckerberg"},{"ns":0,"title":"Master
+        and Commander: The Far Side of the World"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Michael
+        Clayton (film)"},{"ns":0,"title":"Michael Fassbender"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Milk (film)"},{"ns":0,"title":"Moneyball (film)"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"Muhammad Ali"},{"ns":0,"title":"Murder in the First
+        (film)"},{"ns":0,"title":"Mystic River (film)"},{"ns":0,"title":"Nebraska
+        (film)"},{"ns":0,"title":"Nelson Mandela"},{"ns":0,"title":"One Hour Photo"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Rusesabagina"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Philip
+        Seymour Hoffman"},{"ns":0,"title":"Pirates of the Caribbean: The Curse of
+        the Black Pearl"},{"ns":0,"title":"Ram\u00f3n Sampedro"},{"ns":0,"title":"Ray
+        (film)"},{"ns":0,"title":"Ray Charles"},{"ns":0,"title":"Richard Jenkins"},{"ns":0,"title":"Richard
+        Nixon"},{"ns":0,"title":"Richard Phillips (merchant mariner)"},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rooster
+        http://femalerappers.net/iggy-azalea-werks-cute-grey-dress-in-las-vegas-photos/iggy-azalea-ghost-bar-las-vegas-15/
+        Cogburn (character)"},{"ns":0,"title":"Russell Crowe"},{"ns":0,"title":"Ryan
+        Gosling"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"Shame (2011 film)"},{"ns":0,"title":"Shine
+        (film)"},{"ns":0,"title":"Sideways"},{"ns":0,"title":"Silver Linings Playbook"},{"ns":0,"title":"Solomon
+        Northup"},{"ns":0,"title":"Sweeney Todd: The Demon Barber of Fleet Street
+        (2007 film)"},{"ns":0,"title":"Sweeny Todd"},{"ns":0,"title":"Terrence Howard"},{"ns":0,"title":"The
+        Artist (film)"},{"ns":0,"title":"The Aviator (2004 film)"},{"ns":0,"title":"The
+        Curious Case of Benjamin Button (film)"},{"ns":0,"title":"The Departed"},{"ns":0,"title":"The
+        Descendants (film)"},{"ns":0,"title":"The Hurt Locker"},{"ns":0,"title":"The
+        Insider (film)"},{"ns":0,"title":"The King''s Speech"},{"ns":0,"title":"The
+        Last King of Scotland (film)"},{"ns":0,"title":"The Master (2012 film)"},{"ns":0,"title":"The
+        Pursuit of Happyness"},{"ns":0,"title":"The Road (2009 film)"},{"ns":0,"title":"The
+        Sea Inside"},{"ns":0,"title":"The Sessions (film)"},{"ns":0,"title":"The Social
+        Network"},{"ns":0,"title":"The Visitor (2008 film)"},{"ns":0,"title":"The
+        Wrestler (2008 film)"},{"ns":0,"title":"There Will Be Blood"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"True Grit (2010 film)"},{"ns":0,"title":"Truman Capote"},{"ns":0,"title":"Up
+        in the Air (2009 film)"},{"ns":0,"title":"Venus (film)"},{"ns":0,"title":"Viggo
+        Mortensen"},{"ns":0,"title":"Walk the Line"},{"ns":0,"title":"Will Smith"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:BFCA
+        Awards Chron"},{"ns":10,"title":"Template:Broadcast Film Critics Association
+        Award for Best Actor"},{"ns":10,"title":"Template:Unreferenced"},{"ns":11,"title":"Template
+        talk:BFCA Awards Chron"},{"ns":11,"title":"Template talk:Broadcast Film Critics
+        Association Award for Best Actor"},{"ns":12,"title":"Help:Introduction to
+        referencing/1"},{"ns":14,"title":"Category:Articles lacking sources from December
+        2009"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:55 GMT
+recorded_with: VCR 2.9.2

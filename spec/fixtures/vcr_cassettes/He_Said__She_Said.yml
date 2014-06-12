@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=He%20Said,%20She%20Said
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001126723, 2340327456, 1613053662
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '635'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:17 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"2198086":{"pageid":2198086,"ns":0,"title":"He Said,
+        She Said","links":[{"ns":0,"title":"A Walk in the Woods (film)"},{"ns":0,"title":"Abortion"},{"ns":0,"title":"Baltimore
+        Sun"},{"ns":0,"title":"Big Miracle"},{"ns":0,"title":"Brian Hohlfeld"},{"ns":0,"title":"Dunston
+        Checks In"},{"ns":0,"title":"Elizabeth Perkins"},{"ns":0,"title":"Frank Mancuso
+        Jr."},{"ns":0,"title":"Gay rights"},{"ns":0,"title":"George Martin (american
+        actor)"},{"ns":0,"title":"He''s Just Not That Into You (film)"},{"ns":0,"title":"He
+        Said, She Said (disambiguation)"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Katherine
+        K. Young"},{"ns":0,"title":"Ken Kwapis"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"License
+        to Wed"},{"ns":0,"title":"Marisa Silver"},{"ns":0,"title":"Miles Goodman"},{"ns":0,"title":"Misandry"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"Noah (1998 film)"},{"ns":0,"title":"Paramount Pictures"},{"ns":0,"title":"Paul
+        Nathanson"},{"ns":0,"title":"Popular culture"},{"ns":0,"title":"Romantic comedy"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Sesame Street Presents Follow That Bird"},{"ns":0,"title":"Sexual
+        Life"},{"ns":0,"title":"Sexual harassment"},{"ns":0,"title":"Sharon Stone"},{"ns":0,"title":"Sidney
+        Levin"},{"ns":0,"title":"Stephen H. Burum"},{"ns":0,"title":"The Beautician
+        and the Beast"},{"ns":0,"title":"The Beniker Gang"},{"ns":0,"title":"The Sisterhood
+        of the Traveling Pants (film)"},{"ns":0,"title":"Vibes (film)"},{"ns":4,"title":"Wikipedia:Stub"},{"ns":10,"title":"Template:1990s-romantic-comedy-film-stub"},{"ns":10,"title":"Template:Ken
+        Kwapis"},{"ns":11,"title":"Template talk:1990s-romantic-comedy-film-stub"},{"ns":11,"title":"Template
+        talk:Ken Kwapis"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:18 GMT
+recorded_with: VCR 2.9.2

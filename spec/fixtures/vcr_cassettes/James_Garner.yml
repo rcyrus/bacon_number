@@ -1,0 +1,234 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=James%20Garner
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287125631, 983708544, 2899115890
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4505'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:24 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4018 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"168544":{"pageid":168544,"ns":0,"title":"James
+        Garner","links":[{"ns":0,"title":"12 Hours of Sebring"},{"ns":0,"title":"24
+        Hours of Daytona"},{"ns":0,"title":"24 Hours of Le Mans"},{"ns":0,"title":"36
+        Hours"},{"ns":0,"title":"5th Infantry Regiment (United States)"},{"ns":0,"title":"8
+        Simple Rules"},{"ns":0,"title":"A&E Network"},{"ns":0,"title":"A Man Called
+        Sledge"},{"ns":0,"title":"A Man Could Get Killed"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Adlai Stevenson
+        II"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alias Jesse James"},{"ns":0,"title":"American Civil
+        War"},{"ns":0,"title":"American Motors Corporation"},{"ns":0,"title":"Andre
+        Braugher"},{"ns":0,"title":"Andy Sidaris"},{"ns":0,"title":"Angela Lansbury"},{"ns":0,"title":"Anthony
+        Andrews"},{"ns":0,"title":"Anti-war film"},{"ns":0,"title":"Archive of American
+        Television"},{"ns":0,"title":"Associated Press"},{"ns":0,"title":"Astronauts"},{"ns":0,"title":"Atlantis:
+        The Lost Empire"},{"ns":0,"title":"Audrey Hepburn"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Auto racing"},{"ns":0,"title":"Award"},{"ns":0,"title":"Barbara
+        Boxer"},{"ns":0,"title":"Barbara Stanwyck"},{"ns":0,"title":"Barbarians at
+        the Gate"},{"ns":0,"title":"Barbarians at the Gate (film)"},{"ns":0,"title":"Battle
+        for Terra"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Best Actor in
+        a Leading Role"},{"ns":0,"title":"Betty White"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Biography
+        (TV series)"},{"ns":0,"title":"Blake Edwards"},{"ns":0,"title":"Bob Hope"},{"ns":0,"title":"Boys''
+        Night Out (film)"},{"ns":0,"title":"Breathing Lessons"},{"ns":0,"title":"Bret
+        Maverick"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Brock
+        Peters"},{"ns":0,"title":"Bronco (TV series)"},{"ns":0,"title":"Bruce Lee"},{"ns":0,"title":"Bruce
+        Willis"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"CJ Barnes"},{"ns":0,"title":"California"},{"ns":0,"title":"California
+        Army National Guard"},{"ns":0,"title":"Carroll O''Connor"},{"ns":0,"title":"Cary
+        Grant"},{"ns":0,"title":"Cash McCall"},{"ns":0,"title":"Charles Bronson"},{"ns":0,"title":"Charles
+        Durning"},{"ns":0,"title":"Charlie Rose (talk show)"},{"ns":0,"title":"Charlton
+        Heston"},{"ns":0,"title":"Cherokee"},{"ns":0,"title":"Cheyenne (1955 TV series)"},{"ns":0,"title":"Chicago
+        Hope"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Chicago Tribune"},{"ns":0,"title":"Christopher
+        Lloyd"},{"ns":0,"title":"Cinerama"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Clint
+        Walker"},{"ns":0,"title":"Colt .45 (TV series)"},{"ns":0,"title":"Columbia
+        Pictures"},{"ns":0,"title":"Connie Stevens"},{"ns":0,"title":"Corinne Bohrer"},{"ns":0,"title":"D-Day"},{"ns":0,"title":"Daily
+        News of Los Angeles"},{"ns":0,"title":"Dan Aykroyd"},{"ns":0,"title":"Daniel
+        J. Travanti"},{"ns":0,"title":"Danny Kaye"},{"ns":0,"title":"Danny Thomas"},{"ns":0,"title":"Darby''s
+        Rangers (1958 film)"},{"ns":0,"title":"David Buttolph"},{"ns":0,"title":"David
+        McCallum"},{"ns":0,"title":"Dead Silence (1997 film)"},{"ns":0,"title":"Debbie
+        Reynolds"},{"ns":0,"title":"Decoration Day (film)"},{"ns":0,"title":"Democratic
+        Party (United States)"},{"ns":0,"title":"Dennis Franz"},{"ns":0,"title":"Dennis
+        Kucinich"},{"ns":0,"title":"Dennis Weaver"},{"ns":0,"title":"Desi Arnaz"},{"ns":0,"title":"Detective
+        fiction"},{"ns":0,"title":"Diane Brewster"},{"ns":0,"title":"Diane McBain"},{"ns":0,"title":"Dianne
+        Feinstein"},{"ns":0,"title":"Dick Van Dyke"},{"ns":0,"title":"Disney"},{"ns":0,"title":"Divine
+        Secrets of the Ya-Ya Sisterhood (film)"},{"ns":0,"title":"Doc Holliday"},{"ns":0,"title":"Donald
+        Pleasence"},{"ns":0,"title":"Donald Sutherland"},{"ns":0,"title":"Doris Day"},{"ns":0,"title":"Drama"},{"ns":0,"title":"Duel
+        at Diablo"},{"ns":0,"title":"Duel at Sundown (Maverick)"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Ed Asner"},{"ns":0,"title":"Ed Flanders"},{"ns":0,"title":"Eddie
+        Cantor"},{"ns":0,"title":"Edgar Bergen"},{"ns":0,"title":"Edmond O''Brien"},{"ns":0,"title":"Edward
+        Asner"},{"ns":0,"title":"Edward G. Robinson"},{"ns":0,"title":"Efrem Zimbalist,
+        Jr"},{"ns":0,"title":"Elizabeth Taylor"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Ernest
+        Borgnine"},{"ns":0,"title":"Eva Marie Saint"},{"ns":0,"title":"Eva Renzi"},{"ns":0,"title":"Fire
+        in the Sky"},{"ns":0,"title":"First Monday"},{"ns":0,"title":"Fragmentation
+        (weaponry)"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Friendly fire"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gena Rowlands"},{"ns":0,"title":"Gene Kelly"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Burns"},{"ns":0,"title":"God, the Devil and
+        Bob"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Good Housekeeping"},{"ns":0,"title":"Governor
+        of California"},{"ns":0,"title":"Grand Prix (1966 film)"},{"ns":0,"title":"Gregory
+        Peck"},{"ns":0,"title":"Gretchen Corbett"},{"ns":0,"title":"Gunfight at the
+        O.K. Corral"},{"ns":0,"title":"HBO Pictures"},{"ns":0,"title":"Harper Collins"},{"ns":0,"title":"HealtH"},{"ns":0,"title":"Heartsounds"},{"ns":0,"title":"Henry
+        Fonda"},{"ns":0,"title":"Hollywood High School"},{"ns":0,"title":"Hollywood
+        Walk of Fame"},{"ns":0,"title":"Hour of the Gun"},{"ns":0,"title":"How Sweet
+        It Is!"},{"ns":0,"title":"I Have a Dream"},{"ns":0,"title":"I Love Lucy"},{"ns":0,"title":"Idris
+        Elba"},{"ns":0,"title":"Iggie Wolfington"},{"ns":0,"title":"Indianapolis 500"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Irving
+        Leonard (accountant)"},{"ns":0,"title":"Jack Elam"},{"ns":0,"title":"Jack
+        Garner"},{"ns":0,"title":"Jack Kelly (actor)"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"James
+        Cagney"},{"ns":0,"title":"James Coburn"},{"ns":0,"title":"James Earl Jones"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"James Gandolfini"},{"ns":0,"title":"James Garner
+        (disambiguation)"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James
+        Whitmore, Jr."},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jantzen"},{"ns":0,"title":"Jason
+        Robards, Jr."},{"ns":0,"title":"Jean Simmons"},{"ns":0,"title":"Jean Willes"},{"ns":0,"title":"Jeffery
+        Deaver"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jim Rockford (television
+        character)"},{"ns":0,"title":"Joanne Woodward"},{"ns":0,"title":"Jodie Foster"},{"ns":0,"title":"Joe
+        Santos"},{"ns":0,"title":"John Frankenheimer"},{"ns":0,"title":"John Kerry"},{"ns":0,"title":"John
+        Ritter"},{"ns":0,"title":"John Russell (actor)"},{"ns":0,"title":"Jon Winokur"},{"ns":0,"title":"Jonathan
+        Rhys Meyers"},{"ns":0,"title":"Joseph Wambaugh"},{"ns":0,"title":"Julie Andrews"},{"ns":0,"title":"Karl
+        L. Rundberg"},{"ns":0,"title":"Karl Malden"},{"ns":0,"title":"Kate Mulgrew"},{"ns":0,"title":"Katharine
+        Hepburn"},{"ns":0,"title":"Katharine Ross"},{"ns":0,"title":"Kaye Elhardt"},{"ns":0,"title":"Kelsey
+        Grammer"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kim
+        Novak"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Korean War"},{"ns":0,"title":"Larry
+        McMurtry"},{"ns":0,"title":"Lauren Bacall"},{"ns":0,"title":"Lawman (TV series)"},{"ns":0,"title":"Leading
+        lady"},{"ns":0,"title":"Lee Remick"},{"ns":0,"title":"Leo Gordon"},{"ns":0,"title":"Leon
+        Ames"},{"ns":0,"title":"Leonard Bernstein"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"List of Indianapolis 500 pace cars"},{"ns":0,"title":"List
+        of Maverick episodes"},{"ns":0,"title":"Lonesome Dove"},{"ns":0,"title":"Lookalike"},{"ns":0,"title":"Los
+        Angeles"},{"ns":0,"title":"Los Angeles Police Department"},{"ns":0,"title":"Louis
+        Gossett, Jr."},{"ns":0,"title":"Louise Fletcher"},{"ns":0,"title":"Malcolm
+        McDowell"},{"ns":0,"title":"Man of the People (TV series)"},{"ns":0,"title":"Mandy
+        Patinkin"},{"ns":0,"title":"Margot Kidder"},{"ns":0,"title":"Mariette Hartley"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Marlowe (1969 film)"},{"ns":0,"title":"Martha Raye"},{"ns":0,"title":"Martin
+        Luther King Jr."},{"ns":0,"title":"Martin Ritt"},{"ns":0,"title":"Mary Tyler
+        Moore"},{"ns":0,"title":"Maverick (TV series)"},{"ns":0,"title":"Maverick
+        (film)"},{"ns":0,"title":"Mazda"},{"ns":0,"title":"Mel Gibson"},{"ns":0,"title":"Melina
+        Mercouri"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Mickey
+        Rooney"},{"ns":0,"title":"Mike Wallace"},{"ns":0,"title":"Million Dollar Baby"},{"ns":0,"title":"Mister
+        Buddwing"},{"ns":0,"title":"Model (person)"},{"ns":0,"title":"Mortar (weapon)"},{"ns":0,"title":"Motor
+        Trend"},{"ns":0,"title":"Move Over, Darling"},{"ns":0,"title":"Murphy''s Romance"},{"ns":0,"title":"Museum
+        of Broadcast Communications"},{"ns":0,"title":"My Favorite Wife"},{"ns":0,"title":"My
+        Fellow Americans"},{"ns":0,"title":"My Name Is Bill W."},{"ns":0,"title":"My
+        Name is Bill W."},{"ns":0,"title":"Nanette Fabray"},{"ns":0,"title":"Natalie
+        Wood"},{"ns":0,"title":"National Cowboy & Western Heritage Museum"},{"ns":0,"title":"Nicholas
+        Sparks (author)"},{"ns":0,"title":"Nichols (TV series)"},{"ns":0,"title":"Nick
+        Cassavetes"},{"ns":0,"title":"Noah Beery, Jr."},{"ns":0,"title":"Norma Rae"},{"ns":0,"title":"Norman,
+        Oklahoma"},{"ns":0,"title":"Norman High School"},{"ns":0,"title":"Norman Transcript"},{"ns":0,"title":"OCLC"},{"ns":0,"title":"Oklahoma
+        City, Oklahoma"},{"ns":0,"title":"Oklahoma Sooners football"},{"ns":0,"title":"One
+        Little Indian (film)"},{"ns":0,"title":"One Special Night"},{"ns":0,"title":"Ossie
+        Davis"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Pace car"},{"ns":0,"title":"Paddy
+        Chayefsky"},{"ns":0,"title":"Paddy Chayevsky"},{"ns":0,"title":"Paul Francis
+        Webster"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Pearl
+        Bailey"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Peter Brown
+        (actor)"},{"ns":0,"title":"Peter Falk"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Philadelphia
+        Daily News"},{"ns":0,"title":"Philip Marlowe"},{"ns":0,"title":"Piper Laurie"},{"ns":0,"title":"Polaroid
+        Corporation"},{"ns":0,"title":"Polio"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Lead Actor in a Drama Series"},{"ns":0,"title":"Prisoner of
+        war"},{"ns":0,"title":"Private detective"},{"ns":0,"title":"Private investigator"},{"ns":0,"title":"Promise
+        (film)"},{"ns":0,"title":"Purple heart"},{"ns":0,"title":"Rachel McAdams"},{"ns":0,"title":"Ralph
+        Bellamy"},{"ns":0,"title":"Rambler American"},{"ns":0,"title":"Randolph Scott"},{"ns":0,"title":"Randy
+        Quaid"},{"ns":0,"title":"Raymond Chandler"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Red
+        Skelton"},{"ns":0,"title":"Remake"},{"ns":0,"title":"Republican Party (United
+        States)"},{"ns":0,"title":"Reuters"},{"ns":0,"title":"Ricardo Montalb\u00e1n"},{"ns":0,"title":"Richard
+        Attenborough"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard
+        Gephardt"},{"ns":0,"title":"Richard Kiley"},{"ns":0,"title":"Richard Long
+        (actor)"},{"ns":0,"title":"Rita Moreno"},{"ns":0,"title":"Robert Colbert"},{"ns":0,"title":"Robert
+        Culp"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Roger
+        Moore"},{"ns":0,"title":"Ron Leibman"},{"ns":0,"title":"Rosalind Russell"},{"ns":0,"title":"Roy
+        Huggins"},{"ns":0,"title":"Ruby Dee"},{"ns":0,"title":"Ryan Gosling"},{"ns":0,"title":"Sacramento
+        Bee"},{"ns":0,"title":"Sally Field"},{"ns":0,"title":"San Diego Union-Tribune"},{"ns":0,"title":"Sayonara"},{"ns":0,"title":"Screen
+        Actors Guild"},{"ns":0,"title":"Screen Actors Guild Life Achievement Award"},{"ns":0,"title":"Screenplay"},{"ns":0,"title":"Seasickness"},{"ns":0,"title":"Shady
+        Deal at Sunny Acres"},{"ns":0,"title":"Shazam (character)"},{"ns":0,"title":"Shirley
+        Jones"},{"ns":0,"title":"Shirley MacLaine"},{"ns":0,"title":"Shirley Temple"},{"ns":0,"title":"Shoot-Out
+        at Medicine Bend"},{"ns":0,"title":"Sidney Poitier"},{"ns":0,"title":"Simon
+        & Schuster"},{"ns":0,"title":"Sissy Spacek"},{"ns":0,"title":"Skin Game"},{"ns":0,"title":"Space
+        Cowboys"},{"ns":0,"title":"Spain"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stan
+        Laurel"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Stephen J. Cannell"},{"ns":0,"title":"Steve
+        McQueen"},{"ns":0,"title":"Steve McQueen (actor)"},{"ns":0,"title":"Streets
+        of Laredo"},{"ns":0,"title":"Streets of Laredo (TV miniseries)"},{"ns":0,"title":"Stroke"},{"ns":0,"title":"Stuart
+        Margolin"},{"ns":0,"title":"Stuart Whitman"},{"ns":0,"title":"Sugarfoot"},{"ns":0,"title":"Sunset
+        (film)"},{"ns":0,"title":"Superman/Shazam!: The Return of Black Adam"},{"ns":0,"title":"Support
+        Your Local Gunfighter!"},{"ns":0,"title":"Support Your Local Sheriff!"},{"ns":0,"title":"Suzanne
+        Storrs"},{"ns":0,"title":"Tank (film)"},{"ns":0,"title":"Ted Danson"},{"ns":0,"title":"Television
+        Critics Association"},{"ns":0,"title":"Television Hall of Fame"},{"ns":0,"title":"Television
+        comedy"},{"ns":0,"title":"Television commercial"},{"ns":0,"title":"Television
+        program"},{"ns":0,"title":"The Americanization of Emily"},{"ns":0,"title":"The
+        Art of Love (1965 film)"},{"ns":0,"title":"The Caine Mutiny Court Martial"},{"ns":0,"title":"The
+        Castaway Cowboy"},{"ns":0,"title":"The Children''s Hour (1961 film)"},{"ns":0,"title":"The
+        Children''s Hour (film)"},{"ns":0,"title":"The Coca-Cola Company"},{"ns":0,"title":"The
+        Daily Oklahoman"},{"ns":0,"title":"The Distinguished Gentleman"},{"ns":0,"title":"The
+        Ed Sullivan Show"},{"ns":0,"title":"The Fan (1981 film)"},{"ns":0,"title":"The
+        Girl He Left Behind"},{"ns":0,"title":"The Glitter Dome (film)"},{"ns":0,"title":"The
+        Great Escape (book)"},{"ns":0,"title":"The Great Escape (film)"},{"ns":0,"title":"The
+        Land Before Time X: The Great Longneck Migration"},{"ns":0,"title":"The Last
+        Debate"},{"ns":0,"title":"The Notebook (2004 film)"},{"ns":0,"title":"The
+        Pink Jungle"},{"ns":0,"title":"The Rockford Files"},{"ns":0,"title":"The Steve
+        Allen Show"},{"ns":0,"title":"The Sting"},{"ns":0,"title":"The Thrill Of It
+        All"},{"ns":0,"title":"The Thrill of It All"},{"ns":0,"title":"The Tonight
+        Show with Jay Leno"},{"ns":0,"title":"The Ultimate Gift"},{"ns":0,"title":"The
+        Wheeler Dealers"},{"ns":0,"title":"They Only Kill Their Masters"},{"ns":0,"title":"Tom
+        Mix"},{"ns":0,"title":"Tom Selleck"},{"ns":0,"title":"Tom Skerritt"},{"ns":0,"title":"Tommy
+        Lee Jones"},{"ns":0,"title":"Tony Randall"},{"ns":0,"title":"Toward the Unknown"},{"ns":0,"title":"Tulsa
+        World"},{"ns":0,"title":"Twilight (1998 film)"},{"ns":0,"title":"Ty Hardin"},{"ns":0,"title":"U.S.
+        Senator"},{"ns":0,"title":"USD"},{"ns":0,"title":"United Press International"},{"ns":0,"title":"United
+        States Army"},{"ns":0,"title":"United States Merchant Marine"},{"ns":0,"title":"United
+        States dollar"},{"ns":0,"title":"Universal Studios"},{"ns":0,"title":"University
+        of Oklahoma"},{"ns":0,"title":"Up Periscope"},{"ns":0,"title":"Variety (magazine)"},{"ns":0,"title":"Variety
+        Magazine"},{"ns":0,"title":"Vera Miles"},{"ns":0,"title":"Victor Victoria"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Wallace
+        Beery"},{"ns":0,"title":"Walter Brennan"},{"ns":0,"title":"Walter Pidgeon"},{"ns":0,"title":"Warner
+        Bros."},{"ns":0,"title":"Warner Brothers"},{"ns":0,"title":"Wayde Preston"},{"ns":0,"title":"Western
+        (genre)"},{"ns":0,"title":"Western Performers Hall of Fame"},{"ns":0,"title":"Will
+        Hutchins"},{"ns":0,"title":"William Daniels"},{"ns":0,"title":"William Gargan"},{"ns":0,"title":"World
+        War II"},{"ns":0,"title":"Wyatt Earp"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:1990
+        Television Hall of Fame"},{"ns":10,"title":"Template:EmmyAward DramaLeadActor"},{"ns":10,"title":"Template:EmmyAward
+        DramaLeadActor 1956\u20131975"},{"ns":10,"title":"Template:EmmyAward DramaLeadActor
+        1976\u20132000"},{"ns":10,"title":"Template:EmmyAward DramaLeadActor 2001\u20132025"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        LifeAchievement"},{"ns":11,"title":"Template talk:1990 Television Hall of
+        Fame"},{"ns":11,"title":"Template talk:EmmyAward DramaLeadActor 1976\u20132000"},{"ns":11,"title":"Template
+        talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward
+        LifeAchievement"},{"ns":100,"title":"Portal:Biography"},{"ns":100,"title":"Portal:California"},{"ns":100,"title":"Portal:Film"},{"ns":100,"title":"Portal:Oklahoma"},{"ns":100,"title":"Portal:Television"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:24 GMT
+recorded_with: VCR 2.9.2

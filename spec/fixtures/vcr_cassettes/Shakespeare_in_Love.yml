@@ -1,0 +1,289 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Shakespeare%20in%20Love
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332340941, 1102705910, 3142942859
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5317'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:06 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4017 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"88075|0|Saints_&_Sinners_(2007_TV_series)"}},"query":{"pages":{"88075":{"pageid":88075,"ns":0,"title":"Shakespeare
+        in Love","links":[{"ns":0,"title":"(Don''t Fear) The Reaper"},{"ns":0,"title":"12
+        Years a Slave (film)"},{"ns":0,"title":"15-Minute Hamlet"},{"ns":0,"title":"1998
+        New York Film Critics Circle Awards"},{"ns":0,"title":"30:e november"},{"ns":0,"title":"49th
+        Berlin International Film Festival"},{"ns":0,"title":"52nd British Academy
+        Film Awards"},{"ns":0,"title":"56th Golden Globe Awards"},{"ns":0,"title":"5th
+        Screen Actors Guild Awards"},{"ns":0,"title":"71st Academy Awards"},{"ns":0,"title":"AFI''s
+        100 Years...100 Laughs"},{"ns":0,"title":"AFI''s 100 Years...100 Movies (10th
+        Anniversary Edition)"},{"ns":0,"title":"AFI''s 100 Years...100 Passions"},{"ns":0,"title":"A
+        Beautiful Mind (film)"},{"ns":0,"title":"A Majority of One"},{"ns":0,"title":"A
+        Man for All Seasons (1966 film)"},{"ns":0,"title":"A Room with a View (1986
+        film)"},{"ns":0,"title":"A Star Is Born (1976 film)"},{"ns":0,"title":"A Touch
+        Away (TV)"},{"ns":0,"title":"A Village Romeo and Juliet"},{"ns":0,"title":"A
+        rose by any other name would smell as sweet"},{"ns":0,"title":"Abigail McKern"},{"ns":0,"title":"Academy
+        Award for Best Actress"},{"ns":0,"title":"Academy Award for Best Art Direction"},{"ns":0,"title":"Academy
+        Award for Best Cinematography"},{"ns":0,"title":"Academy Award for Best Costume
+        Design"},{"ns":0,"title":"Academy Award for Best Director"},{"ns":0,"title":"Academy
+        Award for Best Makeup"},{"ns":0,"title":"Academy Award for Best Original Score"},{"ns":0,"title":"Academy
+        Award for Best Picture"},{"ns":0,"title":"Academy Award for Best Sound"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Award for Best
+        Supporting Actress"},{"ns":0,"title":"Academy Award for Editing"},{"ns":0,"title":"Academy
+        Award for Writing (Original Screenplay)"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Adam
+        Khan and Durkhanai"},{"ns":0,"title":"After Juliet"},{"ns":0,"title":"After
+        Magritte"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alexandre-Vincent
+        Pineux Duval"},{"ns":0,"title":"Alice Doesn''t Live Here Anymore"},{"ns":0,"title":"Alistair
+        Petrie"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"All About Eve"},{"ns":0,"title":"All
+        Quiet on the Western Front (1930 film)"},{"ns":0,"title":"All the King''s
+        Men (1949 film)"},{"ns":0,"title":"Alliance Atlantis"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"Almost Famous"},{"ns":0,"title":"Amadeus (film)"},{"ns":0,"title":"Amar
+        te duele"},{"ns":0,"title":"Ambikapathy (1937 film)"},{"ns":0,"title":"American
+        Beauty (1999 film)"},{"ns":0,"title":"American Film Institute"},{"ns":0,"title":"American
+        Graffiti"},{"ns":0,"title":"American Hustle"},{"ns":0,"title":"Amor Prohibido
+        (song)"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"An American in Paris
+        (film)"},{"ns":0,"title":"Anachronism"},{"ns":0,"title":"Angelo (song)"},{"ns":0,"title":"Anna
+        Carteret"},{"ns":0,"title":"Anna Karenina (2012 film)"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Annie Hall"},{"ns":0,"title":"Anthology"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Arcadia (play)"},{"ns":0,"title":"Argo
+        (2012 film)"},{"ns":0,"title":"Around the World in 80 Days (1956 film)"},{"ns":0,"title":"Arthur
+        (1981 film)"},{"ns":0,"title":"Arthur Brooke (poet)"},{"ns":0,"title":"Artist
+        Descending a Staircase"},{"ns":0,"title":"As Good as It Gets"},{"ns":0,"title":"Atomy"},{"ns":0,"title":"Atonement
+        (film)"},{"ns":0,"title":"Auntie Mame (film)"},{"ns":0,"title":"BAFTA Award
+        for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Award for Best Actor
+        in a Supporting Role"},{"ns":0,"title":"BAFTA Award for Best Actress in a
+        Leading Role"},{"ns":0,"title":"BAFTA Award for Best Actress in a Supporting
+        Role"},{"ns":0,"title":"BAFTA Award for Best Cinematography"},{"ns":0,"title":"BAFTA
+        Award for Best Costume Design"},{"ns":0,"title":"BAFTA Award for Best Direction"},{"ns":0,"title":"BAFTA
+        Award for Best Editing"},{"ns":0,"title":"BAFTA Award for Best Film"},{"ns":0,"title":"BAFTA
+        Award for Best Film Music"},{"ns":0,"title":"BAFTA Award for Best Makeup and
+        Hair"},{"ns":0,"title":"BAFTA Award for Best Original Screenplay"},{"ns":0,"title":"BAFTA
+        Award for Best Production Design"},{"ns":0,"title":"BAFTA Award for Best Sound"},{"ns":0,"title":"BBC
+        News"},{"ns":0,"title":"BBC Television Shakespeare"},{"ns":0,"title":"Babe
+        (film)"},{"ns":0,"title":"Ballad of a Soldier"},{"ns":0,"title":"Bare: A Pop
+        Opera"},{"ns":0,"title":"Beauty and the Beast (1991 film)"},{"ns":0,"title":"Being
+        John Malkovich"},{"ns":0,"title":"Ben-Hur (1959 film)"},{"ns":0,"title":"Ben
+        Affleck"},{"ns":0,"title":"Beneath the 12-Mile Reef"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Benvolio"},{"ns":0,"title":"Berlin
+        International Film Festival"},{"ns":0,"title":"Bicycle Thieves"},{"ns":0,"title":"Bill
+        Paxton"},{"ns":0,"title":"Billy Bathgate (film)"},{"ns":0,"title":"Bolji \u017eivot"},{"ns":0,"title":"Bollywood
+        Queen"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Boy player"},{"ns":0,"title":"Boys
+        Don''t Cry (film)"},{"ns":0,"title":"Braveheart"},{"ns":0,"title":"Brazil
+        (1985 film)"},{"ns":0,"title":"Breaking Away"},{"ns":0,"title":"British Royal
+        Family"},{"ns":0,"title":"Brokeback Mountain"},{"ns":0,"title":"Brooklyn Babylon"},{"ns":0,"title":"Bruce
+        Jones (actor)"},{"ns":0,"title":"Bullies"},{"ns":0,"title":"Butch Cassidy
+        and the Sundance Kid"},{"ns":0,"title":"Butterfly Lovers"},{"ns":0,"title":"CNN"},{"ns":0,"title":"Cabaret
+        (1972 film)"},{"ns":0,"title":"Captain Corelli''s Mandolin (film)"},{"ns":0,"title":"Carmen
+        Jones (film)"},{"ns":0,"title":"Caryl Brahms"},{"ns":0,"title":"Casablanca
+        (film)"},{"ns":0,"title":"Castaway"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Cavalcade
+        (1933 film)"},{"ns":0,"title":"Characters in Romeo and Juliet"},{"ns":0,"title":"Chariots
+        of Fire"},{"ns":0,"title":"Cherish (Madonna song)"},{"ns":0,"title":"Chicago
+        (2002 film)"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Chicken
+        Rice War"},{"ns":0,"title":"China Girl (1987 film)"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christopher
+        Marlowe"},{"ns":0,"title":"Cimarron (1931 film)"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Coal Miner''s Daughter (film)"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Colony of Virginia"},{"ns":0,"title":"Comedy-drama
+        film"},{"ns":0,"title":"Count Paris"},{"ns":0,"title":"Crash (2004 film)"},{"ns":0,"title":"Cross-dressing"},{"ns":0,"title":"Curtain
+        Theatre"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dalliance"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Dances with Wolves"},{"ns":0,"title":"Dangerous
+        (TV series)"},{"ns":0,"title":"Daniel Brocklebank"},{"ns":0,"title":"Daniel
+        Day-Lewis"},{"ns":0,"title":"Darkside (radio play)"},{"ns":0,"title":"David
+        & Fatima"},{"ns":0,"title":"David Gamble (film editor)"},{"ns":0,"title":"David
+        Oakes"},{"ns":0,"title":"David Parfitt"},{"ns":0,"title":"Day for Night (film)"},{"ns":0,"title":"Dead
+        Poets Society"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Directors Guild of
+        America Awards 1998"},{"ns":0,"title":"Dirty Linen and New-Found-Land"},{"ns":0,"title":"Dogg''s
+        Hamlet, Cahoot''s Macbeth"},{"ns":0,"title":"Dolphins (2007 film)"},{"ns":0,"title":"Dominic
+        Lester"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Donkey in Lahore"},{"ns":0,"title":"Donna
+        Gigliotti"},{"ns":0,"title":"Dorian Gray (2009 film)"},{"ns":0,"title":"Dr.
+        Strangelove"},{"ns":0,"title":"Dreamgirls (film)"},{"ns":0,"title":"Driving
+        Miss Daisy"},{"ns":0,"title":"Duke of Cambridge"},{"ns":0,"title":"Earl of
+        Wessex"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Edmund Tylney"},{"ns":0,"title":"Educating
+        Rita (film)"},{"ns":0,"title":"Edward Alleyn"},{"ns":0,"title":"Edward Zwick"},{"ns":0,"title":"Ek
+        Duuje Ke Liye"},{"ns":0,"title":"Elizabeth (film)"},{"ns":0,"title":"Elizabeth
+        II"},{"ns":0,"title":"Elizabeth I of England"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Empire
+        of the Sun (film)"},{"ns":0,"title":"English language"},{"ns":0,"title":"Enigma
+        (2001 film)"},{"ns":0,"title":"Enter a Free Man"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Ethan
+        Frome (film)"},{"ns":0,"title":"Every Good Boy Deserves Favour (play)"},{"ns":0,"title":"Evita
+        (film)"},{"ns":0,"title":"Exit Music (For a Film)"},{"ns":0,"title":"Fame
+        (musical)"},{"ns":0,"title":"Family and Friends (Australian TV series)"},{"ns":0,"title":"Far
+        from Heaven"},{"ns":0,"title":"Fargo (film)"},{"ns":0,"title":"Faye Kellerman"},{"ns":0,"title":"Fever
+        (Little Willie John song)"},{"ns":0,"title":"Fiddler on the Roof (film)"},{"ns":0,"title":"Forbidden
+        Games"},{"ns":0,"title":"Forrest Gump"},{"ns":0,"title":"Four Weddings and
+        a Funeral"},{"ns":0,"title":"Friar Laurence"},{"ns":0,"title":"From Here to
+        Eternity"},{"ns":0,"title":"Fury of Johnny Kid"},{"ns":0,"title":"Gandhi (film)"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Gentleman''s Agreement"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Lucas in Love"},{"ns":0,"title":"Gervaise"},{"ns":0,"title":"Gigi
+        (1958 film)"},{"ns":0,"title":"Giulietta e Romeo"},{"ns":0,"title":"Giulietta
+        e Romeo (Vaccai)"},{"ns":0,"title":"Giulietta e Romeo (musical)"},{"ns":0,"title":"Gladiator
+        (2000 film)"},{"ns":0,"title":"Gloria (opera)"},{"ns":0,"title":"Gnomeo &
+        Juliet"},{"ns":0,"title":"Going My Way"},{"ns":0,"title":"Golden Bear"},{"ns":0,"title":"Golden
+        Gate (film)"},{"ns":0,"title":"Golden Globe Award for Best Actress \u2013
+        Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden Globe Award for
+        Best Director"},{"ns":0,"title":"Golden Globe Award for Best Motion Picture
+        \u2013 Musical or Comedy"},{"ns":0,"title":"Golden Globe Award for Best Screenplay"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actress \u2013 Motion Picture"},{"ns":0,"title":"Goliyon
+        Ki Raasleela Ram-Leela"},{"ns":0,"title":"Gone with the Wind (film)"},{"ns":0,"title":"Gonks
+        Go Beat"},{"ns":0,"title":"Goodfellas"},{"ns":0,"title":"Grand Hotel (film)"},{"ns":0,"title":"Green
+        Card (film)"},{"ns":0,"title":"Guys and Dolls (film)"},{"ns":0,"title":"Gwyneth
+        Paltrow"},{"ns":0,"title":"Hamateur Night"},{"ns":0,"title":"Hamlet"},{"ns":0,"title":"Hamlet
+        (1948 film)"},{"ns":0,"title":"Hani and Sheh Mureed"},{"ns":0,"title":"Hank
+        Azaria"},{"ns":0,"title":"Hannah and Her Sisters"},{"ns":0,"title":"Hapgood
+        (play)"},{"ns":0,"title":"Happy-Go-Lucky"},{"ns":0,"title":"Harina de Otro
+        Costal"},{"ns":0,"title":"Harlequinade (Rattigan)"},{"ns":0,"title":"Harvey
+        Weinstein"},{"ns":0,"title":"Heaven Can Wait (1978 film)"},{"ns":0,"title":"Hope
+        and Glory (film)"},{"ns":0,"title":"Hotel Rwanda"},{"ns":0,"title":"How Green
+        Was My Valley (film)"},{"ns":0,"title":"Howards End (film)"},{"ns":0,"title":"Hugo
+        Speer"},{"ns":0,"title":"IMDb"},{"ns":0,"title":"I Am Unicorn"},{"ns":0,"title":"I
+        Capuleti e i Montecchi"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"In
+        America (film)"},{"ns":0,"title":"In Fair Palestine: A Story of Romeo and
+        Juliet"},{"ns":0,"title":"In the Bedroom"},{"ns":0,"title":"In the Heat of
+        the Night (film)"},{"ns":0,"title":"In the Native State"},{"ns":0,"title":"Indian
+        Ink"},{"ns":0,"title":"Inge Sylten and Heinz Drosihn"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Into
+        the Gauntlet"},{"ns":0,"title":"Into the Light (The Twilight Zone)"},{"ns":0,"title":"Issaq"},{"ns":0,"title":"It
+        Happened One Night"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James
+        Brolin"},{"ns":0,"title":"Janet Maslin"},{"ns":0,"title":"Jean de Florette"},{"ns":0,"title":"Jill
+        Baker"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"John Madden
+        (director)"},{"ns":0,"title":"John Webster"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Julia (1977 film)"},{"ns":0,"title":"Julia Roberts"},{"ns":0,"title":"Juliet"},{"ns":0,"title":"Jumpers"},{"ns":0,"title":"Juno
+        (film)"},{"ns":0,"title":"K-On!"},{"ns":0,"title":"Kalisundam Raa"},{"ns":0,"title":"Kathleen
+        Quinlan"},{"ns":0,"title":"Kentucky (film)"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Spacey"},{"ns":0,"title":"Killshot (film)"},{"ns":0,"title":"Kissing You (Des''ree
+        song)"},{"ns":0,"title":"Km. 0"},{"ns":0,"title":"Kramer vs. Kramer"},{"ns":0,"title":"Kuch
+        Tum Kaho Kuch Hum Kahein"},{"ns":0,"title":"La Ronde (1950 film)"},{"ns":0,"title":"Lacombe,
+        Lucien"},{"ns":0,"title":"Lan v\u00e0 \u0110i\u1ec7p"},{"ns":0,"title":"Lawrence
+        of Arabia (film)"},{"ns":0,"title":"Layla and Majnun"},{"ns":0,"title":"Les
+        Chouans"},{"ns":0,"title":"Les Girls"},{"ns":0,"title":"Les Mis\u00e9rables
+        (2012 film)"},{"ns":0,"title":"Les amants de V\u00e9rone"},{"ns":0,"title":"Lesley
+        Sharp"},{"ns":0,"title":"Letters to Juliet"},{"ns":0,"title":"Life and Lyrics"},{"ns":0,"title":"Lisa
+        Westcott"},{"ns":0,"title":"List of 1999 box office number-one films in the
+        United Kingdom"},{"ns":0,"title":"Lonesome Cowboys (1968 film)"},{"ns":0,"title":"Lord
+        Chamberlain''s Men"},{"ns":0,"title":"Lord Saltoun and Auchanachie"},{"ns":0,"title":"Los
+        Tarantos"},{"ns":0,"title":"Lost in Translation (film)"},{"ns":0,"title":"Love"},{"ns":0,"title":"Love
+        Is All There Is"},{"ns":0,"title":"Love Me Again (song)"},{"ns":0,"title":"Love
+        Story (Taylor Swift song)"},{"ns":0,"title":"Love Theme from Romeo and Juliet"},{"ns":0,"title":"Lovers
+        of Teruel"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"L\u1ee5c
+        V\u00e2n Ti\u00ean"},{"ns":0,"title":"L\u1ee5c V\u00e2n Ti\u00ean (film)"},{"ns":0,"title":"MASH
+        (film)"},{"ns":0,"title":"Ma che musica maestro"},{"ns":0,"title":"Macbeth"},{"ns":0,"title":"Mademoiselle
+        Juliette"},{"ns":0,"title":"Make Your Move (film)"},{"ns":0,"title":"Mamay
+        (film)"},{"ns":0,"title":"Manhattan (film)"},{"ns":0,"title":"Marc Norman"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Mark Williams (actor)"},{"ns":0,"title":"Maro Charitra
+        (1978 film)"},{"ns":0,"title":"Maro Charitra (2010 film)"},{"ns":0,"title":"Martin
+        Childs"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Marty (film)"},{"ns":0,"title":"Master
+        of the Revels"},{"ns":0,"title":"Masterpiece Theatre"},{"ns":0,"title":"Mel
+        Brooks"},{"ns":0,"title":"Memorial reconstruction"},{"ns":0,"title":"Mena
+        Suvari"},{"ns":0,"title":"Mercutio"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Midnight
+        Cowboy"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Millennium Dome
+        Show"},{"ns":0,"title":"Million Dollar Baby"},{"ns":0,"title":"Miramax Films"},{"ns":0,"title":"Molly
+        (film)"},{"ns":0,"title":"Montagues and Capulets"},{"ns":0,"title":"Moonshine
+        River"},{"ns":0,"title":"Moulin Rouge!"},{"ns":0,"title":"Mrs. Brown"},{"ns":0,"title":"Mrs.
+        Doubtfire"},{"ns":0,"title":"Mrs. Miniver (film)"},{"ns":0,"title":"Mutiny
+        on the Bounty (1935 film)"},{"ns":0,"title":"My Big Fat Greek Wedding"},{"ns":0,"title":"My
+        Fair Lady (film)"},{"ns":0,"title":"My Wedding and Other Secrets"},{"ns":0,"title":"M\u00f4nica
+        e Cebolinha: No Mundo de Romeu e Julieta"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"Ned
+        Alleyn"},{"ns":0,"title":"Ned Sherrin"},{"ns":0,"title":"New Moon (novel)"},{"ns":0,"title":"Nicholas
+        Nickleby"},{"ns":0,"title":"Nicholas Nickleby (1912 film)"},{"ns":0,"title":"Nicholas
+        Nickleby (1947 film)"},{"ns":0,"title":"Nicholas Nickleby (2002 film)"},{"ns":0,"title":"Night
+        and Day (play)"},{"ns":0,"title":"Nine (2009 live-action film)"},{"ns":0,"title":"No
+        Country for Old Men (film)"},{"ns":0,"title":"Nothing Broken But My Heart"},{"ns":0,"title":"Nurse
+        (Romeo and Juliet)"},{"ns":0,"title":"Nurse Betty"},{"ns":0,"title":"O Casamento
+        de Romeu e Julieta"},{"ns":0,"title":"Oliver! (film)"},{"ns":0,"title":"On
+        the Razzle (play)"},{"ns":0,"title":"On the Waterfront"},{"ns":0,"title":"Once
+        on This Island"},{"ns":0,"title":"Ondagona Baa"},{"ns":0,"title":"One Flew
+        Over the Cuckoo''s Nest (film)"},{"ns":0,"title":"Ordinary People"},{"ns":0,"title":"Out
+        of Africa (film)"},{"ns":0,"title":"Panic Button (1964 film)"},{"ns":0,"title":"Parade''s
+        End (TV series)"},{"ns":0,"title":"Patrick Barlow"},{"ns":0,"title":"Patton
+        (film)"},{"ns":0,"title":"Paul Barber (actor)"},{"ns":0,"title":"Pay as You
+        Exit"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter Glossop (sound
+        engineer)"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Peut-\u00eatre
+        toi"},{"ns":0,"title":"Phileine Says Sorry"},{"ns":0,"title":"Philip Henslowe"},{"ns":0,"title":"Pizza
+        My Heart (film)"},{"ns":0,"title":"Platoon (film)"},{"ns":0,"title":"Play
+        within a play"},{"ns":0,"title":"Poodle Springs (film)"},{"ns":0,"title":"Porgy
+        and Bess (film)"},{"ns":0,"title":"Prince Charming (TV film)"},{"ns":0,"title":"Prince
+        Edward, Earl of Wessex"},{"ns":0,"title":"Private Eye"},{"ns":0,"title":"Private
+        Romeo"},{"ns":0,"title":"Priyatama (2014 film)"},{"ns":0,"title":"Prizzi''s
+        Honor"},{"ns":0,"title":"Professional Foul"},{"ns":0,"title":"Proof (2005
+        film)"},{"ns":0,"title":"Puritan"},{"ns":0,"title":"Pyramus and Thisbe"},{"ns":0,"title":"Queen
+        Elizabeth I"},{"ns":0,"title":"Radio and Juliet"},{"ns":0,"title":"Rain Man"},{"ns":0,"title":"Ramlila"},{"ns":0,"title":"Rebecca
+        (1940 film)"},{"ns":0,"title":"Rendez-vous (1985 film)"},{"ns":0,"title":"Richard
+        Burbage"},{"ns":0,"title":"Richard III (1955 film)"},{"ns":0,"title":"Richard
+        III (play)"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robin O''Donoghue"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Rock ''n'' Roll (play)"},{"ns":0,"title":"Rocky"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Romancing the Stone"},{"ns":0,"title":"Romanoff and
+        Juliet (film)"},{"ns":0,"title":"Romanoff and Juliet (play)"},{"ns":0,"title":"Romantic
+        film"},{"ns":0,"title":"Rome & Jewel"},{"ns":0,"title":"Romeo"},{"ns":0,"title":"Romeo,
+        Juliet and Darkness"},{"ns":0,"title":"Romeo.Juliet"},{"ns":0,"title":"Romeo
+        & Julia"},{"ns":0,"title":"Romeo & Juliet: Sealed with a Kiss"},{"ns":0,"title":"Romeo
+        + Juliet"},{"ns":0,"title":"Romeo + Juliet (ballet)"},{"ns":0,"title":"Romeo
+        + Juliet (soundtrack)"},{"ns":0,"title":"Romeo Must Die"},{"ns":0,"title":"Romeo
+        and Juliet"},{"ns":0,"title":"Romeo and Juliet: the Tomb Scene"},{"ns":0,"title":"Romeo
+        and Juliet (1900 film)"},{"ns":0,"title":"Romeo and Juliet (1908 film)"},{"ns":0,"title":"Romeo
+        and Juliet (1916 Metro Pictures film)"},{"ns":0,"title":"Romeo and Juliet
+        (1916 film)"},{"ns":0,"title":"Romeo and Juliet (1936 film)"},{"ns":0,"title":"Romeo
+        and Juliet (1953 film)"},{"ns":0,"title":"Romeo and Juliet (1954 film)"},{"ns":0,"title":"Romeo
+        and Juliet (1955 film)"},{"ns":0,"title":"Romeo and Juliet (1968 film)"},{"ns":0,"title":"Romeo
+        and Juliet (1968 film soundtrack)"},{"ns":0,"title":"Romeo and Juliet (2006
+        film)"},{"ns":0,"title":"Romeo and Juliet (2007 film)"},{"ns":0,"title":"Romeo
+        and Juliet (2013 Broadway play)"},{"ns":0,"title":"Romeo and Juliet (2013
+        film)"},{"ns":0,"title":"Romeo and Juliet (Alec R. Costandinos song)"},{"ns":0,"title":"Romeo
+        and Juliet (Cranko)"},{"ns":0,"title":"Romeo and Juliet (Dire Straits song)"},{"ns":0,"title":"Romeo
+        and Juliet (Lavery)"},{"ns":0,"title":"Romeo and Juliet (MacMillan)"},{"ns":0,"title":"Romeo
+        and Juliet (Pastor)"},{"ns":0,"title":"Romeo and Juliet (Prokofiev)"},{"ns":0,"title":"Romeo
+        and Juliet (Sylk-E. Fyne song)"},{"ns":0,"title":"Romeo and Juliet (Tchaikovsky)"},{"ns":0,"title":"Romeo
+        and Juliet (films)"},{"ns":0,"title":"Romeo and Juliet on screen"},{"ns":0,"title":"Romeo
+        und Julia"},{"ns":0,"title":"Romeo und Julie"},{"ns":0,"title":"Romeo y Julieta
+        (TV series)"},{"ns":0,"title":"Romeo \u00d7 Juliet"},{"ns":0,"title":"Romie-0
+        and Julie-8"},{"ns":0,"title":"Romiette and Julio"},{"ns":0,"title":"Rom\u00e9o
+        et Juliette"},{"ns":0,"title":"Rom\u00e9o et Juliette (Berlioz)"},{"ns":0,"title":"Rom\u00e9o
+        et Juliette (musical)"},{"ns":0,"title":"Room at the Top (1959 film)"},{"ns":0,"title":"Rosaline"},{"ns":0,"title":"Rose
+        by Any Other Name..."},{"ns":0,"title":"Rosencrantz & Guildenstern Are Dead"},{"ns":0,"title":"Rosencrantz
+        & Guildenstern Are Dead (film)"},{"ns":0,"title":"Rosencrantz and Guildenstern
+        Are Dead"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Rough Crossing"},{"ns":0,"title":"Rupert
+        Everett"},{"ns":0,"title":"S. J. Simon"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:07 GMT
+recorded_with: VCR 2.9.2

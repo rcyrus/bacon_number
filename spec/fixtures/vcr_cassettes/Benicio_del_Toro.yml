@@ -1,0 +1,264 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Benicio%20del%20Toro
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704604133, 1409504196, 1613027352
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4877'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:50 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4009 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"292592|0|Sotigui_Kouyat\u00e9"}},"query":{"pages":{"292592":{"pageid":292592,"ns":0,"title":"Benicio
+        del Toro","links":[{"ns":0,"title":"15th Screen Actors Guild Awards"},{"ns":0,"title":"2008
+        Cannes Film Festival"},{"ns":0,"title":"21 Grams"},{"ns":0,"title":"7 Days
+        in Havana"},{"ns":0,"title":"81st Academy Awards"},{"ns":0,"title":"ALMA Award"},{"ns":0,"title":"A
+        Big Family"},{"ns":0,"title":"Abel Ferrara"},{"ns":0,"title":"Academia del
+        Perpetuo Socorro"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Agent:
+        Century 21"},{"ns":0,"title":"Akim Tamiroff"},{"ns":0,"title":"Alan Alda"},{"ns":0,"title":"Alan
+        Arkin"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert Brooks"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alberto Sordi"},{"ns":0,"title":"Alfredo Landa"},{"ns":0,"title":"Alicia
+        Silverstone"},{"ns":0,"title":"Alison Lohman"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"American
+        Beauty (1999 film)"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Anatoly
+        Solonitsyn"},{"ns":0,"title":"Andrea Di Stefano"},{"ns":0,"title":"Andrzej
+        Seweryn"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Antal P\u00e1ger
+        (actor)"},{"ns":0,"title":"Anthony Perkins"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Armin Mueller-Stahl"},{"ns":0,"title":"Arthur
+        Kennedy (actor)"},{"ns":0,"title":"Arthur Lowe"},{"ns":0,"title":"Arthur Mendoza"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Supporting Role"},{"ns":0,"title":"Baptized"},{"ns":0,"title":"Barcelona"},{"ns":0,"title":"Barkhad
+        Abdi"},{"ns":0,"title":"Barry Fitzgerald"},{"ns":0,"title":"Basque people"},{"ns":0,"title":"Basquiat
+        (film)"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben
+        Johnson (actor)"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Beno\u00eet
+        Magimel"},{"ns":0,"title":"Berlin International Film Festival"},{"ns":0,"title":"Bernard
+        Blancan"},{"ns":0,"title":"Best Actor Award (Cannes Film Festival)"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Big Top Pee-wee"},{"ns":0,"title":"Bill
+        Murray"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Blockbuster
+        Entertainment Award"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bolivia"},{"ns":0,"title":"Brad
+        Dourif"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradford Dillman"},{"ns":0,"title":"Bread
+        and Roses (2000 film)"},{"ns":0,"title":"British Academy of Film and Television
+        Arts"},{"ns":0,"title":"Broadcast Film Critics Association Award for Best
+        Supporting Actor"},{"ns":0,"title":"Bruce Davison"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Burl Ives"},{"ns":0,"title":"Burt
+        Lancaster"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"Caligula (film)"},{"ns":0,"title":"Cameo
+        appearance"},{"ns":0,"title":"Campari"},{"ns":0,"title":"Cannes Film Festival"},{"ns":0,"title":"Cannes
+        Man (film)"},{"ns":0,"title":"Carlos Arroyo"},{"ns":0,"title":"Casey Affleck"},{"ns":0,"title":"Catalan
+        people"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Catholic
+        Church"},{"ns":0,"title":"Charles Boyer"},{"ns":0,"title":"Charles Coburn"},{"ns":0,"title":"Charles
+        Vanel"},{"ns":0,"title":"Chazz Palminteri"},{"ns":0,"title":"Che (film)"},{"ns":0,"title":"Che
+        Guevara"},{"ns":0,"title":"Chicago Film Critics Association"},{"ns":0,"title":"Chicago
+        Film Critics Association Award for Best Supporting Actor"},{"ns":0,"title":"Chief
+        Dan George"},{"ns":0,"title":"China Moon"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Chris Cooper (actor)"},{"ns":0,"title":"Christian
+        Bale"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Columbus: The Discovery"},{"ns":0,"title":"Christopher Lloyd"},{"ns":0,"title":"Christopher
+        McQuarrie"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Cinephile"},{"ns":0,"title":"Circle in the Square
+        Theatre School"},{"ns":0,"title":"Clifton Collins, Jr."},{"ns":0,"title":"Clifton
+        Webb"},{"ns":0,"title":"Clive Owen"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Colin
+        Welland"},{"ns":0,"title":"Collector (comics)"},{"ns":0,"title":"Craig Russell
+        (Canadian actor)"},{"ns":0,"title":"Cuba Gooding, Jr."},{"ns":0,"title":"Cult
+        film"},{"ns":0,"title":"Cultural diversity in Puerto Rico"},{"ns":0,"title":"D.
+        W. Moffett"},{"ns":0,"title":"Daily Mail"},{"ns":0,"title":"Dallas-Fort Worth
+        Film Critics Association Award for Best Supporting Actor"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Daniel Auteuil"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Daniel
+        Hendler"},{"ns":0,"title":"Daniel Massey (actor)"},{"ns":0,"title":"Danish
+        people"},{"ns":0,"title":"David Strathairn"},{"ns":0,"title":"David Thewlis"},{"ns":0,"title":"Deadline.com"},{"ns":0,"title":"Dean
+        Jagger"},{"ns":0,"title":"Dean Stockwell"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Del
+        Toro (surname)"},{"ns":0,"title":"Denholm Elliott"},{"ns":0,"title":"Dennis
+        Haysbert"},{"ns":0,"title":"Dennis Hopper"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Denzel
+        Washington"},{"ns":0,"title":"Diamond"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Djimon
+        Hounsou"},{"ns":0,"title":"Don Ameche"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Donald
+        Crisp"},{"ns":0,"title":"Drug Wars: The Camarena Story"},{"ns":0,"title":"Earl
+        Holliman"},{"ns":0,"title":"Ed Begley"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Eddie
+        Albert"},{"ns":0,"title":"Eddie Marsan"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Edmond
+        O''Brien"},{"ns":0,"title":"Edmund Gwenn"},{"ns":0,"title":"Edward Fox (actor)"},{"ns":0,"title":"Edward
+        G. Robinson"},{"ns":0,"title":"Edward Norton"},{"ns":0,"title":"Elio Germano"},{"ns":0,"title":"Emily
+        Woof"},{"ns":0,"title":"Empire Award for Best Actor"},{"ns":0,"title":"English
+        language"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Esquire (magazine)"},{"ns":0,"title":"Eugene
+        Levy"},{"ns":0,"title":"Eurodance"},{"ns":0,"title":"Excess Baggage"},{"ns":0,"title":"Fallen
+        Angels (TV series)"},{"ns":0,"title":"Family name"},{"ns":0,"title":"Fear
+        and Loathing in Las Vegas (film)"},{"ns":0,"title":"Fearless (1993 film)"},{"ns":0,"title":"Fernando
+        Fern\u00e1n G\u00f3mez"},{"ns":0,"title":"Fernando Rey"},{"ns":0,"title":"Film
+        adaptation"},{"ns":0,"title":"Film criticism"},{"ns":0,"title":"Film producer"},{"ns":0,"title":"Florida
+        Film Critics Circle Award for Best Supporting Actor"},{"ns":0,"title":"Forest
+        Whitaker"},{"ns":0,"title":"France"},{"ns":0,"title":"Francisco Rabal"},{"ns":0,"title":"Frank
+        Miller (comics)"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Frederic
+        Forrest"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Ge
+        You"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        Burns"},{"ns":0,"title":"George Chakiris"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George
+        Kennedy"},{"ns":0,"title":"George Sanders"},{"ns":0,"title":"Gerhard Olschewski"},{"ns":0,"title":"Gian
+        Maria Volont\u00e9"},{"ns":0,"title":"Giancarlo Giannini"},{"ns":0,"title":"Gig
+        Young"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor - Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Goya
+        Award"},{"ns":0,"title":"Goya Award for Best Actor"},{"ns":0,"title":"Goya
+        Awards"},{"ns":0,"title":"Graphic novel"},{"ns":0,"title":"Guardians of the
+        Galaxy (film)"},{"ns":0,"title":"Guerrilla (2008 film)"},{"ns":0,"title":"Guy
+        Ritchie"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"G\u00e9rard
+        Depardieu"},{"ns":0,"title":"Haing S. Ngor"},{"ns":0,"title":"Haley Joel Osment"},{"ns":0,"title":"Halle
+        Berry"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Harold Russell"},{"ns":0,"title":"Harry
+        Belafonte"},{"ns":0,"title":"Harvey Keitel"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Henchmen"},{"ns":0,"title":"Henry
+        Gibson"},{"ns":0,"title":"Hepatitis"},{"ns":0,"title":"Holger L\u00f6wenadler"},{"ns":0,"title":"Hollywood
+        Reporter"},{"ns":0,"title":"How the Light Gets In"},{"ns":0,"title":"Huevos
+        de oro"},{"ns":0,"title":"Hugh Griffith"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Hunter
+        S. Thompson"},{"ns":0,"title":"Iain Glen"},{"ns":0,"title":"Ian Holm"},{"ns":0,"title":"Imelda
+        Staunton"},{"ns":0,"title":"Independent Spirit Award"},{"ns":0,"title":"Independent
+        Spirit Award for Best Supporting Male"},{"ns":0,"title":"Independent Spirit
+        Awards"},{"ns":0,"title":"Indigenous American"},{"ns":0,"title":"Inherent
+        Vice (film)"},{"ns":0,"title":"Inside the Actors Studio"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"Inter-American University of Puerto Rico"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Iowa
+        Film Critics Awards 2003"},{"ns":0,"title":"Irish Independent"},{"ns":0,"title":"Italian
+        Online Movie Award for Best Supporting Actor"},{"ns":0,"title":"Italy"},{"ns":0,"title":"J.
+        Carrol Naish"},{"ns":0,"title":"Jack Albertson"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack
+        Nicholson"},{"ns":0,"title":"Jack Palance"},{"ns":0,"title":"Jack Rafferty"},{"ns":0,"title":"Jackie
+        Earle Haley"},{"ns":0,"title":"Jaco Pastorius"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"Jacques
+        Gamblin"},{"ns":0,"title":"Jake Gyllenhaal"},{"ns":0,"title":"Jamel Debbouze"},{"ns":0,"title":"James
+        Bond"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James Coburn"},{"ns":0,"title":"James
+        Dunn (actor)"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Spader"},{"ns":0,"title":"James
+        Stewart"},{"ns":0,"title":"James Whitmore"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jared
+        Leto"},{"ns":0,"title":"Jason Lee (actor)"},{"ns":0,"title":"Jason Patric"},{"ns":0,"title":"Jason
+        Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jean-Louis Trintignant"},{"ns":0,"title":"Jean-Pierre
+        L\u00e9aud"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jean Gabin"},{"ns":0,"title":"Jean
+        Yanne"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Jimmy
+        Picard"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"Joe Pesci"},{"ns":0,"title":"Joel
+        Grey"},{"ns":0,"title":"John C. Reilly"},{"ns":0,"title":"John Carroll Lynch"},{"ns":0,"title":"John
+        Gielgud"},{"ns":0,"title":"John Hawkes (actor)"},{"ns":0,"title":"John Houseman"},{"ns":0,"title":"John
+        Hurt"},{"ns":0,"title":"John Huston"},{"ns":0,"title":"John Kitzmiller"},{"ns":0,"title":"John
+        Lithgow"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John Mills"},{"ns":0,"title":"John
+        Turturro"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jonathan Pryce"},{"ns":0,"title":"Jose
+        Ferrer"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Joseph Schildkraut"},{"ns":0,"title":"Josh
+        Brolin"},{"ns":0,"title":"Jos\u00e9 Luis G\u00f3mez"},{"ns":0,"title":"Joyride
+        (1996 film)"},{"ns":0,"title":"Jude Law"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Julian
+        Schnabel"},{"ns":0,"title":"Julio Ch\u00e1vez"},{"ns":0,"title":"J\u00f6rg
+        Pose"},{"ns":0,"title":"Kansas City Film Critics Circle Award for Best Supporting
+        Actor"},{"ns":0,"title":"Karl Malden"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kimberly
+        Stewart"},{"ns":0,"title":"Klaus Maria Brandauer"},{"ns":0,"title":"Konstantin
+        Lavronenko"},{"ns":0,"title":"La Isla Bonita"},{"ns":0,"title":"Larry Talbot"},{"ns":0,"title":"Las
+        Vegas Film Critics Society Award for Best Supporting Actor"},{"ns":0,"title":"Latina
+        (magazine)"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Liao Fan"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Licence to Kill"},{"ns":0,"title":"List
+        of Best Supporting Actor nominees"},{"ns":0,"title":"List of Fallen Angels
+        episodes"},{"ns":0,"title":"List of James Bond henchmen in Licence to Kill"},{"ns":0,"title":"List
+        of Miami Vice episodes"},{"ns":0,"title":"List of Miami Vice guest appearances"},{"ns":0,"title":"List
+        of Puerto Ricans"},{"ns":0,"title":"List of Tales from the Crypt episodes"},{"ns":0,"title":"Lon
+        Chaney, Jr."},{"ns":0,"title":"London"},{"ns":0,"title":"Los Angeles Film
+        Critics Association"},{"ns":0,"title":"Los Angeles Film Critics Association
+        Award for Best Supporting Actor"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Lou
+        Diamond Phillips"},{"ns":0,"title":"Lou Taylor Pucci"},{"ns":0,"title":"Louis
+        Gossett, Jr."},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"Madonna
+        (entertainer)"},{"ns":0,"title":"Mads Mikkelsen"},{"ns":0,"title":"Manfred
+        M\u00f6ck"},{"ns":0,"title":"Marcello Mastroianni"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Mark Ruffalo"},{"ns":0,"title":"Mark Wahlberg"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Martin Balsam"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Martin
+        Donovan"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Marvel Studios"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Max Perlich"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"Maynard Eziashi"},{"ns":0,"title":"Mehmet Emin Toprak
+        (actor)"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Mental
+        retardation"},{"ns":0,"title":"Mercersburg, Pennsylvania"},{"ns":0,"title":"Mercersburg
+        Academy"},{"ns":0,"title":"Mexican people"},{"ns":0,"title":"Miami Vice"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Gwisdek"},{"ns":0,"title":"Michael
+        Palin"},{"ns":0,"title":"Michael Redgrave"},{"ns":0,"title":"Michel Blanc"},{"ns":0,"title":"Michel
+        Piccoli"},{"ns":0,"title":"Michel Simon"},{"ns":0,"title":"Michele Placido"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Mikkel F\u00f8lsgaard"},{"ns":0,"title":"Milk
+        (film)"},{"ns":0,"title":"Millard Mitchell"},{"ns":0,"title":"Miramar, Puerto
+        Rico"},{"ns":0,"title":"Money for Nothing (1993 film)"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"Moritz Bleibtreu"},{"ns":0,"title":"Mount Sinai
+        Medical Center"},{"ns":0,"title":"Murray Melvin"},{"ns":0,"title":"Muzaffer
+        Ozdemir"},{"ns":0,"title":"M\u00e1laga, Puerto Rico"},{"ns":0,"title":"Naevius
+        Sutorius Macro"},{"ns":0,"title":"Naomi Watts"},{"ns":0,"title":"Narrator"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"National Board of Review Award for Best Cast"},{"ns":0,"title":"National
+        Society of Film Critics Award for Best Supporting Actor"},{"ns":0,"title":"Native
+        Americans in the United States"},{"ns":0,"title":"New York City"},{"ns":0,"title":"New
+        York Film Critics Circle"},{"ns":0,"title":"New York Film Critics Circle Award
+        for Best Supporting Actor"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Nogales,
+        Arizona"},{"ns":0,"title":"Nogales, Sonora"},{"ns":0,"title":"Oded Kotler"},{"ns":0,"title":"Olivier
+        Gourmet"},{"ns":0,"title":"Omar Sharif"},{"ns":0,"title":"Oncologist"},{"ns":0,"title":"Online
+        Film Critics Society Award for Best Actor"},{"ns":0,"title":"Online Film Critics
+        Society Award for Best Supporting Actor"},{"ns":0,"title":"Orson Welles"},{"ns":0,"title":"Oscar
+        Zeta Acosta"},{"ns":0,"title":"Oskar Werner"},{"ns":0,"title":"Pablo Escobar"},{"ns":0,"title":"Paradise
+        Lost (2014 film)"},{"ns":0,"title":"Pascal Duquenne"},{"ns":0,"title":"Paul
+        Barber (actor)"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul
+        Schneider (actor)"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Pediatric"},{"ns":0,"title":"Pedro
+        Infante"},{"ns":0,"title":"Pedroza"},{"ns":0,"title":"Peiman Ma''adi"},{"ns":0,"title":"People
+        (magazine)"},{"ns":0,"title":"Per Oscarsson"},{"ns":0,"title":"Peter Finch"},{"ns":0,"title":"Peter
+        Firth"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter Mullan"},{"ns":0,"title":"Peter
+        Riegert"},{"ns":0,"title":"Peter Sarsgaard"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Philip
+        Seymour Hoffman"},{"ns":0,"title":"Phoenix Film Critics Society Award for
+        Best Supporting Actor"},{"ns":0,"title":"Pop music"},{"ns":0,"title":"Puerto
+        Rican people"},{"ns":0,"title":"Rafael Caro Quintero"},{"ns":0,"title":"Ralph
+        Fiennes"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Ray McAnally"},{"ns":0,"title":"Ray
+        Milland"},{"ns":0,"title":"Rebeca Pous Del Toro"},{"ns":0,"title":"Red Buttons"},{"ns":0,"title":"Reza
+        Naji"},{"ns":0,"title":"Riccardo Cucciolla"},{"ns":0,"title":"Richard Attenborough"},{"ns":0,"title":"Richard
+        Benjamin"},{"ns":0,"title":"Richard Farnsworth"},{"ns":0,"title":"Richard
+        Harris"},{"ns":0,"title":"Ricky Martin"},{"ns":0,"title":"Rita Moreno"},{"ns":0,"title":"Robert
+        Carlyle"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert
+        Morley"},{"ns":0,"title":"Robert Preston (actor)"},{"ns":0,"title":"Robert
+        Rodriguez"},{"ns":0,"title":"Roberto Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rod
+        Steiger"},{"ns":0,"title":"Rod Stewart"},{"ns":0,"title":"Roschdy Zem"},{"ns":0,"title":"Sal
+        Mineo"},{"ns":0,"title":"Salvatore Cascio"},{"ns":0,"title":"Sam Rockwell"},{"ns":0,"title":"Sami
+        Bouajila"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"Samy Naceri"},{"ns":0,"title":"San
+        Diego Film Critics Society Award for Best Supporting Actor"},{"ns":0,"title":"San
+        German, Puerto Rico"},{"ns":0,"title":"Santurce, San Juan, Puerto Rico"},{"ns":0,"title":"Saro
+        Urz\u00ec"},{"ns":0,"title":"Satellite Award for Best Supporting Actor - Motion
+        Picture"},{"ns":0,"title":"Savages: The Interrogations"},{"ns":0,"title":"Savages
+        (2012 film)"},{"ns":0,"title":"Screen Actors Guild"},{"ns":0,"title":"Screen
+        Actors Guild Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Male Actor in a Leading Role"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Supporting
+        Role"},{"ns":0,"title":"Sean Astin"},{"ns":0,"title":"Sean Connery"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Sergei Puskepalis"},{"ns":0,"title":"Seymour Cassel"},{"ns":0,"title":"Shahab
+        Hosseini"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Shell Game"},{"ns":0,"title":"Sidney
+        Poitier"},{"ns":0,"title":"Silver Bear"},{"ns":0,"title":"Silver Bear for
+        Best Actor"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Sin City (film)"},{"ns":0,"title":"Sin
+        City (movie)"},{"ns":0,"title":"Snatch (film)"},{"ns":0,"title":"Somewhere
+        (film)"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:50 GMT
+recorded_with: VCR 2.9.2

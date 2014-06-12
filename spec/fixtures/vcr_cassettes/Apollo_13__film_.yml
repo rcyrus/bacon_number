@@ -1,0 +1,231 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Apollo%2013%20(film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390594090, 3085119749, 1613022461
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4080'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:45 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"142417":{"pageid":142417,"ns":0,"title":"Apollo
+        13 (film)","links":[{"ns":0,"title":"24: Live Another Day"},{"ns":0,"title":"24:
+        Redemption"},{"ns":0,"title":"24 (TV series)"},{"ns":0,"title":"68th Academy
+        Awards"},{"ns":0,"title":"8 Mile (film)"},{"ns":0,"title":"AFI''s 100 Years...
+        100 Cheers"},{"ns":0,"title":"AFI''s 100 Years... 100 Movie Quotes"},{"ns":0,"title":"AFI''s
+        100 Years... 100 Thrills"},{"ns":0,"title":"A Beautiful Mind (film)"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Award for Best Art Direction"},{"ns":0,"title":"Academy
+        Award for Best Film Editing"},{"ns":0,"title":"Academy Award for Best Original
+        Score"},{"ns":0,"title":"Academy Award for Best Picture"},{"ns":0,"title":"Academy
+        Award for Best Sound"},{"ns":0,"title":"Academy Award for Best Sound Mixing"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Award for Best
+        Supporting Actress"},{"ns":0,"title":"Academy Award for Film Editing"},{"ns":0,"title":"Academy
+        Award for Original Music Score"},{"ns":0,"title":"Academy Award for Visual
+        Effects"},{"ns":0,"title":"Academy Award for Writing Adapted Screenplay"},{"ns":0,"title":"Al
+        Reinert"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"AllMusic"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"Allmusic"},{"ns":0,"title":"American Beauty (1999
+        film)"},{"ns":0,"title":"American Cinema Editors"},{"ns":0,"title":"American
+        Film Institute"},{"ns":0,"title":"American Gangster (film)"},{"ns":0,"title":"American
+        Society of Cinematographers"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Angels
+        & Demons (film)"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Annie
+        Lennox"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo"},{"ns":0,"title":"Apollo
+        11"},{"ns":0,"title":"Apollo 13"},{"ns":0,"title":"Apollo 15"},{"ns":0,"title":"Apollo
+        8"},{"ns":0,"title":"Apollo Command/Service Module"},{"ns":0,"title":"Apollo
+        Lunar Module"},{"ns":0,"title":"Armed and Dangerous (film)"},{"ns":0,"title":"Arrested
+        Development (TV series)"},{"ns":0,"title":"Artistic license"},{"ns":0,"title":"Aspect
+        ratio (image)"},{"ns":0,"title":"Atmospheric reentry"},{"ns":0,"title":"Audio
+        commentary (DVD)"},{"ns":0,"title":"Babe (film)"},{"ns":0,"title":"Backdraft
+        (film)"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin
+        Bratt"},{"ns":0,"title":"Beyond the Mat"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Blu-ray
+        disc"},{"ns":0,"title":"Blue Crush"},{"ns":0,"title":"Boeing KC-135"},{"ns":0,"title":"Boomerang
+        (1992 film)"},{"ns":0,"title":"Bowfinger"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Brad
+        Pitt"},{"ns":0,"title":"Braveheart"},{"ns":0,"title":"Brett Cullen"},{"ns":0,"title":"Brian
+        Grazer"},{"ns":0,"title":"British Academy of Film and Television Arts"},{"ns":0,"title":"Bruce
+        Jones (actor)"},{"ns":0,"title":"Bryce Dallas Howard"},{"ns":0,"title":"Cape
+        Kennedy"},{"ns":0,"title":"Capsule communicator"},{"ns":0,"title":"Carbon
+        dioxide"},{"ns":0,"title":"Casting Society of America"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Central Standard Time"},{"ns":0,"title":"Changeling
+        (film)"},{"ns":0,"title":"Charles Duke"},{"ns":0,"title":"Charlie Rose"},{"ns":0,"title":"Chicago
+        Film Critics Association"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Chicago
+        Suntimes"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Chris Ellis (actor)"},{"ns":0,"title":"Christian
+        Clemenson"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christopher
+        C. Kraft, Jr."},{"ns":0,"title":"Christopher C. Kraft Jr. Mission Control
+        Center"},{"ns":0,"title":"Cinderella Man"},{"ns":0,"title":"Clifton Collins,
+        Jr."},{"ns":0,"title":"Clint Howard"},{"ns":0,"title":"Cocoon (film)"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Command Module"},{"ns":0,"title":"Composite character"},{"ns":0,"title":"Cowboys
+        & Aliens"},{"ns":0,"title":"Curious George (TV series)"},{"ns":0,"title":"Curious
+        George 2: Follow That Monkey!"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Daniel P. Hanley"},{"ns":0,"title":"David Andrews
+        (actor)"},{"ns":0,"title":"David MacMillan (sound engineer)"},{"ns":0,"title":"David
+        Scott"},{"ns":0,"title":"Dean Cundey"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Deke
+        Slayton"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Directors
+        Guild of America"},{"ns":0,"title":"Docudrama"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Dr.
+        Seuss'' How the Grinch Stole Christmas (film)"},{"ns":0,"title":"EDtv"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Emily Ann Lloyd"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Erika
+        Christensen"},{"ns":0,"title":"Eugene F. Kranz"},{"ns":0,"title":"Far and
+        Away"},{"ns":0,"title":"Fear (1996 film)"},{"ns":0,"title":"Felicity (TV series)"},{"ns":0,"title":"Filmtracks.com"},{"ns":0,"title":"Flight
+        controller"},{"ns":0,"title":"Flight surgeon"},{"ns":0,"title":"Flightplan"},{"ns":0,"title":"Flixster"},{"ns":0,"title":"For
+        Love or Money (1993 film)"},{"ns":0,"title":"Fred Haise"},{"ns":0,"title":"Friday
+        Night Lights (TV series)"},{"ns":0,"title":"Friday Night Lights (film)"},{"ns":0,"title":"Friends
+        with Benefits (TV series)"},{"ns":0,"title":"From the Earth to the Moon (TV
+        miniseries)"},{"ns":0,"title":"Frost/Nixon (film)"},{"ns":0,"title":"Fun with
+        Dick and Jane (2005 film)"},{"ns":0,"title":"Gang Related (TV series)"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Gene Kranz"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"Gerry Griffin"},{"ns":0,"title":"Glynn Lunney"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Globe Award for Best Director - Motion
+        Picture"},{"ns":0,"title":"Golden Globe Award for Best Motion Picture - Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor - Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actress - Motion Picture"},{"ns":0,"title":"Grand
+        Theft Auto (film)"},{"ns":0,"title":"Gravity (film)"},{"ns":0,"title":"Greedy
+        (film)"},{"ns":0,"title":"Gung Ho (film)"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"HD
+        DVD"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Hank Williams"},{"ns":0,"title":"Heartland
+        Film Festival"},{"ns":0,"title":"Hiller and Diller"},{"ns":0,"title":"Housesitter
+        (film)"},{"ns":0,"title":"Houston, Texas"},{"ns":0,"title":"How to Live with
+        Your Parents (For the Rest of Your Life)"},{"ns":0,"title":"Hugo Award for
+        Best Dramatic Presentation"},{"ns":0,"title":"Hugo Awards"},{"ns":0,"title":"Hugo
+        Speer"},{"ns":0,"title":"Huntsville, Alabama"},{"ns":0,"title":"IMAX"},{"ns":0,"title":"Il
+        Postino"},{"ns":0,"title":"Imagine Entertainment"},{"ns":0,"title":"Imelda
+        Staunton"},{"ns":0,"title":"In the Heart of the Sea (film)"},{"ns":0,"title":"Inside
+        Deep Throat"},{"ns":0,"title":"Inside Man"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Intolerable
+        Cruelty"},{"ns":0,"title":"Inventing the Abbotts"},{"ns":0,"title":"Ionization
+        blackout"},{"ns":0,"title":"J. Edgar"},{"ns":0,"title":"Jack Swigert"},{"ns":0,"title":"Jacob
+        Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James Brown"},{"ns":0,"title":"James
+        Horner"},{"ns":0,"title":"Janet Maslin"},{"ns":0,"title":"Jean Speegle Howard"},{"ns":0,"title":"Jefferson
+        Airplane"},{"ns":0,"title":"Jeffrey Kluger"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Jim
+        Lovell"},{"ns":0,"title":"Joe Spano"},{"ns":0,"title":"John Aaron"},{"ns":0,"title":"John
+        Sturges"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John Young (astronaut)"},{"ns":0,"title":"Johnson
+        Space Center"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"KC-135"},{"ns":0,"title":"Kansas
+        Cosmosphere and Space Center"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Katy
+        Perry: Part of Me"},{"ns":0,"title":"Ken Mattingly"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kindergarten
+        Cop"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Leslie Ekker"},{"ns":0,"title":"Lethbridge
+        Public Library"},{"ns":0,"title":"Liar Liar"},{"ns":0,"title":"Lie to Me"},{"ns":0,"title":"Life
+        (1999 film)"},{"ns":0,"title":"Like Father Like Son (1987 film)"},{"ns":0,"title":"Liquid
+        oxygen"},{"ns":0,"title":"List of historical drama films"},{"ns":0,"title":"Loren
+        Dean"},{"ns":0,"title":"Lost Moon"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"Lunar
+        Module"},{"ns":0,"title":"MCA Records"},{"ns":0,"title":"MTV Movie Awards"},{"ns":0,"title":"Made
+        in America (2013 film)"},{"ns":0,"title":"Marc McClure"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Marooned (film)"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Mary
+        Kate Schellhardt"},{"ns":0,"title":"Matt Sweeney (special effects artist)"},{"ns":0,"title":"Max
+        Elliott Slade"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Mercury Rising"},{"ns":0,"title":"Merideth
+        Boswell"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Michael Corenblith"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michael Kanfer"},{"ns":0,"title":"Mighty Aphrodite"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"Mike Hill (film editor)"},{"ns":0,"title":"Miko
+        Hughes"},{"ns":0,"title":"Mira Sorvino"},{"ns":0,"title":"Misconceptions"},{"ns":0,"title":"Miss
+        Match"},{"ns":0,"title":"Mission Control Center"},{"ns":0,"title":"Music genre"},{"ns":0,"title":"My
+        Girl (film)"},{"ns":0,"title":"My Girl 2"},{"ns":0,"title":"NASA"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"Ned Vaughn"},{"ns":0,"title":"Neil Armstrong"},{"ns":0,"title":"Night
+        Shift (film)"},{"ns":0,"title":"Norman Greenbaum"},{"ns":0,"title":"Nutty
+        Professor II: The Klumps"},{"ns":0,"title":"Office of Public Affairs"},{"ns":0,"title":"Parabola"},{"ns":0,"title":"Parenthood
+        (2010 TV series)"},{"ns":0,"title":"Parenthood (film)"},{"ns":0,"title":"Paul
+        Barber (actor)"},{"ns":0,"title":"Pete Conrad"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter
+        Riegert"},{"ns":0,"title":"Peter Travers"},{"ns":0,"title":"Physics"},{"ns":0,"title":"Producers
+        Guild of America"},{"ns":0,"title":"Psycho (1998 film)"},{"ns":0,"title":"Quiz
+        Show (film)"},{"ns":0,"title":"Rance Howard"},{"ns":0,"title":"Ransom (1996
+        film)"},{"ns":0,"title":"Ray McKinnon (actor)"},{"ns":0,"title":"Real Genius"},{"ns":0,"title":"Record
+        label"},{"ns":0,"title":"Reduced gravity aircraft"},{"ns":0,"title":"Restless
+        (2011 film)"},{"ns":0,"title":"Restoration (1995 film)"},{"ns":0,"title":"Richard
+        Corliss"},{"ns":0,"title":"Rick Dior"},{"ns":0,"title":"Rita Ryack"},{"ns":0,"title":"Robert
+        Carlyle"},{"ns":0,"title":"Robert Legato"},{"ns":0,"title":"Robin Hood (2010
+        film)"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Roger Corman"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Rolling Stone Magazine"},{"ns":0,"title":"Ron Howard"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Rubella"},{"ns":0,"title":"Rush (2013 film)"},{"ns":0,"title":"San
+        Francisco Chronicle"},{"ns":0,"title":"Saturn Award"},{"ns":0,"title":"Saturn
+        Award for Best Action/Adventure/Thriller Film"},{"ns":0,"title":"Saturn V"},{"ns":0,"title":"Saved
+        (TV series)"},{"ns":0,"title":"Scott Millan"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Awards"},{"ns":0,"title":"Sense & Sensibility (film)"},{"ns":0,"title":"Seven
+        (film)"},{"ns":0,"title":"Seymour Liebergot"},{"ns":0,"title":"Sgt. Bilko"},{"ns":0,"title":"Shadow
+        Chasers"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Shark (TV
+        series)"},{"ns":0,"title":"Sikorsky SH-3D Sea King"},{"ns":0,"title":"Simon
+        Callow"},{"ns":0,"title":"Soundtrack"},{"ns":0,"title":"SoundtrackNet"},{"ns":0,"title":"Soundtrack
+        album"},{"ns":0,"title":"Space Foundation"},{"ns":0,"title":"Space Shuttle
+        program"},{"ns":0,"title":"Spies Like Us"},{"ns":0,"title":"Splash (film)"},{"ns":0,"title":"Sports
+        Night"},{"ns":0,"title":"Standard score"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steve
+        Pederson (sound engineer)"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Steven
+        Spielberg"},{"ns":0,"title":"The Beast (2001 TV series)"},{"ns":0,"title":"The
+        Big House (2004 TV series)"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The
+        Cat in the Hat (film)"},{"ns":0,"title":"The Chamber (film)"},{"ns":0,"title":"The
+        Cowboy Way (film)"},{"ns":0,"title":"The Da Vinci Code (film)"},{"ns":0,"title":"The
+        Dilemma"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The Inside (TV
+        series)"},{"ns":0,"title":"The Jimi Hendrix Experience"},{"ns":0,"title":"The
+        Mavericks"},{"ns":0,"title":"The Missing"},{"ns":0,"title":"The Nutty Professor
+        (1996 film)"},{"ns":0,"title":"The PJs"},{"ns":0,"title":"The Paper"},{"ns":0,"title":"The
+        Playboy Club"},{"ns":0,"title":"The Who"},{"ns":0,"title":"The Young Rascals"},{"ns":0,"title":"Thom
+        Barry"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Those Who Kill (U.S.
+        TV series)"},{"ns":0,"title":"Time Magazine"},{"ns":0,"title":"Todd Louiso"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Topher
+        Grace"},{"ns":0,"title":"Tower Heist"},{"ns":0,"title":"Tracy Reiner"},{"ns":0,"title":"Traffic
+        (2000 film)"},{"ns":0,"title":"Transmission (medicine)"},{"ns":0,"title":"Treasure
+        Hunters (TV series)"},{"ns":0,"title":"Turner Classic Movies"},{"ns":0,"title":"U.S.
+        Space Camp"},{"ns":0,"title":"UK"},{"ns":0,"title":"USA"},{"ns":0,"title":"USS
+        Iwo Jima (LPH-2)"},{"ns":0,"title":"USS New Orleans (LPH-11)"},{"ns":0,"title":"Undercover
+        Brother"},{"ns":0,"title":"United States dollar"},{"ns":0,"title":"Universal
+        Pictures"},{"ns":0,"title":"Universal Studios"},{"ns":0,"title":"Usual Suspects"},{"ns":0,"title":"Vehicle
+        Assembly Building"},{"ns":0,"title":"Walter Cronkite"},{"ns":0,"title":"Weighted
+        average"},{"ns":0,"title":"Weightlessness"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"William
+        Broyles, Jr."},{"ns":0,"title":"William Broyles Jr."},{"ns":0,"title":"William
+        Snape"},{"ns":0,"title":"Willow (film)"},{"ns":0,"title":"Wonderland (TV series)"},{"ns":0,"title":"Writers
+        Guild of America Award"},{"ns":0,"title":"Xander Berkeley"},{"ns":0,"title":"Young
+        Artist Awards"},{"ns":1,"title":"Talk:Apollo 13 (film)"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Disputed statement"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Brian
+        Grazer"},{"ns":10,"title":"Template:Ron Howard"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:Brian Grazer"},{"ns":11,"title":"Template
+        talk:Ron Howard"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":14,"title":"Category:Articles with dead external links
+        from October 2010"},{"ns":14,"title":"Category:Articles with dead external
+        links from September 2010"},{"ns":14,"title":"Category:Articles with disputed
+        statements from April 2013"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from April 2013"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from September 2011"},{"ns":100,"title":"Portal:Film"},{"ns":100,"title":"Portal:Human
+        spaceflight"},{"ns":100,"title":"Portal:Moon"},{"ns":100,"title":"Portal:Space"},{"ns":100,"title":"Portal:Spaceflight"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:46 GMT
+recorded_with: VCR 2.9.2

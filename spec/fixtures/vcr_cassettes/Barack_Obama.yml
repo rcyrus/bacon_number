@@ -1,0 +1,306 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Barack%20Obama
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001085056, 983686450, 1613024749
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5254'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:47 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4018 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"534366|0|Frank_Comerford_Walker"}},"query":{"pages":{"534366":{"pageid":534366,"ns":0,"title":"Barack
+        Obama","links":[{"ns":0,"title":"137th Street \u2013 City College (IRT Broadway
+        \u2013 Seventh Avenue Line)"},{"ns":0,"title":"14th Dalai Lama"},{"ns":0,"title":"1832
+        Democratic National Convention"},{"ns":0,"title":"1835 Democratic National
+        Convention"},{"ns":0,"title":"1840 Democratic National Convention"},{"ns":0,"title":"1844
+        Democratic National Convention"},{"ns":0,"title":"1848 Democratic National
+        Convention"},{"ns":0,"title":"1852 Democratic National Convention"},{"ns":0,"title":"1856
+        Democratic National Convention"},{"ns":0,"title":"1860 Democratic National
+        Convention"},{"ns":0,"title":"1864 Democratic National Convention"},{"ns":0,"title":"1868
+        Democratic National Convention"},{"ns":0,"title":"1872 Democratic National
+        Convention"},{"ns":0,"title":"1876 Democratic National Convention"},{"ns":0,"title":"1880
+        Democratic National Convention"},{"ns":0,"title":"1884 Democratic National
+        Convention"},{"ns":0,"title":"1888 Democratic National Convention"},{"ns":0,"title":"1892
+        Democratic National Convention"},{"ns":0,"title":"1896 Democratic National
+        Convention"},{"ns":0,"title":"1900 Democratic National Convention"},{"ns":0,"title":"1904
+        Democratic National Convention"},{"ns":0,"title":"1908 Democratic National
+        Convention"},{"ns":0,"title":"1912 Democratic National Convention"},{"ns":0,"title":"1916
+        Democratic National Convention"},{"ns":0,"title":"1920 Democratic National
+        Convention"},{"ns":0,"title":"1924 Democratic National Convention"},{"ns":0,"title":"1928
+        Democratic National Convention"},{"ns":0,"title":"1932 Democratic National
+        Convention"},{"ns":0,"title":"1936 Democratic National Convention"},{"ns":0,"title":"1940
+        Democratic National Convention"},{"ns":0,"title":"1944 Democratic National
+        Convention"},{"ns":0,"title":"1948 Democratic National Convention"},{"ns":0,"title":"1952
+        Democratic National Convention"},{"ns":0,"title":"1956 Democratic National
+        Convention"},{"ns":0,"title":"1960 Democratic National Convention"},{"ns":0,"title":"1964
+        Democratic National Convention"},{"ns":0,"title":"1968 Democratic National
+        Convention"},{"ns":0,"title":"1972 Democratic National Convention"},{"ns":0,"title":"1976
+        Democratic National Convention"},{"ns":0,"title":"1980 Democratic National
+        Convention"},{"ns":0,"title":"1984 Democratic National Convention"},{"ns":0,"title":"1985
+        Chicago Bears season"},{"ns":0,"title":"1988 Democratic National Convention"},{"ns":0,"title":"1992
+        Democratic National Convention"},{"ns":0,"title":"1996 Democratic National
+        Convention"},{"ns":0,"title":"2000 Democratic National Convention"},{"ns":0,"title":"2003
+        invasion of Iraq"},{"ns":0,"title":"2004 Democratic National Convention"},{"ns":0,"title":"2004
+        Democratic National Convention keynote address"},{"ns":0,"title":"2005 ALCS"},{"ns":0,"title":"2005
+        Nobel Peace Prize"},{"ns":0,"title":"2007 Nobel Peace Prize"},{"ns":0,"title":"2008
+        Democratic National Convention"},{"ns":0,"title":"2008 Green National Convention"},{"ns":0,"title":"2008
+        Libertarian National Convention"},{"ns":0,"title":"2008 Nobel Peace Prize"},{"ns":0,"title":"2008
+        Republican National Convention"},{"ns":0,"title":"2009 Major League Baseball
+        All-Star Game"},{"ns":0,"title":"2009 Nobel Peace Prize"},{"ns":0,"title":"2010
+        G-20 Toronto summit"},{"ns":0,"title":"2010 Nobel Peace Prize"},{"ns":0,"title":"2010
+        State of the Union Address"},{"ns":0,"title":"2010 United States federal budget"},{"ns":0,"title":"2011
+        Nobel Peace Prize"},{"ns":0,"title":"2011 State of the Union Address"},{"ns":0,"title":"2011
+        military intervention in Libya"},{"ns":0,"title":"2012 Aurora shooting"},{"ns":0,"title":"2012
+        Democratic National Convention"},{"ns":0,"title":"2012 Green National Convention"},{"ns":0,"title":"2012
+        Libertarian National Convention"},{"ns":0,"title":"2012 Nobel Peace Prize"},{"ns":0,"title":"2012
+        Republican National Convention"},{"ns":0,"title":"2012 State of the Union
+        Address"},{"ns":0,"title":"2012 UEFA Champions League Final"},{"ns":0,"title":"2013
+        Nobel Peace Prize"},{"ns":0,"title":"2013 State of the Union Address"},{"ns":0,"title":"2014
+        State of the Union Address"},{"ns":0,"title":"2014 Winter Olympics"},{"ns":0,"title":"2016:
+        Obama''s America"},{"ns":0,"title":"21st Century Democrats"},{"ns":0,"title":"ABC
+        News"},{"ns":0,"title":"A More Perfect Union (speech)"},{"ns":0,"title":"A
+        New Beginning"},{"ns":0,"title":"A Singular Woman: The Untold Story of Barack
+        Obama''s Mother"},{"ns":0,"title":"A Song Flung Up to Heaven"},{"ns":0,"title":"Abbottabad"},{"ns":0,"title":"Abdullah
+        of Saudi Arabia"},{"ns":0,"title":"Abraham Lincoln"},{"ns":0,"title":"Abram
+        Hewitt"},{"ns":0,"title":"Adlai E. Stevenson I"},{"ns":0,"title":"Adlai Stevenson
+        II"},{"ns":0,"title":"Adlai Stevenson III"},{"ns":0,"title":"Adolfo P\u00e9rez
+        Esquivel"},{"ns":0,"title":"African-American Civil Rights Movement (1955\u201368)"},{"ns":0,"title":"African
+        American"},{"ns":0,"title":"African Methodist Episcopal Church"},{"ns":0,"title":"Air
+        and Simple Gifts"},{"ns":0,"title":"Al Arabiya"},{"ns":0,"title":"Al Franken"},{"ns":0,"title":"Al
+        Gore"},{"ns":0,"title":"Al Smith"},{"ns":0,"title":"Alabama Democratic Party"},{"ns":0,"title":"Alan
+        J. Dixon"},{"ns":0,"title":"Alan Keyes"},{"ns":0,"title":"Alan Keyes presidential
+        campaign, 2008"},{"ns":0,"title":"Alaska Democratic Party"},{"ns":0,"title":"Alben
+        W. Barkley"},{"ns":0,"title":"Albert J. Hopkins"},{"ns":0,"title":"Albert
+        Lutuli"},{"ns":0,"title":"Albert Schweitzer"},{"ns":0,"title":"Alejandro Mendoza"},{"ns":0,"title":"Alexi
+        Giannoulias"},{"ns":0,"title":"Alfonso Garc\u00eda Robles"},{"ns":0,"title":"Alfred
+        Hermann Fried"},{"ns":0,"title":"Alice Palmer (politician)"},{"ns":0,"title":"Allen
+        G. Thurman"},{"ns":0,"title":"Alma mater"},{"ns":0,"title":"Altgeld Gardens,
+        Chicago"},{"ns":0,"title":"Alton B. Parker"},{"ns":0,"title":"Alva Myrdal"},{"ns":0,"title":"Alyson
+        Kennedy"},{"ns":0,"title":"Amber Lee Ettinger"},{"ns":0,"title":"America''s
+        Independent Party"},{"ns":0,"title":"America''s Party (political party)"},{"ns":0,"title":"American
+        Civil War"},{"ns":0,"title":"American Friends Service Committee"},{"ns":0,"title":"American
+        Independent Party"},{"ns":0,"title":"American Jobs Act"},{"ns":0,"title":"American
+        Party (1969)"},{"ns":0,"title":"American Recovery and Reinvestment Act of
+        2009"},{"ns":0,"title":"American Taxpayer Relief Act of 2012"},{"ns":0,"title":"American
+        Third Position Party"},{"ns":0,"title":"Amnesty International"},{"ns":0,"title":"An
+        Inconvenient Truth (book)"},{"ns":0,"title":"Andre Barnett"},{"ns":0,"title":"Andrei
+        Sakharov"},{"ns":0,"title":"Andrew Jackson"},{"ns":0,"title":"Andrew Johnson"},{"ns":0,"title":"Andy
+        Martin"},{"ns":0,"title":"Angela Merkel"},{"ns":0,"title":"Ann Dunham"},{"ns":0,"title":"Anthropology"},{"ns":0,"title":"Anwar
+        Sadat"},{"ns":0,"title":"Apartheid"},{"ns":0,"title":"Arab League"},{"ns":0,"title":"Arab\u2013Israeli
+        conflict"},{"ns":0,"title":"Ares I"},{"ns":0,"title":"Ares V"},{"ns":0,"title":"Argentina"},{"ns":0,"title":"Aristide
+        Briand"},{"ns":0,"title":"Arizona Democratic Party"},{"ns":0,"title":"Arthur
+        Henderson"},{"ns":0,"title":"Arthur Sewall"},{"ns":0,"title":"Artists for
+        Obama"},{"ns":0,"title":"Asia-Pacific Economic Cooperation"},{"ns":0,"title":"Assassination
+        threats against Barack Obama"},{"ns":0,"title":"Associate Justice of the Supreme
+        Court of the United States"},{"ns":0,"title":"Associate attorney"},{"ns":0,"title":"Associated
+        Press"},{"ns":0,"title":"Atheist"},{"ns":0,"title":"Audiobook"},{"ns":0,"title":"August
+        Belmont"},{"ns":0,"title":"Auguste Marie Fran\u00e7ois Beernaert"},{"ns":0,"title":"Augustus
+        Schell"},{"ns":0,"title":"Auma Obama"},{"ns":0,"title":"Aung San Suu Kyi"},{"ns":0,"title":"Austen
+        Chamberlain"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Author"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Automotive industry crisis of 2008\u20132010"},{"ns":0,"title":"BP"},{"ns":0,"title":"BP
+        Oil Spill"},{"ns":0,"title":"Bachelor of Arts"},{"ns":0,"title":"Ballot access
+        for the 2008 United States presidential election"},{"ns":0,"title":"Baptists"},{"ns":0,"title":"Barack
+        Obama, Sr."},{"ns":0,"title":"Barack Obama: The Story"},{"ns":0,"title":"Barack
+        Obama \"Hope\" poster"},{"ns":0,"title":"Barack Obama \"Joker\" poster"},{"ns":0,"title":"Barack
+        Obama College Preparatory High School"},{"ns":0,"title":"Barack Obama Supreme
+        Court candidates"},{"ns":0,"title":"Barack Obama Tucson memorial speech"},{"ns":0,"title":"Barack
+        Obama assassination plot in Denver"},{"ns":0,"title":"Barack Obama assassination
+        plot in Tennessee"},{"ns":0,"title":"Barack Obama citizenship conspiracy theories"},{"ns":0,"title":"Barack
+        Obama election victory speech, 2008"},{"ns":0,"title":"Barack Obama in comics"},{"ns":0,"title":"Barack
+        Obama on mass surveillance"},{"ns":0,"title":"Barack Obama on social media"},{"ns":0,"title":"Barack
+        Obama presidential campaign, 2008"},{"ns":0,"title":"Barack Obama presidential
+        campaign, 2012"},{"ns":0,"title":"Barack Obama presidential eligibility litigation"},{"ns":0,"title":"Barack
+        Obama presidential primary campaign, 2008"},{"ns":0,"title":"Barack Obama
+        religion conspiracy theories"},{"ns":0,"title":"Barack Obama social policy"},{"ns":0,"title":"Barack
+        Obama speech to joint session of Congress, February 2009"},{"ns":0,"title":"Barack
+        Obama speech to joint session of Congress, September 2009"},{"ns":0,"title":"Barack
+        Obama \u2013 Der schwarze Kennedy"},{"ns":0,"title":"Barack and Michelle"},{"ns":0,"title":"Barack
+        the Magic Negro"},{"ns":0,"title":"Bay Windows"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Ben
+        Bernanke"},{"ns":0,"title":"Benigno Aquino III"},{"ns":0,"title":"Benjamin
+        F. Hallett"},{"ns":0,"title":"Benjamin Gratz Brown"},{"ns":0,"title":"Benjamin
+        Harrison"},{"ns":0,"title":"Benjamin Netanyahu"},{"ns":0,"title":"Bernie Mac"},{"ns":0,"title":"Bertha
+        von Suttner"},{"ns":0,"title":"Betty Williams (Nobel laureate)"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Ayers presidential election controversy"},{"ns":0,"title":"Bill
+        Clinton"},{"ns":0,"title":"Bill Gates"},{"ns":0,"title":"Bill Richardson"},{"ns":0,"title":"Bill
+        Richardson presidential campaign, 2008"},{"ns":0,"title":"Biographical Directory
+        of the United States Congress"},{"ns":0,"title":"Black church"},{"ns":0,"title":"Blair
+        Underwood"},{"ns":0,"title":"Bloomberg L.P."},{"ns":0,"title":"Blue Dog Coalition"},{"ns":0,"title":"Bo
+        (dog)"},{"ns":0,"title":"Bob Barr"},{"ns":0,"title":"Bob Barr presidential
+        campaign, 2008"},{"ns":0,"title":"Bob Ely"},{"ns":0,"title":"Bobby Rush"},{"ns":0,"title":"Bono"},{"ns":0,"title":"Boston
+        Tea Party (political party)"},{"ns":0,"title":"Boycott"},{"ns":0,"title":"Bradford
+        Lyttle"},{"ns":0,"title":"Brazil"},{"ns":0,"title":"Brian Moore (politician)"},{"ns":0,"title":"Brian
+        Moore presidential campaign, 2008"},{"ns":0,"title":"Brian Rohrbough"},{"ns":0,"title":"Brunei"},{"ns":0,"title":"Buddy
+        Roemer"},{"ns":0,"title":"Buddy Roemer presidential campaign, 2012"},{"ns":0,"title":"Budget
+        Control Act of 2011"},{"ns":0,"title":"Bureau of Alcohol, Tobacco, Firearms
+        and Explosives"},{"ns":0,"title":"Bureau of Labor Statistics"},{"ns":0,"title":"Bush
+        tax cuts"},{"ns":0,"title":"Business International Corporation"},{"ns":0,"title":"By
+        the People: The Election of Barack Obama"},{"ns":0,"title":"CBS News"},{"ns":0,"title":"Cabinet
+        of the United States"},{"ns":0,"title":"Cairo University"},{"ns":0,"title":"California
+        Democratic Party"},{"ns":0,"title":"Calvert School"},{"ns":0,"title":"Calvin
+        Coolidge"},{"ns":0,"title":"Calvin S. Brice"},{"ns":0,"title":"Camp David"},{"ns":0,"title":"Campaign
+        finance in the United States"},{"ns":0,"title":"Canada"},{"ns":0,"title":"Cannabis
+        (drug)"},{"ns":0,"title":"Capital punishment in the United States"},{"ns":0,"title":"Car
+        Allowance Rebate System"},{"ns":0,"title":"Carl Person"},{"ns":0,"title":"Carl
+        von Ossietzky"},{"ns":0,"title":"Carlos Filipe Ximenes Belo"},{"ns":0,"title":"Carlos
+        Saavedra Lamas"},{"ns":0,"title":"Carol Moseley Braun"},{"ns":0,"title":"Catastrophe
+        (book)"},{"ns":0,"title":"Caucus"},{"ns":0,"title":"Change Is Now: Renewing
+        America''s Promise"},{"ns":0,"title":"Charles Albert Gobat"},{"ns":0,"title":"Charles
+        B. Farwell"},{"ns":0,"title":"Charles B. Potter"},{"ns":0,"title":"Charles
+        G. Dawes"},{"ns":0,"title":"Charles H. Percy"},{"ns":0,"title":"Charles Jay"},{"ns":0,"title":"Charles
+        S. Deneen"},{"ns":0,"title":"Charles Taylor Manatt"},{"ns":0,"title":"Charles
+        W. Brooks"},{"ns":0,"title":"Charles W. Bryan"},{"ns":0,"title":"Charles de
+        Gaulle"},{"ns":0,"title":"Charlotte, North Carolina"},{"ns":0,"title":"Cheri
+        Honkala"},{"ns":0,"title":"Chester A. Arthur"},{"ns":0,"title":"Chicago, Illinois"},{"ns":0,"title":"Chicago
+        Annenberg Challenge"},{"ns":0,"title":"Chicago Bears"},{"ns":0,"title":"Chicago
+        Lawn, Chicago"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Chicago
+        Tribune"},{"ns":0,"title":"Chicago White Sox"},{"ns":0,"title":"Chief Justice
+        of the United States"},{"ns":0,"title":"Chile"},{"ns":0,"title":"China"},{"ns":0,"title":"Chinese
+        Taipei"},{"ns":0,"title":"Chris Dodd"},{"ns":0,"title":"Chris Dodd presidential
+        campaign, 2008"},{"ns":0,"title":"Christian Lous Lange"},{"ns":0,"title":"Christian
+        Science Monitor"},{"ns":0,"title":"Christianity"},{"ns":0,"title":"Christianity
+        Today"},{"ns":0,"title":"Chrysler"},{"ns":0,"title":"Chrysler Chapter 11 reorganization"},{"ns":0,"title":"Chuck
+        Baldwin"},{"ns":0,"title":"Chuck Baldwin presidential campaign, 2008"},{"ns":0,"title":"CiNii"},{"ns":0,"title":"Cindy
+        Sheehan"},{"ns":0,"title":"Citizen''s Briefing Book"},{"ns":0,"title":"Civil
+        and political rights"},{"ns":0,"title":"Class Action Fairness Act of 2005"},{"ns":0,"title":"Clem
+        L. Shaver"},{"ns":0,"title":"Climate change policy of the United States"},{"ns":0,"title":"Cocaine"},{"ns":0,"title":"Coleen
+        Rowley"},{"ns":0,"title":"College Democrats of America"},{"ns":0,"title":"Colorado
+        Democratic Party"},{"ns":0,"title":"Columbia College, Columbia University"},{"ns":0,"title":"Columbia
+        University"},{"ns":0,"title":"Commerce Clause"},{"ns":0,"title":"Commission
+        on Presidential Debates"},{"ns":0,"title":"Community organizing"},{"ns":0,"title":"Comparison
+        of United States presidential candidates, 2008"},{"ns":0,"title":"Condoleezza
+        Rice"},{"ns":0,"title":"Confirmations of Barack Obama''s Cabinet"},{"ns":0,"title":"Congressional
+        Black Caucus"},{"ns":0,"title":"Congressional Budget Office"},{"ns":0,"title":"Congressional
+        Quarterly"},{"ns":0,"title":"Congressional Research Service"},{"ns":0,"title":"Congressional
+        endorsements for the 2008 United States presidential election"},{"ns":0,"title":"Constellation
+        program"},{"ns":0,"title":"Constitution Party (United States)"},{"ns":0,"title":"Constitution
+        Party National Convention"},{"ns":0,"title":"Constitutional law"},{"ns":0,"title":"Cordell
+        Hull"},{"ns":0,"title":"Counter-terrorism"},{"ns":0,"title":"Craig Robinson
+        (basketball)"},{"ns":0,"title":"Crain''s Chicago Business"},{"ns":0,"title":"Cristina
+        Fern\u00e1ndez de Kirchner"},{"ns":0,"title":"Crown Publishing Group"},{"ns":0,"title":"Culture
+        of Corruption"},{"ns":0,"title":"Cynthia Cooper (accountant)"},{"ns":0,"title":"Cynthia
+        McKinney"},{"ns":0,"title":"Cynthia McKinney presidential campaign, 2008"},{"ns":0,"title":"Cynthia
+        Nixon"},{"ns":0,"title":"DMOZ"},{"ns":0,"title":"Dag Hammarskj\u00f6ld"},{"ns":0,"title":"Daniel
+        Imperato"},{"ns":0,"title":"Darcy Richardson"},{"ns":0,"title":"Darrell Castle"},{"ns":0,"title":"David
+        Allen Smalley"},{"ns":0,"title":"David Axelrod"},{"ns":0,"title":"David Cameron"},{"ns":0,"title":"David
+        D. McKiernan"},{"ns":0,"title":"David Davis (Supreme Court justice)"},{"ns":0,"title":"David
+        J. Baker"},{"ns":0,"title":"David Maraniss"},{"ns":0,"title":"David Mendell"},{"ns":0,"title":"David
+        Petraeus"},{"ns":0,"title":"David Souter"},{"ns":0,"title":"David Trimble"},{"ns":0,"title":"David
+        Wilhelm"},{"ns":0,"title":"Daytime Emmy Award"},{"ns":0,"title":"Deadheads
+        for Obama"},{"ns":0,"title":"Death of Osama bin Laden"},{"ns":0,"title":"Debbie
+        Wasserman Schultz"},{"ns":0,"title":"Debra DeLee"},{"ns":0,"title":"Debt ceiling"},{"ns":0,"title":"Deceptive
+        Practices and Voter Intimidation Prevention Act"},{"ns":0,"title":"Deepwater
+        Horizon oil spill"},{"ns":0,"title":"Default (finance)"},{"ns":0,"title":"Defense
+        of Marriage Act"},{"ns":0,"title":"Defense of Marriage Act of 1996"},{"ns":0,"title":"Delaware"},{"ns":0,"title":"Delaware
+        Democratic Party"},{"ns":0,"title":"Delegate"},{"ns":0,"title":"Democracy
+        for America"},{"ns":0,"title":"Democratic Congressional Campaign Committee"},{"ns":0,"title":"Democratic
+        Governors Association"},{"ns":0,"title":"Democratic Leadership Council"},{"ns":0,"title":"Democratic
+        Legislative Campaign Committee"},{"ns":0,"title":"Democratic National Committee"},{"ns":0,"title":"Democratic
+        National Convention"},{"ns":0,"title":"Democratic Party (Italy)"},{"ns":0,"title":"Democratic
+        Party (Puerto Rico)"},{"ns":0,"title":"Democratic Party (United States)"},{"ns":0,"title":"Democratic
+        Party (United States) presidential candidates, 2008"},{"ns":0,"title":"Democratic
+        Party (United States) presidential debates, 2008"},{"ns":0,"title":"Democratic
+        Party (United States) presidential primaries, 2008"},{"ns":0,"title":"Democratic
+        Party (United States) vice presidential candidates, 2008"},{"ns":0,"title":"Democratic
+        Party of Arkansas"},{"ns":0,"title":"Democratic Party of Connecticut"},{"ns":0,"title":"Democratic
+        Party of Georgia"},{"ns":0,"title":"Democratic Party of Guam"},{"ns":0,"title":"Democratic
+        Party of Hawaii"},{"ns":0,"title":"Democratic Party of Illinois"},{"ns":0,"title":"Democratic
+        Party of New Mexico"},{"ns":0,"title":"Democratic Party of Oregon"},{"ns":0,"title":"Democratic
+        Party of Virginia"},{"ns":0,"title":"Democratic Party of Wisconsin"},{"ns":0,"title":"Democratic
+        Party of the State of Mississippi"},{"ns":0,"title":"Democratic Party presidential
+        candidates, 2012"},{"ns":0,"title":"Democratic Party presidential primaries,
+        2008"},{"ns":0,"title":"Democratic Party presidential primaries, 2012"},{"ns":0,"title":"Democratic
+        Republic of the Congo"},{"ns":0,"title":"Democratic Senatorial Campaign Committee"},{"ns":0,"title":"Democratic
+        organizations"},{"ns":0,"title":"Democrats Abroad"},{"ns":0,"title":"Dennis
+        Kucinich"},{"ns":0,"title":"Dennis Kucinich presidential campaign, 2008"},{"ns":0,"title":"Desmond
+        Tutu"},{"ns":0,"title":"Developing Communities Project"},{"ns":0,"title":"Diane
+        Beall Templin"},{"ns":0,"title":"Dick Cheney"},{"ns":0,"title":"Dick Durbin"},{"ns":0,"title":"Digital
+        object identifier"},{"ns":0,"title":"Dilma Rousseff"},{"ns":0,"title":"Disability"},{"ns":0,"title":"Disinvestment
+        from Iran"},{"ns":0,"title":"Disinvestment from South Africa"},{"ns":0,"title":"District
+        of Columbia Democratic State Committee"},{"ns":0,"title":"Dmitry Medvedev"},{"ns":0,"title":"Dodd\u2013Frank
+        Wall Street Reform and Consumer Protection Act"},{"ns":0,"title":"Dominique
+        Pire"},{"ns":0,"title":"Don''t Ask, Don''t Tell Repeal Act of 2010"},{"ns":0,"title":"Don''t
+        ask, don''t tell"},{"ns":0,"title":"Donald Fowler"},{"ns":0,"title":"Double
+        Down: Game Change 2012"},{"ns":0,"title":"Doug Stanhope"},{"ns":0,"title":"Draft
+        (politics)"},{"ns":0,"title":"Draft Bloomberg movement"},{"ns":0,"title":"Draft
+        Condi movement"},{"ns":0,"title":"Draft Mark Warner movement"},{"ns":0,"title":"Dreams
+        from My Father"},{"ns":0,"title":"Drilling rig"},{"ns":0,"title":"Duncan Hunter"},{"ns":0,"title":"Duncan
+        Hunter presidential campaign, 2008"},{"ns":0,"title":"Dwight D. Eisenhower"},{"ns":0,"title":"Dwight
+        Eisenhower"},{"ns":0,"title":"Earl Dodge"},{"ns":0,"title":"Early 2012 statewide
+        opinion polling for the United States presidential election, 2012"},{"ns":0,"title":"Early
+        life and career of Barack Obama"},{"ns":0,"title":"Earmark (politics)"},{"ns":0,"title":"East
+        Jerusalem"},{"ns":0,"title":"East\u2013West Center"},{"ns":0,"title":"Economic
+        policy of Barack Obama"},{"ns":0,"title":"Ed Rendell"},{"ns":0,"title":"Edmund
+        Muskie"},{"ns":0,"title":"Edward C. Noonan"},{"ns":0,"title":"Edward J. Flynn"},{"ns":0,"title":"Efforts
+        to impeach Barack Obama"},{"ns":0,"title":"Eisaku Sat\u014d"},{"ns":0,"title":"Elaine
+        Brown"},{"ns":0,"title":"Election"},{"ns":0,"title":"Electoral College (United
+        States)"},{"ns":0,"title":"Electoral history of Barack Obama"},{"ns":0,"title":"Elena
+        Kagan"},{"ns":0,"title":"Elias Kane"},{"ns":0,"title":"Elie Wiesel"},{"ns":0,"title":"Elihu
+        Root"},{"ns":0,"title":"Elisa Shokoff"},{"ns":0,"title":"Ellen Johnson Sirleaf"},{"ns":0,"title":"Embryonic
+        stem cell"},{"ns":0,"title":"Emily Greene Balch"},{"ns":0,"title":"Energy
+        policy of the Obama administration"},{"ns":0,"title":"Energy policy of the
+        United States"},{"ns":0,"title":"Enrique Pe\u00f1a Nieto"},{"ns":0,"title":"Eric
+        Chester"},{"ns":0,"title":"Ernesto Teodoro Moneta"},{"ns":0,"title":"Estate
+        tax in the United States"},{"ns":0,"title":"Estes Kefauver"},{"ns":0,"title":"Eugene
+        Puryear"},{"ns":0,"title":"European Union"},{"ns":0,"title":"Evan Bayh"},{"ns":0,"title":"Evan
+        Bayh presidential campaign, 2008"},{"ns":0,"title":"Evan Thomas"},{"ns":0,"title":"Everett
+        Dirksen"},{"ns":0,"title":"F. W. de Klerk"},{"ns":0,"title":"FactCheck.org"},{"ns":0,"title":"Factions
+        in the Democratic Party (United States)"},{"ns":0,"title":"Family of Barack
+        Obama"},{"ns":0,"title":"Fast food worker strikes"},{"ns":0,"title":"Federal
+        Assault Weapons Ban"},{"ns":0,"title":"Federal Election Commission"},{"ns":0,"title":"Federal
+        Elections Commission"},{"ns":0,"title":"Federal Funding Accountability and
+        Transparency Act of 2006"},{"ns":0,"title":"Federal Insurance Contributions
+        Act tax"},{"ns":0,"title":"Federal News Radio"},{"ns":0,"title":"Federal Reserve
+        System"},{"ns":0,"title":"Federal government of the United States"},{"ns":0,"title":"Federal
+        poverty level"},{"ns":0,"title":"Ferdinand Buisson"},{"ns":0,"title":"Fiat"},{"ns":0,"title":"Financial
+        crisis of 2007\u20132008"},{"ns":0,"title":"First 100 days of Barack Obama''s
+        presidency"},{"ns":0,"title":"First inauguration of Barack Obama"},{"ns":0,"title":"Fisher
+        House Foundation"},{"ns":0,"title":"Florida Democratic Party"},{"ns":0,"title":"Forbes"},{"ns":0,"title":"Foreign
+        Intelligence Surveillance Act of 1978 Amendments Act of 2008"},{"ns":0,"title":"Foreign
+        policy of the Barack Obama administration"},{"ns":0,"title":"France"},{"ns":0,"title":"France
+        24"},{"ns":0,"title":"Francis Preston Blair, Jr."},{"ns":0,"title":"Frank
+        B. Kellogg"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:48 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,200 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Bernard%20Madoff
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001089576, 3085123501, 1309427682
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3665'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:50 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"20650188":{"pageid":20650188,"ns":0,"title":"Bernard
+        Madoff","links":[{"ns":0,"title":"2000s energy crisis"},{"ns":0,"title":"2007\u201308
+        world food price crisis"},{"ns":0,"title":"2008 Central Asia energy crisis"},{"ns":0,"title":"2008
+        European Union stimulus plan"},{"ns":0,"title":"2008 Soci\u00e9t\u00e9 G\u00e9n\u00e9rale
+        trading loss"},{"ns":0,"title":"2008 United Kingdom bank rescue package"},{"ns":0,"title":"2008\u201309
+        Keynesian resurgence"},{"ns":0,"title":"2008\u201312 California budget crisis"},{"ns":0,"title":"2009
+        California college tuition hike protests"},{"ns":0,"title":"2009 May Day protests"},{"ns":0,"title":"2009
+        Supervisory Capital Assessment Program"},{"ns":0,"title":"2010 European Union
+        bank stress test"},{"ns":0,"title":"60 Minutes"},{"ns":0,"title":"ABC News"},{"ns":0,"title":"Affidavit"},{"ns":0,"title":"Affinity
+        fraud"},{"ns":0,"title":"Allen Stanford"},{"ns":0,"title":"Allocution"},{"ns":0,"title":"American
+        Recovery and Reinvestment Act of 2009"},{"ns":0,"title":"American nationality
+        law"},{"ns":0,"title":"Anglo Irish Bank Corporation Act 2009"},{"ns":0,"title":"Anglo
+        Irish Bank hidden loans controversy"},{"ns":0,"title":"Antibes"},{"ns":0,"title":"Appeal"},{"ns":0,"title":"Asset"},{"ns":0,"title":"Asset
+        management"},{"ns":0,"title":"Associated Press"},{"ns":0,"title":"Auction
+        rate security"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Automotive
+        industry crisis of 2008\u201310"},{"ns":0,"title":"Bachelor of Arts"},{"ns":0,"title":"Bail"},{"ns":0,"title":"Banking
+        (Special Provisions) Act 2008"},{"ns":0,"title":"Bankruptcy"},{"ns":0,"title":"Bernie
+        Madoff"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bid-offer
+        spread"},{"ns":0,"title":"Bloomberg News"},{"ns":0,"title":"Blue Jasmine"},{"ns":0,"title":"Board
+        of Governors"},{"ns":0,"title":"Board of Trustees"},{"ns":0,"title":"Boston
+        Globe"},{"ns":0,"title":"Bribery"},{"ns":0,"title":"Brooklyn Law School"},{"ns":0,"title":"Butner,
+        North Carolina"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CBS New York"},{"ns":0,"title":"CBS
+        News"},{"ns":0,"title":"CNBC"},{"ns":0,"title":"CNNMoney.com"},{"ns":0,"title":"Central
+        securities depository"},{"ns":0,"title":"Charles E. Schumer"},{"ns":0,"title":"Chase
+        Manhattan Bank"},{"ns":0,"title":"Chasing Madoff"},{"ns":0,"title":"Chief
+        financial officer"},{"ns":0,"title":"China\u2013Japan\u2013South Korea trilateral
+        summit"},{"ns":0,"title":"Chinese economic stimulus program"},{"ns":0,"title":"Christmas
+        Eve"},{"ns":0,"title":"Christopher J. Dodd"},{"ns":0,"title":"Chrysler"},{"ns":0,"title":"Collateralized
+        debt obligation"},{"ns":0,"title":"Collateralized mortgage obligation"},{"ns":0,"title":"Columbo
+        (TV series)"},{"ns":0,"title":"Commercial Paper Funding Facility"},{"ns":0,"title":"Consumer
+        Financial Protection Bureau"},{"ns":0,"title":"Conviction"},{"ns":0,"title":"Credit
+        default swap"},{"ns":0,"title":"Cultural Institutions Group"},{"ns":0,"title":"David
+        C. Williams (Inspector General)"},{"ns":0,"title":"David Friehling"},{"ns":0,"title":"David
+        G. Friehling"},{"ns":0,"title":"David Margolick"},{"ns":0,"title":"David P.
+        Weber"},{"ns":0,"title":"David Sheehan"},{"ns":0,"title":"Deccan Herald"},{"ns":0,"title":"Democratic
+        Party (United States)"},{"ns":0,"title":"Democratic Senatorial Campaign Committee"},{"ns":0,"title":"Denny
+        Chin"},{"ns":0,"title":"Diana B. Henriques"},{"ns":0,"title":"Dodd\u2013Frank
+        Wall Street Reform and Consumer Protection Act"},{"ns":0,"title":"Due diligence"},{"ns":0,"title":"Duke
+        University Health System"},{"ns":0,"title":"Durham, North Carolina"},{"ns":0,"title":"Early
+        1990s recession"},{"ns":0,"title":"Economic Stimulus Act of 2008"},{"ns":0,"title":"Effects
+        of the Great Recession on museums"},{"ns":0,"title":"Elie Wiesel"},{"ns":0,"title":"Elie
+        Wiesel Foundation"},{"ns":0,"title":"Elisse Walter"},{"ns":0,"title":"Emergency
+        Economic Stabilization Act of 2008"},{"ns":0,"title":"Eric Swanson"},{"ns":0,"title":"Erin
+        Arvedlund"},{"ns":0,"title":"Eurozone crisis"},{"ns":0,"title":"False statement"},{"ns":0,"title":"Far
+        Rockaway High School"},{"ns":0,"title":"Federal Bureau of Investigation"},{"ns":0,"title":"Federal
+        Bureau of Prisons"},{"ns":0,"title":"Federal Correctional Complex, Butner"},{"ns":0,"title":"Federal
+        Correctional Institution, Otisville"},{"ns":0,"title":"Federal Deposit Insurance
+        Corporation"},{"ns":0,"title":"Federal Home Loan Banks"},{"ns":0,"title":"Federal
+        Housing Administration"},{"ns":0,"title":"Federal Housing Finance Agency"},{"ns":0,"title":"Federal
+        Housing Finance Board"},{"ns":0,"title":"Federal Reserve System"},{"ns":0,"title":"Federal
+        crime"},{"ns":0,"title":"Federal offense"},{"ns":0,"title":"Felony"},{"ns":0,"title":"Fiduciary"},{"ns":0,"title":"Financial
+        Times"},{"ns":0,"title":"Financial crisis of 2007\u201308"},{"ns":0,"title":"Financial
+        crisis of 2007\u20132010"},{"ns":0,"title":"Financial endowment"},{"ns":0,"title":"Financier"},{"ns":0,"title":"Forex
+        scandal"},{"ns":0,"title":"Fox News"},{"ns":0,"title":"Frank DiPascali"},{"ns":0,"title":"Fraternity"},{"ns":0,"title":"Fraud
+        Enforcement and Recovery Act of 2009"},{"ns":0,"title":"Fred Wilpon"},{"ns":0,"title":"Future
+        of newspapers"},{"ns":0,"title":"General Motors"},{"ns":0,"title":"Genevievette
+        Walker-Lightfoot"},{"ns":0,"title":"Gift of Life Bone Marrow Foundation"},{"ns":0,"title":"Government
+        National Mortgage Association"},{"ns":0,"title":"Great Recession"},{"ns":0,"title":"Great
+        Recession in Africa"},{"ns":0,"title":"Great Recession in Asia"},{"ns":0,"title":"Great
+        Recession in Europe"},{"ns":0,"title":"Great Recession in Oceania"},{"ns":0,"title":"Great
+        Recession in South America"},{"ns":0,"title":"Great Recession in the Americas"},{"ns":0,"title":"Great
+        Recession in the United States"},{"ns":0,"title":"Green New Deal"},{"ns":0,"title":"Greenwich,
+        Connecticut"},{"ns":0,"title":"H. David Kotz"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Haaretz"},{"ns":0,"title":"Hadassah"},{"ns":0,"title":"Hadassah,
+        the Women''s Zionist Organization of America"},{"ns":0,"title":"Harry Markopolos"},{"ns":0,"title":"Harvard
+        Business Press"},{"ns":0,"title":"Harvard University"},{"ns":0,"title":"Harvey
+        Pitt"},{"ns":0,"title":"Hofstra University"},{"ns":0,"title":"House arrest"},{"ns":0,"title":"Housing
+        and Economic Recovery Act of 2008"},{"ns":0,"title":"Housing cooperative"},{"ns":0,"title":"Hypertension"},{"ns":0,"title":"Imagining
+        Madoff"},{"ns":0,"title":"In God We Trust (2013)"},{"ns":0,"title":"Inspector
+        General"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"Internal
+        Revenue Service"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Investment
+        advisor"},{"ns":0,"title":"Ira Sorkin"},{"ns":0,"title":"Irish Bank Resolution
+        Corporation"},{"ns":0,"title":"Irish budget, 2010"},{"ns":0,"title":"Irish
+        budget, 2011"},{"ns":0,"title":"Irish budget, 2012"},{"ns":0,"title":"Irish
+        budget, 2013"},{"ns":0,"title":"Irish emergency budget, 2009"},{"ns":0,"title":"Irving
+        Picard"},{"ns":0,"title":"J.P. Morgan Chase & Co."},{"ns":0,"title":"JEHT
+        Foundation"},{"ns":0,"title":"JPMorgan Chase"},{"ns":0,"title":"Jeffry Picower"},{"ns":0,"title":"Jewish
+        people"},{"ns":0,"title":"Judaism"},{"ns":0,"title":"Lappin Foundation"},{"ns":0,"title":"Libor
+        scandal"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lifeguard"},{"ns":0,"title":"List
+        of banks acquired or bankrupted during the Great Recession"},{"ns":0,"title":"List
+        of countries by public debt"},{"ns":0,"title":"List of investors in Bernard
+        L. Madoff Securities"},{"ns":0,"title":"Lymphoma"},{"ns":0,"title":"Madoff"},{"ns":0,"title":"Madoff
+        (surname)"},{"ns":0,"title":"Madoff investment scandal"},{"ns":0,"title":"Mafia
+        don"},{"ns":0,"title":"Mail fraud"},{"ns":0,"title":"Making false statements"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Mantle
+        cell lymphoma"},{"ns":0,"title":"Market maker"},{"ns":0,"title":"Marquis Who''s
+        Who"},{"ns":0,"title":"Mary Schapiro"},{"ns":0,"title":"Massachusetts"},{"ns":0,"title":"Metropolitan
+        Correctional Center, New York"},{"ns":0,"title":"Money laundering"},{"ns":0,"title":"Montauk,
+        New York"},{"ns":0,"title":"Mortgage-backed security"},{"ns":0,"title":"NASDAQ"},{"ns":0,"title":"National
+        Asset Management Agency"},{"ns":0,"title":"National Association of Securities
+        Dealers"},{"ns":0,"title":"National Quotation Bureau"},{"ns":0,"title":"National
+        fiscal policy response to the Great Recession"},{"ns":0,"title":"Negligence"},{"ns":0,"title":"New
+        York City, New York"},{"ns":0,"title":"New York City Center"},{"ns":0,"title":"New
+        York Mets"},{"ns":0,"title":"New York Stock Exchange"},{"ns":0,"title":"No
+        One Would Listen: A True Financial Thriller"},{"ns":0,"title":"Nonprofit institution"},{"ns":0,"title":"Northeast
+        United States"},{"ns":0,"title":"Notre Dame University"},{"ns":0,"title":"Occupy
+        movement"},{"ns":0,"title":"Office of Federal Housing Enterprise Oversight"},{"ns":0,"title":"Office
+        of Financial Stability"},{"ns":0,"title":"Over-the-counter (finance)"},{"ns":0,"title":"Oxford"},{"ns":0,"title":"Palm
+        Beach, Florida"},{"ns":0,"title":"Participants in the Madoff investment scandal"},{"ns":0,"title":"Payment
+        for order flow"},{"ns":0,"title":"Penguin Group"},{"ns":0,"title":"Penny stock"},{"ns":0,"title":"Penthouse
+        apartment"},{"ns":0,"title":"Perjury"},{"ns":0,"title":"Peter Madoff"},{"ns":0,"title":"Philadelphia
+        Inquirer"},{"ns":0,"title":"Philanthropy"},{"ns":0,"title":"Picower Foundation"},{"ns":0,"title":"Pink
+        Sheets LLC"},{"ns":0,"title":"Plumber"},{"ns":0,"title":"Political science"},{"ns":0,"title":"Ponzi
+        scheme"},{"ns":0,"title":"Princeton University"},{"ns":0,"title":"Queens"},{"ns":0,"title":"Queens,
+        New York"},{"ns":0,"title":"Queens College"},{"ns":0,"title":"Raleigh, North
+        Carolina"},{"ns":0,"title":"Recovery of funds from the Madoff investment scandal"},{"ns":0,"title":"Reuters"},{"ns":0,"title":"Robert
+        De Niro"},{"ns":0,"title":"Robert I. Lappin Charitable Foundation"},{"ns":0,"title":"Romania"},{"ns":0,"title":"Roslyn,
+        New York"},{"ns":0,"title":"Ruth Madoff"},{"ns":0,"title":"SEC.gov"},{"ns":0,"title":"Saul
+        Katz"},{"ns":0,"title":"Seattle Times"},{"ns":0,"title":"Secondary mortgage
+        market"},{"ns":0,"title":"Securities Industry and Financial Markets Association"},{"ns":0,"title":"Securities
+        fraud"},{"ns":0,"title":"Settlement (litigation)"},{"ns":0,"title":"Se\u00e1n
+        FitzPatrick"},{"ns":0,"title":"Shana Madoff"},{"ns":0,"title":"Sigma Alpha
+        Mu"},{"ns":0,"title":"Social Science Research Network"},{"ns":0,"title":"Social
+        Security Administration"},{"ns":0,"title":"Stanley Chais"},{"ns":0,"title":"Steven
+        Spielberg"},{"ns":0,"title":"Stock quote"},{"ns":0,"title":"Stockbroker"},{"ns":0,"title":"Subprime
+        mortgage crisis"},{"ns":0,"title":"Suicide"},{"ns":0,"title":"Sy Syms School
+        of Business"},{"ns":0,"title":"Tea Party protests"},{"ns":0,"title":"Temporary
+        Liquidity Guarantee Program"},{"ns":0,"title":"Term Asset-Backed Securities
+        Loan Facility"},{"ns":0,"title":"The Depository Trust Company"},{"ns":0,"title":"The
+        Halcyon Company"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The
+        Philadelphia Inquirer"},{"ns":0,"title":"The Times"},{"ns":0,"title":"The
+        Wall Street Journal"},{"ns":0,"title":"The Washington Post"},{"ns":0,"title":"Third
+        market trading"},{"ns":0,"title":"Timesonline"},{"ns":0,"title":"Troubled
+        Asset Relief Program"},{"ns":0,"title":"Trust (law)"},{"ns":0,"title":"Trustee"},{"ns":0,"title":"U.S.
+        Marshals Service"},{"ns":0,"title":"U.S. Postal Service"},{"ns":0,"title":"U.S.
+        Securities and Exchange Commission"},{"ns":0,"title":"UJA"},{"ns":0,"title":"UK
+        Financial Investments"},{"ns":0,"title":"USA Today"},{"ns":0,"title":"United
+        States Department of Justice"},{"ns":0,"title":"United States dollar"},{"ns":0,"title":"United
+        States housing bubble"},{"ns":0,"title":"United States housing market correction"},{"ns":0,"title":"United
+        States v. Jerome O''Hara and George Perez"},{"ns":0,"title":"University of
+        Alabama"},{"ns":0,"title":"University of Michigan"},{"ns":0,"title":"University
+        of Pennsylvania"},{"ns":0,"title":"Upper East Side"},{"ns":0,"title":"Vanity
+        Fair (magazine)"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Wall
+        Street"},{"ns":0,"title":"Wall Street Journal"},{"ns":0,"title":"Wayback Machine"},{"ns":0,"title":"Wealth
+        management"},{"ns":0,"title":"Wharton Business School"},{"ns":0,"title":"White-collar
+        crime"},{"ns":0,"title":"Wire fraud"},{"ns":0,"title":"Woody Allen"},{"ns":0,"title":"Yeshiva
+        University"},{"ns":0,"title":"Zero interest-rate policy"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Protection
+        policy"},{"ns":10,"title":"Template:Great Recession"},{"ns":10,"title":"Template:Madoff
+        investment scandal"},{"ns":11,"title":"Template talk:Great Recession"},{"ns":11,"title":"Template
+        talk:Madoff investment scandal"},{"ns":12,"title":"Help:CS1 errors"},{"ns":12,"title":"Help:IPA
+        for English"},{"ns":14,"title":"Category:Articles with dead external links
+        from April 2014"},{"ns":14,"title":"Category:Articles with dead external links
+        from March 2011"},{"ns":14,"title":"Category:Articles with dead external links
+        from September 2009"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from December 2013"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from January 2014"},{"ns":14,"title":"Category:Use mdy dates from March 2013"},{"ns":100,"title":"Portal:Biography"},{"ns":100,"title":"Portal:Crime"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:51 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,149 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Guiding%20Light
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001125120, 3085140215, 1613052607
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2560'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:16 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"191599":{"pageid":191599,"ns":0,"title":"Guiding
+        Light","links":[{"ns":0,"title":"60 Minutes"},{"ns":0,"title":"African-American"},{"ns":0,"title":"Agnes
+        Nixon"},{"ns":0,"title":"Alan Spaulding"},{"ns":0,"title":"Alexandra Spaulding"},{"ns":0,"title":"All
+        My Children"},{"ns":0,"title":"Allen M. Potter"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"Annie Dutton"},{"ns":0,"title":"Another
+        World (TV series)"},{"ns":0,"title":"Art Linkletter''s House Party"},{"ns":0,"title":"Arthur
+        Peterson, Jr."},{"ns":0,"title":"As the World Turns"},{"ns":0,"title":"Ashlee
+        Wolfe"},{"ns":0,"title":"Atlantic Canada"},{"ns":0,"title":"Atlantic Satellite
+        Network"},{"ns":0,"title":"BBC"},{"ns":0,"title":"Bay City, Michigan"},{"ns":0,"title":"Bert
+        Bauer"},{"ns":0,"title":"Beth Raines"},{"ns":0,"title":"Bethany Joy Lenz"},{"ns":0,"title":"Bill
+        Lewis III"},{"ns":0,"title":"Billy Lewis II"},{"ns":0,"title":"Blake Marler"},{"ns":0,"title":"Break
+        the Bank (1976)"},{"ns":0,"title":"Bridget and Jerome Dobson"},{"ns":0,"title":"Buzz
+        Cooper"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CBS Daytime"},{"ns":0,"title":"CBS
+        Drama"},{"ns":0,"title":"CBS Radio"},{"ns":0,"title":"CHCH-TV"},{"ns":0,"title":"CTV
+        Television Network"},{"ns":0,"title":"California"},{"ns":0,"title":"Canada"},{"ns":0,"title":"Canadian
+        Broadcasting Corporation"},{"ns":0,"title":"Canon XH-G1"},{"ns":0,"title":"Carolyn
+        Culliton"},{"ns":0,"title":"Carolyn Hinsey"},{"ns":0,"title":"Charita Bauer"},{"ns":0,"title":"Chelsea
+        Studios"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Children of Guiding
+        Light"},{"ns":0,"title":"Christopher Dunn"},{"ns":0,"title":"Church (building)"},{"ns":0,"title":"Claire
+        Labine"},{"ns":0,"title":"Convenience store"},{"ns":0,"title":"Crystal Chappell"},{"ns":0,"title":"Cynthia
+        Watros"},{"ns":0,"title":"Cyrus Foley"},{"ns":0,"title":"Daisy Lemay"},{"ns":0,"title":"Danny
+        Santos"},{"ns":0,"title":"David Kreizman"},{"ns":0,"title":"Days of our Lives"},{"ns":0,"title":"Daytime
+        Emmy Award for Outstanding Drama Series"},{"ns":0,"title":"Daytime Emmy Award
+        for Outstanding Drama Series Directing Team"},{"ns":0,"title":"Daytime Emmy
+        Award for Outstanding Drama Series Writing Team"},{"ns":0,"title":"Dinah Marler"},{"ns":0,"title":"Directors
+        Guild of America Award for Outstanding Directing \u2013 Daytime Serials"},{"ns":0,"title":"Donna
+        Swajeski"},{"ns":0,"title":"Doris Wolfe"},{"ns":0,"title":"Douglas Marland"},{"ns":0,"title":"Dr.
+        Phil"},{"ns":0,"title":"Ellen Barrett"},{"ns":0,"title":"Ellen Demming"},{"ns":0,"title":"Ellen
+        Parker (actress)"},{"ns":0,"title":"Ellen Weston"},{"ns":0,"title":"Ellen
+        Wheeler"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Executive producer"},{"ns":0,"title":"Flint,
+        Michigan"},{"ns":0,"title":"Florida Keys"},{"ns":0,"title":"Gail Kobe"},{"ns":0,"title":"Gene
+        Palumbo"},{"ns":0,"title":"General Hospital"},{"ns":0,"title":"General Mills"},{"ns":0,"title":"Gina
+        Tognoni"},{"ns":0,"title":"Global Television Network"},{"ns":0,"title":"Grand
+        Ole Opry"},{"ns":0,"title":"Grant Aleksander"},{"ns":0,"title":"Guiding Light
+        (1937\u20131949)"},{"ns":0,"title":"Guiding Light (1950\u20131959)"},{"ns":0,"title":"Guiding
+        Light (1960\u20131969)"},{"ns":0,"title":"Guiding Light (1970\u20131979)"},{"ns":0,"title":"Guiding
+        Light (1980\u20131989)"},{"ns":0,"title":"Guiding Light (1990\u20131999)"},{"ns":0,"title":"Guiding
+        Light (2000\u20132009)"},{"ns":0,"title":"Guiding Light (song)"},{"ns":0,"title":"Guinness
+        World Records"},{"ns":0,"title":"HDV"},{"ns":0,"title":"HarperCollins"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Hungary"},{"ns":0,"title":"Iceland"},{"ns":0,"title":"Illinois"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Irna Phillips"},{"ns":0,"title":"Italy"},{"ns":0,"title":"James
+        E. Reilly"},{"ns":0,"title":"James Harmon Brown and Barbara Esensten"},{"ns":0,"title":"James
+        Lipton"},{"ns":0,"title":"Jeff Branson"},{"ns":0,"title":"Jeffrey O''Neill
+        (Guiding Light)"},{"ns":0,"title":"Jerry verDorn"},{"ns":0,"title":"Jill Farren
+        Phelps"},{"ns":0,"title":"Jill Lorie Hurst"},{"ns":0,"title":"John Conboy"},{"ns":0,"title":"Jonathan
+        Randall"},{"ns":0,"title":"Jordan Clarke (actor)"},{"ns":0,"title":"Jordi
+        Vilasuso"},{"ns":0,"title":"Joshua Lewis"},{"ns":0,"title":"Judi Evans Luciano"},{"ns":0,"title":"Justin
+        Deas"},{"ns":0,"title":"KDKA-TV"},{"ns":0,"title":"KGMB"},{"ns":0,"title":"KOVR-TV"},{"ns":0,"title":"KXTV"},{"ns":0,"title":"KYW-TV"},{"ns":0,"title":"Kim
+        Zimmer"},{"ns":0,"title":"Leah Laiman"},{"ns":0,"title":"Lenore Kasdorf"},{"ns":0,"title":"Let''s
+        Make a Deal"},{"ns":0,"title":"Lisa Brown (actress)"},{"ns":0,"title":"List
+        of Guiding Light cast members"},{"ns":0,"title":"List of US daytime soap opera
+        ratings"},{"ns":0,"title":"List of longest running TV shows by category"},{"ns":0,"title":"Lizzie
+        Spaulding"},{"ns":0,"title":"Lloyd Gold"},{"ns":0,"title":"Lorraine Broderick"},{"ns":0,"title":"Los
+        Angeles"},{"ns":0,"title":"Luke and Laura"},{"ns":0,"title":"L\u00f8rdagsbarnetimen"},{"ns":0,"title":"Maeve
+        Kinkead"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Marcy Walker"},{"ns":0,"title":"Marina
+        Cooper"},{"ns":0,"title":"Marvel Comics"},{"ns":0,"title":"Mary Ryan Munisteri"},{"ns":0,"title":"Mary
+        Stuart (actress)"},{"ns":0,"title":"Match Game-Hollywood Squares Hour"},{"ns":0,"title":"Megan
+        McTavish"},{"ns":0,"title":"Melissa Hayden (actress)"},{"ns":0,"title":"Michael
+        Conforti"},{"ns":0,"title":"Michael Laibson"},{"ns":0,"title":"Michael Zaslow"},{"ns":0,"title":"Michelle
+        Branch"},{"ns":0,"title":"Millee Taggart"},{"ns":0,"title":"Mindy Lewis"},{"ns":0,"title":"My
+        5"},{"ns":0,"title":"NBC"},{"ns":0,"title":"NBC Radio"},{"ns":0,"title":"NCAA
+        Men''s Division I Basketball Championship"},{"ns":0,"title":"Nancy Curlee"},{"ns":0,"title":"Nancy
+        Williams Watt"},{"ns":0,"title":"Natalia Rivera Aitoro"},{"ns":0,"title":"New
+        York"},{"ns":0,"title":"New York City"},{"ns":0,"title":"Nielsen ratings"},{"ns":0,"title":"Olivia
+        Spencer"},{"ns":0,"title":"One Life to Live"},{"ns":0,"title":"Ontario"},{"ns":0,"title":"Pam
+        Long"},{"ns":0,"title":"Pamela K. Long"},{"ns":0,"title":"Passions"},{"ns":0,"title":"Pat
+        Falken Smith"},{"ns":0,"title":"Patrick Mulcahey"},{"ns":0,"title":"Paul Rauch"},{"ns":0,"title":"Peapack,
+        New Jersey"},{"ns":0,"title":"Peggy Sloane"},{"ns":0,"title":"Phillip Spaulding"},{"ns":0,"title":"Pittsburgh"},{"ns":0,"title":"Pittsburgh
+        Post-Gazette"},{"ns":0,"title":"Pittsburgh Post Gazette"},{"ns":0,"title":"Procter
+        & Gamble"},{"ns":0,"title":"Pyramid (game show)"},{"ns":0,"title":"Quebec"},{"ns":0,"title":"Queen
+        for a Day"},{"ns":0,"title":"Radio drama"},{"ns":0,"title":"Rafe Rivera"},{"ns":0,"title":"Reality
+        television"},{"ns":0,"title":"Remy Boudreau"},{"ns":0,"title":"Reva Shayne"},{"ns":0,"title":"Richard
+        Culliton"},{"ns":0,"title":"Rick Hearst"},{"ns":0,"title":"Rita Stapleton"},{"ns":0,"title":"Roger
+        Thorpe and Holly Norris"},{"ns":0,"title":"Ross Marler"},{"ns":0,"title":"Sacramento,
+        California"},{"ns":0,"title":"Saginaw, Michigan"},{"ns":0,"title":"Santa Barbara,
+        California"},{"ns":0,"title":"Santa Barbara (TV series)"},{"ns":0,"title":"Sarah
+        Elizabeth Randall"},{"ns":0,"title":"Search for Tomorrow"},{"ns":0,"title":"Serbia"},{"ns":0,"title":"Serial
+        drama"},{"ns":0,"title":"Shaky camera"},{"ns":0,"title":"Shayne Lewis"},{"ns":0,"title":"Sheri
+        Anderson"},{"ns":0,"title":"Soap opera"},{"ns":0,"title":"Springfield (Guiding
+        Light)"},{"ns":0,"title":"Stephen Demorest"},{"ns":0,"title":"Still born"},{"ns":0,"title":"TVA
+        (TV network)"},{"ns":0,"title":"Television"},{"ns":0,"title":"Texas (TV series)"},{"ns":0,"title":"The
+        Daily Service"},{"ns":0,"title":"The Doctors (1963 TV series)"},{"ns":0,"title":"The
+        Doctors (2008 TV series)"},{"ns":0,"title":"The Edge of Night"},{"ns":0,"title":"The
+        Newlywed Game"},{"ns":0,"title":"The Secret Storm"},{"ns":0,"title":"The Soap
+        Opera Encyclopedia"},{"ns":0,"title":"The Young and the Restless"},{"ns":0,"title":"To
+        Tell the Truth"},{"ns":0,"title":"Tom Pelphrey"},{"ns":0,"title":"Truth or
+        Consequences"},{"ns":0,"title":"Victor Miller (writer)"},{"ns":0,"title":"Vincent
+        Irizarry"},{"ns":0,"title":"WANE-TV"},{"ns":0,"title":"WBBM-TV"},{"ns":0,"title":"WBZ-TV"},{"ns":0,"title":"WCBS-TV"},{"ns":0,"title":"WFOR-TV"},{"ns":0,"title":"WGME"},{"ns":0,"title":"WJZ-TV"},{"ns":0,"title":"WKMG-TV"},{"ns":0,"title":"WNEM-TV"},{"ns":0,"title":"WRGB"},{"ns":0,"title":"WSBT-TV"},{"ns":0,"title":"WTOC-TV"},{"ns":0,"title":"WWJ-TV"},{"ns":0,"title":"WYOU"},{"ns":0,"title":"Wayne
+        Brady"},{"ns":0,"title":"Writers Guild of America Award for Best Television
+        Writing in Daytime Serials"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Guiding
+        Light"},{"ns":10,"title":"Template:Refimprove section"},{"ns":11,"title":"Template
+        talk:Guiding Light"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        needing additional references from January 2011"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from September 2013"},{"ns":14,"title":"Category:Use
+        mdy dates from June 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:16 GMT
+recorded_with: VCR 2.9.2

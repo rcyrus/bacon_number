@@ -1,0 +1,166 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Ted%20Danson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401701632, 1102709444, 2899161060
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2753'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:12 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4017 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"217241":{"pageid":217241,"ns":0,"title":"Ted Danson","links":[{"ns":0,"title":"A
+        Fine Mess (film)"},{"ns":0,"title":"Al Franken"},{"ns":0,"title":"Al Gore"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Alda"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"American Broadcasting
+        Company"},{"ns":0,"title":"American Comedy Award"},{"ns":0,"title":"American
+        Comedy Awards"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Archaeologist"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"B.J. and the Bear"},{"ns":0,"title":"B. J. and
+        the Bear"},{"ns":0,"title":"Bachelor of Fine Arts"},{"ns":0,"title":"Barbara
+        Boxer"},{"ns":0,"title":"Beastie Boys"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Becker
+        (TV series)"},{"ns":0,"title":"Benson (TV series)"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Big Miracle"},{"ns":0,"title":"Bill
+        Clinton"},{"ns":0,"title":"Bill Cosby"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Billboarding"},{"ns":0,"title":"Blackface"},{"ns":0,"title":"Body
+        Heat"},{"ns":0,"title":"Bored to Death"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Bruce
+        Willis"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CSI:
+        Crime Scene Investigation"},{"ns":0,"title":"CSI: NY"},{"ns":0,"title":"California"},{"ns":0,"title":"Carnegie
+        Mellon University"},{"ns":0,"title":"Carroll O''Connor"},{"ns":0,"title":"Charlie
+        Sheen"},{"ns":0,"title":"Cheers"},{"ns":0,"title":"Cheers finale"},{"ns":0,"title":"Chelsea
+        Clinton"},{"ns":0,"title":"Columbo"},{"ns":0,"title":"Cousins (film)"},{"ns":0,"title":"Craig
+        Ferguson"},{"ns":0,"title":"Craig T. Nelson"},{"ns":0,"title":"Creepshow"},{"ns":0,"title":"Curator"},{"ns":0,"title":"Curb
+        Your Enthusiasm"},{"ns":0,"title":"D.B. Russell"},{"ns":0,"title":"Dabney
+        Coleman"},{"ns":0,"title":"Dad (film)"},{"ns":0,"title":"Damages (TV Series)"},{"ns":0,"title":"Damages
+        (TV series)"},{"ns":0,"title":"David Dinkins"},{"ns":0,"title":"David Duchovny"},{"ns":0,"title":"Democratic
+        Party (United States)"},{"ns":0,"title":"Diane Chambers"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Est\u00e9e Lauder
+        Inc."},{"ns":0,"title":"Eugene, Oregon"},{"ns":0,"title":"Family (TV series)"},{"ns":0,"title":"Fear
+        of Flying (The Simpsons)"},{"ns":0,"title":"Flagstaff, Arizona"},{"ns":0,"title":"Flip
+        Wilson"},{"ns":0,"title":"Frasier"},{"ns":0,"title":"Fresh Air"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Getting Even with
+        Dad"},{"ns":0,"title":"Glenn Close"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Television Series Musical or Comedy"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Series, Miniseries or Television
+        Film"},{"ns":0,"title":"Golden Globe Awards"},{"ns":0,"title":"Gulliver''s
+        Travels (TV miniseries)"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Heist (TV
+        series)"},{"ns":0,"title":"Help Me Help You"},{"ns":0,"title":"Henry Winkler"},{"ns":0,"title":"Hillary
+        Clinton"},{"ns":0,"title":"Hollywood''s Walk of Fame"},{"ns":0,"title":"Homegrown
+        (film)"},{"ns":0,"title":"Houghton Mifflin"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"In
+        A Dark Wood"},{"ns":0,"title":"Incest"},{"ns":0,"title":"Ink (TV series)"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Isabella
+        Rossellini"},{"ns":0,"title":"Jack Albertson"},{"ns":0,"title":"Jack Klugman"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jason Bateman"},{"ns":0,"title":"Jerry Seinfeld"},{"ns":0,"title":"Jet
+        (magazine)"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"John Edwards"},{"ns":0,"title":"John
+        Goodman"},{"ns":0,"title":"John Kerry"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John
+        Ritter"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Judd Hirsch"},{"ns":0,"title":"Just
+        Between Friends"},{"ns":0,"title":"Kelsey Grammer"},{"ns":0,"title":"Kent
+        School"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"King
+        of the Hill"},{"ns":0,"title":"Knights of the South Bronx"},{"ns":0,"title":"Larry
+        David"},{"ns":0,"title":"Laverne & Shirley"},{"ns":0,"title":"Laverne and
+        Shirley"},{"ns":0,"title":"Lemuel Gulliver"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"List of most watched television broadcasts"},{"ns":0,"title":"Little
+        Treasure"},{"ns":0,"title":"Living with the Dead (film)"},{"ns":0,"title":"Loch
+        Ness (film)"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Louis
+        Theroux"},{"ns":0,"title":"Mad Money (film)"},{"ns":0,"title":"Made in America
+        (1993 film)"},{"ns":0,"title":"Magnum, P.I."},{"ns":0,"title":"Magnum P.I."},{"ns":0,"title":"Make
+        Some Noise (Beastie Boys song)"},{"ns":0,"title":"Malcolm McDowell"},{"ns":0,"title":"Marine
+        conservation"},{"ns":0,"title":"Mary Steenburgen"},{"ns":0,"title":"Mayor
+        of New York City"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael
+        D''Orso"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael J. Fox"},{"ns":0,"title":"Mickey
+        Rooney"},{"ns":0,"title":"Montel Williams"},{"ns":0,"title":"Mumford (film)"},{"ns":0,"title":"Museum
+        of Northern Arizona"},{"ns":0,"title":"NBC"},{"ns":0,"title":"New York Friars
+        Club"},{"ns":0,"title":"Nielsen ratings"},{"ns":0,"title":"Nigger"},{"ns":0,"title":"Nobel
+        Son"},{"ns":0,"title":"Oceana (non-profit group)"},{"ns":0,"title":"Our Fathers
+        (film)"},{"ns":0,"title":"Paramount Television"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"People''s
+        Choice Awards"},{"ns":0,"title":"Pittsburgh"},{"ns":0,"title":"Pontiac Moon"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Awards"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Redd
+        Foxx"},{"ns":0,"title":"Rescue Me (U.S. TV series)"},{"ns":0,"title":"Richard
+        Chamberlain"},{"ns":0,"title":"Richard Mulligan"},{"ns":0,"title":"Ricky Gervais"},{"ns":0,"title":"Roast
+        (comedy)"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert Guillaume"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Ron Howard"},{"ns":0,"title":"Sam Malone"},{"ns":0,"title":"Sam
+        and Diane"},{"ns":0,"title":"San Diego"},{"ns":0,"title":"San Diego, California"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Television Series Musical or Comedy"},{"ns":0,"title":"Saving
+        Private Ryan"},{"ns":0,"title":"Scottish Americans"},{"ns":0,"title":"Screen
+        Actors Guild Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Male Actor in a Miniseries or Television Movie"},{"ns":0,"title":"Screen
+        Actors Guild Awards"},{"ns":0,"title":"Seattle, Washington"},{"ns":0,"title":"Somerset
+        (TV series)"},{"ns":0,"title":"Something About Amelia"},{"ns":0,"title":"Spy
+        (magazine)"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stanford University"},{"ns":0,"title":"Stanley
+        Tucci"},{"ns":0,"title":"Steve Carell"},{"ns":0,"title":"Steve Guttenberg"},{"ns":0,"title":"TV
+        Guide"},{"ns":0,"title":"Taxi (TV series)"},{"ns":0,"title":"Ted (film)"},{"ns":0,"title":"Thanks
+        of a Grateful Nation"},{"ns":0,"title":"The Amateurs"},{"ns":0,"title":"The
+        Amazing Spider-Man (TV series)"},{"ns":0,"title":"The Doctors (1963 TV series)"},{"ns":0,"title":"The
+        Express-Times"},{"ns":0,"title":"The Human Contract"},{"ns":0,"title":"The
+        Jim Henson Hour"},{"ns":0,"title":"The Onion Field (film)"},{"ns":0,"title":"The
+        Open Road"},{"ns":0,"title":"The People"},{"ns":0,"title":"The Register-Guard"},{"ns":0,"title":"The
+        Show Where Sam Shows Up"},{"ns":0,"title":"The Simpsons"},{"ns":0,"title":"The
+        Women''s Room"},{"ns":0,"title":"Three Men and a Baby"},{"ns":0,"title":"Three
+        Men and a Little Lady"},{"ns":0,"title":"Tim Allen"},{"ns":0,"title":"Tim
+        and Eric Awesome Show, Great Job!"},{"ns":0,"title":"Tom Selleck"},{"ns":0,"title":"Tony
+        Shalhoub"},{"ns":0,"title":"Trapper John, M.D."},{"ns":0,"title":"Tucker''s
+        Witch"},{"ns":0,"title":"Vegan"},{"ns":0,"title":"Veronica''s Closet"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Watermelon
+        stereotype"},{"ns":0,"title":"When the Bough Breaks (1986 film)"},{"ns":0,"title":"Whoopi
+        Goldberg"},{"ns":0,"title":"\u017deljko Ivanek"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:EmmyAward
+        ComedyLeadActor"},{"ns":10,"title":"Template:EmmyAward ComedyLeadActor 1950\u20131975"},{"ns":10,"title":"Template:EmmyAward
+        ComedyLeadActor 1976\u20132000"},{"ns":10,"title":"Template:EmmyAward ComedyLeadActor
+        2001\u20132025"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVComedy 1970\u20131989"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVComedy
+        1990\u20132009"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVComedy 2010\u20132029"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:Golden
+        Globe Award Best Actor TV Comedy"},{"ns":11,"title":"Template talk:EmmyAward
+        ComedyLeadActor 1976\u20132000"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVComedy
+        1970\u20131989"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVComedy
+        1990\u20132009"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":14,"title":"Category:Articles with unsourced statements from
+        December 2013"},{"ns":14,"title":"Category:Use mdy dates from May 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:13 GMT
+recorded_with: VCR 2.9.2

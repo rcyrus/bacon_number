@@ -1,0 +1,254 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Colin%20Firth
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390611556, 3536734556, 3142879164
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4783'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:58 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4008 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"170409|0|Satellite_Award_for_Best_Actor_\u2013_Motion_Picture"}},"query":{"pages":{"170409":{"pageid":170409,"ns":0,"title":"Colin
+        Firth","links":[{"ns":0,"title":"10:10"},{"ns":0,"title":"10th Empire Awards"},{"ns":0,"title":"11th
+        Empire Awards"},{"ns":0,"title":"12th Empire Awards"},{"ns":0,"title":"13th
+        Empire Awards"},{"ns":0,"title":"14th Empire Awards"},{"ns":0,"title":"15th
+        Empire Awards"},{"ns":0,"title":"16th Empire Awards"},{"ns":0,"title":"17th
+        Empire Awards"},{"ns":0,"title":"17th Screen Actors Guild Awards"},{"ns":0,"title":"18th
+        Empire Awards"},{"ns":0,"title":"19th Empire Awards"},{"ns":0,"title":"1st
+        Empire Awards"},{"ns":0,"title":"2008 Toronto International Film Festival"},{"ns":0,"title":"2009
+        Venice Film Festival"},{"ns":0,"title":"2010 UK student protests"},{"ns":0,"title":"2011
+        Berlin Film Festival"},{"ns":0,"title":"2011 Birthday Honours"},{"ns":0,"title":"2nd
+        Empire Awards"},{"ns":0,"title":"3rd Empire Awards"},{"ns":0,"title":"4th
+        Empire Awards"},{"ns":0,"title":"5th Empire Awards"},{"ns":0,"title":"5th
+        Screen Actors Guild Awards"},{"ns":0,"title":"63rd British Academy Film Awards"},{"ns":0,"title":"64th
+        British Academy Film Awards"},{"ns":0,"title":"66th Venice International Film
+        Festival"},{"ns":0,"title":"68th Golden Globe Awards"},{"ns":0,"title":"6th
+        Empire Awards"},{"ns":0,"title":"7th Empire Awards"},{"ns":0,"title":"83rd
+        Academy Awards"},{"ns":0,"title":"8th Empire Awards"},{"ns":0,"title":"9th
+        Empire Awards"},{"ns":0,"title":"A&E Network"},{"ns":0,"title":"A. Scott Berg"},{"ns":0,"title":"A
+        Christmas Carol (2009 film)"},{"ns":0,"title":"A Month in the Country (film)"},{"ns":0,"title":"A
+        Single Man"},{"ns":0,"title":"Abigail Breslin"},{"ns":0,"title":"Academia"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Award for Best Actor"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Adrien Brody"},{"ns":0,"title":"Aftermath of World
+        War II"},{"ns":0,"title":"Aishwarya Rai"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan
+        Arkin"},{"ns":0,"title":"Alan Bates"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alexander Knox"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Amygdala"},{"ns":0,"title":"And When Did You Last
+        See Your Father?"},{"ns":0,"title":"Andy Serkis"},{"ns":0,"title":"Angela
+        Davis"},{"ns":0,"title":"Anglican"},{"ns":0,"title":"Anil Kapoor"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Another Country (film)"},{"ns":0,"title":"Another
+        Country (play)"},{"ns":0,"title":"Anterior cingulate cortex"},{"ns":0,"title":"Anthony
+        Andrews"},{"ns":0,"title":"Anthony Franciosa"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apartment Zero"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Argentinian"},{"ns":0,"title":"Art
+        Carney"},{"ns":0,"title":"Arthur Kennedy (actor)"},{"ns":0,"title":"Ashutosh
+        Lobo Gajiwala"},{"ns":0,"title":"Asylum seekers"},{"ns":0,"title":"Audible.com"},{"ns":0,"title":"Audie
+        Awards"},{"ns":0,"title":"August Diehl"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Aw\u00e1-Guaj\u00e1
+        people"},{"ns":0,"title":"Ayush Mahesh Khedekar"},{"ns":0,"title":"Azharuddin
+        Mohammed Ismail"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BAFTA Award for
+        Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Award for Best Actor
+        in a Supporting Role"},{"ns":0,"title":"BBC"},{"ns":0,"title":"BBC Radio 4"},{"ns":0,"title":"Barry
+        Fitzgerald"},{"ns":0,"title":"Barton Peveril Sixth Form College"},{"ns":0,"title":"Battle
+        of Mount Tumbledown"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben
+        Kingsley"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bernard
+        Hill"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Haydon"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Billy
+        Bob Thornton"},{"ns":0,"title":"Billy Boyd (actor)"},{"ns":0,"title":"Bing
+        Crosby"},{"ns":0,"title":"Bisexual"},{"ns":0,"title":"Blake Morrison"},{"ns":0,"title":"Bob
+        Balaban"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Botswana"},{"ns":0,"title":"Brad
+        Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Brendan Fraser"},{"ns":0,"title":"Brendan
+        Gleeson"},{"ns":0,"title":"Brian Cox (actor)"},{"ns":0,"title":"Bridget Jones''s
+        Diary"},{"ns":0,"title":"Bridget Jones''s Diary (film)"},{"ns":0,"title":"Bridget
+        Jones: The Edge of Reason (film)"},{"ns":0,"title":"Brit Pack (actors)"},{"ns":0,"title":"British
+        Academy Television Awards"},{"ns":0,"title":"British Columbia"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Actor"},{"ns":0,"title":"Broderick
+        Crawford"},{"ns":0,"title":"Bruce Dern"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Bruce
+        Payne"},{"ns":0,"title":"Bruno Ganz"},{"ns":0,"title":"Bullying"},{"ns":0,"title":"Burt
+        Lancaster"},{"ns":0,"title":"Cate Blanchett"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Central
+        Kalahari Game Reserve"},{"ns":0,"title":"Charles Dance"},{"ns":0,"title":"Charles
+        Dickens"},{"ns":0,"title":"Charles Laughton"},{"ns":0,"title":"Charlie Chaplin"},{"ns":0,"title":"Charlton
+        Heston"},{"ns":0,"title":"Chicago (2002 film)"},{"ns":0,"title":"Chiswick"},{"ns":0,"title":"Chiwetel
+        Ejiofor"},{"ns":0,"title":"Choleric"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christian
+        Bale"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"City
+        of London"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Claude L\u00e9vi-Strauss"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Clifton Collins, Jr."},{"ns":0,"title":"Clint
+        Eastwood"},{"ns":0,"title":"Clive Owen"},{"ns":0,"title":"Colin Firth on stage
+        and screen"},{"ns":0,"title":"Colm Feore"},{"ns":0,"title":"Commander of the
+        Order of the British Empire"},{"ns":0,"title":"Comparative religion"},{"ns":0,"title":"Comprehensive
+        school"},{"ns":0,"title":"Congregationalist"},{"ns":0,"title":"Conspiracy
+        (2001 film)"},{"ns":0,"title":"Costume drama"},{"ns":0,"title":"Crash (2004
+        film)"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Daily Mail"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Dangerous Liaisons"},{"ns":0,"title":"Daniel
+        Auteuil"},{"ns":0,"title":"Daniel Br\u00fchl"},{"ns":0,"title":"Daniel Craig"},{"ns":0,"title":"Daniel
+        Day-Lewis"},{"ns":0,"title":"Davi Kopenawa Yanomami"},{"ns":0,"title":"David
+        Niven"},{"ns":0,"title":"David Thewlis"},{"ns":0,"title":"David Wenham"},{"ns":0,"title":"Deirdre
+        Costello"},{"ns":0,"title":"Democratic Republic of Congo"},{"ns":0,"title":"Denis
+        Menochet"},{"ns":0,"title":"Denise Faye"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Denzel
+        Washington"},{"ns":0,"title":"Deportation"},{"ns":0,"title":"Derek Jacobi"},{"ns":0,"title":"Dev
+        Patel"},{"ns":0,"title":"Diane Kruger"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Dirk
+        Bogarde"},{"ns":0,"title":"Dominic Monaghan"},{"ns":0,"title":"Dominic West"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Don Quixote"},{"ns":0,"title":"Drama Centre London"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Eastleigh"},{"ns":0,"title":"Easy Virtue (2008
+        film)"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Edward Norton"},{"ns":0,"title":"Eileen
+        Atkins"},{"ns":0,"title":"Ekaterina Chtchelkanova"},{"ns":0,"title":"Eli Roth"},{"ns":0,"title":"Elijah
+        Wood"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emily Watson"},{"ns":0,"title":"Emily
+        Woof"},{"ns":0,"title":"Emma Stone"},{"ns":0,"title":"Emma Thompson"},{"ns":0,"title":"Emmy
+        nomination"},{"ns":0,"title":"Empire (film magazine)"},{"ns":0,"title":"Empire
+        Award for Best Actor"},{"ns":0,"title":"English literature"},{"ns":0,"title":"Erika
+        Christensen"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"European
+        Film Award for Best Actor"},{"ns":0,"title":"Ewan McGregor"},{"ns":0,"title":"F.
+        Murray Abraham"},{"ns":0,"title":"Falklands War"},{"ns":0,"title":"Fantasy
+        film"},{"ns":0,"title":"Fever Pitch (1997 film)"},{"ns":0,"title":"First-past-the-post"},{"ns":0,"title":"Fitzwilliam
+        Darcy"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Fran\u00e7ois
+        P\u00e9rier"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"Freedom of
+        the City"},{"ns":0,"title":"Freida Pinto"},{"ns":0,"title":"French Riviera"},{"ns":0,"title":"Further
+        education"},{"ns":0,"title":"Gambit (1966 film)"},{"ns":0,"title":"Gambit
+        (2012 film)"},{"ns":0,"title":"Gana and Gwi people"},{"ns":0,"title":"Garret
+        Dillahunt"},{"ns":0,"title":"Gary Cooper"},{"ns":0,"title":"Gary Oldman"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Genova (film)"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Arliss"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George VI"},{"ns":0,"title":"Geraldine Somerville"},{"ns":0,"title":"Girl
+        with a Pearl Earring (film)"},{"ns":0,"title":"Golden Globe Award for Best
+        Actor - Motion Picture Drama"},{"ns":0,"title":"Golden Globe Award for Best
+        Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Gosford Park"},{"ns":0,"title":"Graham
+        Greene"},{"ns":0,"title":"Grayshott"},{"ns":0,"title":"Greg Kinnear"},{"ns":0,"title":"Gregory
+        Peck"},{"ns":0,"title":"Guy Pearce"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"G\u00e9rard
+        Depardieu"},{"ns":0,"title":"Haing S. Ngor"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Heath
+        Ledger"},{"ns":0,"title":"Helen Hunt"},{"ns":0,"title":"Helen Mirren"},{"ns":0,"title":"Helena
+        Bonham Carter"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Heterosexuality"},{"ns":0,"title":"Hollywood
+        Walk of Fame"},{"ns":0,"title":"Homosexuality"},{"ns":0,"title":"Hope Springs
+        (2003 film)"},{"ns":0,"title":"House of Commons of the United Kingdom"},{"ns":0,"title":"Hugh
+        Grant"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Hugo Weaving"},{"ns":0,"title":"Humphrey
+        Bogart"},{"ns":0,"title":"Ian Bannen"},{"ns":0,"title":"Ian Holm"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"In Prison My
+        Whole Life"},{"ns":0,"title":"Inglourious Basterds"},{"ns":0,"title":"Inside
+        the Actors Studio"},{"ns":0,"title":"Instant-runoff voting"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Irrfan Khan"},{"ns":0,"title":"J. B. Priestley"},{"ns":0,"title":"J.
+        L. Carr"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jacky
+        Ido"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James
+        Cagney"},{"ns":0,"title":"James McAvoy"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James
+        Wilby"},{"ns":0,"title":"Jamie Bell"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jane
+        Austen"},{"ns":0,"title":"Jane Goodall Institute"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jean-Louis Trintignant"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jennifer Ehle"},{"ns":0,"title":"Jennifer Esposito"},{"ns":0,"title":"Jeremy
+        Irons"},{"ns":0,"title":"Jeremy Northam"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Joaquin
+        Phoenix"},{"ns":0,"title":"Johannes Vermeer"},{"ns":0,"title":"John C. Reilly"},{"ns":0,"title":"John
+        Cleese"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John
+        Noble"},{"ns":0,"title":"John Rhys-Davies"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John
+        Wayne"},{"ns":0,"title":"John le Carr\u00e9"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Jon
+        Voight"},{"ns":0,"title":"Jonathan Firth"},{"ns":0,"title":"Joseph Cross (actor)"},{"ns":0,"title":"Joseph
+        Fiennes"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Jos\u00e9 Ferrer"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Julian Mitchell"},{"ns":0,"title":"Julie Dreyfus"},{"ns":0,"title":"Karl
+        Urban"},{"ns":0,"title":"Kate Firth"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kelly
+        Macdonald"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kenneth More"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kieran Culkin"},{"ns":0,"title":"Kim
+        Newman"},{"ns":0,"title":"Kings'' School"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Kristin
+        Scott Thomas"},{"ns":0,"title":"Labour Party (UK)"},{"ns":0,"title":"Larenz
+        Tate"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Laurens van der
+        Post"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Les
+        Liaisons dangereuses"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Liam
+        Neeson"},{"ns":0,"title":"Liberal Democrats"},{"ns":0,"title":"Library of
+        Congress Control Number"},{"ns":0,"title":"Lionel Barrymore"},{"ns":0,"title":"Little
+        Miss Sunshine"},{"ns":0,"title":"Liv Tyler"},{"ns":0,"title":"Livia Firth"},{"ns":0,"title":"London
+        Film Critics Circle Award for Actor of the Year"},{"ns":0,"title":"London
+        Film Critics Circle Award for British Actor of the Year"},{"ns":0,"title":"London
+        Film Festival"},{"ns":0,"title":"Los Angeles Film Critics Association Award
+        for Best Actor"},{"ns":0,"title":"Lost Empires"},{"ns":0,"title":"Love Actually"},{"ns":0,"title":"Lower
+        Mainland"},{"ns":0,"title":"Lucy Liu"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"Madhur Mittal"},{"ns":0,"title":"Maggie Smith"},{"ns":0,"title":"Magic
+        in the Moonlight"},{"ns":0,"title":"Make Trade Fair"},{"ns":0,"title":"Mamma
+        Mia! (film)"},{"ns":0,"title":"Manohla Dargis"},{"ns":0,"title":"Marcello
+        Mastroianni"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Mark Darcy"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Martin Freeman"},{"ns":0,"title":"Martin
+        Wuttke"},{"ns":0,"title":"Marxism"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Matti Pellonp\u00e4\u00e4"},{"ns":0,"title":"Max
+        Perkins"},{"ns":0,"title":"Max Perkins: Editor of Genius"},{"ns":0,"title":"Max
+        von Sydow"},{"ns":0,"title":"Maximilian Schell"},{"ns":0,"title":"Meg Tilly"},{"ns":0,"title":"Mena
+        Suvari"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Cera"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michael Fassbender"},{"ns":0,"title":"Michael Gambon"},{"ns":0,"title":"Michael
+        Stuhlbarg"},{"ns":0,"title":"Michel Bouquet"},{"ns":0,"title":"Mickey Rourke"},{"ns":0,"title":"Middle
+        England"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Mike Myers"},{"ns":0,"title":"Military
+        Cross"},{"ns":0,"title":"Milo\u0161 Forman"},{"ns":0,"title":"Miranda Otto"},{"ns":0,"title":"Missionary"},{"ns":0,"title":"Missouri"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"Mr. Darcy"},{"ns":0,"title":"Mr Darcy"},{"ns":0,"title":"Musical
+        film"},{"ns":0,"title":"M\u00e9lanie Laurent"},{"ns":0,"title":"M\u00fda"},{"ns":0,"title":"Nanny
+        McPhee"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"National Youth Theatre"},{"ns":0,"title":"New
+        York Film Critics Circle Award for Best Actor"},{"ns":0,"title":"New York
+        Times"},{"ns":0,"title":"Nick Hornby"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas
+        Cage"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"Nigeria"},{"ns":0,"title":"Nigerian
+        Government"},{"ns":0,"title":"No Country for Old Men (film)"},{"ns":0,"title":"Noam
+        Chomsky"},{"ns":0,"title":"Omar Sharif"},{"ns":0,"title":"Order of the British
+        Empire"},{"ns":0,"title":"Orgy"},{"ns":0,"title":"Orlando Bloom"},{"ns":0,"title":"Oscar
+        Wilde"},{"ns":0,"title":"Oskar Werner"},{"ns":0,"title":"Our Last Summer"},{"ns":0,"title":"Oxfam"},{"ns":0,"title":"Paul
+        Barber (actor)"},{"ns":0,"title":"Paul Bettany"},{"ns":0,"title":"Paul Dano"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Lukas"},{"ns":0,"title":"Paul McGann"},{"ns":0,"title":"Paul
+        Muni"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Performance
+        capture"},{"ns":0,"title":"Peter Bradshaw"},{"ns":0,"title":"Peter Finch"},{"ns":0,"title":"Peter
+        Fonda"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter Hitchens"},{"ns":0,"title":"Peter
+        O''Toole"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Philip
+        French"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Philippe
+        Noiret"},{"ns":0,"title":"Pierce Brosnan"},{"ns":0,"title":"Pride and Prejudice"},{"ns":0,"title":"Pride
+        and Prejudice (1995 TV series)"},{"ns":0,"title":"Prince Hamlet"},{"ns":0,"title":"Public
+        school (United Kingdom)"},{"ns":0,"title":"Queen Latifah"},{"ns":0,"title":"Ralph
+        Fiennes"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Refugee
+        Council"},{"ns":0,"title":"Reginald Turner (writer)"},{"ns":0,"title":"Relative
+        Values (film)"},{"ns":0,"title":"Ren\u00e9e Zellweger"},{"ns":0,"title":"Rex
+        Harrison"},{"ns":0,"title":"Richard Attenborough"},{"ns":0,"title":"Richard
+        Burton"},{"ns":0,"title":"Richard Curtis"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard
+        E. Grant"},{"ns":0,"title":"Richard Farnsworth"},{"ns":0,"title":"Richard
+        Gere"},{"ns":0,"title":"Richard Jenkins"},{"ns":0,"title":"Ricky Gervais"},{"ns":0,"title":"Robert
+        Carlyle"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert Donat"},{"ns":0,"title":"Robert
+        Downey, Jr."},{"ns":0,"title":"Robert Downey Jr."},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Robert Lawrence (British Army officer)"},{"ns":0,"title":"Robert
+        Redford"},{"ns":0,"title":"Roberto Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rod
+        Steiger"},{"ns":0,"title":"Rod Taylor"},{"ns":0,"title":"Romance film"},{"ns":0,"title":"Ronald
+        Colman"},{"ns":0,"title":"Roy Sesana"},{"ns":0,"title":"Royal National Theatre"},{"ns":0,"title":"Rubina
+        Ali"},{"ns":0,"title":"Rupert Everett"},{"ns":0,"title":"Russell Crowe"},{"ns":0,"title":"Ryan
+        Gosling"},{"ns":0,"title":"Ryan Phillippe"},{"ns":0,"title":"Sacha Baron Cohen"},{"ns":0,"title":"Sandra
+        Bullock"},{"ns":0,"title":"Sandra Oh"},{"ns":0,"title":"Sasson Gabai"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:59 GMT
+recorded_with: VCR 2.9.2

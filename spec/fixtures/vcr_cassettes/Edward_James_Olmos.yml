@@ -1,0 +1,177 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Edward%20James%20Olmos
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711824475, 3536740920, 2899099829
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3067'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:07 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4008 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"170984":{"pageid":170984,"ns":0,"title":"Edward
+        James Olmos","links":[{"ns":0,"title":"11th ALMA Awards"},{"ns":0,"title":"12
+        Angry Men (1997 film)"},{"ns":0,"title":"1992 Los Angeles riots"},{"ns":0,"title":"2
+        Guns"},{"ns":0,"title":"5608 Olmos"},{"ns":0,"title":"9th ALMA Awards"},{"ns":0,"title":"ALMA
+        Award"},{"ns":0,"title":"A Million to Juan"},{"ns":0,"title":"Academy Award
+        for Best Actor"},{"ns":0,"title":"Academy Award for Best Actor in a Leading
+        Role"},{"ns":0,"title":"Alambrista!"},{"ns":0,"title":"Aloha Bobby and Rose"},{"ns":0,"title":"America
+        (2011 film)"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"American
+        Family: Journey of Dreams"},{"ns":0,"title":"American Family (2002 TV series)"},{"ns":0,"title":"American
+        Me"},{"ns":0,"title":"Anthony Zerbe"},{"ns":0,"title":"Archive of American
+        Television"},{"ns":0,"title":"Art Torres"},{"ns":0,"title":"Asteroid"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Barry Bostwick"},{"ns":0,"title":"Baseball"},{"ns":0,"title":"Battlestar
+        Galactica"},{"ns":0,"title":"Battlestar Galactica: The Plan"},{"ns":0,"title":"Battlestar
+        Galactica (2004 TV series)"},{"ns":0,"title":"Battlestar Galactica (TV miniseries)"},{"ns":0,"title":"Battlestar
+        Galactica (re-imagining)"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Ben
+        Browder"},{"ns":0,"title":"Beverly Hills Chihuahua"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Bill
+        Richardson"},{"ns":0,"title":"Blade Runner"},{"ns":0,"title":"Bodie Olmos"},{"ns":0,"title":"Bruce
+        Weitz"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"CHiPs"},{"ns":0,"title":"CSI:
+        NY"},{"ns":0,"title":"California"},{"ns":0,"title":"Caught (1996 film)"},{"ns":0,"title":"Chad
+        Lowe"},{"ns":0,"title":"Characters in Blade Runner"},{"ns":0,"title":"Charles
+        Durning"},{"ns":0,"title":"Chicano"},{"ns":0,"title":"Chicano Blowouts"},{"ns":0,"title":"Chris
+        Colfer"},{"ns":0,"title":"CraveOnline"},{"ns":0,"title":"Cypress Hill"},{"ns":0,"title":"Danny
+        DeVito"},{"ns":0,"title":"Danny Glover"},{"ns":0,"title":"David Boreanaz"},{"ns":0,"title":"Dead
+        Man''s Walk"},{"ns":0,"title":"Dean Stockwell"},{"ns":0,"title":"Democratic
+        Party (United States)"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Derek
+        Luke"},{"ns":0,"title":"Dexter (TV series)"},{"ns":0,"title":"Dominican Republic"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Don Johnson"},{"ns":0,"title":"Donald Sutherland"},{"ns":0,"title":"East
+        Los Angeles College"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Edward
+        Asner"},{"ns":0,"title":"El Americano: The Movie"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Escape
+        Velocity (Battlestar Galactica)"},{"ns":0,"title":"Eureka (U.S. TV series)"},{"ns":0,"title":"Evening
+        in Byzantium"},{"ns":0,"title":"Farmers Insurance Group"},{"ns":0,"title":"Filly
+        Brown"},{"ns":0,"title":"Fukkatsu no hi"},{"ns":0,"title":"Fyvush Finkel"},{"ns":0,"title":"Gary
+        Frank (actor)"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        Lopez (TV series)"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor - Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor - Series, Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Series, Miniseries or Television
+        Film"},{"ns":0,"title":"Gordon Clapp"},{"ns":0,"title":"Gossip (2000 American
+        film)"},{"ns":0,"title":"Governor of New Mexico"},{"ns":0,"title":"Gregorio
+        Cortez"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Harvey
+        Keitel"},{"ns":0,"title":"Harvey Korman"},{"ns":0,"title":"Hill Street Blues"},{"ns":0,"title":"Hollywood
+        Confidential"},{"ns":0,"title":"Howard Keel"},{"ns":0,"title":"H\u00e9ctor
+        Elizondo"},{"ns":0,"title":"I''m Still Here (2010 film)"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"In the Time of the Butterflies (film)"},{"ns":0,"title":"Independent
+        Spirit Award for Best Male Lead"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Islanded
+        in a Stream of Stars"},{"ns":0,"title":"Jaime Escalante"},{"ns":0,"title":"James
+        Brolin"},{"ns":0,"title":"James Coco"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jan Niklas"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jean
+        Dujardin"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jeffrey Wright
+        (actor)"},{"ns":0,"title":"Jennifer Lopez"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy
+        Piven"},{"ns":0,"title":"Jimmy Smits"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Hawkes (actor)"},{"ns":0,"title":"John Hillerman"},{"ns":0,"title":"John Karlen"},{"ns":0,"title":"John
+        Lithgow"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Josh Holloway"},{"ns":0,"title":"Julian
+        Nava"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kinji Fukasaku"},{"ns":0,"title":"Kyle
+        Chandler"},{"ns":0,"title":"Larry Drake"},{"ns":0,"title":"Latino Public Broadcasting"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lionel Stander"},{"ns":0,"title":"Lorraine
+        Bracco"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Los Angeles, California"},{"ns":0,"title":"Louis
+        Gossett, Jr."},{"ns":0,"title":"Lymari Nadal"},{"ns":0,"title":"M. Emmet Walsh"},{"ns":0,"title":"Married
+        and maiden names"},{"ns":0,"title":"Martin Castillo (Miami Vice character)"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Matthew Fox"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"McLean Stevenson"},{"ns":0,"title":"Menendez: A
+        Killing in Beverly Hills"},{"ns":0,"title":"Mexican American"},{"ns":0,"title":"Miami
+        Vice"},{"ns":0,"title":"Michael Badalucco"},{"ns":0,"title":"Michael C. Hall"},{"ns":0,"title":"Michael
+        Conrad"},{"ns":0,"title":"Michael Pe\u00f1a"},{"ns":0,"title":"Mickey Rourke"},{"ns":0,"title":"Mirage
+        (1995)"},{"ns":0,"title":"Montebello High School"},{"ns":0,"title":"My Family
+        (film)"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Nausica\u00e4 of the Valley
+        of the Wind (film)"},{"ns":0,"title":"Navy-Vieques protests"},{"ns":0,"title":"Norman
+        Fell"},{"ns":0,"title":"Pat Harrington, Jr."},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Le Mat"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Peter Dinklage"},{"ns":0,"title":"Peter
+        Fonda"},{"ns":0,"title":"Philip Michael Thomas"},{"ns":0,"title":"Philip Seymour
+        Hoffman"},{"ns":0,"title":"Portlandia (TV series)"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Miniseries or a Movie"},{"ns":0,"title":"Public
+        Broadcasting Service"},{"ns":0,"title":"Puerto Rico"},{"ns":0,"title":"Rafael
+        Trujillo"},{"ns":0,"title":"Ray Walston"},{"ns":0,"title":"Richard Dean Anderson"},{"ns":0,"title":"Richard
+        Dysart"},{"ns":0,"title":"Richard Farnsworth"},{"ns":0,"title":"Richard Kiley"},{"ns":0,"title":"Richard
+        Schiff"},{"ns":0,"title":"River Phoenix"},{"ns":0,"title":"Robert Downey,
+        Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert Patrick"},{"ns":0,"title":"Robert
+        Vaughn"},{"ns":0,"title":"Rock and roll"},{"ns":0,"title":"Roosters"},{"ns":0,"title":"Rutger
+        Hauer"},{"ns":0,"title":"Ryan Gosling"},{"ns":0,"title":"Salvatore Maranzano"},{"ns":0,"title":"Samuel
+        L. Jackson"},{"ns":0,"title":"San Diego Comic Con International"},{"ns":0,"title":"Saturn
+        Award for Best Actor on Television"},{"ns":0,"title":"Saturn Award for Best
+        Guest Starring Role on Television"},{"ns":0,"title":"Saving Grace (1985 film)"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by an Ensemble in a Drama Series"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Selena (film)"},{"ns":0,"title":"Snoop Dogg"},{"ns":0,"title":"Splinter
+        (2006 film)"},{"ns":0,"title":"Stand and Deliver"},{"ns":0,"title":"Stanley
+        Tucci"},{"ns":0,"title":"Star Trek: The Next Generation"},{"ns":0,"title":"Starsky
+        & Hutch"},{"ns":0,"title":"Stephen Moyer"},{"ns":0,"title":"Steven Weber (actor)"},{"ns":0,"title":"Stuart
+        Margolin"},{"ns":0,"title":"Syfy"},{"ns":0,"title":"Syst\u00e8me universitaire
+        de documentation"},{"ns":0,"title":"TV Guide"},{"ns":0,"title":"Taking a Break
+        from All Your Worries"},{"ns":0,"title":"Talent for the Game"},{"ns":0,"title":"Television
+        film"},{"ns":0,"title":"The Burning Season (1994 film)"},{"ns":0,"title":"The
+        Disappearance of Garcia Lorca"},{"ns":0,"title":"The Fortunate Pilgrim"},{"ns":0,"title":"The
+        Green Hornet (2011 film)"},{"ns":0,"title":"The Jersey Journal"},{"ns":0,"title":"The
+        Magic School Bus (TV series)"},{"ns":0,"title":"The Road to El Dorado"},{"ns":0,"title":"The
+        Taking of Pelham One Two Three (1998 film)"},{"ns":0,"title":"The West Wing"},{"ns":0,"title":"The
+        West Wing (TV series)"},{"ns":0,"title":"The Wonderful Ice Cream Suit"},{"ns":0,"title":"Tigh
+        Me Up, Tigh Me Down"},{"ns":0,"title":"Tim Conway"},{"ns":0,"title":"Timothy
+        Busfield"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tony Award"},{"ns":0,"title":"Triumph
+        of the Spirit"},{"ns":0,"title":"USS Enterprise (NCC-1701-D)"},{"ns":0,"title":"United
+        Nations Children''s Fund"},{"ns":0,"title":"United States"},{"ns":0,"title":"United
+        States Navy"},{"ns":0,"title":"United States Postal Service"},{"ns":0,"title":"Unity
+        (film)"},{"ns":0,"title":"Vic Tayback"},{"ns":0,"title":"Vieques, Puerto Rico"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Virus (1980 film)"},{"ns":0,"title":"Walkout
+        (film)"},{"ns":0,"title":"West New York, New Jersey"},{"ns":0,"title":"William
+        Adama"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"William Shatner"},{"ns":0,"title":"Wolfen
+        (film)"},{"ns":0,"title":"World War II"},{"ns":0,"title":"YouTube"},{"ns":0,"title":"Zapatista
+        (film)"},{"ns":0,"title":"Zapatista Army of National Liberation"},{"ns":0,"title":"Zoot
+        Suit (film)"},{"ns":0,"title":"Zoot Suit (play)"},{"ns":0,"title":"Zoot Suit
+        Riots"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:EmmyAward
+        DramaSupportingActor"},{"ns":10,"title":"Template:EmmyAward DramaSupportingActor
+        1959\u20131975"},{"ns":10,"title":"Template:EmmyAward DramaSupportingActor
+        1976\u20132000"},{"ns":10,"title":"Template:EmmyAward DramaSupportingActor
+        2001\u20132025"},{"ns":10,"title":"Template:GoldenGlobeSupportingActorTV"},{"ns":10,"title":"Template:IndependentSpiritBestMaleLead"},{"ns":10,"title":"Template:Saturn
+        Award for Best Actor on Television"},{"ns":11,"title":"Template talk:EmmyAward
+        DramaSupportingActor 1976\u20132000"},{"ns":11,"title":"Template talk:GoldenGlobeSupportingActorTV"},{"ns":11,"title":"Template
+        talk:IndependentSpiritBestMaleLead"},{"ns":11,"title":"Template talk:Saturn
+        Award for Best Actor on Television"},{"ns":14,"title":"Category:Articles with
+        unsourced statements from February 2007"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from March 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:08 GMT
+recorded_with: VCR 2.9.2

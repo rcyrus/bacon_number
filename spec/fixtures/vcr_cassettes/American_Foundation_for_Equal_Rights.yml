@@ -1,0 +1,176 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=American%20Foundation%20for%20Equal%20Rights
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287065611, 1102657034, 2597282477
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2973'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:42 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4017 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"23484527":{"pageid":23484527,"ns":0,"title":"American
+        Foundation for Equal Rights","links":[{"ns":0,"title":"8 (play)"},{"ns":0,"title":"8
+        (the play)"},{"ns":0,"title":"Adelphopoiesis"},{"ns":0,"title":"Akava''ine"},{"ns":0,"title":"Al
+        Gore"},{"ns":0,"title":"Androgyny"},{"ns":0,"title":"Anthony Kennedy"},{"ns":0,"title":"Anti-LGBT
+        slogans"},{"ns":0,"title":"Antonin Scalia"},{"ns":0,"title":"Arnold Schwarzenegger"},{"ns":0,"title":"Asexuality"},{"ns":0,"title":"Associate
+        Justice of the Supreme Court of the United States"},{"ns":0,"title":"Attorney
+        General of California"},{"ns":0,"title":"Banjee"},{"ns":0,"title":"Bi-curious"},{"ns":0,"title":"Bigender"},{"ns":0,"title":"Biology
+        and sexual orientation"},{"ns":0,"title":"Biphobia"},{"ns":0,"title":"Bisexual
+        community"},{"ns":0,"title":"Bisexuality"},{"ns":0,"title":"Bissu"},{"ns":0,"title":"Boi
+        (sexual slang)"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bruce Cohen"},{"ns":0,"title":"Bush
+        v. Gore"},{"ns":0,"title":"California Proposition 8 (2008)"},{"ns":0,"title":"Carlos
+        Bea"},{"ns":0,"title":"Cato Institute"},{"ns":0,"title":"Center for American
+        Progress"},{"ns":0,"title":"Certiorari"},{"ns":0,"title":"Chad Griffin"},{"ns":0,"title":"Chief
+        Justice of California"},{"ns":0,"title":"Chief Justice of the United States"},{"ns":0,"title":"Christine
+        Lahti"},{"ns":0,"title":"Cisgender"},{"ns":0,"title":"Civil union"},{"ns":0,"title":"Clarence
+        Thomas"},{"ns":0,"title":"Cleve Jones"},{"ns":0,"title":"Coming out"},{"ns":0,"title":"Corrective
+        rape"},{"ns":0,"title":"Dan Choi"},{"ns":0,"title":"David Boies"},{"ns":0,"title":"David
+        Mixner"},{"ns":0,"title":"Democratic Party (United States)"},{"ns":0,"title":"Demographics
+        of sexual orientation"},{"ns":0,"title":"Dennis Hollingsworth"},{"ns":0,"title":"Diarmuid
+        O''Scannlain"},{"ns":0,"title":"Discourse"},{"ns":0,"title":"Discrimination"},{"ns":0,"title":"Discrimination
+        against people with HIV/AIDS"},{"ns":0,"title":"Dolores Huerta"},{"ns":0,"title":"Drag
+        king"},{"ns":0,"title":"Drag queen"},{"ns":0,"title":"Due Process Clause"},{"ns":0,"title":"Dustin
+        Lance Black"},{"ns":0,"title":"Ebell of Los Angeles"},{"ns":0,"title":"Ego-dystonic
+        sexual orientation"},{"ns":0,"title":"Elena Kagan"},{"ns":0,"title":"Ellen
+        Barkin"},{"ns":0,"title":"Elton John"},{"ns":0,"title":"Employees"},{"ns":0,"title":"Environment
+        and sexual orientation"},{"ns":0,"title":"Equal Protection Clause"},{"ns":0,"title":"Eugene
+        O''Neill Theatre"},{"ns":0,"title":"Eunuch"},{"ns":0,"title":"Evan Wolfson"},{"ns":0,"title":"Ex-ex-gay"},{"ns":0,"title":"Ex-gay
+        movement"},{"ns":0,"title":"Fa''afafine"},{"ns":0,"title":"Fakaleiti"},{"ns":0,"title":"Female"},{"ns":0,"title":"Femminiello"},{"ns":0,"title":"First
+        Lady"},{"ns":0,"title":"Florida election recount"},{"ns":0,"title":"Fourteenth
+        Amendment to the United States Constitution"},{"ns":0,"title":"Fraternal birth
+        order and male sexual orientation"},{"ns":0,"title":"Freedom to Marry"},{"ns":0,"title":"Gay"},{"ns":0,"title":"Gay
+        Liberation"},{"ns":0,"title":"Gay anthem"},{"ns":0,"title":"Gay bar"},{"ns":0,"title":"Gay
+        bashing"},{"ns":0,"title":"Gay friendly"},{"ns":0,"title":"Gay icon"},{"ns":0,"title":"Gay
+        liberation"},{"ns":0,"title":"Gay panic defense"},{"ns":0,"title":"Gay pride"},{"ns":0,"title":"Gay
+        rodeo"},{"ns":0,"title":"Gay village"},{"ns":0,"title":"Gender identity"},{"ns":0,"title":"Gender
+        roles"},{"ns":0,"title":"Gender studies"},{"ns":0,"title":"Genderism"},{"ns":0,"title":"Genderqueer"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George W. Bush"},{"ns":0,"title":"Governor of California"},{"ns":0,"title":"Hak-Shing
+        William Tam"},{"ns":0,"title":"Hate crime"},{"ns":0,"title":"Headquarters"},{"ns":0,"title":"Hermaphrodite"},{"ns":0,"title":"Heteroflexible"},{"ns":0,"title":"Heteronormativity"},{"ns":0,"title":"Heterosexism"},{"ns":0,"title":"Heterosexuality"},{"ns":0,"title":"Heterosexual\u2013homosexual
+        continuum"},{"ns":0,"title":"Hijra (South Asia)"},{"ns":0,"title":"Hilary
+        Rosen"},{"ns":0,"title":"History of Christianity and homosexuality"},{"ns":0,"title":"History
+        of lesbianism"},{"ns":0,"title":"History of same-sex unions"},{"ns":0,"title":"History
+        of violence against LGBT people in the United Kingdom"},{"ns":0,"title":"History
+        of violence against LGBT people in the United States"},{"ns":0,"title":"Hollingsworth
+        v. Perry"},{"ns":0,"title":"Homophobia"},{"ns":0,"title":"Homosexuality"},{"ns":0,"title":"Homosexuality
+        and psychology"},{"ns":0,"title":"Homosexuality in ancient Egypt"},{"ns":0,"title":"Homosexuality
+        in ancient Greece"},{"ns":0,"title":"Homosexuality in ancient Peru"},{"ns":0,"title":"Homosexuality
+        in ancient Rome"},{"ns":0,"title":"Homosexuality in medieval Europe"},{"ns":0,"title":"Homosexuality
+        in sports"},{"ns":0,"title":"Human Rights Campaign"},{"ns":0,"title":"Human
+        female sexuality"},{"ns":0,"title":"Human male sexuality"},{"ns":0,"title":"Intersex"},{"ns":0,"title":"James
+        Ware (judge)"},{"ns":0,"title":"Jay Bybee"},{"ns":0,"title":"Jerry Brown"},{"ns":0,"title":"John
+        G. Roberts, Jr."},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John Podesta"},{"ns":0,"title":"Judy
+        Shepard"},{"ns":0,"title":"Julian Bond"},{"ns":0,"title":"Kathoey"},{"ns":0,"title":"Ken
+        Mehlman"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Khanith"},{"ns":0,"title":"Kinsey
+        scale"},{"ns":0,"title":"Klein Sexual Orientation Grid"},{"ns":0,"title":"LGBT"},{"ns":0,"title":"LGBT-affirming
+        religious groups"},{"ns":0,"title":"LGBT adoption"},{"ns":0,"title":"LGBT
+        community"},{"ns":0,"title":"LGBT community centre"},{"ns":0,"title":"LGBT
+        culture"},{"ns":0,"title":"LGBT history"},{"ns":0,"title":"LGBT literature"},{"ns":0,"title":"LGBT
+        music"},{"ns":0,"title":"LGBT parenting"},{"ns":0,"title":"LGBT rights at
+        the United Nations"},{"ns":0,"title":"LGBT rights by country or territory"},{"ns":0,"title":"LGBT
+        rights in Africa"},{"ns":0,"title":"LGBT rights in Asia"},{"ns":0,"title":"LGBT
+        rights in Europe"},{"ns":0,"title":"LGBT rights in La Francophonie"},{"ns":0,"title":"LGBT
+        rights in Oceania"},{"ns":0,"title":"LGBT rights in the Americas"},{"ns":0,"title":"LGBT
+        rights in the Commonwealth of Nations"},{"ns":0,"title":"LGBT rights in the
+        United States"},{"ns":0,"title":"LGBT rights opposition"},{"ns":0,"title":"LGBT
+        slang terms"},{"ns":0,"title":"LGBT slogans"},{"ns":0,"title":"LGBT social
+        movements"},{"ns":0,"title":"LGBT stereotypes"},{"ns":0,"title":"LGBT symbols"},{"ns":0,"title":"LGBT
+        topics in education"},{"ns":0,"title":"LGBT tourism"},{"ns":0,"title":"Lavender
+        linguistics"},{"ns":0,"title":"Legal aspects of transsexualism"},{"ns":0,"title":"Lesbian"},{"ns":0,"title":"Lesbian
+        feminism"},{"ns":0,"title":"Lesbian utopia"},{"ns":0,"title":"Lesbophobia"},{"ns":0,"title":"List
+        of LGBT-related organizations"},{"ns":0,"title":"List of LGBT-related suicides"},{"ns":0,"title":"List
+        of LGBT periodicals"},{"ns":0,"title":"List of LGBT rights activists"},{"ns":0,"title":"List
+        of LGBT rights articles by region"},{"ns":0,"title":"List of LGBT rights organizations"},{"ns":0,"title":"List
+        of LGBT slang terms"},{"ns":0,"title":"List of academic disciplines"},{"ns":0,"title":"List
+        of organizations designated by the Southern Poverty Law Center as anti-gay
+        hate groups"},{"ns":0,"title":"List of unlawfully killed transgender people"},{"ns":0,"title":"Los
+        Angeles"},{"ns":0,"title":"Mahu (person)"},{"ns":0,"title":"Male"},{"ns":0,"title":"Margaret
+        Hoover"},{"ns":0,"title":"Martin Sheen"},{"ns":0,"title":"Mental roots of
+        sexual orientation"},{"ns":0,"title":"Michael Daly Hawkins"},{"ns":0,"title":"Michelle
+        Obama"},{"ns":0,"title":"Molly house"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Mukhannathun"},{"ns":0,"title":"Muxe"},{"ns":0,"title":"N.
+        Randy Smith"},{"ns":0,"title":"Neuroscience and sexual orientation"},{"ns":0,"title":"Neutrois"},{"ns":0,"title":"Newsweek"},{"ns":0,"title":"Non-binary
+        discrimination"},{"ns":0,"title":"Non-heterosexual"},{"ns":0,"title":"Nonpartisan"},{"ns":0,"title":"Nonprofit
+        organization"},{"ns":0,"title":"Object sexuality"},{"ns":0,"title":"Office
+        of Legal Council"},{"ns":0,"title":"Pangender"},{"ns":0,"title":"Pansexuality"},{"ns":0,"title":"Paul
+        Singer (businessman)"},{"ns":0,"title":"Pederasty"},{"ns":0,"title":"Persecution
+        of homosexuals in Nazi Germany and the Holocaust"},{"ns":0,"title":"Peter
+        Thiel"},{"ns":0,"title":"Polyamory"},{"ns":0,"title":"Prejudice"},{"ns":0,"title":"Prenatal
+        hormones and sexual orientation"},{"ns":0,"title":"Pride parade"},{"ns":0,"title":"Proposition
+        8"},{"ns":0,"title":"ProtectMarriage.com"},{"ns":0,"title":"Queer"},{"ns":0,"title":"Queer
+        studies"},{"ns":0,"title":"Queer theory"},{"ns":0,"title":"Questioning (sexuality
+        and gender)"},{"ns":0,"title":"Religion and homosexuality"},{"ns":0,"title":"Republican
+        National Committee"},{"ns":0,"title":"Republican Party (United States)"},{"ns":0,"title":"Revenue"},{"ns":0,"title":"Riddle
+        scale"},{"ns":0,"title":"Rob Reiner"},{"ns":0,"title":"Robert A. Levy"},{"ns":0,"title":"Romer
+        v. Evans"},{"ns":0,"title":"Ronald Reagan"},{"ns":0,"title":"Ruth Bader Ginsburg"},{"ns":0,"title":"Same-sex
+        marriage"},{"ns":0,"title":"Same-sex relationship"},{"ns":0,"title":"Same
+        gender loving"},{"ns":0,"title":"Samuel A. Alito, Jr."},{"ns":0,"title":"Sea
+        queens"},{"ns":0,"title":"Sexual identity"},{"ns":0,"title":"Sexual inversion
+        (sexology)"},{"ns":0,"title":"Sexual orientation"},{"ns":0,"title":"Sexual
+        orientation and military service"},{"ns":0,"title":"Sexual orientation change
+        efforts"},{"ns":0,"title":"Sexual orientation identity"},{"ns":0,"title":"Sexuality
+        and gender identity-based cultures"},{"ns":0,"title":"Significant acts of
+        violence against LGBT people"},{"ns":0,"title":"Socialism and LGBT rights"},{"ns":0,"title":"Societal
+        attitudes toward homosexuality"},{"ns":0,"title":"Sodomy law"},{"ns":0,"title":"Sonia
+        Sotomayor"},{"ns":0,"title":"Status of same-sex marriage"},{"ns":0,"title":"Stephen
+        G. Breyer"},{"ns":0,"title":"Stephen Reinhardt"},{"ns":0,"title":"Stonewall
+        riots"},{"ns":0,"title":"Stuart Milk"},{"ns":0,"title":"Supreme Court of California"},{"ns":0,"title":"Tani
+        Cantil-Sakauye"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"Theodore
+        B. Olson"},{"ns":0,"title":"Third gender"},{"ns":0,"title":"Timeline of LGBT
+        history"},{"ns":0,"title":"Timeline of same-sex marriage"},{"ns":0,"title":"Timeline
+        of sexual orientation and medicine"},{"ns":0,"title":"Trans bashing"},{"ns":0,"title":"Transfeminism"},{"ns":0,"title":"Transgender"},{"ns":0,"title":"Transgenderism
+        and religion"},{"ns":0,"title":"Transphobia"},{"ns":0,"title":"Two-Spirit"},{"ns":0,"title":"UK
+        Gay Liberation Front 1971 Festival of Light action"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"United States Assistant Attorney General"},{"ns":0,"title":"United
+        States Court of Appeals for the Ninth Circuit"},{"ns":0,"title":"United States
+        Department of Justice"},{"ns":0,"title":"United States District Court for
+        the Northern District of California"},{"ns":0,"title":"United States Solicitor
+        General"},{"ns":0,"title":"United States Supreme Court"},{"ns":0,"title":"Uranian"},{"ns":0,"title":"Vaughn
+        R. Walker"},{"ns":0,"title":"Violence against LGBT people"},{"ns":0,"title":"Volunteering"},{"ns":0,"title":"Website"},{"ns":0,"title":"White
+        House"},{"ns":0,"title":"White Night riots"},{"ns":0,"title":"Womyn"},{"ns":0,"title":"Yogyakarta
+        Principles"},{"ns":0,"title":"YouTube"},{"ns":10,"title":"Template:LGBT"},{"ns":11,"title":"Template
+        talk:LGBT"},{"ns":14,"title":"Category:LGBT"},{"ns":14,"title":"Category:LGBT
+        culture"},{"ns":14,"title":"Category:LGBT history"},{"ns":100,"title":"Portal:LGBT"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:43 GMT
+recorded_with: VCR 2.9.2

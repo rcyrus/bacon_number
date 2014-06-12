@@ -1,0 +1,136 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Second%20Stage%20Theatre
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390698561, 3085170345, 1613098876
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2085'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:05 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"7488256":{"pageid":7488256,"ns":0,"title":"Second
+        Stage Theatre","links":[{"ns":0,"title":"59E59 Theaters"},{"ns":0,"title":"AUDELCO"},{"ns":0,"title":"A
+        Soldier''s Play"},{"ns":0,"title":"Adam Bock"},{"ns":0,"title":"Alice Ripley"},{"ns":0,"title":"All
+        New People (play)"},{"ns":0,"title":"Ally Sheedy"},{"ns":0,"title":"Alyssa
+        Milano"},{"ns":0,"title":"Angela Bassett"},{"ns":0,"title":"Anna Camp"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Anthony Rapp"},{"ns":0,"title":"Arthur Kopit"},{"ns":0,"title":"Astor
+        Place Theatre"},{"ns":0,"title":"Atlantic Theater Company"},{"ns":0,"title":"August
+        Wilson"},{"ns":0,"title":"Barrow Street Theatre"},{"ns":0,"title":"Baryshnikov
+        Arts Center"},{"ns":0,"title":"Becky Shaw"},{"ns":0,"title":"Bill Pullman"},{"ns":0,"title":"Bob
+        Saget"},{"ns":0,"title":"Bobby Cannavale"},{"ns":0,"title":"Brian Yorkey"},{"ns":0,"title":"Brian
+        d''Arcy James"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Camryn
+        Manheim"},{"ns":0,"title":"Carol Kane"},{"ns":0,"title":"Chandra Wilson"},{"ns":0,"title":"Charles
+        Fuller"},{"ns":0,"title":"Cherry Lane Theatre"},{"ns":0,"title":"Christian
+        Slater"},{"ns":0,"title":"Clarence Derwent Award"},{"ns":0,"title":"Classic
+        Stage Company"},{"ns":0,"title":"Coastal Disturbances"},{"ns":0,"title":"Cynthia
+        Nixon"},{"ns":0,"title":"Dan O''Brien (playwright)"},{"ns":0,"title":"Daniel
+        Davis"},{"ns":0,"title":"Daniel Stern (actor)"},{"ns":0,"title":"Debra Jo
+        Rupp"},{"ns":0,"title":"Diane Wiest"},{"ns":0,"title":"Douglas Carter Beane"},{"ns":0,"title":"Drama
+        Desk Award"},{"ns":0,"title":"Edward Albee"},{"ns":0,"title":"Elizabeth Reaser"},{"ns":0,"title":"Eric
+        Bogosian"},{"ns":0,"title":"Esai Morales"},{"ns":0,"title":"Estelle Parsons"},{"ns":0,"title":"Eurydice
+        (Ruhl play)"},{"ns":0,"title":"Gate Theatre (New York City)"},{"ns":0,"title":"Geographic
+        coordinate system"},{"ns":0,"title":"Gina Gionfriddo"},{"ns":0,"title":"Gluckman
+        Mayner Architects"},{"ns":0,"title":"Gramercy Theatre"},{"ns":0,"title":"Harriet
+        Harris"},{"ns":0,"title":"Helen Hayes Theatre"},{"ns":0,"title":"How I Learned
+        To Drive"},{"ns":0,"title":"Howard Korder"},{"ns":0,"title":"Irish Repertory
+        Theatre"},{"ns":0,"title":"James Lapine"},{"ns":0,"title":"James McDaniel"},{"ns":0,"title":"Jan
+        Maxwell"},{"ns":0,"title":"Jane Kaczmarek"},{"ns":0,"title":"Jason Robert
+        Brown"},{"ns":0,"title":"Jeff Daniels"},{"ns":0,"title":"Jennifer Carpenter"},{"ns":0,"title":"Jennifer
+        Ehle"},{"ns":0,"title":"Jennifer Tilly"},{"ns":0,"title":"Jesse Tyler Ferguson"},{"ns":0,"title":"Jill
+        Eikenberry"},{"ns":0,"title":"Jitney (play)"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John
+        Michael Higgins"},{"ns":0,"title":"John O''Keefe (playwright)"},{"ns":0,"title":"Johnny
+        Galecki"},{"ns":0,"title":"Josh Hamilton (actor)"},{"ns":0,"title":"Jules
+        Feiffer"},{"ns":0,"title":"Julie White"},{"ns":0,"title":"Justin Bartha"},{"ns":0,"title":"Kate
+        Burton (actress)"},{"ns":0,"title":"Kathy Najimy"},{"ns":0,"title":"Keith
+        Nobbs"},{"ns":0,"title":"Kelly Bishop"},{"ns":0,"title":"Kenneth Lonergan"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kieran Culkin"},{"ns":0,"title":"Krysten Ritter"},{"ns":0,"title":"Lamb''s
+        Theatre"},{"ns":0,"title":"Lanford Wilson"},{"ns":0,"title":"Lauren Tom"},{"ns":0,"title":"Laurence
+        Fishburne"},{"ns":0,"title":"Lisa Loomer"},{"ns":0,"title":"Little Miss Sunshine"},{"ns":0,"title":"Little
+        Murders"},{"ns":0,"title":"Little Shubert Theatre"},{"ns":0,"title":"Lucille
+        Lortel Awards"},{"ns":0,"title":"Lucille Lortel Theatre"},{"ns":0,"title":"Lynda
+        Barry"},{"ns":0,"title":"Lynn Nottage"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Manhattan
+        Ensemble Theatre"},{"ns":0,"title":"Marian Seldes"},{"ns":0,"title":"Marisa
+        Tomei"},{"ns":0,"title":"Mark Ruffalo"},{"ns":0,"title":"Mary-Louise Parker"},{"ns":0,"title":"Mary
+        Zimmerman"},{"ns":0,"title":"Metamorphoses"},{"ns":0,"title":"Michael John
+        LaChiusa"},{"ns":0,"title":"Michael Starobin"},{"ns":0,"title":"Michael Weller"},{"ns":0,"title":"Mo
+        Gaffney"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"New 42nd Street"},{"ns":0,"title":"New
+        Theatre (New York City)"},{"ns":0,"title":"New World Stages"},{"ns":0,"title":"New
+        York City"},{"ns":0,"title":"New York City Center"},{"ns":0,"title":"New York
+        Drama Critics'' Circle"},{"ns":0,"title":"New York Theatre Workshop"},{"ns":0,"title":"Next
+        to Normal"},{"ns":0,"title":"Norbert Leo Butz"},{"ns":0,"title":"Obie Award"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Orpheum
+        Theatre (Manhattan)"},{"ns":0,"title":"Outer Critics Circle Award"},{"ns":0,"title":"Pablo
+        Schreiber"},{"ns":0,"title":"Painting Churches"},{"ns":0,"title":"Patricia
+        Heaton"},{"ns":0,"title":"Patti LuPone"},{"ns":0,"title":"Paul Weitz (filmmaker)"},{"ns":0,"title":"Paula
+        Vogel"},{"ns":0,"title":"Pearl Theatre (New York City)"},{"ns":0,"title":"Phoebe
+        Cates"},{"ns":0,"title":"Playwright"},{"ns":0,"title":"Playwrights Horizons"},{"ns":0,"title":"Pulitzer
+        Prize"},{"ns":0,"title":"Quiara Alegria Hudes"},{"ns":0,"title":"Rajiv Joseph"},{"ns":0,"title":"Regina
+        Taylor"},{"ns":0,"title":"Rem Koolhaas"},{"ns":0,"title":"Ricky Jay"},{"ns":0,"title":"Roberto
+        Aguirre-Sacasa"},{"ns":0,"title":"Rock of Ages (musical)"},{"ns":0,"title":"Rosie
+        Perez"},{"ns":0,"title":"Roundabout Theatre Company"},{"ns":0,"title":"Sanaa
+        Lathan"},{"ns":0,"title":"Sarah Ruhl"},{"ns":0,"title":"Sheridan Square Playhouse"},{"ns":0,"title":"Shimmer
+        (play)"},{"ns":0,"title":"Signature Theatre Company (New York City)"},{"ns":0,"title":"Snapple
+        Theater Center"},{"ns":0,"title":"Soho Repertory Theatre"},{"ns":0,"title":"Some
+        Men"},{"ns":0,"title":"St. Luke''s Theatre"},{"ns":0,"title":"Stage 72"},{"ns":0,"title":"Stephen
+        Sondheim"},{"ns":0,"title":"Steve Carell"},{"ns":0,"title":"Sutton Foster"},{"ns":0,"title":"Tamara
+        Tunie"},{"ns":0,"title":"Taye Diggs"},{"ns":0,"title":"Terrence McNally"},{"ns":0,"title":"The
+        25th Annual Putnam County Spelling Bee"},{"ns":0,"title":"The Actors'' Temple"},{"ns":0,"title":"The
+        Last Five Years"},{"ns":0,"title":"The Little Dog Laughed"},{"ns":0,"title":"The
+        Public Theater"},{"ns":0,"title":"The Rimers of Eldritch"},{"ns":0,"title":"Theatre
+        Row (New York City)"},{"ns":0,"title":"Theatre World Award"},{"ns":0,"title":"Theresa
+        Rebeck"},{"ns":0,"title":"Thomas Sadoski"},{"ns":0,"title":"Tim Daly"},{"ns":0,"title":"Tina
+        Howe"},{"ns":0,"title":"Tom Cavanagh"},{"ns":0,"title":"Tom Kitt (musician)"},{"ns":0,"title":"Tony
+        Award"},{"ns":0,"title":"Tony Awards"},{"ns":0,"title":"Tony Goldwyn"},{"ns":0,"title":"Tony
+        Shalhoub"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Uncommon Women
+        and Others"},{"ns":0,"title":"Union Square Theatre"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"Upper West Side"},{"ns":0,"title":"Village South
+        Theatre"},{"ns":0,"title":"Vincent D''Onofrio"},{"ns":0,"title":"Vineyard
+        Theatre"},{"ns":0,"title":"Ving Rhames"},{"ns":0,"title":"Vivian Beaumont
+        Theater"},{"ns":0,"title":"Wendy Wasserstein"},{"ns":0,"title":"Westside Theatre"},{"ns":0,"title":"William
+        Finn"},{"ns":0,"title":"Wings (play)"},{"ns":0,"title":"York Theatre"},{"ns":0,"title":"Zach
+        Braff"},{"ns":10,"title":"Template:Off-Broadway theatres"},{"ns":11,"title":"Template
+        talk:Off-Broadway theatres"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:06 GMT
+recorded_with: VCR 2.9.2

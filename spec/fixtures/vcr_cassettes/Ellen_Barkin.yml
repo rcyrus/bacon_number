@@ -1,0 +1,150 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Ellen%20Barkin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704639188, 1409515508, 2597308342
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2416'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:08 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4009 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"635247":{"pageid":635247,"ns":0,"title":"Ellen
+        Barkin","links":[{"ns":0,"title":"Act of Vengeance"},{"ns":0,"title":"Actors
+        Studio"},{"ns":0,"title":"Adriane Lenox"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alfre
+        Woodard"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"American Comedy Awards"},{"ns":0,"title":"Ancient
+        history"},{"ns":0,"title":"Angela Lansbury"},{"ns":0,"title":"Anjelica Huston"},{"ns":0,"title":"Another
+        Happy Day"},{"ns":0,"title":"Atheist"},{"ns":0,"title":"Audra McDonald"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Bad Company (1995 film)"},{"ns":0,"title":"Barbara
+        Hershey"},{"ns":0,"title":"Barbara Stanwyck"},{"ns":0,"title":"Barry Levinson"},{"ns":0,"title":"Before
+        Women Had Wings"},{"ns":0,"title":"Bette Davis"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Blockbuster LLC"},{"ns":0,"title":"Blue
+        Underground"},{"ns":0,"title":"Bob Dylan"},{"ns":0,"title":"Borough (New York
+        City)"},{"ns":0,"title":"Brenda Vaccaro"},{"ns":0,"title":"Bronx"},{"ns":0,"title":"Brooklyn''s
+        Finest"},{"ns":0,"title":"Bruce Beresford"},{"ns":0,"title":"CableACE Awards"},{"ns":0,"title":"California"},{"ns":0,"title":"Carl
+        Reiner"},{"ns":0,"title":"Chicago Film Critics Association Award for Best
+        Actress"},{"ns":0,"title":"Chicago Film Critics Association Award for Best
+        Supporting Actress"},{"ns":0,"title":"Cicely Tyson"},{"ns":0,"title":"Claire
+        Danes"},{"ns":0,"title":"Claire Trevor"},{"ns":0,"title":"Cloris Leachman"},{"ns":0,"title":"Comedy-drama"},{"ns":0,"title":"Crime
+        and Punishment in Suburbia"},{"ns":0,"title":"Daniel (1983 film)"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Desert Bloom"},{"ns":0,"title":"Diner (film)"},{"ns":0,"title":"Down
+        by Law (film)"},{"ns":0,"title":"Drama"},{"ns":0,"title":"Drama film"},{"ns":0,"title":"Drop
+        Dead Gorgeous (film)"},{"ns":0,"title":"Eddie and the Cruisers"},{"ns":0,"title":"Elvis
+        Presley"},{"ns":0,"title":"Extremities (play)"},{"ns":0,"title":"Fear and
+        Loathing in Las Vegas (film)"},{"ns":0,"title":"Fionnula Flanagan"},{"ns":0,"title":"Fiorello
+        H. LaGuardia High School of Music & Art and Performing Arts"},{"ns":0,"title":"Frances
+        de la Tour"},{"ns":0,"title":"Frank Rich"},{"ns":0,"title":"Gabriel Byrne"},{"ns":0,"title":"Gena
+        Rowlands"},{"ns":0,"title":"Geraldine Page"},{"ns":0,"title":"Glenda Jackson"},{"ns":0,"title":"Glenn
+        Close"},{"ns":0,"title":"Golden Globe Award for Best Actress \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Golden Globe Award for Best Actress
+        \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Halle Berry"},{"ns":0,"title":"Hands
+        of Stone"},{"ns":0,"title":"Happy Tears (film)"},{"ns":0,"title":"Harry &
+        Son"},{"ns":0,"title":"Helen Mirren"},{"ns":0,"title":"High Times"},{"ns":0,"title":"History"},{"ns":0,"title":"Holly
+        Hunter"},{"ns":0,"title":"Hunter College"},{"ns":0,"title":"IndieWire"},{"ns":0,"title":"Ingrid
+        Bergman"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Into the West (film)"},{"ns":0,"title":"Jane
+        Fonda"},{"ns":0,"title":"Jane Lynch"},{"ns":0,"title":"Jennifer Ehle"},{"ns":0,"title":"Jessica
+        Lange"},{"ns":0,"title":"Jessica Tandy"},{"ns":0,"title":"Jessica Walter"},{"ns":0,"title":"Jew"},{"ns":0,"title":"Joanne
+        Woodward"},{"ns":0,"title":"Johnny Handsome"},{"ns":0,"title":"Judith Anderson"},{"ns":0,"title":"Judith
+        Light"},{"ns":0,"title":"Judy Davis"},{"ns":0,"title":"Julia Ormond"},{"ns":0,"title":"Julianne
+        Moore"},{"ns":0,"title":"Julie Benz"},{"ns":0,"title":"Julie Harris"},{"ns":0,"title":"Justine
+        Bateman"},{"ns":0,"title":"Kate Bosworth"},{"ns":0,"title":"Kate Winslet"},{"ns":0,"title":"Katharine
+        Hepburn"},{"ns":0,"title":"Kathy Bates"},{"ns":0,"title":"Katie Finneran"},{"ns":0,"title":"Kim
+        Stanley"},{"ns":0,"title":"King of the Hill"},{"ns":0,"title":"Kirstie Alley"},{"ns":0,"title":"Laura
+        Linney"},{"ns":0,"title":"Laura Prepon"},{"ns":0,"title":"Lee Grant"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lisa Edelstein"},{"ns":0,"title":"List
+        of American film actresses"},{"ns":0,"title":"List of Faerie Tale Theatre
+        episodes"},{"ns":0,"title":"List of Hunter College people"},{"ns":0,"title":"List
+        of Jewish American entertainers"},{"ns":0,"title":"List of people from The
+        Bronx"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Lynn Fontanne"},{"ns":0,"title":"Lynn
+        Whitfield"},{"ns":0,"title":"Mac (film)"},{"ns":0,"title":"Mad Dog Time"},{"ns":0,"title":"Made-for-television"},{"ns":0,"title":"Made
+        in Heaven (1987 film)"},{"ns":0,"title":"Maggie Smith"},{"ns":0,"title":"Man
+        Trouble"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Marlo Thomas"},{"ns":0,"title":"Mary
+        Martin"},{"ns":0,"title":"Maureen Stapleton"},{"ns":0,"title":"Mercy (2000
+        film)"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Michele Pawk"},{"ns":0,"title":"Mildred
+        Natwick"},{"ns":0,"title":"Modern Family"},{"ns":0,"title":"National Lampoon
+        (magazine)"},{"ns":0,"title":"New York"},{"ns":0,"title":"New York City"},{"ns":0,"title":"New
+        York Post"},{"ns":0,"title":"Ocean''s Thirteen"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Operation:
+        Endgame"},{"ns":0,"title":"Palindromes (film)"},{"ns":0,"title":"Patty Duke"},{"ns":0,"title":"Polly
+        Bergen"},{"ns":0,"title":"Primetime Emmy"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Lead Actress in a Miniseries or a Movie"},{"ns":0,"title":"Rita
+        Wilson"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Ronald O. Perelman"},{"ns":0,"title":"Ronald
+        Perelman"},{"ns":0,"title":"Rondi Reed"},{"ns":0,"title":"Rosemary Harris"},{"ns":0,"title":"S.
+        Epatha Merkerson"},{"ns":0,"title":"Sally Field"},{"ns":0,"title":"Sam Levinson"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actress \u2013 Series, Miniseries or Television
+        Film"},{"ns":0,"title":"Scarlett Johansson"},{"ns":0,"title":"Sea of Love
+        (film)"},{"ns":0,"title":"Send Out the Clowns"},{"ns":0,"title":"She Hate
+        Me"},{"ns":0,"title":"Shelley Winters"},{"ns":0,"title":"Siberia"},{"ns":0,"title":"Siesta
+        (film)"},{"ns":0,"title":"Simone Signoret"},{"ns":0,"title":"Someone Like
+        You (film)"},{"ns":0,"title":"Sophie Okonedo"},{"ns":0,"title":"Susan Clark"},{"ns":0,"title":"Susan
+        Hampshire"},{"ns":0,"title":"Susan Sarandon"},{"ns":0,"title":"Switch (1991
+        film)"},{"ns":0,"title":"Tender Mercies"},{"ns":0,"title":"Terrible Joe Moran"},{"ns":0,"title":"The
+        Adventures of Buckaroo Banzai Across the 8th Dimension"},{"ns":0,"title":"The
+        Atlanta Journal-Constitution"},{"ns":0,"title":"The Big Easy (1987 film)"},{"ns":0,"title":"The
+        Big Easy (film)"},{"ns":0,"title":"The Bronx"},{"ns":0,"title":"The Chameleon
+        (film)"},{"ns":0,"title":"The Fan (1996 film)"},{"ns":0,"title":"The New Normal
+        (TV series)"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The Normal
+        Heart"},{"ns":0,"title":"The Washington Post"},{"ns":0,"title":"Theme Time
+        Radio Hour"},{"ns":0,"title":"This Boy''s Life (film)"},{"ns":0,"title":"Time
+        (magazine)"},{"ns":0,"title":"Tony Award for Best Featured Actress in a Play"},{"ns":0,"title":"Trust
+        the Man"},{"ns":0,"title":"Twelve (film)"},{"ns":0,"title":"Up in Smoke"},{"ns":0,"title":"Vanessa
+        L. Williams"},{"ns":0,"title":"Vanessa Redgrave"},{"ns":0,"title":"Very Good
+        Girls"},{"ns":0,"title":"Viola Davis"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"West Hollywood, California"},{"ns":0,"title":"Wild
+        Bill (1995 film)"},{"ns":0,"title":"XM Satellite Radio"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:EmmyAward
+        MiniseriesLeadActress"},{"ns":10,"title":"Template:Satellite Award Best Supporting
+        Actress Series Miniseries or Television Film"},{"ns":10,"title":"Template:TonyAward
+        PlayFeaturedActress"},{"ns":10,"title":"Template:TonyAward PlayFeaturedActress
+        1947\u20131975"},{"ns":10,"title":"Template:TonyAward PlayFeaturedActress
+        1976\u20132000"},{"ns":10,"title":"Template:TonyAward PlayFeaturedActress
+        2001\u20132025"},{"ns":11,"title":"Template talk:EmmyAward MiniseriesLeadActress"},{"ns":11,"title":"Template
+        talk:Satellite Award Best Supporting Actress Series Miniseries or Television
+        Film"},{"ns":11,"title":"Template talk:TonyAward PlayFeaturedActress 2001\u20132025"},{"ns":14,"title":"Category:Articles
+        with dead external links from April 2011"},{"ns":100,"title":"Portal:Biography"},{"ns":100,"title":"Portal:Film"},{"ns":100,"title":"Portal:New
+        York City"},{"ns":100,"title":"Portal:Television"},{"ns":100,"title":"Portal:Theatre"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:08 GMT
+recorded_with: VCR 2.9.2

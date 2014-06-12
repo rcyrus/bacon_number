@@ -1,0 +1,114 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Erd%C5%91s%20number
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332262087, 983700052, 1061628217
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1666'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:08 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4018 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"9742":{"pageid":9742,"ns":0,"title":"Erd\u0151s
+        number","links":[{"ns":0,"title":"Abdus Salam"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Alan
+        Baker (mathematician)"},{"ns":0,"title":"Albert Einstein"},{"ns":0,"title":"Alfr\u00e9d
+        R\u00e9nyi"},{"ns":0,"title":"Alvin E. Roth"},{"ns":0,"title":"American Mathematical
+        Society"},{"ns":0,"title":"Andr\u00e1s Hajnal"},{"ns":0,"title":"Andr\u00e1s
+        S\u00e1rk\u00f6zy"},{"ns":0,"title":"Arts"},{"ns":0,"title":"Atle Selberg"},{"ns":0,"title":"Bacon
+        number"},{"ns":0,"title":"Barry Wellman"},{"ns":0,"title":"Bernt Oksendal"},{"ns":0,"title":"Black
+        Sabbath"},{"ns":0,"title":"British Computer Society"},{"ns":0,"title":"Cecil
+        C. Rousseau"},{"ns":0,"title":"Charles Fefferman"},{"ns":0,"title":"Chess"},{"ns":0,"title":"Collaboration
+        distance"},{"ns":0,"title":"Cryptographic"},{"ns":0,"title":"Danica McKellar"},{"ns":0,"title":"Daniel
+        Kahneman"},{"ns":0,"title":"Daniel Kleitman"},{"ns":0,"title":"Daniel Stroock"},{"ns":0,"title":"Darrell
+        Duffie"},{"ns":0,"title":"David Donoho"},{"ns":0,"title":"David Easley"},{"ns":0,"title":"David
+        Mumford"},{"ns":0,"title":"David Wineland"},{"ns":0,"title":"Defined and undefined"},{"ns":0,"title":"Digital
+        object identifier"},{"ns":0,"title":"Directed graph"},{"ns":0,"title":"Ed
+        Witten"},{"ns":0,"title":"Eigenvector centrality"},{"ns":0,"title":"Endre
+        Szemer\u00e9di"},{"ns":0,"title":"Enrico Bombieri"},{"ns":0,"title":"Enrico
+        Fermi"},{"ns":0,"title":"Erd\u0151s\u2013Bacon number"},{"ns":0,"title":"Eric
+        Lander"},{"ns":0,"title":"Eugene Wigner"},{"ns":0,"title":"Ferdinand Georg
+        Frobenius"},{"ns":0,"title":"Fields Medal"},{"ns":0,"title":"Fields Medalists"},{"ns":0,"title":"Fields
+        medal"},{"ns":0,"title":"Folklore"},{"ns":0,"title":"Frank Harary"},{"ns":0,"title":"Frank
+        Wilczek"},{"ns":0,"title":"Geoffrey Pullum"},{"ns":0,"title":"Gerard Debreu"},{"ns":0,"title":"Go
+        (board game)"},{"ns":0,"title":"Go (game)"},{"ns":0,"title":"Gustavus Simmons"},{"ns":0,"title":"H-index"},{"ns":0,"title":"Hamilton
+        O. Smith"},{"ns":0,"title":"Hans A. Bethe"},{"ns":0,"title":"Hans F\u00f6llmer"},{"ns":0,"title":"Harry
+        M. Markowitz"},{"ns":0,"title":"Henry McKean"},{"ns":0,"title":"Herbert A.
+        Hauptman"},{"ns":0,"title":"Herbert A. Simon"},{"ns":0,"title":"Honinbo Shusaku"},{"ns":0,"title":"H\u00e9lyette
+        Geman"},{"ns":0,"title":"Infinity"},{"ns":0,"title":"International Standard
+        Book Number"},{"ns":0,"title":"Ivan Sag"},{"ns":0,"title":"JSTOR"},{"ns":0,"title":"James
+        Mirrlees"},{"ns":0,"title":"Jean Bourgain"},{"ns":0,"title":"John Carew Eccles"},{"ns":0,"title":"John
+        E. Sulston"},{"ns":0,"title":"John Tukey"},{"ns":0,"title":"Jonathan Bowen"},{"ns":0,"title":"Joseph
+        Keller"},{"ns":0,"title":"Joseph Stiglitz"},{"ns":0,"title":"Kenichi Fukui"},{"ns":0,"title":"Kenneth
+        J. Arrow"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Klaus Roth"},{"ns":0,"title":"Kunihiko
+        Kodaira"},{"ns":0,"title":"L. C. G. Rogers"},{"ns":0,"title":"Lars Onsager"},{"ns":0,"title":"Leonhard
+        Euler"},{"ns":0,"title":"Linguistics"},{"ns":0,"title":"List of important
+        publications in mathematics"},{"ns":0,"title":"List of people by Erd\u0151s
+        number"},{"ns":0,"title":"List of topics named after Paul Erd\u0151s"},{"ns":0,"title":"Lloyd
+        S. Shapley"},{"ns":0,"title":"Longest path"},{"ns":0,"title":"Marc Yor"},{"ns":0,"title":"Mark
+        Liberman"},{"ns":0,"title":"Mark Pinsky"},{"ns":0,"title":"Mathematical Reviews"},{"ns":0,"title":"Mathematical
+        analysis"},{"ns":0,"title":"Mathematician"},{"ns":0,"title":"Max Born"},{"ns":0,"title":"Michael
+        Barr (mathematician)"},{"ns":0,"title":"Michael Harrison"},{"ns":0,"title":"Microsoft
+        Academic Search"},{"ns":0,"title":"Morphy number"},{"ns":0,"title":"Murray
+        Gell-Mann"},{"ns":0,"title":"Nevanlinna Prize"},{"ns":0,"title":"Noam Chomsky"},{"ns":0,"title":"Norman
+        F. Ramsey"},{"ns":0,"title":"Notices of the American Mathematical Society"},{"ns":0,"title":"Oakland
+        University"},{"ns":0,"title":"Otto Stern"},{"ns":0,"title":"Paul Erd\u0151s"},{"ns":0,"title":"Paul
+        Morphy"},{"ns":0,"title":"Peter Carr"},{"ns":0,"title":"Pierre-Louis Lions"},{"ns":0,"title":"P\u00e1l
+        Tur\u00e1n"},{"ns":0,"title":"Ralph Faudree"},{"ns":0,"title":"Ray Kurzweil"},{"ns":0,"title":"Richard
+        Borcherds"},{"ns":0,"title":"Richard Dedekind"},{"ns":0,"title":"Richard P.
+        Feynman"},{"ns":0,"title":"Richard Schelp"},{"ns":0,"title":"Robert J. Aumann"},{"ns":0,"title":"Robert
+        J. Elliott"},{"ns":0,"title":"Robin Wilson (mathematician)"},{"ns":0,"title":"Rock
+        music"},{"ns":0,"title":"Ronald Graham"},{"ns":0,"title":"Sheldon Lee Glashow"},{"ns":0,"title":"Shing-Tung
+        Yau"},{"ns":0,"title":"Six Degrees of Kevin Bacon"},{"ns":0,"title":"Small-world
+        experiment"},{"ns":0,"title":"Small-world network"},{"ns":0,"title":"Social
+        network"},{"ns":0,"title":"Stephen Hawking"},{"ns":0,"title":"Steven Brams"},{"ns":0,"title":"Steven
+        Weinberg"},{"ns":0,"title":"Terence Tao"},{"ns":0,"title":"The Wonder Years"},{"ns":0,"title":"Theoretical
+        physics"},{"ns":0,"title":"Vera T. S\u00f3s"},{"ns":0,"title":"Walter Kohn"},{"ns":0,"title":"William
+        Labov"},{"ns":0,"title":"William Thurston"},{"ns":0,"title":"Willis E. Lamb"},{"ns":0,"title":"Wolfgang
+        Pauli"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":10,"title":"Template:Cite
+        doi/10.1145.2F1871437.1871470"},{"ns":12,"title":"Help:CS1 errors"},{"ns":12,"title":"Help:IPA
+        for Hungarian"},{"ns":14,"title":"Category:Articles with dead external links
+        from July 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:09 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,205 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Stacy%20Keach
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711905950, 1409549257, 1309502078
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3940'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:09 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4009 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"499512":{"pageid":499512,"ns":0,"title":"Stacy
+        Keach","links":[{"ns":0,"title":"1600 Penn"},{"ns":0,"title":"30 Rock"},{"ns":0,"title":"A
+        Rumor of War (miniseries)"},{"ns":0,"title":"Academic degree"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Ahna
+        O''Reilly"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alcoholics Anonymous"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"Alexander
+        Payne"},{"ns":0,"title":"All the Kind Strangers"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"Amanda & the Alien"},{"ns":0,"title":"Amanda Seyfried"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"American Experience"},{"ns":0,"title":"American
+        Greed"},{"ns":0,"title":"American History X"},{"ns":0,"title":"Amy Ryan"},{"ns":0,"title":"Anger
+        Management"},{"ns":0,"title":"Anna Camp"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Anthony
+        Anderson"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Arthur Kopit"},{"ns":0,"title":"Associated
+        Press"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Avant-garde"},{"ns":0,"title":"Bachelor
+        of Arts"},{"ns":0,"title":"Barabbas"},{"ns":0,"title":"Barbara Eden"},{"ns":0,"title":"Barbara
+        Garson"},{"ns":0,"title":"Batman: Mask of the Phantasm"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Before the Devil Knows You''re Dead"},{"ns":0,"title":"Bill
+        Nighy"},{"ns":0,"title":"Biopic"},{"ns":0,"title":"Blackbeard (2006 film)"},{"ns":0,"title":"Bob
+        Odenkirk"},{"ns":0,"title":"Body Bags (film)"},{"ns":0,"title":"Bored to Death"},{"ns":0,"title":"Brendan
+        Fraser"},{"ns":0,"title":"Brewster McCloud"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Brian
+        Kerwin"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Brooklyn Nine-Nine"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Bryce Dallas Howard"},{"ns":0,"title":"Br\u00edan
+        F. O''Byrne"},{"ns":0,"title":"Buffalo Bill"},{"ns":0,"title":"Butterfly (1982
+        film)"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CNBC"},{"ns":0,"title":"Caribe
+        (TV series)"},{"ns":0,"title":"Caught in the Headlights"},{"ns":0,"title":"Cellmates"},{"ns":0,"title":"Charles
+        B. McVay III"},{"ns":0,"title":"Cheech and Chong"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Chicago
+        Overcoat"},{"ns":0,"title":"Children of the Corn 666: Isaac''s Return"},{"ns":0,"title":"Chris
+        Lowell"},{"ns":0,"title":"Christopher Titus"},{"ns":0,"title":"Cicely Tyson"},{"ns":0,"title":"Class
+        of 1999"},{"ns":0,"title":"Cleft lip and palate"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Columbia
+        Broadcasting System"},{"ns":0,"title":"Come Early Morning"},{"ns":0,"title":"Comedy"},{"ns":0,"title":"Conduct
+        Unbecoming (film)"},{"ns":0,"title":"Crash (2004 film)"},{"ns":0,"title":"Cult
+        film"},{"ns":0,"title":"Cy Coleman"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Damien
+        Karras"},{"ns":0,"title":"Dana Ivey"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"David
+        Oyelowo"},{"ns":0,"title":"Death of a Salesman"},{"ns":0,"title":"Desolation
+        Canyon (film)"},{"ns":0,"title":"Devin Ratray"},{"ns":0,"title":"Discovery
+        Channel"},{"ns":0,"title":"Doc (film)"},{"ns":0,"title":"Doc Holliday"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Drama"},{"ns":0,"title":"Drama Desk Award"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"ER (TV series)"},{"ns":0,"title":"Eddie Redmayne"},{"ns":0,"title":"Educational
+        television"},{"ns":0,"title":"Edward Furlong"},{"ns":0,"title":"Edward Norton"},{"ns":0,"title":"Emma
+        Stone"},{"ns":0,"title":"End of the Road (1970 film)"},{"ns":0,"title":"English
+        language"},{"ns":0,"title":"Eric Salzman"},{"ns":0,"title":"Ernest Hemmingway"},{"ns":0,"title":"Escape
+        From L.A."},{"ns":0,"title":"Ethan Hawke"},{"ns":0,"title":"False Identity"},{"ns":0,"title":"Fat
+        City (film)"},{"ns":0,"title":"Fatal Contact: Bird Flu in America"},{"ns":0,"title":"Fergie
+        (singer)"},{"ns":0,"title":"Fox Broadcasting Company"},{"ns":0,"title":"Fox
+        Network"},{"ns":0,"title":"Frank James"},{"ns":0,"title":"Frost/Nixon (play)"},{"ns":0,"title":"Fulbright
+        Program"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        C. Scott"},{"ns":0,"title":"George Lopez (TV series)"},{"ns":0,"title":"George
+        Tabori"},{"ns":0,"title":"George W. Bush"},{"ns":0,"title":"Georgia (U.S.
+        state)"},{"ns":0,"title":"Golden Globe Award for Best Actor - Miniseries or
+        Television Film"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013
+        Miniseries or Television Film"},{"ns":0,"title":"Golden Globe Award for Best
+        Performance by an Actor in a Television Series - Drama"},{"ns":0,"title":"Goodman
+        Theatre"},{"ns":0,"title":"Gospel of John"},{"ns":0,"title":"Gray Lady Down"},{"ns":0,"title":"Hamlet"},{"ns":0,"title":"Haunted
+        Lives: True Ghost Stories"},{"ns":0,"title":"Heathrow Airport"},{"ns":0,"title":"Helena
+        Bonham Carter"},{"ns":0,"title":"Henry Pope"},{"ns":0,"title":"Hindenburg
+        (2011 film)"},{"ns":0,"title":"Honeydripper (film)"},{"ns":0,"title":"How
+        to Marry a Millionaire (TV series)"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Icebreaker
+        (film)"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"Indians (play)"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jack the Ripper"},{"ns":0,"title":"James
+        A. Michener''s Texas"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        Garner"},{"ns":0,"title":"James Keach"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jennifer
+        Esposito"},{"ns":0,"title":"Jerusalem Countdown"},{"ns":0,"title":"Jerusalem
+        Countdown (film)"},{"ns":0,"title":"Jesse James"},{"ns":0,"title":"Jessica
+        Chastain"},{"ns":0,"title":"Jesus of Nazareth (miniseries)"},{"ns":0,"title":"Jesus
+        of Nazareth (movie)"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"John
+        Huston"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Judy
+        Collins"},{"ns":0,"title":"June Squibb"},{"ns":0,"title":"Kansas City Film
+        Critics Circle"},{"ns":0,"title":"Kate Hudson"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"King Lear"},{"ns":0,"title":"L.A. Theatre Works"},{"ns":0,"title":"Larenz
+        Tate"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Les Mis\u00e9rables
+        (2012 film)"},{"ns":0,"title":"Leslie Jordan"},{"ns":0,"title":"Library of
+        Congress Control Number"},{"ns":0,"title":"Lights Out (2011 TV series)"},{"ns":0,"title":"London
+        Academy of Music and Dramatic Art"},{"ns":0,"title":"Lone Rider"},{"ns":0,"title":"Lortel
+        Archives"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"Luther (1973 film)"},{"ns":0,"title":"M.F.A."},{"ns":0,"title":"MacBird!"},{"ns":0,"title":"Malgosia
+        Tomassi"},{"ns":0,"title":"Man with the Screaming Brain"},{"ns":0,"title":"Marion
+        Cotillard"},{"ns":0,"title":"Marisa Tomei"},{"ns":0,"title":"Mark Wahlberg"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Martin Sheen"},{"ns":0,"title":"Mary Louise Wilson"},{"ns":0,"title":"Mary
+        Steenburgen"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matt Dillon"},{"ns":0,"title":"Mercy
+        Streets"},{"ns":0,"title":"Merry Anders"},{"ns":0,"title":"Meteor"},{"ns":0,"title":"Metropolitan
+        Police Service"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michael Shannon"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Mickey
+        Spillane''s Mike Hammer"},{"ns":0,"title":"Mike Hammer"},{"ns":0,"title":"Mike
+        Hammer, Private Eye"},{"ns":0,"title":"Mike Hammer: Murder Takes All"},{"ns":0,"title":"Mike
+        Vogel"},{"ns":0,"title":"Militia (film)"},{"ns":0,"title":"Million Dollar
+        Baby"},{"ns":0,"title":"Miniseries"},{"ns":0,"title":"Missy Doty"},{"ns":0,"title":"Mistral''s
+        Daughter (TV miniseries)"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Mountain
+        of the Cannibal God"},{"ns":0,"title":"Murder Me, Murder You"},{"ns":0,"title":"Murder
+        in My Mind"},{"ns":0,"title":"Musical theatre"},{"ns":0,"title":"Narrator"},{"ns":0,"title":"National
+        Geographic (magazine)"},{"ns":0,"title":"Nebraska (film)"},{"ns":0,"title":"Nelsan
+        Ellis"},{"ns":0,"title":"New Testament"},{"ns":0,"title":"New York Shakespeare
+        Festival"},{"ns":0,"title":"Nice Dreams"},{"ns":0,"title":"Nicol Williamson"},{"ns":0,"title":"Nicole
+        Kidman"},{"ns":0,"title":"Nine (2009 live-action film)"},{"ns":0,"title":"Nonesuch
+        Records"},{"ns":0,"title":"Nova (series)"},{"ns":0,"title":"Obie award"},{"ns":0,"title":"Octavia
+        Spencer"},{"ns":0,"title":"Off Broadway"},{"ns":0,"title":"Oliver Stone"},{"ns":0,"title":"Opie
+        and Anthony"},{"ns":0,"title":"Orpheum Theatre (Memphis, Tennessee)"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Peer Gynt"},{"ns":0,"title":"Pen\u00e9lope Cruz"},{"ns":0,"title":"Peter
+        Marks"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Planes:
+        Fire & Rescue"},{"ns":0,"title":"Planes (film)"},{"ns":0,"title":"Policeman"},{"ns":0,"title":"Preacher"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor - Miniseries or a Movie"},{"ns":0,"title":"Princess
+        Daisy (film)"},{"ns":0,"title":"Prison Break"},{"ns":0,"title":"Psychic"},{"ns":0,"title":"Rance
+        Howard"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Raw Justice"},{"ns":0,"title":"Ray
+        Winstone"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Reading
+        (HM Prison)"},{"ns":0,"title":"Revised Standard Version Catholic Edition"},{"ns":0,"title":"Richard
+        Chamberlain"},{"ns":0,"title":"Richard M. Nixon"},{"ns":0,"title":"Ring of
+        Death (2008 film)"},{"ns":0,"title":"Roadgames"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Romantic
+        comedy"},{"ns":0,"title":"Rookie"},{"ns":0,"title":"Rosemary Harris"},{"ns":0,"title":"Russell
+        Crowe"},{"ns":0,"title":"Ryan Phillippe"},{"ns":0,"title":"Sacha Baron Cohen"},{"ns":0,"title":"Sam
+        Houston"},{"ns":0,"title":"Samantha Barks"},{"ns":0,"title":"Sandra Bullock"},{"ns":0,"title":"Sandra
+        Oh"},{"ns":0,"title":"Satellite Award for Best Cast \u2013 Motion Picture"},{"ns":0,"title":"Savannah,
+        Georgia"},{"ns":0,"title":"Sean Saves the World"},{"ns":0,"title":"Shakespeare"},{"ns":0,"title":"Shakespeare
+        Theatre Company"},{"ns":0,"title":"Sideways"},{"ns":0,"title":"Sidney Harman
+        Hall"},{"ns":0,"title":"SiriusXM"},{"ns":0,"title":"Sissy Spacek"},{"ns":0,"title":"Sitcom"},{"ns":0,"title":"Sophia
+        Loren"},{"ns":0,"title":"Spike TV"},{"ns":0,"title":"Spiritual direction"},{"ns":0,"title":"Stacy
+        Keach, Sr."},{"ns":0,"title":"Stacy Keach as Hemmingway"},{"ns":0,"title":"Stanley
+        Tucci"},{"ns":0,"title":"Stephen Stills"},{"ns":0,"title":"Street People (film)"},{"ns":0,"title":"Stroke"},{"ns":0,"title":"Suite:
+        Judy Blue Eyes"},{"ns":0,"title":"Sunset Grill (film)"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"TV film"},{"ns":0,"title":"Ted
+        Danson"},{"ns":0,"title":"Television film"},{"ns":0,"title":"Television program"},{"ns":0,"title":"Television
+        series"},{"ns":0,"title":"Television syndication"},{"ns":0,"title":"Terrence
+        Howard"},{"ns":0,"title":"Texas"},{"ns":0,"title":"Thandie Newton"},{"ns":0,"title":"That
+        Championship Season (1982 film)"},{"ns":0,"title":"The Blue and the Gray (miniseries)"},{"ns":0,"title":"The
+        Bourne Legacy (film)"},{"ns":0,"title":"The Courage to Love"},{"ns":0,"title":"The
+        Crucible"},{"ns":0,"title":"The Departed"},{"ns":0,"title":"The Exorcist (film)"},{"ns":0,"title":"The
+        Godfather"},{"ns":0,"title":"The Greatest Battle"},{"ns":0,"title":"The Heart
+        Is a Lonely Hunter (film)"},{"ns":0,"title":"The Help (film)"},{"ns":0,"title":"The
+        Hollow (2004 film)"},{"ns":0,"title":"The Killer Inside Me (1976 film)"},{"ns":0,"title":"The
+        Life and Times of Judge Roy Bean"},{"ns":0,"title":"The Long Riders"},{"ns":0,"title":"The
+        Mountain of the Cannibal God"},{"ns":0,"title":"The Nanny Express"},{"ns":0,"title":"The
+        Neighbors (2012 TV series)"},{"ns":0,"title":"The New Centurions"},{"ns":0,"title":"The
+        New Mike Hammer"},{"ns":0,"title":"The Ninth Configuration"},{"ns":0,"title":"The
+        Sea Wolf"},{"ns":0,"title":"The Simpsons"},{"ns":0,"title":"The Squeeze (1977
+        film)"},{"ns":0,"title":"The Traveling Executioner"},{"ns":0,"title":"The
+        Twilight Zone (radio)"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Titus
+        (TV series)"},{"ns":0,"title":"Two Solitudes (film)"},{"ns":0,"title":"Two
+        and a Half Men"},{"ns":0,"title":"United States"},{"ns":0,"title":"United
+        States Army"},{"ns":0,"title":"University of California, Berkeley"},{"ns":0,"title":"Up
+        In Smoke"},{"ns":0,"title":"Up in Smoke"},{"ns":0,"title":"Ursula Andress"},{"ns":0,"title":"Van
+        Nuys High School"},{"ns":0,"title":"Vera Farmiga"},{"ns":0,"title":"Vernon
+        Rice Award"},{"ns":0,"title":"Video nasty"},{"ns":0,"title":"Village Gate"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Viola Davis"},{"ns":0,"title":"Virginia Madsen"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"W. (film)"},{"ns":0,"title":"Washington
+        D.C."},{"ns":0,"title":"Washington Post"},{"ns":0,"title":"Weather Wars"},{"ns":0,"title":"When
+        Eagles Strike"},{"ns":0,"title":"White supremacy"},{"ns":0,"title":"Will Forte"},{"ns":0,"title":"William
+        Fichtner"},{"ns":0,"title":"World''s Most Amazing Videos"},{"ns":0,"title":"Yale
+        School of Drama"},{"ns":0,"title":"Yes, Dear"},{"ns":0,"title":"Young Ivanhoe"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:Satellite
+        Award for Best Cast \u2013 Motion Picture"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template
+        talk:Satellite Award for Best Cast \u2013 Motion Picture"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":14,"title":"Category:Articles with unsourced statements from
+        July 2009"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:10 GMT
+recorded_with: VCR 2.9.2

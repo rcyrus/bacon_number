@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=8%20(play)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711785871, 983680993, 3142859530
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1204'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:39 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4018 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"34961475":{"pageid":34961475,"ns":0,"title":"8
+        (play)","links":[{"ns":0,"title":"8: The Mormon Proposition"},{"ns":0,"title":"Actor"},{"ns":0,"title":"American
+        Dream"},{"ns":0,"title":"American Foundation for Equal Rights"},{"ns":0,"title":"Anthony
+        Edwards"},{"ns":0,"title":"Anti-gay discrimination"},{"ns":0,"title":"Associated
+        Press"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Bob Balaban"},{"ns":0,"title":"Brad
+        Pitt"},{"ns":0,"title":"Bradley Whitford"},{"ns":0,"title":"Bush v. Gore"},{"ns":0,"title":"California"},{"ns":0,"title":"California
+        Proposition 8"},{"ns":0,"title":"Campbell Brown"},{"ns":0,"title":"Charles
+        J. Cooper"},{"ns":0,"title":"Cheyenne Jackson"},{"ns":0,"title":"Chris Colfer"},{"ns":0,"title":"Christine
+        Lahti"},{"ns":0,"title":"Cleve Jones"},{"ns":0,"title":"Closing argument"},{"ns":0,"title":"College"},{"ns":0,"title":"Community
+        theatre"},{"ns":0,"title":"Constitutional amendment"},{"ns":0,"title":"Conversion
+        therapy"},{"ns":0,"title":"Cross-examination"},{"ns":0,"title":"Daily News
+        (New York)"},{"ns":0,"title":"David Blankenhorn"},{"ns":0,"title":"David Boies"},{"ns":0,"title":"Defendants"},{"ns":0,"title":"Documentary
+        theatre"},{"ns":0,"title":"Due Process Clause"},{"ns":0,"title":"Dustin Lance
+        Black"},{"ns":0,"title":"Ebell of Los Angeles"},{"ns":0,"title":"Ellen Barkin"},{"ns":0,"title":"Equal
+        Protection Clause"},{"ns":0,"title":"Eugene O''Neill Theatre"},{"ns":0,"title":"Evan
+        Wolfson"},{"ns":0,"title":"Fourteenth Amendment to the United States Constitution"},{"ns":0,"title":"Freedom
+        to Marry"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George Takei"},{"ns":0,"title":"Gregory
+        M. Herek"},{"ns":0,"title":"Hollingsworth v. Perry"},{"ns":0,"title":"Homophobia"},{"ns":0,"title":"Ilan
+        Meyer"},{"ns":0,"title":"JOY 94.9"},{"ns":0,"title":"James Pickens, Jr."},{"ns":0,"title":"Jamie
+        Lee Curtis"},{"ns":0,"title":"Jane Lynch"},{"ns":0,"title":"Jansen Panettiere"},{"ns":0,"title":"Jayne
+        Houdyshell"},{"ns":0,"title":"Jesse Tyler Ferguson"},{"ns":0,"title":"John
+        C. Reilly"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"Journalist"},{"ns":0,"title":"Kate
+        Shindle"},{"ns":0,"title":"Ken Leung"},{"ns":0,"title":"Kenneth P. Miller"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Larry Kramer"},{"ns":0,"title":"Maggie Gallagher"},{"ns":0,"title":"Martin
+        Sheen"},{"ns":0,"title":"Matt Bomer"},{"ns":0,"title":"Matthew Morrison"},{"ns":0,"title":"Melbourne"},{"ns":0,"title":"Minority
+        stress"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Motion (legal)"},{"ns":0,"title":"National
+        Organization for Marriage"},{"ns":0,"title":"New York City"},{"ns":0,"title":"Oath"},{"ns":0,"title":"Origins
+        of marriage"},{"ns":0,"title":"Perry v. Schwarzenegger"},{"ns":0,"title":"Plaintiff"},{"ns":0,"title":"Premiere"},{"ns":0,"title":"Rob
+        Reiner"},{"ns":0,"title":"Rory O''Malley"},{"ns":0,"title":"Rory O\u2019Malley"},{"ns":0,"title":"Same-sex
+        couple"},{"ns":0,"title":"Same-sex marriage"},{"ns":0,"title":"Same-sex marriage
+        in the United States"},{"ns":0,"title":"San Francisco Chronicle"},{"ns":0,"title":"Sexual
+        orientation"},{"ns":0,"title":"Stephen Spinella"},{"ns":0,"title":"The Los
+        Angeles Times"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"Theodore
+        Olson"},{"ns":0,"title":"Transcript (law)"},{"ns":0,"title":"Trial"},{"ns":0,"title":"Truth
+        Wins Out"},{"ns":0,"title":"United States"},{"ns":0,"title":"United States
+        Constitution"},{"ns":0,"title":"United States District Court for the Northern
+        District of California"},{"ns":0,"title":"United States district court"},{"ns":0,"title":"Vanessa
+        Garc\u00eda"},{"ns":0,"title":"Vaughn R. Walker"},{"ns":0,"title":"Verbatim
+        theatre"},{"ns":0,"title":"Violence against LGBT people"},{"ns":0,"title":"Ward
+        of the state"},{"ns":0,"title":"Yeardley Smith"},{"ns":0,"title":"YouTube"},{"ns":100,"title":"Portal:LGBT"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:39 GMT
+recorded_with: VCR 2.9.2

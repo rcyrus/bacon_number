@@ -1,0 +1,264 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Christine%20Baranski
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704617619, 3536733673, 3142877781
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4984'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:56 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4008 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"654559|11|EmmyAward_ComedySupportingActress"}},"query":{"pages":{"654559":{"pageid":654559,"ns":0,"title":"Christine
+        Baranski","links":[{"ns":0,"title":"3rd Rock from the Sun"},{"ns":0,"title":"9
+        1/2 Weeks"},{"ns":0,"title":"A Little Night Music"},{"ns":0,"title":"A Midsummer
+        Night''s Dream"},{"ns":0,"title":"Abigail Breslin"},{"ns":0,"title":"Addams
+        Family Values"},{"ns":0,"title":"Adriane Lenox"},{"ns":0,"title":"Ahna O''Reilly"},{"ns":0,"title":"Alan
+        Arkin"},{"ns":0,"title":"Alan Bates"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alessandro
+        Nivola"},{"ns":0,"title":"Alice Pearce"},{"ns":0,"title":"Alison Pill"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"All
+        My Children"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Amanda Bynes"},{"ns":0,"title":"Amanda
+        Plummer"},{"ns":0,"title":"America Ferrera"},{"ns":0,"title":"American Beauty
+        (1999 film)"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"American
+        Comedy Award"},{"ns":0,"title":"American Dad!"},{"ns":0,"title":"American
+        Hustle"},{"ns":0,"title":"Amy Adams"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Andy
+        Serkis"},{"ns":0,"title":"Angela Lansbury"},{"ns":0,"title":"Anil Kapoor"},{"ns":0,"title":"Ann
+        B. Davis"},{"ns":0,"title":"Ann Wedgeworth"},{"ns":0,"title":"Anna Friel"},{"ns":0,"title":"Anna
+        Manahan"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Another World
+        (TV series)"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Anupam
+        Kher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Ashutosh Lobo
+        Gajiwala"},{"ns":0,"title":"Audra McDonald"},{"ns":0,"title":"Audrey Meadows"},{"ns":0,"title":"August
+        Diehl"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Ayush Mahesh
+        Khedekar"},{"ns":0,"title":"Azharuddin Mohammed Ismail"},{"ns":0,"title":"Bachelor
+        of Arts"},{"ns":0,"title":"Bebe Neuwirth"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bernadette Peters"},{"ns":0,"title":"Bernard
+        Hill"},{"ns":0,"title":"Betty Suarez"},{"ns":0,"title":"Betty White"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Billy
+        Boyd (actor)"},{"ns":0,"title":"Blair Brown"},{"ns":0,"title":"Blockbuster
+        Entertainment Award"},{"ns":0,"title":"Bob Balaban"},{"ns":0,"title":"Boeing-Boeing
+        (play)"},{"ns":0,"title":"Boeing Boeing (play)"},{"ns":0,"title":"Bonneville
+        (film)"},{"ns":0,"title":"Bowfinger"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley
+        Cooper"},{"ns":0,"title":"Bradley Whitford"},{"ns":0,"title":"Brendan Fraser"},{"ns":0,"title":"Brid
+        Brennan"},{"ns":0,"title":"Brittany Snow"},{"ns":0,"title":"Broadcast Film
+        Critics Association Award"},{"ns":0,"title":"Broadcast Film Critics Association
+        Award for Best Cast"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Bruce
+        Jones (actor)"},{"ns":0,"title":"Bryce Dallas Howard"},{"ns":0,"title":"Buffalo,
+        New York"},{"ns":0,"title":"Bulworth"},{"ns":0,"title":"Busting Loose (TV
+        series)"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Carol Kane"},{"ns":0,"title":"Cate
+        Blanchett"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Celia
+        Keenan-Bolger"},{"ns":0,"title":"Charles Dance"},{"ns":0,"title":"Cheektowaga,
+        New York"},{"ns":0,"title":"Chicago (2002 film)"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Chris
+        Lowell"},{"ns":0,"title":"Chris Tucker"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christine
+        Estabrook"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Cicely Tyson"},{"ns":0,"title":"Citizen Baines"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Clive Owen"},{"ns":0,"title":"Cloris Leachman"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Colm Feore"},{"ns":0,"title":"Crackers (1984 film)"},{"ns":0,"title":"Crash
+        (2004 film)"},{"ns":0,"title":"Cruel Intentions"},{"ns":0,"title":"Cybill"},{"ns":0,"title":"Cybill
+        Shepherd"},{"ns":0,"title":"Cynthia Nixon"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Dana Ivey"},{"ns":0,"title":"Daniel Br\u00fchl"},{"ns":0,"title":"Das
+        Rheingold"},{"ns":0,"title":"David Wenham"},{"ns":0,"title":"Debra Monk"},{"ns":0,"title":"Deirdre
+        Costello"},{"ns":0,"title":"Denis Menochet"},{"ns":0,"title":"Denis O''Hare"},{"ns":0,"title":"Denise
+        Faye"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Derek Jacobi"},{"ns":0,"title":"Dev
+        Patel"},{"ns":0,"title":"Diane Kruger"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Diego
+        Luna"},{"ns":0,"title":"Dinah Manoff"},{"ns":0,"title":"Dominic Monaghan"},{"ns":0,"title":"Dominic
+        West"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Doris Roberts"},{"ns":0,"title":"Dr.
+        Beverly Hofstadter"},{"ns":0,"title":"Drama Desk Award"},{"ns":0,"title":"Drama
+        Desk Award for Outstanding Featured Actress in a Play"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Edie Falco"},{"ns":0,"title":"Eileen Atkins"},{"ns":0,"title":"Eileen
+        Brennan"},{"ns":0,"title":"Ekaterina Chtchelkanova"},{"ns":0,"title":"Elaine
+        Stritch"},{"ns":0,"title":"Eli Roth"},{"ns":0,"title":"Elijah Kelley"},{"ns":0,"title":"Elijah
+        Wood"},{"ns":0,"title":"Elisabeth R\u00f6hm"},{"ns":0,"title":"Elizabeth Franz"},{"ns":0,"title":"Emile
+        Hirsch"},{"ns":0,"title":"Emily Watson"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Emma
+        Stone"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Encores!"},{"ns":0,"title":"Erika
+        Christensen"},{"ns":0,"title":"Estelle Getty"},{"ns":0,"title":"Falling for
+        Grace"},{"ns":0,"title":"Felicity Huffman"},{"ns":0,"title":"Follies"},{"ns":0,"title":"Foodfight!"},{"ns":0,"title":"Frances
+        Bavier"},{"ns":0,"title":"Frances Conroy"},{"ns":0,"title":"Frances Sternhagen"},{"ns":0,"title":"Frances
+        de la Tour"},{"ns":0,"title":"Frasier"},{"ns":0,"title":"Freida Pinto"},{"ns":0,"title":"Garret
+        Dillahunt"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"Geraldine Somerville"},{"ns":0,"title":"Getting In"},{"ns":0,"title":"Ghost
+        Whisperer"},{"ns":0,"title":"Gina Gershon"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actress \u2013 Series, Miniseries or Television
+        Film"},{"ns":0,"title":"Gosford Park"},{"ns":0,"title":"Greg Kinnear"},{"ns":0,"title":"Guy
+        Pearce"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"Hairspray (2007
+        film)"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Happy Family (2003
+        TV series)"},{"ns":0,"title":"Helen Hunt"},{"ns":0,"title":"Helen Mirren"},{"ns":0,"title":"Helena
+        Bonham Carter"},{"ns":0,"title":"How the Grinch Stole Christmas (film)"},{"ns":0,"title":"Hugo
+        Speer"},{"ns":0,"title":"Hugo Weaving"},{"ns":0,"title":"Hurlyburly"},{"ns":0,"title":"Ian
+        Holm"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"In
+        The Game"},{"ns":0,"title":"Inglourious Basterds"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Into
+        the Woods"},{"ns":0,"title":"Into the Woods (film)"},{"ns":0,"title":"Irene
+        Worth"},{"ns":0,"title":"Irrfan Khan"},{"ns":0,"title":"Jack Huston"},{"ns":0,"title":"Jack
+        McGee (actor)"},{"ns":0,"title":"Jacki Weaver"},{"ns":0,"title":"Jacky Ido"},{"ns":0,"title":"Jack\u00e9e
+        Harry"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"Jaime Pressly"},{"ns":0,"title":"James
+        Brolin"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Marsden"},{"ns":0,"title":"James
+        Wilby"},{"ns":0,"title":"Jane Adams (actress)"},{"ns":0,"title":"Jane Lynch"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jean Smart"},{"ns":0,"title":"Jeffrey (film)"},{"ns":0,"title":"Jennifer
+        Ehle"},{"ns":0,"title":"Jennifer Esposito"},{"ns":0,"title":"Jennifer Lawrence"},{"ns":0,"title":"Jeremy
+        Northam"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jerry Stiller"},{"ns":0,"title":"Jessica
+        Chastain"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Jim Clancy
+        (Ghost Whisperer)"},{"ns":0,"title":"Joan Hickson"},{"ns":0,"title":"Joanna
+        Gleason"},{"ns":0,"title":"John C. Reilly"},{"ns":0,"title":"John Laroquette"},{"ns":0,"title":"John
+        Noble"},{"ns":0,"title":"John Rhys-Davies"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"Joseph
+        Cross (actor)"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Judith Ivey"},{"ns":0,"title":"Judith Light"},{"ns":0,"title":"Juilliard
+        School"},{"ns":0,"title":"Julia Louis-Dreyfus"},{"ns":0,"title":"Julie Bowen"},{"ns":0,"title":"Julie
+        Dreyfus"},{"ns":0,"title":"Julie Kavner"},{"ns":0,"title":"Karen Valentine"},{"ns":0,"title":"Karl
+        Urban"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kathryn Hahn"},{"ns":0,"title":"Katie
+        Finneran"},{"ns":0,"title":"Kelly Macdonald"},{"ns":0,"title":"Kennedy Center"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kristen Johnston"},{"ns":0,"title":"Kristin
+        Chenoweth"},{"ns":0,"title":"Kristin Scott Thomas"},{"ns":0,"title":"L. Scott
+        Caldwell"},{"ns":0,"title":"Larenz Tate"},{"ns":0,"title":"Laurie Metcalf"},{"ns":0,"title":"Law
+        & Order"},{"ns":0,"title":"Legal Eagles"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Life with Mikey"},{"ns":0,"title":"Linda
+        Lavin"},{"ns":0,"title":"Lips Together, Teeth Apart"},{"ns":0,"title":"Lisa
+        Kudrow"},{"ns":0,"title":"List of The Big Bang Theory episodes"},{"ns":0,"title":"Little
+        Miss Sunshine"},{"ns":0,"title":"Liv Tyler"},{"ns":0,"title":"Lois de Banzie"},{"ns":0,"title":"Loretta
+        Swit"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Louis C.K."},{"ns":0,"title":"Lovesick"},{"ns":0,"title":"Lucy
+        Liu"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"Lynn
+        Redgrave"},{"ns":0,"title":"Lynne Thigpen"},{"ns":0,"title":"Madeline Kahn"},{"ns":0,"title":"Madhur
+        Mittal"},{"ns":0,"title":"Maggie Smith"},{"ns":0,"title":"Mame (musical)"},{"ns":0,"title":"Mamma
+        Mia! (film)"},{"ns":0,"title":"Manhattan Theatre Club"},{"ns":0,"title":"Marc
+        Kudisch"},{"ns":0,"title":"Marci X"},{"ns":0,"title":"Margaret Tyzack"},{"ns":0,"title":"Marion
+        Lorne"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Mark Rylance"},{"ns":0,"title":"Mark
+        Wahlberg"},{"ns":0,"title":"Married and maiden names"},{"ns":0,"title":"Martha
+        Plimpton"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Martin Wuttke"},{"ns":0,"title":"Mary
+        Alice"},{"ns":0,"title":"Mary Kay Place"},{"ns":0,"title":"Mary McCormack"},{"ns":0,"title":"Mary
+        Steenburgen"},{"ns":0,"title":"Marylouise Burke"},{"ns":0,"title":"Matt Dillon"},{"ns":0,"title":"Matthew
+        Cowles"},{"ns":0,"title":"Megan Mullally"},{"ns":0,"title":"Melissa Leo"},{"ns":0,"title":"Mena
+        Suvari"},{"ns":0,"title":"Merritt Wever"},{"ns":0,"title":"Metropolitan Opera"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michael Fassbender"},{"ns":0,"title":"Michael Gambon"},{"ns":0,"title":"Michael
+        Pe\u00f1a"},{"ns":0,"title":"Michelle Pfeiffer"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Mike
+        Myers"},{"ns":0,"title":"Mike Vogel"},{"ns":0,"title":"Milk (film)"},{"ns":0,"title":"Miranda
+        Otto"},{"ns":0,"title":"Mrs. Lovett"},{"ns":0,"title":"Must See TV"},{"ns":0,"title":"M\u00e9lanie
+        Laurent"},{"ns":0,"title":"M\u00fda"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Nanette
+        Fabray"},{"ns":0,"title":"Natasha Richardson"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"New
+        Jersey Drive"},{"ns":0,"title":"Nick & Nora"},{"ns":0,"title":"Nikki Blonsky"},{"ns":0,"title":"No
+        Country for Old Men (film)"},{"ns":0,"title":"Now and Again"},{"ns":0,"title":"Octavia
+        Spencer"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Orlando Bloom"},{"ns":0,"title":"Pamela
+        Reed"},{"ns":0,"title":"Pat Carroll (actress)"},{"ns":0,"title":"Paul Barber
+        (actor)"},{"ns":0,"title":"Paul Dano"},{"ns":0,"title":"Paul Dooley"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Phoenix
+        Film Critics Society Award"},{"ns":0,"title":"Phoenix Film Critics Society
+        Award for Best Cast"},{"ns":0,"title":"Playbill"},{"ns":0,"title":"Playing
+        for Time (film)"},{"ns":0,"title":"Playwrights Horizons"},{"ns":0,"title":"Polish
+        American"},{"ns":0,"title":"Polish language"},{"ns":0,"title":"Presidio Med"},{"ns":0,"title":"Primetime
+        Emmy Award"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Guest Actress
+        in a Comedy Series"},{"ns":0,"title":"Primetime Emmy Award for Outstanding
+        Supporting Actress in a Comedy Series"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Supporting Actress in a Drama Series"},{"ns":0,"title":"Psych"},{"ns":0,"title":"Queen
+        Latifah"},{"ns":0,"title":"Rachel Roberts (actress)"},{"ns":0,"title":"Relative
+        Strangers"},{"ns":0,"title":"Ren\u00e9e Zellweger"},{"ns":0,"title":"Reversal
+        of Fortune"},{"ns":0,"title":"Rhea Perlman"},{"ns":0,"title":"Richard E. Grant"},{"ns":0,"title":"Richard
+        Gere"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Rod Taylor"},{"ns":0,"title":"Rosemary De Angelis"},{"ns":0,"title":"Roundabout
+        Theatre Company"},{"ns":0,"title":"Rubina Ali"},{"ns":0,"title":"Rumors (play)"},{"ns":0,"title":"Ryan
+        Phillippe"},{"ns":0,"title":"Sally Struthers"},{"ns":0,"title":"Sally and
+        Marsha"},{"ns":0,"title":"Sandra Bullock"},{"ns":0,"title":"Sandra Oh"},{"ns":0,"title":"Sarah
+        Jessica Parker"},{"ns":0,"title":"Saturday Night Live"},{"ns":0,"title":"Screen
+        Actors Guild Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Female Actor in a Comedy Series"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by an Ensemble in a Comedy
+        Series"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by an Ensemble in a Drama Series"},{"ns":0,"title":"Sean Astin"},{"ns":0,"title":"Sean
+        Bean"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Shea
+        Whigham"},{"ns":0,"title":"Shirley Knight"},{"ns":0,"title":"Sideways"},{"ns":0,"title":"Sideways
+        (film)"},{"ns":0,"title":"Silver Linings Playbook"},{"ns":0,"title":"Simon
+        Callow"},{"ns":0,"title":"Sissy Spacek"},{"ns":0,"title":"Situation comedy"},{"ns":0,"title":"Skylanders:
+        Swap Force"},{"ns":0,"title":"Slumdog Millionaire"},{"ns":0,"title":"Sophie
+        Thompson"},{"ns":0,"title":"Speed Racer X"},{"ns":0,"title":"Stephen Fry"},{"ns":0,"title":"Steve
+        Carell"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Susan
+        Misner"},{"ns":0,"title":"Sweeney Todd (musical)"},{"ns":0,"title":"Swoosie
+        Kurtz"},{"ns":0,"title":"Sylvester Groth"},{"ns":0,"title":"Syst\u00e8me universitaire
+        de documentation"},{"ns":0,"title":"Tanay Chheda"},{"ns":0,"title":"Tanvi
+        Ganesh Lonkar"},{"ns":0,"title":"Tara Fitzgerald"},{"ns":0,"title":"Taye Diggs"},{"ns":0,"title":"Teri
+        Hatcher"},{"ns":0,"title":"Terrence Howard"},{"ns":0,"title":"Tess Harper"},{"ns":0,"title":"Thandie
+        Newton"},{"ns":0,"title":"The Baltimore Sun"},{"ns":0,"title":"The Big Bang
+        Theory"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The Bounty Hunter
+        (2010 film)"},{"ns":0,"title":"The Brady Bunch"},{"ns":0,"title":"The Equalizer"},{"ns":0,"title":"The
+        Fighter"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The Good Wife"},{"ns":0,"title":"The
+        Good Wife (TV series)"},{"ns":0,"title":"The Guru (2002 film)"},{"ns":0,"title":"The
+        Help (film)"},{"ns":0,"title":"The House of Blue Leaves"},{"ns":0,"title":"The
+        House of Blue Leaves (film)"},{"ns":0,"title":"The Juilliard School"},{"ns":0,"title":"The
+        King''s Speech"},{"ns":0,"title":"The Lord of the Rings: The Return of the
+        King"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The Odd Couple
+        II"},{"ns":0,"title":"The Outsiders (film)"},{"ns":0,"title":"The Pick-up
+        Artist (film)"},{"ns":0,"title":"The Real Thing (play)"},{"ns":0,"title":"The
+        Ref"},{"ns":0,"title":"The Torrents of Greed"},{"ns":0,"title":"The War (1994
+        film)"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Til
+        Schweiger"},{"ns":0,"title":"Timothy Spall"},{"ns":0,"title":"Tina Fey"},{"ns":0,"title":"To
+        Dance with the White Dog"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Hollander"},{"ns":0,"title":"Tom Stoppard"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas
+        Milian"},{"ns":0,"title":"Tommy Lee Jones"},{"ns":0,"title":"Toni Collette"},{"ns":0,"title":"Tony
+        Award"},{"ns":0,"title":"Tony Award for Best Featured Actress in a Play"},{"ns":0,"title":"Tony
+        Award for Best Performance by a Featured Actress in a Play"},{"ns":0,"title":"Topher
+        Grace"},{"ns":0,"title":"Tovah Feldshuh"},{"ns":0,"title":"Tracey Ullman"},{"ns":0,"title":"Traffic
+        (2000 film)"},{"ns":0,"title":"Trazana Beverley"},{"ns":0,"title":"Ugly Americans
+        (TV series)"},{"ns":0,"title":"Ugly Betty"},{"ns":0,"title":"Valerie Harper"},{"ns":0,"title":"Vanessa
+        Redgrave"},{"ns":0,"title":"Victor Garber"},{"ns":0,"title":"Viewers for Quality
+        Television Award"},{"ns":0,"title":"Viggo Mortensen"},{"ns":0,"title":"Villa
+        Maria Motherhouse Complex"},{"ns":0,"title":"Viola Davis"},{"ns":0,"title":"Virginia
+        Madsen"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Vivian
+        Vance"},{"ns":0,"title":"Washington, D.C."},{"ns":0,"title":"Welcome to Mooseport"},{"ns":0,"title":"Welcome
+        to New York"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"Who is Simon
+        Miller?"},{"ns":0,"title":"William Fichtner"},{"ns":0,"title":"William Snape"},{"ns":0,"title":"Woody
+        Harrelson"},{"ns":0,"title":"Zac Efron"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Broadcast
+        Film Critics Association Award for Best Cast"},{"ns":10,"title":"Template:DramaDesk
+        PlayFeaturedActress"},{"ns":10,"title":"Template:EmmyAward ComedySupportingActress"},{"ns":10,"title":"Template:EmmyAward
+        ComedySupportingActress 1953\u20131975"},{"ns":10,"title":"Template:EmmyAward
+        ComedySupportingActress 1976\u20132000"},{"ns":10,"title":"Template:EmmyAward
+        ComedySupportingActress 2001\u20132025"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":10,"title":"Template:ScreenActorsGuildAward FemaleTVComedy"},{"ns":10,"title":"Template:TonyAward
+        PlayFeaturedActress"},{"ns":10,"title":"Template:TonyAward PlayFeaturedActress
+        1947\u20131975"},{"ns":10,"title":"Template:TonyAward PlayFeaturedActress
+        1976\u20132000"},{"ns":10,"title":"Template:TonyAward PlayFeaturedActress
+        2001\u20132025"},{"ns":11,"title":"Template talk:Broadcast Film Critics Association
+        Award for Best Cast"},{"ns":11,"title":"Template talk:DramaDesk PlayFeaturedActress"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:57 GMT
+recorded_with: VCR 2.9.2

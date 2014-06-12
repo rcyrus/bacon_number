@@ -1,0 +1,112 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Payola
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87284756, 983721974, 1309483303
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1628'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:49 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4018 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"53692":{"pageid":53692,"ns":0,"title":"Payola","links":[{"ns":0,"title":"Actus
+        reus"},{"ns":0,"title":"Alan Freed"},{"ns":0,"title":"Arson"},{"ns":0,"title":"Assault"},{"ns":0,"title":"Attempt"},{"ns":0,"title":"Automatism
+        (law)"},{"ns":0,"title":"Battery (crime)"},{"ns":0,"title":"Berri Txarrak"},{"ns":0,"title":"Billy
+        Joel"},{"ns":0,"title":"Blackmail"},{"ns":0,"title":"Burglary"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CBS
+        Radio"},{"ns":0,"title":"Causation (law)"},{"ns":0,"title":"Citadel Broadcasting
+        Corporation"},{"ns":0,"title":"Claque"},{"ns":0,"title":"Clear Channel"},{"ns":0,"title":"Cold
+        Case"},{"ns":0,"title":"Commercial bribery"},{"ns":0,"title":"Common law"},{"ns":0,"title":"Complicity"},{"ns":0,"title":"Compounding
+        a felony"},{"ns":0,"title":"Concurrence"},{"ns":0,"title":"Consent"},{"ns":0,"title":"Conspiracy
+        (crime)"},{"ns":0,"title":"Contract"},{"ns":0,"title":"Corporate liability"},{"ns":0,"title":"Crayola"},{"ns":0,"title":"Criminal
+        law"},{"ns":0,"title":"Criminal negligence"},{"ns":0,"title":"Dead Kennedys"},{"ns":0,"title":"Defence
+        of property"},{"ns":0,"title":"Defense (legal)"},{"ns":0,"title":"Defense
+        of infancy"},{"ns":0,"title":"Dick Clark"},{"ns":0,"title":"Diminished responsibility"},{"ns":0,"title":"Disc
+        jockey"},{"ns":0,"title":"Don Imus"},{"ns":0,"title":"Duress"},{"ns":0,"title":"EMI"},{"ns":0,"title":"Element
+        (criminal law)"},{"ns":0,"title":"Eliot Spitzer"},{"ns":0,"title":"Embezzlement"},{"ns":0,"title":"Entercom"},{"ns":0,"title":"Entrapment"},{"ns":0,"title":"Everybody''s
+        Rockin''"},{"ns":0,"title":"Evidence (law)"},{"ns":0,"title":"Extortion"},{"ns":0,"title":"False
+        imprisonment"},{"ns":0,"title":"False pretenses"},{"ns":0,"title":"Federal
+        Communications Commission"},{"ns":0,"title":"Felony"},{"ns":0,"title":"Felony
+        murder rule"},{"ns":0,"title":"Fraud"},{"ns":0,"title":"Frederic Dannen"},{"ns":0,"title":"Heavy
+        metal music"},{"ns":0,"title":"Hip hop music"},{"ns":0,"title":"Homicide"},{"ns":0,"title":"House
+        Subcommittee on Legislative Oversight"},{"ns":0,"title":"Howard Hesseman"},{"ns":0,"title":"Ignorantia
+        juris non excusat"},{"ns":0,"title":"Inchoate offense"},{"ns":0,"title":"Incitement"},{"ns":0,"title":"Independent
+        promoter"},{"ns":0,"title":"Independent record label"},{"ns":0,"title":"Insanity
+        defense"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Serial Number"},{"ns":0,"title":"Jimmy Cliff"},{"ns":0,"title":"Jukebox"},{"ns":0,"title":"Justification
+        (jurisprudence)"},{"ns":0,"title":"Kidnapping"},{"ns":0,"title":"Larceny"},{"ns":0,"title":"Lou
+        Bega"},{"ns":0,"title":"Malfeasance in office"},{"ns":0,"title":"Mambo Number
+        5"},{"ns":0,"title":"Manslaughter"},{"ns":0,"title":"Mayhem (crime)"},{"ns":0,"title":"Mens
+        rea"},{"ns":0,"title":"Misdemeanor"},{"ns":0,"title":"Misogyny"},{"ns":0,"title":"Misprision
+        of felony"},{"ns":0,"title":"Mistake (criminal law)"},{"ns":0,"title":"Mistake
+        of law"},{"ns":0,"title":"Money laundering"},{"ns":0,"title":"Murder"},{"ns":0,"title":"Music
+        industry"},{"ns":0,"title":"Music radio"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Necessity"},{"ns":0,"title":"Negligent
+        homicide"},{"ns":0,"title":"Neil Young"},{"ns":0,"title":"New York"},{"ns":0,"title":"New
+        wave music"},{"ns":0,"title":"Obstruction of justice"},{"ns":0,"title":"Offence
+        against the person"},{"ns":0,"title":"Pay*Ola"},{"ns":0,"title":"Pay to play"},{"ns":0,"title":"Payola$"},{"ns":0,"title":"Payola
+        (band)"},{"ns":0,"title":"Payola Scandal"},{"ns":0,"title":"Payolas"},{"ns":0,"title":"Perjury"},{"ns":0,"title":"Perverting
+        the course of justice"},{"ns":0,"title":"Philip Charles MacKenzie"},{"ns":0,"title":"Phoenix,
+        Arizona"},{"ns":0,"title":"Pianola"},{"ns":0,"title":"Playlist"},{"ns":0,"title":"Plugola"},{"ns":0,"title":"Portmanteau
+        word"},{"ns":0,"title":"Possession of stolen goods"},{"ns":0,"title":"Property
+        law"},{"ns":0,"title":"Provocation (legal)"},{"ns":0,"title":"Pull My Strings"},{"ns":0,"title":"Racism"},{"ns":0,"title":"Radio
+        promotion"},{"ns":0,"title":"Radio station"},{"ns":0,"title":"Richie Rivera"},{"ns":0,"title":"Right
+        of self-defense"},{"ns":0,"title":"Robbery"},{"ns":0,"title":"Robert Palmer
+        (writer)"},{"ns":0,"title":"Sexual assault"},{"ns":0,"title":"Solicitation"},{"ns":0,"title":"Song-plugger"},{"ns":0,"title":"Sony
+        BMG Music Entertainment"},{"ns":0,"title":"Spin (radio)"},{"ns":0,"title":"Stan
+        Freberg"},{"ns":0,"title":"Telling Lies in America"},{"ns":0,"title":"The
+        Cribs"},{"ns":0,"title":"The Harder They Come"},{"ns":0,"title":"Theft"},{"ns":0,"title":"They
+        Might Be Giants"},{"ns":0,"title":"Title 47 of the United States Code"},{"ns":0,"title":"Tort"},{"ns":0,"title":"Trusts
+        and estates"},{"ns":0,"title":"United States Senate"},{"ns":0,"title":"Universal
+        Music Group"},{"ns":0,"title":"Vancouver, BC"},{"ns":0,"title":"Vehicular
+        homicide"},{"ns":0,"title":"Vicarious liability (criminal)"},{"ns":0,"title":"Victrola"},{"ns":0,"title":"WAIT
+        (AM)"},{"ns":0,"title":"WKRP in Cincinnati"},{"ns":0,"title":"Warner Music
+        Group"},{"ns":0,"title":"We Didn''t Start the Fire"},{"ns":0,"title":"Will
+        (law)"},{"ns":0,"title":"Your Hit Parade"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Criminal
+        law"},{"ns":10,"title":"Template:Unreferenced section"},{"ns":11,"title":"Template
+        talk:Criminal law"},{"ns":12,"title":"Help:CS1 errors"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from December 2012"},{"ns":100,"title":"Portal:Criminal justice"},{"ns":100,"title":"Portal:Law"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:50 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,216 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Alan%20Rickman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332221661, 3085116722, 1309417583
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3909'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:40 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"39879":{"pageid":39879,"ns":0,"title":"Alan Rickman","links":[{"ns":0,"title":"2011
+        Scream Awards"},{"ns":0,"title":"38th Saturn Awards"},{"ns":0,"title":"AFI''s
+        100 Years...100 Heroes and Villains"},{"ns":0,"title":"A Little Chaos"},{"ns":0,"title":"A
+        Promise (2013 film)"},{"ns":0,"title":"A View from the Bridge"},{"ns":0,"title":"Abbey
+        Theatre"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Supporting Actor"},{"ns":0,"title":"Acton, London"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Adam
+        Leonard (singer-songwriter)"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan
+        Arkin"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Albery Theatre"},{"ns":0,"title":"Alfred
+        Blalock"},{"ns":0,"title":"Alfred Lunt"},{"ns":0,"title":"Alice in Wonderland
+        (2010 film)"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Alliance of Women
+        Film Journalists"},{"ns":0,"title":"Almeida Theatre"},{"ns":0,"title":"An
+        Awfully Big Adventure"},{"ns":0,"title":"Andre Braugher"},{"ns":0,"title":"Ang
+        Lee"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        Murphy (actor)"},{"ns":0,"title":"Antony and Cleopatra"},{"ns":0,"title":"Armand
+        Assante"},{"ns":0,"title":"Arthur Lowe"},{"ns":0,"title":"As You Like It"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA Award"},{"ns":0,"title":"BAFTA Award for
+        Best Actor in a Supporting Role"},{"ns":0,"title":"BBC Television Shakespeare"},{"ns":0,"title":"Back
+        at the Barnyard"},{"ns":0,"title":"Barchester Towers"},{"ns":0,"title":"Barkhad
+        Abdi"},{"ns":0,"title":"Barry Pepper"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Beckett
+        on Film"},{"ns":0,"title":"Ben Johnson (actor)"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benedict
+        Cumberbatch"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Berlin
+        Film Festival"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Nighy"},{"ns":0,"title":"Blow Dry"},{"ns":0,"title":"Bob Roberts"},{"ns":0,"title":"Bottle
+        Shock"},{"ns":0,"title":"Brad Dourif"},{"ns":0,"title":"Brendan Gleeson"},{"ns":0,"title":"Brian
+        Dennehy"},{"ns":0,"title":"Brit Awards"},{"ns":0,"title":"Brooklyn Academy
+        of Music"},{"ns":0,"title":"CBGB"},{"ns":0,"title":"CBGB (film)"},{"ns":0,"title":"Calligraphy"},{"ns":0,"title":"Cameron
+        Diaz"},{"ns":0,"title":"Carrie-Anne Moss"},{"ns":0,"title":"Caterpillar (Alice''s
+        Adventures in Wonderland)"},{"ns":0,"title":"Chelsea College of Art and Design"},{"ns":0,"title":"Christian
+        Bale"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher Hampton"},{"ns":0,"title":"Christopher
+        Plummer"},{"ns":0,"title":"Christopher Reeve"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Cleopatra"},{"ns":0,"title":"Cliff Robertson"},{"ns":0,"title":"Clive
+        Owen"},{"ns":0,"title":"Close My Eyes (film)"},{"ns":0,"title":"Closet Land"},{"ns":0,"title":"Coen
+        brothers"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Colin Welland"},{"ns":0,"title":"Comedic"},{"ns":0,"title":"Cro
+        Magnon"},{"ns":0,"title":"Daniel Auteuil"},{"ns":0,"title":"Daniel Craig"},{"ns":0,"title":"Daniel
+        Day-Lewis"},{"ns":0,"title":"Dark Harbor"},{"ns":0,"title":"David Oyelowo"},{"ns":0,"title":"David
+        Thewlis"},{"ns":0,"title":"Delroy Lindo"},{"ns":0,"title":"Denholm Elliott"},{"ns":0,"title":"Die
+        Hard"},{"ns":0,"title":"Die Hard with a Vengeance"},{"ns":0,"title":"Dogma
+        (film)"},{"ns":0,"title":"Drama Desk Award"},{"ns":0,"title":"Drama League
+        Award"},{"ns":0,"title":"Dublin"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Ed
+        Flanders"},{"ns":0,"title":"Edinburgh International Festival"},{"ns":0,"title":"Edward
+        Fox (actor)"},{"ns":0,"title":"Emma Thompson"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Emmy
+        Award"},{"ns":0,"title":"Empire (magazine)"},{"ns":0,"title":"England"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Ewan McGregor"},{"ns":0,"title":"Fallen Angels (TV
+        series)"},{"ns":0,"title":"Fiona Shaw"},{"ns":0,"title":"Franz Anton Mesmer"},{"ns":0,"title":"Fred
+        Astaire"},{"ns":0,"title":"Galaxy Quest"},{"ns":0,"title":"Gambit (1966 film)"},{"ns":0,"title":"Gambit
+        (2012 film)"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"Girls on Top (TV
+        series)"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Graphic
+        designer"},{"ns":0,"title":"Grigori Rasputin"},{"ns":0,"title":"Hal Holbrook"},{"ns":0,"title":"Hammersmith"},{"ns":0,"title":"Hammersmith
+        South (UK Parliament constituency)"},{"ns":0,"title":"Harry Potter (film series)"},{"ns":0,"title":"Harry
+        Potter and the Chamber of Secrets (film)"},{"ns":0,"title":"Harry Potter and
+        the Deathly Hallows \u2013 Part 1"},{"ns":0,"title":"Harry Potter and the
+        Deathly Hallows \u2013 Part 2"},{"ns":0,"title":"Harry Potter and the Goblet
+        of Fire (film)"},{"ns":0,"title":"Harry Potter and the Half-Blood Prince (film)"},{"ns":0,"title":"Harry
+        Potter and the Order of the Phoenix (film)"},{"ns":0,"title":"Harry Potter
+        and the Philosopher''s Stone (film)"},{"ns":0,"title":"Harry Potter and the
+        Prisoner of Azkaban (film)"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Helen
+        Mirren"},{"ns":0,"title":"Helena Bonham Carter"},{"ns":0,"title":"Help! I''m
+        a Fish"},{"ns":0,"title":"Henrik Ibsen"},{"ns":0,"title":"Hilly Kristal"},{"ns":0,"title":"HitFix"},{"ns":0,"title":"Honeysuckle
+        Weeks"},{"ns":0,"title":"Howard Davies (director)"},{"ns":0,"title":"Hugh
+        Grant"},{"ns":0,"title":"Hume Cronyn"},{"ns":0,"title":"Ian Holm"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"In
+        Demand (Texas song)"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Business Times"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Irish Catholic"},{"ns":0,"title":"Irish
+        Independent"},{"ns":0,"title":"Jack Klugman"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack
+        Nicholson"},{"ns":0,"title":"Jack Palance"},{"ns":0,"title":"Jake Gyllenhaal"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James Joyce Award"},{"ns":0,"title":"James
+        McAvoy"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jann
+        Wenner"},{"ns":0,"title":"Jason Isaacs"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy Northam"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"John Gabriel Borkman"},{"ns":0,"title":"John
+        Gielgud"},{"ns":0,"title":"John Golden Theatre"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"Jonathan
+        Rhys Meyers"},{"ns":0,"title":"Judas Kiss (1998 film)"},{"ns":0,"title":"Jude
+        Law"},{"ns":0,"title":"Judge Turpin"},{"ns":0,"title":"Kansas State Collegian"},{"ns":0,"title":"Katharine
+        Viner"},{"ns":0,"title":"Keith Michell"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kenneth
+        Turan"},{"ns":0,"title":"Kensington and Chelsea London Borough Council"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"King
+        Louis XIV"},{"ns":0,"title":"King of the Hill"},{"ns":0,"title":"Kingston
+        University"},{"ns":0,"title":"Labour Party (UK)"},{"ns":0,"title":"Latymer
+        Upper School"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Les liaisons
+        dangereuses (play)"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lindsay
+        Duncan"},{"ns":0,"title":"List of awards and nominations received by Alan
+        Rickman"},{"ns":0,"title":"Literary and Historical Society (University College
+        Dublin)"},{"ns":0,"title":"Lloyd Nolan"},{"ns":0,"title":"London"},{"ns":0,"title":"London
+        Film Critics Circle Award for British Actor of the Year"},{"ns":0,"title":"Los
+        Angeles Times"},{"ns":0,"title":"Love Actually"},{"ns":0,"title":"MTV"},{"ns":0,"title":"Mark
+        Antony"},{"ns":0,"title":"Marvin the Paranoid Android"},{"ns":0,"title":"Maurice
+        Evans (actor)"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Mesmer
+        (film)"},{"ns":0,"title":"Metatron"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael
+        Collins (film)"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Fassbender"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Michael
+        Palin"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Mike Oldfield"},{"ns":0,"title":"Montessori
+        method"},{"ns":0,"title":"Moviefone"},{"ns":0,"title":"My Name Is Rachel Corrie"},{"ns":0,"title":"New
+        York Post"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"Nobel Prize"},{"ns":0,"title":"Nobel
+        Son"},{"ns":0,"title":"Noel Odell"},{"ns":0,"title":"No\u00ebl Coward"},{"ns":0,"title":"Olivier
+        Theatre"},{"ns":0,"title":"Paul Bettany"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Perfume: The Story
+        of a Murderer (film)"},{"ns":0,"title":"Peter Falk"},{"ns":0,"title":"Peter
+        Strauss"},{"ns":0,"title":"Peter Travers"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Phyllida
+        Law"},{"ns":0,"title":"Powers Boothe"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Private
+        Lives"},{"ns":0,"title":"Quigley Down Under"},{"ns":0,"title":"Ralph Fiennes"},{"ns":0,"title":"Ralph
+        Richardson"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Rasputin: Dark
+        Servant of Destiny"},{"ns":0,"title":"Ray McAnally"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Return of the Native"},{"ns":0,"title":"Richard
+        Chamberlain"},{"ns":0,"title":"Richard Crenna"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Robert
+        Carlyle"},{"ns":0,"title":"Robert Cummings"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert
+        Morse"},{"ns":0,"title":"Robin Hood: Prince of Thieves"},{"ns":0,"title":"Rolling
+        Stone"},{"ns":0,"title":"Romantic comedy"},{"ns":0,"title":"Romeo and Juliet"},{"ns":0,"title":"Ronald
+        Reagan"},{"ns":0,"title":"Royal Academy of Dramatic Art"},{"ns":0,"title":"Royal
+        College of Art"},{"ns":0,"title":"Royal Court Theatre"},{"ns":0,"title":"Royal
+        Shakespeare Company"},{"ns":0,"title":"Rupert Grint"},{"ns":0,"title":"Salvatore
+        Cascio"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"Satellite Award
+        for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Saturn
+        Award"},{"ns":0,"title":"Screen Actors Guild Award"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries
+        or Television Movie"},{"ns":0,"title":"Seminar (play)"},{"ns":0,"title":"Sense
+        and Sensibility (film)"},{"ns":0,"title":"Severus Snape"},{"ns":0,"title":"Sharleen
+        Spiteri"},{"ns":0,"title":"Shelley (TV series)"},{"ns":0,"title":"Sheriff
+        of Nottingham"},{"ns":0,"title":"Sigourney Weaver"},{"ns":0,"title":"Smiley''s
+        People"},{"ns":0,"title":"Snow Cake"},{"ns":0,"title":"Something the Lord
+        Made"},{"ns":0,"title":"Sonnet"},{"ns":0,"title":"Spike (TV channel)"},{"ns":0,"title":"St.
+        Louis Gateway Film Critics Association"},{"ns":0,"title":"St. Louis Gateway
+        Film Critics Association Awards 2011"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stanley
+        Tucci"},{"ns":0,"title":"Stephen Sondheim"},{"ns":0,"title":"Steven Spurrier
+        (wine)"},{"ns":0,"title":"Stock character"},{"ns":0,"title":"Sweeney Todd:
+        The Demon Barber of Fleet Street (2007 film)"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Tango (dance)"},{"ns":0,"title":"Ted
+        Danson"},{"ns":0,"title":"Terrorist"},{"ns":0,"title":"Texas (band)"},{"ns":0,"title":"The
+        Barchester Chronicles"},{"ns":0,"title":"The Butler"},{"ns":0,"title":"The
+        Guardian"},{"ns":0,"title":"The Hitchhiker''s Guide to the Galaxy (film)"},{"ns":0,"title":"The
+        January Man"},{"ns":0,"title":"The Seagull"},{"ns":0,"title":"The Search for
+        John Gissing"},{"ns":0,"title":"The Song of Lunch"},{"ns":0,"title":"The Wildest
+        Dream"},{"ns":0,"title":"The Winter Guest"},{"ns":0,"title":"Theresa Rebeck"},{"ns":0,"title":"Thomas
+        Mitchell (actor)"},{"ns":0,"title":"Tim Burton"},{"ns":0,"title":"Tim Roth"},{"ns":0,"title":"Timothy
+        Spall"},{"ns":0,"title":"Toby Jones"},{"ns":0,"title":"Tom Tykwer"},{"ns":0,"title":"Tom
+        Wilkinson"},{"ns":0,"title":"Tommy Lee Jones"},{"ns":0,"title":"Tony Award"},{"ns":0,"title":"Tony
+        Award for Best Actor in a Play"},{"ns":0,"title":"Trevor Howard"},{"ns":0,"title":"Tribeca
+        Film Festival"},{"ns":0,"title":"Truly, Madly, Deeply"},{"ns":0,"title":"Tubular
+        Bells II"},{"ns":0,"title":"Tybalt"},{"ns":0,"title":"United Kingdom"},{"ns":0,"title":"University
+        College Dublin"},{"ns":0,"title":"Victoria Wood"},{"ns":0,"title":"Victoria
+        Wood with All The Trimmings"},{"ns":0,"title":"Villain"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Virgin Books"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"Wales"},{"ns":0,"title":"Watercolour"},{"ns":0,"title":"When
+        Love Speaks"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"William
+        Holden"},{"ns":0,"title":"William Shakespeare"},{"ns":0,"title":"Working class"},{"ns":0,"title":"\u00c9amon
+        de Valera"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:BAFTA
+        Award for Best Supporting Actor"},{"ns":10,"title":"Template:EmmyAward MiniseriesLeadActor"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:London
+        Film Critics Circle Award for British Actor of the Year"},{"ns":10,"title":"Template:Satellite
+        Award Best Actor Television Miniseries or Film"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        MaleTVMiniseriesMovie"},{"ns":11,"title":"Template talk:BAFTA Award for Best
+        Supporting Actor"},{"ns":11,"title":"Template talk:EmmyAward MiniseriesLeadActor"},{"ns":11,"title":"Template
+        talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template talk:London
+        Film Critics Circle Award for British Actor of the Year"},{"ns":11,"title":"Template
+        talk:Satellite Award Best Actor Television Miniseries or Film"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":14,"title":"Category:Use
+        British English from July 2011"},{"ns":14,"title":"Category:Use dmy dates
+        from October 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:41 GMT
+recorded_with: VCR 2.9.2

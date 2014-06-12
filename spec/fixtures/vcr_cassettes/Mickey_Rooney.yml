@@ -1,0 +1,277 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Mickey%20Rooney
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711870388, 3536761733, 2899132838
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5413'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:42 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4008 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"87624|10|Refimprove_section"}},"query":{"pages":{"87624":{"pageid":87624,"ns":0,"title":"Mickey
+        Rooney","links":[{"ns":0,"title":"9-1-1"},{"ns":0,"title":"A Family Affair
+        (1937 film)"},{"ns":0,"title":"A Funny Thing Happened on the Way to the Forum"},{"ns":0,"title":"A
+        Gaiety Girl"},{"ns":0,"title":"A Midsummer Night''s Dream"},{"ns":0,"title":"A
+        Midsummer Night''s Dream (1935 film)"},{"ns":0,"title":"A Miser Brothers''
+        Christmas"},{"ns":0,"title":"A Yank at Eton"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Actor"},{"ns":0,"title":"Academy Award for Best Supporting
+        Actor"},{"ns":0,"title":"Academy Honorary Award"},{"ns":0,"title":"Academy
+        Juvenile Award"},{"ns":0,"title":"Academy of Motion Picture Arts and Sciences"},{"ns":0,"title":"Adventures
+        of the Black Stallion"},{"ns":0,"title":"Ah, Wilderness! (film)"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alcoa
+        Theatre"},{"ns":0,"title":"Alfred Lunt"},{"ns":0,"title":"Aljean Harmetz"},{"ns":0,"title":"All
+        Ashore"},{"ns":0,"title":"Ambush Bay"},{"ns":0,"title":"America: A Call to
+        Greatness"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"American
+        Campaign Medal"},{"ns":0,"title":"American Forces Network"},{"ns":0,"title":"Americans"},{"ns":0,"title":"Andre
+        Braugher"},{"ns":0,"title":"Andy Hardy"},{"ns":0,"title":"Andy Hardy''s Blonde
+        Trouble"},{"ns":0,"title":"Andy Hardy''s Double Life"},{"ns":0,"title":"Andy
+        Hardy''s Private Secretary"},{"ns":0,"title":"Andy Hardy Meets Debutante"},{"ns":0,"title":"Animation"},{"ns":0,"title":"Ann
+        Miller"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        Murphy (actor)"},{"ns":0,"title":"Arabian Adventure"},{"ns":0,"title":"Archive
+        of American Television"},{"ns":0,"title":"Armand Assante"},{"ns":0,"title":"Army
+        Good Conduct Medal"},{"ns":0,"title":"Arrest and Trial"},{"ns":0,"title":"Arthur
+        Marx"},{"ns":0,"title":"Article (publishing)"},{"ns":0,"title":"Audrey Hepburn"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Ava Gardner"},{"ns":0,"title":"B-movie"},{"ns":0,"title":"B.
+        J. Baker"},{"ns":0,"title":"Babe: Pig in the City"},{"ns":0,"title":"Babes
+        in Arms (film)"},{"ns":0,"title":"Babes in Toyland (operetta)"},{"ns":0,"title":"Babes
+        on Broadway"},{"ns":0,"title":"Baby Face Nelson (film)"},{"ns":0,"title":"Barry
+        Pepper"},{"ns":0,"title":"Battery (crime)"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Ben
+        Stiller"},{"ns":0,"title":"Best Actor in a Supporting Role"},{"ns":0,"title":"Betty
+        Jane Rase"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill:
+        On His Own"},{"ns":0,"title":"Bill (1981 film)"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Blake
+        Edwards"},{"ns":0,"title":"Bob Hope Presents the Chrysler Theatre"},{"ns":0,"title":"Boys
+        Town (1938 film)"},{"ns":0,"title":"Boys Town (film)"},{"ns":0,"title":"Breakfast
+        at Tiffany''s (film)"},{"ns":0,"title":"Breakfast at Tiffany''s (novella)"},{"ns":0,"title":"Brendan
+        Gleeson"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"British International
+        Pictures"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Broadway to
+        Hollywood (1933 film)"},{"ns":0,"title":"Bronze Star Medal"},{"ns":0,"title":"Brooklyn"},{"ns":0,"title":"Brooklyn,
+        New York"},{"ns":0,"title":"Burke''s Law"},{"ns":0,"title":"Burlesque"},{"ns":0,"title":"CMG
+        Worldwide"},{"ns":0,"title":"California"},{"ns":0,"title":"Captains Courageous
+        (1937 film)"},{"ns":0,"title":"Cara Williams"},{"ns":0,"title":"Carmen Miranda"},{"ns":0,"title":"Carol
+        Channing"},{"ns":0,"title":"Celebrity Ghost Stories"},{"ns":0,"title":"Celluloid
+        Heroes"},{"ns":0,"title":"Chained (1934 film)"},{"ns":0,"title":"Character
+        actor"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Cinderella"},{"ns":0,"title":"Clarence
+        Brown"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Cliff Robertson"},{"ns":0,"title":"Club
+        Oasis"},{"ns":0,"title":"Cockeyed Cowboys of Calico County"},{"ns":0,"title":"Colleen
+        Moore"},{"ns":0,"title":"Columbia Broadcasting Company"},{"ns":0,"title":"Columbia
+        Pictures"},{"ns":0,"title":"Combat!"},{"ns":0,"title":"Come Dine With Me"},{"ns":0,"title":"Cosmopolitanism"},{"ns":0,"title":"Crazy
+        for You (musical)"},{"ns":0,"title":"Dan August"},{"ns":0,"title":"Dana Carvey"},{"ns":0,"title":"David
+        Gest"},{"ns":0,"title":"David Thomson (film critic)"},{"ns":0,"title":"Dean
+        Martin"},{"ns":0,"title":"Deanna Durbin"},{"ns":0,"title":"Death on the Diamond"},{"ns":0,"title":"Deborah
+        Winters"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Dick Powell"},{"ns":0,"title":"Dinner
+        theatre"},{"ns":0,"title":"Docudrama"},{"ns":0,"title":"Donald Trump"},{"ns":0,"title":"Douglas
+        Fairbanks, Jr."},{"ns":0,"title":"Drama Desk Award"},{"ns":0,"title":"Drama
+        Desk Award for Outstanding Actor in a Musical"},{"ns":0,"title":"Drive a Crooked
+        Road"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Eartha Kitt"},{"ns":0,"title":"Ed
+        Flanders"},{"ns":0,"title":"Elaine Devry"},{"ns":0,"title":"Elder abuse"},{"ns":0,"title":"Elizabeth
+        Taylor"},{"ns":0,"title":"Emmaline Henry"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Erik
+        the Viking"},{"ns":0,"title":"Ernest Holmes"},{"ns":0,"title":"Errol Flynn"},{"ns":0,"title":"European-African-Middle
+        Eastern Campaign Medal"},{"ns":0,"title":"Everything''s Ducky"},{"ns":0,"title":"Evil
+        Roy Slade"},{"ns":0,"title":"Film industry"},{"ns":0,"title":"Fontaine Fox"},{"ns":0,"title":"Francis
+        the Talking Mule"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Fran\u00e7ois
+        Truffaut Award"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"From Hong
+        Kong with Love"},{"ns":0,"title":"Full House (1987)"},{"ns":0,"title":"Garden
+        State Life Insurance Company"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gemini
+        Award"},{"ns":0,"title":"Gemini Award for Best Performance by an Actor in
+        a Continuing Leading Dramatic Role"},{"ns":0,"title":"General Electric Theater"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George M!"},{"ns":0,"title":"Gerald
+        (film)"},{"ns":0,"title":"Germany"},{"ns":0,"title":"Giffoni Film Festival"},{"ns":0,"title":"Girl
+        Crazy (1943 film)"},{"ns":0,"title":"Glasgow, Scotland"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Golden Globe Award for Best Performance
+        by an Actor in a Mini-Series or Motion Picture Made for Television"},{"ns":0,"title":"Hal
+        Holbrook"},{"ns":0,"title":"Hal Roach"},{"ns":0,"title":"Harry Morgan"},{"ns":0,"title":"Helen
+        Walker"},{"ns":0,"title":"Hemet, California"},{"ns":0,"title":"Hennesey"},{"ns":0,"title":"Hide-Out"},{"ns":0,"title":"Hold
+        That Kiss"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Hollywood Boulevard"},{"ns":0,"title":"Hollywood
+        Forever Cemetery"},{"ns":0,"title":"Hollywood High School"},{"ns":0,"title":"Hollywood
+        Professional School"},{"ns":0,"title":"Hollywood Walk of Fame"},{"ns":0,"title":"Hoosier
+        Schoolboy"},{"ns":0,"title":"How to Stuff a Wild Bikini"},{"ns":0,"title":"Hume
+        Cronyn"},{"ns":0,"title":"I.Y. Yunioshi"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"It''s a Mad, Mad, Mad, Mad World"},{"ns":0,"title":"It
+        Came Upon the Midnight Clear (TV film)"},{"ns":0,"title":"Jack Klugman"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Palance"},{"ns":0,"title":"James Caan"},{"ns":0,"title":"James
+        Franciscus"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jan Rooney"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Jean
+        Harlow"},{"ns":0,"title":"Jeanine Basinger"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jo
+        Anne Worley"},{"ns":0,"title":"Joe Yule"},{"ns":0,"title":"Joel McCrea"},{"ns":0,"title":"John
+        Dunning (writer)"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"Jonathan
+        Rhys Meyers"},{"ns":0,"title":"Journey Back to Oz"},{"ns":0,"title":"Judy
+        Garland"},{"ns":0,"title":"Kansas City, Missouri"},{"ns":0,"title":"Keith
+        Michell"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Killer McCoy"},{"ns":0,"title":"Kraft Suspense
+        Theatre"},{"ns":0,"title":"Kung Fu: The Legend Continues"},{"ns":0,"title":"Lady
+        and the Tramp II: Scamp''s Adventure"},{"ns":0,"title":"Larry Darmour"},{"ns":0,"title":"Last
+        Will and Embezzlement"},{"ns":0,"title":"Laurel Award"},{"ns":0,"title":"Laurence
+        Olivier"},{"ns":0,"title":"Lend Me a Tenor"},{"ns":0,"title":"Lewis Stone"},{"ns":0,"title":"Library
+        Journal"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Life
+        Begins for Andy Hardy"},{"ns":0,"title":"Lionel Barrymore"},{"ns":0,"title":"List
+        of oldest and youngest Academy Award winners and nominees"},{"ns":0,"title":"List
+        of stars on the Hollywood Walk of Fame"},{"ns":0,"title":"Little Lord Fauntleroy
+        (1936 film)"},{"ns":0,"title":"Little Nemo: Adventures In Slumberland"},{"ns":0,"title":"Little
+        Nemo: Adventures in Slumberland"},{"ns":0,"title":"Live, Love and Learn"},{"ns":0,"title":"Lloyd
+        Nolan"},{"ns":0,"title":"Loews Hotels"},{"ns":0,"title":"Looney Tunes"},{"ns":0,"title":"Lord
+        Jeff"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Los Angeles, California"},{"ns":0,"title":"Los
+        Angeles Times"},{"ns":0,"title":"Lost Stallions: The Journey Home"},{"ns":0,"title":"Louis
+        B. Mayer"},{"ns":0,"title":"Love Finds Andy Hardy"},{"ns":0,"title":"Love
+        Laughs at Andy Hardy"},{"ns":0,"title":"MGM"},{"ns":0,"title":"Madison Square
+        Garden"},{"ns":0,"title":"Major depressive disorder"},{"ns":0,"title":"Manhattan
+        Melodrama"},{"ns":0,"title":"Manohla Dargis"},{"ns":0,"title":"Margaret O''Brien"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Martha Vickers"},{"ns":0,"title":"Maurice Evans
+        (actor)"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Men of Boys Town"},{"ns":0,"title":"Metro-Goldwyn-Mayer"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Michael
+        Rooney"},{"ns":0,"title":"Mickey''s Big Game Hunt"},{"ns":0,"title":"Mickey''s
+        Champs"},{"ns":0,"title":"Mickey''s Covered Wagon"},{"ns":0,"title":"Mickey''s
+        Disguises"},{"ns":0,"title":"Mickey''s Eleven"},{"ns":0,"title":"Mickey''s
+        Explorers"},{"ns":0,"title":"Mickey''s Helping Hand"},{"ns":0,"title":"Mickey''s
+        Medicine Man"},{"ns":0,"title":"Mickey''s Minstrels"},{"ns":0,"title":"Mickey''s
+        Mix-Up"},{"ns":0,"title":"Mickey''s Northwest Mounted"},{"ns":0,"title":"Mickey''s
+        Rescue"},{"ns":0,"title":"Mickey''s Surprise"},{"ns":0,"title":"Mickey''s
+        Tent Show"},{"ns":0,"title":"Mickey''s Touchdown"},{"ns":0,"title":"Mickey
+        (TV series)"},{"ns":0,"title":"Mickey McGuire (film series)"},{"ns":0,"title":"Mickey
+        Mouse"},{"ns":0,"title":"Mickey Rooney, Jr."},{"ns":0,"title":"Mickey Rourke"},{"ns":0,"title":"Mickey
+        in School"},{"ns":0,"title":"Mickey the Detective"},{"ns":0,"title":"Milos
+        Milos"},{"ns":0,"title":"Montreal Mirror"},{"ns":0,"title":"Mooch Goes to
+        Hollywood"},{"ns":0,"title":"Murder, She Wrote"},{"ns":0,"title":"Murder-suicide"},{"ns":0,"title":"Musical
+        revue"},{"ns":0,"title":"Mutual Broadcasting System"},{"ns":0,"title":"My
+        Heroes Have Always Been Cowboys (film)"},{"ns":0,"title":"My Outlaw Brother"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"National Broadcasting Company"},{"ns":0,"title":"National
+        Velvet"},{"ns":0,"title":"National Velvet (film)"},{"ns":0,"title":"Natural
+        causes"},{"ns":0,"title":"Nebraska"},{"ns":0,"title":"Netherlands"},{"ns":0,"title":"Nevada
+        Daily Mail"},{"ns":0,"title":"New Thought"},{"ns":0,"title":"New York"},{"ns":0,"title":"Night
+        Gallery"},{"ns":0,"title":"Night at the Museum"},{"ns":0,"title":"Night at
+        the Museum: Battle of the Smithsonian"},{"ns":0,"title":"Night at the Museum:
+        Secret of the Tomb"},{"ns":0,"title":"Night at the Museum 2"},{"ns":0,"title":"Night
+        at the Museum 3"},{"ns":0,"title":"Off Limits (1953 film)"},{"ns":0,"title":"Omaha"},{"ns":0,"title":"One
+        of the Boys (TV series)"},{"ns":0,"title":"Operation Mad Ball"},{"ns":0,"title":"Orchids
+        and Ermine"},{"ns":0,"title":"Our Gang"},{"ns":0,"title":"Oxford University
+        Press"},{"ns":0,"title":"Palm Springs, California"},{"ns":0,"title":"Palm
+        Springs Walk of Stars"},{"ns":0,"title":"Pantomime"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Pete''s Dragon"},{"ns":0,"title":"Pete
+        and Gladys"},{"ns":0,"title":"Peter Falk"},{"ns":0,"title":"Peter Graves"},{"ns":0,"title":"Peter
+        Strauss"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Phantom of the
+        Megaplex"},{"ns":0,"title":"Philippines"},{"ns":0,"title":"Pittsburgh Press-Gazette"},{"ns":0,"title":"Playhouse
+        90"},{"ns":0,"title":"Powers Boothe"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Lead Actor - Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Puck
+        (A Midsummer Night''s Dream)"},{"ns":0,"title":"Pulp (1972 film)"},{"ns":0,"title":"Quicksand
+        (1950 film)"},{"ns":0,"title":"Radioactive Man (The Simpsons episode)"},{"ns":0,"title":"Randy
+        Quaid"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Reckless
+        (1935 film)"},{"ns":0,"title":"Red Buttons"},{"ns":0,"title":"Red Skelton"},{"ns":0,"title":"Regis
+        Philbin"},{"ns":0,"title":"Religious Science"},{"ns":0,"title":"Rendezvous
+        (1935 film)"},{"ns":0,"title":"Requiem for a Heavyweight"},{"ns":0,"title":"Revenge
+        of the Red Baron"},{"ns":0,"title":"Revue"},{"ns":0,"title":"Richard (1972
+        film)"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard Crenna"},{"ns":0,"title":"Richard
+        Quine"},{"ns":0,"title":"Riffraff (1936 film)"},{"ns":0,"title":"Robert Cummings"},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rudolph
+        and Frosty''s Christmas in July"},{"ns":0,"title":"Sailor Beware (1952 film)"},{"ns":0,"title":"Sammee
+        Tong"},{"ns":0,"title":"Santa Claus"},{"ns":0,"title":"Santa Claus Is Comin''
+        to Town (TV special)"},{"ns":0,"title":"Schlitz Playhouse"},{"ns":0,"title":"Scott
+        Eyman"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"See How They Run (play)"},{"ns":0,"title":"Sheriff"},{"ns":0,"title":"Show
+        Boat"},{"ns":0,"title":"Show Business at War"},{"ns":0,"title":"Silent Night,
+        Deadly Night 5: The Toy Maker"},{"ns":0,"title":"Sin''s Pay Day"},{"ns":0,"title":"Skidoo
+        (film)"},{"ns":0,"title":"Slave Ship (1937 film)"},{"ns":0,"title":"Sound
+        Off (film)"},{"ns":0,"title":"Spencer Tracy"},{"ns":0,"title":"Stablemates"},{"ns":0,"title":"Stacy
+        Keach"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Star system (filmmaking)"},{"ns":0,"title":"Strike
+        Up the Band (film)"},{"ns":0,"title":"Studio City, Los Angeles"},{"ns":0,"title":"Sugar
+        (musical)"},{"ns":0,"title":"Sugar Babies (musical)"},{"ns":0,"title":"Summer
+        Holiday (1948 film)"},{"ns":0,"title":"Sunderland Empire Theatre"},{"ns":0,"title":"Ted
+        Danson"},{"ns":0,"title":"That''s Entertainment!"},{"ns":0,"title":"That''s
+        Entertainment! III"},{"ns":0,"title":"The Adventures of Huckleberry Finn (1939
+        film)"},{"ns":0,"title":"The Adventures of the Black Stallion"},{"ns":0,"title":"The
+        Atomic Kid"},{"ns":0,"title":"The Beast of the City"},{"ns":0,"title":"The
+        Big Cage"},{"ns":0,"title":"The Big Chance"},{"ns":0,"title":"The Big Wheel
+        (film)"},{"ns":0,"title":"The Black Stallion (film)"},{"ns":0,"title":"The
+        Bold and the Brave"},{"ns":0,"title":"The Bridges at Toko-Ri"},{"ns":0,"title":"The
+        Care Bears Movie"},{"ns":0,"title":"The Comedian (1957 TV drama)"},{"ns":0,"title":"The
+        Comic"},{"ns":0,"title":"The County Chairman"},{"ns":0,"title":"The Devil
+        in Love (film)"},{"ns":0,"title":"The Devil is a Sissy"},{"ns":0,"title":"The
+        Dick Powell Show"},{"ns":0,"title":"The Domino Principle"},{"ns":0,"title":"The
+        Extraordinary Seaman"},{"ns":0,"title":"The Family Channel (United States)"},{"ns":0,"title":"The
+        Fireball"},{"ns":0,"title":"The Fox and the Hound (film)"},{"ns":0,"title":"The
+        Fugitive (TV series)"},{"ns":0,"title":"The Gambler Returns: Luck of the Draw"},{"ns":0,"title":"The
+        Golden Girls"},{"ns":0,"title":"The Guardian"},{"ns":0,"title":"The Healer
+        (film)"},{"ns":0,"title":"The Hollywood Revue of 1929"},{"ns":0,"title":"The
+        Human Comedy (film)"},{"ns":0,"title":"The Investigators (American TV series)"},{"ns":0,"title":"The
+        Jean Arthur Show"},{"ns":0,"title":"The Kinks"},{"ns":0,"title":"The Last
+        Mile (1959 film)"},{"ns":0,"title":"The Last Night of a Jockey"},{"ns":0,"title":"The
+        Life of Jimmy Dolan"},{"ns":0,"title":"The Lost Jungle"},{"ns":0,"title":"The
+        Love Boat"},{"ns":0,"title":"The Magic Voyage"},{"ns":0,"title":"The Magic
+        of Lassie"},{"ns":0,"title":"The Mickey Rooney Show: Hey, Mulligan"},{"ns":0,"title":"The
+        Muppets (film)"},{"ns":0,"title":"The Name of the Game (ABBA song)"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The New Yorker"},{"ns":0,"title":"The Odd
+        Couple"},{"ns":0,"title":"The Private Lives of Adam and Eve (film)"},{"ns":0,"title":"The
+        Red Skelton Show"},{"ns":0,"title":"The Secret Invasion"},{"ns":0,"title":"The
+        Simpsons"},{"ns":0,"title":"The Snow Queen (1957 film)"},{"ns":0,"title":"The
+        Strip (1951 film)"},{"ns":0,"title":"The Sunshine Boys"},{"ns":0,"title":"The
+        Tunnel of Love"},{"ns":0,"title":"The Twilight Zone"},{"ns":0,"title":"The
+        Twilight Zone (1959 TV series)"},{"ns":0,"title":"The Will Rogers Follies"},{"ns":0,"title":"The
+        Wizard of Oz (1987 musical)"},{"ns":0,"title":"The World Changes"},{"ns":0,"title":"The
+        Year Without a Santa Claus"},{"ns":0,"title":"Thomas Mitchell (actor)"},{"ns":0,"title":"Thoroughbreds
+        Don''t Cry"},{"ns":0,"title":"Thousands Cheer"},{"ns":0,"title":"Tim Rooney"},{"ns":0,"title":"Time
+        (magazine)"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tommy Lee Jones"},{"ns":0,"title":"Tony
+        Award"},{"ns":0,"title":"Tony Award for Best Actor in a Musical"},{"ns":0,"title":"Tony
+        Bennett"},{"ns":0,"title":"Toonerville Folks"},{"ns":0,"title":"Trevor Howard"},{"ns":0,"title":"Truman
+        Capote"},{"ns":0,"title":"Turner Classic Movies"},{"ns":0,"title":"Tyrone
+        Power"},{"ns":0,"title":"U.S. Internal Revenue Service"},{"ns":0,"title":"United
+        Service Organizations"},{"ns":0,"title":"United States"},{"ns":0,"title":"United
+        States Army"},{"ns":0,"title":"Valentine''s Day"},{"ns":0,"title":"Vancouver"},{"ns":0,"title":"Vaudeville"},{"ns":0,"title":"Victor
+        Herbert"},{"ns":0,"title":"Villard Books"},{"ns":0,"title":"Vine Street"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Wagon
+        Train"},{"ns":0,"title":"Wallace Beery"},{"ns":0,"title":"Walt Disney"},{"ns":0,"title":"Walt
+        Disney''s Wonderful World of Color"},{"ns":0,"title":"Walter Farley"},{"ns":0,"title":"Warner
+        Brothers"},{"ns":0,"title":"Warren Chaney"},{"ns":0,"title":"What''s My Line"},{"ns":0,"title":"Will
+        Rogers Follies"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"William
+        Holden"},{"ns":0,"title":"Words and Music (1948 film)"},{"ns":0,"title":"World
+        War II"},{"ns":0,"title":"World War II Victory Medal"},{"ns":0,"title":"You''re
+        Only Young Once"},{"ns":0,"title":"YouTube"},{"ns":0,"title":"Young Artist
+        Award"},{"ns":0,"title":"Young Artist Former Child Star Lifetime Achievement
+        Award"},{"ns":0,"title":"Young Tom Edison"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:EmmyAward
+        MiniseriesLeadActor"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:43 GMT
+recorded_with: VCR 2.9.2

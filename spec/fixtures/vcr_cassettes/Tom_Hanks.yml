@@ -1,0 +1,249 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Tom%20Hanks
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287201868, 983738609, 2597373706
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4739'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:18 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4018 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"43568|0|Portuguese-American"}},"query":{"pages":{"43568":{"pageid":43568,"ns":0,"title":"Tom
+        Hanks","links":[{"ns":0,"title":"10th Empire Awards"},{"ns":0,"title":"11th
+        Empire Awards"},{"ns":0,"title":"12818 Tomhanks"},{"ns":0,"title":"12th Empire
+        Awards"},{"ns":0,"title":"13th Empire Awards"},{"ns":0,"title":"14th Empire
+        Awards"},{"ns":0,"title":"15th Empire Awards"},{"ns":0,"title":"16th Empire
+        Awards"},{"ns":0,"title":"17th Empire Awards"},{"ns":0,"title":"18th Empire
+        Awards"},{"ns":0,"title":"1990s in film"},{"ns":0,"title":"19th Empire Awards"},{"ns":0,"title":"1st
+        Empire Awards"},{"ns":0,"title":"2000s in film"},{"ns":0,"title":"2010s in
+        film"},{"ns":0,"title":"21st Saturn Awards"},{"ns":0,"title":"2nd Empire Awards"},{"ns":0,"title":"3rd
+        Empire Awards"},{"ns":0,"title":"4th Empire Awards"},{"ns":0,"title":"5th
+        Empire Awards"},{"ns":0,"title":"61st Academy Awards"},{"ns":0,"title":"6th
+        Empire Awards"},{"ns":0,"title":"7th Empire Awards"},{"ns":0,"title":"8th
+        Empire Awards"},{"ns":0,"title":"9th Empire Awards"},{"ns":0,"title":"AC Propulsion
+        eBox"},{"ns":0,"title":"AFI Life Achievement Award"},{"ns":0,"title":"A League
+        of Their Own"},{"ns":0,"title":"Aaron Sorkin"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Academy
+        of Motion Picture Arts and Sciences"},{"ns":0,"title":"Adrien Brody"},{"ns":0,"title":"Al
+        McIntosh"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alameda, California"},{"ns":0,"title":"Alameda
+        County, California"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Albert R. Broccoli"},{"ns":0,"title":"Alberto Sordi"},{"ns":0,"title":"Alec
+        Guinness"},{"ns":0,"title":"Alexander Knox"},{"ns":0,"title":"Alfred Hitchcock"},{"ns":0,"title":"Alicia
+        Silverstone"},{"ns":0,"title":"Allan Arkush"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"America:
+        A Tribute to Heroes"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"American Film Institute"},{"ns":0,"title":"American
+        Idiot (film)"},{"ns":0,"title":"American Museum of Natural History"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Anatoly Solonitsyn"},{"ns":0,"title":"Andrei Konchalovsky"},{"ns":0,"title":"Andrzej
+        Seweryn"},{"ns":0,"title":"Angels & Demons"},{"ns":0,"title":"Angels & Demons
+        (film)"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Anthony Franciosa"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Anthony Minghella"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"Anti-hero"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Apollo program"},{"ns":0,"title":"Aptera
+        2 Series"},{"ns":0,"title":"Armin Mueller-Stahl"},{"ns":0,"title":"Arnold
+        Schwarzenegger"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Arthur Kennedy
+        (actor)"},{"ns":0,"title":"Audrey Hepburn"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BBC"},{"ns":0,"title":"Bachelor
+        Party (1984 film)"},{"ns":0,"title":"Band of Brothers (TV miniseries)"},{"ns":0,"title":"Barack
+        Obama"},{"ns":0,"title":"Barbara Stanwyck"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Barkhad
+        Abdi"},{"ns":0,"title":"Barry Fitzgerald"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben
+        Kingsley"},{"ns":0,"title":"Ben Stiller"},{"ns":0,"title":"Benedict Cumberbatch"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bertolt Brecht"},{"ns":0,"title":"Bette
+        Davis"},{"ns":0,"title":"Betty White"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Big (film)"},{"ns":0,"title":"Big Love"},{"ns":0,"title":"Bill
+        Murray"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Billy Bob Thornton"},{"ns":0,"title":"Billy
+        Wilder"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Board of Governors"},{"ns":0,"title":"Bob
+        Hope"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bob Weinstein"},{"ns":0,"title":"Bosom
+        Buddies"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Brandon
+        Routh"},{"ns":0,"title":"Brian Gibson (director)"},{"ns":0,"title":"Brian
+        Percival"},{"ns":0,"title":"Britannia Awards"},{"ns":0,"title":"British Academy
+        of Film and Television Arts"},{"ns":0,"title":"Broderick Crawford"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"California
+        Proposition 8 (2008)"},{"ns":0,"title":"California State University, Sacramento"},{"ns":0,"title":"Cameron
+        Diaz"},{"ns":0,"title":"Campbell Scott"},{"ns":0,"title":"Cantinflas"},{"ns":0,"title":"Captain
+        (U.S. Army)"},{"ns":0,"title":"Captain Phillips (film)"},{"ns":0,"title":"Captain
+        Richard Phillips"},{"ns":0,"title":"Cast Away"},{"ns":0,"title":"Catch Me
+        If You Can"},{"ns":0,"title":"Catherine Deneuve"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Catholicism"},{"ns":0,"title":"Celebrity Jeopardy!
+        (Saturday Night Live)"},{"ns":0,"title":"Ceremony"},{"ns":0,"title":"Chabot
+        College"},{"ns":0,"title":"Chaim Topol"},{"ns":0,"title":"Charles Laughton"},{"ns":0,"title":"Charles
+        S. Dutton"},{"ns":0,"title":"Charles Wilson (Texas politician)"},{"ns":0,"title":"Charlie
+        Chaplin"},{"ns":0,"title":"Charlie Wilson''s War"},{"ns":0,"title":"Charlton
+        Heston"},{"ns":0,"title":"Chinese American"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christian
+        Bale"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Nolan"},{"ns":0,"title":"City of Ember"},{"ns":0,"title":"Claire Danes"},{"ns":0,"title":"Clark
+        Gable"},{"ns":0,"title":"Claudette Colbert"},{"ns":0,"title":"Cleveland"},{"ns":0,"title":"Cleveland
+        Magazine"},{"ns":0,"title":"Cliff Robertson"},{"ns":0,"title":"Clifton Collins,
+        Jr."},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Coen brothers"},{"ns":0,"title":"Colin
+        Farrell"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Colin Hanks"},{"ns":0,"title":"Concord,
+        California"},{"ns":0,"title":"Connie and Carla"},{"ns":0,"title":"Craig Russell
+        (Canadian actor)"},{"ns":0,"title":"D-Day"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dan
+        Brown"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Daniel Craig"},{"ns":0,"title":"Daniel
+        Day-Lewis"},{"ns":0,"title":"Daniel Hendler"},{"ns":0,"title":"Daniel Petrie"},{"ns":0,"title":"Danny
+        Boyle"},{"ns":0,"title":"Danny Kaye"},{"ns":0,"title":"David Bowie"},{"ns":0,"title":"David
+        Carradine"},{"ns":0,"title":"David Frankel"},{"ns":0,"title":"David Greene
+        (director)"},{"ns":0,"title":"David Lean"},{"ns":0,"title":"David Leland"},{"ns":0,"title":"David
+        Lowell Rich"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David Nutter"},{"ns":0,"title":"David
+        Thewlis"},{"ns":0,"title":"David Yates"},{"ns":0,"title":"Dearbhla Walsh"},{"ns":0,"title":"Deirdre
+        Costello"},{"ns":0,"title":"Democratic Party (United States)"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Diane Keaton"},{"ns":0,"title":"Dianne
+        Wiest"},{"ns":0,"title":"Disney Adventures"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Don
+        Johnson"},{"ns":0,"title":"Donald O''Connor"},{"ns":0,"title":"Dragnet (1987
+        film)"},{"ns":0,"title":"Dudley Moore"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"E!"},{"ns":0,"title":"EV1"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Electric City (web
+        series)"},{"ns":0,"title":"Electric vehicles"},{"ns":0,"title":"Elijah Wood"},{"ns":0,"title":"Elizabeth
+        Taylor"},{"ns":0,"title":"Ellen Page"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emily
+        Blunt"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Eminem"},{"ns":0,"title":"Emma
+        Thompson"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Empire Award for
+        Best Actor"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Entomology"},{"ns":0,"title":"Erika
+        Christensen"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"Evan Almighty"},{"ns":0,"title":"Evangelical"},{"ns":0,"title":"Extremely
+        Loud and Incredibly Close (film)"},{"ns":0,"title":"F. Murray Abraham"},{"ns":0,"title":"Family
+        Ties"},{"ns":0,"title":"FedEx"},{"ns":0,"title":"Federico Fellini"},{"ns":0,"title":"Fernando
+        Fern\u00e1n G\u00f3mez"},{"ns":0,"title":"Film Comment"},{"ns":0,"title":"Film
+        Society of Lincoln Center"},{"ns":0,"title":"Fonzie"},{"ns":0,"title":"Forbes"},{"ns":0,"title":"Forest
+        Whitaker"},{"ns":0,"title":"Forrest Gump"},{"ns":0,"title":"Fox News"},{"ns":0,"title":"Francis
+        Ford Coppola"},{"ns":0,"title":"Frank Abagnale, Jr."},{"ns":0,"title":"Frank
+        Capra"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Fredric
+        March"},{"ns":0,"title":"From the Earth to the Moon (TV miniseries)"},{"ns":0,"title":"Gale
+        Research"},{"ns":0,"title":"Game Change (film)"},{"ns":0,"title":"Gary Cooper"},{"ns":0,"title":"Gary
+        Goetzman"},{"ns":0,"title":"Gary Oldman"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Gene Kelly"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        Arliss"},{"ns":0,"title":"George Burns"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George Cukor"},{"ns":0,"title":"George Hamilton
+        (actor)"},{"ns":0,"title":"George Lucas"},{"ns":0,"title":"George Segal"},{"ns":0,"title":"Gerhard
+        Olschewski"},{"ns":0,"title":"Gian Maria Volont\u00e9"},{"ns":0,"title":"Glenn
+        County, California"},{"ns":0,"title":"Glenn Ford"},{"ns":0,"title":"Glenn
+        Jordan"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Great
+        Lakes Theater Festival"},{"ns":0,"title":"Greek Orthodox Church"},{"ns":0,"title":"Gregory
+        Peck"},{"ns":0,"title":"Gross (economics)"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"G\u00e9rard
+        Depardieu"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Happy
+        Days"},{"ns":0,"title":"Harrison Ford"},{"ns":0,"title":"Harvey Weinstein"},{"ns":0,"title":"Hayden
+        Planetarium"},{"ns":0,"title":"Hayward, California"},{"ns":0,"title":"He Knows
+        You''re Alone"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Helena Bonham
+        Carter"},{"ns":0,"title":"Henrik Ibsen"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Hitman"},{"ns":0,"title":"Home
+        Box Office"},{"ns":0,"title":"Homosexuality"},{"ns":0,"title":"Howard Stringer"},{"ns":0,"title":"Hugh
+        Grant"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Humphrey
+        Bogart"},{"ns":0,"title":"IMAX"},{"ns":0,"title":"Iain Glen"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Indiana Jones
+        and the Kingdom of the Crystal Skull"},{"ns":0,"title":"Inside the Actors
+        Studio"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"International
+        Standard Serial Number"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Irish
+        Examiner"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jackie
+        Gleason"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"Jacques Gamblin"},{"ns":0,"title":"Jake
+        Gyllenhaal"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James Caan"},{"ns":0,"title":"James
+        Cagney"},{"ns":0,"title":"James Goldstone"},{"ns":0,"title":"James Mason"},{"ns":0,"title":"James
+        McAvoy"},{"ns":0,"title":"James Steven Sadwith"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jane Fonda"},{"ns":0,"title":"Janet
+        Jackson"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jay
+        Roach"},{"ns":0,"title":"Jean-Louis Trintignant"},{"ns":0,"title":"Jean-Pierre
+        L\u00e9aud"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jean Gabin"},{"ns":0,"title":"Jeff
+        Bleckner"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jeff Daniels"},{"ns":0,"title":"Jeff
+        Goldblum"},{"ns":0,"title":"Jennifer Lawrence"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jesse
+        Eisenberg"},{"ns":0,"title":"Jessica Lange"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jim
+        Carter (actor)"},{"ns":0,"title":"Jim Hanks"},{"ns":0,"title":"Jim Lovell"},{"ns":0,"title":"Jim
+        Sheridan"},{"ns":0,"title":"Joanne Woodward"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"Joe
+        Versus the Volcano"},{"ns":0,"title":"John Candy"},{"ns":0,"title":"John Erman"},{"ns":0,"title":"John
+        Ford"},{"ns":0,"title":"John Frankenheimer"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Huston"},{"ns":0,"title":"John Lasseter"},{"ns":0,"title":"John Lee Hancock"},{"ns":0,"title":"John
+        Malkovich"},{"ns":0,"title":"John Ratzenberger"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John
+        Wayne"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Joseph
+        Fiennes"},{"ns":0,"title":"Joseph Sargent"},{"ns":0,"title":"Josh Hutcherson"},{"ns":0,"title":"Jos\u00e9
+        Ferrer"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Julia Roberts"},{"ns":0,"title":"Julio
+        Ch\u00e1vez"},{"ns":0,"title":"J\u00f6rg Pose"},{"ns":0,"title":"Kate Winslet"},{"ns":0,"title":"Kathleen
+        Quinlan"},{"ns":0,"title":"Kathryn Bigelow"},{"ns":0,"title":"Keanu Reeves"},{"ns":0,"title":"Ken
+        Burns"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kirk
+        Douglas"},{"ns":0,"title":"Kirsten Dunst"},{"ns":0,"title":"Kris Kristofferson"},{"ns":0,"title":"Kristen
+        Stewart"},{"ns":0,"title":"Lamont Johnson"},{"ns":0,"title":"Larry Crowne"},{"ns":0,"title":"Latter
+        Day Saints"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Liao Fan"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lillian Gish"},{"ns":0,"title":"Linda
+        Hamilton"},{"ns":0,"title":"Lindsay Lohan"},{"ns":0,"title":"Lionel Barrymore"},{"ns":0,"title":"List
+        of awards and nominations received by Tom Hanks"},{"ns":0,"title":"Los Angeles
+        Times"},{"ns":0,"title":"Lou Taylor Pucci"},{"ns":0,"title":"Lucky Guy (play)"},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"MTV Movie Award for Best Performance"},{"ns":0,"title":"Maersk
+        Alabama hijacking"},{"ns":0,"title":"Magnificent Desolation: Walking on the
+        Moon 3D"},{"ns":0,"title":"Make Me Laugh"},{"ns":0,"title":"Mamma Mia! (film)"},{"ns":0,"title":"Manfred
+        M\u00f6ck"},{"ns":0,"title":"Marcello Mastroianni"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Mark Hamill"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin
+        Campbell"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Martin Freeman"},{"ns":0,"title":"Martin
+        Landau"},{"ns":0,"title":"Martin Scorsese"},{"ns":0,"title":"Marvin J. Chomsky"},{"ns":0,"title":"Matt
+        Damon"},{"ns":0,"title":"Matt Stone"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Maurice
+        Sendak"},{"ns":0,"title":"Max Allan Collins"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"Maynard Eziashi"},{"ns":0,"title":"Mazes and Monsters"},{"ns":0,"title":"Meg
+        Ryan"},{"ns":0,"title":"Mel Brooks"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Mermaid"},{"ns":0,"title":"Meryl
+        Streep"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Gwisdek"},{"ns":0,"title":"Michael J. Fox"},{"ns":0,"title":"Michael Redgrave"},{"ns":0,"title":"Michael
+        Shannon"},{"ns":0,"title":"Michael Sheen"},{"ns":0,"title":"Michel Piccoli"},{"ns":0,"title":"Michel
+        Simon"},{"ns":0,"title":"Michele Placido"},{"ns":0,"title":"Mick Jackson (director)"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Mikael Salomon"},{"ns":0,"title":"Mike
+        Newell (director)"},{"ns":0,"title":"Mike Nichols"},{"ns":0,"title":"Mikkel
+        F\u00f8lsgaard"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Moritz
+        Bleibtreu"},{"ns":0,"title":"Mormonism"},{"ns":0,"title":"My Big Fat Greek
+        Life"},{"ns":0,"title":"My Big Fat Greek Wedding"},{"ns":0,"title":"My Life
+        in Ruins"},{"ns":0,"title":"NASA"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"National Board of Review Award for Best Actor"},{"ns":0,"title":"National
+        Diet Library"},{"ns":0,"title":"National Space Society"},{"ns":0,"title":"National
+        World War II Memorial"},{"ns":0,"title":"Neil Armstrong"},{"ns":0,"title":"Neil
+        Young: Heart of Gold"},{"ns":0,"title":"Neve Campbell"},{"ns":0,"title":"New
+        York (magazine)"},{"ns":0,"title":"New York Film Critics Circle Award for
+        Best Actor"},{"ns":0,"title":"Nia Vardalos"},{"ns":0,"title":"Niccol\u00f2
+        Machiavelli"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Nicole
+        Kidman"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"Nora Ephron"},{"ns":0,"title":"Nothing
+        in Common"},{"ns":0,"title":"Oakland, California"},{"ns":0,"title":"Obama
+        for America"},{"ns":0,"title":"Off Off Broadway"},{"ns":0,"title":"Omar Sharif"},{"ns":0,"title":"Orson
+        Welles"},{"ns":0,"title":"Oskar Werner"},{"ns":0,"title":"Paul Barber (actor)"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Hogan"},{"ns":0,"title":"Paul Lukas"},{"ns":0,"title":"Paul
+        Muni"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Pedro
+        Infante"},{"ns":0,"title":"Peiman Ma''adi"},{"ns":0,"title":"People''s Choice
+        Award"},{"ns":0,"title":"People (American magazine)"},{"ns":0,"title":"Peter
+        Finch"},{"ns":0,"title":"Peter Fonda"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter
+        O''Toole"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Peter Scolari"},{"ns":0,"title":"Peter
+        Sellers"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Peter Weir"},{"ns":0,"title":"Phil
+        Alden Robinson"},{"ns":0,"title":"Philadelphia (film)"},{"ns":0,"title":"Philip
+        Martin (director)"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Pierce
+        Brosnan"},{"ns":0,"title":"Pixar"},{"ns":0,"title":"Playtone"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:18 GMT
+recorded_with: VCR 2.9.2

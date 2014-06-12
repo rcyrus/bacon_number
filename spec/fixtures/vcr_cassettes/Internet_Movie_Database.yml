@@ -1,0 +1,144 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Internet%20Movie%20Database
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711842543, 983706752, 1613057362
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2162'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:21 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4018 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"2855554":{"pageid":2855554,"ns":0,"title":"Internet
+        Movie Database","links":[{"ns":0,"title":"1-Click"},{"ns":0,"title":"1997
+        Webby Awards"},{"ns":0,"title":"1998 Webby Awards"},{"ns":0,"title":"1999
+        Webby Awards"},{"ns":0,"title":"2000 Webby Awards"},{"ns":0,"title":"2001
+        Webby Awards"},{"ns":0,"title":"2002 Webby Awards"},{"ns":0,"title":"2003
+        Webby Awards"},{"ns":0,"title":"2004 Webby Awards"},{"ns":0,"title":"2005
+        Webby Awards"},{"ns":0,"title":"2006 Webby Awards"},{"ns":0,"title":"2007
+        Webby Awards"},{"ns":0,"title":"2008 Webby Awards"},{"ns":0,"title":"2009
+        Webby Awards"},{"ns":0,"title":"2010 Webby Awards"},{"ns":0,"title":"2011
+        Webby Awards"},{"ns":0,"title":"2012 Webby Awards"},{"ns":0,"title":"2013
+        Webby Awards"},{"ns":0,"title":"2014 Webby Awards"},{"ns":0,"title":"43 Things"},{"ns":0,"title":"A9.com"},{"ns":0,"title":"AbeBooks"},{"ns":0,"title":"Actuarial
+        science"},{"ns":0,"title":"Alexa Internet"},{"ns":0,"title":"AllRovi"},{"ns":0,"title":"Allmusic"},{"ns":0,"title":"Amapedia"},{"ns":0,"title":"Amazon''s
+        Best Books of the Year"},{"ns":0,"title":"Amazon.com"},{"ns":0,"title":"Amazon.com
+        controversies"},{"ns":0,"title":"AmazonFresh"},{"ns":0,"title":"Amazon Appstore"},{"ns":0,"title":"Amazon
+        Breakthrough Novel Award"},{"ns":0,"title":"Amazon China"},{"ns":0,"title":"Amazon
+        CloudFront"},{"ns":0,"title":"Amazon Cloud Drive"},{"ns":0,"title":"Amazon
+        Digital Game Store"},{"ns":0,"title":"Amazon DynamoDB"},{"ns":0,"title":"Amazon
+        Elastic Block Store"},{"ns":0,"title":"Amazon Elastic Compute Cloud"},{"ns":0,"title":"Amazon
+        Fire TV"},{"ns":0,"title":"Amazon Fishbowl"},{"ns":0,"title":"Amazon Flexible
+        Payments Service"},{"ns":0,"title":"Amazon Glacier"},{"ns":0,"title":"Amazon
+        Instant Video"},{"ns":0,"title":"Amazon Kindle"},{"ns":0,"title":"Amazon Light"},{"ns":0,"title":"Amazon
+        Locker"},{"ns":0,"title":"Amazon MP3"},{"ns":0,"title":"Amazon Machine Image"},{"ns":0,"title":"Amazon
+        Marketplace"},{"ns":0,"title":"Amazon Mechanical Turk"},{"ns":0,"title":"Amazon
+        Payments"},{"ns":0,"title":"Amazon Prime"},{"ns":0,"title":"Amazon Product
+        Advertising API"},{"ns":0,"title":"Amazon Publishing"},{"ns":0,"title":"Amazon
+        Relational Database Service"},{"ns":0,"title":"Amazon S3"},{"ns":0,"title":"Amazon
+        Silk"},{"ns":0,"title":"Amazon SimpleDB"},{"ns":0,"title":"Amazon Simple Email
+        Service"},{"ns":0,"title":"Amazon Simple Queue Service"},{"ns":0,"title":"Amazon
+        Standard Identification Number"},{"ns":0,"title":"Amazon Studios"},{"ns":0,"title":"Amazon
+        Vine"},{"ns":0,"title":"Amazon Virtual Private Cloud"},{"ns":0,"title":"Amazon
+        Web Services"},{"ns":0,"title":"Amazon tax"},{"ns":0,"title":"Amie Street"},{"ns":0,"title":"Animator.ru"},{"ns":0,"title":"Ars
+        Technica"},{"ns":0,"title":"Askville"},{"ns":0,"title":"Audible.com"},{"ns":0,"title":"Ballot
+        stuffing"},{"ns":0,"title":"Bayesian statistics"},{"ns":0,"title":"Bibliographic
+        database"},{"ns":0,"title":"Big Cartoon Database"},{"ns":0,"title":"Box Office
+        Mojo"},{"ns":0,"title":"Breach of contract"},{"ns":0,"title":"Brian Krueger"},{"ns":0,"title":"Brian
+        McBride (director)"},{"ns":0,"title":"Brian Valentine"},{"ns":0,"title":"CDNow"},{"ns":0,"title":"Carbonado
+        (Java)"},{"ns":0,"title":"Cardiff University"},{"ns":0,"title":"Cnet"},{"ns":0,"title":"Col
+        Needham"},{"ns":0,"title":"ComiXology"},{"ns":0,"title":"Command-line interface"},{"ns":0,"title":"Creative
+        Commons license"},{"ns":0,"title":"DBCult Film Institute"},{"ns":0,"title":"Data
+        compression"},{"ns":0,"title":"David Risher"},{"ns":0,"title":"Diapers.com"},{"ns":0,"title":"Digital
+        Photography Review"},{"ns":0,"title":"Digital object identifier"},{"ns":0,"title":"Discogs"},{"ns":0,"title":"Double
+        Helix Games"},{"ns":0,"title":"Dynamo (storage system)"},{"ns":0,"title":"Endless.com"},{"ns":0,"title":"English
+        language"},{"ns":0,"title":"Film"},{"ns":0,"title":"Film director"},{"ns":0,"title":"Filmweb"},{"ns":0,"title":"FindAnyFilm.com"},{"ns":0,"title":"Finnish
+        language"},{"ns":0,"title":"Fire OS"},{"ns":0,"title":"Flickchart"},{"ns":0,"title":"French
+        language"},{"ns":0,"title":"GNU Free Documentation License"},{"ns":0,"title":"German
+        language"},{"ns":0,"title":"Graphical user interface"},{"ns":0,"title":"Gurupa"},{"ns":0,"title":"Hoang
+        v. Amazon.com"},{"ns":0,"title":"Hungarian language"},{"ns":0,"title":"IMDb"},{"ns":0,"title":"In-memory
+        database"},{"ns":0,"title":"Independent film"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Internet Adult Film Database"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Firearms Database"},{"ns":0,"title":"Internet
+        Off-Broadway Database"},{"ns":0,"title":"Internet Speculative Fiction Database"},{"ns":0,"title":"Internet
+        Theatre Database"},{"ns":0,"title":"Internet censorship in the People''s Republic
+        of China"},{"ns":0,"title":"Italian language"},{"ns":0,"title":"Jeff Bezos"},{"ns":0,"title":"Jonas
+        Brothers: The 3D Concert Experience"},{"ns":0,"title":"Junglee.com"},{"ns":0,"title":"Kindle
+        Fire"},{"ns":0,"title":"Kindle Fire HD"},{"ns":0,"title":"Kindle Fire HDX"},{"ns":0,"title":"Lab126"},{"ns":0,"title":"Lexcycle"},{"ns":0,"title":"LibraryThing"},{"ns":0,"title":"List
+        of Webby Award winners"},{"ns":0,"title":"List of films considered the best"},{"ns":0,"title":"List
+        of films considered the worst"},{"ns":0,"title":"LivingSocial"},{"ns":0,"title":"LoveFilm"},{"ns":0,"title":"Lycos
+        Europe"},{"ns":0,"title":"Marsha J. Pechman"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Mirror
+        (computing)"},{"ns":0,"title":"Mobipocket"},{"ns":0,"title":"Obidos (software)"},{"ns":0,"title":"OpenStreetMap"},{"ns":0,"title":"Perfect
+        10, Inc. v. Amazon.com, Inc."},{"ns":0,"title":"Perl"},{"ns":0,"title":"PlanetAll"},{"ns":0,"title":"Polish
+        language"},{"ns":0,"title":"Portuguese language"},{"ns":0,"title":"Proxy server"},{"ns":0,"title":"Python
+        (programming language)"},{"ns":0,"title":"RECAP"},{"ns":0,"title":"Ram Shriram"},{"ns":0,"title":"Rating
+        scale"},{"ns":0,"title":"Reflexive Entertainment"},{"ns":0,"title":"Rick Dalzell"},{"ns":0,"title":"Rob
+        Hartill"},{"ns":0,"title":"Romanian language"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Rovi
+        Corporation"},{"ns":0,"title":"R\u00e9sum\u00e9"},{"ns":0,"title":"SQL"},{"ns":0,"title":"Sellaband"},{"ns":0,"title":"Shelfari"},{"ns":0,"title":"Shell
+        script"},{"ns":0,"title":"Songza"},{"ns":0,"title":"Statistically Improbable
+        Phrases"},{"ns":0,"title":"Techdirt"},{"ns":0,"title":"Television program"},{"ns":0,"title":"TheTVDB"},{"ns":0,"title":"The
+        Book Depository"},{"ns":0,"title":"The Shawshank Redemption"},{"ns":0,"title":"Tom
+        Szkutak"},{"ns":0,"title":"Tony Hsieh"},{"ns":0,"title":"Uniform resource
+        locator"},{"ns":0,"title":"United Kingdom"},{"ns":0,"title":"United States"},{"ns":0,"title":"United
+        States dollar"},{"ns":0,"title":"Unix"},{"ns":0,"title":"Usenet"},{"ns":0,"title":"VPN"},{"ns":0,"title":"Video
+        game"},{"ns":0,"title":"Wales"},{"ns":0,"title":"Web API"},{"ns":0,"title":"Webby
+        Award"},{"ns":0,"title":"Weighted arithmetic mean"},{"ns":0,"title":"Weighted
+        mean"},{"ns":0,"title":"Werner Vogels"},{"ns":0,"title":"Withoutabox"},{"ns":0,"title":"Woot"},{"ns":0,"title":"World
+        Wide Web"},{"ns":0,"title":"Zappos"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Manual of Style/Dates and numbers"},{"ns":4,"title":"Wikipedia:Manual
+        of Style/Words to watch"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Amazon"},{"ns":10,"title":"Template:Unreferenced
+        section"},{"ns":10,"title":"Template:Webby Awards"},{"ns":11,"title":"Template
+        talk:Amazon"},{"ns":11,"title":"Template talk:Webby Awards"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Amazon.com people"},{"ns":14,"title":"Category:Articles
+        containing potentially dated statements from April 2014"},{"ns":14,"title":"Category:Articles
+        needing additional references from December 2012"},{"ns":14,"title":"Category:Articles
+        with specifically marked weasel-worded phrases from May 2014"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from April 2010"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from April 2013"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from December 2012"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from October 2013"},{"ns":14,"title":"Category:Use
+        mdy dates from April 2013"},{"ns":14,"title":"Category:Vague or ambiguous
+        time from December 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:21 GMT
+recorded_with: VCR 2.9.2

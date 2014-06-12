@@ -1,0 +1,220 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Brian%20Dennehy
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390604872, 1409506175, 1613030514
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4193'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:53 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4009 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1067318":{"pageid":1067318,"ns":0,"title":"Brian
+        Dennehy","links":[{"ns":0,"title":"10 (film)"},{"ns":0,"title":"10th and Wolf"},{"ns":0,"title":"30
+        Rock"},{"ns":0,"title":"A Death in Canaan"},{"ns":0,"title":"A Killing in
+        a Small Town"},{"ns":0,"title":"A Real American Hero (TV movie)"},{"ns":0,"title":"A
+        Rumor of War (miniseries)"},{"ns":0,"title":"A Season in Purgatory"},{"ns":0,"title":"A
+        Season on the Brink (film)"},{"ns":0,"title":"Abbey Theatre"},{"ns":0,"title":"Acapulco"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Bates"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alex Jennings"},{"ns":0,"title":"Alfred
+        Lunt"},{"ns":0,"title":"All''s Well That Ends Well"},{"ns":0,"title":"Alternative
+        versions of the Green Goblin"},{"ns":0,"title":"American Theatre Hall of Fame"},{"ns":0,"title":"American
+        football"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        LaPaglia"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Arthur Hill (actor)"},{"ns":0,"title":"Arthur
+        Miller"},{"ns":0,"title":"Assault on Precinct 13 (2005 film)"},{"ns":0,"title":"Associated
+        Press"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"B.G. Burkett"},{"ns":0,"title":"Barbara
+        Hershey"},{"ns":0,"title":"Barnard Hughes"},{"ns":0,"title":"Basil Rathbone"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benedict Cumberbatch"},{"ns":0,"title":"Best
+        Seller"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Big
+        Shamus, Little Shamus"},{"ns":0,"title":"Bill Irwin"},{"ns":0,"title":"Bill
+        Nighy"},{"ns":0,"title":"Birdland (TV series)"},{"ns":0,"title":"Blood Feud
+        (1983 film)"},{"ns":0,"title":"Bo Derek"},{"ns":0,"title":"Bobby Cannavale"},{"ns":0,"title":"Brad
+        Davis (actor)"},{"ns":0,"title":"Brian Bedford"},{"ns":0,"title":"Brian Friel"},{"ns":0,"title":"Brian
+        Michael Bendis"},{"ns":0,"title":"Bridgeport, Connecticut"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"Br\u00edan F.
+        O''Byrne"},{"ns":0,"title":"Bumpers (film)"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"Butch
+        and Sundance: The Early Days"},{"ns":0,"title":"CableACE Awards"},{"ns":0,"title":"Cagney
+        and Lacey"},{"ns":0,"title":"Carla Gugino"},{"ns":0,"title":"Category 6: Day
+        of Destruction"},{"ns":0,"title":"Chaminade High School"},{"ns":0,"title":"Character
+        actor"},{"ns":0,"title":"Chevy Chase"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Chicago
+        International Film Festival"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris
+        Farley"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Reeve"},{"ns":0,"title":"Clarence Darrow"},{"ns":0,"title":"Claude Rains"},{"ns":0,"title":"Cliff
+        Gorman"},{"ns":0,"title":"Cocoon: The Return"},{"ns":0,"title":"Cocoon (film)"},{"ns":0,"title":"Columbia
+        University"},{"ns":0,"title":"Conleth Hill"},{"ns":0,"title":"Connecticut"},{"ns":0,"title":"Dallas
+        (1978 TV series)"},{"ns":0,"title":"Darkroom (TV series)"},{"ns":0,"title":"David
+        Bamber"},{"ns":0,"title":"David Morse (actor)"},{"ns":0,"title":"David Spade"},{"ns":0,"title":"David
+        Wayne"},{"ns":0,"title":"Day One (1989 film)"},{"ns":0,"title":"Dead Man''s
+        Walk"},{"ns":0,"title":"Death of a Salesman"},{"ns":0,"title":"Death or Canada"},{"ns":0,"title":"Defamation"},{"ns":0,"title":"Denzel
+        Washington"},{"ns":0,"title":"Derek Jacobi"},{"ns":0,"title":"Desire Under
+        the Elms"},{"ns":0,"title":"Dish Dogs"},{"ns":0,"title":"Drama Desk Award
+        for Outstanding Actor in a Play"},{"ns":0,"title":"Drama Desk Awards"},{"ns":0,"title":"Dublin"},{"ns":0,"title":"Dudley
+        Moore"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Dynasty (TV series)"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Eddie Izzard"},{"ns":0,"title":"Elizabeth Dennehy"},{"ns":0,"title":"Emmy
+        Awards"},{"ns":0,"title":"Eugene O''Neill"},{"ns":0,"title":"Every Day (film)"},{"ns":0,"title":"Everyone''s
+        Hero"},{"ns":0,"title":"Extraterrestrial life"},{"ns":0,"title":"F.I.S.T."},{"ns":0,"title":"F/X"},{"ns":0,"title":"F/X2"},{"ns":0,"title":"Finders
+        Keepers (1984 film)"},{"ns":0,"title":"Fire chief"},{"ns":0,"title":"First
+        Blood"},{"ns":0,"title":"Foul Play (1978 film)"},{"ns":0,"title":"Frank Langella"},{"ns":0,"title":"Frederick
+        Cook"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"Fritz Weaver"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Georg Elser"},{"ns":0,"title":"George
+        Grizzard"},{"ns":0,"title":"Gladiator (1992 film)"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden Globe
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Awards"},{"ns":0,"title":"Goodman Theatre"},{"ns":0,"title":"Gorky Park
+        (film)"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hal Holbrook"},{"ns":0,"title":"Harold
+        Pinter"},{"ns":0,"title":"Harvey Fierstein"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Henry
+        Goodman"},{"ns":0,"title":"Hughie"},{"ns":0,"title":"Hunter (U.S. TV series)"},{"ns":0,"title":"Ian
+        Holm"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"In
+        Broad Daylight"},{"ns":0,"title":"Inherit the Wind (play)"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Irish
+        people"},{"ns":0,"title":"It Happened at Lakewood Manor"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Reed: Badge of Honor"},{"ns":0,"title":"Jack
+        Reed (series)"},{"ns":0,"title":"James Corden"},{"ns":0,"title":"James Earl
+        Jones"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Jefferson Mays"},{"ns":0,"title":"Jeremy
+        Irons"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"John B. Keane"},{"ns":0,"title":"John
+        Kani"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John Rambo"},{"ns":0,"title":"John
+        Rubinstein"},{"ns":0,"title":"John Wayne Gacy"},{"ns":0,"title":"John Wood
+        (English actor)"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Jonny
+        Lee Miller"},{"ns":0,"title":"Jos\u00e9 Ferrer"},{"ns":0,"title":"Judd Hirsch"},{"ns":0,"title":"Just
+        Shoot Me"},{"ns":0,"title":"Just Shoot Me!"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kojak"},{"ns":0,"title":"Krapp''s
+        Last Tape"},{"ns":0,"title":"Laurence Olivier Award"},{"ns":0,"title":"Laurence
+        Olivier Award for Best Actor"},{"ns":0,"title":"Law & Order: Special Victims
+        Unit"},{"ns":0,"title":"Law & Order: Special Victims Unit (season 8)"},{"ns":0,"title":"Law
+        and Order: Special Victims Unit"},{"ns":0,"title":"Legal Eagles"},{"ns":0,"title":"Leslie
+        Groves"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Liev
+        Schreiber"},{"ns":0,"title":"Little Miss Marker"},{"ns":0,"title":"Long Day''s
+        Journey into Night"},{"ns":0,"title":"Long Island, New York"},{"ns":0,"title":"Looking
+        for Mr. Goodbar (film)"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Lou
+        Grant (TV series)"},{"ns":0,"title":"Luke Treadaway"},{"ns":0,"title":"M*A*S*H"},{"ns":0,"title":"Marco
+        Polo (2007 film)"},{"ns":0,"title":"Mark Bagley"},{"ns":0,"title":"Mark Rylance"},{"ns":0,"title":"Martin
+        Balsam"},{"ns":0,"title":"Mary Stuart (play)"},{"ns":0,"title":"Matthew Kelly"},{"ns":0,"title":"Meet
+        Monica Velour"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Miami Vice"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Gambon"},{"ns":0,"title":"Michael
+        Moriarty"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Miles from Home"},{"ns":0,"title":"Mineola,
+        New York"},{"ns":0,"title":"Miniseries"},{"ns":0,"title":"Murder in the Heartland"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"Never Cry Wolf (film)"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"Norman
+        Osborn"},{"ns":0,"title":"Nostromo (TV serial)"},{"ns":0,"title":"Oliver Ford
+        Davies"},{"ns":0,"title":"Olympia Theatre (Dublin)"},{"ns":0,"title":"Our
+        Fathers (film)"},{"ns":0,"title":"Parody"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Kelly (actor)"},{"ns":0,"title":"Paul Muni"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul
+        Rogers (actor)"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Peter Greenaway"},{"ns":0,"title":"Philip
+        Anglim"},{"ns":0,"title":"Philip Bosco"},{"ns":0,"title":"Pomfret School"},{"ns":0,"title":"Presumed
+        Innocent (film)"},{"ns":0,"title":"Primetime Emmy Award"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Awards"},{"ns":0,"title":"Producers Guild Awards"},{"ns":0,"title":"Raidi\u00f3
+        Teilif\u00eds \u00c9ireann"},{"ns":0,"title":"Ralph Bellamy"},{"ns":0,"title":"Ralph
+        Fiennes"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Ratatouille (film)"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Rex Harrison"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard
+        Easton"},{"ns":0,"title":"Richard Griffiths"},{"ns":0,"title":"Righteous Kill"},{"ns":0,"title":"Rizzoli
+        & Isles"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert
+        Falls"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert Stephens"},{"ns":0,"title":"Roger
+        Allam"},{"ns":0,"title":"Roger Rees"},{"ns":0,"title":"Roman Catholic"},{"ns":0,"title":"Roman
+        Catholic Church sex abuse scandal"},{"ns":0,"title":"Ron Leibman"},{"ns":0,"title":"Ron
+        Rifkin"},{"ns":0,"title":"Ron Silver"},{"ns":0,"title":"Rory Kinnear"},{"ns":0,"title":"Rufus
+        Sewell"},{"ns":0,"title":"Rugby union"},{"ns":0,"title":"Rules of Engagement
+        (TV series)"},{"ns":0,"title":"Russell Crowe"},{"ns":0,"title":"Samuel Beckett"},{"ns":0,"title":"Sandwich
+        Day"},{"ns":0,"title":"Sarah Siddons Award"},{"ns":0,"title":"Satellite Award
+        for Best Supporting Actor \u2013 Series, Miniseries or Television Film"},{"ns":0,"title":"Satellite
+        Awards"},{"ns":0,"title":"Scopes Monkey Trial"},{"ns":0,"title":"Scott Turow"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries
+        or Television Movie"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Semi-Tough"},{"ns":0,"title":"Shadow
+        of a Doubt (1995 film)"},{"ns":0,"title":"She Hate Me"},{"ns":0,"title":"Sheriff"},{"ns":0,"title":"Showtime
+        (TV network)"},{"ns":0,"title":"Sidney Blackmer"},{"ns":0,"title":"Sigma Chi"},{"ns":0,"title":"Silverado
+        (film)"},{"ns":0,"title":"Simon Russell Beale"},{"ns":0,"title":"Skokie (film)"},{"ns":0,"title":"South
+        Park: Bigger, Longer & Uncut"},{"ns":0,"title":"Split Image"},{"ns":0,"title":"Split
+        Image (film)"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Star
+        of the Family"},{"ns":0,"title":"Stephen Dillane"},{"ns":0,"title":"Stephen
+        Spinella"},{"ns":0,"title":"Stolen Summer"},{"ns":0,"title":"Stolen Valor"},{"ns":0,"title":"Stratford
+        Shakespeare Festival"},{"ns":0,"title":"Summer Catch"},{"ns":0,"title":"Sylvester
+        Stallone"},{"ns":0,"title":"TV Guide"},{"ns":0,"title":"Teamster"},{"ns":0,"title":"Teamster
+        Boss: The Jackie Presser Story"},{"ns":0,"title":"Ted Danson"},{"ns":0,"title":"The
+        Belly of an Architect"},{"ns":0,"title":"The Big C (TV series)"},{"ns":0,"title":"The
+        Big Year"},{"ns":0,"title":"The Burden of Proof (film)"},{"ns":0,"title":"The
+        Challenger"},{"ns":0,"title":"The Diamond Fleece"},{"ns":0,"title":"The Field
+        (play)"},{"ns":0,"title":"The Fighting Fitzgeralds"},{"ns":0,"title":"The
+        Good Wife"},{"ns":0,"title":"The Homecoming"},{"ns":0,"title":"The Iceman
+        Cometh"},{"ns":0,"title":"The Jericho Mile"},{"ns":0,"title":"The Last Place
+        on Earth"},{"ns":0,"title":"The Last of the Finest"},{"ns":0,"title":"The
+        Man from Snowy River II"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The
+        Next Three Days"},{"ns":0,"title":"The River Rat"},{"ns":0,"title":"The Roman
+        Spring of Mrs. Stone (2003 film)"},{"ns":0,"title":"The Simpsons"},{"ns":0,"title":"The
+        Stars Fell on Henrietta"},{"ns":0,"title":"The Ultimate Gift"},{"ns":0,"title":"The
+        Virtuoso"},{"ns":0,"title":"The West Wing"},{"ns":0,"title":"Theatre in Chicago"},{"ns":0,"title":"Three
+        Blind Mice"},{"ns":0,"title":"Time Out (company)"},{"ns":0,"title":"To Catch
+        a Killer"},{"ns":0,"title":"Tom Conti"},{"ns":0,"title":"Tom Ewell"},{"ns":0,"title":"Tommy
+        Boy (film)"},{"ns":0,"title":"Tony Award for Best Actor in a Play"},{"ns":0,"title":"Tony
+        Award for Best Performance by a Leading Actor in a Play"},{"ns":0,"title":"Tony
+        Awards"},{"ns":0,"title":"Too Rich: The Secret Life of Doris Duke"},{"ns":0,"title":"Tracy
+        Letts"},{"ns":0,"title":"Translations"},{"ns":0,"title":"Twelfth Night"},{"ns":0,"title":"Twice
+        in a Lifetime (film)"},{"ns":0,"title":"U.S. Marine Corps"},{"ns":0,"title":"Ultimate
+        Spider-Man"},{"ns":0,"title":"Vietnam"},{"ns":0,"title":"Vietnam War"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Waiting
+        for Godot"},{"ns":0,"title":"Wall Street Journal"},{"ns":0,"title":"Walter
+        Matthau"},{"ns":0,"title":"War Eagle, Arkansas (film)"},{"ns":0,"title":"William
+        H. Macy"},{"ns":0,"title":"William P. Rogers"},{"ns":0,"title":"William Shakespeare''s
+        Romeo + Juliet"},{"ns":0,"title":"Willy Loman"},{"ns":0,"title":"Winston Ntshona"},{"ns":0,"title":"Wire
+        service"},{"ns":0,"title":"Wizard (magazine)"},{"ns":0,"title":"Woodstock,
+        Connecticut"},{"ns":0,"title":"Woodstock Academy"},{"ns":0,"title":"Yale"},{"ns":0,"title":"Zero
+        Mostel"},{"ns":1,"title":"Talk:Brian Dennehy"},{"ns":4,"title":"Wikipedia:Biographies
+        of living persons"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Identifying
+        reliable sources"},{"ns":4,"title":"Wikipedia:Manual of Style/Lead section"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Summary
+        style"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:BLP
+        sources"},{"ns":10,"title":"Template:DramaDesk PlayActor"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:Lead
+        too short"},{"ns":10,"title":"Template:Multiple issues"},{"ns":10,"title":"Template:OlivierAward
+        PlayActor"},{"ns":10,"title":"Template:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":10,"title":"Template:TonyAward
+        PlayLeadActor"},{"ns":11,"title":"Template talk:DramaDesk PlayActor"},{"ns":11,"title":"Template
+        talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template talk:OlivierAward
+        PlayActor"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":11,"title":"Template
+        talk:TonyAward PlayLeadActor"},{"ns":14,"title":"Category:Articles covered
+        by WikiProject Wikify from September 2012"},{"ns":14,"title":"Category:BLP
+        articles lacking sources from February 2013"},{"ns":14,"title":"Category:Wikipedia
+        introduction cleanup from September 2012"},{"ns":100,"title":"Portal:Biography"},{"ns":100,"title":"Portal:United
+        States Marine Corps"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:54 GMT
+recorded_with: VCR 2.9.2

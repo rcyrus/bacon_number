@@ -1,0 +1,107 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Where%20the%20Truth%20Lies
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287208846, 3536786796, 2899171393
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1486'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:22 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4008 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"2645237":{"pageid":2645237,"ns":0,"title":"Where
+        the Truth Lies","links":[{"ns":0,"title":"2005 Cannes Film Festival"},{"ns":0,"title":"2005
+        Toronto International Film Festival"},{"ns":0,"title":"26th Genie Awards"},{"ns":0,"title":"Adoration
+        (film)"},{"ns":0,"title":"Alison Lohman"},{"ns":0,"title":"Anamorphic widescreen"},{"ns":0,"title":"Ararat
+        (film)"},{"ns":0,"title":"Art Blakey & The Jazz Messengers"},{"ns":0,"title":"Atom
+        Egoyan"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben Stiller"},{"ns":0,"title":"Blood,
+        Sweat & Tears"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Brantford
+        Airport"},{"ns":0,"title":"Calendar (1993 film)"},{"ns":0,"title":"Camp (style)"},{"ns":0,"title":"Charles
+        Mingus"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Chloe (film)"},{"ns":0,"title":"Citizen
+        Kane"},{"ns":0,"title":"Closed captioning"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"DVD"},{"ns":0,"title":"David
+        Hayman"},{"ns":0,"title":"David Lynch"},{"ns":0,"title":"Dean Martin"},{"ns":0,"title":"Deleted
+        scene"},{"ns":0,"title":"Devil''s Knot (film)"},{"ns":0,"title":"Directors
+        Guild of Canada"},{"ns":0,"title":"Erotic film"},{"ns":0,"title":"Exotica
+        (film)"},{"ns":0,"title":"Family Viewing"},{"ns":0,"title":"Felicia''s Journey
+        (film)"},{"ns":0,"title":"Film noir"},{"ns":0,"title":"Film premiere"},{"ns":0,"title":"Film
+        score"},{"ns":0,"title":"Funkadelic"},{"ns":0,"title":"Genie Award for Best
+        Achievement in Art Direction/Production Design"},{"ns":0,"title":"Genie Award
+        for Best Achievement in Editing"},{"ns":0,"title":"Genie Award for Best Achievement
+        in Music - Original Score"},{"ns":0,"title":"Genie Award for Best Achievement
+        in Overall Sound"},{"ns":0,"title":"Ghostwriter"},{"ns":0,"title":"Grace Slick"},{"ns":0,"title":"Inspired
+        by Bach"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jefferson
+        Airplane"},{"ns":0,"title":"Jerry Lewis"},{"ns":0,"title":"Karlovy Vary Film
+        Festival"},{"ns":0,"title":"Kate Hudson"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Krapp''s
+        Last Tape"},{"ns":0,"title":"Kukla, Fran and Ollie"},{"ns":0,"title":"Los
+        Angeles"},{"ns":0,"title":"Louis Prima"},{"ns":0,"title":"MPAA film rating
+        system"},{"ns":0,"title":"Mahavishnu Orchestra"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Maury
+        Chaykin"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Metafiction"},{"ns":0,"title":"Miami"},{"ns":0,"title":"Momentum
+        Pictures"},{"ns":0,"title":"Montreal Stories"},{"ns":0,"title":"Motion Picture
+        Association of America"},{"ns":0,"title":"Mychael Danna"},{"ns":0,"title":"M\u00e9nage
+        \u00e0 trois"},{"ns":0,"title":"New Jersey"},{"ns":0,"title":"New York Times"},{"ns":0,"title":"Newark
+        International Airport"},{"ns":0,"title":"Next of Kin (1984 film)"},{"ns":0,"title":"Palme
+        d''Or"},{"ns":0,"title":"Paul Sarossy"},{"ns":0,"title":"Peter Bradshaw"},{"ns":0,"title":"Peter
+        Travers"},{"ns":0,"title":"Philip French"},{"ns":0,"title":"Poliomyelitis"},{"ns":0,"title":"Rachel
+        Blanchard"},{"ns":0,"title":"Rashomon (film)"},{"ns":0,"title":"Raymond Chandler"},{"ns":0,"title":"Record
+        label"},{"ns":0,"title":"Robert Altman"},{"ns":0,"title":"Robert Lantos"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Rolling Stone"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Rupert
+        Holmes"},{"ns":0,"title":"San Francisco Chronicle"},{"ns":0,"title":"Santana
+        (band)"},{"ns":0,"title":"Shepperton Studios"},{"ns":0,"title":"Sonja Bennett"},{"ns":0,"title":"Sony
+        Pictures"},{"ns":0,"title":"Speaking Parts"},{"ns":0,"title":"Stahl House"},{"ns":0,"title":"Sunset
+        Boulevard (film)"},{"ns":0,"title":"Surrey"},{"ns":0,"title":"Susan Shipton"},{"ns":0,"title":"THINKFilm"},{"ns":0,"title":"Telefilm
+        Canada"},{"ns":0,"title":"The Adjuster"},{"ns":0,"title":"The Big Sleep"},{"ns":0,"title":"The
+        Captive (2014 film)"},{"ns":0,"title":"The Guardian"},{"ns":0,"title":"The
+        Long Goodbye (film)"},{"ns":0,"title":"The Movie Network"},{"ns":0,"title":"The
+        Observer"},{"ns":0,"title":"The Sweet Hereafter (film)"},{"ns":0,"title":"This
+        Film Is Not Yet Rated"},{"ns":0,"title":"Threesome"},{"ns":0,"title":"Thriller
+        (genre)"},{"ns":0,"title":"To Each His Own Cinema"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Toronto"},{"ns":0,"title":"Variety
+        (magazine)"},{"ns":0,"title":"Var\u00e8se Sarabande"},{"ns":0,"title":"Whisper
+        Not (song)"},{"ns":0,"title":"White Rabbit (song)"},{"ns":0,"title":"William
+        Faulkner"},{"ns":0,"title":"Woodstock Film Festival"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":10,"title":"Template:Atom Egoyan"},{"ns":11,"title":"Template
+        talk:Atom Egoyan"},{"ns":14,"title":"Category:Articles with dead external
+        links from July 2011"},{"ns":14,"title":"Category:Use dmy dates from May 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:23 GMT
+recorded_with: VCR 2.9.2

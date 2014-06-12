@@ -1,0 +1,193 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Barry%20Levinson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390597753, 983686812, 1309425014
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3314'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:47 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4018 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"318998":{"pageid":318998,"ns":0,"title":"Barry
+        Levinson","links":[{"ns":0,"title":"...And Justice for All (film)"},{"ns":0,"title":"39th
+        Berlin International Film Festival"},{"ns":0,"title":"48th Berlin International
+        Film Festival"},{"ns":0,"title":"A. S. Byatt"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award For Best Original Screenplay"},{"ns":0,"title":"Academy Award for Best
+        Director"},{"ns":0,"title":"Academy Award for Directing"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Al Franken"},{"ns":0,"title":"Alan
+        Alda"},{"ns":0,"title":"Alan Ball (screenwriter)"},{"ns":0,"title":"Alan Taylor
+        (director)"},{"ns":0,"title":"Alan Zweibel"},{"ns":0,"title":"Alex Segal"},{"ns":0,"title":"Alexander
+        Singer"},{"ns":0,"title":"Alfonso Cuar\u00f3n"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"All
+        Movie Guide"},{"ns":0,"title":"American Express"},{"ns":0,"title":"American
+        University"},{"ns":0,"title":"An Everlasting Piece"},{"ns":0,"title":"Analyze
+        That"},{"ns":0,"title":"And in the End..."},{"ns":0,"title":"Ang Lee"},{"ns":0,"title":"Ann
+        Elder"},{"ns":0,"title":"Anne Beatts"},{"ns":0,"title":"Anne Howard Bailey"},{"ns":0,"title":"Anthony
+        Harvey"},{"ns":0,"title":"Anthony Minghella"},{"ns":0,"title":"Arnie Kogen"},{"ns":0,"title":"Austin
+        Film Festival"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Avalon
+        (1990 film)"},{"ns":0,"title":"Baltimore"},{"ns":0,"title":"Baltimore, Maryland"},{"ns":0,"title":"Baltimore
+        Pictures"},{"ns":0,"title":"Bandits (2001 film)"},{"ns":0,"title":"Barry Levinson
+        (producer)"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Bernardo Bertolucci"},{"ns":0,"title":"Best
+        Friends (1982 film)"},{"ns":0,"title":"Best Picture"},{"ns":0,"title":"Bill
+        Bain (director)"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Bill Richmond
+        (writer)"},{"ns":0,"title":"Billy Crystal"},{"ns":0,"title":"Billy Wilder"},{"ns":0,"title":"Boardwalk
+        Empire (episode)"},{"ns":0,"title":"Bob Ellison"},{"ns":0,"title":"Bob Fosse"},{"ns":0,"title":"Bob
+        Schiller"},{"ns":0,"title":"Bob Weiskopf"},{"ns":0,"title":"Boston (magazine)"},{"ns":0,"title":"Bruce
+        Willis"},{"ns":0,"title":"Bugsy"},{"ns":0,"title":"Buz Kohan"},{"ns":0,"title":"Carol
+        Reed"},{"ns":0,"title":"Chapter 1 (House of Cards)"},{"ns":0,"title":"Charles
+        Grodin"},{"ns":0,"title":"Chevy Chase"},{"ns":0,"title":"Christopher Guest"},{"ns":0,"title":"Christopher
+        Misiano"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Coen brothers"},{"ns":0,"title":"Copper
+        (TV series)"},{"ns":0,"title":"Corey Allen"},{"ns":0,"title":"Cy Coleman"},{"ns":0,"title":"Dan
+        Aykroyd"},{"ns":0,"title":"Daniel Sackheim"},{"ns":0,"title":"Danny Boyle"},{"ns":0,"title":"Danny
+        DeVito"},{"ns":0,"title":"Daryl Duke"},{"ns":0,"title":"Dave Garroway"},{"ns":0,"title":"David
+        Fincher"},{"ns":0,"title":"David Greene (director)"},{"ns":0,"title":"David
+        Lean"},{"ns":0,"title":"Day 5: 7:00 a.m. \u2013 8:00 a.m."},{"ns":0,"title":"Deadwood
+        (episode)"},{"ns":0,"title":"Delbert Mann"},{"ns":0,"title":"Dick Clair"},{"ns":0,"title":"Diner
+        (film)"},{"ns":0,"title":"Directors Guild of America Award for Outstanding
+        Directing \u2013 Feature Film"},{"ns":0,"title":"Disclosure (film)"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Earl Pomerantz"},{"ns":0,"title":"Elia Kazan"},{"ns":0,"title":"Elijah
+        Wood"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Envy (2004
+        film)"},{"ns":0,"title":"Eric Laneuville"},{"ns":0,"title":"Fielder Cook"},{"ns":0,"title":"Film"},{"ns":0,"title":"Film
+        director"},{"ns":0,"title":"Film producer"},{"ns":0,"title":"Flip Wilson"},{"ns":0,"title":"Francis
+        Ford Coppola"},{"ns":0,"title":"Frank Borzage"},{"ns":0,"title":"Frank Capra"},{"ns":0,"title":"Frank
+        Lloyd"},{"ns":0,"title":"Franklin J. Schaffner"},{"ns":0,"title":"Fred Zinnemann"},{"ns":0,"title":"Gail
+        Parent"},{"ns":0,"title":"Georg Stanford Brown"},{"ns":0,"title":"George Cukor"},{"ns":0,"title":"George
+        Roy Hill"},{"ns":0,"title":"George Schaefer (director)"},{"ns":0,"title":"George
+        Stevens"},{"ns":0,"title":"George Yanok"},{"ns":0,"title":"Golden Bear"},{"ns":0,"title":"Gone
+        for Goode"},{"ns":0,"title":"Good Morning, Vietnam"},{"ns":0,"title":"Greg
+        Yaitanes"},{"ns":0,"title":"Gregory Hoblit"},{"ns":0,"title":"Harry Harris
+        (director)"},{"ns":0,"title":"Hearts and Souls"},{"ns":0,"title":"Herb Sargent"},{"ns":0,"title":"Herbert
+        Baker (screenwriter)"},{"ns":0,"title":"High Anxiety"},{"ns":0,"title":"Hill
+        Street Station"},{"ns":0,"title":"History of the Jews in Russia"},{"ns":0,"title":"Holocaust
+        (TV miniseries)"},{"ns":0,"title":"Home Box Office"},{"ns":0,"title":"Homicide:
+        Life on the Street"},{"ns":0,"title":"Homicide: Life on the Streets"},{"ns":0,"title":"Hot
+        l Baltimore"},{"ns":0,"title":"House''s Head"},{"ns":0,"title":"In the Shadow
+        of Two Gunmen (The West Wing)"},{"ns":0,"title":"Inside Moves"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"J. Edgar Hoover"},{"ns":0,"title":"J. J.
+        Abrams"},{"ns":0,"title":"Jack Smight"},{"ns":0,"title":"Jackie Cooper"},{"ns":0,"title":"James
+        Cameron"},{"ns":0,"title":"James L. Brooks"},{"ns":0,"title":"Jane Wagner"},{"ns":0,"title":"Jay
+        Tarses"},{"ns":0,"title":"Jeff Bleckner"},{"ns":0,"title":"Jeremy Kagan"},{"ns":0,"title":"Jerome
+        Robbins"},{"ns":0,"title":"Jerry Thorpe"},{"ns":0,"title":"Jez Butterworth"},{"ns":0,"title":"Jim
+        Downey (comedian)"},{"ns":0,"title":"Jim Rusk"},{"ns":0,"title":"Jim Sheridan"},{"ns":0,"title":"Jimmy
+        Hollywood"},{"ns":0,"title":"John Belushi"},{"ns":0,"title":"John Ford"},{"ns":0,"title":"John
+        G. Avildsen"},{"ns":0,"title":"John Huston"},{"ns":0,"title":"John Korty"},{"ns":0,"title":"John
+        Schlesinger"},{"ns":0,"title":"Jon Cassar"},{"ns":0,"title":"Jonathan Demme"},{"ns":0,"title":"Joseph
+        Bologna"},{"ns":0,"title":"Joseph L. Mankiewicz"},{"ns":0,"title":"Joseph
+        Sargent"},{"ns":0,"title":"Judith Viorst"},{"ns":0,"title":"Jury Grand Prix"},{"ns":0,"title":"Karen
+        Arthur"},{"ns":0,"title":"Kate Hudson"},{"ns":0,"title":"Kathryn Bigelow"},{"ns":0,"title":"Kennedy
+        and Heidi"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Larry Klein"},{"ns":0,"title":"Larry
+        Siegel"},{"ns":0,"title":"Laurel Award for Screenwriting Achievement"},{"ns":0,"title":"Lee
+        H. Katzin"},{"ns":0,"title":"Leo McCarey"},{"ns":0,"title":"Lewis Milestone"},{"ns":0,"title":"Liberty
+        Heights"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lily
+        Tomlin"},{"ns":0,"title":"Lorne Michaels"},{"ns":0,"title":"Love''s Labor
+        Lost (ER)"},{"ns":0,"title":"Man of the Year (2006 film)"},{"ns":0,"title":"Marilyn
+        Suzanne Miller"},{"ns":0,"title":"Mark Johnson (producer)"},{"ns":0,"title":"Mark
+        Tinker"},{"ns":0,"title":"Married and maiden names"},{"ns":0,"title":"Martin
+        Scorsese"},{"ns":0,"title":"Marty Feldman"},{"ns":0,"title":"Marvin J. Chomsky"},{"ns":0,"title":"Maryland"},{"ns":0,"title":"Mel
+        Brooks"},{"ns":0,"title":"Mel Gibson"},{"ns":0,"title":"Michael Cimino"},{"ns":0,"title":"Michael
+        Curtiz"},{"ns":0,"title":"Michael Miller (writer)"},{"ns":0,"title":"Michael
+        O''Donoghue"},{"ns":0,"title":"Michel Hazanavicius"},{"ns":0,"title":"Mike
+        Nichols"},{"ns":0,"title":"Milo\u0161 Forman"},{"ns":0,"title":"Mimi Leder"},{"ns":0,"title":"Mitch
+        Glazer"},{"ns":0,"title":"Muhammad Ali''s Greatest Fight"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Norman
+        Taurog"},{"ns":0,"title":"Oliver Stone"},{"ns":0,"title":"Oz (TV series)"},{"ns":0,"title":"Paris
+        Barclay"},{"ns":0,"title":"Paul Bogart"},{"ns":0,"title":"Paul Simon"},{"ns":0,"title":"Peter
+        Jackson"},{"ns":0,"title":"Pilot (Lost)"},{"ns":0,"title":"Pilot (Six Feet
+        Under)"},{"ns":0,"title":"Pilot (The West Wing)"},{"ns":0,"title":"PoliWood"},{"ns":0,"title":"PoliWood
+        (film)"},{"ns":0,"title":"Possession (2002 film)"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Directing for a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Variety Series"},{"ns":0,"title":"Quiz
+        Show (film)"},{"ns":0,"title":"Rain Man"},{"ns":0,"title":"Ren\u00e9e Taylor"},{"ns":0,"title":"Richard
+        Attenborough"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard
+        Pryor"},{"ns":0,"title":"Rob Marshall"},{"ns":0,"title":"Robert Altman"},{"ns":0,"title":"Robert
+        Benton"},{"ns":0,"title":"Robert Butler (director)"},{"ns":0,"title":"Robert
+        De Niro"},{"ns":0,"title":"Robert E. Baruc"},{"ns":0,"title":"Robert Illes"},{"ns":0,"title":"Robert
+        Klane"},{"ns":0,"title":"Robert Mulligan"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robert
+        Rossen"},{"ns":0,"title":"Robert Wells (songwriter)"},{"ns":0,"title":"Robert
+        Wise"},{"ns":0,"title":"Robert Zemeckis"},{"ns":0,"title":"Robin Bronk"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Rock the Kasbah (film)"},{"ns":0,"title":"Rod
+        Holcomb"},{"ns":0,"title":"Rod Warren"},{"ns":0,"title":"Roger Young (director)"},{"ns":0,"title":"Roman
+        Polanski"},{"ns":0,"title":"Ron Clark (writer)"},{"ns":0,"title":"Ron Howard"},{"ns":0,"title":"Rosie
+        Shuster"},{"ns":0,"title":"Rovi"},{"ns":0,"title":"Rudy De Luca"},{"ns":0,"title":"Russell
+        Gewirtz"},{"ns":0,"title":"Sam Mendes"},{"ns":0,"title":"Scott Winant"},{"ns":0,"title":"Screenwriter"},{"ns":0,"title":"Shia
+        LaBeouf"},{"ns":0,"title":"Silent Movie"},{"ns":0,"title":"Sleepers (film)"},{"ns":0,"title":"Sphere
+        (film)"},{"ns":0,"title":"Stan Hart"},{"ns":0,"title":"Steve Shill"},{"ns":0,"title":"Steven
+        Soderbergh"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Street Girls"},{"ns":0,"title":"Stuart
+        Rosenberg"},{"ns":0,"title":"Sydney Pollack"},{"ns":0,"title":"The Adventures
+        of Seinfeld and Superman"},{"ns":0,"title":"The Band that Wouldn''t Die"},{"ns":0,"title":"The
+        Bay (film)"},{"ns":0,"title":"The Carol Burnett Show"},{"ns":0,"title":"The
+        Getaway (Dexter)"},{"ns":0,"title":"The Jury (TV series)"},{"ns":0,"title":"The
+        Marty Feldman Comedy Machine"},{"ns":0,"title":"The Natural (film)"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Perfect Storm (film)"},{"ns":0,"title":"The
+        Rich Little Show"},{"ns":0,"title":"The Tim Conway Show (1970 TV series)"},{"ns":0,"title":"The
+        Tim Conway Show (1980 TV series)"},{"ns":0,"title":"Thomas Carter (director)"},{"ns":0,"title":"Thomas
+        Meehan (writer)"},{"ns":0,"title":"Thomas Schlamme"},{"ns":0,"title":"Tim
+        Conway"},{"ns":0,"title":"Tim Daly"},{"ns":0,"title":"Tim Van Patten"},{"ns":0,"title":"Tin
+        Men"},{"ns":0,"title":"To the Lost"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom
+        Davis (comedian)"},{"ns":0,"title":"Tom Fontana"},{"ns":0,"title":"Tom Gries"},{"ns":0,"title":"Tom
+        Hooper"},{"ns":0,"title":"Tom Schiller"},{"ns":0,"title":"Tony Richardson"},{"ns":0,"title":"Tootsie"},{"ns":0,"title":"Toys
+        (film)"},{"ns":0,"title":"Tribeca Film Festival"},{"ns":0,"title":"Twenty
+        Five (The West Wing)"},{"ns":0,"title":"U.S."},{"ns":0,"title":"Unfaithfully
+        Yours (1984 film)"},{"ns":0,"title":"United States"},{"ns":0,"title":"Valerie
+        Curtin"},{"ns":0,"title":"Victor Fleming"},{"ns":0,"title":"Vincente Minnelli"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Wag The Dog"},{"ns":0,"title":"Wag
+        the Dog"},{"ns":0,"title":"Walter Hill (director)"},{"ns":0,"title":"Warren
+        Beatty"},{"ns":0,"title":"Webisode"},{"ns":0,"title":"What Just Happened"},{"ns":0,"title":"Whitey
+        Bulger"},{"ns":0,"title":"William Friedkin"},{"ns":0,"title":"William Wyler"},{"ns":0,"title":"Wolfgang
+        Petersen"},{"ns":0,"title":"Woody Allen"},{"ns":0,"title":"Woody Kling"},{"ns":0,"title":"Writers
+        Guild of America"},{"ns":0,"title":"You Don''t Know Jack (film)"},{"ns":0,"title":"Young
+        Sherlock Holmes"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Academy
+        Award Best Director"},{"ns":10,"title":"Template:Barry Levinson"},{"ns":10,"title":"Template:DirectorsGuildofAmericaAwardFeatureFilm"},{"ns":10,"title":"Template:EmmyAward
+        ComedyVarietyMusicWriting"},{"ns":10,"title":"Template:EmmyAward ComedyVarietyMusicWriting
+        1960s"},{"ns":10,"title":"Template:EmmyAward ComedyVarietyMusicWriting 1970s"},{"ns":10,"title":"Template:EmmyAward
+        ComedyVarietyMusicWriting 1980s"},{"ns":10,"title":"Template:EmmyAward ComedyVarietyMusicWriting
+        1990s"},{"ns":10,"title":"Template:EmmyAward ComedyVarietyMusicWriting 2000s"},{"ns":10,"title":"Template:EmmyAward
+        ComedyVarietyMusicWriting 2010s"},{"ns":10,"title":"Template:EmmyAward DirectingDrama"},{"ns":11,"title":"Template
+        talk:Academy Award Best Director"},{"ns":11,"title":"Template talk:Barry Levinson"},{"ns":11,"title":"Template
+        talk:DirectorsGuildofAmericaAwardFeatureFilm"},{"ns":11,"title":"Template
+        talk:EmmyAward ComedyVarietyMusicWriting 1970s"},{"ns":11,"title":"Template
+        talk:EmmyAward DirectingDrama"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:48 GMT
+recorded_with: VCR 2.9.2

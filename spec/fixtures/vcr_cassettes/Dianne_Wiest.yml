@@ -1,0 +1,273 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Dianne%20Wiest
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704628986, 2340319068, 1309440063
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5063'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:03 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4016 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"618770|11|Academy_Award_Best_Supporting_Actress"}},"query":{"pages":{"618770":{"pageid":618770,"ns":0,"title":"Dianne
+        Wiest","links":[{"ns":0,"title":"2006 Sundance Film Festival"},{"ns":0,"title":"A
+        Guide to Recognizing Your Saints"},{"ns":0,"title":"A Kind of Alaska"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actress"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Agamemnon
+        (play)"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Cumming"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alfre Woodard"},{"ns":0,"title":"Algiers"},{"ns":0,"title":"Alice
+        Brady"},{"ns":0,"title":"All My Sons"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Amanda
+        Plummer"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"American
+        Comedy Awards"},{"ns":0,"title":"Amy Adams"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Amy
+        Ryan"},{"ns":0,"title":"Andrei \u015eerban"},{"ns":0,"title":"Angela Lansbury"},{"ns":0,"title":"Angelina
+        Jolie"},{"ns":0,"title":"Anjelica Huston"},{"ns":0,"title":"Ann Dowd"},{"ns":0,"title":"Ann
+        Wedgeworth"},{"ns":0,"title":"Anna Gunn"},{"ns":0,"title":"Anna Kendrick"},{"ns":0,"title":"Anna
+        Paquin"},{"ns":0,"title":"Anne Baxter"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Anne
+        Heche"},{"ns":0,"title":"Anne Revere"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Archie Panjabi"},{"ns":0,"title":"Arena
+        Stage"},{"ns":0,"title":"Arthur Miller"},{"ns":0,"title":"Auchtermuchty"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA Award"},{"ns":0,"title":"BAFTA Award for
+        Best Actress in a Supporting Role"},{"ns":0,"title":"Ballet"},{"ns":0,"title":"Barbara
+        Hershey"},{"ns":0,"title":"Beah Richards"},{"ns":0,"title":"Beatrice Straight"},{"ns":0,"title":"Ben
+        Affleck"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Beulah
+        Bondi"},{"ns":0,"title":"Beyond Therapy"},{"ns":0,"title":"Bibi Andersson"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Billie
+        Whitelaw"},{"ns":0,"title":"Blockbuster Entertainment Awards"},{"ns":0,"title":"Blythe
+        Danner"},{"ns":0,"title":"Boston Society of Film Critics Award for Best Supporting
+        Actress"},{"ns":0,"title":"Brenda Fricker"},{"ns":0,"title":"Bright Lights,
+        Big City (film)"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Bullets
+        Over Broadway"},{"ns":0,"title":"Carrie-Anne Moss"},{"ns":0,"title":"Cassandra"},{"ns":0,"title":"Cate
+        Blanchett"},{"ns":0,"title":"Category 6: Day of Destruction"},{"ns":0,"title":"Catherine
+        Keener"},{"ns":0,"title":"Catherine O''Hara"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Cathy
+        Tyson"},{"ns":0,"title":"Celeste Holm"},{"ns":0,"title":"Charlie Kaufman"},{"ns":0,"title":"Cher"},{"ns":0,"title":"Cherry
+        Jones"},{"ns":0,"title":"Chicago Film Critics Association Award for Best Actress"},{"ns":0,"title":"Chicago
+        Film Critics Association Award for Best Supporting Actress"},{"ns":0,"title":"Chlo\u00eb
+        Sevigny"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christina Ricci"},{"ns":0,"title":"Christine
+        Baranski"},{"ns":0,"title":"Christine Lahti"},{"ns":0,"title":"Christopher
+        Durang"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Claire Danes"},{"ns":0,"title":"Claire
+        Trevor"},{"ns":0,"title":"Clarence Derwent Award"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Cloris Leachman"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Cookie
+        (film)"},{"ns":0,"title":"Cops and Robbersons"},{"ns":0,"title":"Courtney
+        Love"},{"ns":0,"title":"Cynthia Ozick"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dale
+        Dickey"},{"ns":0,"title":"Dallas-Fort Worth Film Critics Association Award
+        for Best Supporting Actress"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Dan
+        in Real Life"},{"ns":0,"title":"Daniel J. Sullivan"},{"ns":0,"title":"Darling
+        Companion"},{"ns":0,"title":"Debbi Morgan"},{"ns":0,"title":"Debbie Reynolds"},{"ns":0,"title":"Debra
+        Monk"},{"ns":0,"title":"Dedication (film)"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Delphine
+        Seyrig"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Desdemona"},{"ns":0,"title":"Diane
+        Keaton"},{"ns":0,"title":"Diane Ladd"},{"ns":0,"title":"Diane Venora"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Donna Reed"},{"ns":0,"title":"Dorothy Malone"},{"ns":0,"title":"Drea
+        de Matteo"},{"ns":0,"title":"Drew Barrymore"},{"ns":0,"title":"Drunks"},{"ns":0,"title":"Dyan
+        Cannon"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Edie Falco"},{"ns":0,"title":"Edith
+        Evans"},{"ns":0,"title":"Edward Scissorhands"},{"ns":0,"title":"Eileen Heckart"},{"ns":0,"title":"Elaine
+        May"},{"ns":0,"title":"Elaine Stritch"},{"ns":0,"title":"Elisabeth Moss"},{"ns":0,"title":"Elizabeth
+        Pe\u00f1a"},{"ns":0,"title":"Ellen Burstyn"},{"ns":0,"title":"Emily Mortimer"},{"ns":0,"title":"Emily
+        Woof"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Estelle
+        Parsons"},{"ns":0,"title":"Ethel Barrymore"},{"ns":0,"title":"Eugene O''Neill"},{"ns":0,"title":"Eva
+        Le Gallienne"},{"ns":0,"title":"Eva Marie Saint"},{"ns":0,"title":"Falling
+        in Love (1984 film)"},{"ns":0,"title":"Fay Bainter"},{"ns":0,"title":"Faye
+        Dunaway"},{"ns":0,"title":"Fionnula Flanagan"},{"ns":0,"title":"Footloose
+        (1984 film)"},{"ns":0,"title":"Frances McDormand"},{"ns":0,"title":"Frankenstein"},{"ns":0,"title":"Gabriel
+        Byrne"},{"ns":0,"title":"Gale Sondergaard"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Geena
+        Davis"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Genevi\u00e8ve Bujold"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Bernard Shaw"},{"ns":0,"title":"Glenn Close"},{"ns":0,"title":"Gloria
+        Grahame"},{"ns":0,"title":"Gloria Stuart"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actress - Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actress \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actress \u2013 Series, Miniseries or Television
+        Film"},{"ns":0,"title":"Goldie Hawn"},{"ns":0,"title":"Gong Li"},{"ns":0,"title":"Gotham
+        Independent Film Awards 2008"},{"ns":0,"title":"Gracie Awards"},{"ns":0,"title":"Gwyneth
+        Paltrow"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Hanna
+        Schygulla"},{"ns":0,"title":"Hannah and Her Sisters"},{"ns":0,"title":"Happy
+        Birthday, Wanda June"},{"ns":0,"title":"Harold Pinter"},{"ns":0,"title":"Hattie
+        McDaniel"},{"ns":0,"title":"Hedda Gabler"},{"ns":0,"title":"Helen Hayes"},{"ns":0,"title":"Helen
+        Hunt"},{"ns":0,"title":"Helen Mirren"},{"ns":0,"title":"Henrik Ibsen"},{"ns":0,"title":"Herbert
+        Ross"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"I''m Dancing as Fast
+        as I Can"},{"ns":0,"title":"I Am Sam"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"In
+        Treatment (U.S. TV series)"},{"ns":0,"title":"Independence Day (1983 film)"},{"ns":0,"title":"Independent
+        Spirit Award for Best Supporting Female"},{"ns":0,"title":"Ingrid Bergman"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"It''s
+        My Turn (film)"},{"ns":0,"title":"Jacki Weaver"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James
+        Brolin"},{"ns":0,"title":"James Earl Jones"},{"ns":0,"title":"Jane Darwell"},{"ns":0,"title":"Jane
+        Horrocks"},{"ns":0,"title":"Janusz Glowacki"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Jeannie
+        Berlin"},{"ns":0,"title":"Jennifer Beals"},{"ns":0,"title":"Jennifer Connelly"},{"ns":0,"title":"Jennifer
+        Hudson"},{"ns":0,"title":"Jennifer Jason Leigh"},{"ns":0,"title":"Jennifer
+        Lawrence"},{"ns":0,"title":"Jessica Chastain"},{"ns":0,"title":"Jessica Lange"},{"ns":0,"title":"Jill
+        Clayburgh"},{"ns":0,"title":"Jill Hennessy"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Jo
+        Van Fleet"},{"ns":0,"title":"Joan Allen"},{"ns":0,"title":"Joan Blondell"},{"ns":0,"title":"Joan
+        Cusack"},{"ns":0,"title":"Joan Hackett"},{"ns":0,"title":"Joan Plowright"},{"ns":0,"title":"Jodie
+        Foster"},{"ns":0,"title":"Joe Papp"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John
+        Madden (director)"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Josephine
+        Hull"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Judy Davis"},{"ns":0,"title":"Julia
+        Roberts"},{"ns":0,"title":"Julianne Moore"},{"ns":0,"title":"Juliette Binoche"},{"ns":0,"title":"Kansas
+        City, Missouri"},{"ns":0,"title":"Kansas City Film Critics Circle Award for
+        Best Supporting Actress"},{"ns":0,"title":"Karen Black"},{"ns":0,"title":"Kate
+        Hudson"},{"ns":0,"title":"Kate Nelligan"},{"ns":0,"title":"Kate Winslet"},{"ns":0,"title":"Katherine
+        Heigl"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kathy Baker"},{"ns":0,"title":"Kathy
+        Bates"},{"ns":0,"title":"Katie Holmes"},{"ns":0,"title":"Katina Paxinou"},{"ns":0,"title":"Kay
+        Lenz"},{"ns":0,"title":"Kay Walsh"},{"ns":0,"title":"Keanu Reeves"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kim
+        Basinger"},{"ns":0,"title":"Kim Hunter"},{"ns":0,"title":"Kristen Bell"},{"ns":0,"title":"Kristin
+        Scott Thomas"},{"ns":0,"title":"Kurt Vonnegut"},{"ns":0,"title":"La Cage aux
+        Folles (film)"},{"ns":0,"title":"Lanford Wilson"},{"ns":0,"title":"Laura Linney"},{"ns":0,"title":"Laura
+        San Giacomo"},{"ns":0,"title":"Lauren Bacall"},{"ns":0,"title":"Law & Order"},{"ns":0,"title":"Law
+        & Order: Criminal Intent"},{"ns":0,"title":"Law & Order: Special Victims Unit"},{"ns":0,"title":"Lawrence
+        Kasdan"},{"ns":0,"title":"Lee Grant"},{"ns":0,"title":"Lena Olin"},{"ns":0,"title":"Lesley
+        Sharp"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lila
+        Kedrova"},{"ns":0,"title":"Lili Taylor"},{"ns":0,"title":"Lily Tomlin"},{"ns":0,"title":"Lincoln
+        Center"},{"ns":0,"title":"Linda Hamilton"},{"ns":0,"title":"Linda Hunt"},{"ns":0,"title":"Lisa
+        Kudrow"},{"ns":0,"title":"Little Man Tate"},{"ns":0,"title":"Lloyd Richards"},{"ns":0,"title":"Lois
+        Smith"},{"ns":0,"title":"Lorraine Bracco"},{"ns":0,"title":"Los Angeles Film
+        Critics Association Award for Best Supporting Actress"},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"Lumini\u021ba Gheorghiu"},{"ns":0,"title":"Lupe
+        Ontiveros"},{"ns":0,"title":"Lupita Nyong''o"},{"ns":0,"title":"Lynn Redgrave"},{"ns":0,"title":"Madeleine
+        Stowe"},{"ns":0,"title":"Maggie Smith"},{"ns":0,"title":"Marcia Gay Harden"},{"ns":0,"title":"Mare
+        Winningham"},{"ns":0,"title":"Margaret Rutherford"},{"ns":0,"title":"Margo
+        Martindale"},{"ns":0,"title":"Maria Bello"},{"ns":0,"title":"Marisa Berenson"},{"ns":0,"title":"Marisa
+        Tomei"},{"ns":0,"title":"Marjorie Rambeau"},{"ns":0,"title":"Marjorie Rhodes"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Martha Plimpton"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Mary
+        Astor"},{"ns":0,"title":"Mary Steenburgen"},{"ns":0,"title":"Mary Stuart Masterson"},{"ns":0,"title":"Maureen
+        Stapleton"},{"ns":0,"title":"Maxim Gorky"},{"ns":0,"title":"Meg Tilly"},{"ns":0,"title":"Melanie
+        Griffith"},{"ns":0,"title":"Melissa Leo"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Mercedes
+        McCambridge"},{"ns":0,"title":"Mercedes Ruehl"},{"ns":0,"title":"Merci Docteur
+        Rey"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"Mike Nichols"},{"ns":0,"title":"Mini-series"},{"ns":0,"title":"Mira
+        Sorvino"},{"ns":0,"title":"Miranda Richardson"},{"ns":0,"title":"Miyoshi Umeki"},{"ns":0,"title":"Mo''Nique"},{"ns":0,"title":"Mona
+        Washbourne"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Naomi Wallace"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"National Board of Review Award for Best Supporting
+        Actress"},{"ns":0,"title":"National Memorial Day Concert"},{"ns":0,"title":"National
+        Society of Film Critics Award for Best Supporting Actress"},{"ns":0,"title":"New
+        York Film Critics Circle Award for Best Supporting Actress"},{"ns":0,"title":"New
+        York Shakespeare Festival"},{"ns":0,"title":"NewsBank"},{"ns":0,"title":"Nicole
+        Kidman"},{"ns":0,"title":"Nina Foch"},{"ns":0,"title":"Nora Lewin"},{"ns":0,"title":"Nurnberg
+        American High School"},{"ns":0,"title":"Obie Award"},{"ns":0,"title":"Octavia
+        Spencer"},{"ns":0,"title":"Olivia Williams"},{"ns":0,"title":"Olympia Dukakis"},{"ns":0,"title":"One
+        (Law & Order: Criminal Intent)"},{"ns":0,"title":"One Flea Spare"},{"ns":0,"title":"Oscar
+        Wilde"},{"ns":0,"title":"Othello"},{"ns":0,"title":"Our Town"},{"ns":0,"title":"Pamela
+        Franklin"},{"ns":0,"title":"Parenthood (1989 film)"},{"ns":0,"title":"Passengers
+        (2008 film)"},{"ns":0,"title":"Patricia Clarkson"},{"ns":0,"title":"Patrick
+        Wilson (American actor)"},{"ns":0,"title":"Patty Duke"},{"ns":0,"title":"Paul
+        Barber (actor)"},{"ns":0,"title":"Peggy Ashcroft"},{"ns":0,"title":"Peggy
+        McCay"},{"ns":0,"title":"Pen\u00e9lope Cruz"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter
+        Riegert"},{"ns":0,"title":"Practical Magic"},{"ns":0,"title":"Primetime Emmy
+        Award"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Guest Actress
+        in a Drama Series"},{"ns":0,"title":"Primetime Emmy Award for Outstanding
+        Supporting Actress in a Drama Series"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Supporting Actress in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actress \u2013 Drama Series"},{"ns":0,"title":"Public
+        Theater"},{"ns":0,"title":"Rabbit Hole (film)"},{"ns":0,"title":"Rachel Weisz"},{"ns":0,"title":"Radio
+        Days"},{"ns":0,"title":"Rage (2009 film)"},{"ns":0,"title":"Ren\u00e9e Zellweger"},{"ns":0,"title":"Rita
+        Moreno"},{"ns":0,"title":"Road to Avonlea"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        Woodruff Anderson"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Robots
+        (2005 film)"},{"ns":0,"title":"Ron Howard"},{"ns":0,"title":"Ronee Blakley"},{"ns":0,"title":"Rosanna
+        DeSoto"},{"ns":0,"title":"Rosemary Harris"},{"ns":0,"title":"Rosie Perez"},{"ns":0,"title":"Ruby
+        Dee"},{"ns":0,"title":"Ruth Gordon"},{"ns":0,"title":"S. Ansky"},{"ns":0,"title":"Sabine
+        Az\u00e9ma"},{"ns":0,"title":"Sally Field"},{"ns":0,"title":"Salome (play)"},{"ns":0,"title":"Sam
+        Cohn"},{"ns":0,"title":"Samantha Morton"},{"ns":0,"title":"Sandra Bernhard"},{"ns":0,"title":"Sandy
+        Dennis"},{"ns":0,"title":"Satellite Award for Best Actress \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Satellite Award for Best Supporting
+        Actress \u2013 Series, Miniseries or Television Film"},{"ns":0,"title":"Saturn
+        Award for Best Supporting Actress"},{"ns":0,"title":"Scotland"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Female Actor in a Supporting
+        Role"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by an Ensemble in a Drama Series"},{"ns":0,"title":"September (1987 film)"},{"ns":0,"title":"Shailene
+        Woodley"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Shelley
+        Winters"},{"ns":0,"title":"Sheryl Lee Ralph"},{"ns":0,"title":"Shirley Jones"},{"ns":0,"title":"Shirley
+        Knight"},{"ns":0,"title":"Shohreh Aghdashloo"},{"ns":0,"title":"Sidney Poitier"},{"ns":0,"title":"Sigourney
+        Weaver"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Sissy Spacek"},{"ns":0,"title":"Si\u00e2n
+        Phillips"},{"ns":0,"title":"Society of Texas Film Critics Awards 1994"},{"ns":0,"title":"Southeastern
+        Film Critics Association Award for Best Supporting Actress"},{"ns":0,"title":"Square
+        One (play)"},{"ns":0,"title":"Steve Carell"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steve
+        Martin"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Stockard Channing"},{"ns":0,"title":"Sybil
+        Thorndike"},{"ns":0,"title":"Sylvia Sidney"},{"ns":0,"title":"Synecdoche,
+        New York"},{"ns":0,"title":"Syst\u00e8me universitaire de documentation"},{"ns":0,"title":"Talia
+        Shire"},{"ns":0,"title":"Tatum O''Neal"},{"ns":0,"title":"Television"},{"ns":0,"title":"Teresa
+        Wright"},{"ns":0,"title":"The 10th Kingdom"},{"ns":0,"title":"The Advocate
+        (Louisiana)"},{"ns":0,"title":"The Associate"},{"ns":0,"title":"The Big Year"},{"ns":0,"title":"The
+        Birdcage"},{"ns":0,"title":"The Blacklist (TV series)"},{"ns":0,"title":"The
+        Blackwater Lightship (film)"},{"ns":0,"title":"The Dybbuk"},{"ns":0,"title":"The
+        Full Monty"},{"ns":0,"title":"The Horse Whisperer (film)"},{"ns":0,"title":"The
+        Lost Boys"},{"ns":0,"title":"The Lower Depths"},{"ns":0,"title":"The New York
+        Times"},{"ns":0,"title":"The Odd Life of Timothy Green"},{"ns":0,"title":"The
+        Purple Rose of Cairo"},{"ns":0,"title":"The Scout (film)"},{"ns":0,"title":"The
+        Seagull"},{"ns":0,"title":"The Simple Life of Noah Dearborn"},{"ns":0,"title":"Theatre
+        World Award"},{"ns":0,"title":"Third (play)"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Tilda
+        Swinton"},{"ns":0,"title":"Tim Burton"},{"ns":0,"title":"Tina Howe"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Topher
+        Grace"},{"ns":0,"title":"Toronto International Film Festival"},{"ns":0,"title":"Traffic
+        (2000 film)"},{"ns":0,"title":"Tyne Daly"},{"ns":0,"title":"U.S.A"},{"ns":0,"title":"U.S.
+        Army"},{"ns":0,"title":"USSR"},{"ns":0,"title":"University of Maryland, College
+        Park"},{"ns":0,"title":"Valentina Cortese"},{"ns":0,"title":"Valerie Perrine"},{"ns":0,"title":"Vanessa
+        L. Williams"},{"ns":0,"title":"Vanessa Redgrave"},{"ns":0,"title":"Virginia
+        Madsen"},{"ns":0,"title":"Virginia Maskell"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"Viveca Lindfors"},{"ns":0,"title":"Vivien
+        Merchant"},{"ns":0,"title":"Washington, D.C."},{"ns":0,"title":"Wendy Hiller"},{"ns":0,"title":"Wendy
+        Wasserstein"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"Who''s Afraid
+        of Virginia Woolf?"},{"ns":0,"title":"Whoopi Goldberg"},{"ns":0,"title":"William
+        Snape"},{"ns":0,"title":"Winona Ryder"},{"ns":0,"title":"Woody Allen"},{"ns":0,"title":"Yale
+        Repertory Theatre"},{"ns":0,"title":"Zhang Ziyi"},{"ns":0,"title":"Zohra Lampert"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Academy
+        Award Best Supporting Actress"},{"ns":10,"title":"Template:EmmyAward DramaGuestActress"},{"ns":10,"title":"Template:EmmyAward
+        DramaGuestActress 1974\u20132000"},{"ns":10,"title":"Template:EmmyAward DramaGuestActress
+        2001\u20132025"},{"ns":10,"title":"Template:EmmyAward DramaSupportingActress"},{"ns":10,"title":"Template:EmmyAward
+        DramaSupportingActress 1959\u20131975"},{"ns":10,"title":"Template:EmmyAward
+        DramaSupportingActress 1976\u20132000"},{"ns":10,"title":"Template:EmmyAward
+        DramaSupportingActress 2001\u20132025"},{"ns":10,"title":"Template:GoldenGlobeBestSuppActressMotionPicture
+        1943\u20131960"},{"ns":10,"title":"Template:GoldenGlobeBestSuppActressMotionPicture
+        1961\u20131980"},{"ns":10,"title":"Template:GoldenGlobeBestSuppActressMotionPicture
+        1981\u20132000"},{"ns":10,"title":"Template:GoldenGlobeBestSuppActressMotionPicture
+        2001\u20132020"},{"ns":10,"title":"Template:Golden Globe Award Best Supporting
+        Actress Motion Picture"},{"ns":10,"title":"Template:IndependentSpiritBestSupportingFemale"},{"ns":10,"title":"Template:Los
+        Angeles Film Critics Association Award for Best Supporting Actress"},{"ns":10,"title":"Template:National
+        Board of Review Award for Best Supporting Actress"},{"ns":10,"title":"Template:National
+        Society of Film Critics Award for Best Supporting Actress"},{"ns":10,"title":"Template:New
+        York Film Critics Circle Award for Best Supporting Actress"},{"ns":10,"title":"Template:Satellite
+        Award Best Actress Television Miniseries or Film"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":10,"title":"Template:ScreenActorsGuildAward FemaleSupportMotionPicture"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:04 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,92 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Tremors%20(film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87338209, 1102714209, 3142956369
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1121'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:20 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4017 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"433414":{"pageid":433414,"ns":0,"title":"Tremors
+        (film)","links":[{"ns":0,"title":"Alexander Gruszynski"},{"ns":0,"title":"Amalgamated
+        Dynamics"},{"ns":0,"title":"American Dad!"},{"ns":0,"title":"American Dad!
+        (season 3)"},{"ns":0,"title":"Aqueduct (watercourse)"},{"ns":0,"title":"Ariana
+        Richards"},{"ns":0,"title":"Back When We Were Grownups"},{"ns":0,"title":"Bibi
+        Besch"},{"ns":0,"title":"Blu-Ray"},{"ns":0,"title":"Brent Maddock"},{"ns":0,"title":"Bulldozer"},{"ns":0,"title":"Burt
+        Gummer"},{"ns":0,"title":"CB radio"},{"ns":0,"title":"CD"},{"ns":0,"title":"Charlotte
+        Stewart"},{"ns":0,"title":"City Slickers"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Dehydration"},{"ns":0,"title":"Direct-to-video"},{"ns":0,"title":"Dirt
+        Dragons (Tremors game)"},{"ns":0,"title":"Dump truck"},{"ns":0,"title":"Electricity
+        pylon"},{"ns":0,"title":"Explosives"},{"ns":0,"title":"Film score"},{"ns":0,"title":"Finn
+        Carter"},{"ns":0,"title":"Fred Ward"},{"ns":0,"title":"Gale Anne Hurd"},{"ns":0,"title":"General
+        store"},{"ns":0,"title":"Graboid"},{"ns":0,"title":"Heart and Souls"},{"ns":0,"title":"Holiday
+        in Handcuffs"},{"ns":0,"title":"In the Mix (film)"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"List of television
+        programs based on films"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Michael
+        Gross (actor)"},{"ns":0,"title":"Mighty Joe Young (1998 film)"},{"ns":0,"title":"Monster
+        movie"},{"ns":0,"title":"Music genre"},{"ns":0,"title":"Open data"},{"ns":0,"title":"Perfection,
+        Nevada"},{"ns":0,"title":"Pole vaulting"},{"ns":0,"title":"Reba McEntire"},{"ns":0,"title":"Record
+        label"},{"ns":0,"title":"Region 1"},{"ns":0,"title":"Richard Marcus"},{"ns":0,"title":"Robert
+        Folk"},{"ns":0,"title":"Robert Jayne"},{"ns":0,"title":"Ron Underwood"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"S. S. Wilson"},{"ns":0,"title":"Santa Baby (film)"},{"ns":0,"title":"Santa
+        Baby 2"},{"ns":0,"title":"Seismology"},{"ns":0,"title":"Shepherd"},{"ns":0,"title":"Sierra
+        Nevada (U.S.)"},{"ns":0,"title":"Speechless (1994 film)"},{"ns":0,"title":"Stampede
+        Entertainment"},{"ns":0,"title":"Stealing Sinatra"},{"ns":0,"title":"Sunshine
+        Parker"},{"ns":0,"title":"Survivalist"},{"ns":0,"title":"The Adventures of
+        Pluto Nash"},{"ns":0,"title":"The American Film Institute Catalog of Motion
+        Pictures"},{"ns":0,"title":"The Year Without a Santa Claus (2006 film)"},{"ns":0,"title":"Tony
+        Genaro"},{"ns":0,"title":"Tremors: The Game"},{"ns":0,"title":"Tremors: The
+        Series"},{"ns":0,"title":"Tremors (TV series)"},{"ns":0,"title":"Tremors (franchise)"},{"ns":0,"title":"Tremors
+        2: Aftershocks"},{"ns":0,"title":"Tremors 3: Back to Perfection"},{"ns":0,"title":"Tremors
+        4: The Legend Begins"},{"ns":0,"title":"Tumble finishing"},{"ns":0,"title":"Turner
+        Classic Movies"},{"ns":0,"title":"UK"},{"ns":0,"title":"Universal Pictures"},{"ns":0,"title":"Universal
+        Studios"},{"ns":0,"title":"VHS"},{"ns":0,"title":"Victor Wong (actor born
+        1927)"},{"ns":0,"title":"Vincent Canby"},{"ns":0,"title":"Western (genre)"},{"ns":0,"title":"Wikidata"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":10,"title":"Template:Ron Underwood"},{"ns":10,"title":"Template:Tremors"},{"ns":11,"title":"Template
+        talk:Ron Underwood"},{"ns":11,"title":"Template talk:Tremors"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from January 2014"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:21 GMT
+recorded_with: VCR 2.9.2

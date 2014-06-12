@@ -1,0 +1,167 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Richard%20Chamberlain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704724710, 2340350967, 2597355166
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2948'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:58 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4016 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"320723":{"pageid":320723,"ns":0,"title":"Richard
+        Chamberlain","links":[{"ns":0,"title":"(They Long to Be) Close to You"},{"ns":0,"title":"A
+        River Made to Drown In"},{"ns":0,"title":"Abe Burrows"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"All
+        I Have to Do Is Dream"},{"ns":0,"title":"Allan Quatermain and the Lost City
+        of Gold"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Angela Lansbury"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Australian Film Institute Award for Best Actor
+        in a Leading Role"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BBC"},{"ns":0,"title":"Barbara
+        Stanwyck"},{"ns":0,"title":"Bea Arthur"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Bernadette
+        Peters"},{"ns":0,"title":"Bert Lytell"},{"ns":0,"title":"Beverly Hills, California"},{"ns":0,"title":"Beverly
+        Hills High School"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Nighy"},{"ns":0,"title":"Billboard (magazine)"},{"ns":0,"title":"Billboard
+        Hot 100"},{"ns":0,"title":"Birmingham Repertory Theatre"},{"ns":0,"title":"Blackbeard
+        (2006 film)"},{"ns":0,"title":"Blue Guitar"},{"ns":0,"title":"Bobby Van (actor)"},{"ns":0,"title":"Bourbon
+        Street Beat"},{"ns":0,"title":"Breakfast at Tiffany''s (musical)"},{"ns":0,"title":"Brian
+        Dennehy"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Brock Pemberton"},{"ns":0,"title":"Brothers
+        & Sisters (2006 TV series)"},{"ns":0,"title":"Brothers & Sisters (TV series)"},{"ns":0,"title":"Bud
+        Collyer"},{"ns":0,"title":"Carol Lawrence"},{"ns":0,"title":"Casanova (1987
+        film)"},{"ns":0,"title":"Celeste Holm"},{"ns":0,"title":"Centennial (miniseries)"},{"ns":0,"title":"Chuck
+        (TV series)"},{"ns":0,"title":"Cinderella"},{"ns":0,"title":"Connie Hines"},{"ns":0,"title":"Daniel
+        J. Travanti"},{"ns":0,"title":"Darren McGavin"},{"ns":0,"title":"Deborah Kerr"},{"ns":0,"title":"Desperate
+        Housewives"},{"ns":0,"title":"Diahann Carroll"},{"ns":0,"title":"Don Johnson"},{"ns":0,"title":"Dr.
+        Kildare"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Eddie Albert"},{"ns":0,"title":"Edward
+        Asner"},{"ns":0,"title":"Edward Woodward"},{"ns":0,"title":"Ellen Burstyn"},{"ns":0,"title":"Father
+        Ralph de Bricassart"},{"ns":0,"title":"Faye Emerson"},{"ns":0,"title":"Florence
+        Henderson"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gemma Craven"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Abbott"},{"ns":0,"title":"George S. Irving"},{"ns":0,"title":"Ginger
+        Rogers"},{"ns":0,"title":"Glenn Close"},{"ns":0,"title":"Golden Apple Award"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013
+        Television Series Drama"},{"ns":0,"title":"Gregory Hines"},{"ns":0,"title":"Gunsmoke"},{"ns":0,"title":"Hallmark
+        Hall of Fame"},{"ns":0,"title":"Hamlet"},{"ns":0,"title":"Helen Hayes"},{"ns":0,"title":"Henry
+        Fonda"},{"ns":0,"title":"Hi-Lili, Hi-Lo"},{"ns":0,"title":"Hiram Sherman"},{"ns":0,"title":"Hugh
+        Jackman"},{"ns":0,"title":"Hustle (TV series)"},{"ns":0,"title":"I Now Pronounce
+        You Chuck and Larry"},{"ns":0,"title":"I Will Love You"},{"ns":0,"title":"Idris
+        Elba"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Island
+        Son"},{"ns":0,"title":"Jack Carter (comedian)"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jane Alexander"},{"ns":0,"title":"Jane Fonda"},{"ns":0,"title":"Jason
+        Robards"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Joe
+        De Santis"},{"ns":0,"title":"John Barrymore"},{"ns":0,"title":"John Blackthorne"},{"ns":0,"title":"John
+        Forsythe"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Jose Ferrer"},{"ns":0,"title":"Joy
+        in the Morning (film)"},{"ns":0,"title":"Julie Andrews"},{"ns":0,"title":"Julius
+        Caesar (1970 film)"},{"ns":0,"title":"Katharine Hepburn"},{"ns":0,"title":"Kathleen
+        Turner"},{"ns":0,"title":"Ken Wahl"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"King Arthur"},{"ns":0,"title":"King Solomon''s
+        Mines (1985 film)"},{"ns":0,"title":"Lady Caroline Lamb"},{"ns":0,"title":"Lady
+        Caroline Lamb (film)"},{"ns":0,"title":"Larry Blyden"},{"ns":0,"title":"Larry
+        Kert"},{"ns":0,"title":"Lauren Bacall"},{"ns":0,"title":"Lena Horne"},{"ns":0,"title":"Leverage
+        (TV series)"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"List
+        of Tony Awards ceremonies"},{"ns":0,"title":"Liv Ullmann"},{"ns":0,"title":"Liza
+        Minnelli"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Love Me Tender
+        (song)"},{"ns":0,"title":"Married and maiden names"},{"ns":0,"title":"Mary
+        Martin"},{"ns":0,"title":"Mary Tyler Moore"},{"ns":0,"title":"Matthew Broderick"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Michele
+        Lee"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Mike Connors"},{"ns":0,"title":"Miniseries"},{"ns":0,"title":"Monty
+        Python"},{"ns":0,"title":"My Fair Lady"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"Neil Patrick Harris"},{"ns":0,"title":"Night of the
+        Hunter (1991 film)"},{"ns":0,"title":"Nip/Tuck"},{"ns":0,"title":"Ordeal in
+        the Arctic"},{"ns":0,"title":"Pasadena Playhouse"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Peter
+        Falk"},{"ns":0,"title":"Peter Graves"},{"ns":0,"title":"Peter Weir"},{"ns":0,"title":"Petulia"},{"ns":0,"title":"Phil
+        Silvers"},{"ns":0,"title":"Pilot Major"},{"ns":0,"title":"Pomona College"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Priscilla
+        Lopez"},{"ns":0,"title":"Rachel Ward"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Ray
+        Bolger"},{"ns":0,"title":"Raymond Massey"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Repertory
+        theatre"},{"ns":0,"title":"Rescue 8"},{"ns":0,"title":"Richard Burton"},{"ns":0,"title":"Richard
+        Chamberlain (disambiguation)"},{"ns":0,"title":"Richard Chamberlain Sings"},{"ns":0,"title":"Richard
+        Jordan"},{"ns":0,"title":"Richard Kiley"},{"ns":0,"title":"Riverboat (TV series)"},{"ns":0,"title":"Robert
+        Blake (actor)"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert
+        Preston (actor)"},{"ns":0,"title":"Robert Young (actor)"},{"ns":0,"title":"Ron
+        Perlman"},{"ns":0,"title":"Rosie O''Donnell"},{"ns":0,"title":"Saul Holden"},{"ns":0,"title":"Sean
+        Hayes (actor)"},{"ns":0,"title":"Sharon Stone"},{"ns":0,"title":"Sh\u014dgun
+        (TV miniseries)"},{"ns":0,"title":"Sidney Blackmer"},{"ns":0,"title":"Spamalot"},{"ns":0,"title":"Stacy
+        Keach"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Steiger Award"},{"ns":0,"title":"Strength
+        and Honor"},{"ns":0,"title":"Ted Danson"},{"ns":0,"title":"Ted de Corsia"},{"ns":0,"title":"Teen
+        idol"},{"ns":0,"title":"Television series"},{"ns":0,"title":"Telly Savalas"},{"ns":0,"title":"The
+        Bourne Identity (1988 film)"},{"ns":0,"title":"The Count of Monte Cristo (1975
+        film)"},{"ns":0,"title":"The Deputy (TV series)"},{"ns":0,"title":"The Drew
+        Carey Show"},{"ns":0,"title":"The Four Musketeers (film)"},{"ns":0,"title":"The
+        Lady''s Not for Burning"},{"ns":0,"title":"The Last Wave"},{"ns":0,"title":"The
+        Madwoman of Chaillot (film)"},{"ns":0,"title":"The Man in the Iron Mask (1977
+        film)"},{"ns":0,"title":"The Music Lovers"},{"ns":0,"title":"The New York
+        Times"},{"ns":0,"title":"The Pavilion on the Links"},{"ns":0,"title":"The
+        Perfect Family (film)"},{"ns":0,"title":"The Portrait of a Lady"},{"ns":0,"title":"The
+        Return of the Musketeers"},{"ns":0,"title":"The Secret of the Purple Reef"},{"ns":0,"title":"The
+        Slipper and the Rose"},{"ns":0,"title":"The Sound of Music"},{"ns":0,"title":"The
+        Swarm (film)"},{"ns":0,"title":"The Thorn Birds: The Missing Years"},{"ns":0,"title":"The
+        Thorn Birds (TV miniseries)"},{"ns":0,"title":"The Three Musketeers (1973
+        film)"},{"ns":0,"title":"The Towering Inferno"},{"ns":0,"title":"Theme From
+        Dr. Kildare (Three Stars Will Shine Tonight)"},{"ns":0,"title":"Theme from
+        Dr. Kildare (Three Stars Will Shine Tonight)"},{"ns":0,"title":"Thriller (U.S.
+        TV series)"},{"ns":0,"title":"Thundercats (2011 TV series)"},{"ns":0,"title":"Tom
+        Bosley"},{"ns":0,"title":"Tom Selleck"},{"ns":0,"title":"Tony Randall"},{"ns":0,"title":"Touched
+        by an Angel"},{"ns":0,"title":"True Love (Cole Porter song)"},{"ns":0,"title":"True
+        Love (song)"},{"ns":0,"title":"Twilight of Honor"},{"ns":0,"title":"UK Albums
+        Chart"},{"ns":0,"title":"UK Singles Chart"},{"ns":0,"title":"Van Johnson"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Wallenberg:
+        A Hero''s Story"},{"ns":0,"title":"Wesley Eure"},{"ns":0,"title":"Western
+        (genre)"},{"ns":0,"title":"Whispering Smith (TV series)"},{"ns":0,"title":"Whoopi
+        Goldberg"},{"ns":0,"title":"Will & Grace"},{"ns":0,"title":"William Bast"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVDrama
+        1969\u20131989"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVDrama 1990\u20132009"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVDrama
+        2010\u20132029"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:Golden
+        Globe Award Best Actor TV Drama"},{"ns":10,"title":"Template:Richard Chamberlain"},{"ns":10,"title":"Template:Tony
+        Awards hosts"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVDrama
+        1969\u20131989"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template
+        talk:Richard Chamberlain"},{"ns":11,"title":"Template talk:Tony Awards hosts"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from April 2010"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from May 2014"},{"ns":100,"title":"Portal:Biography"},{"ns":100,"title":"Portal:California"},{"ns":100,"title":"Portal:Film"},{"ns":100,"title":"Portal:Hawaii"},{"ns":100,"title":"Portal:Music"},{"ns":100,"title":"Portal:Television"},{"ns":100,"title":"Portal:Theatre"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:59 GMT
+recorded_with: VCR 2.9.2

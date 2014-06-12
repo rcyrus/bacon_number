@@ -1,0 +1,116 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Daniel%20Stern%20(actor)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711815438, 2340317698, 1613038092
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1566'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:00 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"534351":{"pageid":534351,"ns":0,"title":"Daniel
+        Stern (actor)","links":[{"ns":0,"title":"1979 in film"},{"ns":0,"title":"1980
+        in film"},{"ns":0,"title":"1981 in film"},{"ns":0,"title":"1982 in film"},{"ns":0,"title":"1983
+        in film"},{"ns":0,"title":"1984 in film"},{"ns":0,"title":"1985 in film"},{"ns":0,"title":"1986
+        in film"},{"ns":0,"title":"1987 in film"},{"ns":0,"title":"1988 in film"},{"ns":0,"title":"1989
+        in film"},{"ns":0,"title":"1990 in film"},{"ns":0,"title":"1991 in film"},{"ns":0,"title":"1992
+        in film"},{"ns":0,"title":"1993 in film"},{"ns":0,"title":"1994 in film"},{"ns":0,"title":"1995
+        in film"},{"ns":0,"title":"1996 in film"},{"ns":0,"title":"1997 in film"},{"ns":0,"title":"1998
+        in film"},{"ns":0,"title":"1999 in film"},{"ns":0,"title":"2000 in film"},{"ns":0,"title":"2001
+        in film"},{"ns":0,"title":"2003 in film"},{"ns":0,"title":"2004 in film"},{"ns":0,"title":"2006
+        in film"},{"ns":0,"title":"2008 in film"},{"ns":0,"title":"2009 Toronto International
+        Film Festival"},{"ns":0,"title":"2009 in film"},{"ns":0,"title":"2010 in film"},{"ns":0,"title":"2012
+        in film"},{"ns":0,"title":"2013 in film"},{"ns":0,"title":"A Christmas Story
+        2"},{"ns":0,"title":"A Small Circle of Friends"},{"ns":0,"title":"American
+        Comedy Awards"},{"ns":0,"title":"As You Like It"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Bachelor Party Vegas"},{"ns":0,"title":"Back to
+        the Future"},{"ns":0,"title":"Barry Levinson"},{"ns":0,"title":"Bethesda,
+        Maryland"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Biff
+        Tannen"},{"ns":0,"title":"Blue Thunder"},{"ns":0,"title":"Bob Gunton"},{"ns":0,"title":"Born
+        in East L.A."},{"ns":0,"title":"Breaking Away"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Bronze"},{"ns":0,"title":"Bushwhacked (film)"},{"ns":0,"title":"C.H.U.D."},{"ns":0,"title":"Celtic
+        Pride"},{"ns":0,"title":"City Slickers"},{"ns":0,"title":"City Slickers II:
+        The Legend of Curly''s Gold"},{"ns":0,"title":"Comic strip"},{"ns":0,"title":"Coupe
+        de Ville (film)"},{"ns":0,"title":"D.O.A. (1988 film)"},{"ns":0,"title":"Dale
+        Gribble"},{"ns":0,"title":"Danny (TV series)"},{"ns":0,"title":"David M. Stern"},{"ns":0,"title":"Day
+        care"},{"ns":0,"title":"Dilbert (TV series)"},{"ns":0,"title":"Diner (film)"},{"ns":0,"title":"Family
+        Guy"},{"ns":0,"title":"Fiddler on the Roof"},{"ns":0,"title":"Frankenweenie
+        (1984 film)"},{"ns":0,"title":"Fred Savage"},{"ns":0,"title":"Get Crazy"},{"ns":0,"title":"Getting
+        On (U.S. TV series)"},{"ns":0,"title":"Girlfriend in a Coma (TV series)"},{"ns":0,"title":"Gun
+        (TV series)"},{"ns":0,"title":"Hannah and Her Sisters"},{"ns":0,"title":"Hey
+        Arnold!"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Home Alone"},{"ns":0,"title":"Home
+        Alone (series)"},{"ns":0,"title":"Home Alone 2: Lost in New York"},{"ns":0,"title":"Hometown
+        (TV Series)"},{"ns":0,"title":"Honky Tonk Freeway"},{"ns":0,"title":"How to
+        Kill Your Neighbor''s Dog"},{"ns":0,"title":"I''m Dancing as Fast as I Can"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Iraq"},{"ns":0,"title":"It''s My Turn (film)"},{"ns":0,"title":"Jewish"},{"ns":0,"title":"Jill
+        Clayburgh"},{"ns":0,"title":"Johnny Hardwick"},{"ns":0,"title":"King of the
+        Hill"},{"ns":0,"title":"Kristen Wiig"},{"ns":0,"title":"Leviathan (1989 film)"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Little Monsters"},{"ns":0,"title":"Maryland"},{"ns":0,"title":"Monk
+        (TV series)"},{"ns":0,"title":"National Organization for the Reform of Marijuana
+        Laws"},{"ns":0,"title":"Off Broadway"},{"ns":0,"title":"One-Trick Pony (film)"},{"ns":0,"title":"Otis
+        (film)"},{"ns":0,"title":"Regular Joe (TV series)"},{"ns":0,"title":"Rookie
+        of the Year (film)"},{"ns":0,"title":"Rookie of the Year (movie)"},{"ns":0,"title":"Samson
+        and Delilah (1984 film)"},{"ns":0,"title":"Scott Adams"},{"ns":0,"title":"SeaQuest
+        DSV"},{"ns":0,"title":"Second Stage Theatre"},{"ns":0,"title":"Shakespeare"},{"ns":0,"title":"Snake
+        lemma"},{"ns":0,"title":"Stardust Memories"},{"ns":0,"title":"Starting Over
+        (1979 film)"},{"ns":0,"title":"Syst\u00e8me universitaire de documentation"},{"ns":0,"title":"The
+        Apartment"},{"ns":0,"title":"The Boss'' Wife"},{"ns":0,"title":"The Last Full
+        Measure (film)"},{"ns":0,"title":"The Last Time (film)"},{"ns":0,"title":"The
+        Milagro Beanfield War"},{"ns":0,"title":"The Next Three Days"},{"ns":0,"title":"The
+        Ratings Game"},{"ns":0,"title":"The Simpsons (season 2)"},{"ns":0,"title":"The
+        Wonder Years"},{"ns":0,"title":"Thomas F. Wilson"},{"ns":0,"title":"Three
+        Men and a Comic Book"},{"ns":0,"title":"United Service Organizations"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"Very Bad Things"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"Washington, D.C."},{"ns":0,"title":"Weekend
+        War"},{"ns":0,"title":"Whip It (film)"},{"ns":0,"title":"Workaholics"},{"ns":0,"title":"YouTube"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Manual of Style/Lead section"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Summary
+        style"},{"ns":10,"title":"Template:Lead too short"},{"ns":14,"title":"Category:Articles
+        covered by WikiProject Wikify from August 2013"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from August 2013"},{"ns":14,"title":"Category:Wikipedia
+        introduction cleanup from August 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:01 GMT
+recorded_with: VCR 2.9.2

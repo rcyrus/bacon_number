@@ -1,0 +1,103 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Flux
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704642885, 3085136912, 1061629480
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1221'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:10 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4010 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"43590":{"pageid":43590,"ns":0,"title":"Flux","links":[{"ns":0,"title":"AB
+        magnitude"},{"ns":0,"title":"Applied mathematics"},{"ns":0,"title":"Area"},{"ns":0,"title":"Boltzmann
+        constant"},{"ns":0,"title":"Circulation (fluid dynamics)"},{"ns":0,"title":"Closed
+        curve"},{"ns":0,"title":"Closed surface"},{"ns":0,"title":"Concentration"},{"ns":0,"title":"Constitutive
+        relation"},{"ns":0,"title":"Cross section (geometry)"},{"ns":0,"title":"Cross
+        section (physics)"},{"ns":0,"title":"Curl (mathematics)"},{"ns":0,"title":"Curve"},{"ns":0,"title":"Darcy''s
+        law"},{"ns":0,"title":"Differential (infinitesimal)"},{"ns":0,"title":"Differential
+        calculus"},{"ns":0,"title":"Diffusion flux"},{"ns":0,"title":"Digital object
+        identifier"},{"ns":0,"title":"Dimensional analysis"},{"ns":0,"title":"Direction
+        (geometry)"},{"ns":0,"title":"Divergence"},{"ns":0,"title":"Divergence theorem"},{"ns":0,"title":"Dot
+        product"},{"ns":0,"title":"Eddy covariance"},{"ns":0,"title":"Edwin N. Lightfoot"},{"ns":0,"title":"Electric
+        charge"},{"ns":0,"title":"Electric displacement"},{"ns":0,"title":"Electric
+        field"},{"ns":0,"title":"Electric flux"},{"ns":0,"title":"Electric generator"},{"ns":0,"title":"Electromagnetic
+        radiation"},{"ns":0,"title":"Electromotive force"},{"ns":0,"title":"Energy"},{"ns":0,"title":"Energy
+        flux"},{"ns":0,"title":"Euclidean vector"},{"ns":0,"title":"Explosively pumped
+        flux compression generator"},{"ns":0,"title":"Faraday''s law of induction"},{"ns":0,"title":"Fast
+        Flux Test Facility"},{"ns":0,"title":"Fick''s law of diffusion"},{"ns":0,"title":"Field
+        (physics)"},{"ns":0,"title":"Fluence"},{"ns":0,"title":"Fluid dynamics"},{"ns":0,"title":"Flux
+        (disambiguation)"},{"ns":0,"title":"Flux footprint"},{"ns":0,"title":"Flux
+        pinning"},{"ns":0,"title":"Flux quantization"},{"ns":0,"title":"Gauss''s law"},{"ns":0,"title":"Gradient"},{"ns":0,"title":"Heat"},{"ns":0,"title":"Heat
+        conduction"},{"ns":0,"title":"Heat flux"},{"ns":0,"title":"Heat transfer"},{"ns":0,"title":"Incompressible
+        flow"},{"ns":0,"title":"Inductor"},{"ns":0,"title":"Infinitesimal"},{"ns":0,"title":"Inner
+        product"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Inverse-square
+        law"},{"ns":0,"title":"Isaac Newton"},{"ns":0,"title":"Isobaric process"},{"ns":0,"title":"Isothermal"},{"ns":0,"title":"James
+        Clerk Maxwell"},{"ns":0,"title":"Jansky"},{"ns":0,"title":"Latent heat flux"},{"ns":0,"title":"Latin"},{"ns":0,"title":"Limit
+        of a function"},{"ns":0,"title":"Line element"},{"ns":0,"title":"Line integral"},{"ns":0,"title":"Luminous
+        flux"},{"ns":0,"title":"Magnetic field"},{"ns":0,"title":"Magnetic flux"},{"ns":0,"title":"Magnetic
+        flux quantum"},{"ns":0,"title":"Magnitude (astronomy)"},{"ns":0,"title":"Magnitude
+        (vector)"},{"ns":0,"title":"Mass"},{"ns":0,"title":"Mass flux"},{"ns":0,"title":"Mass
+        transfer"},{"ns":0,"title":"Mathematics"},{"ns":0,"title":"Maxwell\u2013Boltzmann
+        distribution"},{"ns":0,"title":"Mean free path"},{"ns":0,"title":"Method of
+        Fluxions"},{"ns":0,"title":"Mole (unit)"},{"ns":0,"title":"Momentum"},{"ns":0,"title":"Nabla
+        symbol"},{"ns":0,"title":"Natural science"},{"ns":0,"title":"Neutron flux"},{"ns":0,"title":"Normal
+        (geometry)"},{"ns":0,"title":"Orientability"},{"ns":0,"title":"Permittivity
+        of free space"},{"ns":0,"title":"Photons"},{"ns":0,"title":"Physical quantity"},{"ns":0,"title":"Physics"},{"ns":0,"title":"Power
+        (physics)"},{"ns":0,"title":"Poynting flux"},{"ns":0,"title":"Poynting theorem"},{"ns":0,"title":"Poynting
+        vector"},{"ns":0,"title":"Probability amplitude"},{"ns":0,"title":"Probability
+        current"},{"ns":0,"title":"PubMed Identifier"},{"ns":0,"title":"Quantum mechanics"},{"ns":0,"title":"Quantum
+        state"},{"ns":0,"title":"Radiant flux"},{"ns":0,"title":"Radiative flux"},{"ns":0,"title":"Rapid
+        single flux quantum"},{"ns":0,"title":"Right-hand rule"},{"ns":0,"title":"Robert
+        Byron Bird"},{"ns":0,"title":"Sound energy flux"},{"ns":0,"title":"Spectral
+        class"},{"ns":0,"title":"Square metre"},{"ns":0,"title":"Steradian"},{"ns":0,"title":"Stokes''
+        theorem"},{"ns":0,"title":"Surface"},{"ns":0,"title":"Surface integral"},{"ns":0,"title":"Tesla
+        (unit)"},{"ns":0,"title":"Thermodynamic temperature"},{"ns":0,"title":"Time"},{"ns":0,"title":"Transport
+        phenomena"},{"ns":0,"title":"Unit normal"},{"ns":0,"title":"Unit vector"},{"ns":0,"title":"Vector
+        (geometry)"},{"ns":0,"title":"Vector area"},{"ns":0,"title":"Vector field"},{"ns":0,"title":"Viscosity"},{"ns":0,"title":"Volume"},{"ns":0,"title":"Volume
+        element"},{"ns":0,"title":"Volumetric flow rate"},{"ns":0,"title":"Volumetric
+        flux"},{"ns":0,"title":"Watt"},{"ns":12,"title":"Help:CS1 errors"},{"ns":100,"title":"Portal:Mathematics"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:10 GMT
+recorded_with: VCR 2.9.2

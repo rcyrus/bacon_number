@@ -1,0 +1,261 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Mickey%20Rourke
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401658692, 3085156002, 1309477359
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4834'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:42 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"530936|11|Golden_Globe_Award_Best_Actor_Motion_Picture_Drama"}},"query":{"pages":{"530936":{"pageid":530936,"ns":0,"title":"Mickey
+        Rourke","links":[{"ns":0,"title":"11th Critics'' Choice Awards"},{"ns":0,"title":"14th
+        Critics'' Choice Awards"},{"ns":0,"title":"1941 (film)"},{"ns":0,"title":"2008
+        Toronto International Film Festival"},{"ns":0,"title":"48 Hrs."},{"ns":0,"title":"5th
+        Street Gym"},{"ns":0,"title":"7 July 2005 London bombings"},{"ns":0,"title":"9\u00bd
+        Weeks"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Actors
+        Studio"},{"ns":0,"title":"Adrian Lyne"},{"ns":0,"title":"Afa Anoa''i"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Parker"},{"ns":0,"title":"Albert Brooks"},{"ns":0,"title":"Alcoholic"},{"ns":0,"title":"Alec
+        Guinness"},{"ns":0,"title":"Alex Rider"},{"ns":0,"title":"Alexander Knox"},{"ns":0,"title":"Alter
+        ego"},{"ns":0,"title":"An Phoblacht"},{"ns":0,"title":"Anastassija Makarenko"},{"ns":0,"title":"Andrew
+        Garfield"},{"ns":0,"title":"Andy Garc\u00eda"},{"ns":0,"title":"Andy Serkis"},{"ns":0,"title":"Angel
+        Heart (film)"},{"ns":0,"title":"Animal Factory"},{"ns":0,"title":"Another
+        9\u00bd Weeks"},{"ns":0,"title":"Antalya Golden Orange Film Festival"},{"ns":0,"title":"Anthony
+        Franciosa"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Arson"},{"ns":0,"title":"Arthur
+        Miller"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BAFTA
+        Award"},{"ns":0,"title":"BAFTA Award for Best Actor in a Leading Role"},{"ns":0,"title":"Barbara
+        Walters"},{"ns":0,"title":"Barfly (film)"},{"ns":0,"title":"Bavaria Brewery
+        (Netherlands)"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Beauty, Disrupted:
+        A Memoir"},{"ns":0,"title":"Belfast"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben
+        Kingsley"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Beverly Hills
+        Cop"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Murray"},{"ns":0,"title":"Billy Bob Thornton"},{"ns":0,"title":"Bloomberg
+        L.P."},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Body Heat"},{"ns":0,"title":"Boston
+        Society of Film Critics Award"},{"ns":0,"title":"Boston Society of Film Critics
+        Award for Best Supporting Actor"},{"ns":0,"title":"Bounty hunter"},{"ns":0,"title":"BoxRec"},{"ns":0,"title":"Boxing"},{"ns":0,"title":"Boxrec.com"},{"ns":0,"title":"Boys
+        & Girls Clubs of America"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Brent
+        Spiner"},{"ns":0,"title":"British Academy of Film and Television Arts"},{"ns":0,"title":"Broderick
+        Crawford"},{"ns":0,"title":"Bruce Davison"},{"ns":0,"title":"Bruce Dern"},{"ns":0,"title":"Bruce
+        Willis"},{"ns":0,"title":"Bruno Ganz"},{"ns":0,"title":"Bryan Adams"},{"ns":0,"title":"Buffalo
+        ''66"},{"ns":0,"title":"Bullet (1996 film)"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"Burt
+        Reynolds"},{"ns":0,"title":"Butch Coolidge"},{"ns":0,"title":"Canada"},{"ns":0,"title":"Carr\u00e9
+        Otis"},{"ns":0,"title":"Casey Affleck"},{"ns":0,"title":"Catholic Church"},{"ns":0,"title":"Catholic
+        News Agency"},{"ns":0,"title":"Cause c\u00e9l\u00e8bre"},{"ns":0,"title":"Charles
+        Bukowski"},{"ns":0,"title":"Charles Gathers"},{"ns":0,"title":"Charlie Rose
+        (talk show)"},{"ns":0,"title":"Chicago Film Critics Association"},{"ns":0,"title":"Chicago
+        Film Critics Association Awards 2008"},{"ns":0,"title":"Chief Dan George"},{"ns":0,"title":"Chihuahua
+        (dog)"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Choreography"},{"ns":0,"title":"Chris
+        Jericho"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Plummer"},{"ns":0,"title":"Christopher Walken"},{"ns":0,"title":"Chuck Zito"},{"ns":0,"title":"City
+        Island (film)"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Coming out"},{"ns":0,"title":"Concussion"},{"ns":0,"title":"Cosby
+        Show"},{"ns":0,"title":"Critics'' Choice Movie Awards"},{"ns":0,"title":"Cuba"},{"ns":0,"title":"Cutting
+        room floor"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Daihatsu"},{"ns":0,"title":"Daily
+        Mirror"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Daniel Stern
+        (actor)"},{"ns":0,"title":"Danny Glover"},{"ns":0,"title":"Daryl Hannah"},{"ns":0,"title":"David
+        A. Unger"},{"ns":0,"title":"David Bowie"},{"ns":0,"title":"David Carradine"},{"ns":0,"title":"David
+        Niven"},{"ns":0,"title":"Davie, Florida"},{"ns":0,"title":"Dean Stockwell"},{"ns":0,"title":"Debra
+        Feuer"},{"ns":0,"title":"Dennis Hopper"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Denzel
+        Washington"},{"ns":0,"title":"Derek Luke"},{"ns":0,"title":"Desperate Hours"},{"ns":0,"title":"Detroit
+        Film Critics Society Awards 2008"},{"ns":0,"title":"Dick Marcinko"},{"ns":0,"title":"Diner
+        (film)"},{"ns":0,"title":"Direct-to-video"},{"ns":0,"title":"Dirk Bogarde"},{"ns":0,"title":"Domino
+        (film)"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Don Johnson"},{"ns":0,"title":"Double
+        Team (film)"},{"ns":0,"title":"Driv3r"},{"ns":0,"title":"Driver (series)"},{"ns":0,"title":"Driving
+        under the influence"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Eddie Albert"},{"ns":0,"title":"Eddie Marsan"},{"ns":0,"title":"Edward
+        Fox (actor)"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"Elia
+        Kazan"},{"ns":0,"title":"Elmore Leonard"},{"ns":0,"title":"Enrique Iglesias"},{"ns":0,"title":"Eric
+        Roberts"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"Europe"},{"ns":0,"title":"F.T.W.
+        (film)"},{"ns":0,"title":"F. Murray Abraham"},{"ns":0,"title":"Film Comment"},{"ns":0,"title":"Film
+        noir"},{"ns":0,"title":"Florida"},{"ns":0,"title":"Florida Film Critics Circle
+        Awards 2008"},{"ns":0,"title":"Flyweight"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Fort
+        Lauderdale, Florida"},{"ns":0,"title":"Francesco (film)"},{"ns":0,"title":"Francis
+        Ford Coppola"},{"ns":0,"title":"Frank Miller (comics)"},{"ns":0,"title":"Fran\u00e7ois
+        P\u00e9rier"},{"ns":0,"title":"Freddie Roach (boxing)"},{"ns":0,"title":"Frederic
+        Forrest"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"French American"},{"ns":0,"title":"French
+        people"},{"ns":0,"title":"Gareth Thomas (rugby player)"},{"ns":0,"title":"Gary
+        Cooper"},{"ns":0,"title":"Gary Oldman"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George W. Bush"},{"ns":0,"title":"Germany"},{"ns":0,"title":"Get
+        Carter (2000 film)"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Motion
+        Picture Drama"},{"ns":0,"title":"Golden Gloves"},{"ns":0,"title":"Golden Lion"},{"ns":0,"title":"Gregory
+        Peck"},{"ns":0,"title":"Guns ''N'' Roses"},{"ns":0,"title":"G\u00e9rard Depardieu"},{"ns":0,"title":"Haing
+        S. Ngor"},{"ns":0,"title":"Hamburg"},{"ns":0,"title":"Hanna Schygulla"},{"ns":0,"title":"Harley
+        Davidson and the Marlboro Man"},{"ns":0,"title":"HarperCollins"},{"ns":0,"title":"Harvey
+        Keitel"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Helen Mirren"},{"ns":0,"title":"Hells
+        Angels"},{"ns":0,"title":"Henry Chinaski"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Henry
+        Gibson"},{"ns":0,"title":"Hero (Enrique Iglesias song)"},{"ns":0,"title":"Holger
+        L\u00f6wenadler"},{"ns":0,"title":"Homeboy (film)"},{"ns":0,"title":"Hugh
+        Grant"},{"ns":0,"title":"Hugo Schwyzer"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Independent
+        Spirit Award"},{"ns":0,"title":"Independent Spirit Award for Best Actor"},{"ns":0,"title":"Independent
+        Spirit Award for Best Male Lead"},{"ns":0,"title":"Independent Spirit Awards"},{"ns":0,"title":"Indonesia"},{"ns":0,"title":"Inside
+        the Actors Studio"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Antalya Golden Orange Film Festival"},{"ns":0,"title":"International Standard
+        Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Iraq
+        War"},{"ns":0,"title":"Irish American"},{"ns":0,"title":"Irish Film and Television
+        Awards"},{"ns":0,"title":"Iron Man 2"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack
+        Nicholson"},{"ns":0,"title":"James Dean"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        Lipton"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jamie Bell"},{"ns":0,"title":"Jamie
+        Foxx"},{"ns":0,"title":"Japan"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Java"},{"ns":0,"title":"Java
+        Heat"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Javier Villanueva"},{"ns":0,"title":"Jay
+        W. Jensen"},{"ns":0,"title":"Jean-Claude Van Damme"},{"ns":0,"title":"Jean
+        Dujardin"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jennifer Love
+        Hewitt"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jimmy
+        Snuka"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"Joe Doherty"},{"ns":0,"title":"Joe
+        Pesci"},{"ns":0,"title":"Joe Riles"},{"ns":0,"title":"Joel Grey"},{"ns":0,"title":"John
+        Carver"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Grisham"},{"ns":0,"title":"John Hawkes (actor)"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John
+        Malkovich"},{"ns":0,"title":"John Rich (musician)"},{"ns":0,"title":"John
+        Travolta"},{"ns":0,"title":"John Wayne"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Johnny
+        Ringo"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jonas \u00c5kerlund"},{"ns":0,"title":"Joplin,
+        Missouri"},{"ns":0,"title":"Jos\u00e9 Ferrer"},{"ns":0,"title":"Kansas City,
+        Missouri"},{"ns":0,"title":"Keira Knightley"},{"ns":0,"title":"Kenneth More"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Killshot (film)"},{"ns":0,"title":"Kim
+        Basinger"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Kris Kristofferson"},{"ns":0,"title":"Lance
+        Henriksen"},{"ns":0,"title":"Lark (cigarette)"},{"ns":0,"title":"Laurence
+        Olivier"},{"ns":0,"title":"Leading man"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Liberty City"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Lisa Bonet"},{"ns":0,"title":"London Film
+        Critics Circle Award for Actor of the Year"},{"ns":0,"title":"Luis Rodr\u00edguez
+        (boxer)"},{"ns":0,"title":"M-60 machine gun"},{"ns":0,"title":"M. Emmet Walsh"},{"ns":0,"title":"MTV
+        Movie Award for Best Villain"},{"ns":0,"title":"MTV Movie Awards"},{"ns":0,"title":"Magnetic
+        resonance imaging"},{"ns":0,"title":"Man on Fire (2004 film)"},{"ns":0,"title":"Marcello
+        Mastroianni"},{"ns":0,"title":"Mark Wahlberg"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin
+        Donovan"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Marv (Sin City)"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"Metin Erksan"},{"ns":0,"title":"Miami"},{"ns":0,"title":"Miami
+        Beach"},{"ns":0,"title":"Miami Beach, Florida"},{"ns":0,"title":"Miami Beach
+        Senior High School"},{"ns":0,"title":"Michael Biehn"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Clarke Duncan"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Mickey Rourke filmography"},{"ns":0,"title":"Middleweight"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"National Society of Film Critics"},{"ns":0,"title":"National
+        Society of Film Critics Award for Best Supporting Actor"},{"ns":0,"title":"Neutering"},{"ns":0,"title":"Never
+        Let Me Down"},{"ns":0,"title":"New York"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas
+        Cage"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"Nino Benvenuti"},{"ns":0,"title":"Norman
+        Jewison"},{"ns":0,"title":"Omar Sharif"},{"ns":0,"title":"Once Upon a Time
+        in Mexico"},{"ns":0,"title":"Once Upon a Time in Mexico (film)"},{"ns":0,"title":"Online
+        Film Critics Society"},{"ns":0,"title":"Online Film Critics Society Award
+        for Best Supporting Actor"},{"ns":0,"title":"Out in Fifty"},{"ns":0,"title":"Oviedo"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Lukas"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul
+        Reiser"},{"ns":0,"title":"Paul Schneider (actor)"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"People
+        Magazine"},{"ns":0,"title":"People for the Ethical Treatment of Animals"},{"ns":0,"title":"Peter
+        Finch"},{"ns":0,"title":"Peter Fonda"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Peter
+        Sarsgaard"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Philip Seymour
+        Hoffman"},{"ns":0,"title":"Philippe Noiret"},{"ns":0,"title":"Plastic surgeon"},{"ns":0,"title":"Platoon
+        (film)"},{"ns":0,"title":"Provisional Irish Republican Army"},{"ns":0,"title":"Pulp
+        Fiction"},{"ns":0,"title":"Pulp Fiction (film)"},{"ns":0,"title":"Rain Man"},{"ns":0,"title":"Ralph
+        Fiennes"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Razzie
+        Award for Worst Actor"},{"ns":0,"title":"Razzie Awards"},{"ns":0,"title":"Reconstructive
+        surgery"},{"ns":0,"title":"Ric Flair"},{"ns":0,"title":"Richard Attenborough"},{"ns":0,"title":"Richard
+        Burton"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard Farnsworth"},{"ns":0,"title":"Richard
+        Marcinko"},{"ns":0,"title":"Ricky Steamboat"},{"ns":0,"title":"Rip It Up (magazine)"},{"ns":0,"title":"River
+        Phoenix"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert
+        Downey, Jr."},{"ns":0,"title":"Robert Downey Jr."},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Robert Morley"},{"ns":0,"title":"Robert Preston
+        (actor)"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robert Rodriguez"},{"ns":0,"title":"Roberto
+        Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rod Steiger"},{"ns":0,"title":"Roddy
+        Piper"},{"ns":0,"title":"Rogue Warrior (video game)"},{"ns":0,"title":"Ron
+        Carter"},{"ns":0,"title":"Ronald Colman"},{"ns":0,"title":"Ronald Robinson"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Royal Ulster Constabulary"},{"ns":0,"title":"Rumble
+        Fish"},{"ns":0,"title":"Russell Crowe"},{"ns":0,"title":"Ryan Gosling"},{"ns":0,"title":"Samuel
+        Jackson"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"San Diego
+        Film Critics Society"},{"ns":0,"title":"San Francisco Film Critics Circle
+        Awards 2008"},{"ns":0,"title":"Sandra Seacat"},{"ns":0,"title":"Santa Barbara
+        International Film Festival"},{"ns":0,"title":"Satellite Award"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor - Motion Picture"},{"ns":0,"title":"Satellite
+        Awards"},{"ns":0,"title":"Saturn Award"},{"ns":0,"title":"Saturn Award for
+        Best Supporting Actor"},{"ns":0,"title":"Saturn Award for Best Supporting
+        Actor (film)"},{"ns":0,"title":"Schenectady, New York"},{"ns":0,"title":"Scream
+        Awards"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Screenplay"},{"ns":0,"title":"Sean
+        Astin"},{"ns":0,"title":"Sean Connery"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"Sex
+        symbol"},{"ns":0,"title":"Seymour Cassel"},{"ns":0,"title":"Shades (film)"},{"ns":0,"title":"Shekhar
+        Kapur"},{"ns":0,"title":"Shergar"},{"ns":0,"title":"Sherman Bergman"},{"ns":0,"title":"Shuttin''
+        Detroit Down"},{"ns":0,"title":"Sidney Poitier"},{"ns":0,"title":"Sin City
+        (film)"},{"ns":0,"title":"Spain"},{"ns":0,"title":"Special Air Service"},{"ns":0,"title":"Spencer
+        Tracy"},{"ns":0,"title":"Spun"},{"ns":0,"title":"St. Francis of Assisi"},{"ns":0,"title":"Stephen
+        Lang"},{"ns":0,"title":"Steve Buscemi"},{"ns":0,"title":"Steve Guttenberg"},{"ns":0,"title":"Steven
+        Spielberg"},{"ns":0,"title":"Stormbreaker (film)"},{"ns":0,"title":"Suicide"},{"ns":0,"title":"Suntory"},{"ns":0,"title":"Sweet
+        Child o'' Mine"},{"ns":0,"title":"Sylvester Stallone"},{"ns":0,"title":"Taylor
+        Hackford"},{"ns":0,"title":"Terrence Malick"},{"ns":0,"title":"Terry Farrell
+        (actress)"},{"ns":0,"title":"The Advocate"},{"ns":0,"title":"The Daily Mail"},{"ns":0,"title":"The
+        Daily Mirror"},{"ns":0,"title":"The Expendables (2010 film)"},{"ns":0,"title":"The
+        Expendables 2"},{"ns":0,"title":"The Guardian"},{"ns":0,"title":"The Informers"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Outsiders (film)"},{"ns":0,"title":"The
+        Pledge (film)"},{"ns":0,"title":"The Pope of Greenwich Village"},{"ns":0,"title":"The
+        Rainmaker (1997 film)"},{"ns":0,"title":"The Rainmaker (John Grisham)"},{"ns":0,"title":"The
+        Silence of the Lambs (film)"},{"ns":0,"title":"The Thin Red Line (1998 film)"},{"ns":0,"title":"The
+        Wrestler (2008 film)"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Thursday
+        (1998 film)"},{"ns":0,"title":"Tim Daly"},{"ns":0,"title":"Tokyo"},{"ns":0,"title":"Tom
+        Courtenay"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Wilkinson"},{"ns":0,"title":"Tombstone (film)"},{"ns":0,"title":"Tony Scott"},{"ns":0,"title":"Tony
+        Shalhoub"},{"ns":0,"title":"Top Gun"},{"ns":0,"title":"Toronto Film Critics
+        Association"},{"ns":0,"title":"Total Film"},{"ns":0,"title":"Trevor Howard"},{"ns":0,"title":"Tribeca
+        Film Festival"},{"ns":0,"title":"True Crime: New York City"},{"ns":0,"title":"Tupac
+        Shakur"},{"ns":0,"title":"United States"},{"ns":0,"title":"University of Miami"},{"ns":0,"title":"Unsimulated
+        sex in film"},{"ns":0,"title":"Venice Film Festival"},{"ns":0,"title":"Vincent
+        D''Onofrio"},{"ns":0,"title":"Vincent Gallo"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"WNET"},{"ns":0,"title":"Walter Matthau"},{"ns":0,"title":"Washington
+        D.C. Area Film Critics Association Award for Best Actor"},{"ns":0,"title":"Washington
+        D.C. Area Film Critics Association Awards 2008"},{"ns":0,"title":"Washington
+        DC Area Film Critics Association"},{"ns":0,"title":"Whiplash (comics)"},{"ns":0,"title":"White
+        Sands (film)"},{"ns":0,"title":"Wiesbaden"},{"ns":0,"title":"Wild Orchid (film)"},{"ns":0,"title":"Willem
+        Dafoe"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"William Hurt"},{"ns":0,"title":"William
+        Sadler (actor)"},{"ns":0,"title":"WrestleMania XXV"},{"ns":0,"title":"Year
+        of the Dragon (film)"},{"ns":0,"title":"YouTube"},{"ns":0,"title":"Zoo Magazine"},{"ns":0,"title":"\u00d6mer
+        L\u00fctfi Akad"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":10,"title":"Template:GoldenOrangeHonoraryAward"},{"ns":10,"title":"Template:Golden
+        Globe Award Best Actor Motion Picture Drama"},{"ns":10,"title":"Template:IndependentSpiritBestMaleLead"},{"ns":10,"title":"Template:London
+        Film Critics Circle Award for Actor of the Year"},{"ns":10,"title":"Template:National
+        Society of Film Critics Award for Best Supporting Actor"},{"ns":10,"title":"Template:Saturn
+        Award for Best Supporting Actor 1974\u20131990"},{"ns":10,"title":"Template:Saturn
+        Award for Best Supporting Actor 1991\u20132010"},{"ns":10,"title":"Template:Saturn
+        Award for Best Supporting Actor 2011\u20132030"},{"ns":10,"title":"Template:Washington
+        D.C. Area Film Critics Association Award for Best Actor"},{"ns":11,"title":"Template
+        talk:BAFTA Award for Best Actor in a Leading Role"},{"ns":11,"title":"Template
+        talk:GoldenOrangeHonoraryAward"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:43 GMT
+recorded_with: VCR 2.9.2

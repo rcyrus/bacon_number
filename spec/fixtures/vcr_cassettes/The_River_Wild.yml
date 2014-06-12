@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=The%20River%20Wild
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401707591, 1409553247, 1061691785
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '985'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:16 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4009 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"4189858":{"pageid":4189858,"ns":0,"title":"The
+        River Wild","links":[{"ns":0,"title":"8 Mile (film)"},{"ns":0,"title":"AFI''s
+        100 Years...100 Heroes and Villains"},{"ns":0,"title":"Adventure film"},{"ns":0,"title":"American
+        Sign Language"},{"ns":0,"title":"Architect"},{"ns":0,"title":"Bad Influence
+        (film)"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Blue Sky (film)"},{"ns":0,"title":"Chasing
+        Mavericks"},{"ns":0,"title":"Chicago Sun Times"},{"ns":0,"title":"Colorado
+        River"},{"ns":0,"title":"Crime film"},{"ns":0,"title":"Curtis Hanson"},{"ns":0,"title":"David
+        Brenner (editor)"},{"ns":0,"title":"David Strathairn"},{"ns":0,"title":"Diane
+        Delano"},{"ns":0,"title":"Ed Wood (film)"},{"ns":0,"title":"Elizabeth Hoffman
+        (actress)"},{"ns":0,"title":"English language"},{"ns":0,"title":"Flathead
+        River"},{"ns":0,"title":"Gaffe"},{"ns":0,"title":"Glenn Morshower"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"In Her Shoes (film)"},{"ns":0,"title":"Internet Movie
+        Database"},{"ns":0,"title":"James Berardinelli"},{"ns":0,"title":"Jerry Goldsmith"},{"ns":0,"title":"Jessica
+        Lange"},{"ns":0,"title":"Joe Hutshing"},{"ns":0,"title":"John C. Reilly"},{"ns":0,"title":"Joseph
+        Mazzello"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kootenai River"},{"ns":0,"title":"Kootenay
+        River"},{"ns":0,"title":"L.A. Confidential (film)"},{"ns":0,"title":"Lawrence
+        Turman"},{"ns":0,"title":"Life jacket"},{"ns":0,"title":"Losin'' It"},{"ns":0,"title":"Lucky
+        You (film)"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Maurice Jarre"},{"ns":0,"title":"Meryl
+        Streep"},{"ns":0,"title":"Montana"},{"ns":0,"title":"Oregon"},{"ns":0,"title":"Park
+        ranger"},{"ns":0,"title":"Paul Cantelon"},{"ns":0,"title":"Rendering (computer
+        graphics)"},{"ns":0,"title":"Robert Elswit"},{"ns":0,"title":"Roger Ebert"},{"ns":0,"title":"Rogue
+        River (Oregon)"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Salmon
+        River (Idaho)"},{"ns":0,"title":"Screen Actors Guild"},{"ns":0,"title":"Sweet
+        Kill"},{"ns":0,"title":"Swiss Army knife"},{"ns":0,"title":"The Bedroom Window"},{"ns":0,"title":"The
+        Hand That Rocks the Cradle (film)"},{"ns":0,"title":"The Little Dragons"},{"ns":0,"title":"Thriller
+        (genre)"},{"ns":0,"title":"Too Big to Fail (film)"},{"ns":0,"title":"United
+        Kingdom"},{"ns":0,"title":"Universal Studios"},{"ns":0,"title":"Whitewater
+        canoeing"},{"ns":0,"title":"Wild River"},{"ns":0,"title":"William Lucking"},{"ns":0,"title":"Wonder
+        Boys (film)"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Manual of Style/Dates and numbers"},{"ns":10,"title":"Template:Curtis
+        Hanson"},{"ns":11,"title":"Template talk:Curtis Hanson"},{"ns":14,"title":"Category:Articles
+        with dead external links from November 2010"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from May 2014"},{"ns":14,"title":"Category:Vague
+        or ambiguous time from May 2014"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:17 GMT
+recorded_with: VCR 2.9.2

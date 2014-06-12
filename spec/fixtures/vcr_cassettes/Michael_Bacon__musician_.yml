@@ -1,0 +1,88 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Michael%20Bacon%20(musician)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287147300, 2340340218, 2597337800
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '981'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:39 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4016 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"17384216":{"pageid":17384216,"ns":0,"title":"Michael
+        Bacon (musician)","links":[{"ns":0,"title":"A Place in the Land"},{"ns":0,"title":"A
+        Time for Justice"},{"ns":0,"title":"African American Lives"},{"ns":0,"title":"Albums"},{"ns":0,"title":"American
+        Experience"},{"ns":0,"title":"Ann Wyeth McCoy"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Bacon Brothers"},{"ns":0,"title":"Banjo"},{"ns":0,"title":"Barbara
+        Kopple"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Moyers Journal"},{"ns":0,"title":"Bill Whiteford"},{"ns":0,"title":"Bob Balaban"},{"ns":0,"title":"Bob
+        Brooks"},{"ns":0,"title":"Cello"},{"ns":0,"title":"Chris Boebel"},{"ns":0,"title":"Composer"},{"ns":0,"title":"Country
+        music"},{"ns":0,"title":"D-Day Remembered"},{"ns":0,"title":"Dana Perry"},{"ns":0,"title":"Design
+        of Cities"},{"ns":0,"title":"Drum kit"},{"ns":0,"title":"East Coast of the
+        United States"},{"ns":0,"title":"Edmund Bacon (architect)"},{"ns":0,"title":"Elementary
+        school"},{"ns":0,"title":"Film score"},{"ns":0,"title":"Folk music"},{"ns":0,"title":"Gold
+        Fever"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Guitar"},{"ns":0,"title":"Hugh
+        Bush"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"John Corigliano"},{"ns":0,"title":"John
+        Kerry"},{"ns":0,"title":"John Saffron"},{"ns":0,"title":"Julia R. Masterman
+        School"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"King Gimp"},{"ns":0,"title":"Lehman
+        College"},{"ns":0,"title":"Losing Chase"},{"ns":0,"title":"Loverboy (2005
+        film)"},{"ns":0,"title":"Making Music (magazine)"},{"ns":0,"title":"Married
+        and maiden names"},{"ns":0,"title":"Mary Kotzke"},{"ns":0,"title":"Midwest"},{"ns":0,"title":"Missouri"},{"ns":0,"title":"Music
+        genre"},{"ns":0,"title":"Musical composition"},{"ns":0,"title":"Musician"},{"ns":0,"title":"New
+        York City"},{"ns":0,"title":"Nigel Noble"},{"ns":0,"title":"Nova (TV series)"},{"ns":0,"title":"Orchestration"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Pennsylvania"},{"ns":0,"title":"Peru,
+        Illinois"},{"ns":0,"title":"Peter Jennings"},{"ns":0,"title":"Philadelphia"},{"ns":0,"title":"Philadelphia,
+        Pennsylvania"},{"ns":0,"title":"Pulitzer Prize"},{"ns":0,"title":"Queer Eye"},{"ns":0,"title":"Rock
+        music"},{"ns":0,"title":"Screen Actors Guild Award"},{"ns":0,"title":"Shadow
+        of Hate"},{"ns":0,"title":"Singer-songwriter"},{"ns":0,"title":"Singing"},{"ns":0,"title":"Soul
+        music"},{"ns":0,"title":"Susan Hadary"},{"ns":0,"title":"The Bacon Brothers"},{"ns":0,"title":"The
+        Century"},{"ns":0,"title":"The Jewish Americans"},{"ns":0,"title":"The Johnstown
+        Flood (1989 film)"},{"ns":0,"title":"The Last Good Time"},{"ns":0,"title":"The
+        Man Nobody Knew"},{"ns":0,"title":"Turning Point (TV series)"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"Violin"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"Who Shot Patakango?"},{"ns":0,"title":"Yearbook
+        (TV series)"},{"ns":4,"title":"Wikipedia:Persondata"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:40 GMT
+recorded_with: VCR 2.9.2

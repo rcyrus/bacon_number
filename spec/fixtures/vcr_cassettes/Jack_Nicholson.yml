@@ -1,0 +1,249 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Jack%20Nicholson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711844591, 3085144384, 1061641185
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4543'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:22 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4010 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"18617829|0|Magic_Johnson"}},"query":{"pages":{"18617829":{"pageid":18617829,"ns":0,"title":"Jack
+        Nicholson","links":[{"ns":0,"title":"1949 BAA Finals"},{"ns":0,"title":"1950
+        NBA Finals"},{"ns":0,"title":"1952 NBA Finals"},{"ns":0,"title":"1953 NBA
+        Finals"},{"ns":0,"title":"1954 NBA Finals"},{"ns":0,"title":"1971\u201372
+        Los Angeles Lakers season"},{"ns":0,"title":"1972 NBA Finals"},{"ns":0,"title":"1980
+        NBA Finals"},{"ns":0,"title":"1982 NBA Finals"},{"ns":0,"title":"1985 NBA
+        Finals"},{"ns":0,"title":"1987 NBA Finals"},{"ns":0,"title":"1988 NBA Finals"},{"ns":0,"title":"2000
+        NBA Finals"},{"ns":0,"title":"2001 NBA Finals"},{"ns":0,"title":"2002 Cannes
+        Film Festival"},{"ns":0,"title":"2002 NBA Finals"},{"ns":0,"title":"2009 NBA
+        Finals"},{"ns":0,"title":"2010 NBA Finals"},{"ns":0,"title":"2013\u201314
+        Los Angeles Lakers season"},{"ns":0,"title":"21st Saturn Awards"},{"ns":0,"title":"23rd
+        Moscow International Film Festival"},{"ns":0,"title":"62nd Academy Awards"},{"ns":0,"title":"79th
+        Academy Awards"},{"ns":0,"title":"AFI Life Achievement Award"},{"ns":0,"title":"A
+        Few Good Men"},{"ns":0,"title":"About Schmidt"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Actor"},{"ns":0,"title":"Academy Award for Best Actress"},{"ns":0,"title":"Academy
+        Award for Best Picture"},{"ns":0,"title":"Academy Award for Best Supporting
+        Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Actors Studio"},{"ns":0,"title":"Actuary"},{"ns":0,"title":"Adam
+        Sandler"},{"ns":0,"title":"Adolph Caesar"},{"ns":0,"title":"Adrien Brody"},{"ns":0,"title":"Ahna
+        O''Reilly"},{"ns":0,"title":"Akim Tamiroff"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan
+        Alda"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Brooks"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Albert Salmi"},{"ns":0,"title":"Alberto
+        Sordi"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alexander
+        Knox"},{"ns":0,"title":"Alfred Hitchcock"},{"ns":0,"title":"Alicia Silverstone"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"Amanda Seyfried"},{"ns":0,"title":"Amy Ryan"},{"ns":0,"title":"Andrew
+        Lau"},{"ns":0,"title":"Andrew Lloyd Webber"},{"ns":0,"title":"Andy Griffith"},{"ns":0,"title":"Andy
+        Warhol"},{"ns":0,"title":"Angela Lansbury"},{"ns":0,"title":"Anger Management
+        (film)"},{"ns":0,"title":"Anjelica Huston"},{"ns":0,"title":"Anna Camp"},{"ns":0,"title":"Anne
+        Hathaway"},{"ns":0,"title":"Anschutz Entertainment Group"},{"ns":0,"title":"Anthony
+        Anderson"},{"ns":0,"title":"Anthony Franciosa"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        Quinn"},{"ns":0,"title":"Arnold Schwarzenegger"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Arthur
+        Kennedy (actor)"},{"ns":0,"title":"Arthur Lowe"},{"ns":0,"title":"Arthur Marx"},{"ns":0,"title":"Arthur
+        Penn"},{"ns":0,"title":"As Good as It Gets"},{"ns":0,"title":"Audrey Hepburn"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Supporting Role"},{"ns":0,"title":"BBC radio"},{"ns":0,"title":"Barbara
+        Stanwyck"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Barkhad Abdi"},{"ns":0,"title":"Barry
+        Fitzgerald"},{"ns":0,"title":"Batman (1989 film)"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Before
+        the Devil Knows You''re Dead"},{"ns":0,"title":"Ben Johnson (actor)"},{"ns":0,"title":"Ben
+        Kingsley"},{"ns":0,"title":"Ben Stiller"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Bette
+        Davis"},{"ns":0,"title":"Beverly Hills"},{"ns":0,"title":"Biblioteca Nacional
+        de Espa\u00f1a"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bigamy"},{"ns":0,"title":"Bill
+        Macdonald"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Billy
+        Bob Thornton"},{"ns":0,"title":"Billy Wilder"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Bob
+        Colacello"},{"ns":0,"title":"Bob Hope"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bob
+        Odenkirk"},{"ns":0,"title":"Bob Rafelson"},{"ns":0,"title":"Boston"},{"ns":0,"title":"Box
+        office"},{"ns":0,"title":"Brad Dourif"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley
+        Cooper"},{"ns":0,"title":"Brandon Routh"},{"ns":0,"title":"Brendan Fraser"},{"ns":0,"title":"Brian
+        Cox (actor)"},{"ns":0,"title":"Brian Kerwin"},{"ns":0,"title":"Brian Wilson"},{"ns":0,"title":"British
+        Academy of Film and Television Arts"},{"ns":0,"title":"Broadcast Film Critics
+        Association Award for Best Actor"},{"ns":0,"title":"Broadcast News (film)"},{"ns":0,"title":"Broderick
+        Crawford"},{"ns":0,"title":"Brown University"},{"ns":0,"title":"Bruce Davison"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Bruce Springsteen"},{"ns":0,"title":"Bruno Ganz"},{"ns":0,"title":"Bryce
+        Dallas Howard"},{"ns":0,"title":"Br\u00edan F. O''Byrne"},{"ns":0,"title":"Buddy
+        Adler"},{"ns":0,"title":"Burgess Meredith"},{"ns":0,"title":"Burl Ives"},{"ns":0,"title":"Burt
+        Lancaster"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"California Hall
+        of Fame"},{"ns":0,"title":"Campbell Scott"},{"ns":0,"title":"Cannes Film Festival"},{"ns":0,"title":"Cantinflas"},{"ns":0,"title":"Carol
+        Burnett"},{"ns":0,"title":"Casey Affleck"},{"ns":0,"title":"Cecil B. DeMille"},{"ns":0,"title":"Cecil
+        B. DeMille Award"},{"ns":0,"title":"Celtics\u2013Lakers rivalry"},{"ns":0,"title":"Cesar
+        Romero"},{"ns":0,"title":"Chaim Topol"},{"ns":0,"title":"Charles Bickford"},{"ns":0,"title":"Charles
+        Boyer"},{"ns":0,"title":"Charles Coburn"},{"ns":0,"title":"Charles Durning"},{"ns":0,"title":"Charles
+        Laughton"},{"ns":0,"title":"Charlie Chaplin"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chick
+        Hearn"},{"ns":0,"title":"Chief Dan George"},{"ns":0,"title":"Chinatown (1974
+        film)"},{"ns":0,"title":"Chita Rivera"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Chris Cooper (actor)"},{"ns":0,"title":"Chris Lowell"},{"ns":0,"title":"Christian
+        Bale"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Chuck Berry"},{"ns":0,"title":"Cicely Tyson"},{"ns":0,"title":"Cigar
+        Aficionado"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Cliff Robertson"},{"ns":0,"title":"Clifton
+        Webb"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Clive Owen"},{"ns":0,"title":"Clyde
+        Lovellette"},{"ns":0,"title":"Colin Farrell"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Colin
+        Welland"},{"ns":0,"title":"Counterculture of the 1960s"},{"ns":0,"title":"Crash
+        (2004 film)"},{"ns":0,"title":"Critics'' Choice Movie Awards"},{"ns":0,"title":"Cuba
+        Gooding, Jr."},{"ns":0,"title":"Cutting room floor"},{"ns":0,"title":"Damien
+        Karras"},{"ns":0,"title":"Dana Ivey"},{"ns":0,"title":"Dancing Barry"},{"ns":0,"title":"Daniel
+        Auteuil"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Daniel Massey
+        (actor)"},{"ns":0,"title":"Danny Aiello"},{"ns":0,"title":"Danny Kaye"},{"ns":0,"title":"Darryl
+        F. Zanuck"},{"ns":0,"title":"Dave Brubeck"},{"ns":0,"title":"Daveigh Chase"},{"ns":0,"title":"David
+        Bowie"},{"ns":0,"title":"David Carradine"},{"ns":0,"title":"David Lean"},{"ns":0,"title":"David
+        Niven"},{"ns":0,"title":"David Oyelowo"},{"ns":0,"title":"David Thewlis"},{"ns":0,"title":"Dean
+        Jagger"},{"ns":0,"title":"Dean Stockwell"},{"ns":0,"title":"Denholm Elliott"},{"ns":0,"title":"Dennis
+        Hopper"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Derek
+        Fisher"},{"ns":0,"title":"Devin Ratray"},{"ns":0,"title":"Diana Ross"},{"ns":0,"title":"Diane
+        Keaton"},{"ns":0,"title":"Dirk Bogarde"},{"ns":0,"title":"Djimon Hounsou"},{"ns":0,"title":"Doctor
+        of Fine Arts"},{"ns":0,"title":"Dolly Parton"},{"ns":0,"title":"Don Ameche"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Don Johnson"},{"ns":0,"title":"Donald Crisp"},{"ns":0,"title":"Donald
+        O''Connor"},{"ns":0,"title":"Doris Day"},{"ns":0,"title":"Drive, He Said"},{"ns":0,"title":"Dudley
+        Moore"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Dwight Henry (actor)"},{"ns":0,"title":"Earl
+        Holliman"},{"ns":0,"title":"Easy Rider"},{"ns":0,"title":"Ed Begley"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Ed Ruscha"},{"ns":0,"title":"Eddie Albert"},{"ns":0,"title":"Eddie
+        Marsan"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Eddie Redmayne"},{"ns":0,"title":"Edmond
+        O''Brien"},{"ns":0,"title":"Edmund Gwenn"},{"ns":0,"title":"Edward Fox (actor)"},{"ns":0,"title":"Edward
+        Norton"},{"ns":0,"title":"Edward P. Roski"},{"ns":0,"title":"Elgin Baylor"},{"ns":0,"title":"Elijah
+        Wood"},{"ns":0,"title":"Elizabeth Taylor"},{"ns":0,"title":"Elkton, Maryland"},{"ns":0,"title":"Elton
+        John"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emma Stone"},{"ns":0,"title":"English
+        American"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"Ethan Hawke"},{"ns":0,"title":"Eugene
+        Levy"},{"ns":0,"title":"Ewan McGregor"},{"ns":0,"title":"F. Murray Abraham"},{"ns":0,"title":"Fergie
+        (singer)"},{"ns":0,"title":"Five Easy Pieces"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"France"},{"ns":0,"title":"Frank
+        Capra"},{"ns":0,"title":"Frank Costello"},{"ns":0,"title":"Frank Langella"},{"ns":0,"title":"Frank
+        Sinatra"},{"ns":0,"title":"Fran\u00e7ois P\u00e9rier"},{"ns":0,"title":"Fred
+        Astaire"},{"ns":0,"title":"Frederic Forrest"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"Gail
+        Goodrich"},{"ns":0,"title":"Gary Busey"},{"ns":0,"title":"Gary Cooper"},{"ns":0,"title":"Gary
+        Oldman"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Gene
+        Kelly"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George Arliss"},{"ns":0,"title":"George
+        Burns"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George Chakiris"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George Hamilton (actor)"},{"ns":0,"title":"George
+        Jones"},{"ns":0,"title":"George Kennedy"},{"ns":0,"title":"George Lucas"},{"ns":0,"title":"George
+        Mikan"},{"ns":0,"title":"George Peppard"},{"ns":0,"title":"George Sanders"},{"ns":0,"title":"George
+        Segal"},{"ns":0,"title":"German American"},{"ns":0,"title":"Gig Young"},{"ns":0,"title":"Glenn
+        Ford"},{"ns":0,"title":"Gofer"},{"ns":0,"title":"Goin'' South"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden Globe
+        Award for Best Actor - Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor - Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Cecil B. DeMille Award"},{"ns":0,"title":"Golf Digest"},{"ns":0,"title":"Grace
+        Bumbry"},{"ns":0,"title":"Grauman''s Chinese Theatre"},{"ns":0,"title":"Greg
+        Kinnear"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"G\u00e9rard Depardieu"},{"ns":0,"title":"Haing
+        S. Ngor"},{"ns":0,"title":"Hal Ashby"},{"ns":0,"title":"Hal B. Wallis"},{"ns":0,"title":"Harold
+        Russell"},{"ns":0,"title":"Harper Collins"},{"ns":0,"title":"Harrison Ford"},{"ns":0,"title":"Harry
+        Andrews"},{"ns":0,"title":"Harry Belafonte"},{"ns":0,"title":"Harvey Keitel"},{"ns":0,"title":"Hayden
+        Christensen"},{"ns":0,"title":"Head (film)"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Helen
+        Hunt"},{"ns":0,"title":"Helena Bonham Carter"},{"ns":0,"title":"Henri Matisse"},{"ns":0,"title":"Henry
+        Fonda"},{"ns":0,"title":"Henry Gibson"},{"ns":0,"title":"High school reunion"},{"ns":0,"title":"History
+        of the Los Angeles Lakers"},{"ns":0,"title":"Hoffa"},{"ns":0,"title":"Holger
+        L\u00f6wenadler"},{"ns":0,"title":"Hollywood Hills, California"},{"ns":0,"title":"How
+        Do You Know"},{"ns":0,"title":"Hugh Grant"},{"ns":0,"title":"Hugh Griffith"},{"ns":0,"title":"Hugh
+        Jackman"},{"ns":0,"title":"Humphrey Bogart"},{"ns":0,"title":"Hunter S. Thompson"},{"ns":0,"title":"I
+        Love L.A."},{"ns":0,"title":"Ian Bannen"},{"ns":0,"title":"Ian Holm"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Infernal Affairs"},{"ns":0,"title":"Ingrid Bergman"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Irish
+        American"},{"ns":0,"title":"Irish Mob"},{"ns":0,"title":"Ironweed (film)"},{"ns":0,"title":"Italian
+        American"},{"ns":0,"title":"Itzhak Perlman"},{"ns":0,"title":"J. Carrol Naish"},{"ns":0,"title":"JFK
+        Stadium"},{"ns":0,"title":"Jack Albertson"},{"ns":0,"title":"Jack Kent Cooke"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Nicholson filmography"},{"ns":0,"title":"Jack
+        Palance"},{"ns":0,"title":"Jack Torrance"},{"ns":0,"title":"Jack Vettriano"},{"ns":0,"title":"Jack
+        Warner"},{"ns":0,"title":"Jackie Earle Haley"},{"ns":0,"title":"Jackie Gleason"},{"ns":0,"title":"Jake
+        Gyllenhaal"},{"ns":0,"title":"Jamaal Wilkes"},{"ns":0,"title":"James Brown"},{"ns":0,"title":"James
+        Caan"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James Coburn"},{"ns":0,"title":"James
+        Dunn (actor)"},{"ns":0,"title":"James Earl Jones"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"James L. Brooks"},{"ns":0,"title":"James Levine"},{"ns":0,"title":"James
+        Mason"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James Whitmore"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"James Worthy"},{"ns":0,"title":"Jamie Bell"},{"ns":0,"title":"Jamie
+        Foxx"},{"ns":0,"title":"Jane Fonda"},{"ns":0,"title":"Jared Leto"},{"ns":0,"title":"Jason
+        Miller (playwright)"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jean Hersholt"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jeff Daniels"},{"ns":0,"title":"Jeff Goldblum"},{"ns":0,"title":"Jennifer
+        Aniston"},{"ns":0,"title":"Jennifer Esposito"},{"ns":0,"title":"Jennifer Jason
+        Leigh"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jerry
+        Buss"},{"ns":0,"title":"Jerry West"},{"ns":0,"title":"Jesse Eisenberg"},{"ns":0,"title":"Jessica
+        Chastain"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jim
+        Pollard"},{"ns":0,"title":"Joan Crawford"},{"ns":0,"title":"Joan Sutherland"},{"ns":0,"title":"Joaquin
+        Phoenix"},{"ns":0,"title":"Jodie Foster"},{"ns":0,"title":"Joe Pesci"},{"ns":0,"title":"Joel
+        Grey"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"John Cusack"},{"ns":0,"title":"John
+        Ford"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John Houseman"},{"ns":0,"title":"John
+        Hurt"},{"ns":0,"title":"John Huston"},{"ns":0,"title":"John Ireland (sportscaster)"},{"ns":0,"title":"John
+        Kundla"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John
+        Mills"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John Wayne"},{"ns":0,"title":"John
+        Williams"},{"ns":0,"title":"John Williams (actor)"},{"ns":0,"title":"Johnny
+        Depp"},{"ns":0,"title":"Joker (comics)"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Joseph
+        Barbera"},{"ns":0,"title":"Joseph Cross (actor)"},{"ns":0,"title":"Joseph
+        E. Levine"},{"ns":0,"title":"Joseph Schildkraut"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Jos\u00e9
+        Ferrer"},{"ns":0,"title":"Jude Law"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Judy
+        Garland"},{"ns":0,"title":"Julie Andrews"},{"ns":0,"title":"Julie Harris"},{"ns":0,"title":"June
+        Squibb"},{"ns":0,"title":"KSPN (AM)"},{"ns":0,"title":"KWKW"},{"ns":0,"title":"Kareem
+        Abdul-Jabbar"},{"ns":0,"title":"Karl Malden"},{"ns":0,"title":"Kate Hudson"},{"ns":0,"title":"Katharine
+        Hepburn"},{"ns":0,"title":"Ken Kesey"},{"ns":0,"title":"Ken Russell"},{"ns":0,"title":"Kennedy
+        Center Honors"},{"ns":0,"title":"Kenneth More"},{"ns":0,"title":"Kermit Washington"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kieran
+        Culkin"},{"ns":0,"title":"Kingdom of Fear (book)"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Klaus
+        Maria Brandauer"},{"ns":0,"title":"Kobe Bryant"},{"ns":0,"title":"Kris Kristofferson"},{"ns":0,"title":"Laker
+        Band"},{"ns":0,"title":"Laker Girls"},{"ns":0,"title":"Lakers\u2013Clippers
+        rivalry"},{"ns":0,"title":"Lakers\u2013Pistons rivalry"},{"ns":0,"title":"Lakers\u2013Rockets
+        rivalry"},{"ns":0,"title":"Lakers\u2013Spurs rivalry"},{"ns":0,"title":"Larenz
+        Tate"},{"ns":0,"title":"Las Vegas Valley"},{"ns":0,"title":"Latvian people"},{"ns":0,"title":"Lauren
+        Bacall"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lawrence Tanter"},{"ns":0,"title":"Lee
+        Marvin"},{"ns":0,"title":"Leo McKern"},{"ns":0,"title":"Leon Fleisher"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Les Mis\u00e9rables (2012 film)"},{"ns":0,"title":"Leslie
+        Jordan"},{"ns":0,"title":"Liam Neeson"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Lillian Gish"},{"ns":0,"title":"Lionel Barrymore"},{"ns":0,"title":"List
+        of Los Angeles Lakers broadcasters"},{"ns":0,"title":"List of Los Angeles
+        Lakers first and second round draft picks"},{"ns":0,"title":"List of Los Angeles
+        Lakers head coaches"},{"ns":0,"title":"List of Los Angeles Lakers seasons"},{"ns":0,"title":"List
+        of awards and nominations received by Jack Nicholson"},{"ns":0,"title":"Live
+        Aid"},{"ns":0,"title":"London Film Critics Circle Award for Actor of the Year"},{"ns":0,"title":"Loretta
+        Lynn"},{"ns":0,"title":"Lorraine Nicholson"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Los
+        Angeles D-Fenders"},{"ns":0,"title":"Los Angeles Film Critics Association
+        Award for Best Actor"},{"ns":0,"title":"Los Angeles Film Critics Association
+        Award for Best Supporting Actor"},{"ns":0,"title":"Los Angeles Lakers"},{"ns":0,"title":"Los
+        Angeles Lakers accomplishments and records"},{"ns":0,"title":"Los Angeles
+        Lakers all-time roster"},{"ns":0,"title":"Los Angeles Lakers radio networks"},{"ns":0,"title":"Los
+        Angeles Memorial Sports Arena"},{"ns":0,"title":"Louis Gossett, Jr."},{"ns":0,"title":"Louise
+        Fletcher"},{"ns":0,"title":"Luciano Pavarotti"},{"ns":0,"title":"Lucille Ball"},{"ns":0,"title":"Lucy
+        Liu"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"MTV Movie Award for Best
+        Villain"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:23 GMT
+recorded_with: VCR 2.9.2

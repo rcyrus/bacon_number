@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Flatliners
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390626547, 1102674490, 2899102187
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '936'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:09 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4017 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"673469":{"pageid":673469,"ns":0,"title":"Flatliners","links":[{"ns":0,"title":"4-Methylthioamphetamine"},{"ns":0,"title":"8mm
+        (film)"},{"ns":0,"title":"AIDS"},{"ns":0,"title":"A Time to Kill (film)"},{"ns":0,"title":"Academy
+        Award for Best Sound Editing"},{"ns":0,"title":"Afterlife"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Altered
+        States"},{"ns":0,"title":"Asystole"},{"ns":0,"title":"Bad Company (2002 film)"},{"ns":0,"title":"Batman
+        & Robin (film)"},{"ns":0,"title":"Batman Forever"},{"ns":0,"title":"Beth Grant"},{"ns":0,"title":"Blood
+        Creek"},{"ns":0,"title":"ByeDr"},{"ns":0,"title":"CPR"},{"ns":0,"title":"Campy"},{"ns":0,"title":"Charles
+        L. Campbell"},{"ns":0,"title":"Columbia Pictures"},{"ns":0,"title":"Cousins
+        (film)"},{"ns":0,"title":"D.C. Cab"},{"ns":0,"title":"Dante"},{"ns":0,"title":"Defibrillation"},{"ns":0,"title":"Defibrillator"},{"ns":0,"title":"Dracula"},{"ns":0,"title":"Dying
+        Young"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Erotic"},{"ns":0,"title":"Falling
+        Down"},{"ns":0,"title":"Fianc\u00e9e"},{"ns":0,"title":"Field of Dreams"},{"ns":0,"title":"Flawless
+        (1999 film)"},{"ns":0,"title":"Heroin"},{"ns":0,"title":"Hope Davis"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"James Newton Howard"},{"ns":0,"title":"Jan
+        de Bont"},{"ns":0,"title":"Joel Schumacher"},{"ns":0,"title":"Julia Roberts"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kiefer Sutherland"},{"ns":0,"title":"Kimberly Scott"},{"ns":0,"title":"Mad
+        scientist"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Near-death
+        experience"},{"ns":0,"title":"Oliver Platt"},{"ns":0,"title":"Owen Gleiberman"},{"ns":0,"title":"Patricia
+        Belcher"},{"ns":0,"title":"Peter Travers"},{"ns":0,"title":"Phone Booth (film)"},{"ns":0,"title":"Physical
+        science"},{"ns":0,"title":"Polite Dissent"},{"ns":0,"title":"Richard C. Franklin"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Rolling Stone"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Science
+        fiction film"},{"ns":0,"title":"Self-confidence"},{"ns":0,"title":"St. Elmo''s
+        Fire (film)"},{"ns":0,"title":"Suicide"},{"ns":0,"title":"Tagline"},{"ns":0,"title":"The
+        Client (1994 film)"},{"ns":0,"title":"The Flatliners"},{"ns":0,"title":"The
+        Incredible Shrinking Woman"},{"ns":0,"title":"The Los Angeles Times"},{"ns":0,"title":"The
+        Lost Boys"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The Number
+        23"},{"ns":0,"title":"The Phantom of the Opera (2004 film)"},{"ns":0,"title":"The
+        Washington Post"},{"ns":0,"title":"Thriller (genre)"},{"ns":0,"title":"Tigerland"},{"ns":0,"title":"Trespass
+        (2011 film)"},{"ns":0,"title":"Twelve (film)"},{"ns":0,"title":"United States
+        dollar"},{"ns":0,"title":"Veronica Guerin (film)"},{"ns":0,"title":"William
+        Baldwin"},{"ns":0,"title":"William Hurt"},{"ns":0,"title":"Wordpress"},{"ns":10,"title":"Template:Joel
+        Schumacher"},{"ns":11,"title":"Template talk:Joel Schumacher"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:10 GMT
+recorded_with: VCR 2.9.2

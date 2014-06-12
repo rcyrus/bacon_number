@@ -1,0 +1,247 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Michael%20Caine
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001158742, 3536760647, 2899131088
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4743'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:40 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4008 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"61479|0|Rupert_Everett"}},"query":{"pages":{"61479":{"pageid":61479,"ns":0,"title":"Michael
+        Caine","links":[{"ns":0,"title":"A Bridge Too Far (film)"},{"ns":0,"title":"A
+        Hill in Korea"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Adrien
+        Brody"},{"ns":0,"title":"Agnes Moorehead"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan
+        Alda"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan King (comedian)"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Albert R. Broccoli"},{"ns":0,"title":"Alberto
+        Sordi"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alfie
+        (1966 film)"},{"ns":0,"title":"Alfonso Cuaron"},{"ns":0,"title":"Alfred Hitchcock"},{"ns":0,"title":"Alfred
+        Pennyworth"},{"ns":0,"title":"Andrew Garfield"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Anthony
+        Andrews"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony Minghella"},{"ns":0,"title":"Anthony
+        Quinn"},{"ns":0,"title":"Around the Bend"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Ashanti
+        (1979 film)"},{"ns":0,"title":"Audrey Hepburn"},{"ns":0,"title":"Austin Powers
+        in Goldmember"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BAFTA Academy Fellowship
+        Award"},{"ns":0,"title":"BAFTA Award"},{"ns":0,"title":"BAFTA Award for Best
+        Actor in a Leading Role"},{"ns":0,"title":"BBC Radio 4"},{"ns":0,"title":"Barbara
+        Stanwyck"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Barry Fitzgerald"},{"ns":0,"title":"Batman
+        Begins"},{"ns":0,"title":"Battle of Britain (film)"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Ben Johnson (actor)"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Ben
+        Stiller"},{"ns":0,"title":"Benedict Cumberbatch"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Bette Davis"},{"ns":0,"title":"Betty White"},{"ns":0,"title":"Beyond
+        the Poseidon Adventure"},{"ns":0,"title":"Bianca Jagger"},{"ns":0,"title":"Bill
+        Murray"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Billion Dollar Brain"},{"ns":0,"title":"Billy
+        Bob Thornton"},{"ns":0,"title":"Billy Crystal"},{"ns":0,"title":"Billy Wilder"},{"ns":0,"title":"Bit
+        part"},{"ns":0,"title":"Blame It on Rio"},{"ns":0,"title":"Blue plaque"},{"ns":0,"title":"Bob
+        Burns (comedian)"},{"ns":0,"title":"Bob Hope"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bob
+        Weinstein"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Bravo
+        (US TV channel)"},{"ns":0,"title":"Brian Cox (actor)"},{"ns":0,"title":"Brian
+        Dennehy"},{"ns":0,"title":"Britannia Awards"},{"ns":0,"title":"British Army"},{"ns":0,"title":"British
+        Army of the Rhine"},{"ns":0,"title":"British Film Institute"},{"ns":0,"title":"British
+        Library"},{"ns":0,"title":"British Prime Minister"},{"ns":0,"title":"Bruce
+        Wayne"},{"ns":0,"title":"Bruno Ganz"},{"ns":0,"title":"Bullet to Beijing"},{"ns":0,"title":"Bullseye!"},{"ns":0,"title":"Burl
+        Ives"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"California
+        Suite (film)"},{"ns":0,"title":"Cane Hill"},{"ns":0,"title":"Cantinflas"},{"ns":0,"title":"Carol
+        Burnett"},{"ns":0,"title":"Cars 2"},{"ns":0,"title":"Catherine Deneuve"},{"ns":0,"title":"Celeste
+        Holm"},{"ns":0,"title":"Chaim Topol"},{"ns":0,"title":"Charles Coburn"},{"ns":0,"title":"Charlie
+        Chaplin"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Charwoman"},{"ns":0,"title":"Chelsea
+        Harbour"},{"ns":0,"title":"Chevy Chase"},{"ns":0,"title":"Children of Men"},{"ns":0,"title":"Chill-out
+        music"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Chris
+        Rock"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Nolan"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Claudette Colbert"},{"ns":0,"title":"Clewer"},{"ns":0,"title":"Clint
+        Eastwood"},{"ns":0,"title":"Cockney"},{"ns":0,"title":"Colin Farrell"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Colonel"},{"ns":0,"title":"Commander of the Order
+        of the British Empire"},{"ns":0,"title":"Conrad Nagel"},{"ns":0,"title":"Conscription
+        in the United Kingdom"},{"ns":0,"title":"Conservative Party (UK)"},{"ns":0,"title":"Craig
+        Ferguson"},{"ns":0,"title":"Criterion Theatre"},{"ns":0,"title":"Cuba Gooding,
+        Jr."},{"ns":0,"title":"Cult film"},{"ns":0,"title":"Cy Endfield"},{"ns":0,"title":"Daily
+        Mirror"},{"ns":0,"title":"Daniel Craig"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Danny
+        Boyle"},{"ns":0,"title":"Danny Kaye"},{"ns":0,"title":"David Cameron"},{"ns":0,"title":"David
+        Letterman"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David Thewlis"},{"ns":0,"title":"David
+        Yates"},{"ns":0,"title":"Dean Jagger"},{"ns":0,"title":"Deathtrap (film)"},{"ns":0,"title":"Demobilization"},{"ns":0,"title":"Denzel
+        Washington"},{"ns":0,"title":"Diana Ross"},{"ns":0,"title":"Diane Keaton"},{"ns":0,"title":"Dick
+        Clement"},{"ns":0,"title":"Dick Powell"},{"ns":0,"title":"Dirk Bogarde"},{"ns":0,"title":"Dirty
+        Rotten Scoundrels (film)"},{"ns":0,"title":"Don Ameche"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Donald Crisp"},{"ns":0,"title":"Donald O''Connor"},{"ns":0,"title":"Donald
+        Pleasence"},{"ns":0,"title":"Donald Sutherland"},{"ns":0,"title":"Douglas
+        Fairbanks"},{"ns":0,"title":"Dressed to Kill (1980 film)"},{"ns":0,"title":"Dudley
+        Moore"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Dwayne Johnson"},{"ns":0,"title":"Ebenezer
+        Scrooge"},{"ns":0,"title":"Ed Begley"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Eddie
+        Marsan"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Edmond O''Brien"},{"ns":0,"title":"Edmund
+        Gwenn"},{"ns":0,"title":"Educating Rita (film)"},{"ns":0,"title":"Edward Norton"},{"ns":0,"title":"Elephant
+        and Castle"},{"ns":0,"title":"Eleven plus exam"},{"ns":0,"title":"Elizabeth
+        II"},{"ns":0,"title":"Elizabeth Taylor"},{"ns":0,"title":"Ellen Burstyn"},{"ns":0,"title":"Ellen
+        DeGeneres"},{"ns":0,"title":"Elton John"},{"ns":0,"title":"Embassy Pictures"},{"ns":0,"title":"Emily
+        Blunt"},{"ns":0,"title":"Empire (magazine)"},{"ns":0,"title":"England"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Epilepsy"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"Escape
+        to Victory"},{"ns":0,"title":"Essex Chronicle"},{"ns":0,"title":"Evacuations
+        of civilians in Britain during World War II"},{"ns":0,"title":"Ewan McGregor"},{"ns":0,"title":"Federico
+        Fellini"},{"ns":0,"title":"Film Society of Lincoln Center"},{"ns":0,"title":"Fish
+        market"},{"ns":0,"title":"Flawless (2007 film)"},{"ns":0,"title":"Florida"},{"ns":0,"title":"Forest
+        Whitaker"},{"ns":0,"title":"Francis Ford Coppola"},{"ns":0,"title":"Frank
+        Capra"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Fran\u00e7ois P\u00e9rier"},{"ns":0,"title":"Fred
+        Astaire"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"Front Row (radio)"},{"ns":0,"title":"Fr\u00e9d\u00e9ric
+        Mitterrand"},{"ns":0,"title":"Funeral in Berlin (film)"},{"ns":0,"title":"Gambit
+        (1966 film)"},{"ns":0,"title":"Gary Busey"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Gene Kelly"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        Baker (actor)"},{"ns":0,"title":"George Burns"},{"ns":0,"title":"George C.
+        Scott"},{"ns":0,"title":"George Chakiris"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George
+        Cukor"},{"ns":0,"title":"George Jessel (actor)"},{"ns":0,"title":"George Kennedy"},{"ns":0,"title":"George
+        Lucas"},{"ns":0,"title":"George Sanders"},{"ns":0,"title":"George Segal"},{"ns":0,"title":"Get
+        Carter"},{"ns":0,"title":"Get Carter (1971 film)"},{"ns":0,"title":"Gig Young"},{"ns":0,"title":"Glenn
+        Ford"},{"ns":0,"title":"Gnomeo & Juliet"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013
+        Motion Picture Musical or Comedy"},{"ns":0,"title":"Goldie Hawn"},{"ns":0,"title":"Gonville
+        Bromhead"},{"ns":0,"title":"Gordon Brown"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"G\u00e9rard
+        Depardieu"},{"ns":0,"title":"Hackney Downs School"},{"ns":0,"title":"Haing
+        S. Ngor"},{"ns":0,"title":"Hamlet at Elsinore"},{"ns":0,"title":"Hannah and
+        Her Sisters"},{"ns":0,"title":"Harold Russell"},{"ns":0,"title":"Harry Andrews"},{"ns":0,"title":"Harry
+        Brown (film)"},{"ns":0,"title":"Harry Enfield''s Television Programme"},{"ns":0,"title":"Harry
+        Palmer"},{"ns":0,"title":"Harvey Weinstein"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Helen
+        Hayes"},{"ns":0,"title":"Helena Bonham Carter"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Hero
+        (1987 film)"},{"ns":0,"title":"Horatio (character)"},{"ns":0,"title":"Horsham"},{"ns":0,"title":"Howard
+        Stringer"},{"ns":0,"title":"Huffington Post"},{"ns":0,"title":"Hugh Grant"},{"ns":0,"title":"Hugh
+        Griffith"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Humphrey Bogart"},{"ns":0,"title":"Ian
+        Bannen"},{"ns":0,"title":"Ian Le Frenais"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Idris
+        Elba"},{"ns":0,"title":"Inception"},{"ns":0,"title":"Income tax"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Serial Number"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Interstellar (film)"},{"ns":0,"title":"Irish
+        Travellers"},{"ns":0,"title":"Irvin S. Cobb"},{"ns":0,"title":"Irving Paul
+        Lazar"},{"ns":0,"title":"Irwin Allen"},{"ns":0,"title":"Is Anybody There?"},{"ns":0,"title":"Iserlohn"},{"ns":0,"title":"Jack
+        Albertson"},{"ns":0,"title":"Jack Benny"},{"ns":0,"title":"Jack Higgins"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jack Palance"},{"ns":0,"title":"James
+        Booth"},{"ns":0,"title":"James Callaghan"},{"ns":0,"title":"James Coburn"},{"ns":0,"title":"James
+        Dunn (actor)"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James
+        Mason"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jamie
+        Bell"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jane Fonda"},{"ns":0,"title":"Jared
+        Leto"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jaws:
+        The Revenge"},{"ns":0,"title":"Jay Lewis"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jenny Agutter"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy
+        Renner"},{"ns":0,"title":"Jerry Lewis"},{"ns":0,"title":"Jesse Eisenberg"},{"ns":0,"title":"Jessica
+        Lange"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jim
+        Sheridan"},{"ns":0,"title":"Joanne Woodward"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"Joe
+        Pesci"},{"ns":0,"title":"Joel Grey"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"John
+        Cromwell (director)"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Houseman"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John Huston"},{"ns":0,"title":"John
+        Lasseter"},{"ns":0,"title":"John Mills"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John
+        Wayne"},{"ns":0,"title":"Johnny Carson"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Jon
+        Stewart"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Joseph
+        Cross (actor)"},{"ns":0,"title":"Joseph E. Levine"},{"ns":0,"title":"Joseph
+        L. Mankiewicz"},{"ns":0,"title":"Joseph Schildkraut"},{"ns":0,"title":"Josh
+        Hutcherson"},{"ns":0,"title":"Journey 2: The Mysterious Island"},{"ns":0,"title":"Jude
+        Law"},{"ns":0,"title":"Juvenile delinquency"},{"ns":0,"title":"Karl Malden"},{"ns":0,"title":"Kate
+        Winslet"},{"ns":0,"title":"Kathryn Bigelow"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kenneth
+        More"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kevin
+        Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kieran Culkin"},{"ns":0,"title":"King''s
+        Lynn"},{"ns":0,"title":"Kingsman: The Secret Service"},{"ns":0,"title":"Kirk
+        Douglas"},{"ns":0,"title":"Knight Bachelor"},{"ns":0,"title":"Korean War"},{"ns":0,"title":"Kris
+        Kristofferson"},{"ns":0,"title":"Labour Party (UK)"},{"ns":0,"title":"Last
+        Orders (film)"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lawrence
+        Grant"},{"ns":0,"title":"Leatherhead"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leicester
+        Square"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Lindsay Anderson"},{"ns":0,"title":"Lionel
+        Barrymore"},{"ns":0,"title":"List of Academy Awards ceremonies"},{"ns":0,"title":"List
+        of official FIFA World Cup films"},{"ns":0,"title":"Little Voice (film)"},{"ns":0,"title":"Liverpudlian"},{"ns":0,"title":"Liza
+        Minnelli"},{"ns":0,"title":"London"},{"ns":0,"title":"London Film Critics
+        Circle Award for Actor of the Year"},{"ns":0,"title":"London Film Critics
+        Circle Award for British Supporting Actor of the Year"},{"ns":0,"title":"Louis
+        Gossett, Jr."},{"ns":0,"title":"Lowestoft"},{"ns":0,"title":"Luftwaffe"},{"ns":0,"title":"Madness
+        (band)"},{"ns":0,"title":"Marcello Mastroianni"},{"ns":0,"title":"Margaret
+        Thatcher"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin Balsam"},{"ns":0,"title":"Martin
+        Campbell"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Martin Scorsese"},{"ns":0,"title":"Matt
+        Stone"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Matthew Vaughn"},{"ns":0,"title":"Maxwell
+        House"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Metropolitan
+        Borough of Bermondsey"},{"ns":0,"title":"Miami Beach"},{"ns":0,"title":"Miami
+        Beach, Florida"},{"ns":0,"title":"Michael Caine (racing driver)"},{"ns":0,"title":"Michael
+        Caine (song)"},{"ns":0,"title":"Michael Caine filmography"},{"ns":0,"title":"Michael
+        Cera"},{"ns":0,"title":"Michael Codron"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Fassbender"},{"ns":0,"title":"Michael Gough"},{"ns":0,"title":"Michael Harris
+        Caine"},{"ns":0,"title":"Michael Keaton"},{"ns":0,"title":"Michael Medwin"},{"ns":0,"title":"Michael
+        Parkinson"},{"ns":0,"title":"Michael Ritchie (film director)"},{"ns":0,"title":"Michael
+        Sheen"},{"ns":0,"title":"Michael Stuhlbarg"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Midnight in Saint Petersburg"},{"ns":0,"title":"Mike
+        Newell (director)"},{"ns":0,"title":"Mike Nichols"},{"ns":0,"title":"Miss
+        Congeniality (film)"},{"ns":0,"title":"Mixtape"},{"ns":0,"title":"Mona Lisa
+        (film)"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Mort Sahl"},{"ns":0,"title":"Mr.
+        Destiny"},{"ns":0,"title":"Natal, South Africa"},{"ns":0,"title":"National
+        Playing Fields Association"},{"ns":0,"title":"National Public Radio"},{"ns":0,"title":"National
+        Society of Film Critics Award for Best Actor"},{"ns":0,"title":"National service"},{"ns":0,"title":"New
+        Arts Theatre"},{"ns":0,"title":"New Labour"},{"ns":0,"title":"New Year Honours"},{"ns":0,"title":"Nick
+        Nolte"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"Nigel
+        Powers"},{"ns":0,"title":"Nobel Peace Prize Concert"},{"ns":0,"title":"Noises
+        Off (film)"},{"ns":0,"title":"North Runcton"},{"ns":0,"title":"North Stoke,
+        Oxfordshire"},{"ns":0,"title":"No\u00ebl Coward"},{"ns":0,"title":"Oberst"},{"ns":0,"title":"Odeon
+        Cinema"},{"ns":0,"title":"Oliver Stone"},{"ns":0,"title":"On Deadly Ground"},{"ns":0,"title":"One
+        Hundred and One Dalmatians"},{"ns":0,"title":"Order of the British Empire"},{"ns":0,"title":"Orders,
+        decorations, and medals of the United Kingdom"},{"ns":0,"title":"Ordre des
+        Arts et des Lettres"},{"ns":0,"title":"Oscar Isaac"},{"ns":0,"title":"Paratrooper"},{"ns":0,"title":"Patricia
+        Haines"},{"ns":0,"title":"Paul Bettany"},{"ns":0,"title":"Paul Douglas (actor)"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Hogan"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul
+        Scofield"},{"ns":0,"title":"Paul Whitehouse"},{"ns":0,"title":"Per Oscarsson"},{"ns":0,"title":"Peter
+        Finch"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Peter
+        Ustinov"},{"ns":0,"title":"Peter Weir"},{"ns":0,"title":"Phil Davis (actor)"},{"ns":0,"title":"Philip
+        Seymour Hoffman"},{"ns":0,"title":"Philippe Noiret"},{"ns":0,"title":"Piccadilly"},{"ns":0,"title":"Pixar"},{"ns":0,"title":"Prefabricated
+        home"},{"ns":0,"title":"Publicist"},{"ns":0,"title":"Queen''s Birthday Honours"},{"ns":0,"title":"Quentin
+        Tarantino"},{"ns":0,"title":"RAF"},{"ns":0,"title":"Rachel Weisz"},{"ns":0,"title":"Ralph
+        Richardson"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Ray Sharkey"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Received Pronunciation"},{"ns":0,"title":"Red
+        Buttons"},{"ns":0,"title":"Regional accents of English"},{"ns":0,"title":"Rex
+        Harrison"},{"ns":0,"title":"Richard Attenborough"},{"ns":0,"title":"Richard
+        Burton"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard
+        Fleischer"},{"ns":0,"title":"Richard Gere"},{"ns":0,"title":"Richard Harris"},{"ns":0,"title":"Richard
+        Jenkins"},{"ns":0,"title":"Richard Pryor"},{"ns":0,"title":"Ricky Gervais"},{"ns":0,"title":"Ridley
+        Scott"},{"ns":0,"title":"River Phoenix"},{"ns":0,"title":"Rob Brydon"},{"ns":0,"title":"Rob
+        Reiner"},{"ns":0,"title":"Robert Altman"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        De Niro"},{"ns":0,"title":"Robert Downey, Jr."},{"ns":0,"title":"Robert Downey
+        Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert Montgomery
+        (actor)"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robert Shaw (British
+        actor)"},{"ns":0,"title":"Roberto Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rock
+        Hudson"},{"ns":0,"title":"Rod Steiger"},{"ns":0,"title":"Rolls-Royce (car)"},{"ns":0,"title":"Ron
+        Moody"},{"ns":0,"title":"Ronald Lewis (actor)"},{"ns":0,"title":"Rosalind
+        Russell"},{"ns":0,"title":"Rotherhithe"},{"ns":0,"title":"Royal Fusiliers"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:41 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,98 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Elizabeth%20Perkins
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401608381, 3536741207, 2899100365
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1220'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:07 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4008 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"333680":{"pageid":333680,"ns":0,"title":"Elizabeth
+        Perkins","links":[{"ns":0,"title":"28 Days (film)"},{"ns":0,"title":"About
+        Last Night..."},{"ns":0,"title":"About Last Night (1986 film)"},{"ns":0,"title":"Alcmene"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"All
+        I Want (film)"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Avalon (1990 film)"},{"ns":0,"title":"Barracuda"},{"ns":0,"title":"Barry
+        Levinson"},{"ns":0,"title":"Battery Park (TV series)"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Big (film)"},{"ns":0,"title":"Boston
+        Globe"},{"ns":0,"title":"Brighton Beach Memoirs"},{"ns":0,"title":"Cats &
+        dogs"},{"ns":0,"title":"Celia Hodes"},{"ns":0,"title":"Chicago Film Critics
+        Association"},{"ns":0,"title":"Chicago Sun Times"},{"ns":0,"title":"Colrain,
+        Massachusetts"},{"ns":0,"title":"Crazy in Alabama"},{"ns":0,"title":"Deadline.com"},{"ns":0,"title":"Dreamworks"},{"ns":0,"title":"Edward
+        Zwick"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Finding Nemo"},{"ns":0,"title":"From
+        the Earth to the Moon (TV miniseries)"},{"ns":0,"title":"From the Hip (film)"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Goodman School
+        of Drama"},{"ns":0,"title":"Greenfield, Massachusetts"},{"ns":0,"title":"He
+        Said, She Said"},{"ns":0,"title":"Hercules (TV miniseries)"},{"ns":0,"title":"Hop
+        (film)"},{"ns":0,"title":"How to Live with Your Parents (For the Rest of Your
+        Life)"},{"ns":0,"title":"How to Live with Your Parents (for the Rest of Your
+        Life)"},{"ns":0,"title":"I''m Losing You (film)"},{"ns":0,"title":"If These
+        Walls Could Talk 2"},{"ns":0,"title":"Indian Summer (1993 film)"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jiminy
+        Glick in Lalawood"},{"ns":0,"title":"Justin Kirk"},{"ns":0,"title":"Juvenile
+        diabetes"},{"ns":0,"title":"Kids in America (film)"},{"ns":0,"title":"King
+        of the Hill"},{"ns":0,"title":"Latent autoimmune diabetes"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"List of Weeds characters"},{"ns":0,"title":"Lortel
+        Archives"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Love at Large"},{"ns":0,"title":"Mary-Louise
+        Parker"},{"ns":0,"title":"Miracle on 34th Street"},{"ns":0,"title":"Miracle
+        on 34th Street (1994 film)"},{"ns":0,"title":"Monk (TV series)"},{"ns":0,"title":"Monte-Carlo
+        Television Festival"},{"ns":0,"title":"Moonlight and Valentino"},{"ns":0,"title":"Must
+        Love Dogs"},{"ns":0,"title":"Naomi Watts"},{"ns":0,"title":"Neil Simon"},{"ns":0,"title":"Northfield
+        Mount Hermon School"},{"ns":0,"title":"Parent-Teacher Association"},{"ns":0,"title":"Primetime
+        Emmy Award"},{"ns":0,"title":"Queens"},{"ns":0,"title":"Queens, New York"},{"ns":0,"title":"Salonika"},{"ns":0,"title":"Sandra
+        Bullock"},{"ns":0,"title":"Satellite Award"},{"ns":0,"title":"Screen Actors
+        Guild Award"},{"ns":0,"title":"Showtime (TV network)"},{"ns":0,"title":"Speak
+        (film)"},{"ns":0,"title":"Steppenwolf Theater"},{"ns":0,"title":"Sweet Hearts
+        Dance"},{"ns":0,"title":"Terminal illness"},{"ns":0,"title":"Terry Kinney"},{"ns":0,"title":"The
+        Closer"},{"ns":0,"title":"The Dallas Morning News"},{"ns":0,"title":"The Doctor
+        (1991 film)"},{"ns":0,"title":"The Flintstones (film)"},{"ns":0,"title":"The
+        Lorax (film)"},{"ns":0,"title":"The Ring Two"},{"ns":0,"title":"The Thing
+        About My Folks"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Twitter"},{"ns":0,"title":"U.S."},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Warner Brothers"},{"ns":0,"title":"Weeds
+        (TV series)"},{"ns":0,"title":"William Hurt"},{"ns":0,"title":"Wilma Flintstone"},{"ns":4,"title":"Wikipedia:Persondata"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:08 GMT
+recorded_with: VCR 2.9.2

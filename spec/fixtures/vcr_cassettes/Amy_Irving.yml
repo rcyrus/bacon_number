@@ -1,0 +1,174 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Amy%20Irving
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287066069, 2340306200, 3142863260
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3094'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:43 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4016 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"659294":{"pageid":659294,"ns":0,"title":"Amy Irving","links":[{"ns":0,"title":"48th
+        Tony Awards"},{"ns":0,"title":"A Little Night Music"},{"ns":0,"title":"A Safe
+        Harbor for Elizabeth Bishop"},{"ns":0,"title":"A Show of Force"},{"ns":0,"title":"Abe
+        Burrows"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Supporting Actress"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Adam
+        (2009 film)"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alias (TV
+        series)"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Amadeus"},{"ns":0,"title":"American
+        Beauty (1999 film)"},{"ns":0,"title":"American Conservatory Theater"},{"ns":0,"title":"An
+        American Tail: Fievel Goes West"},{"ns":0,"title":"Anastasia: The Mystery
+        of Anna"},{"ns":0,"title":"Angela Lansbury"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Bea Arthur"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benefit
+        of the Doubt"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin
+        Bratt"},{"ns":0,"title":"Bernadette Peters"},{"ns":0,"title":"Bert Lytell"},{"ns":0,"title":"Betsy
+        Palmer"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Paxton"},{"ns":0,"title":"Blithe Spirit (play)"},{"ns":0,"title":"Bobby Van
+        (actor)"},{"ns":0,"title":"Booth Theatre"},{"ns":0,"title":"Bossa Nova (film)"},{"ns":0,"title":"Broadhurst
+        Theatre"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Brock Pemberton"},{"ns":0,"title":"Broken
+        Glass (play)"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Bruno
+        Barreto"},{"ns":0,"title":"Bud Collyer"},{"ns":0,"title":"Carol Lawrence"},{"ns":0,"title":"Carrie
+        (1976 film)"},{"ns":0,"title":"Carrie Fisher"},{"ns":0,"title":"Carried Away
+        (1996 film)"},{"ns":0,"title":"Casualties of War"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Celadine"},{"ns":0,"title":"Celeste Holm"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christian Science"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Circle
+        in the Square Theatre"},{"ns":0,"title":"Clifton Collins, Jr."},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Crossing Delancey"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"David Irving"},{"ns":0,"title":"Deborah Kerr"},{"ns":0,"title":"Deconstructing
+        Harry"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Diahann
+        Carroll"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Dyan
+        Cannon"},{"ns":0,"title":"Easy Riders, Raging Bulls: How the Sex, Drugs and
+        Rock ''N'' Roll Generation Saved Hollywood"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Eddie
+        Albert"},{"ns":0,"title":"Edward Asner"},{"ns":0,"title":"Elizabeth Ashley"},{"ns":0,"title":"Ellen
+        Burstyn"},{"ns":0,"title":"Emily Sloane"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Erika
+        Christensen"},{"ns":0,"title":"Faye Emerson"},{"ns":0,"title":"Florence Henderson"},{"ns":0,"title":"Florida
+        Film Critics Circle Award for Best Cast"},{"ns":0,"title":"Friday the 13th
+        (1980 film)"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Abbott"},{"ns":0,"title":"George S. Irving"},{"ns":0,"title":"George
+        Street Playhouse"},{"ns":0,"title":"Ghosts"},{"ns":0,"title":"Ginger Rogers"},{"ns":0,"title":"Glenn
+        Close"},{"ns":0,"title":"Glenn Ford"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award for Best Actress - Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden
+        Globe Award for Best Actress \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globes"},{"ns":0,"title":"Golden Raspberry Award for Worst Supporting Actress"},{"ns":0,"title":"Gregory
+        Hines"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Happy
+        Days"},{"ns":0,"title":"Heartbreak House"},{"ns":0,"title":"Helen Hayes"},{"ns":0,"title":"Henry
+        Fonda"},{"ns":0,"title":"Hide and Seek (2005 film)"},{"ns":0,"title":"Hiram
+        Sherman"},{"ns":0,"title":"Hollywood Theater of the Ear"},{"ns":0,"title":"Honeysuckle
+        Rose (film)"},{"ns":0,"title":"House (TV series)"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Hugo
+        Speer"},{"ns":0,"title":"I''m Not Rappaport (film)"},{"ns":0,"title":"I''m
+        a Fool"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Integrated Authority
+        File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jack Carter (comedian)"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James
+        Coco"},{"ns":0,"title":"James Dean (film)"},{"ns":0,"title":"Jane Alexander"},{"ns":0,"title":"Jane
+        Fonda"},{"ns":0,"title":"Jane Seymour (actress)"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Jeanne
+        Tripplehorn"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jessica Rabbit"},{"ns":0,"title":"Jews"},{"ns":0,"title":"Jim
+        Carter (actor)"},{"ns":0,"title":"Jose Ferrer"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Jules Irving"},{"ns":0,"title":"Julie Andrews"},{"ns":0,"title":"Kathleen
+        Quinlan"},{"ns":0,"title":"Kathleen Turner"},{"ns":0,"title":"Kenneth Bowser,
+        Jr."},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"LAMDA"},{"ns":0,"title":"Larry
+        Blyden"},{"ns":0,"title":"Larry Kert"},{"ns":0,"title":"Lauren Bacall"},{"ns":0,"title":"Law
+        & Order: SVU"},{"ns":0,"title":"Law & Order: Special Victims Unit"},{"ns":0,"title":"Lena
+        Horne"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Lili Taylor"},{"ns":0,"title":"Lincoln Center"},{"ns":0,"title":"List
+        of Tony Awards ceremonies"},{"ns":0,"title":"Liv Ullmann"},{"ns":0,"title":"Liza
+        Minnelli"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Marion Ravenwood"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Mary Martin"},{"ns":0,"title":"Mary
+        Tyler Moore"},{"ns":0,"title":"Matthew Broderick"},{"ns":0,"title":"Melanie
+        Griffith"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michele
+        Lee"},{"ns":0,"title":"Micki + Maude"},{"ns":0,"title":"Micki and Maude"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"Neil Patrick Harris"},{"ns":0,"title":"Never
+        Say Never Again"},{"ns":0,"title":"New Brunswick, NJ"},{"ns":0,"title":"New
+        York City"},{"ns":0,"title":"Obie Award"},{"ns":0,"title":"Obie award"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Once
+        an Eagle"},{"ns":0,"title":"One Tough Cop"},{"ns":0,"title":"Only When I Laugh
+        (film)"},{"ns":0,"title":"Palo Alto, California"},{"ns":0,"title":"Paul Barber
+        (actor)"},{"ns":0,"title":"Peter Biskind"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter
+        Riegert"},{"ns":0,"title":"Phil Silvers"},{"ns":0,"title":"Police Woman (TV
+        series)"},{"ns":0,"title":"Prenuptial agreement"},{"ns":0,"title":"Priscilla
+        Pointer"},{"ns":0,"title":"Professional Children''s School"},{"ns":0,"title":"Raiders
+        of the Lost Ark"},{"ns":0,"title":"Ray Bolger"},{"ns":0,"title":"Razzie Award"},{"ns":0,"title":"Razzie
+        Award for Worst Supporting Actress"},{"ns":0,"title":"Razzie Awards"},{"ns":0,"title":"Rex
+        Harrison"},{"ns":0,"title":"Richard Burton"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard
+        Dreyfuss"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert
+        Preston (actor)"},{"ns":0,"title":"Robert Symonds"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Romeo and Juliet"},{"ns":0,"title":"Rosie O''Donnell"},{"ns":0,"title":"Roundabout
+        Theatre"},{"ns":0,"title":"Rumpelstiltskin (1987 film)"},{"ns":0,"title":"Saint
+        Joan (play)"},{"ns":0,"title":"Sam Elliott"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Sean
+        Hayes (actor)"},{"ns":0,"title":"Seattle Repertory Theatre"},{"ns":0,"title":"Shakespeare
+        in Love"},{"ns":0,"title":"Sidney Blackmer"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Spin
+        City"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Star Wars Episode IV:
+        A New Hope"},{"ns":0,"title":"Stephen Sondheim"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steven
+        Bauer"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Terror in the Aisles"},{"ns":0,"title":"The
+        Birdcage"},{"ns":0,"title":"The Coast of Utopia"},{"ns":0,"title":"The Competition
+        (film)"},{"ns":0,"title":"The Confession (1999 film)"},{"ns":0,"title":"The
+        Country Wife"},{"ns":0,"title":"The Exonerated"},{"ns":0,"title":"The Far
+        Pavilions"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The Fury (1978
+        film)"},{"ns":0,"title":"The Glass Menagerie"},{"ns":0,"title":"The Guys"},{"ns":0,"title":"The
+        Heidi Chronicles"},{"ns":0,"title":"The Rage: Carrie 2"},{"ns":0,"title":"The
+        Road to Mecca"},{"ns":0,"title":"The Rookies"},{"ns":0,"title":"The Waters
+        of March"},{"ns":0,"title":"Thirteen Conversations About One Thing"},{"ns":0,"title":"Thora
+        Birch"},{"ns":0,"title":"Three Sisters (play)"},{"ns":0,"title":"Tom Bosley"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"Tom Stoppard"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas
+        Milian"},{"ns":0,"title":"Tony Randall"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Traffic
+        (2000 film)"},{"ns":0,"title":"Tuck Everlasting (2002 film)"},{"ns":0,"title":"Unwritten
+        (House)"},{"ns":0,"title":"Van Johnson"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"Voices (1979 film)"},{"ns":0,"title":"We
+        Live Here"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"Who Framed Roger
+        Rabbit"},{"ns":0,"title":"Whoopi Goldberg"},{"ns":0,"title":"William Snape"},{"ns":0,"title":"Willie
+        Nelson"},{"ns":0,"title":"Windows (film)"},{"ns":0,"title":"Yentl"},{"ns":0,"title":"Yentl
+        (film)"},{"ns":0,"title":"Zero Hour (2013 TV series)"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":10,"title":"Template:Tony Awards hosts"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward CastMotionPicture 1995\u20132000"},{"ns":11,"title":"Template
+        talk:Tony Awards hosts"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:44 GMT
+recorded_with: VCR 2.9.2

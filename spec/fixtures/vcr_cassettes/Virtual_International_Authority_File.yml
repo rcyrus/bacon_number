@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Virtual%20International%20Authority%20File
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332363388, 3536785934, 1061697297
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '930'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:22 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4008 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"25175562":{"pageid":25175562,"ns":0,"title":"Virtual
+        International Authority File","links":[{"ns":0,"title":"Alexandria"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Authority
+        file"},{"ns":0,"title":"BIBSYS"},{"ns":0,"title":"Belgium"},{"ns":0,"title":"Berne"},{"ns":0,"title":"Biblioteca
+        Nacional de Espa\u00f1a"},{"ns":0,"title":"Biblioteca Nacional de Portugal"},{"ns":0,"title":"Bibliotheca
+        Alexandrina"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Brussels"},{"ns":0,"title":"Budapest"},{"ns":0,"title":"California"},{"ns":0,"title":"Canada"},{"ns":0,"title":"Canberra"},{"ns":0,"title":"Czech
+        Republic"},{"ns":0,"title":"Egypt"},{"ns":0,"title":"France"},{"ns":0,"title":"Frankfurt"},{"ns":0,"title":"German
+        National Library"},{"ns":0,"title":"Germany"},{"ns":0,"title":"Getty Research
+        Institute"},{"ns":0,"title":"Hungary"},{"ns":0,"title":"Integrated Authority
+        File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Israel"},{"ns":0,"title":"Istituto
+        Centrale per il Catalogo Unico"},{"ns":0,"title":"Italy"},{"ns":0,"title":"Japan"},{"ns":0,"title":"Jerusalem"},{"ns":0,"title":"Kyoto"},{"ns":0,"title":"Library
+        Journal"},{"ns":0,"title":"Library and Archives Canada"},{"ns":0,"title":"Library
+        of Congress"},{"ns":0,"title":"Lisbon"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Madrid"},{"ns":0,"title":"Media
+        Source Inc."},{"ns":0,"title":"Moscow"},{"ns":0,"title":"NUKAT"},{"ns":0,"title":"Name
+        Authority File"},{"ns":0,"title":"National Diet Library"},{"ns":0,"title":"National
+        Library of Australia"},{"ns":0,"title":"National Library of Israel"},{"ns":0,"title":"National
+        Library of Sweden"},{"ns":0,"title":"National Library of the Czech Republic"},{"ns":0,"title":"National
+        Sz\u00e9ch\u00e9nyi Library"},{"ns":0,"title":"Norway"},{"ns":0,"title":"OCLC"},{"ns":0,"title":"Online
+        Computer Library Center"},{"ns":0,"title":"Online public access catalog"},{"ns":0,"title":"Ontario"},{"ns":0,"title":"Open
+        Archives Initiative"},{"ns":0,"title":"Ottawa"},{"ns":0,"title":"Paris"},{"ns":0,"title":"Poland"},{"ns":0,"title":"Portugal"},{"ns":0,"title":"Prague"},{"ns":0,"title":"RERO
+        (library network)"},{"ns":0,"title":"Rome"},{"ns":0,"title":"Russia"},{"ns":0,"title":"Russian
+        State Library"},{"ns":0,"title":"Spain"},{"ns":0,"title":"Stockholm"},{"ns":0,"title":"Sweden"},{"ns":0,"title":"Swiss
+        National Library"},{"ns":0,"title":"Switzerland"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Tokyo"},{"ns":0,"title":"Trondheim"},{"ns":0,"title":"Uniform
+        resource locator"},{"ns":0,"title":"Vatican City"},{"ns":0,"title":"Vatican
+        Library"},{"ns":0,"title":"Washington, D.C."},{"ns":0,"title":"Web search
+        engine"},{"ns":0,"title":"Wikipedia"},{"ns":4,"title":"Wikipedia:Authority
+        control"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Refimprove"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        needing additional references from September 2012"},{"ns":100,"title":"Portal:Library
+        and information science"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:22 GMT
+recorded_with: VCR 2.9.2

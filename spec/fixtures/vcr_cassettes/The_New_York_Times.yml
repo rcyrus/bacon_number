@@ -1,0 +1,264 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=The%20New%20York%20Times
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401707074, 3085176714, 1613108380
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4834'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:16 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"30680":{"pageid":30680,"ns":0,"title":"The New
+        York Times","links":[{"ns":0,"title":"1962\u201363 New York City newspaper
+        strike"},{"ns":0,"title":"41 Park Row"},{"ns":0,"title":"ABC News"},{"ns":0,"title":"ABC
+        News Radio"},{"ns":0,"title":"Actual malice"},{"ns":0,"title":"Adobe AIR"},{"ns":0,"title":"Adobe
+        Reader"},{"ns":0,"title":"Adolph Ochs"},{"ns":0,"title":"Agence France-Presse"},{"ns":0,"title":"Ahmed
+        Chalabi"},{"ns":0,"title":"Akron Beacon Journal"},{"ns":0,"title":"Alternative
+        media"},{"ns":0,"title":"Amarillo Globe-News"},{"ns":0,"title":"Amazon.com"},{"ns":0,"title":"American
+        Civil War"},{"ns":0,"title":"American Urban Radio Networks"},{"ns":0,"title":"Anchorage
+        Daily News"},{"ns":0,"title":"Andrew Rosenthal"},{"ns":0,"title":"Android
+        (operating system)"},{"ns":0,"title":"Anthony Russo (whistleblower)"},{"ns":0,"title":"Anti-Semitic"},{"ns":0,"title":"Antisemitism"},{"ns":0,"title":"Application
+        software"},{"ns":0,"title":"Arkansas Gazette"},{"ns":0,"title":"Arthur Hays
+        Sulzberger"},{"ns":0,"title":"Arthur Krock"},{"ns":0,"title":"Arthur L. Carter
+        Journalism Institute"},{"ns":0,"title":"Arthur Ochs Sulzberger"},{"ns":0,"title":"Arthur
+        Ochs Sulzberger, Jr."},{"ns":0,"title":"Arthur Ochs Sulzberger Jr."},{"ns":0,"title":"Associated
+        Press"},{"ns":0,"title":"Atlantic Media Company"},{"ns":0,"title":"Atomic
+        bomb"},{"ns":0,"title":"Atomic bombing of Hiroshima"},{"ns":0,"title":"Austria-Hungary"},{"ns":0,"title":"BBC
+        News"},{"ns":0,"title":"Bashar al-Assad"},{"ns":0,"title":"Battle of Port
+        Arthur"},{"ns":0,"title":"Beijing"},{"ns":0,"title":"Ben Bagdikian"},{"ns":0,"title":"Benedict
+        Cumberbatch"},{"ns":0,"title":"Benjamin Netanyahu"},{"ns":0,"title":"Bill
+        Gates"},{"ns":0,"title":"Bloomberg L.P."},{"ns":0,"title":"Bloomberg News"},{"ns":0,"title":"Brain
+        drain"},{"ns":0,"title":"Bristol Herald Courier"},{"ns":0,"title":"British
+        Tamil"},{"ns":0,"title":"Broadsheet"},{"ns":0,"title":"Brooklyn Eagle"},{"ns":0,"title":"Bureau
+        of National Affairs"},{"ns":0,"title":"Buried by the Times"},{"ns":0,"title":"Business
+        Insider"},{"ns":0,"title":"Byron Price"},{"ns":0,"title":"CBC News"},{"ns":0,"title":"CBS
+        News"},{"ns":0,"title":"CBS Radio News"},{"ns":0,"title":"CCH (company)"},{"ns":0,"title":"CNN"},{"ns":0,"title":"Canton
+        Daily News"},{"ns":0,"title":"Carl Bernstein"},{"ns":0,"title":"Carlos Slim
+        Hel\u00fa"},{"ns":0,"title":"Chattanooga Times"},{"ns":0,"title":"Cheltenham
+        (typeface)"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Chicago Daily News"},{"ns":0,"title":"Chicago
+        Sun-Times"},{"ns":0,"title":"Chicago Tribune"},{"ns":0,"title":"Christian
+        Broadcasting Network"},{"ns":0,"title":"Christopher Cerf"},{"ns":0,"title":"Citadel
+        Media"},{"ns":0,"title":"Clark Hoyt"},{"ns":0,"title":"Classical music"},{"ns":0,"title":"Clifford
+        J. Levy"},{"ns":0,"title":"Clifton Daniel"},{"ns":0,"title":"College Point,
+        Queens"},{"ns":0,"title":"Color photography"},{"ns":0,"title":"Columbia University"},{"ns":0,"title":"Comics"},{"ns":0,"title":"Comics
+        page"},{"ns":0,"title":"Compete.com"},{"ns":0,"title":"Cosmopolitanism"},{"ns":0,"title":"Credibility
+        gap"},{"ns":0,"title":"Cyrus Leo Sulzberger II"},{"ns":0,"title":"Da Capo
+        Press"},{"ns":0,"title":"Daily News (New York)"},{"ns":0,"title":"Daniel Ellsberg"},{"ns":0,"title":"Daniel
+        Okrent"},{"ns":0,"title":"Daniel Simpson"},{"ns":0,"title":"Dean Baquet"},{"ns":0,"title":"Defamation"},{"ns":0,"title":"Democratic
+        Party (United States)"},{"ns":0,"title":"Dennis McCauley"},{"ns":0,"title":"Detroit
+        Free Press"},{"ns":0,"title":"Digital object identifier"},{"ns":0,"title":"Disney"},{"ns":0,"title":"Domain
+        name registrar"},{"ns":0,"title":"Domain name system"},{"ns":0,"title":"Dow
+        Jones & Co."},{"ns":0,"title":"Dow Jones Newswires"},{"ns":0,"title":"Duke
+        University"},{"ns":0,"title":"Duke lacrosse case"},{"ns":0,"title":"Dwight
+        D. Eisenhower"},{"ns":0,"title":"E. W. Scripps Company"},{"ns":0,"title":"Editorial"},{"ns":0,"title":"Editorial
+        cartoonist"},{"ns":0,"title":"Editorial cartoons"},{"ns":0,"title":"Edmonton
+        Journal"},{"ns":0,"title":"Edna Buchanan"},{"ns":0,"title":"Eighth Avenue
+        (Manhattan)"},{"ns":0,"title":"Elmer Davis"},{"ns":0,"title":"Employment discrimination"},{"ns":0,"title":"Encyclop\u00e6dia
+        Britannica"},{"ns":0,"title":"Financial Times"},{"ns":0,"title":"First Amendment
+        to the United States Constitution"},{"ns":0,"title":"Fort Worth Star-Telegram"},{"ns":0,"title":"Fox
+        News Channel"},{"ns":0,"title":"Fox News Radio"},{"ns":0,"title":"Frank I.
+        Cobb"},{"ns":0,"title":"Freedom of speech"},{"ns":0,"title":"Freedom of the
+        press"},{"ns":0,"title":"GamePolitics.com"},{"ns":0,"title":"Gannett Company"},{"ns":0,"title":"George
+        Jones (publisher)"},{"ns":0,"title":"George Plimpton"},{"ns":0,"title":"George
+        W. Bush administration"},{"ns":0,"title":"Grand Forks Herald"},{"ns":0,"title":"Great
+        Recession"},{"ns":0,"title":"Grover Cleveland"},{"ns":0,"title":"Haaretz"},{"ns":0,"title":"Haimun"},{"ns":0,"title":"Hartford
+        Courant"},{"ns":0,"title":"Hazing"},{"ns":0,"title":"Hearst Corporation"},{"ns":0,"title":"Henry
+        Blodget"},{"ns":0,"title":"Henry Jarvis Raymond"},{"ns":0,"title":"Henry Kissinger"},{"ns":0,"title":"Henry
+        Raymond"},{"ns":0,"title":"Herb Caen"},{"ns":0,"title":"Highrise (documentary)"},{"ns":0,"title":"Holocaust"},{"ns":0,"title":"Hong
+        Kong"},{"ns":0,"title":"Honorific"},{"ns":0,"title":"Howard Kurtz"},{"ns":0,"title":"Hyperlocal"},{"ns":0,"title":"IOS"},{"ns":0,"title":"IPad"},{"ns":0,"title":"IPhone"},{"ns":0,"title":"IPod
+        touch"},{"ns":0,"title":"Idaho State University"},{"ns":0,"title":"Imperial
+        (typeface)"},{"ns":0,"title":"Indianapolis News"},{"ns":0,"title":"Indianapolis
+        Times"},{"ns":0,"title":"Initial public offering"},{"ns":0,"title":"International
+        Herald Tribune"},{"ns":0,"title":"International New York Times"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Serial Number"},{"ns":0,"title":"Iraq
+        War"},{"ns":0,"title":"Iraq war"},{"ns":0,"title":"Israeli-Palestinian conflict"},{"ns":0,"title":"James
+        S. Brady Press Briefing Room"},{"ns":0,"title":"Jane Grant"},{"ns":0,"title":"Jason
+        Kottke"},{"ns":0,"title":"Jayson Blair"},{"ns":0,"title":"Jew"},{"ns":0,"title":"Jewishness"},{"ns":0,"title":"Jill
+        Abramson"},{"ns":0,"title":"John M. Geddes"},{"ns":0,"title":"John Mearsheimer"},{"ns":0,"title":"John
+        N. Mitchell"},{"ns":0,"title":"Joseph Pulitzer"},{"ns":0,"title":"Judith Miller
+        (journalist)"},{"ns":0,"title":"KC Johnson"},{"ns":0,"title":"Konrad Adenauer"},{"ns":0,"title":"Kottke.org"},{"ns":0,"title":"Laos"},{"ns":0,"title":"Las
+        Vegas Sun"},{"ns":0,"title":"Laurel Leff"},{"ns":0,"title":"Ledger-Enquirer"},{"ns":0,"title":"Legal
+        burden of proof"},{"ns":0,"title":"Leslie R. Groves"},{"ns":0,"title":"Letter
+        to the editor"},{"ns":0,"title":"Libel"},{"ns":0,"title":"LibriVox"},{"ns":0,"title":"Lincoln
+        Journal Star"},{"ns":0,"title":"List of New York City newspapers and magazines"},{"ns":0,"title":"List
+        of Pulitzer Prizes awarded to The New York Times"},{"ns":0,"title":"List of
+        The New York Times employees"},{"ns":0,"title":"List of newspapers in the
+        United States"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Lyndon
+        B. Johnson"},{"ns":0,"title":"M.I.A. (artist)"},{"ns":0,"title":"MSNBC"},{"ns":0,"title":"MTV
+        News"},{"ns":0,"title":"Mail Tribune"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Mario
+        Monti"},{"ns":0,"title":"Mark Thompson (television executive)"},{"ns":0,"title":"Mark
+        von Hagen"},{"ns":0,"title":"Max Frankel"},{"ns":0,"title":"Max Kase"},{"ns":0,"title":"MediaNews
+        Group"},{"ns":0,"title":"Media Matters for America"},{"ns":0,"title":"Meenakshi
+        Gigi Durham"},{"ns":0,"title":"Melbourne IT"},{"ns":0,"title":"Michael Chabon"},{"ns":0,"title":"Michael
+        Golden (businessman)"},{"ns":0,"title":"Microsoft"},{"ns":0,"title":"Milwaukee
+        Journal Sentinel"},{"ns":0,"title":"Montgomery Advertiser"},{"ns":0,"title":"Mortara
+        Affair"},{"ns":0,"title":"Murdoch family"},{"ns":0,"title":"NBC News"},{"ns":0,"title":"NPR"},{"ns":0,"title":"NYT"},{"ns":0,"title":"Nan
+        C. Robertson"},{"ns":0,"title":"Nassau Street (Manhattan)"},{"ns":0,"title":"National
+        Film Board of Canada"},{"ns":0,"title":"National Journal"},{"ns":0,"title":"National
+        Press Club (USA)"},{"ns":0,"title":"National Review"},{"ns":0,"title":"National
+        Security Archive"},{"ns":0,"title":"National Youth Theatre"},{"ns":0,"title":"National
+        security"},{"ns":0,"title":"Nazi Germany"},{"ns":0,"title":"Neil Sheehan"},{"ns":0,"title":"New
+        Year''s Eve"},{"ns":0,"title":"New York City"},{"ns":0,"title":"New York City
+        Hall"},{"ns":0,"title":"New York City metropolitan area"},{"ns":0,"title":"New
+        York Draft Riots"},{"ns":0,"title":"New York Herald Tribune"},{"ns":0,"title":"New
+        York Journal"},{"ns":0,"title":"New York Post"},{"ns":0,"title":"New York
+        Times Building (disambiguation)"},{"ns":0,"title":"New York Times Co. v. Sullivan"},{"ns":0,"title":"New
+        York Times Co. v. United States"},{"ns":0,"title":"New York Times Index"},{"ns":0,"title":"New
+        York University"},{"ns":0,"title":"New York World"},{"ns":0,"title":"New York
+        World-Telegram"},{"ns":0,"title":"New York metropolitan area"},{"ns":0,"title":"News
+        Corporation"},{"ns":0,"title":"News ticker"},{"ns":0,"title":"Newsday"},{"ns":0,"title":"Newspaper"},{"ns":0,"title":"Newspaper
+        circulation"},{"ns":0,"title":"Newspaper of record"},{"ns":0,"title":"Newsweek"},{"ns":0,"title":"Nicholas
+        Kristof"},{"ns":0,"title":"Nixon administration"},{"ns":0,"title":"North Vietnam"},{"ns":0,"title":"Northeastern
+        University"},{"ns":0,"title":"Northern California"},{"ns":0,"title":"OCLC"},{"ns":0,"title":"Omaha
+        World-Herald"},{"ns":0,"title":"Ombudsman"},{"ns":0,"title":"One Times Square"},{"ns":0,"title":"Op-Ed"},{"ns":0,"title":"Opinion
+        piece"},{"ns":0,"title":"Orvil Dryfoos"},{"ns":0,"title":"PBS Newshour"},{"ns":0,"title":"Paywall"},{"ns":0,"title":"Penguin
+        Press"},{"ns":0,"title":"Pentagon Papers"},{"ns":0,"title":"Periodical literature"},{"ns":0,"title":"Persuasive
+        Games"},{"ns":0,"title":"Philadelphia"},{"ns":0,"title":"Pittsburgh Press"},{"ns":0,"title":"Plagiarism"},{"ns":0,"title":"Point
+        (typography)"},{"ns":0,"title":"Political science"},{"ns":0,"title":"Politico"},{"ns":0,"title":"Port
+        Authority Bus Terminal"},{"ns":0,"title":"Portable Document Format"},{"ns":0,"title":"Prime
+        Minister of Israel"},{"ns":0,"title":"Propaganda"},{"ns":0,"title":"Public
+        editor"},{"ns":0,"title":"Public figure"},{"ns":0,"title":"Pulitzer Prize"},{"ns":0,"title":"Pulitzer
+        Prize Special Citations and Awards"},{"ns":0,"title":"Pulitzer Prize for Breaking
+        News Reporting"},{"ns":0,"title":"Pulitzer Prize for Public Service"},{"ns":0,"title":"Queens"},{"ns":0,"title":"RSS
+        (file format)"},{"ns":0,"title":"Radio Disney"},{"ns":0,"title":"Radio format"},{"ns":0,"title":"Rafael
+        Correa"},{"ns":0,"title":"Rasmussen Reports"},{"ns":0,"title":"ReCAPTCHA"},{"ns":0,"title":"Recklessness
+        (law)"},{"ns":0,"title":"Register-Pajaronian"},{"ns":0,"title":"Renzo Piano"},{"ns":0,"title":"Republican-American"},{"ns":0,"title":"Republican
+        National Committee"},{"ns":0,"title":"Republican Party (United States)"},{"ns":0,"title":"Reuters"},{"ns":0,"title":"Richard
+        Nixon"},{"ns":0,"title":"Richard P\u00e9rez-Pe\u00f1a"},{"ns":0,"title":"Richard
+        Strout"},{"ns":0,"title":"Robert D. McFadden"},{"ns":0,"title":"Roll Call"},{"ns":0,"title":"Rupert
+        Murdoch"},{"ns":0,"title":"Russian Navy"},{"ns":0,"title":"Russo-Japanese
+        war"},{"ns":0,"title":"Salem Radio Network"},{"ns":0,"title":"Same-sex marriage"},{"ns":0,"title":"San
+        Jose Mercury News"},{"ns":0,"title":"Seattle"},{"ns":0,"title":"Serbia"},{"ns":0,"title":"Sex
+        and gender distinction"},{"ns":0,"title":"Shanghai"},{"ns":0,"title":"Simon
+        Wiesenthal Center"},{"ns":0,"title":"Skyscraper"},{"ns":0,"title":"Slate (magazine)"},{"ns":0,"title":"Social
+        media"},{"ns":0,"title":"Soviet Union"},{"ns":0,"title":"Spin (magazine)"},{"ns":0,"title":"Sri
+        Lankan civil war"},{"ns":0,"title":"St. Louis Post-Dispatch"},{"ns":0,"title":"Stalinism"},{"ns":0,"title":"State
+        Department"},{"ns":0,"title":"Stephen Walt"},{"ns":0,"title":"Strike action"},{"ns":0,"title":"Stuart
+        Taylor, Jr."},{"ns":0,"title":"Subscription business model"},{"ns":0,"title":"Sulzberger
+        family"},{"ns":0,"title":"Sun-Sentinel"},{"ns":0,"title":"Sun Herald"},{"ns":0,"title":"Syrian
+        Electronic Army"},{"ns":0,"title":"T: The New York Times Style Magazine"},{"ns":0,"title":"Talk
+        Radio Network"},{"ns":0,"title":"Tammany Hall"},{"ns":0,"title":"Tampa Bay
+        Times"},{"ns":0,"title":"TechCrunch"},{"ns":0,"title":"Technocrat"},{"ns":0,"title":"The
+        American Mercury"},{"ns":0,"title":"The Atlanta Journal-Constitution"},{"ns":0,"title":"The
+        Baltimore Sun"},{"ns":0,"title":"The Bismarck Tribune"},{"ns":0,"title":"The
+        Boston Globe"},{"ns":0,"title":"The Boston Post"},{"ns":0,"title":"The Charlotte
+        Observer"},{"ns":0,"title":"The Christian Science Monitor"},{"ns":0,"title":"The
+        Clarion-Ledger"},{"ns":0,"title":"The Commercial Appeal"},{"ns":0,"title":"The
+        Courier-Journal"},{"ns":0,"title":"The Dallas Morning News"},{"ns":0,"title":"The
+        Denver Post"},{"ns":0,"title":"The Des Moines Register"},{"ns":0,"title":"The
+        Detroit News"},{"ns":0,"title":"The Eagle-Tribune"},{"ns":0,"title":"The Fader"},{"ns":0,"title":"The
+        Gazette (Cedar Rapids)"},{"ns":0,"title":"The Guardian"},{"ns":0,"title":"The
+        Hill (newspaper)"},{"ns":0,"title":"The Holocaust"},{"ns":0,"title":"The Huffington
+        Post"},{"ns":0,"title":"The Hutchinson News"},{"ns":0,"title":"The Israel
+        Lobby and U.S. Foreign Policy"},{"ns":0,"title":"The Kansas City Star"},{"ns":0,"title":"The
+        Lufkin Daily News"},{"ns":0,"title":"The Manhattan Project"},{"ns":0,"title":"The
+        McClatchy Company"},{"ns":0,"title":"The Miami Herald"},{"ns":0,"title":"The
+        Miami News"},{"ns":0,"title":"The New York Times Best Seller list"},{"ns":0,"title":"The
+        New York Times Book Review"},{"ns":0,"title":"The New York Times Building"},{"ns":0,"title":"The
+        New York Times Company"},{"ns":0,"title":"The New York Times Magazine"},{"ns":0,"title":"The
+        New York Times crossword puzzle"},{"ns":0,"title":"The News & Observer"},{"ns":0,"title":"The
+        News Herald (Panama City)"},{"ns":0,"title":"The News Reporter"},{"ns":0,"title":"The
+        Observer"},{"ns":0,"title":"The Observer-Dispatch"},{"ns":0,"title":"The Oregonian"},{"ns":0,"title":"The
+        Philadelphia Inquirer"},{"ns":0,"title":"The Point Reyes Light"},{"ns":0,"title":"The
+        Press-Enterprise (California)"},{"ns":0,"title":"The Sacramento Bee"},{"ns":0,"title":"The
+        Seattle Times"},{"ns":0,"title":"The Star-Ledger"},{"ns":0,"title":"The Times-Picayune"},{"ns":0,"title":"The
+        Times-Tribune (Scranton)"},{"ns":0,"title":"The Times Square Building"},{"ns":0,"title":"The
+        Tuscaloosa News"},{"ns":0,"title":"The Village Voice"},{"ns":0,"title":"The
+        Virgin Islands Daily News"},{"ns":0,"title":"The Wall Street Journal"},{"ns":0,"title":"The
+        Washington Examiner"},{"ns":0,"title":"The Washington Post"},{"ns":0,"title":"The
+        Washington Post Company"},{"ns":0,"title":"The Washington Times"},{"ns":0,"title":"Thomas
+        Dunne Books"},{"ns":0,"title":"Thomas Friedman"},{"ns":0,"title":"Thomas Turcol"},{"ns":0,"title":"Time
+        (magazine)"},{"ns":0,"title":"Times Books"},{"ns":0,"title":"Times Square"},{"ns":0,"title":"Times
+        Square Ball"},{"ns":0,"title":"Tom Bodkin"},{"ns":0,"title":"Tom Jolly (journalist)"},{"ns":0,"title":"Tony
+        Hendra"},{"ns":0,"title":"Tri-State Area"},{"ns":0,"title":"Tribune Company"},{"ns":0,"title":"Turner
+        Catledge"},{"ns":0,"title":"Typeface"},{"ns":0,"title":"U.S. Justice Department"},{"ns":0,"title":"U.S.
+        Marines"},{"ns":0,"title":"USA Today"},{"ns":0,"title":"Ukraine famine"},{"ns":0,"title":"Union
+        Stock Yards"},{"ns":0,"title":"Unique visitors"},{"ns":0,"title":"United States"},{"ns":0,"title":"United
+        States Attorney General"},{"ns":0,"title":"United States Department of Defense"},{"ns":0,"title":"United
+        States Department of War"},{"ns":0,"title":"United States Supreme Court"},{"ns":0,"title":"United
+        States district court"},{"ns":0,"title":"University of California, Los Angeles"},{"ns":0,"title":"Utica
+        Daily Press"},{"ns":0,"title":"Vanessa Friedman"},{"ns":0,"title":"Video game"},{"ns":0,"title":"Vietnam
+        War"},{"ns":0,"title":"Village Voice"},{"ns":0,"title":"Voice of America"},{"ns":0,"title":"Voting
+        shares"},{"ns":0,"title":"WBBR"},{"ns":0,"title":"WNYC"},{"ns":0,"title":"WQEW"},{"ns":0,"title":"W
+        (magazine)"},{"ns":0,"title":"Walter Duranty"},{"ns":0,"title":"Walter Lippmann"},{"ns":0,"title":"Washington,
+        D.C."},{"ns":0,"title":"Washington Daily News"},{"ns":0,"title":"Web presence"},{"ns":0,"title":"West
+        Virginia State University"},{"ns":0,"title":"Whig Party (United States)"},{"ns":0,"title":"White
+        House"},{"ns":0,"title":"White House Correspondents'' Association"},{"ns":0,"title":"William
+        L. Laurence"},{"ns":0,"title":"William Magear Tweed"},{"ns":0,"title":"William
+        O. Dapping"},{"ns":0,"title":"William Randolph Hearst"},{"ns":0,"title":"William
+        Rehnquist"},{"ns":0,"title":"Windows Presentation Foundation"},{"ns":0,"title":"Winston-Salem
+        Journal"},{"ns":0,"title":"Wired (magazine)"},{"ns":0,"title":"Wireless"},{"ns":0,"title":"World
+        War I"},{"ns":0,"title":"World War II"},{"ns":0,"title":"Yellow Sea"},{"ns":0,"title":"Yellow
+        journalism"},{"ns":0,"title":"Zionism"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Good articles"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":10,"title":"Template:NY Times"},{"ns":10,"title":"Template:PulitzerPrize
+        BreakingNews"},{"ns":10,"title":"Template:PulitzerPrize BreakingNews 1985\u20132000"},{"ns":10,"title":"Template:PulitzerPrize
+        BreakingNews 2001\u20132025"},{"ns":10,"title":"Template:PulitzerPrize PublicService"},{"ns":10,"title":"Template:PulitzerPrize
+        PublicService 1918\u20131925"},{"ns":10,"title":"Template:PulitzerPrize PublicService
+        1926\u20131950"},{"ns":10,"title":"Template:PulitzerPrize PublicService 1951\u20131975"},{"ns":10,"title":"Template:PulitzerPrize
+        PublicService 1976\u20132000"},{"ns":10,"title":"Template:PulitzerPrize PublicService
+        2001\u20132025"},{"ns":10,"title":"Template:PulitzerPrize SpecialCitations
+        Arts"},{"ns":10,"title":"Template:PulitzerPrize SpecialCitations Journalism"},{"ns":10,"title":"Template:PulitzerPrize
+        SpecialCitations Letters"},{"ns":10,"title":"Template:PulitzerPrize SpecialCitations
+        Service"},{"ns":10,"title":"Template:White House James S. Brady Press Briefing
+        Room seating chart"},{"ns":11,"title":"Template talk:NY Times"},{"ns":11,"title":"Template
+        talk:PulitzerPrize BreakingNews 1985\u20132000"},{"ns":11,"title":"Template
+        talk:PulitzerPrize BreakingNews 2001\u20132025"},{"ns":11,"title":"Template
+        talk:PulitzerPrize PublicService"},{"ns":11,"title":"Template talk:PulitzerPrize
+        SpecialCitations Journalism"},{"ns":11,"title":"Template talk:White House
+        James S. Brady Press Briefing Room seating chart"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":14,"title":"Category:Articles containing potentially dated
+        statements from December 2010"},{"ns":14,"title":"Category:Articles containing
+        potentially dated statements from May 2009"},{"ns":14,"title":"Category:Articles
+        containing potentially dated statements from October 2010"},{"ns":14,"title":"Category:Articles
+        with dead external links from April 2012"},{"ns":14,"title":"Category:Articles
+        with dead external links from August 2012"},{"ns":14,"title":"Category:Articles
+        with dead external links from December 2012"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from July 2012"},{"ns":14,"title":"Category:Use
+        mdy dates from April 2014"},{"ns":100,"title":"Portal:Journalism"},{"ns":100,"title":"Portal:New
+        York City"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:16 GMT
+recorded_with: VCR 2.9.2

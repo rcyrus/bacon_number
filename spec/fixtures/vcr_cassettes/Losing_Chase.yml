@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Losing%20Chase
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711859965, 2340337030, 1613069382
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '419'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:34 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"38144684":{"pageid":38144684,"ns":0,"title":"Losing
+        Chase","links":[{"ns":0,"title":"54th Golden Globe Awards"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Boxoffice (magazine)"},{"ns":0,"title":"Chicago
+        Tribune"},{"ns":0,"title":"Deseret News"},{"ns":0,"title":"Directorial debut"},{"ns":0,"title":"English
+        language"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden Globe
+        Awards"},{"ns":0,"title":"Helen Mirren"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kyra Sedgwick"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Martha''s
+        Vineyard"},{"ns":0,"title":"Michael Yarmush"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Showtime
+        (TV channel)"},{"ns":0,"title":"Six Degrees of Kevin Bacon"},{"ns":0,"title":"Sundance
+        Film Festival"},{"ns":0,"title":"Television film"},{"ns":0,"title":"The Austin
+        Chronicle"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"United
+        States"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:35 GMT
+recorded_with: VCR 2.9.2

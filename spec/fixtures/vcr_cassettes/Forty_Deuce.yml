@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Forty%20Deuce
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401613049, 2340324158, 1309448189
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '573'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:11 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4016 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"23202739":{"pageid":23202739,"ns":0,"title":"Forty
+        Deuce","links":[{"ns":0,"title":"1982 Cannes Film Festival"},{"ns":0,"title":"Alan
+        Bowne"},{"ns":0,"title":"Andy Warhol''s Frankenstein"},{"ns":0,"title":"Blood
+        for Dracula"},{"ns":0,"title":"Chelsea Girls"},{"ns":0,"title":"Drama film"},{"ns":0,"title":"Esai
+        Morales"},{"ns":0,"title":"Flesh (1968 film)"},{"ns":0,"title":"Harris Laskaway"},{"ns":0,"title":"Heat
+        (1972 film)"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jean-Jacques
+        Fourgeaud"},{"ns":0,"title":"John Ford Noonan"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"L''Amour
+        (film)"},{"ns":0,"title":"Mark Keyloun"},{"ns":0,"title":"Meade Roberts"},{"ns":0,"title":"Mixed
+        Blood (film)"},{"ns":0,"title":"Orson Bean"},{"ns":0,"title":"Paul Morrissey"},{"ns":0,"title":"Rudy
+        DeBellis"},{"ns":0,"title":"Spike of Bensonhurst"},{"ns":0,"title":"Steve
+        Steinlauf"},{"ns":0,"title":"Steven Fierberg"},{"ns":0,"title":"Susan Blond"},{"ns":0,"title":"The
+        Hound of the Baskervilles (1978 film)"},{"ns":0,"title":"The Velvet Underground
+        and Nico: A Symphony of Sound"},{"ns":0,"title":"Tommy Citera"},{"ns":0,"title":"Trash
+        (1970 film)"},{"ns":0,"title":"Un Certain Regard"},{"ns":0,"title":"Women
+        in Revolt"},{"ns":0,"title":"Yukio Yamamoto"},{"ns":4,"title":"Wikipedia:Stub"},{"ns":10,"title":"Template:1980s-drama-film-stub"},{"ns":10,"title":"Template:Paul
+        Morrissey"},{"ns":11,"title":"Template talk:1980s-drama-film-stub"},{"ns":11,"title":"Template
+        talk:Paul Morrissey"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:11 GMT
+recorded_with: VCR 2.9.2

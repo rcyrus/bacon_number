@@ -1,0 +1,122 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Footloose%20(1984%20film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704643535, 2340323944, 1309447778
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1788'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:10 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4016 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"877743":{"pageid":877743,"ns":0,"title":"Footloose
+        (1984 film)","links":[{"ns":0,"title":"8-track tape"},{"ns":0,"title":"AFI''s
+        100 Years...100 Cheers"},{"ns":0,"title":"AFI''s 100 Years...100 Songs"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Award for Best Original Song"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"All
+        the Right Moves (film)"},{"ns":0,"title":"Almost Paradise"},{"ns":0,"title":"American
+        Fork, Utah"},{"ns":0,"title":"Ann Wilson"},{"ns":0,"title":"Bible"},{"ns":0,"title":"Billboard
+        Hot 100"},{"ns":0,"title":"Bonnie Tyler"},{"ns":0,"title":"Book burning"},{"ns":0,"title":"Boston
+        Herald"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Boys on the Side"},{"ns":0,"title":"Bridget
+        Fonda"},{"ns":0,"title":"Broadway theater"},{"ns":0,"title":"Brooke Shields"},{"ns":0,"title":"California
+        Suite (film)"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Chicken
+        (game)"},{"ns":0,"title":"Chris Penn"},{"ns":0,"title":"Christine (1983 film)"},{"ns":0,"title":"Compact
+        Cassette"},{"ns":0,"title":"Compact Disc"},{"ns":0,"title":"Craig Brewer"},{"ns":0,"title":"Craig
+        Zadan"},{"ns":0,"title":"Dance"},{"ns":0,"title":"Dancers (film)"},{"ns":0,"title":"Daryl
+        Hannah"},{"ns":0,"title":"Dean Pitchford"},{"ns":0,"title":"Deniece Williams"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Diane Lane"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Diner
+        (film)"},{"ns":0,"title":"Douglas Dirkson"},{"ns":0,"title":"Drama film"},{"ns":0,"title":"Elizabeth
+        McGovern"},{"ns":0,"title":"Elmore City, Oklahoma"},{"ns":0,"title":"Eric
+        Carmen"},{"ns":0,"title":"Footloose (2011 film)"},{"ns":0,"title":"Footloose
+        (musical)"},{"ns":0,"title":"Footloose (song)"},{"ns":0,"title":"Footloose
+        (soundtrack)"},{"ns":0,"title":"Foreigner (band)"},{"ns":0,"title":"Frances
+        Lee McCain"},{"ns":0,"title":"Funny Lady"},{"ns":0,"title":"Geneva Steel"},{"ns":0,"title":"Georgia
+        (U.S. state)"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Goodbye,
+        Mr. Chips (1969 film)"},{"ns":0,"title":"Gramophone record"},{"ns":0,"title":"Heart
+        (band)"},{"ns":0,"title":"Heather Locklear"},{"ns":0,"title":"Herbert Ross"},{"ns":0,"title":"Holding
+        Out for a Hero"},{"ns":0,"title":"Hurts So Good"},{"ns":0,"title":"I Ought
+        to Be in Pictures (film)"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jamie
+        Lee Curtis"},{"ns":0,"title":"Jennifer Jason Leigh"},{"ns":0,"title":"Jim
+        Steinman"},{"ns":0,"title":"Jim Youngs"},{"ns":0,"title":"Jodie Foster"},{"ns":0,"title":"John
+        Laughlin (actor)"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John Mellencamp"},{"ns":0,"title":"Julia
+        Louis-Dreyfus"},{"ns":0,"title":"Julianne Hough"},{"ns":0,"title":"Karla Bonoff"},{"ns":0,"title":"Kenny
+        Loggins"},{"ns":0,"title":"Kenny Wormald"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Lehi,
+        Utah"},{"ns":0,"title":"Let''s Hear It for the Boy (song)"},{"ns":0,"title":"Lewis
+        J. Rachmil"},{"ns":0,"title":"Lori Loughlin"},{"ns":0,"title":"Lori Singer"},{"ns":0,"title":"Loverboy"},{"ns":0,"title":"Lynne
+        Marta"},{"ns":0,"title":"Madonna (entertainer)"},{"ns":0,"title":"Max Dugan
+        Returns"},{"ns":0,"title":"Meg Ryan"},{"ns":0,"title":"Meg Tilly"},{"ns":0,"title":"Melanie
+        Griffith"},{"ns":0,"title":"Metal Health (song)"},{"ns":0,"title":"Michael
+        Cimino"},{"ns":0,"title":"Michelle Pfeiffer"},{"ns":0,"title":"Moving Pictures
+        (band)"},{"ns":0,"title":"Musical film"},{"ns":0,"title":"My Blue Heaven (1990
+        film)"},{"ns":0,"title":"Nebo School District"},{"ns":0,"title":"New York
+        (magazine)"},{"ns":0,"title":"Nijinsky (film)"},{"ns":0,"title":"Once Upon
+        a Time in America"},{"ns":0,"title":"Paramount Pictures"},{"ns":0,"title":"Paul
+        Hirsch (film editor)"},{"ns":0,"title":"Payson, Utah"},{"ns":0,"title":"Pennies
+        from Heaven (1981 film)"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Phoebe
+        Cates"},{"ns":0,"title":"Play It Again, Sam (film)"},{"ns":0,"title":"Protocol
+        (film)"},{"ns":0,"title":"Quiet Riot"},{"ns":0,"title":"Remake"},{"ns":0,"title":"Ric
+        Waite"},{"ns":0,"title":"Risky Business"},{"ns":0,"title":"Rob Lowe"},{"ns":0,"title":"Rock
+        music"},{"ns":0,"title":"Roger Ebert"},{"ns":0,"title":"Rosanna Arquette"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Sammy Hagar"},{"ns":0,"title":"Sarah Jessica Parker"},{"ns":0,"title":"Shalamar"},{"ns":0,"title":"Sight
+        & Sound"},{"ns":0,"title":"Sight and Sound"},{"ns":0,"title":"Somebody''s
+        Eyes"},{"ns":0,"title":"Soundtrack"},{"ns":0,"title":"Splash (film)"},{"ns":0,"title":"Steel
+        Magnolias"},{"ns":0,"title":"Stephen King"},{"ns":0,"title":"T.R. Baskin"},{"ns":0,"title":"Tatum
+        O''Neal"},{"ns":0,"title":"The Goodbye Girl"},{"ns":0,"title":"The Last of
+        Sheila"},{"ns":0,"title":"The Owl and the Pussycat (film)"},{"ns":0,"title":"The
+        Secret of My Success (1987 film)"},{"ns":0,"title":"The Seven-Per-Cent Solution
+        (film)"},{"ns":0,"title":"The Sunshine Boys (film)"},{"ns":0,"title":"The
+        Turning Point (1977 film)"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom
+        Snow (songwriter)"},{"ns":0,"title":"True Colors (1991 film)"},{"ns":0,"title":"Undercover
+        Blues"},{"ns":0,"title":"Utah County, Utah"},{"ns":0,"title":"Waiting for
+        a Girl Like You"},{"ns":0,"title":"Welsh people"},{"ns":0,"title":"West End
+        theatre"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Footloose"},{"ns":10,"title":"Template:Herbert
+        Ross"},{"ns":10,"title":"Template:Refimprove"},{"ns":10,"title":"Template:Unreferenced
+        section"},{"ns":11,"title":"Template talk:Footloose"},{"ns":11,"title":"Template
+        talk:Herbert Ross"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        needing additional references from June 2010"},{"ns":14,"title":"Category:Articles
+        needing additional references from May 2012"},{"ns":14,"title":"Category:Articles
+        needing additional references from October 2011"},{"ns":14,"title":"Category:Use
+        mdy dates from May 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:11 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,237 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=San%20Diego%20Comic-Con%20International
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711894146, 983728356, 2899149850
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4318'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:00 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4018 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"843158|0|Manga"}},"query":{"pages":{"843158":{"pageid":843158,"ns":0,"title":"San
+        Diego Comic-Con International","links":[{"ns":0,"title":"1984 Summer Olympics"},{"ns":0,"title":"A.
+        E. van Vogt"},{"ns":0,"title":"Aaron McGruder"},{"ns":0,"title":"Adam Hughes"},{"ns":0,"title":"Adam
+        West"},{"ns":0,"title":"Adrian Tomine"},{"ns":0,"title":"Al Feldstein"},{"ns":0,"title":"Al
+        Jaffee"},{"ns":0,"title":"Al Wiesner"},{"ns":0,"title":"Al Williamson"},{"ns":0,"title":"Alan
+        Davis"},{"ns":0,"title":"Alan Dean Foster"},{"ns":0,"title":"Alan Moore"},{"ns":0,"title":"Alex
+        Ni\u00f1o"},{"ns":0,"title":"Alex Ross"},{"ns":0,"title":"Alex Schomburg"},{"ns":0,"title":"Alison
+        Bechdel"},{"ns":0,"title":"Allen Bellman"},{"ns":0,"title":"Alternative Press
+        Expo"},{"ns":0,"title":"Alvin Schwartz (comics)"},{"ns":0,"title":"Amanda
+        Conner"},{"ns":0,"title":"Anaheim, California"},{"ns":0,"title":"Anaheim Convention
+        Center"},{"ns":0,"title":"Anders Nilsen"},{"ns":0,"title":"Andrew Vachss"},{"ns":0,"title":"Andy
+        Mangels"},{"ns":0,"title":"Andy Runton"},{"ns":0,"title":"Angelo Torres"},{"ns":0,"title":"Anime"},{"ns":0,"title":"Anina
+        Bennett"},{"ns":0,"title":"Ann VanderMeer"},{"ns":0,"title":"Arn Saba"},{"ns":0,"title":"Arnold
+        Drake"},{"ns":0,"title":"Art Adams"},{"ns":0,"title":"Art Clokey"},{"ns":0,"title":"Art
+        Spiegelman"},{"ns":0,"title":"Ashley Wood"},{"ns":0,"title":"Associated Press"},{"ns":0,"title":"Axe
+        Cop"},{"ns":0,"title":"B. Kliban"},{"ns":0,"title":"Baltimore Sun"},{"ns":0,"title":"Barry
+        Windsor-Smith"},{"ns":0,"title":"Basil Gogos"},{"ns":0,"title":"Batton Lash"},{"ns":0,"title":"Beauty
+        and the Geek"},{"ns":0,"title":"Becky Cloonan"},{"ns":0,"title":"Being Human
+        (North American TV series)"},{"ns":0,"title":"Ben Bova"},{"ns":0,"title":"Ben
+        Edlund"},{"ns":0,"title":"Ben Katchor"},{"ns":0,"title":"Ben Templesmith"},{"ns":0,"title":"Berkeley
+        Breathed"},{"ns":0,"title":"Bernie Wrightson"},{"ns":0,"title":"Bil Keane"},{"ns":0,"title":"Bill
+        Amend"},{"ns":0,"title":"Bill Griffith"},{"ns":0,"title":"Bill Mumy"},{"ns":0,"title":"Bill
+        Plympton"},{"ns":0,"title":"Bill Schelly"},{"ns":0,"title":"Bill Scott (voice
+        actor)"},{"ns":0,"title":"Bill Sienkiewicz"},{"ns":0,"title":"Bill Willingham"},{"ns":0,"title":"Bob
+        Bolling"},{"ns":0,"title":"Bob Clampett"},{"ns":0,"title":"Bob Fujitani"},{"ns":0,"title":"Bob
+        Kane"},{"ns":0,"title":"Bob Layton"},{"ns":0,"title":"Bob Lubbers"},{"ns":0,"title":"Bob
+        Oksner"},{"ns":0,"title":"Bob Schreck"},{"ns":0,"title":"Bob Stevens (comics)"},{"ns":0,"title":"Bones
+        (TV series)"},{"ns":0,"title":"Boris Vallejo"},{"ns":0,"title":"Brad Meltzer"},{"ns":0,"title":"Brandon
+        Sanderson"},{"ns":0,"title":"Brant Parker"},{"ns":0,"title":"Brecht Evens"},{"ns":0,"title":"Brent
+        Anderson"},{"ns":0,"title":"Brian Azzarello"},{"ns":0,"title":"Brian Bolland"},{"ns":0,"title":"Brian
+        Fies"},{"ns":0,"title":"Brian Froud"},{"ns":0,"title":"Brian Herbert"},{"ns":0,"title":"Brian
+        K. Vaughan"},{"ns":0,"title":"Brian Michael Bendis"},{"ns":0,"title":"Brian
+        Pulido"},{"ns":0,"title":"Brian Walker (author)"},{"ns":0,"title":"Brian Wood
+        (illustrator)"},{"ns":0,"title":"Brinke Stevens"},{"ns":0,"title":"Bruce Campbell"},{"ns":0,"title":"Bruce
+        Timm"},{"ns":0,"title":"Bryan Hitch"},{"ns":0,"title":"Bryan Lee O''Malley"},{"ns":0,"title":"Bryan
+        Talbot"},{"ns":0,"title":"Burn Notice"},{"ns":0,"title":"Burne Hogarth"},{"ns":0,"title":"C.
+        C. Beck"},{"ns":0,"title":"C. Tyler"},{"ns":0,"title":"CBS"},{"ns":0,"title":"California"},{"ns":0,"title":"Cameron
+        Stewart"},{"ns":0,"title":"Carl Barks"},{"ns":0,"title":"Carl Macek"},{"ns":0,"title":"Carla
+        Speed McNeil"},{"ns":0,"title":"Carmine Infantino"},{"ns":0,"title":"Carol
+        Lay"},{"ns":0,"title":"Castle (TV series)"},{"ns":0,"title":"Cecil Castellucci"},{"ns":0,"title":"Chad
+        Grothkopf"},{"ns":0,"title":"Charlaine Harris"},{"ns":0,"title":"Charles Berberian"},{"ns":0,"title":"Charles
+        Burns (cartoonist)"},{"ns":0,"title":"Charles M. Schulz"},{"ns":0,"title":"Charles
+        Vess"},{"ns":0,"title":"Charlie Adlard"},{"ns":0,"title":"Charlie Huston"},{"ns":0,"title":"Chester
+        Brown"},{"ns":0,"title":"China Mi\u00e9ville"},{"ns":0,"title":"Chip Kidd"},{"ns":0,"title":"Chris
+        Claremont"},{"ns":0,"title":"Chris Ware"},{"ns":0,"title":"Christopher Moore
+        (author)"},{"ns":0,"title":"Christopher Paolini"},{"ns":0,"title":"Christos
+        N. Gage"},{"ns":0,"title":"Chuck (TV series)"},{"ns":0,"title":"Chuck Cuidera"},{"ns":0,"title":"Chuck
+        Jones"},{"ns":0,"title":"Chuck McCann"},{"ns":0,"title":"Chuck Norris"},{"ns":0,"title":"Chuck
+        Versus the Sandworm"},{"ns":0,"title":"City News Service"},{"ns":0,"title":"Clarence
+        Nash"},{"ns":0,"title":"Clive Barker"},{"ns":0,"title":"Collectible card game"},{"ns":0,"title":"Collectibles"},{"ns":0,"title":"Colleen
+        Doran"},{"ns":0,"title":"Comecon"},{"ns":0,"title":"Comic-Con (disambiguation)"},{"ns":0,"title":"Comic-Con
+        Episode IV: A Fan''s Hope"},{"ns":0,"title":"ComicCon"},{"ns":0,"title":"Comic
+        Art Convention"},{"ns":0,"title":"Comic Book: The Movie"},{"ns":0,"title":"Comics
+        Arts Conference"},{"ns":0,"title":"Connie Willis"},{"ns":0,"title":"Cory Doctorow"},{"ns":0,"title":"Country
+        Joe"},{"ns":0,"title":"Country Joe & The Fish"},{"ns":0,"title":"Craig McCracken"},{"ns":0,"title":"Craig
+        Thompson"},{"ns":0,"title":"Craigslist"},{"ns":0,"title":"Creation Entertainment"},{"ns":0,"title":"Creig
+        Flessel"},{"ns":0,"title":"Curt Swan"},{"ns":0,"title":"D.C. Fontana"},{"ns":0,"title":"Dale
+        Messick"},{"ns":0,"title":"Dan Brereton"},{"ns":0,"title":"Dan Clowes"},{"ns":0,"title":"Dan
+        DeCarlo"},{"ns":0,"title":"Dan Jurgens"},{"ns":0,"title":"Dan O''Bannon"},{"ns":0,"title":"Dan
+        Piraro"},{"ns":0,"title":"Dan Spiegle"},{"ns":0,"title":"Daniel Clowes"},{"ns":0,"title":"Darick
+        Robertson"},{"ns":0,"title":"Darwyn Cooke"},{"ns":0,"title":"Daryl Cagle"},{"ns":0,"title":"Dave
+        Berg (cartoonist)"},{"ns":0,"title":"Dave Dorman"},{"ns":0,"title":"Dave Gibbons"},{"ns":0,"title":"Dave
+        McKean"},{"ns":0,"title":"Dave Sim"},{"ns":0,"title":"Dave Stevens"},{"ns":0,"title":"Dave
+        Stewart (artist)"},{"ns":0,"title":"David Brin"},{"ns":0,"title":"David Finch
+        (comics)"},{"ns":0,"title":"David Gerrold"},{"ns":0,"title":"David Lapham"},{"ns":0,"title":"David
+        Lloyd (comics)"},{"ns":0,"title":"David Morrell"},{"ns":0,"title":"David Petersen
+        (comics)"},{"ns":0,"title":"David Reddish"},{"ns":0,"title":"Dean Koontz"},{"ns":0,"title":"Dean
+        Yeagle"},{"ns":0,"title":"Denis Kitchen"},{"ns":0,"title":"Dennis O''Neil"},{"ns":0,"title":"Detroit
+        Triple Fan Fair"},{"ns":0,"title":"Devin K. Grayson"},{"ns":0,"title":"Dexter
+        (TV series)"},{"ns":0,"title":"Dexter Taylor"},{"ns":0,"title":"Diane Noomin"},{"ns":0,"title":"Dick
+        Ayers"},{"ns":0,"title":"Dick DeBartolo"},{"ns":0,"title":"Dick Giordano"},{"ns":0,"title":"Dick
+        Moores"},{"ns":0,"title":"Doctor Who"},{"ns":0,"title":"Don Maitz"},{"ns":0,"title":"Don
+        Martin (cartoonist)"},{"ns":0,"title":"Don Rico"},{"ns":0,"title":"Don Thompson
+        (Comics Buyer''s Guide)"},{"ns":0,"title":"Donna Barr"},{"ns":0,"title":"Doug
+        Moench"},{"ns":0,"title":"Doug Savage"},{"ns":0,"title":"Doug TenNapel"},{"ns":0,"title":"Doug
+        Wildey"},{"ns":0,"title":"Douglas Adams"},{"ns":0,"title":"Douglas E. Richards"},{"ns":0,"title":"Drew
+        Struzan"},{"ns":0,"title":"Dusty Higgins"},{"ns":0,"title":"Dwayne McDuffie"},{"ns":0,"title":"EBay"},{"ns":0,"title":"Ed
+        Benes"},{"ns":0,"title":"Ed Brubaker"},{"ns":0,"title":"Eddie Campbell"},{"ns":0,"title":"Edmund
+        Hamilton"},{"ns":0,"title":"Eduardo Risso"},{"ns":0,"title":"Eisner Awards"},{"ns":0,"title":"El
+        Cortez Apartment Hotel"},{"ns":0,"title":"Entourage (TV series)"},{"ns":0,"title":"Eric
+        Drooker"},{"ns":0,"title":"Eric Jones (comics)"},{"ns":0,"title":"Eric Powell
+        (comics)"},{"ns":0,"title":"Eric Shanower"},{"ns":0,"title":"Erik Larsen"},{"ns":0,"title":"Ernie
+        Chan"},{"ns":0,"title":"Ethan Nicolle"},{"ns":0,"title":"Ethan Van Sciver"},{"ns":0,"title":"Eureka
+        (U.S. TV series)"},{"ns":0,"title":"Evan Dorkin"},{"ns":0,"title":"Everett
+        Raymond Kinstler"},{"ns":0,"title":"F. Paul Wilson"},{"ns":0,"title":"Fabio
+        Moon"},{"ns":0,"title":"Fandom"},{"ns":0,"title":"Fantasy"},{"ns":0,"title":"Felicia
+        Day"},{"ns":0,"title":"Ferd Johnson"},{"ns":0,"title":"Floyd Gottfredson"},{"ns":0,"title":"Floyd
+        Norman"},{"ns":0,"title":"Forbes"},{"ns":0,"title":"Forrest J. Ackerman"},{"ns":0,"title":"Forrest
+        J Ackerman"},{"ns":0,"title":"Fox Broadcasting Company"},{"ns":0,"title":"Francis
+        Ford Coppola"},{"ns":0,"title":"Francis Manapul"},{"ns":0,"title":"Frank Beddor"},{"ns":0,"title":"Frank
+        Capra"},{"ns":0,"title":"Frank Cho"},{"ns":0,"title":"Frank Jacobs"},{"ns":0,"title":"Frank
+        Miller (comics)"},{"ns":0,"title":"Frank Springer"},{"ns":0,"title":"Frank
+        Stack"},{"ns":0,"title":"Frank Thomas (animator)"},{"ns":0,"title":"Frank
+        Thorne"},{"ns":0,"title":"Fran\u00e7ois Schuiten"},{"ns":0,"title":"Fran\u00e7oise
+        Mouly"},{"ns":0,"title":"Fred Rhoads"},{"ns":0,"title":"Fringe (TV series)"},{"ns":0,"title":"Futurama"},{"ns":0,"title":"Gabrielle
+        Bell"},{"ns":0,"title":"Gahan Wilson"},{"ns":0,"title":"Gail Carriger"},{"ns":0,"title":"Gail
+        Simone"},{"ns":0,"title":"Gardner Fox"},{"ns":0,"title":"Garth Ennis"},{"ns":0,"title":"Gary
+        Friedrich"},{"ns":0,"title":"Gary Gianni"},{"ns":0,"title":"Gary Owens"},{"ns":0,"title":"Gary
+        Panter"},{"ns":0,"title":"Gary Trousdale"},{"ns":0,"title":"Gene Colan"},{"ns":0,"title":"Gene
+        Ha"},{"ns":0,"title":"Gene Yang"},{"ns":0,"title":"Gentle Giant LTD"},{"ns":0,"title":"Geof
+        Darrow"},{"ns":0,"title":"Geoff Johns"},{"ns":0,"title":"Geographic coordinate
+        system"},{"ns":0,"title":"George A. Romero"},{"ns":0,"title":"George Gladir"},{"ns":0,"title":"George
+        Pal"},{"ns":0,"title":"George P\u00e9rez"},{"ns":0,"title":"George R.R. Martin"},{"ns":0,"title":"George
+        Tuska"},{"ns":0,"title":"George Woodbridge"},{"ns":0,"title":"Gerald Brom"},{"ns":0,"title":"Gerard
+        Way"},{"ns":0,"title":"Gerry Alanguilan"},{"ns":0,"title":"Gil Kane"},{"ns":0,"title":"Gilbert
+        Hernandez"},{"ns":0,"title":"Gilbert Shelton"},{"ns":0,"title":"Golden Hall
+        (sports venue)"},{"ns":0,"title":"Grant Morrison"},{"ns":0,"title":"Gray Morrow"},{"ns":0,"title":"Greg
+        Bear"},{"ns":0,"title":"Greg Evans (cartoonist)"},{"ns":0,"title":"Greg Hildebrandt"},{"ns":0,"title":"Greg
+        Jein"},{"ns":0,"title":"Greg Weisman"},{"ns":0,"title":"Grim Natwick"},{"ns":0,"title":"Grimm
+        (TV series)"},{"ns":0,"title":"Guy Delisle"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hal
+        Sherman"},{"ns":0,"title":"Hank Ketcham"},{"ns":0,"title":"Harbor Island,
+        San Diego"},{"ns":0,"title":"Harlan Ellison"},{"ns":0,"title":"Harry Harrison
+        (writer)"},{"ns":0,"title":"Harry Knowles"},{"ns":0,"title":"Harry Lampert"},{"ns":0,"title":"Harvey
+        Kurtzman"},{"ns":0,"title":"Harvey Pekar"},{"ns":0,"title":"Hasbro"},{"ns":0,"title":"Hayao
+        Miyazaki"},{"ns":0,"title":"Heidi McDonald"},{"ns":0,"title":"Herb Trimpe"},{"ns":0,"title":"Hilary
+        Swank"},{"ns":0,"title":"Hilton San Diego Bayfront"},{"ns":0,"title":"Hiro
+        Mashima"},{"ns":0,"title":"Hope Larson"},{"ns":0,"title":"Horror fiction"},{"ns":0,"title":"House
+        of Blues"},{"ns":0,"title":"Howard Chaykin"},{"ns":0,"title":"Howard Cruse"},{"ns":0,"title":"Howard
+        Porter"},{"ns":0,"title":"Howard Post"},{"ns":0,"title":"IFanboy.com"},{"ns":0,"title":"I
+        Love You Too (Entourage)"},{"ns":0,"title":"Independence Day (United States)"},{"ns":0,"title":"Inkpot
+        Award"},{"ns":0,"title":"Irv Novick"},{"ns":0,"title":"Irwin Hasen"},{"ns":0,"title":"Ivan
+        Reis"},{"ns":0,"title":"J. G. Jones"},{"ns":0,"title":"J. H. Williams III"},{"ns":0,"title":"J.
+        J. Sedelmaier"},{"ns":0,"title":"J. Michael Straczynski"},{"ns":0,"title":"Jack
+        Adler"},{"ns":0,"title":"Jack Davis (cartoonist)"},{"ns":0,"title":"Jack Kamen"},{"ns":0,"title":"Jack
+        Katz (artist)"},{"ns":0,"title":"Jack Kirby"},{"ns":0,"title":"Jackson Guice"},{"ns":0,"title":"Jaime
+        Hernandez"},{"ns":0,"title":"Jamal Igle"},{"ns":0,"title":"James Gurney"},{"ns":0,"title":"James
+        Jean"},{"ns":0,"title":"James Kochalka"},{"ns":0,"title":"James O''Barr"},{"ns":0,"title":"James
+        Robinson (comics)"},{"ns":0,"title":"James Robinson (writer)"},{"ns":0,"title":"James
+        Shoop"},{"ns":0,"title":"James Sturm"},{"ns":0,"title":"Janny Wurts"},{"ns":0,"title":"Japanese
+        animation"},{"ns":0,"title":"Jason Lutes"},{"ns":0,"title":"Jason Shiga"},{"ns":0,"title":"Jason
+        Spyda Adams"},{"ns":0,"title":"Jean-Claude M\u00e9zi\u00e8res"},{"ns":0,"title":"Jean-Claude
+        Van Damme"},{"ns":0,"title":"Jean Giraud"},{"ns":0,"title":"Jeff Lemire"},{"ns":0,"title":"Jeff
+        Loeb"},{"ns":0,"title":"Jeff Smith (cartoonist)"},{"ns":0,"title":"Jeff VanderMeer"},{"ns":0,"title":"Jeff
+        Watts"},{"ns":0,"title":"Jenette Kahn"},{"ns":0,"title":"Jennifer Holm"},{"ns":0,"title":"Jerry
+        Bails"},{"ns":0,"title":"Jerry Beck"},{"ns":0,"title":"Jerry Ordway"},{"ns":0,"title":"Jerry
+        Pournelle"},{"ns":0,"title":"Jerry Robinson"},{"ns":0,"title":"Jerry Siegel"},{"ns":0,"title":"Jerry
+        Vanderstelt"},{"ns":0,"title":"Jhonen Vasquez"},{"ns":0,"title":"Jill Thompson"},{"ns":0,"title":"Jillian
+        Tamaki"},{"ns":0,"title":"Jim Aparo"},{"ns":0,"title":"Jim Butcher"},{"ns":0,"title":"Jim
+        Fitzpatrick (artist)"},{"ns":0,"title":"Jim Lee"},{"ns":0,"title":"Jim Mooney"},{"ns":0,"title":"Jim
+        Ottaviani"},{"ns":0,"title":"Jim Silke"},{"ns":0,"title":"Jim Starlin"},{"ns":0,"title":"Jim
+        Steranko"},{"ns":0,"title":"Jim Valentino"},{"ns":0,"title":"Jim Warren (artist)"},{"ns":0,"title":"Jim
+        Woodring"},{"ns":0,"title":"Jimmy Gownley"},{"ns":0,"title":"Jimmy Palmiotti"},{"ns":0,"title":"Jo
+        Chen"},{"ns":0,"title":"Jock Mahoney"},{"ns":0,"title":"Joe Giella"},{"ns":0,"title":"Joe
+        Haldeman"},{"ns":0,"title":"Joe Hill"},{"ns":0,"title":"Joe Jusko"},{"ns":0,"title":"Joe
+        Kubert"},{"ns":0,"title":"Joe Matt"},{"ns":0,"title":"Joe Orlando"},{"ns":0,"title":"Joe
+        R. Lansdale"},{"ns":0,"title":"Joe Shuster"},{"ns":0,"title":"Joe Simon"},{"ns":0,"title":"Joe
+        Sinnott"},{"ns":0,"title":"Joe Staton"},{"ns":0,"title":"Joel Adams"},{"ns":0,"title":"John
+        Broome (writer)"},{"ns":0,"title":"John Buscema"},{"ns":0,"title":"John Byrne
+        (comics)"},{"ns":0,"title":"John Higgins (comics)"},{"ns":0,"title":"John
+        Howe (illustrator)"},{"ns":0,"title":"John Kricfalusi"},{"ns":0,"title":"John
+        Lasseter"},{"ns":0,"title":"John Layman"},{"ns":0,"title":"John Lewis (U.S.
+        politician)"},{"ns":0,"title":"John Romita Jr"},{"ns":0,"title":"John Romita
+        Jr."},{"ns":0,"title":"John Romita Sr."},{"ns":0,"title":"John Scalzi"},{"ns":0,"title":"John
+        Totleben"},{"ns":0,"title":"John Wagner"},{"ns":0,"title":"Jon Favreau"},{"ns":0,"title":"Jonathan
+        Hickman"},{"ns":0,"title":"Jonathan Matthews"},{"ns":0,"title":"Jordi Bernet"},{"ns":0,"title":"Joseph
+        Michael Linsner"},{"ns":0,"title":"Josh Adams"},{"ns":0,"title":"Joyce Brabner"},{"ns":0,"title":"Joyce
+        Farmer"},{"ns":0,"title":"Jo\u00eblle Jones"},{"ns":0,"title":"Judd Winick"},{"ns":0,"title":"Jules
+        Feiffer"},{"ns":0,"title":"Julie Doucet"},{"ns":0,"title":"Julius Schwartz"},{"ns":0,"title":"June
+        Foray"},{"ns":0,"title":"KFMB-TV"},{"ns":0,"title":"KNSD"},{"ns":0,"title":"Karen
+        Palinko"},{"ns":0,"title":"Karl Kerschl"},{"ns":0,"title":"Kate Beaton"},{"ns":0,"title":"Katherine
+        Collins"},{"ns":0,"title":"Katherine Kurtz"},{"ns":0,"title":"Kathryn Immonen"},{"ns":0,"title":"Kazu
+        Kibuishi"},{"ns":0,"title":"Kazuo Koike"},{"ns":0,"title":"Keith Giffen"},{"ns":0,"title":"Keith
+        Knight (cartoonist)"},{"ns":0,"title":"Kelly Freas"},{"ns":0,"title":"Ken
+        Krueger"},{"ns":0,"title":"Ken Steacy"},{"ns":0,"title":"Kent Williams (artist)"},{"ns":0,"title":"Kevin
+        Eastman"},{"ns":0,"title":"Kevin J. Anderson"},{"ns":0,"title":"Kevin Nowlan"},{"ns":0,"title":"Kevin
+        O''Neill (comics)"},{"ns":0,"title":"Kevin Smith"},{"ns":0,"title":"Kim Deitch"},{"ns":0,"title":"Kim
+        Harrison"},{"ns":0,"title":"Kim Stanley Robinson"},{"ns":0,"title":"Kirk Alyn"},{"ns":0,"title":"Kirk
+        Wise"},{"ns":0,"title":"Klaus Janson"},{"ns":0,"title":"Kurt Busiek"},{"ns":0,"title":"Kurt
+        Schaffenberger"},{"ns":0,"title":"Kyle Baker"},{"ns":0,"title":"L. B. Cole"},{"ns":0,"title":"LEGO"},{"ns":0,"title":"La
+        Jolla"},{"ns":0,"title":"Lalo Alcaraz"},{"ns":0,"title":"Landry Walker"},{"ns":0,"title":"Larry
+        Gonick"},{"ns":0,"title":"Larry Hama"},{"ns":0,"title":"Larry Lieber"},{"ns":0,"title":"Larry
+        Marder"},{"ns":0,"title":"Larry Niven"},{"ns":0,"title":"Larry Vincent"},{"ns":0,"title":"Laurell
+        K. Hamilton"},{"ns":0,"title":"Lee J. Ames"},{"ns":0,"title":"Leigh Brackett"},{"ns":0,"title":"Leinil
+        Yu"},{"ns":0,"title":"Len Wein"},{"ns":0,"title":"Leonard Nimoy"},{"ns":0,"title":"Leonard
+        Starr"},{"ns":0,"title":"Lew Schwartz"},{"ns":0,"title":"Lewis Shiner"},{"ns":0,"title":"Lewis
+        Trondheim"},{"ns":0,"title":"Lily Ren\u00e9e"},{"ns":0,"title":"Linda Medley"},{"ns":0,"title":"List
+        of Numb3rs episodes"},{"ns":0,"title":"Lorenzo Mattotti"},{"ns":0,"title":"Los
+        Angeles Times"},{"ns":0,"title":"Lost Girl"},{"ns":0,"title":"Lou Scheimer"},{"ns":0,"title":"Louise
+        Simonson"},{"ns":0,"title":"Lrrreconcilable Ndndifferences"},{"ns":0,"title":"Lucius
+        Shepard"},{"ns":0,"title":"Lurene Haines"},{"ns":0,"title":"Lynda Barry"},{"ns":0,"title":"Lynn
+        Johnston"},{"ns":0,"title":"Maggie Thompson"},{"ns":0,"title":"Majel Barrett"},{"ns":0,"title":"Manchester
+        Grand Hyatt Hotel"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:01 GMT
+recorded_with: VCR 2.9.2

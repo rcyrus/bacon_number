@@ -1,0 +1,257 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=The%20Guardian
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001206637, 3536781727, 1613107736
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4735'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:15 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4008 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"19344515|0|National_Health_Service"}},"query":{"pages":{"19344515":{"pageid":19344515,"ns":0,"title":"The
+        Guardian","links":[{"ns":0,"title":"1688 Bill of Rights"},{"ns":0,"title":"2003
+        invasion of Iraq"},{"ns":0,"title":"2006 C\u00f4te d''Ivoire toxic waste dump"},{"ns":0,"title":"2010
+        United Kingdom government formation"},{"ns":0,"title":"4oD"},{"ns":0,"title":"4seven"},{"ns":0,"title":"5*"},{"ns":0,"title":"5USA"},{"ns":0,"title":"7
+        July 2005 London bombings"},{"ns":0,"title":"A.C. Grayling"},{"ns":0,"title":"A.
+        J. P. Taylor"},{"ns":0,"title":"A Softer World"},{"ns":0,"title":"Abraham
+        Lincoln"},{"ns":0,"title":"Absolute 80s"},{"ns":0,"title":"Absolute Radio"},{"ns":0,"title":"Absolute
+        Radio 90s"},{"ns":0,"title":"Absolute Radio Extra"},{"ns":0,"title":"Act of
+        Settlement 1701"},{"ns":0,"title":"Acts of Parliament in the United Kingdom"},{"ns":0,"title":"Adam
+        Raphael"},{"ns":0,"title":"Advertising Standards Authority (United Kingdom)"},{"ns":0,"title":"Afghanistan"},{"ns":0,"title":"Alan
+        Rusbridger"},{"ns":0,"title":"Alastair Hetherington"},{"ns":0,"title":"Aleks
+        Krotoski"},{"ns":0,"title":"Alex Brummer"},{"ns":0,"title":"Alex Kapranos"},{"ns":0,"title":"Alexander
+        Chancellor"},{"ns":0,"title":"Alibi (TV channel)"},{"ns":0,"title":"Alistair
+        Cooke"},{"ns":0,"title":"Allegra Stratton"},{"ns":0,"title":"Alliance Party
+        of Northern Ireland"},{"ns":0,"title":"Amazing Radio"},{"ns":0,"title":"Amelia
+        Gentleman"},{"ns":0,"title":"American Civil War"},{"ns":0,"title":"American
+        Prospect"},{"ns":0,"title":"Ana Marie Cox"},{"ns":0,"title":"Anagram"},{"ns":0,"title":"Analogue
+        television in the United Kingdom"},{"ns":0,"title":"Analogue terrestrial television
+        in the United Kingdom"},{"ns":0,"title":"Andrew Rawnsley"},{"ns":0,"title":"Andrew
+        Sparrow"},{"ns":0,"title":"Aneurin Bevan"},{"ns":0,"title":"Ann Widdecombe"},{"ns":0,"title":"Anna
+        Minton"},{"ns":0,"title":"Anna Politkovskaya"},{"ns":0,"title":"Archant"},{"ns":0,"title":"Armando
+        Iannucci"},{"ns":0,"title":"Arnold Toynbee"},{"ns":0,"title":"Arte"},{"ns":0,"title":"Arthur
+        Koestler"},{"ns":0,"title":"Arthur Ransome"},{"ns":0,"title":"Audit"},{"ns":0,"title":"Audit
+        Bureau of Circulations (UK)"},{"ns":0,"title":"Auto Trader (UK)"},{"ns":0,"title":"BBC"},{"ns":0,"title":"BBC
+        Academy"},{"ns":0,"title":"BBC Asian Network"},{"ns":0,"title":"BBC Four"},{"ns":0,"title":"BBC
+        National DAB"},{"ns":0,"title":"BBC News (TV channel)"},{"ns":0,"title":"BBC
+        One"},{"ns":0,"title":"BBC Pacific Quay"},{"ns":0,"title":"BBC Parliament"},{"ns":0,"title":"BBC
+        Radio"},{"ns":0,"title":"BBC Radio 1"},{"ns":0,"title":"BBC Radio 1Xtra"},{"ns":0,"title":"BBC
+        Radio 2"},{"ns":0,"title":"BBC Radio 3"},{"ns":0,"title":"BBC Radio 4"},{"ns":0,"title":"BBC
+        Radio 4 Extra"},{"ns":0,"title":"BBC Radio 5 Live"},{"ns":0,"title":"BBC Radio
+        5 Live Sports Extra"},{"ns":0,"title":"BBC Radio 6 Music"},{"ns":0,"title":"BBC
+        Television"},{"ns":0,"title":"BBC Television Centre"},{"ns":0,"title":"BBC
+        Three"},{"ns":0,"title":"BBC Trust"},{"ns":0,"title":"BBC Two"},{"ns":0,"title":"BBC
+        iPlayer"},{"ns":0,"title":"BSkyB"},{"ns":0,"title":"BT Group"},{"ns":0,"title":"BT
+        TV"},{"ns":0,"title":"Baghdad Blogger"},{"ns":0,"title":"Balfour Declaration
+        of 1917"},{"ns":0,"title":"Barack Obama"},{"ns":0,"title":"Barclays"},{"ns":0,"title":"Barclays
+        Bank"},{"ns":0,"title":"Bauer Radio"},{"ns":0,"title":"Bel Littlejohn"},{"ns":0,"title":"Ben
+        Goldacre"},{"ns":0,"title":"Ben Hammersley"},{"ns":0,"title":"Berkeley Breathed"},{"ns":0,"title":"Berliner
+        (format)"},{"ns":0,"title":"Bernadette Devlin McAliskey"},{"ns":0,"title":"Beth
+        Ditto"},{"ns":0,"title":"Bevins Prize"},{"ns":0,"title":"Bibi van der Zee"},{"ns":0,"title":"Biff
+        (cartoon)"},{"ns":0,"title":"Blinkbox"},{"ns":0,"title":"Bloody Sunday (1972)"},{"ns":0,"title":"Bloomsbury
+        Publishing"},{"ns":0,"title":"Board of Deputies of British Jews"},{"ns":0,"title":"Boutros
+        Boutros-Ghali"},{"ns":0,"title":"Brian Aldiss"},{"ns":0,"title":"Brian J.
+        Ford"},{"ns":0,"title":"Brian Redhead"},{"ns":0,"title":"Brian Whitaker"},{"ns":0,"title":"Bristol
+        Herald Courier"},{"ns":0,"title":"British Academy of Film and Television Arts"},{"ns":0,"title":"British
+        Board of Film Classification"},{"ns":0,"title":"British Film Institute"},{"ns":0,"title":"British
+        Forces Broadcasting Service"},{"ns":0,"title":"British Library"},{"ns":0,"title":"British
+        National Party"},{"ns":0,"title":"British Phonographic Industry"},{"ns":0,"title":"British
+        Press Awards"},{"ns":0,"title":"Broadcast journalism"},{"ns":0,"title":"Broadcasting,
+        Entertainment, Cinematograph and Theatre Union"},{"ns":0,"title":"Broadcasting
+        House"},{"ns":0,"title":"Broadcasting House (Cardiff)"},{"ns":0,"title":"Broadsheet"},{"ns":0,"title":"Burma"},{"ns":0,"title":"C.
+        E. Montague"},{"ns":0,"title":"C. L. R. James"},{"ns":0,"title":"C. P. Scott"},{"ns":0,"title":"CBBC
+        (TV channel)"},{"ns":0,"title":"CBeebies"},{"ns":0,"title":"CITV"},{"ns":0,"title":"CNN"},{"ns":0,"title":"Cable
+        & Wireless plc"},{"ns":0,"title":"Cable television"},{"ns":0,"title":"Carter-Ruck"},{"ns":0,"title":"Catherine
+        Bennett (journalist)"},{"ns":0,"title":"Centre-left"},{"ns":0,"title":"Chaim
+        Weizmann"},{"ns":0,"title":"Challenge (TV channel)"},{"ns":0,"title":"Channel
+        4"},{"ns":0,"title":"Channel 5 (UK)"},{"ns":0,"title":"Channel Four Television
+        Corporation"},{"ns":0,"title":"Charles Prestwich Scott"},{"ns":0,"title":"Charlie
+        Brooker"},{"ns":0,"title":"Chris McGreal"},{"ns":0,"title":"Christian Party
+        (UK)"},{"ns":0,"title":"Christian Peoples Alliance"},{"ns":0,"title":"Christian
+        Schwartz"},{"ns":0,"title":"Clare Hollingworth"},{"ns":0,"title":"Clare in
+        the Community"},{"ns":0,"title":"Clark County, Ohio"},{"ns":0,"title":"Class
+        action"},{"ns":0,"title":"Classic FM (UK)"},{"ns":0,"title":"Clearcast"},{"ns":0,"title":"Clement
+        Attlee"},{"ns":0,"title":"Clifford Harper"},{"ns":0,"title":"Colin Powell"},{"ns":0,"title":"Comment
+        is Free"},{"ns":0,"title":"Communist Party of Britain"},{"ns":0,"title":"Communist
+        Party of Great Britain"},{"ns":0,"title":"Conservative Party (UK)"},{"ns":0,"title":"Craig
+        Brown (satirist)"},{"ns":0,"title":"Criticism of Israel"},{"ns":0,"title":"Cruise
+        missile"},{"ns":0,"title":"Culture, Media and Sport Committee"},{"ns":0,"title":"Daily
+        Express"},{"ns":0,"title":"Daily Herald (UK newspaper)"},{"ns":0,"title":"Daily
+        Mail"},{"ns":0,"title":"Daily Mail and General Trust"},{"ns":0,"title":"Daily
+        Mirror"},{"ns":0,"title":"Daily Star (United Kingdom)"},{"ns":0,"title":"Daily
+        Star Sunday"},{"ns":0,"title":"Daily Telegraph"},{"ns":0,"title":"Daily Worker"},{"ns":0,"title":"Dan
+        McDougall"},{"ns":0,"title":"Dave (TV channel)"},{"ns":0,"title":"David Aaronovitch"},{"ns":0,"title":"David
+        Austin (cartoonist)"},{"ns":0,"title":"David Hencke"},{"ns":0,"title":"David
+        Leigh (journalist)"},{"ns":0,"title":"David Lloyd George"},{"ns":0,"title":"David
+        Low (cartoonist)"},{"ns":0,"title":"David McKie"},{"ns":0,"title":"David Pallister"},{"ns":0,"title":"David
+        Steel"},{"ns":0,"title":"Death of Ian Tomlinson"},{"ns":0,"title":"Decca Aitkenhead"},{"ns":0,"title":"Demand
+        5"},{"ns":0,"title":"Democratic Unionist Party"},{"ns":0,"title":"Dentsu Aegis
+        Network"},{"ns":0,"title":"Department for Culture, Media and Sport"},{"ns":0,"title":"Derek
+        Malcolm"},{"ns":0,"title":"Dictionary of National Biography"},{"ns":0,"title":"Die
+        Tageszeitung"},{"ns":0,"title":"Digital One"},{"ns":0,"title":"Digital TV
+        Group"},{"ns":0,"title":"Digital UK"},{"ns":0,"title":"Digital radio in the
+        United Kingdom"},{"ns":0,"title":"Digital television in the United Kingdom"},{"ns":0,"title":"Digital
+        terrestrial television in the United Kingdom"},{"ns":0,"title":"Dilpazier
+        Aslam"},{"ns":0,"title":"Direct action"},{"ns":0,"title":"Doonesbury"},{"ns":0,"title":"Drama
+        (TV channel)"},{"ns":0,"title":"Duncan Campbell (The Guardian)"},{"ns":0,"title":"E4
+        (TV channel)"},{"ns":0,"title":"EMI Music Publishing"},{"ns":0,"title":"Economist
+        Group"},{"ns":0,"title":"Ed Vulliamy"},{"ns":0,"title":"Eden (TV channel)"},{"ns":0,"title":"Edinburgh
+        International Television Festival"},{"ns":0,"title":"Editor & Publisher"},{"ns":0,"title":"Editorial
+        cartoonist"},{"ns":0,"title":"Editorial independence"},{"ns":0,"title":"Edward
+        Snowden"},{"ns":0,"title":"Edward Taylor Scott"},{"ns":0,"title":"Edwardian
+        Era"},{"ns":0,"title":"Edzard Ernst"},{"ns":0,"title":"Electoral reform"},{"ns":0,"title":"Elstree
+        Studios"},{"ns":0,"title":"Emap International Limited"},{"ns":0,"title":"Emma
+        Brockes"},{"ns":0,"title":"Emma Kennedy"},{"ns":0,"title":"Endemol UK"},{"ns":0,"title":"England
+        First Party"},{"ns":0,"title":"English Democrats"},{"ns":0,"title":"Equity
+        (trade union)"},{"ns":0,"title":"Erwin James"},{"ns":0,"title":"Evelyn Flinders"},{"ns":0,"title":"Evening
+        Standard"},{"ns":0,"title":"F. A. Voigt"},{"ns":0,"title":"FM broadcasting
+        in the UK"},{"ns":0,"title":"FTSE 100"},{"ns":0,"title":"Fabio Capello"},{"ns":0,"title":"Federation
+        Against Copyright Theft"},{"ns":0,"title":"Film4"},{"ns":0,"title":"Film4oD"},{"ns":0,"title":"FilmFlex"},{"ns":0,"title":"Financial
+        Times"},{"ns":0,"title":"First-past-the-post"},{"ns":0,"title":"Fleet Street"},{"ns":0,"title":"Fountain
+        Studios"},{"ns":0,"title":"Francisco Franco"},{"ns":0,"title":"Frank Sidebottom"},{"ns":0,"title":"Frederick
+        Engels"},{"ns":0,"title":"Freesat"},{"ns":0,"title":"Freesat+"},{"ns":0,"title":"Freesat
+        from Sky"},{"ns":0,"title":"Freeview (UK)"},{"ns":0,"title":"Freewire"},{"ns":0,"title":"G.
+        D. H. Cole"},{"ns":0,"title":"Gagging order"},{"ns":0,"title":"Garamond"},{"ns":0,"title":"Gareth
+        McLean"},{"ns":0,"title":"Garry Trudeau"},{"ns":0,"title":"Gary Younge"},{"ns":0,"title":"Gas
+        Street Studios"},{"ns":0,"title":"Gavyn Davies"},{"ns":0,"title":"George Monbiot"},{"ns":0,"title":"George
+        Soros"},{"ns":0,"title":"George W. Bush"},{"ns":0,"title":"Georgina Henry"},{"ns":0,"title":"Germaine
+        Greer"},{"ns":0,"title":"Ghaith Abdul-Ahad"},{"ns":0,"title":"Gillian Reynolds"},{"ns":0,"title":"Glenn
+        Greenwald"},{"ns":0,"title":"Global Group"},{"ns":0,"title":"Gold (TV channel)"},{"ns":0,"title":"Good
+        Food"},{"ns":0,"title":"Government Communications Headquarters"},{"ns":0,"title":"Granada
+        Studios"},{"ns":0,"title":"Granada Television"},{"ns":0,"title":"Green Party
+        in Northern Ireland"},{"ns":0,"title":"Green Party of England and Wales"},{"ns":0,"title":"Greg
+        Palast"},{"ns":0,"title":"Greville Janner"},{"ns":0,"title":"Guardian Abroad"},{"ns":0,"title":"Guardian
+        Australia"},{"ns":0,"title":"Guardian Children''s Fiction Prize"},{"ns":0,"title":"Guardian
+        Fiction Award"},{"ns":0,"title":"Guardian First Book Award"},{"ns":0,"title":"Guardian
+        Media Group"},{"ns":0,"title":"Guardian Student Media Award"},{"ns":0,"title":"Guardian
+        Student Media Awards"},{"ns":0,"title":"Guardian US"},{"ns":0,"title":"Guinness
+        Book of Records"},{"ns":0,"title":"Gulf War"},{"ns":0,"title":"Guus Hiddink"},{"ns":0,"title":"Guy
+        Browning"},{"ns":0,"title":"Hadar Sela"},{"ns":0,"title":"Hadley Freeman"},{"ns":0,"title":"Hank
+        Wangford"},{"ns":0,"title":"Harold Evans"},{"ns":0,"title":"Harrods"},{"ns":0,"title":"Harry
+        Griffin"},{"ns":0,"title":"Hate mail"},{"ns":0,"title":"Hay-on-Wye"},{"ns":0,"title":"Hay
+        Festival"},{"ns":0,"title":"Haymarket Media Group"},{"ns":0,"title":"Helen
+        Pidd"},{"ns":0,"title":"Helvetica"},{"ns":0,"title":"Heston Blumenthal"},{"ns":0,"title":"High-definition
+        television in the United Kingdom"},{"ns":0,"title":"History of British newspapers"},{"ns":0,"title":"Hizb
+        ut-Tahrir"},{"ns":0,"title":"Home (TV channel)"},{"ns":0,"title":"Home Office"},{"ns":0,"title":"Hot
+        metal typesetting"},{"ns":0,"title":"House of Commons of the United Kingdom"},{"ns":0,"title":"Howard
+        Spring"},{"ns":0,"title":"Hugo Young"},{"ns":0,"title":"Human shield"},{"ns":0,"title":"H\u00f4tel
+        Ritz Paris"},{"ns":0,"title":"IPC Media"},{"ns":0,"title":"ITN"},{"ns":0,"title":"ITV2"},{"ns":0,"title":"ITV3"},{"ns":0,"title":"ITV4"},{"ns":0,"title":"ITVBe"},{"ns":0,"title":"ITV
+        (TV channel)"},{"ns":0,"title":"ITV (TV network)"},{"ns":0,"title":"ITV Encore"},{"ns":0,"title":"ITV
+        HD"},{"ns":0,"title":"ITV Player"},{"ns":0,"title":"ITV plc"},{"ns":0,"title":"ITunes"},{"ns":0,"title":"I
+        (newspaper)"},{"ns":0,"title":"Ian Aitken (journalist)"},{"ns":0,"title":"Ian
+        Cobain"},{"ns":0,"title":"Ian Katz"},{"ns":0,"title":"Idio"},{"ns":0,"title":"If...
+        (comic)"},{"ns":0,"title":"Inayat Bunglawala"},{"ns":0,"title":"Independent
+        Local Radio"},{"ns":0,"title":"Independent National Radio"},{"ns":0,"title":"Informa"},{"ns":0,"title":"Intelligent
+        Life (magazine)"},{"ns":0,"title":"International Center for Media and the
+        Public Agenda"},{"ns":0,"title":"International Socialism (journal)"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Serial Number"},{"ns":0,"title":"Internet
+        radio"},{"ns":0,"title":"Internet television"},{"ns":0,"title":"Internment"},{"ns":0,"title":"Iraq"},{"ns":0,"title":"Isabel
+        Hilton"},{"ns":0,"title":"Islamist"},{"ns":0,"title":"Israel"},{"ns":0,"title":"Israeli-Palestinian
+        conflict"},{"ns":0,"title":"Italic type"},{"ns":0,"title":"J.M. Synge"},{"ns":0,"title":"J.
+        A. Hobson"},{"ns":0,"title":"Jack Schofield"},{"ns":0,"title":"Jack Yeats"},{"ns":0,"title":"Jackie
+        Ashley"},{"ns":0,"title":"James Agate"},{"ns":0,"title":"James Cameron (journalist)"},{"ns":0,"title":"James
+        H Reeve"},{"ns":0,"title":"James Meek"},{"ns":0,"title":"James Naughtie"},{"ns":0,"title":"Jamie
+        Lenman"},{"ns":0,"title":"Janine Gibson"},{"ns":0,"title":"Jazz FM (UK)"},{"ns":0,"title":"Jean
+        Stead"},{"ns":0,"title":"Jeremiah Garnett"},{"ns":0,"title":"Jeremy Hardy"},{"ns":0,"title":"Jeremy
+        Heywood"},{"ns":0,"title":"Jill Tweedie"},{"ns":0,"title":"Jim Perrin"},{"ns":0,"title":"Joe
+        Berger (illustrator)"},{"ns":0,"title":"John Arlott"},{"ns":0,"title":"John
+        Cole (journalist)"},{"ns":0,"title":"John Crace (writer)"},{"ns":0,"title":"John
+        Edward Taylor"},{"ns":0,"title":"John Galbraith Graham"},{"ns":0,"title":"John
+        Kent (cartoonist)"},{"ns":0,"title":"John Maddox"},{"ns":0,"title":"John O''Farrell
+        (author and broadcaster)"},{"ns":0,"title":"John Pilger"},{"ns":0,"title":"John
+        Rylands University Library"},{"ns":0,"title":"John Sutherland (author)"},{"ns":0,"title":"Johnjoe
+        McFadden"},{"ns":0,"title":"Johnston Press"},{"ns":0,"title":"Jon Ronson"},{"ns":0,"title":"Jonathan
+        Aitken"},{"ns":0,"title":"Jonathan Freedland"},{"ns":0,"title":"Jonathan Steele"},{"ns":0,"title":"Jonathan
+        Watts"},{"ns":0,"title":"Joris Luyendijk"},{"ns":0,"title":"Josh Trevi\u00f1o"},{"ns":0,"title":"Journalists
+        of The Guardian"},{"ns":0,"title":"Julie Burchill"},{"ns":0,"title":"KGB"},{"ns":0,"title":"Katine"},{"ns":0,"title":"Keith
+        Devlin"},{"ns":0,"title":"Kings Place"},{"ns":0,"title":"Kira Cochrane"},{"ns":0,"title":"Kosovo
+        War"},{"ns":0,"title":"L. T. Hobhouse"},{"ns":0,"title":"Labour Party (UK)"},{"ns":0,"title":"Larry
+        Elliott"},{"ns":0,"title":"Las Vegas Sun"},{"ns":0,"title":"Laura Barton"},{"ns":0,"title":"Le
+        Monde"},{"ns":0,"title":"Leonard Barden"},{"ns":0,"title":"Les Gibbard"},{"ns":0,"title":"Leslie
+        Stephen"},{"ns":0,"title":"Libel"},{"ns":0,"title":"Liberal Democrats"},{"ns":0,"title":"Liberal
+        Democrats (UK)"},{"ns":0,"title":"Liberal Party (UK)"},{"ns":0,"title":"Liberal
+        Party (UK, 1989)"},{"ns":0,"title":"Liberalism"},{"ns":0,"title":"Liberalism
+        in the United Kingdom"},{"ns":0,"title":"Libertarianism"},{"ns":0,"title":"List
+        of HD channels in the United Kingdom"},{"ns":0,"title":"List of digital terrestrial
+        television channels (UK)"},{"ns":0,"title":"List of former TV channels in
+        the United Kingdom"},{"ns":0,"title":"List of free-to-air channels at 28\u00b0E"},{"ns":0,"title":"List
+        of largest UK book publishers"},{"ns":0,"title":"List of magazines by circulation"},{"ns":0,"title":"List
+        of most-listened-to radio programs"},{"ns":0,"title":"List of most-watched
+        television broadcasts"},{"ns":0,"title":"List of newspapers in the United
+        Kingdom"},{"ns":0,"title":"List of newspapers in the United Kingdom by circulation"},{"ns":0,"title":"List
+        of radio stations in the United Kingdom"},{"ns":0,"title":"List of television
+        stations in the United Kingdom"},{"ns":0,"title":"List of years in British
+        television"},{"ns":0,"title":"Listings magazine"},{"ns":0,"title":"Little
+        Circle"},{"ns":0,"title":"Liz Forgan"},{"ns":0,"title":"Lloyd Bradley"},{"ns":0,"title":"Local
+        television in the United Kingdom"},{"ns":0,"title":"London"},{"ns":0,"title":"Lonrho"},{"ns":0,"title":"Los
+        Angeles Times"},{"ns":0,"title":"MORI"},{"ns":0,"title":"Madeleine Bunting"},{"ns":0,"title":"Maev
+        Kennedy"},{"ns":0,"title":"Maggie O''Kane"},{"ns":0,"title":"Mail & Guardian"},{"ns":0,"title":"Mail
+        Online"},{"ns":0,"title":"Malcolm Gluck"},{"ns":0,"title":"Malcolm Muggeridge"},{"ns":0,"title":"Manchester"},{"ns":0,"title":"Manchester
+        Evening News"},{"ns":0,"title":"Manchester Gazette"},{"ns":0,"title":"Manchester
+        Observer"},{"ns":0,"title":"Marcel Berlins"},{"ns":0,"title":"Marina Hyde"},{"ns":0,"title":"Mark
+        Arnold-Forster"},{"ns":0,"title":"Mark Boyle (Moneyless Man)"},{"ns":0,"title":"Mark
+        Cocker"},{"ns":0,"title":"Mark Lawson"},{"ns":0,"title":"Mark Porter (designer)"},{"ns":0,"title":"Mark
+        Steel"},{"ns":0,"title":"Martha Gellhorn Prize for Journalism"},{"ns":0,"title":"Martin
+        Kelner"},{"ns":0,"title":"Martin Kettle"},{"ns":0,"title":"Martin Rowson"},{"ns":0,"title":"Mary
+        Kaldor"},{"ns":0,"title":"Mary Stott"},{"ns":0,"title":"Masthead (publishing)"},{"ns":0,"title":"Matthew
+        Engel"},{"ns":0,"title":"Matthew Fort"},{"ns":0,"title":"Maureen Lipman"},{"ns":0,"title":"Max
+        Hastings"},{"ns":0,"title":"Mebyon Kernow"},{"ns":0,"title":"Mecom Group"},{"ns":0,"title":"MediaCityUK"},{"ns":0,"title":"Media
+        in Aberdeen"},{"ns":0,"title":"Media in Birmingham"},{"ns":0,"title":"Media
+        in Cardiff"},{"ns":0,"title":"Media in Dundee"},{"ns":0,"title":"Media in
+        Glasgow"},{"ns":0,"title":"Media in London"},{"ns":0,"title":"Media in Manchester"},{"ns":0,"title":"Media
+        of Scotland"},{"ns":0,"title":"Media of the United Kingdom"},{"ns":0,"title":"Melanie
+        Phillips"},{"ns":0,"title":"Michael Billington (critic)"},{"ns":0,"title":"Michael
+        Frayn"},{"ns":0,"title":"Michael Gove"},{"ns":0,"title":"Michael Parkinson"},{"ns":0,"title":"Michael
+        Simkins"},{"ns":0,"title":"Michael Tomasky"},{"ns":0,"title":"Michael White
+        (journalist)"},{"ns":0,"title":"Michael Wolff (journalist)"},{"ns":0,"title":"Middle
+        East Review of International Affairs"},{"ns":0,"title":"Midi (newspaper)"},{"ns":0,"title":"Mike
+        Selvey"},{"ns":0,"title":"Modern Toss"},{"ns":0,"title":"Mohamed Al Fayed"},{"ns":0,"title":"Monster
+        Raving Loony Party"},{"ns":0,"title":"More4"},{"ns":0,"title":"Morning Star
+        (British newspaper)"},{"ns":0,"title":"Murder of Milly Dowler"},{"ns":0,"title":"NATO"},{"ns":0,"title":"NOtoAV"},{"ns":0,"title":"Nancy
+        Banks-Smith"},{"ns":0,"title":"Naomi Wolf"},{"ns":0,"title":"National Film
+        and Television School"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:16 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,262 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Gwyneth%20Paltrow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87229259, 1409519965, 3142896581
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4706'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:16 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4009 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"42621|0|Sylvia_Plath"}},"query":{"pages":{"42621":{"pageid":42621,"ns":0,"title":"Gwyneth
+        Paltrow","links":[{"ns":0,"title":"10th Empire Awards"},{"ns":0,"title":"11th
+        Empire Awards"},{"ns":0,"title":"12th Empire Awards"},{"ns":0,"title":"13th
+        Empire Awards"},{"ns":0,"title":"14th Empire Awards"},{"ns":0,"title":"15th
+        Empire Awards"},{"ns":0,"title":"16th Empire Awards"},{"ns":0,"title":"17th
+        Empire Awards"},{"ns":0,"title":"18th Empire Awards"},{"ns":0,"title":"1990s
+        in film"},{"ns":0,"title":"1992 in film"},{"ns":0,"title":"1993 in film"},{"ns":0,"title":"1994
+        in film"},{"ns":0,"title":"1995 in film"},{"ns":0,"title":"1996 in film"},{"ns":0,"title":"1997
+        in film"},{"ns":0,"title":"1998 in film"},{"ns":0,"title":"1999 in film"},{"ns":0,"title":"19th
+        Empire Awards"},{"ns":0,"title":"1st Empire Awards"},{"ns":0,"title":"2000
+        in film"},{"ns":0,"title":"2000s in film"},{"ns":0,"title":"2001 in film"},{"ns":0,"title":"2002
+        in film"},{"ns":0,"title":"2003 in film"},{"ns":0,"title":"2004 in film"},{"ns":0,"title":"2005
+        in film"},{"ns":0,"title":"2006 in film"},{"ns":0,"title":"2007 in film"},{"ns":0,"title":"2008
+        Teen Choice Awards"},{"ns":0,"title":"2008 in film"},{"ns":0,"title":"2009
+        in film"},{"ns":0,"title":"2010 Teen Choice Awards"},{"ns":0,"title":"2010
+        in film"},{"ns":0,"title":"2010s in film"},{"ns":0,"title":"2011 Grammy Awards"},{"ns":0,"title":"2011
+        Venice Film Festival"},{"ns":0,"title":"2011 in film"},{"ns":0,"title":"2012
+        in film"},{"ns":0,"title":"2013 Teen Choice Awards"},{"ns":0,"title":"2013
+        in film"},{"ns":0,"title":"2014 in film"},{"ns":0,"title":"2nd Empire Awards"},{"ns":0,"title":"3rd
+        Empire Awards"},{"ns":0,"title":"40th People''s Choice Awards"},{"ns":0,"title":"4th
+        Empire Awards"},{"ns":0,"title":"5th Empire Awards"},{"ns":0,"title":"6th
+        Empire Awards"},{"ns":0,"title":"71st Academy Awards"},{"ns":0,"title":"7th
+        Empire Awards"},{"ns":0,"title":"83rd Academy Awards"},{"ns":0,"title":"84th
+        Academy Awards"},{"ns":0,"title":"8th Empire Awards"},{"ns":0,"title":"9th
+        Empire Awards"},{"ns":0,"title":"ARIA Charts"},{"ns":0,"title":"A Perfect
+        Murder"},{"ns":0,"title":"Academy Award for Best Actress"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Acoustic music"},{"ns":0,"title":"Adam Sandler"},{"ns":0,"title":"Adele"},{"ns":0,"title":"Adult
+        Contemporary (chart)"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alfred
+        Hitchcock"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"American Beauty
+        (1999 film)"},{"ns":0,"title":"American Pie 2"},{"ns":0,"title":"Amy Adams"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Amy Smart"},{"ns":0,"title":"Angela Bassett"},{"ns":0,"title":"Angelina
+        Jolie"},{"ns":0,"title":"Ann-Margret"},{"ns":0,"title":"Anna Chlumsky"},{"ns":0,"title":"Anna
+        Magnani"},{"ns":0,"title":"Anne Bancroft"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Anthony Guidera"},{"ns":0,"title":"Antonio Banderas"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Arizona''s 8th
+        congressional district"},{"ns":0,"title":"Ashkenazi Jews"},{"ns":0,"title":"Audrey
+        Hepburn"},{"ns":0,"title":"Austin Powers in Goldmember"},{"ns":0,"title":"Australian
+        Recording Industry Association"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA
+        Award for Best Actress in a Leading Role"},{"ns":0,"title":"BAFTA Awards"},{"ns":0,"title":"Babyface
+        (musician)"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Bean Pole
+        International"},{"ns":0,"title":"Belarus"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bernadette Peters"},{"ns":0,"title":"Bette
+        Davis"},{"ns":0,"title":"Bette Davis Eyes"},{"ns":0,"title":"Bette Midler"},{"ns":0,"title":"Betty
+        White"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Martin, Jr."},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Billboard (magazine)"},{"ns":0,"title":"Billboard
+        Hot 100"},{"ns":0,"title":"Blythe Danner"},{"ns":0,"title":"Bounce (film)"},{"ns":0,"title":"Box
+        Office Mojo"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Briana
+        Evigan"},{"ns":0,"title":"Broadcast Film Critics Association Award for Best
+        Actress in an Action Movie"},{"ns":0,"title":"Brokeback Mountain"},{"ns":0,"title":"Bruce
+        Jones (actor)"},{"ns":0,"title":"Bruce Paltrow"},{"ns":0,"title":"C''mon,
+        C''mon"},{"ns":0,"title":"California"},{"ns":0,"title":"Canadian Hot 100"},{"ns":0,"title":"Carlos
+        Saura"},{"ns":0,"title":"Carmen Electra"},{"ns":0,"title":"Carrie Snodgress"},{"ns":0,"title":"Cate
+        Blanchett"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Cee Lo
+        Green"},{"ns":0,"title":"Charles Dickens"},{"ns":0,"title":"Charlize Theron"},{"ns":0,"title":"Cher"},{"ns":0,"title":"Chicago
+        (musical)"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Chris Cooper
+        (actor)"},{"ns":0,"title":"Chris Martin"},{"ns":0,"title":"Christian Slater"},{"ns":0,"title":"Christina
+        Applegate"},{"ns":0,"title":"Christina Ricci"},{"ns":0,"title":"Christine
+        Baranski"},{"ns":0,"title":"Cinema of Spain"},{"ns":0,"title":"Claudette Colbert"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Cloris Leachman"},{"ns":0,"title":"Coach,
+        Inc."},{"ns":0,"title":"Coldplay"},{"ns":0,"title":"Cole Porter"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Connie Nielsen"},{"ns":0,"title":"Contagion (film)"},{"ns":0,"title":"Country
+        Strong"},{"ns":0,"title":"Country Strong (song)"},{"ns":0,"title":"Country
+        Strong (soundtrack)"},{"ns":0,"title":"Cover version"},{"ns":0,"title":"Critics''
+        Choice Movie Awards"},{"ns":0,"title":"Crossroads School (Santa Monica, California)"},{"ns":0,"title":"Cruel
+        Doubt"},{"ns":0,"title":"Cruel Intentions"},{"ns":0,"title":"Cruisin'' (Smokey
+        Robinson song)"},{"ns":0,"title":"Culture of Spain"},{"ns":0,"title":"D. W.
+        Moffett"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Deadly Relations"},{"ns":0,"title":"Deborah
+        Kerr"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Demi Moore"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Dial M for Murder"},{"ns":0,"title":"Diane Keaton"},{"ns":0,"title":"Diane
+        Lane"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Do You Wanna Touch
+        Me"},{"ns":0,"title":"Do You Wanna Touch Me (Oh Yeah)"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Donmar Warehouse"},{"ns":0,"title":"Dora Maar"},{"ns":0,"title":"Drew
+        Barrymore"},{"ns":0,"title":"Duets"},{"ns":0,"title":"Dumb and Dumber"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Elaine Stritch"},{"ns":0,"title":"Elizabeth Taylor"},{"ns":0,"title":"Ellen
+        Burstyn"},{"ns":0,"title":"Ellen Page"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Emma
+        (1996 theatrical film)"},{"ns":0,"title":"Emma Roberts"},{"ns":0,"title":"Emma
+        Thompson"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Empire Award for
+        Best Actress"},{"ns":0,"title":"Empire Awards"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Estella Havisham"},{"ns":0,"title":"Est\u00e9e
+        Lauder Companies"},{"ns":0,"title":"Ethan Hawke"},{"ns":0,"title":"Ethel Merman"},{"ns":0,"title":"Ewan
+        McGregor"},{"ns":0,"title":"Faye Dunaway"},{"ns":0,"title":"Felicity Huffman"},{"ns":0,"title":"Fleetwood
+        Mac"},{"ns":0,"title":"Flesh and Bone (film)"},{"ns":0,"title":"Food writing"},{"ns":0,"title":"Frances
+        McDormand"},{"ns":0,"title":"Fuck You (Cee Lo Green song)"},{"ns":0,"title":"Gabourey
+        Sidibe"},{"ns":0,"title":"Gabrielle Giffords"},{"ns":0,"title":"Gary Glitter"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Geraldine
+        Page"},{"ns":0,"title":"Ginger Rogers"},{"ns":0,"title":"Glee: The 3D Concert
+        Movie"},{"ns":0,"title":"Glee: The Music, Volume 4"},{"ns":0,"title":"Glee:
+        The Music, Volume 5"},{"ns":0,"title":"Glee: The Music, Volume 6"},{"ns":0,"title":"Glee
+        (TV series)"},{"ns":0,"title":"Glee Cast"},{"ns":0,"title":"Glee discography"},{"ns":0,"title":"Glenda
+        Jackson"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden Globe
+        Award for Best Actress - Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden
+        Globe Award for Best Actress \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Actress \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden
+        Globe Awards"},{"ns":0,"title":"Grace Kelly"},{"ns":0,"title":"Great Expectations
+        (1998 film)"},{"ns":0,"title":"Greer Garson"},{"ns":0,"title":"Halle Berry"},{"ns":0,"title":"Hank
+        Azaria"},{"ns":0,"title":"Happy (Pharrell Williams song)"},{"ns":0,"title":"Hard
+        Eight (film)"},{"ns":0,"title":"Harry Danner"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Helen
+        Hayes"},{"ns":0,"title":"Helen Hunt"},{"ns":0,"title":"Helen Mirren"},{"ns":0,"title":"Helena
+        Bonham Carter"},{"ns":0,"title":"Higher Learning"},{"ns":0,"title":"Hilary
+        Swank"},{"ns":0,"title":"Hip hop music"},{"ns":0,"title":"Holly Holliday"},{"ns":0,"title":"Holly
+        Hunter"},{"ns":0,"title":"Holly Williams"},{"ns":0,"title":"Hollywood Walk
+        of Fame"},{"ns":0,"title":"Hook (film)"},{"ns":0,"title":"Hot Country Songs"},{"ns":0,"title":"Huey
+        Lewis"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Hush (1998 film)"},{"ns":0,"title":"ITunes
+        Store"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Indecent Proposal"},{"ns":0,"title":"Independence
+        Day (1996 film)"},{"ns":0,"title":"Infamous (film)"},{"ns":0,"title":"Ingrid
+        Bergman"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Irish Singles Chart"},{"ns":0,"title":"Iron
+        Man"},{"ns":0,"title":"Iron Man (2008 film)"},{"ns":0,"title":"Iron Man 2"},{"ns":0,"title":"Iron
+        Man 3"},{"ns":0,"title":"It''s Only Love"},{"ns":0,"title":"Jack Black"},{"ns":0,"title":"Jacob
+        Vargas"},{"ns":0,"title":"Jake Gyllenhaal"},{"ns":0,"title":"Jake Paltrow"},{"ns":0,"title":"James
+        Brolin"},{"ns":0,"title":"James Caan"},{"ns":0,"title":"Jamie Lee Curtis"},{"ns":0,"title":"Jane
+        Fonda"},{"ns":0,"title":"Jane Wyman"},{"ns":0,"title":"Janet Gaynor"},{"ns":0,"title":"Janet
+        McTeer"},{"ns":0,"title":"Jason Biggs"},{"ns":0,"title":"Jay-Z"},{"ns":0,"title":"Jean
+        Simmons"},{"ns":0,"title":"Jean Smart"},{"ns":0,"title":"Jefferson in Paris"},{"ns":0,"title":"Jennifer
+        Aniston"},{"ns":0,"title":"Jennifer Jones"},{"ns":0,"title":"Jennifer Lawrence"},{"ns":0,"title":"Jennifer
+        Westfeldt"},{"ns":0,"title":"Jessica Lange"},{"ns":0,"title":"Jessica Tandy"},{"ns":0,"title":"Jews"},{"ns":0,"title":"Jim
+        Carrey"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Joan Allen"},{"ns":0,"title":"Joan
+        Crawford"},{"ns":0,"title":"Joan Fontaine"},{"ns":0,"title":"Joanne Woodward"},{"ns":0,"title":"Jodie
+        Foster"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"Jon Favreau"},{"ns":0,"title":"Joseph
+        Fiennes"},{"ns":0,"title":"Joss Whedon"},{"ns":0,"title":"Jude Law"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Judy Garland"},{"ns":0,"title":"Judy Holliday"},{"ns":0,"title":"Julia
+        Roberts"},{"ns":0,"title":"Julia Stiles"},{"ns":0,"title":"Julie Andrews"},{"ns":0,"title":"Julie
+        Christie"},{"ns":0,"title":"Julie Delpy"},{"ns":0,"title":"Julie Walters"},{"ns":0,"title":"June
+        Allyson"},{"ns":0,"title":"Just My Imagination (Running Away with Me)"},{"ns":0,"title":"Kate
+        Winslet"},{"ns":0,"title":"Katharine Hepburn"},{"ns":0,"title":"Katherine
+        Moennig"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kathleen Turner"},{"ns":0,"title":"Kathryn
+        Joosten"},{"ns":0,"title":"Kathy Bates"},{"ns":0,"title":"Kay Kendall"},{"ns":0,"title":"Keira
+        Knightley"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kim
+        Carnes"},{"ns":0,"title":"Kirsten Dunst"},{"ns":0,"title":"Kiss (Prince song)"},{"ns":0,"title":"Kristen
+        Stewart"},{"ns":0,"title":"Landslide (song)"},{"ns":0,"title":"Las Vegas Film
+        Critics Society Award for Best Actress"},{"ns":0,"title":"Laura Linney"},{"ns":0,"title":"Lauren
+        Holly"},{"ns":0,"title":"Lea Michele"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"List of best-selling music artists"},{"ns":0,"title":"Liza
+        Minnelli"},{"ns":0,"title":"Loretta Young"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Louise
+        Fletcher"},{"ns":0,"title":"Love and Other Disasters"},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"Luise Rainer"},{"ns":0,"title":"Lynn Redgrave"},{"ns":0,"title":"MTV
+        Movie Award for Best Kiss"},{"ns":0,"title":"MTV Movie Award for Best Performance"},{"ns":0,"title":"MTV
+        Movie Awards"},{"ns":0,"title":"Macaulay Culkin"},{"ns":0,"title":"Madonna
+        (entertainer)"},{"ns":0,"title":"Maggie Smith"},{"ns":0,"title":"Malice (film)"},{"ns":0,"title":"Marie
+        Dressler"},{"ns":0,"title":"Marilyn Monroe"},{"ns":0,"title":"Marion Cotillard"},{"ns":0,"title":"Marisa
+        Tomei"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Mark Ruffalo"},{"ns":0,"title":"Marlee
+        Matlin"},{"ns":0,"title":"Marsha Mason"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Marvel
+        Cinematic Universe"},{"ns":0,"title":"Mary Pickford"},{"ns":0,"title":"Massachusetts"},{"ns":0,"title":"Matt
+        Damon"},{"ns":0,"title":"Matthew Morrison"},{"ns":0,"title":"Matthew Morrison
+        (album)"},{"ns":0,"title":"Me and Tennessee"},{"ns":0,"title":"Melanie Griffith"},{"ns":0,"title":"Melissa
+        Leo"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michelle Williams (actress)"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"Miranda Richardson"},{"ns":0,"title":"Mister Cellophane"},{"ns":0,"title":"Moonlight
+        and Valentino"},{"ns":0,"title":"Mortdecai (film)"},{"ns":0,"title":"Moses
+        (song)"},{"ns":0,"title":"Mrs. Parker and the Vicious Circle"},{"ns":0,"title":"Music
+        recording sales certification"},{"ns":0,"title":"My Girl (film)"},{"ns":0,"title":"Natalie
+        Portman"},{"ns":0,"title":"Natasha Henstridge"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"New
+        York City"},{"ns":0,"title":"Nicole Kidman"},{"ns":0,"title":"Nielsen Business
+        Media, Inc"},{"ns":0,"title":"Noomi Rapace"},{"ns":0,"title":"Norma Shearer"},{"ns":0,"title":"Nowadays"},{"ns":0,"title":"Nowogr\u00f3d"},{"ns":0,"title":"Official
+        Charts Company"},{"ns":0,"title":"Olivia Colman"},{"ns":0,"title":"Olivia
+        de Havilland"},{"ns":0,"title":"Over the Rainbow"},{"ns":0,"title":"Owen Wilson"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Pablo
+        Picasso"},{"ns":0,"title":"Party All the Time"},{"ns":0,"title":"Patricia
+        Neal"},{"ns":0,"title":"Patsy Jefferson"},{"ns":0,"title":"Patty Duke"},{"ns":0,"title":"Paul
+        Barber (actor)"},{"ns":0,"title":"Pennsylvania Dutch"},{"ns":0,"title":"Pen\u00e9lope
+        Cruz"},{"ns":0,"title":"People''s Choice Awards"},{"ns":0,"title":"People.com"},{"ns":0,"title":"People
+        (American magazine)"},{"ns":0,"title":"Pepper Potts"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Pink Ralph Lauren
+        dress of Gwyneth Paltrow"},{"ns":0,"title":"Poland"},{"ns":0,"title":"Possession
+        (2002 film)"},{"ns":0,"title":"Postpartum depression"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actress in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Awards"},{"ns":0,"title":"Prince (musician)"},{"ns":0,"title":"Prometheus
+        Global Media"},{"ns":0,"title":"Proof (2005 film)"},{"ns":0,"title":"Proof
+        (play)"},{"ns":0,"title":"Rabbi"},{"ns":0,"title":"Rachel McAdams"},{"ns":0,"title":"Raquel
+        Welch"},{"ns":0,"title":"Recording Industry Association of New Zealand"},{"ns":0,"title":"Reese
+        Witherspoon"},{"ns":0,"title":"Ren\u00e9e Zellweger"},{"ns":0,"title":"Rihanna"},{"ns":0,"title":"Robert
+        Carlyle"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert Downey,
+        Jr."},{"ns":0,"title":"Robert Hoffman (actor)"},{"ns":0,"title":"Robert Pattinson"},{"ns":0,"title":"Robin
+        Hood Foundation"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rosalind
+        Russell"},{"ns":0,"title":"Royal Albert Hall"},{"ns":0,"title":"Running with
+        Scissors (film)"},{"ns":0,"title":"Ryan Gosling"},{"ns":0,"title":"Sacha Baron
+        Cohen"},{"ns":0,"title":"Sally Field"},{"ns":0,"title":"Sally Hawkins"},{"ns":0,"title":"Sandra
+        Bullock"},{"ns":0,"title":"Santa Monica, California"},{"ns":0,"title":"Sarah
+        Michelle Gellar"},{"ns":0,"title":"Satellite Award"},{"ns":0,"title":"Satellite
+        Award for Best Actress \u2013 Motion Picture"},{"ns":0,"title":"Satellite
+        Award for Best Actress \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Satellite
+        Award for Best Original Song"},{"ns":0,"title":"Satellite Award for Best Supporting
+        Actress \u2013 Motion Picture"},{"ns":0,"title":"Satellite Awards"},{"ns":0,"title":"Saturday
+        Night Live"},{"ns":0,"title":"Saturn Award for Best Actress"},{"ns":0,"title":"Saturn
+        Award for Best Supporting Actress"},{"ns":0,"title":"Saturn Awards"},{"ns":0,"title":"Save
+        the Children"},{"ns":0,"title":"Save the Last Dance"},{"ns":0,"title":"Screen
+        Actors Guild"},{"ns":0,"title":"Screen Actors Guild Award"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Female Actor in a Leading
+        Role"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Sean
+        Patrick Thomas"},{"ns":0,"title":"Seann William Scott"},{"ns":0,"title":"Searching
+        for Debra Winger"},{"ns":0,"title":"Self (magazine)"},{"ns":0,"title":"Selma
+        Blair"},{"ns":0,"title":"Seven (film)"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Shallow
+        Hal"},{"ns":0,"title":"Sheryl Crow"},{"ns":0,"title":"Shirley Booth"},{"ns":0,"title":"Shirley
+        MacLaine"},{"ns":0,"title":"Shohreh Aghdashloo"},{"ns":0,"title":"Shout (film)"},{"ns":0,"title":"Silent
+        Worship"},{"ns":0,"title":"Silver Linings Playbook"},{"ns":0,"title":"Simon
+        Callow"},{"ns":0,"title":"Simone Signoret"},{"ns":0,"title":"Singin'' in the
+        Rain (song)"},{"ns":0,"title":"Sissy Spacek"},{"ns":0,"title":"Sky Captain
+        and the World of Tomorrow"},{"ns":0,"title":"Sliding Doors"},{"ns":0,"title":"Smokey
+        Robinson"},{"ns":0,"title":"Song Cry"},{"ns":0,"title":"Sophia Loren"},{"ns":0,"title":"Southern
+        California"},{"ns":0,"title":"Spain... on the Road Again"},{"ns":0,"title":"Spanish
+        cuisine"},{"ns":0,"title":"Species (film)"},{"ns":0,"title":"Spence School"},{"ns":0,"title":"Spider-Man
+        (2002 film)"},{"ns":0,"title":"Starsky & Hutch (film)"},{"ns":0,"title":"Step
+        Up 2: The Streets"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steven
+        Bauer"},{"ns":0,"title":"Steven Soderbergh"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Student
+        exchange program"},{"ns":0,"title":"Susan Hayward"},{"ns":0,"title":"Susan
+        Sarandon"},{"ns":0,"title":"Sylvia (2003 film)"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:17 GMT
+recorded_with: VCR 2.9.2

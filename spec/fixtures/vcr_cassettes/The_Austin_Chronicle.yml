@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=The%20Austin%20Chronicle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87325754, 1102709836, 3142949484
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '431'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:13 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4017 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1346454":{"pageid":1346454,"ns":0,"title":"The
+        Austin Chronicle","links":[{"ns":0,"title":"Alternative weekly"},{"ns":0,"title":"April
+        Fool''s Day"},{"ns":0,"title":"Association of Alternative Newsweeklies"},{"ns":0,"title":"Austin,
+        Texas"},{"ns":0,"title":"Austin Film Critics Association"},{"ns":0,"title":"Austin
+        Sun"},{"ns":0,"title":"Competition"},{"ns":0,"title":"Film critic"},{"ns":0,"title":"Halloween"},{"ns":0,"title":"International
+        Standard Serial Number"},{"ns":0,"title":"Louis Black"},{"ns":0,"title":"Newspaper"},{"ns":0,"title":"Newspaper
+        circulation"},{"ns":0,"title":"Oral history"},{"ns":0,"title":"Short story"},{"ns":0,"title":"South
+        by Southwest Festival"},{"ns":0,"title":"Tabloid (newspaper format)"},{"ns":0,"title":"The
+        Daily Texan"},{"ns":0,"title":"United States"},{"ns":0,"title":"University
+        of Texas"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":14,"title":"Category:Articles
+        with dead external links from September 2010"},{"ns":100,"title":"Portal:Austin"},{"ns":100,"title":"Portal:Journalism"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:14 GMT
+recorded_with: VCR 2.9.2

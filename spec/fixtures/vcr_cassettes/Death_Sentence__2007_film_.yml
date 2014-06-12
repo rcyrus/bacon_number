@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Death%20Sentence%20(2007%20film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001105141, 3536736822, 2597301779
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '754'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:01 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4008 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"8867686":{"pageid":8867686,"ns":0,"title":"Death
+        Sentence (2007 film)","links":[{"ns":0,"title":"20th Century Fox"},{"ns":0,"title":"Aisha
+        Tyler"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Arms dealer"},{"ns":0,"title":"Ashok
+        Amritraj"},{"ns":0,"title":"Black market"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Brian
+        Garfield"},{"ns":0,"title":"Canadian motion picture rating system"},{"ns":0,"title":"Charles
+        Bronson"},{"ns":0,"title":"Charlie Clouser"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Dead
+        Silence"},{"ns":0,"title":"Death Sentence (novel)"},{"ns":0,"title":"Death
+        Wish"},{"ns":0,"title":"Death Wish (film)"},{"ns":0,"title":"Death Wish (film
+        series)"},{"ns":0,"title":"Death Wish II (album)"},{"ns":0,"title":"Edi Gathegi"},{"ns":0,"title":"English
+        language"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Fast &
+        Furious 7"},{"ns":0,"title":"Gang"},{"ns":0,"title":"Garrett Hedlund"},{"ns":0,"title":"Gas
+        station"},{"ns":0,"title":"Howard Baldwin"},{"ns":0,"title":"Hyde Park Entertainment"},{"ns":0,"title":"Insidious:
+        Chapter 2"},{"ns":0,"title":"Insidious (film)"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"James Wan"},{"ns":0,"title":"John Goodman"},{"ns":0,"title":"Jordan
+        Garrett"},{"ns":0,"title":"Kelly Preston"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Leigh
+        Whannell"},{"ns":0,"title":"Matt O''Leary"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Motion
+        Picture Association of America"},{"ns":0,"title":"Owen Gleiberman"},{"ns":0,"title":"PopMatters"},{"ns":0,"title":"Psychological
+        thriller"},{"ns":0,"title":"Roger Ebert"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Saw
+        (2003 film)"},{"ns":0,"title":"Saw (2004 film)"},{"ns":0,"title":"Stuart Lafferty"},{"ns":0,"title":"The
+        A.V. Club"},{"ns":0,"title":"The Conjuring"},{"ns":0,"title":"The New York
+        Times"},{"ns":0,"title":"United States"},{"ns":0,"title":"Variety (magazine)"},{"ns":0,"title":"Yahoo!"},{"ns":0,"title":"Zachary
+        Dylan Smith"},{"ns":10,"title":"Template:Death Wish film series"},{"ns":10,"title":"Template:James
+        Wan"},{"ns":11,"title":"Template talk:Death Wish film series"},{"ns":11,"title":"Template
+        talk:James Wan"},{"ns":14,"title":"Category:Use mdy dates from February 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:02 GMT
+recorded_with: VCR 2.9.2

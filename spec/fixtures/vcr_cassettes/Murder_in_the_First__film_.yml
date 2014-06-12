@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Murder%20in%20the%20First%20(film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704699413, 1102692855, 3142921219
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '909'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:43 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4017 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1528272":{"pageid":1528272,"ns":0,"title":"Murder
+        in the First (film)","links":[{"ns":0,"title":"1994 Northridge earthquake"},{"ns":0,"title":"1995
+        in film"},{"ns":0,"title":"Abdomen"},{"ns":0,"title":"Alcatraz Federal Penitentiary"},{"ns":0,"title":"Alex
+        Bookston"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Arthur Barker"},{"ns":0,"title":"Bank
+        robbery"},{"ns":0,"title":"Ben Slack"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Brad
+        Dourif"},{"ns":0,"title":"Cafeteria"},{"ns":0,"title":"Christian Slater"},{"ns":0,"title":"Christmas
+        Day"},{"ns":0,"title":"Christopher Young"},{"ns":0,"title":"Convict"},{"ns":0,"title":"Dan
+        Gordon (screenwriter)"},{"ns":0,"title":"David Michael Sterling"},{"ns":0,"title":"Dream
+        a Little Dream"},{"ns":0,"title":"Dungeon"},{"ns":0,"title":"Embeth Davidtz"},{"ns":0,"title":"First
+        degree murder"},{"ns":0,"title":"Fred Murphy (cinematographer)"},{"ns":0,"title":"Gary
+        Oldman"},{"ns":0,"title":"Harvard Law School"},{"ns":0,"title":"Henri Young"},{"ns":0,"title":"Hostage"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Involuntary manslaughter"},{"ns":0,"title":"Kansas"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Knife"},{"ns":0,"title":"Kyra Sedgwick"},{"ns":0,"title":"Marc
+        Rocco"},{"ns":0,"title":"McNeil Island"},{"ns":0,"title":"Mia Kirshner"},{"ns":0,"title":"Michael
+        Melvin"},{"ns":0,"title":"Montana"},{"ns":0,"title":"Murder"},{"ns":0,"title":"Orphanage"},{"ns":0,"title":"Parole"},{"ns":0,"title":"Psychotic"},{"ns":0,"title":"Punch-drunk"},{"ns":0,"title":"R.
+        Lee Ermey"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Rufus McCain"},{"ns":0,"title":"San
+        Francisco"},{"ns":0,"title":"Solitary confinement"},{"ns":0,"title":"Spoon"},{"ns":0,"title":"Springfield,
+        Missouri"},{"ns":0,"title":"State prison"},{"ns":0,"title":"Stefan Gierasch"},{"ns":0,"title":"Stephen
+        Tobolowsky"},{"ns":0,"title":"StudioCanal"},{"ns":0,"title":"The San Francisco
+        Examiner"},{"ns":0,"title":"US penal system"},{"ns":0,"title":"United States
+        Medical Center for Federal Prisoners"},{"ns":0,"title":"United States Penitentiary,
+        Leavenworth"},{"ns":0,"title":"United States Postal Service"},{"ns":0,"title":"United
+        States federal law"},{"ns":0,"title":"Walla Walla, Washington"},{"ns":0,"title":"Warner
+        Bros."},{"ns":0,"title":"Washington (U.S. state)"},{"ns":0,"title":"Washington
+        State Penitentiary"},{"ns":0,"title":"Where the Day Takes You"},{"ns":0,"title":"William
+        H. Macy"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":10,"title":"Template:Marc
+        Rocco"},{"ns":11,"title":"Template talk:Marc Rocco"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from July 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:44 GMT
+recorded_with: VCR 2.9.2

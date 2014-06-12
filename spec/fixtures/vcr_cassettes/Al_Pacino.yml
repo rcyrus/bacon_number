@@ -1,0 +1,247 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Al%20Pacino
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287062741, 3085116582, 1309417324
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4528'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:40 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"41906":{"pageid":41906,"ns":0,"title":"Al Pacino","links":[{"ns":0,"title":"...And
+        Justice for All (film)"},{"ns":0,"title":"1996 Cannes Film Festival"},{"ns":0,"title":"45th
+        Academy Awards"},{"ns":0,"title":"60 Minutes"},{"ns":0,"title":"65th Academy
+        Awards"},{"ns":0,"title":"68th Venice International Film Festival"},{"ns":0,"title":"88
+        Minutes"},{"ns":0,"title":"A&P"},{"ns":0,"title":"AFI Life Achievement Award"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Award for Best Actor"},{"ns":0,"title":"Academy
+        Award for Best Picture"},{"ns":0,"title":"Academy Award for Best Supporting
+        Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Actors Studio"},{"ns":0,"title":"Adrien
+        Brody"},{"ns":0,"title":"Al Pacino filmography"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec
+        Baldwin"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alexander Knox"},{"ns":0,"title":"Alfred
+        Hitchcock"},{"ns":0,"title":"Alicia Witt"},{"ns":0,"title":"American Broadcasting
+        Company"},{"ns":0,"title":"American Buffalo (play)"},{"ns":0,"title":"American
+        Film Institute"},{"ns":0,"title":"American Revolutionary War"},{"ns":0,"title":"Andy
+        Garc\u00eda"},{"ns":0,"title":"Angels in America"},{"ns":0,"title":"Angels
+        in America (TV miniseries)"},{"ns":0,"title":"Anthony Franciosa"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"Any Given Sunday"},{"ns":0,"title":"Art
+        Carney"},{"ns":0,"title":"Author! Author! (film)"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Awake and Sing!"},{"ns":0,"title":"Barbara Stanwyck"},{"ns":0,"title":"Barbra
+        Streisand"},{"ns":0,"title":"Belasco Theater"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benjamin
+        Ruggiero"},{"ns":0,"title":"Bette Davis"},{"ns":0,"title":"Beverly D''Angelo"},{"ns":0,"title":"Biblioteca
+        Nacional de Espa\u00f1a"},{"ns":0,"title":"Biblioth\u00e8que nationale de
+        France"},{"ns":0,"title":"Big Boy Caprice"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Billy
+        Bob Thornton"},{"ns":0,"title":"Billy Wilder"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Blindness"},{"ns":0,"title":"Blockbuster
+        Video"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bobby Deerfield"},{"ns":0,"title":"Boston"},{"ns":0,"title":"Box
+        Office Mojo"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Bravo
+        (US TV channel)"},{"ns":0,"title":"Brian De Palma"},{"ns":0,"title":"British
+        Academy of Film and Television Arts"},{"ns":0,"title":"Broadhurst Theatre"},{"ns":0,"title":"Broderick
+        Crawford"},{"ns":0,"title":"Bronx Zoo"},{"ns":0,"title":"Bruce Dern"},{"ns":0,"title":"Burt
+        Lancaster"},{"ns":0,"title":"Busboy"},{"ns":0,"title":"Campbell Scott"},{"ns":0,"title":"Cannes
+        Film Festival"},{"ns":0,"title":"Carlito''s Way"},{"ns":0,"title":"Castro
+        District"},{"ns":0,"title":"Castro Theatre"},{"ns":0,"title":"Cecil B. DeMille"},{"ns":0,"title":"Channel
+        4"},{"ns":0,"title":"Charles Laughton"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chicago
+        Sun-Times"},{"ns":0,"title":"Chinese Coffee"},{"ns":0,"title":"Christopher
+        Nolan"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Cliff Robertson"},{"ns":0,"title":"Clifford
+        Odets"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Colin Farrell"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Commentary (magazine)"},{"ns":0,"title":"Corleone"},{"ns":0,"title":"Corriere
+        della Sera"},{"ns":0,"title":"Covina, California"},{"ns":0,"title":"Cruising
+        (film)"},{"ns":0,"title":"Cuba"},{"ns":0,"title":"Daily Mail"},{"ns":0,"title":"Daniel
+        Day-Lewis"},{"ns":0,"title":"David Carradine"},{"ns":0,"title":"David Lean"},{"ns":0,"title":"David
+        Mamet"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David Thewlis"},{"ns":0,"title":"Denzel
+        Washington"},{"ns":0,"title":"Devil"},{"ns":0,"title":"Diane Keaton"},{"ns":0,"title":"Dick
+        Tracy (1990 film)"},{"ns":0,"title":"Discogs"},{"ns":0,"title":"Does a Tiger
+        Wear a Necktie?"},{"ns":0,"title":"Dog Day Afternoon"},{"ns":0,"title":"Don
+        Petersen"},{"ns":0,"title":"Donnie Brasco (film)"},{"ns":0,"title":"Drama
+        Desk Award"},{"ns":0,"title":"Drug abuse"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"East
+        Harlem"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Electronic Arts"},{"ns":0,"title":"Elizabeth
+        Taylor"},{"ns":0,"title":"Ellen Burstyn"},{"ns":0,"title":"Elliott Gould"},{"ns":0,"title":"Emil
+        Jannings"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"English studies"},{"ns":0,"title":"Ernest
+        Borgnine"},{"ns":0,"title":"Eugene O''Neill"},{"ns":0,"title":"F. Murray Abraham"},{"ns":0,"title":"Festival
+        dei Due Mondi"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Francis
+        Ford Coppola"},{"ns":0,"title":"Frank Capra"},{"ns":0,"title":"Frank Serpico"},{"ns":0,"title":"Frankie
+        and Johnny (1991 film)"},{"ns":0,"title":"Frankie and Johnny in the Clair
+        de Lune"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"GLBT
+        Historical Society"},{"ns":0,"title":"Gary Busey"},{"ns":0,"title":"Gary Cooper"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Gene Kelly"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        Arliss"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George
+        Lucas"},{"ns":0,"title":"Gigli"},{"ns":0,"title":"Glengarry Glen Ross"},{"ns":0,"title":"Glengarry
+        Glen Ross (film)"},{"ns":0,"title":"Godfather Trilogy"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden Globe
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Performance by an Actor in a Mini-Series or Motion Picture
+        Made for Television"},{"ns":0,"title":"Golden Globe Cecil B. DeMille Award"},{"ns":0,"title":"Gregory
+        Peck"},{"ns":0,"title":"G\u00e9rard Depardieu"},{"ns":0,"title":"HBO"},{"ns":0,"title":"HBO
+        Films"},{"ns":0,"title":"HB Studio"},{"ns":0,"title":"Halliwell''s Film Guide"},{"ns":0,"title":"Hard
+        and soft drugs"},{"ns":0,"title":"Harrison Ford"},{"ns":0,"title":"Harvey
+        Keitel"},{"ns":0,"title":"Heat (1995 film)"},{"ns":0,"title":"Heathcote Williams"},{"ns":0,"title":"Hell''s
+        Kitchen, Manhattan"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Herod
+        Antipas"},{"ns":0,"title":"Homeless"},{"ns":0,"title":"Hughie"},{"ns":0,"title":"Humphrey
+        Bogart"},{"ns":0,"title":"Huntington Hartford"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Inside
+        the Actors Studio"},{"ns":0,"title":"Insomnia (1997 film)"},{"ns":0,"title":"Insomnia
+        (2002 film)"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"Internal
+        Revenue Service"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"International Standard Serial
+        Number"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Israel Horovitz"},{"ns":0,"title":"Jack
+        Kevorkian"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"James
+        Caan"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James Mason"},{"ns":0,"title":"James
+        Stewart"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jane Fonda"},{"ns":0,"title":"Janet
+        Maslin"},{"ns":0,"title":"Janitor"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jeremy
+        Irons"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jesse Eisenberg"},{"ns":0,"title":"Jill
+        Clayburgh"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"Jodie
+        Foster"},{"ns":0,"title":"Joe Paterno"},{"ns":0,"title":"Joe Pesci"},{"ns":0,"title":"Joe
+        Posnanski"},{"ns":0,"title":"John Cazale"},{"ns":0,"title":"John Ford"},{"ns":0,"title":"John
+        Huston"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John Wayne"},{"ns":0,"title":"John
+        Wojtowicz"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Joseph
+        D. Pistone"},{"ns":0,"title":"Joseph Papp"},{"ns":0,"title":"Jos\u00e9 Ferrer"},{"ns":0,"title":"Julius
+        Caesar (play)"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kathy
+        Bates"},{"ns":0,"title":"Keanu Reeves"},{"ns":0,"title":"Kenneth I. Starr"},{"ns":0,"title":"Kenneth
+        Welsh"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Kramer
+        vs. Kramer"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Lee
+        Strasberg"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Liam Neeson"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lillian Gish"},{"ns":0,"title":"Lionel
+        Barrymore"},{"ns":0,"title":"List of actors nominated for two Academy Awards
+        in the same year"},{"ns":0,"title":"List of awards and nominations received
+        by Al Pacino"},{"ns":0,"title":"Looking for Richard"},{"ns":0,"title":"Lortel
+        Archives"},{"ns":0,"title":"Los Angeles Film Critics Association Award for
+        Best Actor"},{"ns":0,"title":"Lou Lumenick"},{"ns":0,"title":"Lowell Bergman"},{"ns":0,"title":"Lyle
+        Kessler"},{"ns":0,"title":"Lyndall Hobbs"},{"ns":0,"title":"Mafia"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Marijuana"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Marthe Keller"},{"ns":0,"title":"Martin Bregman"},{"ns":0,"title":"Martin
+        Brest"},{"ns":0,"title":"Martin Scorsese"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matthew
+        McConaughey"},{"ns":0,"title":"Maximilian Schell"},{"ns":0,"title":"Me, Natalie"},{"ns":0,"title":"Mel
+        Brooks"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Method
+        acting"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Corleone"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michael Fassbender"},{"ns":0,"title":"Michael Keaton"},{"ns":0,"title":"Michael
+        Mann (director)"},{"ns":0,"title":"Michael Radford"},{"ns":0,"title":"Michael
+        Redgrave"},{"ns":0,"title":"Michelle Pfeiffer"},{"ns":0,"title":"Mickey Rourke"},{"ns":0,"title":"Mike
+        Nichols"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"N.Y.P.D. (TV
+        series)"},{"ns":0,"title":"National Board of Review Award for Best Actor"},{"ns":0,"title":"National
+        Diet Library"},{"ns":0,"title":"National Library of Australia"},{"ns":0,"title":"National
+        Library of the Czech Republic"},{"ns":0,"title":"National Society of Film
+        Critics Award for Best Actor"},{"ns":0,"title":"New York City"},{"ns":0,"title":"New
+        York Post"},{"ns":0,"title":"New York Shakespeare Festival"},{"ns":0,"title":"Newsweek"},{"ns":0,"title":"Nick
+        Nolte"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Obie Award"},{"ns":0,"title":"Ocean''s
+        Thirteen"},{"ns":0,"title":"Off Broadway"},{"ns":0,"title":"Oliver Stone"},{"ns":0,"title":"Omar
+        Sharif"},{"ns":0,"title":"On-again, off-again relationship"},{"ns":0,"title":"Orphans
+        (Lyle Kessler play)"},{"ns":0,"title":"Orson Welles"},{"ns":0,"title":"Oscar
+        Isaac"},{"ns":0,"title":"Oscar Wilde"},{"ns":0,"title":"Palme d''Or"},{"ns":0,"title":"Patty
+        Duke"},{"ns":0,"title":"Paul Lukas"},{"ns":0,"title":"Paul Muni"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Penn State Nittany
+        Lions football"},{"ns":0,"title":"Penn State University"},{"ns":0,"title":"People
+        (American magazine)"},{"ns":0,"title":"People I Know"},{"ns":0,"title":"Per
+        Oscarsson"},{"ns":0,"title":"Peter Finch"},{"ns":0,"title":"Peter Fonda"},{"ns":0,"title":"Peter
+        O''Toole"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Phil Spector"},{"ns":0,"title":"Phil
+        Spector (film)"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Physician-assisted
+        suicide"},{"ns":0,"title":"Playbill"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Pulitzer
+        Prize"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Rene Russo"},{"ns":0,"title":"Revolution (1985
+        film)"},{"ns":0,"title":"Rex Harrison"},{"ns":0,"title":"Richard Basehart"},{"ns":0,"title":"Richard
+        Burton"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard III
+        (play)"},{"ns":0,"title":"Righteous Kill"},{"ns":0,"title":"River Phoenix"},{"ns":0,"title":"Robert
+        De Niro"},{"ns":0,"title":"Robert Donat"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert
+        Mitchum"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robert Ryan"},{"ns":0,"title":"Robert
+        Wise"},{"ns":0,"title":"Roberto Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rod
+        Steiger"},{"ns":0,"title":"Roger Ebert"},{"ns":0,"title":"Rome Film Festival"},{"ns":0,"title":"Ronald
+        Colman"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Roy Cohn"},{"ns":0,"title":"Russell
+        Crowe"},{"ns":0,"title":"S1m0ne"},{"ns":0,"title":"Sacha Baron Cohen"},{"ns":0,"title":"Salome
+        (play)"},{"ns":0,"title":"San Fratello"},{"ns":0,"title":"Satire"},{"ns":0,"title":"Scarecrow
+        (1973 film)"},{"ns":0,"title":"Scarface: The World is Yours"},{"ns":0,"title":"Scarface
+        (1983 film)"},{"ns":0,"title":"Scent of a Woman (1992 film)"},{"ns":0,"title":"Sea
+        of Love (film)"},{"ns":0,"title":"Sean Connery"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"Search
+        for Tomorrow"},{"ns":0,"title":"Serial killer"},{"ns":0,"title":"Serpico"},{"ns":0,"title":"Shakespeare
+        in the Park"},{"ns":0,"title":"Shirley MacLaine"},{"ns":0,"title":"Shylock"},{"ns":0,"title":"Sicily"},{"ns":0,"title":"Sidney
+        Lumet"},{"ns":0,"title":"Sidney Poitier"},{"ns":0,"title":"Simon & Schuster"},{"ns":0,"title":"Spencer
+        Tracy"},{"ns":0,"title":"Spoleto"},{"ns":0,"title":"Stephen Rea"},{"ns":0,"title":"Steve
+        Martin"},{"ns":0,"title":"Steven Soderbergh"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Sydney
+        Pollack"},{"ns":0,"title":"Syst\u00e8me universitaire de documentation"},{"ns":0,"title":"Tax
+        lien"},{"ns":0,"title":"Terrence McNally"},{"ns":0,"title":"The Basic Training
+        of Pavlo Hummel"},{"ns":0,"title":"The Biography Channel"},{"ns":0,"title":"The
+        Devil''s Advocate (1997 film)"},{"ns":0,"title":"The Godfather"},{"ns":0,"title":"The
+        Godfather: The Game"},{"ns":0,"title":"The Godfather (film series)"},{"ns":0,"title":"The
+        Godfather Part II"},{"ns":0,"title":"The Godfather Part III"},{"ns":0,"title":"The
+        Indian Wants the Bronx"},{"ns":0,"title":"The Insider (film)"},{"ns":0,"title":"The
+        Irishman (film)"},{"ns":0,"title":"The Local Stigmatic"},{"ns":0,"title":"The
+        Merchant of Venice"},{"ns":0,"title":"The Merchant of Venice (2004 film)"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Panic in Needle Park"},{"ns":0,"title":"The
+        Recruit"},{"ns":0,"title":"The Resistible Rise of Arturo Ui"},{"ns":0,"title":"The
+        Village Voice"},{"ns":0,"title":"The Washington Post"},{"ns":0,"title":"Theatre
+        direction"},{"ns":0,"title":"Tom Conti"},{"ns":0,"title":"Tom Courtenay"},{"ns":0,"title":"Tom
+        Cruise"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tony Award"},{"ns":0,"title":"Tony
+        Award for Best Leading Actor in a Play"},{"ns":0,"title":"Tony Kushner"},{"ns":0,"title":"Tony
+        Montana"},{"ns":0,"title":"Trinity College, Dublin"},{"ns":0,"title":"Tuesday
+        Weld"},{"ns":0,"title":"Turner Classic Movies"},{"ns":0,"title":"Two for the
+        Money (film)"},{"ns":0,"title":"University Philosophical Society"},{"ns":0,"title":"University
+        of Wisconsin"},{"ns":0,"title":"Variety (magazine)"},{"ns":0,"title":"Venice
+        Film Festival"},{"ns":0,"title":"Victor Banerjee"},{"ns":0,"title":"Victor
+        McLaglen"},{"ns":0,"title":"Victor Sj\u00f6str\u00f6m"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Wallace Beery"},{"ns":0,"title":"Walter
+        Huston"},{"ns":0,"title":"Warner Baxter"},{"ns":0,"title":"Warren Beatty"},{"ns":0,"title":"Wilde
+        Salome"},{"ns":0,"title":"William Holden"},{"ns":0,"title":"William Hurt"},{"ns":0,"title":"William
+        Shakespeare"},{"ns":0,"title":"William Wyler"},{"ns":0,"title":"Winona Ryder"},{"ns":0,"title":"Woody
+        Allen"},{"ns":0,"title":"You Don''t Know Jack (film)"},{"ns":0,"title":"Yul
+        Brynner"},{"ns":4,"title":"Wikipedia:Good articles"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Protection
+        policy"},{"ns":10,"title":"Template:AFI Life Achievement Award"},{"ns":10,"title":"Template:Academy
+        Award Best Actor"},{"ns":10,"title":"Template:Cecil B. DeMille Award"},{"ns":10,"title":"Template:Cecil
+        B. DeMille Award 1952\u20131975"},{"ns":10,"title":"Template:Cecil B. DeMille
+        Award 1976\u20132000"},{"ns":10,"title":"Template:Cecil B. DeMille Award 2001\u20132025"},{"ns":10,"title":"Template:Golden
+        Globe Award Best Actor Motion Picture Drama"},{"ns":10,"title":"Template:Los
+        Angeles Film Critics Association Award for Best Actor"},{"ns":10,"title":"Template:National
+        Board of Review Award for Best Actor"},{"ns":10,"title":"Template:National
+        Society of Film Critics Award for Best Actor"},{"ns":11,"title":"Template
+        talk:AFI Life Achievement Award"},{"ns":11,"title":"Template talk:Academy
+        Award Best Actor"},{"ns":11,"title":"Template talk:Cecil B. DeMille Award
+        2001\u20132025"},{"ns":11,"title":"Template talk:Golden Globe Award Best Actor
+        Motion Picture Drama"},{"ns":11,"title":"Template talk:Los Angeles Film Critics
+        Association Award for Best Actor"},{"ns":11,"title":"Template talk:National
+        Board of Review Award for Best Actor"},{"ns":11,"title":"Template talk:National
+        Society of Film Critics Award for Best Actor"},{"ns":12,"title":"Help:IPA
+        for English"},{"ns":14,"title":"Category:Use mdy dates from June 2014"},{"ns":108,"title":"Book:Al
+        Pacino"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:41 GMT
+recorded_with: VCR 2.9.2

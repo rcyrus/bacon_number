@@ -1,0 +1,261 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Hollywood%20Walk%20of%20Fame
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332274164, 2340328092, 1613054631
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4706'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:18 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"105776":{"pageid":105776,"ns":0,"title":"Hollywood
+        Walk of Fame","links":[{"ns":0,"title":"19th Critics'' Choice Awards"},{"ns":0,"title":"20th
+        Screen Actors Guild Awards"},{"ns":0,"title":"66th Directors Guild of America
+        Awards"},{"ns":0,"title":"71st Golden Globe Awards"},{"ns":0,"title":"86th
+        Academy Awards"},{"ns":0,"title":"A&M Records"},{"ns":0,"title":"AFI 100 Years\u2026
+        series"},{"ns":0,"title":"Absolut Vodka"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Academy of Motion Picture Arts and Sciences"},{"ns":0,"title":"Alana
+        Semuels"},{"ns":0,"title":"Albert Brooks"},{"ns":0,"title":"Alfred Hitchcock"},{"ns":0,"title":"American
+        Society of Cinematographers"},{"ns":0,"title":"Andrea Bocelli"},{"ns":0,"title":"Andrew
+        L. Stone"},{"ns":0,"title":"Andy Williams"},{"ns":0,"title":"Anna May Wong"},{"ns":0,"title":"Apollo
+        11"},{"ns":0,"title":"Arnold Schwarzenegger"},{"ns":0,"title":"Art Deco"},{"ns":0,"title":"Art
+        Linkletter"},{"ns":0,"title":"Astronaut"},{"ns":0,"title":"Auguste and Louis
+        Lumi\u00e8re"},{"ns":0,"title":"Austin Powers (film series)"},{"ns":0,"title":"Avalon
+        Hollywood"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Basketball"},{"ns":0,"title":"Beachwood
+        Canyon, Los Angeles"},{"ns":0,"title":"Bette Davis"},{"ns":0,"title":"Beverly
+        Hills, California"},{"ns":0,"title":"Big Bird"},{"ns":0,"title":"Bill Williams
+        (actor)"},{"ns":0,"title":"Billy Dee Williams"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Bob
+        Einstein"},{"ns":0,"title":"Bob Hope"},{"ns":0,"title":"Bobby Sherwood"},{"ns":0,"title":"Boxing"},{"ns":0,"title":"Brass"},{"ns":0,"title":"Brown
+        Derby"},{"ns":0,"title":"Bugs Bunny"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"Buzz
+        Aldrin"},{"ns":0,"title":"CNN"},{"ns":0,"title":"Cahuenga Pass"},{"ns":0,"title":"California"},{"ns":0,"title":"Cantinflas"},{"ns":0,"title":"Capitol
+        Records Building"},{"ns":0,"title":"Caricature"},{"ns":0,"title":"Carmen Miranda"},{"ns":0,"title":"Carol
+        Burnett"},{"ns":0,"title":"Caryatid"},{"ns":0,"title":"Catherine Hardwicke"},{"ns":0,"title":"Cecil
+        B. DeMille"},{"ns":0,"title":"Cellular telephone"},{"ns":0,"title":"Chamber
+        of commerce"},{"ns":0,"title":"Charles Chaplin, Jr."},{"ns":0,"title":"Charles
+        E. Toberman"},{"ns":0,"title":"Charles M. Schulz"},{"ns":0,"title":"Charleston,
+        South Carolina"},{"ns":0,"title":"Charlie Chaplin"},{"ns":0,"title":"Charlie
+        Tuna"},{"ns":0,"title":"Cher"},{"ns":0,"title":"Chicago Tribune"},{"ns":0,"title":"Chicago
+        film industry"},{"ns":0,"title":"Chuck Jones"},{"ns":0,"title":"Cindy Williams"},{"ns":0,"title":"Cinema
+        of Puerto Rico"},{"ns":0,"title":"Cinema of the United States"},{"ns":0,"title":"Cinerama"},{"ns":0,"title":"City
+        block"},{"ns":0,"title":"Classical Hollywood cinema"},{"ns":0,"title":"Clayton
+        Moore"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Crescenta Valley"},{"ns":0,"title":"Critics''
+        Choice Movie Award"},{"ns":0,"title":"Daily News of Los Angeles"},{"ns":0,"title":"Daily
+        Star (United Kingdom)"},{"ns":0,"title":"Dan Haggerty"},{"ns":0,"title":"Danny
+        Kaye"},{"ns":0,"title":"Danny Thomas"},{"ns":0,"title":"Dennis Hopper"},{"ns":0,"title":"Dennis
+        Muren"},{"ns":0,"title":"Deseret News"},{"ns":0,"title":"Diana Ross"},{"ns":0,"title":"Dick
+        Van Dyke"},{"ns":0,"title":"Dick Van Patten"},{"ns":0,"title":"Dinah Shore"},{"ns":0,"title":"Directors
+        Guild of America Award"},{"ns":0,"title":"Dolby Theatre"},{"ns":0,"title":"Dolores
+        del R\u00edo"},{"ns":0,"title":"Don Haggerty"},{"ns":0,"title":"Donald Duck"},{"ns":0,"title":"Dorothy
+        Dandridge"},{"ns":0,"title":"Downtown Los Angeles"},{"ns":0,"title":"Dr. Seuss"},{"ns":0,"title":"Drew
+        Barrymore"},{"ns":0,"title":"Earl Lestz"},{"ns":0,"title":"Earle Williams"},{"ns":0,"title":"East
+        Hollywood, Los Angeles"},{"ns":0,"title":"East Los Angeles (region)"},{"ns":0,"title":"Economy
+        of Atlanta"},{"ns":0,"title":"Economy of Ohio"},{"ns":0,"title":"Ed O''Neill"},{"ns":0,"title":"Edith
+        Head"},{"ns":0,"title":"Edward Sedgwick"},{"ns":0,"title":"Elizabeth Taylor"},{"ns":0,"title":"Ellen
+        Drew"},{"ns":0,"title":"Entertainment industry"},{"ns":0,"title":"Ernest Torrence"},{"ns":0,"title":"Esther
+        Williams"},{"ns":0,"title":"Ethel Barrymore"},{"ns":0,"title":"Film"},{"ns":0,"title":"Film
+        and television in Hawaii"},{"ns":0,"title":"Film in Kansas City"},{"ns":0,"title":"Film
+        industry in Alaska"},{"ns":0,"title":"Film industry in Connecticut"},{"ns":0,"title":"Film
+        industry in Florida"},{"ns":0,"title":"Film industry in Georgia (U.S. state)"},{"ns":0,"title":"Film
+        industry in Louisiana"},{"ns":0,"title":"Film industry in Michigan"},{"ns":0,"title":"Film
+        industry in New Mexico"},{"ns":0,"title":"Fran Allison"},{"ns":0,"title":"Frank
+        Crumit"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Frequency-hopping
+        spread spectrum"},{"ns":0,"title":"Friz Freleng"},{"ns":0,"title":"Gale Storm"},{"ns":0,"title":"Gazebo"},{"ns":0,"title":"Gene
+        Autry"},{"ns":0,"title":"Gene Kelly"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George
+        Eastman"},{"ns":0,"title":"George Harrison"},{"ns":0,"title":"George Murphy"},{"ns":0,"title":"Geraldine
+        Farrar"},{"ns":0,"title":"Godzilla"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Governor
+        of California"},{"ns":0,"title":"Grammy Award"},{"ns":0,"title":"Greater Cleveland
+        Film Commission"},{"ns":0,"title":"Greater Hollywood, Los Angeles"},{"ns":0,"title":"Gregory
+        Peck"},{"ns":0,"title":"Greta Garbo"},{"ns":0,"title":"Griffith Park"},{"ns":0,"title":"Guy
+        Williams (actor)"},{"ns":0,"title":"Hal Roach"},{"ns":0,"title":"Hall of fame"},{"ns":0,"title":"Hank
+        Williams"},{"ns":0,"title":"Hanna-Barbera"},{"ns":0,"title":"Harbor Area"},{"ns":0,"title":"Harrison
+        Ford"},{"ns":0,"title":"Harrison Ford (silent film actor)"},{"ns":0,"title":"Harry
+        Einstein"},{"ns":0,"title":"Harry Houdini"},{"ns":0,"title":"Harry Parke"},{"ns":0,"title":"Head
+        of government"},{"ns":0,"title":"Hedy Lamarr"},{"ns":0,"title":"Helen Gahagan"},{"ns":0,"title":"Herbert
+        Kalmus"},{"ns":0,"title":"Highland Avenue (Los Angeles)"},{"ns":0,"title":"History
+        of Jacksonville, Florida"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Hollywood/Vine
+        (Los Angeles Metro station)"},{"ns":0,"title":"Hollywood Boulevard"},{"ns":0,"title":"Hollywood
+        Dell, Los Angeles"},{"ns":0,"title":"Hollywood Foreign Press Association"},{"ns":0,"title":"Hollywood
+        Hills"},{"ns":0,"title":"Hollywood Hotel"},{"ns":0,"title":"Hollywood Pacific
+        Theatre"},{"ns":0,"title":"Hollywood Sign"},{"ns":0,"title":"Hollywood Walk
+        of Fame"},{"ns":0,"title":"Hollywood and Highland"},{"ns":0,"title":"Hollywood
+        and Vine"},{"ns":0,"title":"Houghton Mifflin Harcourt"},{"ns":0,"title":"Ignacy
+        Jan Paderewski"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Inventor"},{"ns":0,"title":"Jack
+        Benny"},{"ns":0,"title":"Jackhammer"},{"ns":0,"title":"Jackie Cooper"},{"ns":0,"title":"James
+        Bond"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James Cameron"},{"ns":0,"title":"James
+        Doohan"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"Jan Rooney"},{"ns":0,"title":"Jay
+        Ward"},{"ns":0,"title":"Jesse L. Lasky"},{"ns":0,"title":"Jet Magazine"},{"ns":0,"title":"Jim
+        Henson"},{"ns":0,"title":"Jimmy Boyd"},{"ns":0,"title":"Joan Collins"},{"ns":0,"title":"Joanne
+        Woodward"},{"ns":0,"title":"Joe Pasternak"},{"ns":0,"title":"Joe Williams
+        (jazz singer)"},{"ns":0,"title":"John Barrymore"},{"ns":0,"title":"John Chambers
+        (make-up artist)"},{"ns":0,"title":"John Denver"},{"ns":0,"title":"John Drew
+        Barrymore"},{"ns":0,"title":"John Lasseter"},{"ns":0,"title":"John Lennon"},{"ns":0,"title":"John
+        Wayne"},{"ns":0,"title":"Johnny Grant (radio personality)"},{"ns":0,"title":"Julia
+        Louis-Dreyfus"},{"ns":0,"title":"Julia Roberts"},{"ns":0,"title":"Julio Iglesias"},{"ns":0,"title":"KABC
+        (AM)"},{"ns":0,"title":"KMPC"},{"ns":0,"title":"Katharine Hepburn"},{"ns":0,"title":"Kathlyn
+        Williams"},{"ns":0,"title":"Kermit the Frog"},{"ns":0,"title":"King Kong (1933
+        film)"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"L''Or\u00e9al"},{"ns":0,"title":"LIFE"},{"ns":0,"title":"La
+        Brea Avenue"},{"ns":0,"title":"La Brea Tar Pits"},{"ns":0,"title":"Larry King"},{"ns":0,"title":"Lassie"},{"ns":0,"title":"Laurel
+        Canyon, Los Angeles"},{"ns":0,"title":"Lee De Forest"},{"ns":0,"title":"Leicester
+        Square"},{"ns":0,"title":"Liberace"},{"ns":0,"title":"Lionel Barrymore"},{"ns":0,"title":"List
+        of Los Angeles Historic-Cultural Monuments in Downtown Los Angeles"},{"ns":0,"title":"List
+        of Los Angeles Historic-Cultural Monuments in Hollywood"},{"ns":0,"title":"List
+        of Los Angeles Historic-Cultural Monuments in Silver Lake, Angelino Heights,
+        and Echo Park"},{"ns":0,"title":"List of Los Angeles Historic-Cultural Monuments
+        in South Los Angeles"},{"ns":0,"title":"List of Los Angeles Historic-Cultural
+        Monuments in the Harbor area"},{"ns":0,"title":"List of Los Angeles Historic-Cultural
+        Monuments in the San Fernando Valley"},{"ns":0,"title":"List of Los Angeles
+        Historic-Cultural Monuments in the Wilshire and Westlake areas"},{"ns":0,"title":"List
+        of Los Angeles Historic-Cultural Monuments on the East and Northeast Sides"},{"ns":0,"title":"List
+        of Los Angeles Historic-Cultural Monuments on the Westside"},{"ns":0,"title":"List
+        of districts and neighborhoods of Los Angeles"},{"ns":0,"title":"List of fictional
+        characters with stars on the Hollywood Walk of Fame"},{"ns":0,"title":"List
+        of films shot in Oregon"},{"ns":0,"title":"List of halls and walks of fame"},{"ns":0,"title":"List
+        of movie theaters and cinema chains"},{"ns":0,"title":"List of stars on the
+        Hollywood Walk of Fame"},{"ns":0,"title":"Lists of American films"},{"ns":0,"title":"Little
+        Armenia, Los Angeles"},{"ns":0,"title":"Lodi News-Sentinel"},{"ns":0,"title":"Lone
+        Ranger"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Los Angeles City
+        Council"},{"ns":0,"title":"Los Angeles County"},{"ns":0,"title":"Los Angeles
+        County Metropolitan Transportation Authority"},{"ns":0,"title":"Los Angeles
+        County Museum of Art"},{"ns":0,"title":"Los Angeles Cultural Heritage Commission"},{"ns":0,"title":"Los
+        Angeles Daily News"},{"ns":0,"title":"Los Angeles Dodgers"},{"ns":0,"title":"Los
+        Angeles Historic-Cultural Monument"},{"ns":0,"title":"Los Angeles Police Department"},{"ns":0,"title":"Los
+        Angeles Times"},{"ns":0,"title":"Lotte Lehmann"},{"ns":0,"title":"Louise Fazenda"},{"ns":0,"title":"Mack
+        Sennett"},{"ns":0,"title":"Mae West"},{"ns":0,"title":"Magic Johnson"},{"ns":0,"title":"Magic
+        Johnson Theatres"},{"ns":0,"title":"Mako Iwamatsu"},{"ns":0,"title":"Mann
+        Act"},{"ns":0,"title":"Marilyn Monroe"},{"ns":0,"title":"Mark Serrurier"},{"ns":0,"title":"Married...with
+        Children"},{"ns":0,"title":"Mary-Kate and Ashley Olsen"},{"ns":0,"title":"Matt
+        Damon"},{"ns":0,"title":"Matt Groening"},{"ns":0,"title":"Mauritz Stiller"},{"ns":0,"title":"Max
+        Factor"},{"ns":0,"title":"Mayor of Hollywood"},{"ns":0,"title":"McFarland
+        & Company"},{"ns":0,"title":"Media in New York City"},{"ns":0,"title":"Melrose
+        District, Los Angeles"},{"ns":0,"title":"Melrose Hill, Los Angeles"},{"ns":0,"title":"Merian
+        C. Cooper"},{"ns":0,"title":"Metro Rail (Los Angeles County)"},{"ns":0,"title":"Michael
+        Collins (astronaut)"},{"ns":0,"title":"Michael Jackson"},{"ns":0,"title":"Michael
+        Jackson (radio commentator)"},{"ns":0,"title":"Mickey Mouse"},{"ns":0,"title":"Mickey
+        Rooney"},{"ns":0,"title":"Mid-City West, Los Angeles"},{"ns":0,"title":"Mid-Wilshire,
+        Los Angeles"},{"ns":0,"title":"Mike Myers"},{"ns":0,"title":"Monty Hall"},{"ns":0,"title":"Monty
+        Woolley"},{"ns":0,"title":"Moon landing"},{"ns":0,"title":"Mr. & Mrs. Sidney
+        Drew"},{"ns":0,"title":"Muhammad Ali"},{"ns":0,"title":"Munchkin"},{"ns":0,"title":"Music"},{"ns":0,"title":"National
+        Academy of Recording Arts and Sciences"},{"ns":0,"title":"National Film Registry"},{"ns":0,"title":"Neil
+        Armstrong"},{"ns":0,"title":"Neon sign"},{"ns":0,"title":"New Hampshire Film
+        and Television Office"},{"ns":0,"title":"New Hollywood"},{"ns":0,"title":"Nichols
+        Canyon, Los Angeles"},{"ns":0,"title":"North Carolina Film Office"},{"ns":0,"title":"Northeast
+        Los Angeles"},{"ns":0,"title":"Northwest Los Angeles"},{"ns":0,"title":"Obelisk"},{"ns":0,"title":"Olive
+        Borden"},{"ns":0,"title":"Orville Redenbacher"},{"ns":0,"title":"Oscars"},{"ns":0,"title":"Ottawa
+        Citizen"},{"ns":0,"title":"Outpost Estates, Los Angeles"},{"ns":0,"title":"Pantages
+        Theatre (Hollywood)"},{"ns":0,"title":"Paramount Pictures"},{"ns":0,"title":"Paul
+        Douglas (actor)"},{"ns":0,"title":"Paul McCartney"},{"ns":0,"title":"Paul
+        Robeson"},{"ns":0,"title":"Paul Williams (songwriter)"},{"ns":0,"title":"Pennsylvania
+        Film Production Tax Credit"},{"ns":0,"title":"Peter Frampton"},{"ns":0,"title":"Phonofilm"},{"ns":0,"title":"Play
+        (theatre)"},{"ns":0,"title":"Poland"},{"ns":0,"title":"President of the United
+        States"},{"ns":0,"title":"Preston Foster"},{"ns":0,"title":"Prime Minister"},{"ns":0,"title":"Producers
+        Guild of America Award"},{"ns":0,"title":"Producers Guild of America Awards
+        2013"},{"ns":0,"title":"RMS Queen Mary"},{"ns":0,"title":"Radio broadcasting"},{"ns":0,"title":"Ray
+        Bradbury"},{"ns":0,"title":"Ray Harryhausen"},{"ns":0,"title":"Reading Eagle"},{"ns":0,"title":"Red
+        Line (Los Angeles Metro)"},{"ns":0,"title":"Ricardo Montalb\u00e1n"},{"ns":0,"title":"Richard
+        Boleslavsky"},{"ns":0,"title":"Richard Crooks"},{"ns":0,"title":"Richard D.
+        Zanuck"},{"ns":0,"title":"Richard Pryor"},{"ns":0,"title":"Rin Tin Tin"},{"ns":0,"title":"Ringo
+        Starr"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Roger Moore"},{"ns":0,"title":"Roger
+        Williams (pianist)"},{"ns":0,"title":"Roll film"},{"ns":0,"title":"Ronald
+        Colman"},{"ns":0,"title":"Ronald Reagan"},{"ns":0,"title":"Roseanne Barr"},{"ns":0,"title":"Roy
+        Rogers"},{"ns":0,"title":"Rugrats"},{"ns":0,"title":"Sabu Dastagir"},{"ns":0,"title":"Samuel
+        Goldwyn"},{"ns":0,"title":"San Diego Film Commission"},{"ns":0,"title":"San
+        Fernando Valley"},{"ns":0,"title":"Schenectady Gazette"},{"ns":0,"title":"Screen
+        Actors Guild Award"},{"ns":0,"title":"Seal of the City of Los Angeles"},{"ns":0,"title":"Sexual
+        slavery"},{"ns":0,"title":"Shakira"},{"ns":0,"title":"Shari Lewis"},{"ns":0,"title":"Shrek
+        (character)"},{"ns":0,"title":"Sid Grauman"},{"ns":0,"title":"Sidewalk"},{"ns":0,"title":"Sidney
+        Sheldon"},{"ns":0,"title":"Slash (musician)"},{"ns":0,"title":"Slate.com"},{"ns":0,"title":"Smokey
+        Robinson"},{"ns":0,"title":"Snow White (Disney)"},{"ns":0,"title":"Sonny &
+        Cher"},{"ns":0,"title":"Sonny Bono"},{"ns":0,"title":"Sophia Loren"},{"ns":0,"title":"Sound
+        recording and reproduction"},{"ns":0,"title":"South Gate, California"},{"ns":0,"title":"South
+        Los Angeles"},{"ns":0,"title":"Spaulding Square, Los Angeles"},{"ns":0,"title":"Special
+        Effects (film)"},{"ns":0,"title":"Stage name"},{"ns":0,"title":"Stan Winston"},{"ns":0,"title":"Stanley
+        Kramer"},{"ns":0,"title":"Star-News"},{"ns":0,"title":"Starz (TV channel)"},{"ns":0,"title":"Sting
+        (musician)"},{"ns":0,"title":"Strangers on a Train (film)"},{"ns":0,"title":"Street
+        performers"},{"ns":0,"title":"Strongheart"},{"ns":0,"title":"Sunset Boulevard"},{"ns":0,"title":"Sunset
+        Hills, Los Angeles"},{"ns":0,"title":"Sunset Strip"},{"ns":0,"title":"TCL
+        Chinese Theatre"},{"ns":0,"title":"TV Guide"},{"ns":0,"title":"Technicolor"},{"ns":0,"title":"Terrazzo"},{"ns":0,"title":"Terrestrial
+        television"},{"ns":0,"title":"Tex Williams"},{"ns":0,"title":"Thai Town, Los
+        Angeles"},{"ns":0,"title":"Thal\u00eda"},{"ns":0,"title":"The Albany Herald"},{"ns":0,"title":"The
+        Beatles"},{"ns":0,"title":"The Bulletin"},{"ns":0,"title":"The Crisis"},{"ns":0,"title":"The
+        Daily Telegraph"},{"ns":0,"title":"The Dead End Kids"},{"ns":0,"title":"The
+        Jackson 5"},{"ns":0,"title":"The Life and Times of Grizzly Adams"},{"ns":0,"title":"The
+        Man Who Came to Dinner (film)"},{"ns":0,"title":"The Miracles"},{"ns":0,"title":"The
+        Muppets"},{"ns":0,"title":"The Post and Courier"},{"ns":0,"title":"The Seven
+        Year Itch"},{"ns":0,"title":"The Simpsons"},{"ns":0,"title":"The Sons of the
+        Pioneers"},{"ns":0,"title":"The Supremes"},{"ns":0,"title":"The Union Democrat"},{"ns":0,"title":"The
+        Vindicator"},{"ns":0,"title":"The Washington Post"},{"ns":0,"title":"The Wizard
+        of Oz (1939 film)"},{"ns":0,"title":"Theatre"},{"ns":0,"title":"Theatrical
+        makeup"},{"ns":0,"title":"Thomas Edison"},{"ns":0,"title":"Tinker Bell"},{"ns":0,"title":"Tinseltown"},{"ns":0,"title":"Tom
+        Bradley (American politician)"},{"ns":0,"title":"Tommy Riggs and Betty Lou"},{"ns":0,"title":"Tony
+        Martin (American singer)"},{"ns":0,"title":"U.S. House of Representatives"},{"ns":0,"title":"U.S.
+        senator"},{"ns":0,"title":"UPI"},{"ns":0,"title":"United States box office
+        records"},{"ns":0,"title":"United States dollar"},{"ns":0,"title":"Universal
+        City, California"},{"ns":0,"title":"Urban legend"},{"ns":0,"title":"Vacuum
+        tube"},{"ns":0,"title":"Vanessa L. Williams"},{"ns":0,"title":"Victoria''s
+        Secret"},{"ns":0,"title":"Vine Street"},{"ns":0,"title":"Virgil Village, Los
+        Angeles"},{"ns":0,"title":"Virginia Film Office"},{"ns":0,"title":"Walt Disney"},{"ns":0,"title":"Walter
+        Lantz"},{"ns":0,"title":"West Hollywood, California"},{"ns":0,"title":"Westmore
+        family"},{"ns":0,"title":"Westside (Los Angeles County)"},{"ns":0,"title":"Whitley
+        Heights, Los Angeles"},{"ns":0,"title":"Wi-Fi"},{"ns":0,"title":"Willard Waterman"},{"ns":0,"title":"William
+        Meiklejohn"},{"ns":0,"title":"Wilshire, Los Angeles"},{"ns":0,"title":"Winnie-the-Pooh"},{"ns":0,"title":"Women
+        of color"},{"ns":0,"title":"Woody Woodpecker"},{"ns":0,"title":"World Wars"},{"ns":0,"title":"Writers
+        Guild of America Award"},{"ns":0,"title":"Writers Guild of America Awards
+        2013"},{"ns":0,"title":"Yucca Corridor, Los Angeles"},{"ns":10,"title":"Template:Cinema
+        of the United States"},{"ns":10,"title":"Template:Greater Hollywood"},{"ns":10,"title":"Template:LAHMC"},{"ns":11,"title":"Template
+        talk:Cinema of the United States"},{"ns":11,"title":"Template talk:Greater
+        Hollywood"},{"ns":11,"title":"Template talk:LAHMC"},{"ns":14,"title":"Category:American
+        animators"},{"ns":14,"title":"Category:American cinematographers"},{"ns":14,"title":"Category:American
+        film actors"},{"ns":14,"title":"Category:American film critics"},{"ns":14,"title":"Category:American
+        film directors"},{"ns":14,"title":"Category:American film editors"},{"ns":14,"title":"Category:American
+        film producers"},{"ns":14,"title":"Category:American film score composers"},{"ns":14,"title":"Category:American
+        films"},{"ns":14,"title":"Category:American screenwriters"},{"ns":14,"title":"Category:American
+        silent films"},{"ns":14,"title":"Category:American stunt performers"},{"ns":14,"title":"Category:Articles
+        containing potentially dated statements from March 2014"},{"ns":14,"title":"Category:Film
+        festivals in the United States"},{"ns":14,"title":"Category:Film production
+        companies of the United States"},{"ns":14,"title":"Category:Film series"},{"ns":14,"title":"Category:Hollywood"},{"ns":14,"title":"Category:Use
+        mdy dates from November 2013"},{"ns":100,"title":"Portal:Los Angeles"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:19 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,201 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Ra%C3%BAl%20Juli%C3%A1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401680507, 983726758, 3142934806
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3697'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:57 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4018 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"347344":{"pageid":347344,"ns":0,"title":"Ra\u00fal
+        Juli\u00e1","links":[{"ns":0,"title":"AFI''s 100 Years...100 Stars"},{"ns":0,"title":"Actors''
+        Equity Association"},{"ns":0,"title":"Addams Family Values"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec
+        Guinness"},{"ns":0,"title":"Alfred Lunt"},{"ns":0,"title":"American Film Institute"},{"ns":0,"title":"American
+        Playhouse"},{"ns":0,"title":"Andre Braugher"},{"ns":0,"title":"Anjelica Huston"},{"ns":0,"title":"Anthony
+        Andrews"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony Murphy
+        (actor)"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"Antonio L\u00f3pez
+        de Santa Anna"},{"ns":0,"title":"Argentina"},{"ns":0,"title":"Aristotle Onassis"},{"ns":0,"title":"Armand
+        Assante"},{"ns":0,"title":"Arms and the Man"},{"ns":0,"title":"Arthur Kopit"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Barry Pepper"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Been
+        Down So Long It Looks Like Up to Me"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Betrayal
+        (play)"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bilingual"},{"ns":0,"title":"Bill
+        Nighy"},{"ns":0,"title":"Billy Bob Thornton"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Bradley
+        Cooper"},{"ns":0,"title":"Brendan Gleeson"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Buxeda Cemetery"},{"ns":0,"title":"Bye Bye Birdie
+        (musical)"},{"ns":0,"title":"CableACE Awards"},{"ns":0,"title":"Campbell Scott"},{"ns":0,"title":"Catskill
+        Mountains"},{"ns":0,"title":"Charles Addams"},{"ns":0,"title":"Charter school"},{"ns":0,"title":"Chico
+        Mendes"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Reeve"},{"ns":0,"title":"Cinema of Puerto Rico"},{"ns":0,"title":"Cliff Robertson"},{"ns":0,"title":"Clint
+        Eastwood"},{"ns":0,"title":"Colegio San Ignacio de Loyola"},{"ns":0,"title":"Compromising
+        Positions"},{"ns":0,"title":"Count Dracula"},{"ns":0,"title":"Cristina Saralegui"},{"ns":0,"title":"Daniel
+        Rodr\u00edguez (tenor)"},{"ns":0,"title":"David Carradine"},{"ns":0,"title":"Death
+        Scream"},{"ns":0,"title":"Delacorte Theater"},{"ns":0,"title":"Design for
+        Living"},{"ns":0,"title":"Desperado (film)"},{"ns":0,"title":"Don Quixote"},{"ns":0,"title":"Down
+        Came a Blackbird (film)"},{"ns":0,"title":"Dracula (1924 play)"},{"ns":0,"title":"Drama
+        Desk Award"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Ed Flanders"},{"ns":0,"title":"Edmund
+        (King Lear)"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"El Nuevo
+        D\u00eda"},{"ns":0,"title":"Emilio Delgado"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Erhard
+        Seminars Training"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"Errol
+        Flynn"},{"ns":0,"title":"Eyes of Laura Mars"},{"ns":0,"title":"Find a Grave"},{"ns":0,"title":"Florida
+        Straits"},{"ns":0,"title":"Fordham University"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Frankenstein
+        Unbound"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Galeazzo Ciano"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        C. Scott"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George Lopez
+        (TV series)"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Awards"},{"ns":0,"title":"Gomez Addams"},{"ns":0,"title":"Great Performances"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hal
+        Holbrook"},{"ns":0,"title":"Hamlet"},{"ns":0,"title":"Hato Rey, Puerto Rico"},{"ns":0,"title":"Havana
+        (film)"},{"ns":0,"title":"Helen Hunt"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Hispanic
+        Organization of Latin Actors"},{"ns":0,"title":"Hume Cronyn"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"Indians (play)"},{"ns":0,"title":"Institute
+        of Puerto Rican Culture"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jack
+        Klugman"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jack
+        Palance"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James
+        Mason"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jason
+        Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jesse
+        Eisenberg"},{"ns":0,"title":"Jewish"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jimmy
+        Smits"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"Jon
+        Voight"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Joseph Papp"},{"ns":0,"title":"Jos\u00e9
+        Ferrer"},{"ns":0,"title":"Julius Caesar (play)"},{"ns":0,"title":"Keith Michell"},{"ns":0,"title":"Kenneth
+        Branagh"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kevin
+        Kline"},{"ns":0,"title":"King Lear"},{"ns":0,"title":"Kiss of the Spider Woman
+        (film)"},{"ns":0,"title":"La Borinque\u00f1a"},{"ns":0,"title":"La Carreta"},{"ns":0,"title":"La
+        Gran Fiesta"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Life is a Dream"},{"ns":0,"title":"Lillian
+        Hurst"},{"ns":0,"title":"List of Puerto Ricans"},{"ns":0,"title":"List of
+        characters in Sesame Street"},{"ns":0,"title":"Lloyd Nolan"},{"ns":0,"title":"Long
+        Island"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Love of Life"},{"ns":0,"title":"Lucecita
+        Ben\u00edtez"},{"ns":0,"title":"M. Bison"},{"ns":0,"title":"MTV Movie Award
+        for Best Kiss"},{"ns":0,"title":"MTV Movie Awards"},{"ns":0,"title":"Macbeth"},{"ns":0,"title":"Macduff
+        (Macbeth)"},{"ns":0,"title":"Mack The Knife (film)"},{"ns":0,"title":"Mack
+        the Knife (film)"},{"ns":0,"title":"Madrid, Spain"},{"ns":0,"title":"Man of
+        La Mancha"},{"ns":0,"title":"Manhasset, New York"},{"ns":0,"title":"Manuel
+        Puig"},{"ns":0,"title":"Marcos Zurinaga"},{"ns":0,"title":"Maurice Evans (actor)"},{"ns":0,"title":"Melvyn
+        Douglas"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Metropolitan Opera
+        House (Lincoln Center)"},{"ns":0,"title":"Mexico"},{"ns":0,"title":"Mezzo-soprano"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Michael
+        Redgrave"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Miguel de Cervantes"},{"ns":0,"title":"Moon
+        over Parador"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Muktananda"},{"ns":0,"title":"Mussolini:
+        The Untold Story"},{"ns":0,"title":"Mystery Science Theater 3000"},{"ns":0,"title":"M\u00edriam
+        Col\u00f3n"},{"ns":0,"title":"National Board of Review"},{"ns":0,"title":"National
+        Board of Review Award for Best Actor"},{"ns":0,"title":"National Board of
+        Review of Motion Pictures"},{"ns":0,"title":"New Jersey"},{"ns":0,"title":"New
+        York City"},{"ns":0,"title":"New York City Board of Education"},{"ns":0,"title":"New
+        York Shakespeare Festival"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Nine
+        (musical)"},{"ns":0,"title":"North Shore University Hospital"},{"ns":0,"title":"Northeast
+        Times"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Off Broadway"},{"ns":0,"title":"One
+        from the Heart"},{"ns":0,"title":"Orson Bean"},{"ns":0,"title":"Othello"},{"ns":0,"title":"Overdrawn
+        at the Memory Bank"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Pedro Calder\u00f3n
+        de la Barca"},{"ns":0,"title":"Peter Falk"},{"ns":0,"title":"Peter Finch"},{"ns":0,"title":"Peter
+        O''Toole"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Peter Strauss"},{"ns":0,"title":"Peter
+        Ustinov"},{"ns":0,"title":"Petruchio (The Taming of the Shrew)"},{"ns":0,"title":"Phi
+        Sigma Alpha"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Phoebe
+        Brand"},{"ns":0,"title":"Plena"},{"ns":0,"title":"Powers Boothe"},{"ns":0,"title":"Presumed
+        Innocent (film)"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Lead
+        Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime Emmy Award for
+        Outstanding Lead Actor \u2013 Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Awards"},{"ns":0,"title":"Puerto Rican Traveling Theatre"},{"ns":0,"title":"Puerto
+        Rican independence movement"},{"ns":0,"title":"Puerto Rico"},{"ns":0,"title":"Puerto
+        Rico Tourism Company"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Randy
+        Quaid"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Rex Harrison"},{"ns":0,"title":"Richard
+        Basehart"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard
+        Crenna"},{"ns":0,"title":"Robert Cummings"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Robert Mitchum"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert
+        Ryan"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Roderigo"},{"ns":0,"title":"Romero
+        (film)"},{"ns":0,"title":"Rub\u00e9n Berr\u00edos"},{"ns":0,"title":"Rub\u00e9n
+        Blades"},{"ns":0,"title":"Rudy Giuliani"},{"ns":0,"title":"Russell Crowe"},{"ns":0,"title":"San
+        Juan, Puerto Rico"},{"ns":0,"title":"Sandra Bullock"},{"ns":0,"title":"Saturn
+        Award"},{"ns":0,"title":"Saturn Award for Best Actor"},{"ns":0,"title":"Saturn
+        Award for Best Supporting Actor"},{"ns":0,"title":"Saturn Awards"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries
+        or Television Movie"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Sesame Street"},{"ns":0,"title":"Sheena Easton"},{"ns":0,"title":"Spencer
+        Tracy"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Stiletto
+        (1969 film)"},{"ns":0,"title":"Stomach cancer"},{"ns":0,"title":"Street Fighter"},{"ns":0,"title":"Street
+        Fighter (film)"},{"ns":0,"title":"Stroke"},{"ns":0,"title":"Strong Medicine"},{"ns":0,"title":"Sushi"},{"ns":0,"title":"Tango
+        Bar"},{"ns":0,"title":"Ted Danson"},{"ns":0,"title":"Tempest (1982 film)"},{"ns":0,"title":"Tequila
+        Sunrise (film)"},{"ns":0,"title":"The Addams Family"},{"ns":0,"title":"The
+        Addams Family (film)"},{"ns":0,"title":"The Adventures of Robin Hood (film)"},{"ns":0,"title":"The
+        Alamo: 13 Days to Glory"},{"ns":0,"title":"The Bob Newhart Show"},{"ns":0,"title":"The
+        Burning Season (1994 film)"},{"ns":0,"title":"The Escape Artist"},{"ns":0,"title":"The
+        Gumball Rally"},{"ns":0,"title":"The Hunger Project"},{"ns":0,"title":"The
+        Morning After (1986 film)"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The
+        Organization (film)"},{"ns":0,"title":"The Original Amateur Hour"},{"ns":0,"title":"The
+        Panic in Needle Park"},{"ns":0,"title":"The Plague (1992 film)"},{"ns":0,"title":"The
+        Rookie (1990 film)"},{"ns":0,"title":"The Taming of the Shrew"},{"ns":0,"title":"The
+        Tempest"},{"ns":0,"title":"The Threepenny Opera"},{"ns":0,"title":"Thomas
+        Mitchell (actor)"},{"ns":0,"title":"Tom Conti"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"Tommy Lee Jones"},{"ns":0,"title":"Tony Award"},{"ns":0,"title":"Toronto,
+        Ontario"},{"ns":0,"title":"Tremont, Bronx"},{"ns":0,"title":"Trevor Howard"},{"ns":0,"title":"Trine
+        University"},{"ns":0,"title":"Turner Classic Movies"},{"ns":0,"title":"Two
+        Gentlemen of Verona (musical)"},{"ns":0,"title":"University of Puerto Rico"},{"ns":0,"title":"Variety
+        (magazine)"},{"ns":0,"title":"Via Galactica"},{"ns":0,"title":"Victor Banerjee"},{"ns":0,"title":"Victor
+        Frankenstein"},{"ns":0,"title":"Victor Sj\u00f6str\u00f6m"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Walter
+        Huston"},{"ns":0,"title":"Warren Beatty"},{"ns":0,"title":"Werner Erhard"},{"ns":0,"title":"Where''s
+        Charley?"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"William Holden"},{"ns":0,"title":"William
+        Hurt"},{"ns":0,"title":"William Shakespeare"},{"ns":0,"title":"Wynn Handman"},{"ns":0,"title":"Yul
+        Brynner"},{"ns":0,"title":"\u00d3scar Romero"},{"ns":1,"title":"Talk:Ra\u00fal
+        Juli\u00e1"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Identifying
+        reliable sources"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:EmmyAward
+        MiniseriesLeadActor"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:National
+        Board of Review Award for Best Actor"},{"ns":10,"title":"Template:One source"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        MaleTVMiniseriesMovie"},{"ns":11,"title":"Template talk:EmmyAward MiniseriesLeadActor"},{"ns":11,"title":"Template
+        talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template talk:National
+        Board of Review Award for Best Actor"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward
+        MaleTVMiniseriesMovie"},{"ns":14,"title":"Category:Articles needing additional
+        references from April 2014"},{"ns":14,"title":"Category:Use mdy dates from
+        September 2013"},{"ns":100,"title":"Portal:Biography"},{"ns":100,"title":"Portal:Puerto
+        Rico"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:58 GMT
+recorded_with: VCR 2.9.2

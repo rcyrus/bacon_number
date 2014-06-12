@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Pennsylvania%20Governor's%20School%20for%20the%20Arts
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704710842, 1409538210, 1309484144
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '777'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:50 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4009 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"6069527":{"pageid":6069527,"ns":0,"title":"Pennsylvania
+        Governor''s School for the Arts","links":[{"ns":0,"title":"Aaron Jay Kernis"},{"ns":0,"title":"Alice
+        Sebold"},{"ns":0,"title":"Architecture"},{"ns":0,"title":"Ari Hoenig"},{"ns":0,"title":"Artists''
+        colony"},{"ns":0,"title":"Ballet"},{"ns":0,"title":"Bassoon"},{"ns":0,"title":"Boarding
+        school"},{"ns":0,"title":"Boris Bally"},{"ns":0,"title":"Brass"},{"ns":0,"title":"Bucknell
+        University"},{"ns":0,"title":"Butler Area School District"},{"ns":0,"title":"Cello"},{"ns":0,"title":"Ceramics
+        (art)"},{"ns":0,"title":"Clarinet"},{"ns":0,"title":"Creative Writing"},{"ns":0,"title":"Creative
+        writing"},{"ns":0,"title":"Dance"},{"ns":0,"title":"Daniel Roebuck"},{"ns":0,"title":"Democratic
+        Party (United States)"},{"ns":0,"title":"Double Bass"},{"ns":0,"title":"Ed
+        Rendell"},{"ns":0,"title":"Erie, Pennsylvania"},{"ns":0,"title":"Fiction"},{"ns":0,"title":"Film
+        Criticism"},{"ns":0,"title":"Flute"},{"ns":0,"title":"French Horn"},{"ns":0,"title":"Gary
+        Schocker"},{"ns":0,"title":"Gillian Jacobs"},{"ns":0,"title":"Graphic Design"},{"ns":0,"title":"Guitar"},{"ns":0,"title":"Jazz
+        Dance"},{"ns":0,"title":"Jessica Dickey"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Latin
+        language"},{"ns":0,"title":"Lewisburg, Pennsylvania"},{"ns":0,"title":"List
+        of Governors of Pennsylvania"},{"ns":0,"title":"Meagan Miller"},{"ns":0,"title":"Megan
+        Gallagher"},{"ns":0,"title":"Mercyhurst College"},{"ns":0,"title":"Modern
+        Dance"},{"ns":0,"title":"Music"},{"ns":0,"title":"Music Composition"},{"ns":0,"title":"Musical
+        Theatre"},{"ns":0,"title":"Musical instrument"},{"ns":0,"title":"Oboe"},{"ns":0,"title":"Painting"},{"ns":0,"title":"Pennsylvania"},{"ns":0,"title":"Pennsylvania
+        Governor''s Schools of Excellence"},{"ns":0,"title":"Percussion"},{"ns":0,"title":"Photography"},{"ns":0,"title":"Piano"},{"ns":0,"title":"Poetry"},{"ns":0,"title":"Public
+        school (government funded)"},{"ns":0,"title":"Richard O''Donnell (playwright)"},{"ns":0,"title":"Saxophone"},{"ns":0,"title":"Sculpture"},{"ns":0,"title":"Singing"},{"ns":0,"title":"Stagecraft"},{"ns":0,"title":"Steven
+        Burns"},{"ns":0,"title":"String instrument"},{"ns":0,"title":"Theater"},{"ns":0,"title":"Theatre"},{"ns":0,"title":"Trombone"},{"ns":0,"title":"Trumpet"},{"ns":0,"title":"Tuba"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"Viola"},{"ns":0,"title":"Violin"},{"ns":0,"title":"Visual
+        Arts"},{"ns":0,"title":"Visual arts"},{"ns":0,"title":"Woodwinds"},{"ns":0,"title":"Yoga"},{"ns":14,"title":"Category:Articles
+        containing Latin-language text"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:51 GMT
+recorded_with: VCR 2.9.2

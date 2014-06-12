@@ -1,0 +1,147 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Mena%20Suvari
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711866063, 2340339772, 2899129734
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2594'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:39 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4016 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"340254":{"pageid":340254,"ns":0,"title":"Mena Suvari","links":[{"ns":0,"title":"2008
+        Sundance Film Festival"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Aerith
+        Gainsborough"},{"ns":0,"title":"African Medical and Research Foundation"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"Alicia Silverstone"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"American
+        Horror Story: Murder House"},{"ns":0,"title":"American Pie (film)"},{"ns":0,"title":"American
+        Pie 2"},{"ns":0,"title":"American Reunion"},{"ns":0,"title":"American Virgin
+        (2000 film)"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Ashley Hall (school)"},{"ns":0,"title":"Ashley
+        Judd"},{"ns":0,"title":"Atomic Train"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA
+        Award"},{"ns":0,"title":"BAFTA Award for Best Actress in a Supporting Role"},{"ns":0,"title":"BarberShop
+        (film)"},{"ns":0,"title":"Beauty Shop"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Biographical
+        film"},{"ns":0,"title":"Black Dahlia"},{"ns":0,"title":"Blockbuster Entertainment
+        Awards"},{"ns":0,"title":"Box office bomb"},{"ns":0,"title":"Boy Meets World"},{"ns":0,"title":"Breast
+        cancer"},{"ns":0,"title":"Brenda Blethyn"},{"ns":0,"title":"Brittany Murphy"},{"ns":0,"title":"Brooklyn
+        Rules"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Burbank, California"},{"ns":0,"title":"Caffeine
+        (film)"},{"ns":0,"title":"Cannes Film Festival"},{"ns":0,"title":"Carrie (1976
+        film)"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Charleston,
+        South Carolina"},{"ns":0,"title":"Chicago Fire (TV series)"},{"ns":0,"title":"Chicago
+        Hope"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Cinematographer"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Day of the Dead (2008 film)"},{"ns":0,"title":"Deirdre
+        Costello"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Direct-to-video"},{"ns":0,"title":"Domino
+        (film)"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"ER (TV series)"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Edie Sedgwick"},{"ns":0,"title":"Edmond (film)"},{"ns":0,"title":"Emily
+        Bergl"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Estonian
+        American"},{"ns":0,"title":"Factory Girl (film)"},{"ns":0,"title":"Final Fantasy
+        VII Advent Children"},{"ns":0,"title":"Freddie Prinze Jr."},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Geli Raubal"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"Greek American"},{"ns":0,"title":"Gregg Araki"},{"ns":0,"title":"Gwyneth
+        Paltrow"},{"ns":0,"title":"HBO"},{"ns":0,"title":"HIV"},{"ns":0,"title":"Hank
+        Azaria"},{"ns":0,"title":"Hawaii"},{"ns":0,"title":"Heather Graham"},{"ns":0,"title":"High
+        Incident"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Independent
+        film"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Irreconcilable
+        differences"},{"ns":0,"title":"Italian-Canadian"},{"ns":0,"title":"Jack Whitehall"},{"ns":0,"title":"Jacob''s
+        Ladder (film)"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James
+        Duval"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"Jason Biggs"},{"ns":0,"title":"Jennifer
+        Aniston"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"John Leguizamo"},{"ns":0,"title":"Jon
+        Foster"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Katharine
+        McPhee"},{"ns":0,"title":"Katherine Heigl"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Keira
+        Knightley"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kingdom
+        Hearts II"},{"ns":0,"title":"Kiss the Girls (film)"},{"ns":0,"title":"Lanc\u00f4me"},{"ns":0,"title":"Lesbian"},{"ns":0,"title":"Lesley
+        Sharp"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lifetime
+        (TV network)"},{"ns":0,"title":"Limited release"},{"ns":0,"title":"Loser (film)"},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"Made-for-television"},{"ns":0,"title":"Marc
+        Evans"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Memento
+        (film)"},{"ns":0,"title":"Michael Chabon"},{"ns":0,"title":"Michael Corrente"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Minor Adjustments"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"Music video"},{"ns":0,"title":"Natasha Lyonne"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"Natural Resources Defense Council"},{"ns":0,"title":"Never
+        Mind The Buzzcocks"},{"ns":0,"title":"Never Mind the Buzzcocks"},{"ns":0,"title":"Newport,
+        Rhode Island"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Nowhere (film)"},{"ns":0,"title":"Online
+        Film Critics Society Award for Best Cast"},{"ns":0,"title":"Paul Barber (actor)"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Peter Sarsgaard"},{"ns":0,"title":"Psych"},{"ns":0,"title":"Psychiatrist"},{"ns":0,"title":"Queen
+        Latifah"},{"ns":0,"title":"Rachel True"},{"ns":0,"title":"Rice-A-Roni"},{"ns":0,"title":"Rob
+        Schneider"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Romantic
+        comedy"},{"ns":0,"title":"Rumor Has It\u2026"},{"ns":0,"title":"Ryan Phillippe"},{"ns":0,"title":"Screen
+        Actors Guild Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by an Ensemble in a Drama Series"},{"ns":0,"title":"Sex
+        and Lies in Sin City"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Sienna
+        Miller"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Six Feet Under (TV
+        series)"},{"ns":0,"title":"Slums of Beverly Hills"},{"ns":0,"title":"Snide
+        and Prejudice"},{"ns":0,"title":"Spun"},{"ns":0,"title":"Square Enix"},{"ns":0,"title":"Starlight
+        Children''s Foundation"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steven
+        Bauer"},{"ns":0,"title":"Stuart Gordon"},{"ns":0,"title":"Stuck (2007 film)"},{"ns":0,"title":"Sugar
+        & Spice"},{"ns":0,"title":"Sundance Film Festival"},{"ns":0,"title":"Sydney"},{"ns":0,"title":"Teen
+        Choice Award"},{"ns":0,"title":"Teenage Dirtbag"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The
+        Cape (2011 TV series)"},{"ns":0,"title":"The Citadel (military college)"},{"ns":0,"title":"The
+        Dog Problem"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The Garden
+        of Eden (2008 film)"},{"ns":0,"title":"The Musketeer"},{"ns":0,"title":"The
+        Mysteries of Pittsburgh"},{"ns":0,"title":"The Mysteries of Pittsburgh (film)"},{"ns":0,"title":"The
+        Rage: Carrie 2"},{"ns":0,"title":"The Walt Disney Company"},{"ns":0,"title":"Thora
+        Birch"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas
+        Milian"},{"ns":0,"title":"Tony Scott"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Toronto
+        International Film Festival"},{"ns":0,"title":"Traffic (2000 film)"},{"ns":0,"title":"Trauma
+        (2004 film)"},{"ns":0,"title":"Video game"},{"ns":0,"title":"Vinnie Jones"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Vogue (magazine)"},{"ns":0,"title":"Wes
+        Bentley"},{"ns":0,"title":"Wheatus"},{"ns":0,"title":"Wilhelmina Models"},{"ns":0,"title":"William
+        Snape"},{"ns":0,"title":"World Poker Tour"},{"ns":0,"title":"Yang 3 in 2D"},{"ns":0,"title":"You
+        May Not Kiss the Bride"},{"ns":0,"title":"Young Hollywood Awards"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":14,"title":"Category:Articles with dead external links
+        from December 2011"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from May 2014"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:40 GMT
+recorded_with: VCR 2.9.2

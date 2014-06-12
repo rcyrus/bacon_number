@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Loverboy%20(2005%20film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390658592, 3085151071, 1061652260
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '361'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:35 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4010 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"5892193":{"pageid":5892193,"ns":0,"title":"Loverboy
+        (2005 film)","links":[{"ns":0,"title":"2005 in film"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Blair
+        Brown"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Campbell Scott"},{"ns":0,"title":"Daniel
+        Bigel"},{"ns":0,"title":"Dominic Scott Kay"},{"ns":0,"title":"Internet Movie
+        Database"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kyra Sedgwick"},{"ns":0,"title":"Marisa
+        Tomei"},{"ns":0,"title":"Matt Dillon"},{"ns":0,"title":"Michael Bacon (musician)"},{"ns":0,"title":"Michael
+        Mailer"},{"ns":0,"title":"Naelee Rae"},{"ns":0,"title":"Oliver Platt"},{"ns":0,"title":"Robert
+        Sedgwick (actor)"},{"ns":0,"title":"Sandra Bullock"},{"ns":0,"title":"Sosie
+        Bacon"},{"ns":0,"title":"Sosie Ruth Bacon"},{"ns":0,"title":"Spencer Treat
+        Clark"},{"ns":0,"title":"The Closer"},{"ns":0,"title":"ThinkFilm"},{"ns":0,"title":"Victoria
+        Redel"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:35 GMT
+recorded_with: VCR 2.9.2

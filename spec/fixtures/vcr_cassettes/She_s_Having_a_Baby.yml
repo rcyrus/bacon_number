@@ -1,0 +1,98 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=She's%20Having%20a%20Baby
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401693609, 1409547846, 2597363067
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1232'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:06 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4009 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1531941":{"pageid":1531941,"ns":0,"title":"She''s
+        Having a Baby","links":[{"ns":0,"title":"101 Dalmatians (1996 film)"},{"ns":0,"title":"Alan
+        Heim"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Allmusic"},{"ns":0,"title":"An
+        Evening with Kevin Smith 2: Evening Harder"},{"ns":0,"title":"Baby''s Day
+        Out"},{"ns":0,"title":"Beethoven (film)"},{"ns":0,"title":"Bill Erwin"},{"ns":0,"title":"Bill
+        Murray"},{"ns":0,"title":"Bryan Ferry"},{"ns":0,"title":"Cameo appearance"},{"ns":0,"title":"Career
+        Opportunities (film)"},{"ns":0,"title":"Cathryn Damon"},{"ns":0,"title":"Cheers"},{"ns":0,"title":"Crazy
+        Love (Van Morrison song)"},{"ns":0,"title":"Curly Sue"},{"ns":0,"title":"Dan
+        Aykroyd"},{"ns":0,"title":"Dave Wakeling"},{"ns":0,"title":"Dennis Dugan"},{"ns":0,"title":"Dennis
+        the Menace (film)"},{"ns":0,"title":"Donald Peterman"},{"ns":0,"title":"Drillbit
+        Taylor"},{"ns":0,"title":"Dutch (film)"},{"ns":0,"title":"Edie McClurg"},{"ns":0,"title":"Elizabeth
+        McGovern"},{"ns":0,"title":"Evanston, Illinois"},{"ns":0,"title":"Everything
+        but the Girl"},{"ns":0,"title":"Ferris Bueller''s Day Off"},{"ns":0,"title":"Field
+        Museum of Natural History"},{"ns":0,"title":"Flubber (film)"},{"ns":0,"title":"Gene
+        Loves Jezebel"},{"ns":0,"title":"Holland Taylor"},{"ns":0,"title":"Home Alone"},{"ns":0,"title":"Home
+        Alone 2: Lost in New York"},{"ns":0,"title":"Home Alone 3"},{"ns":0,"title":"How
+        Sweet It Is (To Be Loved by You)"},{"ns":0,"title":"I.R.S. Records"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jersey Girl (2004 film)"},{"ns":0,"title":"John
+        Ashton (actor)"},{"ns":0,"title":"John Candy"},{"ns":0,"title":"John Hughes
+        (filmmaker)"},{"ns":0,"title":"Just Visiting (film)"},{"ns":0,"title":"Kate
+        Bush"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Smith"},{"ns":0,"title":"Kirsty
+        MacColl"},{"ns":0,"title":"Larry Hankin"},{"ns":0,"title":"Liner notes"},{"ns":0,"title":"Love
+        and Rockets (band)"},{"ns":0,"title":"Maid in Manhattan"},{"ns":0,"title":"Marvin
+        Gaye"},{"ns":0,"title":"Miles Copeland III"},{"ns":0,"title":"Miracle on 34th
+        Street (1994 film)"},{"ns":0,"title":"Mr. Mom"},{"ns":0,"title":"Music genre"},{"ns":0,"title":"Nancy
+        Lenehan"},{"ns":0,"title":"Nate and Hayes"},{"ns":0,"title":"National Lampoon''s
+        Christmas Vacation"},{"ns":0,"title":"National Lampoon''s Class Reunion"},{"ns":0,"title":"National
+        Lampoon''s European Vacation"},{"ns":0,"title":"National Lampoon''s Vacation"},{"ns":0,"title":"Neal
+        Bacon"},{"ns":0,"title":"New wave music"},{"ns":0,"title":"Paramount Pictures"},{"ns":0,"title":"Paul
+        Gleason"},{"ns":0,"title":"Penguin Cafe Orchestra"},{"ns":0,"title":"Planes,
+        Trains, and Automobiles"},{"ns":0,"title":"Planes, Trains and Automobiles"},{"ns":0,"title":"Pretty
+        in Pink"},{"ns":0,"title":"Reach the Rock"},{"ns":0,"title":"Record label"},{"ns":0,"title":"Rock
+        music"},{"ns":0,"title":"Romantic comedy film"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Scrooged"},{"ns":0,"title":"Seventh
+        Dream of Teenage Heaven"},{"ns":0,"title":"Sixteen Candles"},{"ns":0,"title":"Some
+        Kind of Wonderful (film)"},{"ns":0,"title":"Soundtrack album"},{"ns":0,"title":"Star
+        Trek: The Next Generation"},{"ns":0,"title":"Stephen Duffy"},{"ns":0,"title":"Steve
+        Martin"},{"ns":0,"title":"The Breakfast Club"},{"ns":0,"title":"The Great
+        Outdoors (film)"},{"ns":0,"title":"The Sensual World"},{"ns":0,"title":"The
+        World Won''t Listen"},{"ns":0,"title":"This Woman''s Work"},{"ns":0,"title":"Uncle
+        Buck"},{"ns":0,"title":"Weird Science (film)"},{"ns":0,"title":"William Windom
+        (actor)"},{"ns":0,"title":"Winnetka, Illinois"},{"ns":0,"title":"XTC"},{"ns":10,"title":"Template:John
+        Hughes"},{"ns":11,"title":"Template talk:John Hughes"},{"ns":100,"title":"Portal:1980s"},{"ns":100,"title":"Portal:Film"},{"ns":100,"title":"Portal:United
+        States"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:07 GMT
+recorded_with: VCR 2.9.2

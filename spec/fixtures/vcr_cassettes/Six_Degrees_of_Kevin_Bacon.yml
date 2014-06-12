@@ -1,0 +1,88 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Six%20Degrees%20of%20Kevin%20Bacon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704740390, 1409548453, 1061683897
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1070'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:07 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4009 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"43607":{"pageid":43607,"ns":0,"title":"Six Degrees
+        of Kevin Bacon","links":[{"ns":0,"title":"83rd Academy Awards"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Al-Qaeda"},{"ns":0,"title":"Alan
+        Bates"},{"ns":0,"title":"Albright College"},{"ns":0,"title":"Algorithm"},{"ns":0,"title":"Andy
+        Gotts"},{"ns":0,"title":"Change of Habit"},{"ns":0,"title":"Character actor"},{"ns":0,"title":"Charitable
+        organization"},{"ns":0,"title":"Check card"},{"ns":0,"title":"Christian Slater"},{"ns":0,"title":"Clint
+        Eastwood"},{"ns":0,"title":"Co-stardom network"},{"ns":0,"title":"Dave Barry"},{"ns":0,"title":"Dennis
+        Hopper"},{"ns":0,"title":"Digital object identifier"},{"ns":0,"title":"Donald
+        Sutherland"},{"ns":0,"title":"EE (telecommunications company)"},{"ns":0,"title":"Edward
+        Asner"},{"ns":0,"title":"Elvis Presley"},{"ns":0,"title":"Empire State Building"},{"ns":0,"title":"Endless
+        Games"},{"ns":0,"title":"Erd\u0151s number"},{"ns":0,"title":"Erd\u0151s\u2013Bacon
+        number"},{"ns":0,"title":"Film"},{"ns":0,"title":"Footloose (1984 film)"},{"ns":0,"title":"Game"},{"ns":0,"title":"Genographic
+        Project"},{"ns":0,"title":"Go (game)"},{"ns":0,"title":"Google"},{"ns":0,"title":"Green
+        Hornet"},{"ns":0,"title":"Greta Scacchi"},{"ns":0,"title":"Harvey Keitel"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Honinbo
+        Shusaku"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"JFK (film)"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"Jon
+        Stewart"},{"ns":0,"title":"Joss Ackland"},{"ns":0,"title":"Karen Black"},{"ns":0,"title":"Kato"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Lone Ranger"},{"ns":0,"title":"Mad About You"},{"ns":0,"title":"Morphy
+        Number"},{"ns":0,"title":"NY Skyride"},{"ns":0,"title":"National Geographic
+        Channel"},{"ns":0,"title":"New York City"},{"ns":0,"title":"Newsgroup"},{"ns":0,"title":"O.
+        J. Simpson"},{"ns":0,"title":"Parlor game"},{"ns":0,"title":"Paul Erd\u0151s"},{"ns":0,"title":"Paul
+        Morphy"},{"ns":0,"title":"Philosophical Transactions of the Royal Society"},{"ns":0,"title":"Photographer"},{"ns":0,"title":"Pierce
+        Brosnan"},{"ns":0,"title":"Plume (publishing)"},{"ns":0,"title":"Premiere
+        (magazine)"},{"ns":0,"title":"Robert Wagner"},{"ns":0,"title":"Rod Steiger"},{"ns":0,"title":"Shortest
+        path problem"},{"ns":0,"title":"Shusaku number"},{"ns":0,"title":"SixDegrees.org"},{"ns":0,"title":"Six
+        degrees of separation"},{"ns":0,"title":"Small world experiment"},{"ns":0,"title":"Smithsonian
+        (magazine)"},{"ns":0,"title":"Talk show"},{"ns":0,"title":"The Air Up There"},{"ns":0,"title":"The
+        Howard Stern Show"},{"ns":0,"title":"The Jon Stewart Show"},{"ns":0,"title":"The
+        Onion"},{"ns":0,"title":"The River Wild"},{"ns":0,"title":"The Towering Inferno"},{"ns":0,"title":"Tom
+        Cruise"},{"ns":0,"title":"Trivia"},{"ns":0,"title":"United Kingdom"},{"ns":0,"title":"University
+        of Virginia"},{"ns":0,"title":"Val Kilmer"},{"ns":0,"title":"Visa (company)"},{"ns":0,"title":"We
+        Married Margo"},{"ns":0,"title":"Weighted mean"},{"ns":0,"title":"White Mischief
+        (film)"},{"ns":0,"title":"Wild Things"},{"ns":0,"title":"Will and Grace"},{"ns":14,"title":"Category:Articles
+        containing potentially dated statements from February 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:08 GMT
+recorded_with: VCR 2.9.2

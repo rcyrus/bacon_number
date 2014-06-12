@@ -1,0 +1,134 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Paul%20Verhoeven
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87284326, 3085159822, 1309483108
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2038'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:49 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"66206":{"pageid":66206,"ns":0,"title":"Paul Verhoeven","links":[{"ns":0,"title":"1971
+        in film"},{"ns":0,"title":"1973 in film"},{"ns":0,"title":"1975 in film"},{"ns":0,"title":"1977
+        in film"},{"ns":0,"title":"1980 in film"},{"ns":0,"title":"1983 in film"},{"ns":0,"title":"1985
+        in film"},{"ns":0,"title":"1987 in film"},{"ns":0,"title":"1990 in film"},{"ns":0,"title":"1992
+        Cannes Film Festival"},{"ns":0,"title":"1992 in film"},{"ns":0,"title":"1995
+        Golden Raspberry Awards"},{"ns":0,"title":"1995 in film"},{"ns":0,"title":"1997
+        in film"},{"ns":0,"title":"2000 in film"},{"ns":0,"title":"2006 in film"},{"ns":0,"title":"2012
+        in film"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Foreign Language Film"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Academy
+        Special Achievement Award"},{"ns":0,"title":"All Things Pass"},{"ns":0,"title":"Amsterdam"},{"ns":0,"title":"Anton
+        Mussert"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA Award
+        for Best Film"},{"ns":0,"title":"Barsoom"},{"ns":0,"title":"Basic Instinct"},{"ns":0,"title":"Beast
+        of Bataan"},{"ns":0,"title":"Biblical studies"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Black Book (film)"},{"ns":0,"title":"Bryan
+        Singer"},{"ns":0,"title":"Business Is Business (film)"},{"ns":0,"title":"Cannes
+        Film Festival"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Christopher
+        Nolan"},{"ns":0,"title":"Dan Curtis"},{"ns":0,"title":"Dean Norris"},{"ns":0,"title":"Derek
+        de Lint"},{"ns":0,"title":"Dick Bos"},{"ns":0,"title":"Doctorandus"},{"ns":0,"title":"Dolf
+        de Vries"},{"ns":0,"title":"Drama film"},{"ns":0,"title":"Dutch language"},{"ns":0,"title":"Edgar
+        Rice Burroughs"},{"ns":0,"title":"Entertainment Experience"},{"ns":0,"title":"Erik
+        Hazelhoff Roelfzema"},{"ns":0,"title":"Eschatology"},{"ns":0,"title":"Film
+        director"},{"ns":0,"title":"Film producer"},{"ns":0,"title":"Flesh & Blood
+        (film)"},{"ns":0,"title":"Flesh and Blood (1985 film)"},{"ns":0,"title":"Floris
+        (TV series)"},{"ns":0,"title":"Francis Ford Coppola"},{"ns":0,"title":"Frankenstein"},{"ns":0,"title":"George
+        Lucas"},{"ns":0,"title":"Gerard Reve"},{"ns":0,"title":"Gerard Soeteman"},{"ns":0,"title":"Golden
+        Calf (award)"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden Raspberry
+        Award"},{"ns":0,"title":"Golden Raspberry Award for Worst Director"},{"ns":0,"title":"Golden
+        Raspberry Award for Worst Picture"},{"ns":0,"title":"Greg Travis"},{"ns":0,"title":"Gymnasium
+        Haganum"},{"ns":0,"title":"Hatmaking"},{"ns":0,"title":"Head teacher"},{"ns":0,"title":"Hollow
+        Man"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Home video"},{"ns":0,"title":"Homosexuality"},{"ns":0,"title":"Hope
+        and Glory (film)"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Irvin
+        Kershner"},{"ns":0,"title":"Ivanhoe"},{"ns":0,"title":"J. J. Abrams"},{"ns":0,"title":"James
+        Cameron"},{"ns":0,"title":"Jan Wolkers"},{"ns":0,"title":"Jeanne Tripplehorn"},{"ns":0,"title":"Jennifer
+        Jason Leigh"},{"ns":0,"title":"Jeroen Krabb\u00e9"},{"ns":0,"title":"Jesus"},{"ns":0,"title":"Jesus
+        Seminar"},{"ns":0,"title":"Joe Dante"},{"ns":0,"title":"John Badham"},{"ns":0,"title":"John
+        Woo"},{"ns":0,"title":"Jon Favreau"},{"ns":0,"title":"Jordan Mechner"},{"ns":0,"title":"Joss
+        Whedon"},{"ns":0,"title":"Jujutsu"},{"ns":0,"title":"Kathryn Bigelow"},{"ns":0,"title":"Katie
+        Tippel"},{"ns":0,"title":"Keetje Tippel"},{"ns":0,"title":"LIBRIS"},{"ns":0,"title":"Las
+        Vegas Valley"},{"ns":0,"title":"Leiden University"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"List of people who have accepted
+        Golden Raspberry Awards"},{"ns":0,"title":"Luke Timothy Johnson"},{"ns":0,"title":"MGM"},{"ns":0,"title":"Mario
+        Kassar"},{"ns":0,"title":"Marshall Bell"},{"ns":0,"title":"Martine Tours"},{"ns":0,"title":"Mathematics"},{"ns":0,"title":"Mel
+        Brooks"},{"ns":0,"title":"Michael Bay"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Gregory (actor)"},{"ns":0,"title":"Michael Ironside"},{"ns":0,"title":"Monique
+        van de Ven"},{"ns":0,"title":"Movie projector"},{"ns":0,"title":"National
+        Diet Library"},{"ns":0,"title":"Navy"},{"ns":0,"title":"Nazareth"},{"ns":0,"title":"Netherlands"},{"ns":0,"title":"Netherlands
+        Film Festival"},{"ns":0,"title":"Netherlands Film and Television Academy"},{"ns":0,"title":"Nicholas
+        Meyer"},{"ns":0,"title":"Paul Verhoeven (disambiguation)"},{"ns":0,"title":"Peter
+        Jackson"},{"ns":0,"title":"Philip Kaufman"},{"ns":0,"title":"Physics"},{"ns":0,"title":"Prince
+        of Persia"},{"ns":0,"title":"Private detective"},{"ns":0,"title":"Prophet"},{"ns":0,"title":"Ren\u00e9e
+        Soutendijk"},{"ns":0,"title":"Ridley Scott"},{"ns":0,"title":"Robert A. Heinlein"},{"ns":0,"title":"Robert
+        Zemeckis"},{"ns":0,"title":"RoboCop"},{"ns":0,"title":"Roland Emmerich"},{"ns":0,"title":"Ron
+        Howard"},{"ns":0,"title":"Ronny Cox"},{"ns":0,"title":"Rutger Hauer"},{"ns":0,"title":"Sam
+        Raimi"},{"ns":0,"title":"Saturday Night Fever"},{"ns":0,"title":"Saturn Award
+        for Best Director"},{"ns":0,"title":"Science fiction film"},{"ns":0,"title":"Screenwriter"},{"ns":0,"title":"Seattle
+        Times"},{"ns":0,"title":"Senses of Cinema"},{"ns":0,"title":"Seven Stories
+        Press"},{"ns":0,"title":"Sharon Stone"},{"ns":0,"title":"Showgirls"},{"ns":0,"title":"Slikkerveer"},{"ns":0,"title":"Soldier
+        of Orange"},{"ns":0,"title":"Spetters"},{"ns":0,"title":"Starship Troopers
+        (film)"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"TBA"},{"ns":0,"title":"Teacher"},{"ns":0,"title":"The
+        Crimson Pirate"},{"ns":0,"title":"The Fourth Man (1983 film)"},{"ns":0,"title":"The
+        Hague"},{"ns":0,"title":"The Last Express"},{"ns":0,"title":"The Paperboy
+        (2012 film)"},{"ns":0,"title":"The Seattle Times"},{"ns":0,"title":"The Wachowskis"},{"ns":0,"title":"The
+        War of the Worlds (1953 film)"},{"ns":0,"title":"The Winter Queen (novel)"},{"ns":0,"title":"Thierry
+        La Fronde"},{"ns":0,"title":"Thom Hoffman"},{"ns":0,"title":"Total Recall
+        (1990 film)"},{"ns":0,"title":"Trouw"},{"ns":0,"title":"Turkish Delight (film)"},{"ns":0,"title":"U-T
+        San Diego"},{"ns":0,"title":"United States"},{"ns":0,"title":"V-weapons"},{"ns":0,"title":"Van
+        Heutszschool"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"William
+        Shockley (actor)"},{"ns":0,"title":"World War II"},{"ns":0,"title":"YouTube"},{"ns":0,"title":"Zack
+        Snyder"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:ISO
+        639 name nl"},{"ns":10,"title":"Template:Paul Verhoeven"},{"ns":10,"title":"Template:Saturn
+        Award for Best Director"},{"ns":11,"title":"Template talk:Paul Verhoeven"},{"ns":11,"title":"Template
+        talk:Saturn Award for Best Director"},{"ns":12,"title":"Help:CS1 errors"},{"ns":12,"title":"Help:IPA
+        for Dutch and Afrikaans"},{"ns":14,"title":"Category:Articles containing Dutch-language
+        text"},{"ns":14,"title":"Category:Articles with dead external links from November
+        2008"},{"ns":14,"title":"Category:Articles with unsourced statements from
+        October 2010"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:49 GMT
+recorded_with: VCR 2.9.2

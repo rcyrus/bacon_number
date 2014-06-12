@@ -1,0 +1,123 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Peter%20Riegert
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287163602, 2340346781, 1061668284
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1894'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:51 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4016 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1325119":{"pageid":1325119,"ns":0,"title":"Peter
+        Riegert","links":[{"ns":0,"title":"A Shock to the System"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"Americathon"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"An Element of Truth"},{"ns":0,"title":"Animal House"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Ardsley
+        High School"},{"ns":0,"title":"Audie Award"},{"ns":0,"title":"Audiobook"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Back When We Were Grownups"},{"ns":0,"title":"Barbarians
+        at the Gate (film)"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bette Midler"},{"ns":0,"title":"Beverly
+        D''Angelo"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Bojangles (film)"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Chilly Scenes of Winter"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Clifton Collins,
+        Jr."},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Crossing Delancey"},{"ns":0,"title":"D.
+        W. Moffett"},{"ns":0,"title":"Dads (2013 TV series)"},{"ns":0,"title":"Damages
+        (TV series)"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Dance with
+        Me (musical)"},{"ns":0,"title":"Defense attorney"},{"ns":0,"title":"Deirdre
+        Costello"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Dominic
+        Chianese"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Emily
+        Woof"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Eric Bogosian"},{"ns":0,"title":"Erika
+        Christensen"},{"ns":0,"title":"Face Down (film)"},{"ns":0,"title":"Family
+        Guy"},{"ns":0,"title":"Film director"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"Gypsy
+        (1993 film)"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Hartsdale,
+        New York"},{"ns":0,"title":"Hit List (2012 American film)"},{"ns":0,"title":"Hugo
+        Speer"},{"ns":0,"title":"Igor Straminsky"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Isabella
+        Rossellini"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"Jim
+        Carter (actor)"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Kathleen
+        Quinlan"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"King
+        of the Corner"},{"ns":0,"title":"Law & Order: Special Victims Unit"},{"ns":0,"title":"Lesley
+        Sharp"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Literary
+        fiction"},{"ns":0,"title":"Local Hero"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"M*A*S*H
+        (TV series)"},{"ns":0,"title":"Marco Island"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Martin
+        Clunes"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Michael Chabon"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Musical theatre"},{"ns":0,"title":"Mystery
+        Dance"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"New Jersey"},{"ns":0,"title":"Newport
+        Film Festival"},{"ns":0,"title":"News at Eleven"},{"ns":0,"title":"North Shore
+        Fish"},{"ns":0,"title":"O. Henry"},{"ns":0,"title":"One Tree Hill (TV series)"},{"ns":0,"title":"Oscar
+        (1991 film)"},{"ns":0,"title":"Paul Barber (actor)"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Rita Moreno"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robin
+        Williams"},{"ns":0,"title":"Ronald Zellman"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screenwriter"},{"ns":0,"title":"Seinfeld"},{"ns":0,"title":"Seth
+        Green"},{"ns":0,"title":"Sexual Perversity in Chicago"},{"ns":0,"title":"Shakespeare
+        in Love"},{"ns":0,"title":"Sholem Aleichem: Laughing in the Darkness"},{"ns":0,"title":"Simon
+        Callow"},{"ns":0,"title":"Social work"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steven
+        Bauer"},{"ns":0,"title":"Syst\u00e8me universitaire de documentation"},{"ns":0,"title":"Television"},{"ns":0,"title":"Television
+        movie"},{"ns":0,"title":"The Baby Dance"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The
+        Birthday Party (play)"},{"ns":0,"title":"The Bronx"},{"ns":0,"title":"The
+        Bronx, New York"},{"ns":0,"title":"The First Basket"},{"ns":0,"title":"The
+        Full Monty"},{"ns":0,"title":"The Good Wife"},{"ns":0,"title":"The Infiltrator"},{"ns":0,"title":"The
+        Mask (film)"},{"ns":0,"title":"The Rose (film)"},{"ns":0,"title":"The Runestone"},{"ns":0,"title":"The
+        Scandalous Me: Jacqueline Susann Story"},{"ns":0,"title":"The Sopranos"},{"ns":0,"title":"The
+        State University of New York"},{"ns":0,"title":"The Stranger (2010 film)"},{"ns":0,"title":"The
+        Yiddish Policemen''s Union"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Topher
+        Grace"},{"ns":0,"title":"Traffic (2000 film)"},{"ns":0,"title":"University
+        at Buffalo"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"W.
+        Eugene Smith: Photography Made Difficult"},{"ns":0,"title":"We Bought a Zoo"},{"ns":0,"title":"Wes
+        Bentley"},{"ns":0,"title":"When You Wish Upon a Weinstein"},{"ns":0,"title":"William
+        Snape"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:52 GMT
+recorded_with: VCR 2.9.2

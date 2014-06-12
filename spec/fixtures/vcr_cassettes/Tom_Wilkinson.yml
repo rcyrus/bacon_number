@@ -1,0 +1,270 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Tom%20Wilkinson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332358592, 983738837, 2597374041
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4641'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:18 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4018 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"171630":{"pageid":171630,"ns":0,"title":"Tom Wilkinson","links":[{"ns":0,"title":"1998
+        MTV Movie Awards"},{"ns":0,"title":"2000 U.S. Presidential Election"},{"ns":0,"title":"44
+        Inch Chest"},{"ns":0,"title":"A Business Affair"},{"ns":0,"title":"A Good
+        Woman (film)"},{"ns":0,"title":"A Number"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Actor"},{"ns":0,"title":"Academy Award for Best Supporting
+        Actor"},{"ns":0,"title":"Agatha Christie"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Albert Brooks"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec
+        Guinness"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"American Beauty
+        (1999 film)"},{"ns":0,"title":"American Film Institute"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Andrew Garfield"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Another
+        Life (film)"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        Quayle"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Armin
+        Mueller-Stahl"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Arthur Kennedy
+        (actor)"},{"ns":0,"title":"Arthur Lowe"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Award for
+        Best Actor in a Supporting Role"},{"ns":0,"title":"BBC"},{"ns":0,"title":"BIFA
+        Award for Best Supporting Actor"},{"ns":0,"title":"Barkhad Abdi"},{"ns":0,"title":"Barry
+        Bostwick"},{"ns":0,"title":"Barry Fitzgerald"},{"ns":0,"title":"Batman Begins"},{"ns":0,"title":"Batman
+        Begins (video game)"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Belle
+        (2013 film)"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben Gazzara"},{"ns":0,"title":"Ben
+        Johnson (actor)"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Benjamin Franklin"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Bill
+        Nighy"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Black Knight (film)"},{"ns":0,"title":"Bob
+        Hoskins"},{"ns":0,"title":"Brad Dourif"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Brian
+        Cox (actor)"},{"ns":0,"title":"British Academy Television Award for Best Actor"},{"ns":0,"title":"British
+        Film Institute"},{"ns":0,"title":"Broadcast Film Critics Association Award
+        for Best Supporting Actor"},{"ns":0,"title":"Broderick Crawford"},{"ns":0,"title":"Bruce
+        Greenwood"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Burgess
+        Meredith"},{"ns":0,"title":"Burke and Hare (2010 film)"},{"ns":0,"title":"Burt
+        Lancaster"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"Canada"},{"ns":0,"title":"Carmine
+        Falcone"},{"ns":0,"title":"Casey Affleck"},{"ns":0,"title":"Cassandra''s Dream"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Chain of Fools (film)"},{"ns":0,"title":"Charles
+        Cornwallis, 1st Marquess Cornwallis"},{"ns":0,"title":"Charles Durning"},{"ns":0,"title":"Charles
+        Laughton"},{"ns":0,"title":"Charlie Chaplin"},{"ns":0,"title":"Chicago Film
+        Critics Association Award for Best Actor"},{"ns":0,"title":"Chicago Film Critics
+        Association Award for Best Supporting Actor"},{"ns":0,"title":"Chris Colfer"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christoph
+        Waltz"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Clifton Collins, Jr."},{"ns":0,"title":"Clive Owen"},{"ns":0,"title":"Cold
+        Enough for Snow"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Colin Welland"},{"ns":0,"title":"Cornwall"},{"ns":0,"title":"Cuba
+        Gooding, Jr."},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dabney Coleman"},{"ns":0,"title":"Dallas-Fort
+        Worth Film Critics Association Award for Best Actor"},{"ns":0,"title":"Dallas-Fort
+        Worth Film Critics Association Award for Best Supporting Actor"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Daniel Auteuil"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Danny
+        DeVito"},{"ns":0,"title":"Danny Glover"},{"ns":0,"title":"Danny Huston"},{"ns":0,"title":"David
+        Niven"},{"ns":0,"title":"David Strathairn"},{"ns":0,"title":"David Thewlis"},{"ns":0,"title":"David
+        Warner (actor)"},{"ns":0,"title":"Dean Stockwell"},{"ns":0,"title":"Dedication
+        (film)"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Denholm Elliott"},{"ns":0,"title":"Dennis
+        Haysbert"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Derek
+        Jacobi"},{"ns":0,"title":"Derek Luke"},{"ns":0,"title":"Diana Hardcastle"},{"ns":0,"title":"Dianne
+        Wiest"},{"ns":0,"title":"Djimon Hounsou"},{"ns":0,"title":"Doctor of Letters"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Donald Sutherland"},{"ns":0,"title":"Duplicity
+        (film)"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Ed Flanders"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Eddie Marsan"},{"ns":0,"title":"Edward Asner"},{"ns":0,"title":"Edward
+        Fox (actor)"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"Emily
+        Woof"},{"ns":0,"title":"England"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Ernest
+        Borgnine"},{"ns":0,"title":"Eskimo Day"},{"ns":0,"title":"Essex Boys"},{"ns":0,"title":"Eternal
+        Sunshine of the Spotless Mind"},{"ns":0,"title":"Eugene Levy"},{"ns":0,"title":"FV
+        Gaul"},{"ns":0,"title":"Felony (film)"},{"ns":0,"title":"First Among Equals
+        (TV series)"},{"ns":0,"title":"First and Last (TV series)"},{"ns":0,"title":"Forest
+        Whitaker"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Friedrich Fromm"},{"ns":0,"title":"Fury
+        (2012 film)"},{"ns":0,"title":"Gary Cooper"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George Grizzard"},{"ns":0,"title":"George W. Bush"},{"ns":0,"title":"Girl
+        with a Pearl Earring (film)"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor - Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor - Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor - Series, Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Series, Miniseries or Television
+        Film"},{"ns":0,"title":"Good People (film)"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"Guy
+        Pearce"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Harry
+        Lennix"},{"ns":0,"title":"Harvey Keitel"},{"ns":0,"title":"Harvey Korman"},{"ns":0,"title":"Heath
+        Ledger"},{"ns":0,"title":"Honorary degree"},{"ns":0,"title":"Howard Da Silva"},{"ns":0,"title":"Huffington
+        Post"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Hume Cronyn"},{"ns":0,"title":"Ian
+        Holm"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"If Only (film)"},{"ns":0,"title":"Imelda
+        Staunton"},{"ns":0,"title":"In the Bedroom"},{"ns":0,"title":"In the Name
+        of the Father (film)"},{"ns":0,"title":"Independent Spirit Award for Best
+        Male Lead"},{"ns":0,"title":"Inspector Morse (TV series)"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jackboots
+        on Whitehall"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"Jake Gyllenhaal"},{"ns":0,"title":"James
+        Baker"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James
+        Cromwell"},{"ns":0,"title":"James Earl Jones"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        Stewart"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jan Niklas"},{"ns":0,"title":"Jared
+        Leto"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jeffrey Wright (actor)"},{"ns":0,"title":"Jenny''s
+        Wedding"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy Piven"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Joan Hickson"},{"ns":0,"title":"John
+        Adams (TV miniseries)"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Hawkes (actor)"},{"ns":0,"title":"John Hillerman"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John
+        Landis"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John
+        Shea"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Joseph Conrad"},{"ns":0,"title":"Joseph
+        Fiennes"},{"ns":0,"title":"Joseph P. Kennedy, Sr."},{"ns":0,"title":"Jude
+        Law"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Karl Malden"},{"ns":0,"title":"Kathleen
+        Quinlan"},{"ns":0,"title":"Ken Howard"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Laurence
+        Olivier"},{"ns":0,"title":"Leeds"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Lesley
+        Sharp"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lionel
+        Stander"},{"ns":0,"title":"List of Inspector Morse episodes"},{"ns":0,"title":"London
+        Film Critics Circle Award for British Supporting Actor of the Year"},{"ns":0,"title":"London
+        Film Critics Circle Awards 2005"},{"ns":0,"title":"London Film Critics Circle
+        Awards 2007"},{"ns":0,"title":"Los Angeles Film Critics Association Award
+        for Best Actor"},{"ns":0,"title":"Louis Gossett, Jr."},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"Lyndon B. Johnson"},{"ns":0,"title":"M. Emmet
+        Walsh"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin
+        Chuzzlewit (TV series)"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"McLean Stevenson"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Michael
+        A. Goorjian"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Clayton
+        (film)"},{"ns":0,"title":"Michael Constantine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Fassbender"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Michael
+        Palin"},{"ns":0,"title":"Michael Shannon"},{"ns":0,"title":"Mickey Rourke"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"Miss Marple"},{"ns":0,"title":"Miss Marple (TV series)"},{"ns":0,"title":"Mission:
+        Impossible \u2013 Ghost Protocol"},{"ns":0,"title":"Molokai: The Story of
+        Father Damien"},{"ns":0,"title":"Monte Carlo TV Festival"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"National Society of Film Critics Award for Best Actor"},{"ns":0,"title":"New
+        Year Honours"},{"ns":0,"title":"New York Film Critics Circle Award for Best
+        Actor"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Nigel
+        Hawthorne"},{"ns":0,"title":"Normal (2003 film)"},{"ns":0,"title":"Norman
+        Fell"},{"ns":0,"title":"North London"},{"ns":0,"title":"Officer of the Order
+        of the British Empire"},{"ns":0,"title":"Online Film Critics Society Award
+        for Best Actor"},{"ns":0,"title":"Online Film Critics Society Award for Best
+        Supporting Actor"},{"ns":0,"title":"Order of the British Empire"},{"ns":0,"title":"Oscar
+        and Lucinda"},{"ns":0,"title":"Oscar and Lucinda (film)"},{"ns":0,"title":"Oskar
+        Werner"},{"ns":0,"title":"Paper Mask"},{"ns":0,"title":"Parker (1986 film)"},{"ns":0,"title":"Pat
+        Harrington, Jr."},{"ns":0,"title":"Paul Barber (actor)"},{"ns":0,"title":"Paul
+        Bettany"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul Le Mat"},{"ns":0,"title":"Paul
+        Lukas"},{"ns":0,"title":"Paul Muni"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul
+        Scofield"},{"ns":0,"title":"Peter Dinklage"},{"ns":0,"title":"Peter Fonda"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Phil
+        Davis (actor)"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Piccadilly
+        Jim"},{"ns":0,"title":"Priest (1994 film)"},{"ns":0,"title":"Prime Suspect"},{"ns":0,"title":"Primetime
+        Emmy Award"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Lead Actor
+        - Miniseries or a Movie"},{"ns":0,"title":"Primetime Emmy Award for Outstanding
+        Supporting Actor - Miniseries or a Movie"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Supporting Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor \u2013 Miniseries or a Movie"},{"ns":0,"title":"Prince
+        of Jutland"},{"ns":0,"title":"Prism Award"},{"ns":0,"title":"Pub"},{"ns":0,"title":"Ralph
+        Fiennes"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Ray McAnally"},{"ns":0,"title":"Ray
+        Milland"},{"ns":0,"title":"Recount (film)"},{"ns":0,"title":"Reverdy Johnson"},{"ns":0,"title":"Rex
+        Harrison"},{"ns":0,"title":"Richard Farnsworth"},{"ns":0,"title":"Richard
+        Kiley"},{"ns":0,"title":"Ride with the Devil (film)"},{"ns":0,"title":"Ripley
+        Under Ground"},{"ns":0,"title":"River Phoenix"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        De Niro"},{"ns":0,"title":"Robert Downey, Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert
+        Knox"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robert Vansittart,
+        1st Baron Vansittart"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"RocknRolla"},{"ns":0,"title":"Rod
+        Steiger"},{"ns":0,"title":"Roman Polanski"},{"ns":0,"title":"Rose Kennedy"},{"ns":0,"title":"Royal
+        Academy of Dramatic Art"},{"ns":0,"title":"Rupert Everett"},{"ns":0,"title":"Rush
+        Hour (1998 film)"},{"ns":0,"title":"Rutger Hauer"},{"ns":0,"title":"Ryan Gosling"},{"ns":0,"title":"Salvatore
+        Cascio"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"San Diego Film
+        Critics Society Award for Best Cast"},{"ns":0,"title":"San Diego Film Critics
+        Society Award for Best Supporting Actor"},{"ns":0,"title":"Satellite Award
+        for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Leading
+        Role"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Male Actor in a Miniseries or Television Movie"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Supporting
+        Role"},{"ns":0,"title":"Screenonline"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"Selma
+        (film)"},{"ns":0,"title":"Sense and Sensibility (film)"},{"ns":0,"title":"Separate
+        Lies"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Sharma and
+        Beyond"},{"ns":0,"title":"Simon Callow"},{"ns":0,"title":"Sissy Spacek"},{"ns":0,"title":"Sleeping
+        Dogs (video game)"},{"ns":0,"title":"Smilla''s Sense of Snow (film)"},{"ns":0,"title":"Smuga
+        cienia"},{"ns":0,"title":"Southeastern Film Critics Association Award for
+        Best Actor"},{"ns":0,"title":"Stage Beauty"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Steve
+        Huison"},{"ns":0,"title":"Steve Martin"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Sundance
+        Film Festival"},{"ns":0,"title":"Sylvia (1985 film)"},{"ns":0,"title":"The
+        Attic: The Hiding of Anne Frank"},{"ns":0,"title":"The Best Exotic Marigold
+        Hotel"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The Conspirator (film)"},{"ns":0,"title":"The
+        Debt (2011 film)"},{"ns":0,"title":"The Exorcism of Emily Rose"},{"ns":0,"title":"The
+        Full Monty"},{"ns":0,"title":"The Gathering Storm (2002)"},{"ns":0,"title":"The
+        Ghost Writer (film)"},{"ns":0,"title":"The Ghost and the Darkness"},{"ns":0,"title":"The
+        Governess"},{"ns":0,"title":"The Grand Budapest Hotel"},{"ns":0,"title":"The
+        Green Hornet (2011 film)"},{"ns":0,"title":"The Gruffalo''s Child (film)"},{"ns":0,"title":"The
+        Gruffalo (film)"},{"ns":0,"title":"The Importance of Being Earnest (2002 film)"},{"ns":0,"title":"The
+        Kennedys (TV miniseries)"},{"ns":0,"title":"The Last Kiss (2006 film)"},{"ns":0,"title":"The
+        London Gazette"},{"ns":0,"title":"The Lone Ranger (2013 film)"},{"ns":0,"title":"The
+        Night of the White Pants"},{"ns":0,"title":"The Patriot (2000 film)"},{"ns":0,"title":"The
+        Shadow Line"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Thomas
+        Wilkinson (disambiguation)"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Tim
+        Conway"},{"ns":0,"title":"Tim Roth"},{"ns":0,"title":"Todd Field"},{"ns":0,"title":"Tom
+        Berenger"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Hollander"},{"ns":0,"title":"Tom Hulce"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Topher
+        Grace"},{"ns":0,"title":"Traffic (2000 film)"},{"ns":0,"title":"United Kingdom"},{"ns":0,"title":"University
+        of Kent"},{"ns":0,"title":"Val Kilmer"},{"ns":0,"title":"Valkyrie (film)"},{"ns":0,"title":"Vancouver
+        Film Critics Circle Award for Best Actor"},{"ns":0,"title":"Vancouver Film
+        Critics Circle Award for Best Supporting Actor"},{"ns":0,"title":"Vic Tayback"},{"ns":0,"title":"Vincent
+        Gardenia"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Walter
+        Huston"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"West Riding of Yorkshire"},{"ns":0,"title":"Wetherby
+        (film)"},{"ns":0,"title":"Wilde (film)"},{"ns":0,"title":"Willem Dafoe"},{"ns":0,"title":"William
+        H. Macy"},{"ns":0,"title":"William Murray, 1st Earl of Mansfield"},{"ns":0,"title":"William
+        Powell"},{"ns":0,"title":"William Shatner"},{"ns":0,"title":"William Snape"},{"ns":0,"title":"World
+        War II"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Manual
+        of Style/Words to watch"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:BAFTA
+        Award for Best Supporting Actor"},{"ns":10,"title":"Template:EmmyAward MiniseriesSupportingActor"},{"ns":10,"title":"Template:GoldenGlobeSupportingActorTV"},{"ns":10,"title":"Template:IndependentSpiritBestMaleLead"},{"ns":10,"title":"Template:London
+        Film Critics Circle Award for British Supporting Actor of the Year"},{"ns":10,"title":"Template:New
+        York Film Critics Circle Award for Best Actor"},{"ns":10,"title":"Template:Satellite
+        Award Best Supporting Actor Motion Picture"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:BAFTA Award for Best Supporting
+        Actor"},{"ns":11,"title":"Template talk:EmmyAward MiniseriesSupportingActor"},{"ns":11,"title":"Template
+        talk:GoldenGlobeSupportingActorTV"},{"ns":11,"title":"Template talk:IndependentSpiritBestMaleLead"},{"ns":11,"title":"Template
+        talk:London Film Critics Circle Award for British Supporting Actor of the
+        Year"},{"ns":11,"title":"Template talk:New York Film Critics Circle Award
+        for Best Actor"},{"ns":11,"title":"Template talk:Satellite Award Best Supporting
+        Actor Motion Picture"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward
+        CastMotionPicture 1995\u20132000"},{"ns":14,"title":"Category:Articles with
+        specifically marked weasel-worded phrases from December 2012"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from July 2013"},{"ns":14,"title":"Category:Use
+        dmy dates from December 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:19 GMT
+recorded_with: VCR 2.9.2

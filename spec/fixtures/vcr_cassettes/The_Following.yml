@@ -1,0 +1,137 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=The%20Following
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87328634, 3085175848, 1613107173
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2014'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:14 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"35807110":{"pageid":35807110,"ns":0,"title":"The
+        Following","links":[{"ns":0,"title":"2012\u201313 United States network television
+        schedule"},{"ns":0,"title":"2013\u201314 United States network television
+        schedule"},{"ns":0,"title":"24: Live Another Day"},{"ns":0,"title":"24 (TV
+        series)"},{"ns":0,"title":"39th Saturn Awards"},{"ns":0,"title":"40th Saturn
+        Awards"},{"ns":0,"title":"4Kids TV"},{"ns":0,"title":"Adan Canto"},{"ns":0,"title":"American
+        Idol"},{"ns":0,"title":"Annie Parisse"},{"ns":0,"title":"Annika Boras"},{"ns":0,"title":"Arian
+        Moayed"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Backstrom (TV series)"},{"ns":0,"title":"Bambadjan
+        Bamba"},{"ns":0,"title":"Betrayal (The Following)"},{"ns":0,"title":"Billy
+        Brown (actor)"},{"ns":0,"title":"Blu-ray Disc"},{"ns":0,"title":"Bob''s Burgers"},{"ns":0,"title":"Bones
+        (TV series)"},{"ns":0,"title":"Bordertown (2015 TV series)"},{"ns":0,"title":"Brooklyn
+        Nine-Nine"},{"ns":0,"title":"CTV Television Network"},{"ns":0,"title":"Camille
+        De Pazzis"},{"ns":0,"title":"Canada"},{"ns":0,"title":"Carrie Preston"},{"ns":0,"title":"Carter
+        Jenkins"},{"ns":0,"title":"Charles Manson"},{"ns":0,"title":"Chinasa Ogbuagu"},{"ns":0,"title":"Christopher
+        Denham"},{"ns":0,"title":"Connie Nielsen"},{"ns":0,"title":"Cosmos: A Spacetime
+        Odyssey"},{"ns":0,"title":"Cult"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Den
+        of Geek"},{"ns":0,"title":"Digital Spy"},{"ns":0,"title":"Drama (genre)"},{"ns":0,"title":"E!"},{"ns":0,"title":"Eastern
+        Time Zone"},{"ns":0,"title":"Edgar Allan Poe"},{"ns":0,"title":"Empire (2015
+        TV series)"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"FBI"},{"ns":0,"title":"FOX
+        Portugal"},{"ns":0,"title":"Facebook"},{"ns":0,"title":"Family Guy"},{"ns":0,"title":"Federal
+        Bureau of Investigation"},{"ns":0,"title":"Felix Solis"},{"ns":0,"title":"Fire
+        Island"},{"ns":0,"title":"Fire Island Lighthouse"},{"ns":0,"title":"Fly Away
+        (The Following)"},{"ns":0,"title":"Forgive (The Following)"},{"ns":0,"title":"Fox
+        Broadcasting Company"},{"ns":0,"title":"Fox College Football"},{"ns":0,"title":"Fox
+        Kids"},{"ns":0,"title":"Fox NFL Sunday"},{"ns":0,"title":"Fox News Sunday"},{"ns":0,"title":"Fox
+        Sports (United States)"},{"ns":0,"title":"France"},{"ns":0,"title":"Freedom
+        (The Following)"},{"ns":0,"title":"Gang Related (TV series)"},{"ns":0,"title":"Glee
+        (TV series)"},{"ns":0,"title":"Gotham (TV series)"},{"ns":0,"title":"Gracepoint"},{"ns":0,"title":"Gregg
+        Henry"},{"ns":0,"title":"Hell''s Kitchen (U.S. TV series)"},{"ns":0,"title":"Henry
+        David Thoreau"},{"ns":0,"title":"Hieroglyph (TV series)"},{"ns":0,"title":"Hotel
+        Hell"},{"ns":0,"title":"Hugues Faustin"},{"ns":0,"title":"I Wanna Marry \"Harry\""},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jacinda Barrett"},{"ns":0,"title":"Jack
+        Bauer"},{"ns":0,"title":"Jake Weber"},{"ns":0,"title":"James Purefoy"},{"ns":0,"title":"Jennifer
+        Ferrin"},{"ns":0,"title":"Jessica Stroup"},{"ns":0,"title":"John Frizzell
+        (composer)"},{"ns":0,"title":"John Lafayette"},{"ns":0,"title":"Josh Salatin"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Reilly (executive)"},{"ns":0,"title":"Kevin
+        Williamson (screenwriter)"},{"ns":0,"title":"Kitchen Nightmares"},{"ns":0,"title":"Kyle
+        Barisich"},{"ns":0,"title":"Kyle Catlett"},{"ns":0,"title":"Latin America"},{"ns":0,"title":"Leslie
+        Bibb"},{"ns":0,"title":"Li Jun Li"},{"ns":0,"title":"List of The Following
+        cast members"},{"ns":0,"title":"List of The Following characters"},{"ns":0,"title":"List
+        of The Following episodes"},{"ns":0,"title":"List of programs broadcast by
+        Fox"},{"ns":0,"title":"Liza de Weerd"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Mackenzie
+        Marsh"},{"ns":0,"title":"Major League Baseball on Fox"},{"ns":0,"title":"Marcos
+        Siega"},{"ns":0,"title":"MasterChef (U.S. TV series)"},{"ns":0,"title":"MasterChef
+        Junior"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Michael Drayer"},{"ns":0,"title":"Mike
+        Colter"},{"ns":0,"title":"Montego Glover"},{"ns":0,"title":"Mulaney"},{"ns":0,"title":"NASCAR
+        on Fox"},{"ns":0,"title":"NFL on Fox"},{"ns":0,"title":"Natalie Zea"},{"ns":0,"title":"New
+        Girl"},{"ns":0,"title":"New York City, New York"},{"ns":0,"title":"New York
+        City Police Department"},{"ns":0,"title":"Nico Tortorella"},{"ns":0,"title":"Nine
+        Network"},{"ns":0,"title":"Outerbanks Entertainment"},{"ns":0,"title":"People''s
+        Choice Awards"},{"ns":0,"title":"Portugal"},{"ns":0,"title":"Psychological
+        thriller"},{"ns":0,"title":"Ralph Waldo Emerson"},{"ns":0,"title":"Red Band
+        Society"},{"ns":0,"title":"Region 1"},{"ns":0,"title":"Region 2"},{"ns":0,"title":"Region
+        4"},{"ns":0,"title":"Ren\u00e9e Elise Goldsberry"},{"ns":0,"title":"Resurrection
+        (The Following)"},{"ns":0,"title":"Riot (TV series)"},{"ns":0,"title":"Rita
+        Markova"},{"ns":0,"title":"Sacrifice (The Following)"},{"ns":0,"title":"Sam
+        Underwood"},{"ns":0,"title":"Saturn Award for Best Actor on Television"},{"ns":0,"title":"Saturn
+        Award for Best Network Television Series"},{"ns":0,"title":"Saturn Award for
+        Best Supporting Actor on Television"},{"ns":0,"title":"Season finale"},{"ns":0,"title":"Season
+        premiere"},{"ns":0,"title":"Serial killer"},{"ns":0,"title":"Shane McRae"},{"ns":0,"title":"Shawn
+        Ashmore"},{"ns":0,"title":"Silence (The Following)"},{"ns":0,"title":"Single-camera
+        setup"},{"ns":0,"title":"Sky Atlantic"},{"ns":0,"title":"Sleepy Hollow (TV
+        series)"},{"ns":0,"title":"So You Think You Can Dance (United States)"},{"ns":0,"title":"Speed
+        on Fox"},{"ns":0,"title":"Sprague Grayden"},{"ns":0,"title":"Standards and
+        Practices"},{"ns":0,"title":"Steve Monroe"},{"ns":0,"title":"TF1"},{"ns":0,"title":"Teacher''s
+        Pet (The Following)"},{"ns":0,"title":"Television in the United States"},{"ns":0,"title":"Television
+        system"},{"ns":0,"title":"The Following (season 1)"},{"ns":0,"title":"The
+        Following (season 2)"},{"ns":0,"title":"The Hollywood Reporter"},{"ns":0,"title":"The
+        Last Man on Earth (TV series)"},{"ns":0,"title":"The Mindy Project"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Reaping (The Following)"},{"ns":0,"title":"The
+        Silence of the Lambs (novel)"},{"ns":0,"title":"The Simpsons"},{"ns":0,"title":"The
+        Washington Post"},{"ns":0,"title":"Thriller (genre)"},{"ns":0,"title":"Tiffany
+        Boone"},{"ns":0,"title":"Tom Cavanagh"},{"ns":0,"title":"Tom Lipinski"},{"ns":0,"title":"Twitter"},{"ns":0,"title":"UFC
+        on Fox"},{"ns":0,"title":"USA Today"},{"ns":0,"title":"United Kingdom"},{"ns":0,"title":"Unmasked
+        (The Following)"},{"ns":0,"title":"Us & Them"},{"ns":0,"title":"Valerie Cruz"},{"ns":0,"title":"Valorie
+        Curry"},{"ns":0,"title":"Virginia Kull"},{"ns":0,"title":"Wall Street Journal"},{"ns":0,"title":"Warner
+        Bros. Television"},{"ns":0,"title":"Warner Bros. Television Distribution"},{"ns":0,"title":"Warner
+        Channel"},{"ns":0,"title":"Warren Kole"},{"ns":0,"title":"Wayward Pines"},{"ns":0,"title":"Weekend
+        Marketplace"},{"ns":0,"title":"Weird Loners"},{"ns":0,"title":"Zap2it"},{"ns":10,"title":"Template:FOXNetwork
+        Shows (current and upcoming)"},{"ns":10,"title":"Template:The Following"},{"ns":11,"title":"Template
+        talk:FOXNetwork Shows (current and upcoming)"},{"ns":11,"title":"Template
+        talk:The Following"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:15 GMT
+recorded_with: VCR 2.9.2

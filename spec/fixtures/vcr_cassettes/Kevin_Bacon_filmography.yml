@@ -1,0 +1,109 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Kevin%20Bacon%20filmography
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390653180, 2340335110, 1613065937
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1347'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:30 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"40819232":{"pageid":40819232,"ns":0,"title":"Kevin
+        Bacon filmography","links":[{"ns":0,"title":"A Few Good Men"},{"ns":0,"title":"A
+        Little Vicious"},{"ns":0,"title":"American Playhouse"},{"ns":0,"title":"Animal
+        House"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Balto (film)"},{"ns":0,"title":"Beauty
+        Shop"},{"ns":0,"title":"Blockbuster LLC"},{"ns":0,"title":"Bored to Death"},{"ns":0,"title":"Boston
+        Society of Film Critics Award for Best Cast"},{"ns":0,"title":"Broadcast Film
+        Critics Association Award for Best Actor"},{"ns":0,"title":"Cavedweller (film)"},{"ns":0,"title":"Crazy,
+        Stupid, Love."},{"ns":0,"title":"Criminal Law (film)"},{"ns":0,"title":"Death
+        Sentence (2007 film)"},{"ns":0,"title":"Destination Anywhere"},{"ns":0,"title":"Digging
+        to China"},{"ns":0,"title":"Diner (film)"},{"ns":0,"title":"Elephant White
+        (film)"},{"ns":0,"title":"End of the Line (1987 film)"},{"ns":0,"title":"Flatliners"},{"ns":0,"title":"Footloose
+        (1984 film)"},{"ns":0,"title":"Forty Deuce"},{"ns":0,"title":"Fox Broadcasting
+        Company"},{"ns":0,"title":"Frasier"},{"ns":0,"title":"Friday the 13th (1980
+        film)"},{"ns":0,"title":"Frost/Nixon (film)"},{"ns":0,"title":"God, the Devil
+        and Bob"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Golden Globe Award for Best Supporting
+        Actor \u2013 Motion Picture"},{"ns":0,"title":"Guiding Light"},{"ns":0,"title":"He
+        Said, She Said"},{"ns":0,"title":"Hero at Large"},{"ns":0,"title":"Hollow
+        Man"},{"ns":0,"title":"INXS"},{"ns":0,"title":"In the Cut"},{"ns":0,"title":"Independent
+        Spirit Award for Best Male Lead"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"JFK
+        (film)"},{"ns":0,"title":"Jack Brennan"},{"ns":0,"title":"Jack Swigert"},{"ns":0,"title":"Jayne
+        Mansfield''s Car"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Lemon Sky"},{"ns":0,"title":"List
+        of Balto characters"},{"ns":0,"title":"Losing Chase"},{"ns":0,"title":"Loverboy
+        (2005 film)"},{"ns":0,"title":"MTV Movie Awards"},{"ns":0,"title":"Michael
+        Strobl"},{"ns":0,"title":"Mister Roberts (1984 film)"},{"ns":0,"title":"Murder
+        in the First (film)"},{"ns":0,"title":"My Dog Skip (film)"},{"ns":0,"title":"My
+        One and Only (film)"},{"ns":0,"title":"Mystic River (film)"},{"ns":0,"title":"Novocaine
+        (film)"},{"ns":0,"title":"Only When I Laugh (film)"},{"ns":0,"title":"People''s
+        Choice Awards"},{"ns":0,"title":"Picture Perfect (1997 film)"},{"ns":0,"title":"Planes,
+        Trains and Automobiles"},{"ns":0,"title":"Primetime Emmy Award for Outstanding
+        Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Pyrates"},{"ns":0,"title":"Queens
+        Logic"},{"ns":0,"title":"Quicksilver (film)"},{"ns":0,"title":"R.I.P.D."},{"ns":0,"title":"Rails
+        & Ties"},{"ns":0,"title":"Robot Chicken"},{"ns":0,"title":"San Diego Comic-Con
+        International"},{"ns":0,"title":"Satellite Award for Best Actor \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Satellite Award for Best Actor \u2013
+        Motion Picture Drama"},{"ns":0,"title":"Saturday Night Live"},{"ns":0,"title":"Saturn
+        Award for Best Actor on Television"},{"ns":0,"title":"Saving Angelo"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries
+        or Television Movie"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Male Actor in a Supporting Role"},{"ns":0,"title":"Search
+        for Tomorrow"},{"ns":0,"title":"Sebastian Shaw (comics)"},{"ns":0,"title":"She''s
+        Having a Baby"},{"ns":0,"title":"Skum Rocks!"},{"ns":0,"title":"Sleepers (film)"},{"ns":0,"title":"Starting
+        Over (1979 film)"},{"ns":0,"title":"Stir of Echoes"},{"ns":0,"title":"Super
+        (2011 film)"},{"ns":0,"title":"Taking Chance"},{"ns":0,"title":"Teen Choice
+        Awards"},{"ns":0,"title":"Telling Lies in America"},{"ns":0,"title":"The Air
+        I Breathe"},{"ns":0,"title":"The Air Up There"},{"ns":0,"title":"The Big Picture
+        (1989 film)"},{"ns":0,"title":"The Closer"},{"ns":0,"title":"The Colbert Report"},{"ns":0,"title":"The
+        Following"},{"ns":0,"title":"The Gift (1979 film)"},{"ns":0,"title":"The Magic
+        7"},{"ns":0,"title":"The River Wild"},{"ns":0,"title":"The Woodsman"},{"ns":0,"title":"Trapped
+        (2002 film)"},{"ns":0,"title":"Tremors (film)"},{"ns":0,"title":"We Married
+        Margo"},{"ns":0,"title":"Where the Truth Lies"},{"ns":0,"title":"White Water
+        Summer"},{"ns":0,"title":"Wild Things"},{"ns":0,"title":"Will & Grace"},{"ns":0,"title":"X-Men:
+        First Class"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:31 GMT
+recorded_with: VCR 2.9.2

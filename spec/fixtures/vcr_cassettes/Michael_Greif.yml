@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Michael%20Greif
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332307406, 983718051, 1309476646
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '541'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:41 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4018 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"22728462":{"pageid":22728462,"ns":0,"title":"Michael
+        Greif","links":[{"ns":0,"title":"Arena Stage"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Back Stage"},{"ns":0,"title":"Brooklyn"},{"ns":0,"title":"Delacorte
+        Theater"},{"ns":0,"title":"Drama Desk Award"},{"ns":0,"title":"Grey Gardens
+        (musical)"},{"ns":0,"title":"Guthrie Theater"},{"ns":0,"title":"If/Then"},{"ns":0,"title":"Jane
+        Krakowski"},{"ns":0,"title":"John Guare"},{"ns":0,"title":"La Jolla Playhouse"},{"ns":0,"title":"Manhattan
+        Theatre Club"},{"ns":0,"title":"Never Gonna Dance"},{"ns":0,"title":"New York"},{"ns":0,"title":"New
+        York Shakespeare Festival"},{"ns":0,"title":"New York Theatre Workshop"},{"ns":0,"title":"Next
+        to Normal"},{"ns":0,"title":"Northwestern University"},{"ns":0,"title":"Obie
+        Award"},{"ns":0,"title":"Playwrights Horizons"},{"ns":0,"title":"RENT"},{"ns":0,"title":"Rent
+        (musical)"},{"ns":0,"title":"Ryan Scott Oliver"},{"ns":0,"title":"Second Stage
+        Theatre"},{"ns":0,"title":"The Intelligent Homosexual''s Guide to Capitalism
+        and Socialism with a Key to the Scriptures"},{"ns":0,"title":"The New York
+        Times"},{"ns":0,"title":"Theatre director"},{"ns":0,"title":"Tony Award"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"University of California-San Diego"},{"ns":0,"title":"Village
+        Voice"},{"ns":0,"title":"Virtual International Authority File"},{"ns":4,"title":"Wikipedia:Persondata"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:42 GMT
+recorded_with: VCR 2.9.2

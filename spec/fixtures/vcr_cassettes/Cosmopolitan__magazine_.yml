@@ -1,0 +1,164 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Cosmopolitan%20(magazine)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711812589, 1102667539, 2597298703
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2978'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:58 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4017 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"143871":{"pageid":143871,"ns":0,"title":"Cosmopolitan
+        (magazine)","links":[{"ns":0,"title":"A+E Networks"},{"ns":0,"title":"A. J.
+        Cronin"},{"ns":0,"title":"AARP Bulletin"},{"ns":0,"title":"AARP The Magazine"},{"ns":0,"title":"AIDS"},{"ns":0,"title":"Alfred
+        Henry Lewis"},{"ns":0,"title":"Ali Larter"},{"ns":0,"title":"Alicia Silverstone"},{"ns":0,"title":"All
+        About Soap"},{"ns":0,"title":"All You"},{"ns":0,"title":"Ambrose Bierce"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"American Rifleman"},{"ns":0,"title":"Anna
+        Faris"},{"ns":0,"title":"Annie Besant"},{"ns":0,"title":"Argentina"},{"ns":0,"title":"Armenia"},{"ns":0,"title":"Arthur
+        B. Reeve"},{"ns":0,"title":"Ashlee Simpson"},{"ns":0,"title":"Ashley Greene"},{"ns":0,"title":"Ashley
+        Judd"},{"ns":0,"title":"Audit Bureau of Circulations (North America)"},{"ns":0,"title":"Aurore
+        Cl\u00e9ment"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Azerbaijan"},{"ns":0,"title":"Better
+        Homes and Gardens (magazine)"},{"ns":0,"title":"Beyonc\u00e9 Knowles"},{"ns":0,"title":"Bikini"},{"ns":0,"title":"Birth
+        control pill"},{"ns":0,"title":"Boer War"},{"ns":0,"title":"Bon App\u00e9tit"},{"ns":0,"title":"Bonnie
+        Fuller"},{"ns":0,"title":"Brad Ludden"},{"ns":0,"title":"Brazil"},{"ns":0,"title":"Britney
+        Spears"},{"ns":0,"title":"Bruno Lessing"},{"ns":0,"title":"Bulgaria"},{"ns":0,"title":"Burt
+        Reynolds"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CDS Global"},{"ns":0,"title":"Car
+        and Driver"},{"ns":0,"title":"Central America"},{"ns":0,"title":"Charles Edward
+        Russell"},{"ns":0,"title":"Chief editor"},{"ns":0,"title":"Chile"},{"ns":0,"title":"China"},{"ns":0,"title":"Chris
+        Van Vliet"},{"ns":0,"title":"Colombia"},{"ns":0,"title":"Company (magazine)"},{"ns":0,"title":"Connecticut
+        Post"},{"ns":0,"title":"Cooking Light"},{"ns":0,"title":"Cosmogirl"},{"ns":0,"title":"Cosmopolitan
+        Productions"},{"ns":0,"title":"Cosmopolitan Television"},{"ns":0,"title":"Country
+        Living"},{"ns":0,"title":"Craig Kennedy"},{"ns":0,"title":"Croatia"},{"ns":0,"title":"Cyprus"},{"ns":0,"title":"Czech
+        Republic"},{"ns":0,"title":"DailyINK"},{"ns":0,"title":"Dakota Fanning"},{"ns":0,"title":"David
+        Graham Phillips"},{"ns":0,"title":"Dean Cornwell"},{"ns":0,"title":"Debra
+        Messing"},{"ns":0,"title":"Demi Lovato"},{"ns":0,"title":"Denmark"},{"ns":0,"title":"Digital
+        Spy"},{"ns":0,"title":"Digital object identifier"},{"ns":0,"title":"ECRUSH"},{"ns":0,"title":"ESPN
+        Inc."},{"ns":0,"title":"ESPN The Magazine"},{"ns":0,"title":"Ecuador"},{"ns":0,"title":"Edith
+        Wharton"},{"ns":0,"title":"Edwardsville Intelligencer"},{"ns":0,"title":"Electronic
+        Products"},{"ns":0,"title":"Elizabeth Bisland"},{"ns":0,"title":"Elle (magazine)"},{"ns":0,"title":"Elle
+        Decor"},{"ns":0,"title":"Elle Girl"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Esquire
+        (UK Edition)"},{"ns":0,"title":"Esquire (magazine)"},{"ns":0,"title":"Esquire
+        Network"},{"ns":0,"title":"Estonia"},{"ns":0,"title":"Eva Mendes"},{"ns":0,"title":"Every
+        Day with Rachael Ray"},{"ns":0,"title":"FamilyFun"},{"ns":0,"title":"Family
+        Circle"},{"ns":0,"title":"Fashion Model Directory"},{"ns":0,"title":"Federal
+        Trade Commission"},{"ns":0,"title":"Female"},{"ns":0,"title":"Finland"},{"ns":0,"title":"First
+        DataBank"},{"ns":0,"title":"Fitch Group"},{"ns":0,"title":"Fitness (magazine)"},{"ns":0,"title":"Food
+        Network Magazine"},{"ns":0,"title":"Fox News"},{"ns":0,"title":"France"},{"ns":0,"title":"Game
+        Informer"},{"ns":0,"title":"Gay rights"},{"ns":0,"title":"George Bernard Shaw"},{"ns":0,"title":"Georgia
+        (country)"},{"ns":0,"title":"Germany"},{"ns":0,"title":"Glamour (magazine)"},{"ns":0,"title":"Golf
+        Digest"},{"ns":0,"title":"Good Housekeeping"},{"ns":0,"title":"Greece"},{"ns":0,"title":"Greenwich
+        Time (newspaper)"},{"ns":0,"title":"Guideposts"},{"ns":0,"title":"H. G. Wells"},{"ns":0,"title":"HIV"},{"ns":0,"title":"HIV-positive"},{"ns":0,"title":"Harper''s
+        Bazaar"},{"ns":0,"title":"Harrison Fisher"},{"ns":0,"title":"Hayley Williams"},{"ns":0,"title":"Hearst
+        Castle"},{"ns":0,"title":"Hearst Corporation"},{"ns":0,"title":"Hearst Magazines"},{"ns":0,"title":"Hearst
+        Television"},{"ns":0,"title":"Hearst Tower (Charlotte)"},{"ns":0,"title":"Hearst
+        Tower (New York City)"},{"ns":0,"title":"Helen Gurley Brown"},{"ns":0,"title":"Hong
+        Kong"},{"ns":0,"title":"House Beautiful"},{"ns":0,"title":"Houston Chronicle"},{"ns":0,"title":"Hungary"},{"ns":0,"title":"Huron
+        Daily Tribune"},{"ns":0,"title":"Ida Tarbell"},{"ns":0,"title":"InStyle"},{"ns":0,"title":"Independent
+        station"},{"ns":0,"title":"India"},{"ns":0,"title":"Indonesia"},{"ns":0,"title":"Inside
+        Soap"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Serial Number"},{"ns":0,"title":"Israel"},{"ns":0,"title":"Italy"},{"ns":0,"title":"Jack
+        London"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"James Montgomery
+        Flagg"},{"ns":0,"title":"Japan"},{"ns":0,"title":"Jennifer Love Hewitt"},{"ns":0,"title":"John
+        Brisben Walker"},{"ns":0,"title":"John Mayer"},{"ns":0,"title":"Jon Bon Jovi"},{"ns":0,"title":"Josh
+        Duhamel"},{"ns":0,"title":"KCCI"},{"ns":0,"title":"KCRA-TV"},{"ns":0,"title":"KCWE"},{"ns":0,"title":"KETV"},{"ns":0,"title":"KHBS"},{"ns":0,"title":"KITV"},{"ns":0,"title":"KMBC-TV"},{"ns":0,"title":"KOAT-TV"},{"ns":0,"title":"KOCO-TV"},{"ns":0,"title":"KQCA"},{"ns":0,"title":"KSBW"},{"ns":0,"title":"Kate
+        White"},{"ns":0,"title":"Katherine Heigl"},{"ns":0,"title":"Kazakhstan"},{"ns":0,"title":"Kellan
+        Lutz"},{"ns":0,"title":"Kenya"},{"ns":0,"title":"King Features Syndicate"},{"ns":0,"title":"Kroger"},{"ns":0,"title":"La
+        Voz de Houston"},{"ns":0,"title":"Ladies'' Home Journal"},{"ns":0,"title":"Laredo
+        Morning Times"},{"ns":0,"title":"Latvia"},{"ns":0,"title":"List of magazines
+        by circulation"},{"ns":0,"title":"Literary magazine"},{"ns":0,"title":"Lithuania"},{"ns":0,"title":"Malaysia"},{"ns":0,"title":"Marie
+        Claire"},{"ns":0,"title":"Martha Stewart Living"},{"ns":0,"title":"Mass market"},{"ns":0,"title":"Matthew
+        Perry"},{"ns":0,"title":"Maxim (magazine)"},{"ns":0,"title":"Men''s Health
+        (magazine)"},{"ns":0,"title":"Mexico"},{"ns":0,"title":"Midland Daily News"},{"ns":0,"title":"Midland
+        Reporter-Telegram"},{"ns":0,"title":"Mila Kunis"},{"ns":0,"title":"Missionary
+        position"},{"ns":0,"title":"Money (magazine)"},{"ns":0,"title":"Mongolia"},{"ns":0,"title":"Motor
+        (Hearst magazine)"},{"ns":0,"title":"MyNetworkTV"},{"ns":0,"title":"NBC"},{"ns":0,"title":"National
+        Geographic (magazine)"},{"ns":0,"title":"Nellie Bly"},{"ns":0,"title":"Netherlands"},{"ns":0,"title":"Nick
+        Lachey"},{"ns":0,"title":"Nicole Scherzinger"},{"ns":0,"title":"NorthSouth
+        Productions"},{"ns":0,"title":"Norway"},{"ns":0,"title":"O, The Oprah Magazine"},{"ns":0,"title":"O.
+        Henry"},{"ns":0,"title":"Olive Schreiner"},{"ns":0,"title":"Paramore"},{"ns":0,"title":"Parenting
+        (magazine)"},{"ns":0,"title":"Parents (magazine)"},{"ns":0,"title":"Patrick
+        Dempsey"},{"ns":0,"title":"Patty Hearst"},{"ns":0,"title":"Paul Wesley"},{"ns":0,"title":"People
+        (American magazine)"},{"ns":0,"title":"Peru"},{"ns":0,"title":"Philippines"},{"ns":0,"title":"Plainview
+        Daily Herald"},{"ns":0,"title":"Point (typography)"},{"ns":0,"title":"Poland"},{"ns":0,"title":"Popular
+        Mechanics"},{"ns":0,"title":"Portugal"},{"ns":0,"title":"Prevention (magazine)"},{"ns":0,"title":"Psychologies"},{"ns":0,"title":"Puerto
+        Rico"},{"ns":0,"title":"Quo (magazine)"},{"ns":0,"title":"Ray Long"},{"ns":0,"title":"Reader''s
+        Digest"},{"ns":0,"title":"RealAge"},{"ns":0,"title":"Real Simple"},{"ns":0,"title":"Redbook"},{"ns":0,"title":"Reed
+        Brennan Media Associates"},{"ns":0,"title":"Road & Track"},{"ns":0,"title":"Rolling
+        Stone"},{"ns":0,"title":"Romania"},{"ns":0,"title":"Rudyard Kipling"},{"ns":0,"title":"Russell
+        Brand"},{"ns":0,"title":"Russia"},{"ns":0,"title":"S. S. Chamberlain"},{"ns":0,"title":"San
+        Antonio Express-News"},{"ns":0,"title":"San Francisco Chronicle"},{"ns":0,"title":"Sandra
+        Bullock"},{"ns":0,"title":"Seattle Post-Intelligencer"},{"ns":0,"title":"Selena
+        Gomez"},{"ns":0,"title":"Self (magazine)"},{"ns":0,"title":"Serbia"},{"ns":0,"title":"Seventeen
+        (magazine)"},{"ns":0,"title":"Sex and the Single Girl"},{"ns":0,"title":"Shania
+        Twain"},{"ns":0,"title":"Shape (magazine)"},{"ns":0,"title":"Sinclair Lewis"},{"ns":0,"title":"Singapore"},{"ns":0,"title":"Slovenia"},{"ns":0,"title":"Smithsonian
+        (magazine)"},{"ns":0,"title":"South Africa"},{"ns":0,"title":"South Korea"},{"ns":0,"title":"Southern
+        Living"},{"ns":0,"title":"Spain"},{"ns":0,"title":"Spanish language in the
+        United States"},{"ns":0,"title":"Spartacus Educational"},{"ns":0,"title":"Sports
+        Illustrated"},{"ns":0,"title":"Sugarscape.com"},{"ns":0,"title":"Sweden"},{"ns":0,"title":"TV
+        Guide"},{"ns":0,"title":"Taiwan"},{"ns":0,"title":"Taste of Home"},{"ns":0,"title":"Thailand"},{"ns":0,"title":"The
+        Advocate (Stamford)"},{"ns":0,"title":"The American Legion Magazine"},{"ns":0,"title":"The
+        Beaumont Enterprise"},{"ns":0,"title":"The Brandery"},{"ns":0,"title":"The
+        CW Television Network"},{"ns":0,"title":"The First Men in the Moon"},{"ns":0,"title":"The
+        News-Times"},{"ns":0,"title":"The Red One"},{"ns":0,"title":"The War of the
+        Worlds"},{"ns":0,"title":"Theodore Dreiser"},{"ns":0,"title":"Time (magazine)"},{"ns":0,"title":"Times
+        Union (Albany)"},{"ns":0,"title":"Town & Country (magazine)"},{"ns":0,"title":"Turkey"},{"ns":0,"title":"Typeface"},{"ns":0,"title":"US$"},{"ns":0,"title":"Ukraine"},{"ns":0,"title":"United
+        Kingdom"},{"ns":0,"title":"University of Missouri Press"},{"ns":0,"title":"Upton
+        Sinclair"},{"ns":0,"title":"Us Weekly"},{"ns":0,"title":"Venezuela"},{"ns":0,"title":"Vietnam"},{"ns":0,"title":"WAPT"},{"ns":0,"title":"WBAL-TV"},{"ns":0,"title":"WBAL
+        (AM)"},{"ns":0,"title":"WCVB-TV"},{"ns":0,"title":"WDSU"},{"ns":0,"title":"WESH"},{"ns":0,"title":"WGAL"},{"ns":0,"title":"WISN-TV"},{"ns":0,"title":"WIYY"},{"ns":0,"title":"WKCF"},{"ns":0,"title":"WLKY"},{"ns":0,"title":"WLWT"},{"ns":0,"title":"WMOR-TV"},{"ns":0,"title":"WMTW"},{"ns":0,"title":"WMUR-TV"},{"ns":0,"title":"WNNE"},{"ns":0,"title":"WPBF"},{"ns":0,"title":"WPTZ"},{"ns":0,"title":"WTAE-TV"},{"ns":0,"title":"WXII-TV"},{"ns":0,"title":"WYFF"},{"ns":0,"title":"Willa
+        Cather"},{"ns":0,"title":"William Randolph Hearst"},{"ns":0,"title":"Woman''s
+        Day"},{"ns":0,"title":"Women''s Health (magazine)"},{"ns":0,"title":"Women''s
+        magazine"},{"ns":0,"title":"Zest (magazine)"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:50
+        largest US magazines"},{"ns":10,"title":"Template:Hearst"},{"ns":10,"title":"Template:Refimprove
+        section"},{"ns":11,"title":"Template talk:50 largest US magazines"},{"ns":11,"title":"Template
+        talk:Hearst"},{"ns":12,"title":"Help:CS1 errors"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from January 2013"},{"ns":14,"title":"Category:Articles with dead
+        external links from January 2013"},{"ns":14,"title":"Category:Articles with
+        dead external links from October 2013"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from January 2014"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:00 GMT
+recorded_with: VCR 2.9.2

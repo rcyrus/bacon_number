@@ -1,0 +1,279 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=American%20Beauty%20(1999%20film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401569445, 983682793, 3142862487
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5237'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:42 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4018 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"44122|0|United_93_(film)"}},"query":{"pages":{"44122":{"pageid":44122,"ns":0,"title":"American
+        Beauty (1999 film)","links":[{"ns":0,"title":"12 Years a Slave (film)"},{"ns":0,"title":"1999
+        in film"},{"ns":0,"title":"35 mm film"},{"ns":0,"title":"53rd British Academy
+        Film Awards"},{"ns":0,"title":"57th Golden Globe Awards"},{"ns":0,"title":"72nd
+        Academy Awards"},{"ns":0,"title":"A-list"},{"ns":0,"title":"AFI''s 100 Years...100
+        Movies (10th Anniversary Edition)"},{"ns":0,"title":"A Beautiful Mind (film)"},{"ns":0,"title":"A
+        Man for All Seasons (1966 film)"},{"ns":0,"title":"A Place in the Sun (film)"},{"ns":0,"title":"A
+        Prophet"},{"ns":0,"title":"A Room with a View (1986 film)"},{"ns":0,"title":"About
+        Schmidt"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Actor"},{"ns":0,"title":"Academy Award for Best Cinematography"},{"ns":0,"title":"Academy
+        Award for Best Director"},{"ns":0,"title":"Academy Award for Best Original
+        Screenplay"},{"ns":0,"title":"Academy Award for Best Picture"},{"ns":0,"title":"Advertising
+        mail"},{"ns":0,"title":"Alan Ball (screenwriter)"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alice Doesn''t Live Here Anymore"},{"ns":0,"title":"Alison
+        Janney"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"All About Eve"},{"ns":0,"title":"All
+        Quiet on the Western Front (1930 film)"},{"ns":0,"title":"All That Jazz (film)"},{"ns":0,"title":"All
+        the King''s Men (1949 film)"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Amadeus
+        (film)"},{"ns":0,"title":"Amazon.com"},{"ns":0,"title":"Amblin Entertainment"},{"ns":0,"title":"American
+        Beauty: Original Motion Picture Score"},{"ns":0,"title":"American Beauty (soundtrack)"},{"ns":0,"title":"American
+        Cinematographer"},{"ns":0,"title":"American Psycho (film)"},{"ns":0,"title":"American
+        Society of Cinematographers"},{"ns":0,"title":"American middle class"},{"ns":0,"title":"Amour
+        (2012 film)"},{"ns":0,"title":"Amy Fisher"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"An
+        American in Paris (film)"},{"ns":0,"title":"Anamorphic format"},{"ns":0,"title":"Anne
+        of the Thousand Days"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Annie
+        Hall"},{"ns":0,"title":"Annie Lennox"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apocalypse Now"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Argo
+        (2012 film)"},{"ns":0,"title":"Around the World in 80 Days (1956 film)"},{"ns":0,"title":"Aspect
+        ratio (image)"},{"ns":0,"title":"Atonement (film)"},{"ns":0,"title":"Avatar
+        (2009 film)"},{"ns":0,"title":"Away We Go"},{"ns":0,"title":"BAFTA Award for
+        Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Award for Best Actress
+        in a Leading Role"},{"ns":0,"title":"BAFTA Award for Best Cinematography"},{"ns":0,"title":"BAFTA
+        Award for Best Editing"},{"ns":0,"title":"BAFTA Award for Best Film"},{"ns":0,"title":"BAFTA
+        Award for Best Film Music"},{"ns":0,"title":"Babe (film)"},{"ns":0,"title":"Babel
+        (film)"},{"ns":0,"title":"Backlot"},{"ns":0,"title":"Badlands (film)"},{"ns":0,"title":"Ballad
+        of a Soldier"},{"ns":0,"title":"Bar (music)"},{"ns":0,"title":"Because (The
+        Beatles song)"},{"ns":0,"title":"Becket (1964 film)"},{"ns":0,"title":"Being
+        John Malkovich"},{"ns":0,"title":"Ben-Hur (1959 film)"},{"ns":0,"title":"Ben
+        Affleck"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Betty
+        Carter"},{"ns":0,"title":"Beverly Hills"},{"ns":0,"title":"Bicycle Thieves"},{"ns":0,"title":"Bill
+        Paxton"},{"ns":0,"title":"Bill Withers"},{"ns":0,"title":"Billboard (magazine)"},{"ns":0,"title":"Blockbuster
+        Inc."},{"ns":0,"title":"Blu-ray"},{"ns":0,"title":"Bob Dylan"},{"ns":0,"title":"Bobby
+        Darin"},{"ns":0,"title":"Bongos"},{"ns":0,"title":"Born on the Fourth of July
+        (film)"},{"ns":0,"title":"Boston Herald"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Boys
+        Don''t Cry (film)"},{"ns":0,"title":"Braveheart"},{"ns":0,"title":"Brentwood,
+        Los Angeles, California"},{"ns":0,"title":"Bringing Out the Dead"},{"ns":0,"title":"British
+        Academy of Film and Television Arts"},{"ns":0,"title":"British Film Institute"},{"ns":0,"title":"Broadcast
+        Film Critics Association"},{"ns":0,"title":"Broadcast Film Critics Association
+        Award for Best Film"},{"ns":0,"title":"Brokeback Mountain"},{"ns":0,"title":"Bruce
+        Cohen"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Bruce Willis"},{"ns":0,"title":"Bugsy"},{"ns":0,"title":"Burbank,
+        California"},{"ns":0,"title":"Business Wire"},{"ns":0,"title":"Butch Cassidy
+        and the Sundance Kid"},{"ns":0,"title":"Cabaret (1972 film)"},{"ns":0,"title":"Cabaret
+        (musical)"},{"ns":0,"title":"Cancer for the Cure"},{"ns":0,"title":"Cannabis
+        (drug)"},{"ns":0,"title":"Casablanca (film)"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Cavalcade
+        (1933 film)"},{"ns":0,"title":"Chariots of Fire"},{"ns":0,"title":"Chicago
+        (2002 film)"},{"ns":0,"title":"Chicago Film Critics Association"},{"ns":0,"title":"Chicago
+        Sun-Times"},{"ns":0,"title":"Chinatown (1974 film)"},{"ns":0,"title":"Chloe
+        Hunter"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Chris Cooper (actor)"},{"ns":0,"title":"Chris
+        Douridas"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christopher
+        Greenbury"},{"ns":0,"title":"Chroma key"},{"ns":0,"title":"Cimarron (1931
+        film)"},{"ns":0,"title":"CinemaScore"},{"ns":0,"title":"Classicism"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Close-up"},{"ns":0,"title":"Coen brothers"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Colonel (United States)"},{"ns":0,"title":"Computer-generated
+        imagery"},{"ns":0,"title":"Conrad Hall"},{"ns":0,"title":"Counterculture of
+        the 1960s"},{"ns":0,"title":"Cover version"},{"ns":0,"title":"Crash (2004
+        film)"},{"ns":0,"title":"Creative Artists Agency"},{"ns":0,"title":"Crimes
+        and Misdemeanors"},{"ns":0,"title":"Cybill"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"DTS
+        (sound system)"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Dale Olson"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Dan Jinks"},{"ns":0,"title":"Dances with Wolves"},{"ns":0,"title":"Day
+        for Night (film)"},{"ns":0,"title":"Dead Poets Society"},{"ns":0,"title":"Death
+        of the Author"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Diegesis"},{"ns":0,"title":"Digital
+        object identifier"},{"ns":0,"title":"Directors Guild of America"},{"ns":0,"title":"Distant
+        Voices, Still Lives"},{"ns":0,"title":"Divorce American Style"},{"ns":0,"title":"Doctor
+        Zhivago (film)"},{"ns":0,"title":"Don''t Let It Bring You Down"},{"ns":0,"title":"Don''t
+        Rain on My Parade"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Dr. Strangelove"},{"ns":0,"title":"DreamWorks"},{"ns":0,"title":"Driving
+        Miss Daisy"},{"ns":0,"title":"Dualism"},{"ns":0,"title":"Duke University Press"},{"ns":0,"title":"E.T.
+        the Extra-Terrestrial"},{"ns":0,"title":"East of Eden (film)"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Educating Rita (film)"},{"ns":0,"title":"Edvard
+        Munch"},{"ns":0,"title":"Eels (band)"},{"ns":0,"title":"Electronic music"},{"ns":0,"title":"Elevator
+        music"},{"ns":0,"title":"Elliott Smith"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Empire
+        (film magazine)"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Erika
+        Christensen"},{"ns":0,"title":"Evanston, Illinois"},{"ns":0,"title":"Fargo
+        (film)"},{"ns":0,"title":"Fight Club"},{"ns":0,"title":"Fill light"},{"ns":0,"title":"Film
+        Quarterly"},{"ns":0,"title":"Film Score Monthly"},{"ns":0,"title":"Filmmaker
+        (magazine)"},{"ns":0,"title":"Focal Press"},{"ns":0,"title":"Forbidden Games"},{"ns":0,"title":"Forrest
+        Gump"},{"ns":0,"title":"Four Weddings and a Funeral"},{"ns":0,"title":"Fox
+        Searchlight Pictures"},{"ns":0,"title":"Frederick Elmes"},{"ns":0,"title":"Free
+        (band)"},{"ns":0,"title":"From Here to Eternity"},{"ns":0,"title":"Gandhi
+        (film)"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Gentleman''s
+        Agreement"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"Gervaise"},{"ns":0,"title":"Gigi
+        (1958 film)"},{"ns":0,"title":"Gladiator (2000 film)"},{"ns":0,"title":"Glengarry
+        Glen Ross (film)"},{"ns":0,"title":"Going My Way"},{"ns":0,"title":"Golden
+        Globe Award for Best Director"},{"ns":0,"title":"Golden Globe Award for Best
+        Motion Picture \u2013 Drama"},{"ns":0,"title":"Golden Globe Award for Best
+        Screenplay"},{"ns":0,"title":"Gomez (band)"},{"ns":0,"title":"Gone with the
+        Wind (film)"},{"ns":0,"title":"Goodfellas"},{"ns":0,"title":"Grace Under Fire
+        (TV series)"},{"ns":0,"title":"Grammy Award for Best Compilation Soundtrack
+        Album for a Motion Picture, Television or Other Visual Media"},{"ns":0,"title":"Grammy
+        Award for Best Score Soundtrack Album for a Motion Picture, Television or
+        Other Visual Media"},{"ns":0,"title":"Grand Hotel (film)"},{"ns":0,"title":"Grauman''s
+        Egyptian Theatre"},{"ns":0,"title":"Greek mythology"},{"ns":0,"title":"Greenwood
+        Publishing Group"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"Hal
+        B. Wallis"},{"ns":0,"title":"Hamlet (1948 film)"},{"ns":0,"title":"Hancock
+        Park, Los Angeles, California"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Helen
+        Hunt"},{"ns":0,"title":"High-definition video"},{"ns":0,"title":"Holly Hunter"},{"ns":0,"title":"Hope
+        and Glory (film)"},{"ns":0,"title":"House Beautiful"},{"ns":0,"title":"House
+        of Games"},{"ns":0,"title":"How Green Was My Valley (film)"},{"ns":0,"title":"Howards
+        End (film)"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"In
+        the Company of Men"},{"ns":0,"title":"In the Heat of the Night (film)"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Serial Number"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Interstate 405 (California)"},{"ns":0,"title":"It
+        Happened One Night"},{"ns":0,"title":"JSTOR"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jacob
+        Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"Janet Maslin"},{"ns":0,"title":"Jarhead
+        (film)"},{"ns":0,"title":"Jean de Florette"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"John
+        Travolta"},{"ns":0,"title":"Joint (cannabis)"},{"ns":0,"title":"Jonathan Kramer"},{"ns":0,"title":"Joseph
+        Fiennes"},{"ns":0,"title":"Journal of the Society for American Music"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Julia (1977 film)"},{"ns":0,"title":"Kaja Silverman"},{"ns":0,"title":"Kathleen
+        Quinlan"},{"ns":0,"title":"Kenneth Turan"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kramer vs. Kramer"},{"ns":0,"title":"L.A.
+        Confidential (film)"},{"ns":0,"title":"La Ronde (1950 film)"},{"ns":0,"title":"Lacombe,
+        Lucien"},{"ns":0,"title":"Lakeshore Entertainment"},{"ns":0,"title":"Laurie
+        MacDonald"},{"ns":0,"title":"Lawrence of Arabia (film)"},{"ns":0,"title":"Lesley
+        Sharp"},{"ns":0,"title":"Limited release"},{"ns":0,"title":"List of American
+        films of 1999"},{"ns":0,"title":"List of accolades received by American Beauty
+        (film)"},{"ns":0,"title":"List of motion picture film stocks"},{"ns":0,"title":"Little
+        Voice (film)"},{"ns":0,"title":"Lolita"},{"ns":0,"title":"London Film Critics
+        Circle Award for Film of the Year"},{"ns":0,"title":"London Film Festival"},{"ns":0,"title":"Los
+        Angeles"},{"ns":0,"title":"Los Angeles Film Critics Association"},{"ns":0,"title":"Los
+        Angeles Times"},{"ns":0,"title":"Love Story (1970 film)"},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"Magnolia (film)"},{"ns":0,"title":"Manchester
+        University Press"},{"ns":0,"title":"Mandolin"},{"ns":0,"title":"Manhattan
+        (film)"},{"ns":0,"title":"Marathon Man (film)"},{"ns":0,"title":"Marimba"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Marty (film)"},{"ns":0,"title":"Master
+        and Commander: The Far Side of the World"},{"ns":0,"title":"McFarland & Company"},{"ns":0,"title":"Me,
+        Myself and Irene"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Metro-Goldwyn-Mayer"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Midnight Cowboy"},{"ns":0,"title":"Midnight Express
+        (film)"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Mike Nichols"},{"ns":0,"title":"Million
+        Dollar Baby"},{"ns":0,"title":"Miramax"},{"ns":0,"title":"Missing (film)"},{"ns":0,"title":"Moulin
+        Rouge!"},{"ns":0,"title":"Mrs. Miniver (film)"},{"ns":0,"title":"Mutiny on
+        the Bounty (1935 film)"},{"ns":0,"title":"My Big Break"},{"ns":0,"title":"My
+        Fair Lady (film)"},{"ns":0,"title":"NYPD Blue"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"National
+        Society of Film Critics"},{"ns":0,"title":"Neil Young"},{"ns":0,"title":"New
+        York Film Critics Circle Awards"},{"ns":0,"title":"New York Post"},{"ns":0,"title":"New
+        York University"},{"ns":0,"title":"Nicole Kidman"},{"ns":0,"title":"No Country
+        for Old Men (film)"},{"ns":0,"title":"Northwestern University"},{"ns":0,"title":"October
+        Films"},{"ns":0,"title":"Oh, Grow Up"},{"ns":0,"title":"Oliver!"},{"ns":0,"title":"Oliver!
+        (film)"},{"ns":0,"title":"On Broadway (song)"},{"ns":0,"title":"On Golden
+        Pond (1981 film)"},{"ns":0,"title":"On the Waterfront"},{"ns":0,"title":"One
+        Flew Over the Cuckoo''s Nest (film)"},{"ns":0,"title":"Option (filmmaking)"},{"ns":0,"title":"Ordinary
+        People"},{"ns":0,"title":"Out of Africa (film)"},{"ns":0,"title":"Panavision
+        cameras"},{"ns":0,"title":"Pantheon Books"},{"ns":0,"title":"Paramount Home
+        Entertainment"},{"ns":0,"title":"Parent-Teacher Association"},{"ns":0,"title":"Paris,
+        Texas (film)"},{"ns":0,"title":"Patton (film)"},{"ns":0,"title":"Paul Barber
+        (actor)"},{"ns":0,"title":"Peggy Lee"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter
+        Riegert"},{"ns":0,"title":"Photographic filter"},{"ns":0,"title":"Photon diffusion"},{"ns":0,"title":"Pitch
+        (filmmaking)"},{"ns":0,"title":"Platoon (film)"},{"ns":0,"title":"Post-production"},{"ns":0,"title":"Premiere
+        (magazine)"},{"ns":0,"title":"Prime lens"},{"ns":0,"title":"Principal photography"},{"ns":0,"title":"Producers
+        Guild of America"},{"ns":0,"title":"Rain Man"},{"ns":0,"title":"Rebecca (1940
+        film)"},{"ns":0,"title":"Ren\u00e9 Magritte"},{"ns":0,"title":"Revolutionary
+        Road (film)"},{"ns":0,"title":"Richard III (1955 film)"},{"ns":0,"title":"Rigid
+        panel"},{"ns":0,"title":"Road to Perdition"},{"ns":0,"title":"Rob Marshall"},{"ns":0,"title":"Robert
+        Carlyle"},{"ns":0,"title":"Robert Zemeckis"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rocky"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Room at the Top (1959 film)"},{"ns":0,"title":"Rosa
+        ''American Beauty''"},{"ns":0,"title":"Rosemary''s Baby (film)"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Routledge"},{"ns":0,"title":"Sacramento, California"},{"ns":0,"title":"Sacramento
+        News & Review"},{"ns":0,"title":"Sally Rowena Munt"},{"ns":0,"title":"Sam
+        Mendes"},{"ns":0,"title":"Sam Robards"},{"ns":0,"title":"San Francisco Chronicle"},{"ns":0,"title":"San
+        Jose, California"},{"ns":0,"title":"Santa Barbara International Film Festival"},{"ns":0,"title":"Santa
+        Monica, California"},{"ns":0,"title":"Saving Private Ryan"},{"ns":0,"title":"Scent
+        of a Woman (1992 film)"},{"ns":0,"title":"Schindler''s List"},{"ns":0,"title":"Scott
+        Bakula"},{"ns":0,"title":"Screen Actors Guild"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Second
+        unit"},{"ns":0,"title":"Sense and Sensibility (film)"},{"ns":0,"title":"Seven
+        (film)"},{"ns":0,"title":"Shakespeare in Love"},{"ns":0,"title":"Sideways
+        (film)"},{"ns":0,"title":"Sight & Sound"},{"ns":0,"title":"Sigmund Freud"},{"ns":0,"title":"Simon
+        Callow"},{"ns":0,"title":"Skyfall"},{"ns":0,"title":"Slumdog Millionaire"},{"ns":0,"title":"Society
+        for American Music"},{"ns":0,"title":"South High School (Torrance)"},{"ns":0,"title":"Spartacus
+        (film)"},{"ns":0,"title":"Spec script"},{"ns":0,"title":"Steadicam"},{"ns":0,"title":"Steve
+        Huison"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Storyboard"},{"ns":0,"title":"Stylus
+        Magazine"},{"ns":0,"title":"Sunday Bloody Sunday (film)"},{"ns":0,"title":"Sunset
+        Boulevard"},{"ns":0,"title":"Sunset Boulevard (film)"},{"ns":0,"title":"Super
+        35"},{"ns":0,"title":"T-stops"},{"ns":0,"title":"Tabla"},{"ns":0,"title":"Tariq
+        Anwar (film editor)"},{"ns":0,"title":"Teleology"},{"ns":0,"title":"Terms
+        of Endearment"},{"ns":0,"title":"Terrence Malick"},{"ns":0,"title":"Test screening"},{"ns":0,"title":"Texture
+        (music)"},{"ns":0,"title":"The Advocate"},{"ns":0,"title":"The Apartment"},{"ns":0,"title":"The
+        Artist (film)"},{"ns":0,"title":"The Aviator (2004 film)"},{"ns":0,"title":"The
+        Beatles"},{"ns":0,"title":"The Best Years of Our Lives"},{"ns":0,"title":"The
+        Birdcage"},{"ns":0,"title":"The Blue Room (play)"},{"ns":0,"title":"The Bridge
+        on the River Kwai"},{"ns":0,"title":"The Broadway Melody"},{"ns":0,"title":"The
+        Cardinal"},{"ns":0,"title":"The Cider House Rules (film)"},{"ns":0,"title":"The
+        Commitments (film)"},{"ns":0,"title":"The Deer Hunter"},{"ns":0,"title":"The
+        Defiant Ones"},{"ns":0,"title":"The Departed"},{"ns":0,"title":"The Descendants"},{"ns":0,"title":"The
+        Elephant Man (film)"},{"ns":0,"title":"The English Patient (film)"},{"ns":0,"title":"The
+        Exorcist (film)"},{"ns":0,"title":"The Folk Implosion"},{"ns":0,"title":"The
+        French Connection (film)"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The
+        Godfather"},{"ns":0,"title":"The Godfather Part II"},{"ns":0,"title":"The
+        Graduate"},{"ns":0,"title":"The Great Ziegfeld"},{"ns":0,"title":"The Greatest
+        Show on Earth"},{"ns":0,"title":"The Guardian"},{"ns":0,"title":"The Guess
+        Who"},{"ns":0,"title":"The Guns of Navarone (film)"},{"ns":0,"title":"The
+        Hollywood Reporter"},{"ns":0,"title":"The Hours (film)"},{"ns":0,"title":"The
+        Hurt Locker"},{"ns":0,"title":"The Hustler (film)"},{"ns":0,"title":"The Insider
+        (film)"},{"ns":0,"title":"The Journal Gazette"},{"ns":0,"title":"The Killing
+        Fields (film)"},{"ns":0,"title":"The King''s Speech"},{"ns":0,"title":"The
+        King of Comedy (1983 film)"},{"ns":0,"title":"The Last Emperor"},{"ns":0,"title":"The
+        Life of Emile Zola"},{"ns":0,"title":"The Lion in Winter (1968 film)"},{"ns":0,"title":"The
+        Lord of the Rings: The Fellowship of the Ring"},{"ns":0,"title":"The Lord
+        of the Rings: The Return of the King"},{"ns":0,"title":"The Lost Weekend (film)"},{"ns":0,"title":"The
+        Matrix"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The Orange
+        County Register"},{"ns":0,"title":"The Pianist (2002 film)"},{"ns":0,"title":"The
+        Piano"},{"ns":0,"title":"The Purple Rose of Cairo"},{"ns":0,"title":"The Queen
+        (film)"},{"ns":0,"title":"The Rise and Fall of Little Voice"},{"ns":0,"title":"The
+        Silence of the Lambs (film)"},{"ns":0,"title":"The Sixth Sense"},{"ns":0,"title":"The
+        Social Network"},{"ns":0,"title":"The Sound Barrier"},{"ns":0,"title":"The
+        Sound of Music (film)"},{"ns":0,"title":"The Sting"},{"ns":0,"title":"The
+        Turning Point (1977 film)"},{"ns":0,"title":"The Tuscaloosa News"},{"ns":0,"title":"The
+        Usual Suspects"},{"ns":0,"title":"The Wages of Fear"},{"ns":0,"title":"The
+        Who"},{"ns":0,"title":"The Wings of the Dove (1997 film)"},{"ns":0,"title":"The
+        Wrestler (2008 film)"},{"ns":0,"title":"Thelma & Louise"},{"ns":0,"title":"Thomas
+        Newman"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Tiffen"},{"ns":0,"title":"Titanic
+        (1997 film)"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Jones (1963 film)"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas
+        Milian"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Toronto International
+        Film Festival"},{"ns":0,"title":"Torrance, California"},{"ns":0,"title":"Traffic
+        (2000 film)"},{"ns":0,"title":"Unforgiven"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:43 GMT
+recorded_with: VCR 2.9.2

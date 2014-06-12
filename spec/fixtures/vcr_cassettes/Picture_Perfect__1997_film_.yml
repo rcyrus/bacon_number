@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Picture%20Perfect%20(1997%20film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401674051, 3085162502, 1309487076
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '593'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:53 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"6241436":{"pageid":6241436,"ns":0,"title":"Picture
+        Perfect (1997 film)","links":[{"ns":0,"title":"20th Century Fox"},{"ns":0,"title":"Amelia
+        Campbell"},{"ns":0,"title":"Andrea Bendewald"},{"ns":0,"title":"Anne Twomey"},{"ns":0,"title":"Arleen
+        Sorkin"},{"ns":0,"title":"Bellina Logan"},{"ns":0,"title":"Carter Burwell"},{"ns":0,"title":"Clean
+        and Sober"},{"ns":0,"title":"David Cromwell"},{"ns":0,"title":"Erwin Stoff"},{"ns":0,"title":"Faith
+        Prince"},{"ns":0,"title":"Faran Tahir"},{"ns":0,"title":"Glenn Gordon Caron"},{"ns":0,"title":"Greg
+        Grunberg"},{"ns":0,"title":"Illeana Douglas"},{"ns":0,"title":"Internet Movie
+        Database"},{"ns":0,"title":"Ivar Brogger"},{"ns":0,"title":"Jane Robinson
+        (costume designer)"},{"ns":0,"title":"Jay Mohr"},{"ns":0,"title":"Jenna Stern"},{"ns":0,"title":"Jennifer
+        Aniston"},{"ns":0,"title":"Jessica Cushman"},{"ns":0,"title":"John Rothman"},{"ns":0,"title":"Kaley
+        Cuoco"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Dunn"},{"ns":0,"title":"Les
+        Lazarowitz"},{"ns":0,"title":"Love Affair (1994 film)"},{"ns":0,"title":"Massachusetts"},{"ns":0,"title":"Matthew
+        Sussman"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"New York"},{"ns":0,"title":"Olympia
+        Dukakis"},{"ns":0,"title":"Paul Sarossy"},{"ns":0,"title":"Peter McRobbie"},{"ns":0,"title":"Picture
+        Perfect (1995 film)"},{"ns":0,"title":"Romantic comedy film"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Sean Patrick Thomas"},{"ns":0,"title":"The Making
+        of Me"},{"ns":0,"title":"Tom Fleischman"},{"ns":0,"title":"Wilder Napalm"},{"ns":10,"title":"Template:Glenn
+        Gordon Caron"},{"ns":11,"title":"Template talk:Glenn Gordon Caron"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:54 GMT
+recorded_with: VCR 2.9.2

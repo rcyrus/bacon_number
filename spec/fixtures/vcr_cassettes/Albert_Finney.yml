@@ -1,0 +1,262 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Albert%20Finney
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332222067, 3536722712, 2899072902
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4737'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:41 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4008 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"43910|0|Screen_Actors''_Guild"}},"query":{"pages":{"43910":{"pageid":43910,"ns":0,"title":"Albert
+        Finney","links":[{"ns":0,"title":"''Art''"},{"ns":0,"title":"34th Berlin International
+        Film Festival"},{"ns":0,"title":"A Day in the Death of Joe Egg"},{"ns":0,"title":"A
+        Flea in Her Ear"},{"ns":0,"title":"A Good Year"},{"ns":0,"title":"A Man of
+        No Importance (film)"},{"ns":0,"title":"A Rather English Marriage"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Award for Best Actor"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Agatha
+        Christie"},{"ns":0,"title":"Ahna O''Reilly"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan
+        Arkin"},{"ns":0,"title":"Alan Badel"},{"ns":0,"title":"Alan Bates"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Alan Sillitoe"},{"ns":0,"title":"Alberto Sordi"},{"ns":0,"title":"Alec
+        Baldwin"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alex Jennings"},{"ns":0,"title":"Alfred
+        Lunt"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Alpha Beta (play)"},{"ns":0,"title":"Amadeus
+        (film)"},{"ns":0,"title":"Amanda Seyfried"},{"ns":0,"title":"Amazing Grace
+        (2006 film)"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"Amy
+        Irving"},{"ns":0,"title":"Amy Ryan"},{"ns":0,"title":"Anatoly Solonitsyn"},{"ns":0,"title":"Andre
+        Braugher"},{"ns":0,"title":"Andrew Garfield"},{"ns":0,"title":"Andrzej Seweryn"},{"ns":0,"title":"Anna
+        Camp"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Annie
+        (1982 film)"},{"ns":0,"title":"Annie (musical)"},{"ns":0,"title":"Another
+        Time (play)"},{"ns":0,"title":"Anouk Aim\u00e9e"},{"ns":0,"title":"Anthony
+        Anderson"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        Murphy (actor)"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Armand Assante"},{"ns":0,"title":"Armin
+        Mueller-Stahl"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BAFTA
+        Academy Fellowship Award"},{"ns":0,"title":"BAFTA Award"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Award for
+        Best Actor in a Supporting Role"},{"ns":0,"title":"BAFTA Awards"},{"ns":0,"title":"BAFTA
+        TV Awards"},{"ns":0,"title":"BBC"},{"ns":0,"title":"Barry Pepper"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Before the Devil Knows You''re Dead"},{"ns":0,"title":"Ben
+        Affleck"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Ben Whishaw"},{"ns":0,"title":"Benedict
+        Cumberbatch"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Benjamin
+        Bratt"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Big
+        Fish"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Bill
+        Paxton"},{"ns":0,"title":"Billy Bob Thornton"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Black
+        Comedy (play)"},{"ns":0,"title":"Blockbuster LLC"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bob
+        Odenkirk"},{"ns":0,"title":"Bob Peck"},{"ns":0,"title":"Boston Society of
+        Film Critics Award for Best Actor"},{"ns":0,"title":"Boston Society of Film
+        Critics Award for Best Supporting Actor"},{"ns":0,"title":"Boston Society
+        of Film Critics Awards"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Breakfast
+        of Champions (film)"},{"ns":0,"title":"Brendan Fraser"},{"ns":0,"title":"Brendan
+        Gleeson"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Brian Kerwin"},{"ns":0,"title":"British
+        Academy Television Award for Best Actor"},{"ns":0,"title":"British Academy
+        of Film and Television Arts"},{"ns":0,"title":"British Film Institute"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Cast"},{"ns":0,"title":"Broadcast
+        Film Critics Association Awards"},{"ns":0,"title":"Broadcasting Press Guild"},{"ns":0,"title":"Broadcasting
+        Press Guild Awards"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"Bryce Dallas
+        Howard"},{"ns":0,"title":"Br\u00edan F. O''Byrne"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"Busby
+        Babes"},{"ns":0,"title":"CBE"},{"ns":0,"title":"Cameo appearance"},{"ns":0,"title":"Campbell
+        Scott"},{"ns":0,"title":"Cantinflas"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Chaim
+        Topol"},{"ns":0,"title":"Charles Laughton"},{"ns":0,"title":"Charlie Bubbles"},{"ns":0,"title":"Chicago
+        Film Critics Association Award for Best Supporting Actor"},{"ns":0,"title":"Chicago
+        Film Critics Association Awards"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Chris Lowell"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christine
+        Baranski"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Plummer"},{"ns":0,"title":"Christopher Walken"},{"ns":0,"title":"Cicely Tyson"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Clifton Collins, Jr."},{"ns":0,"title":"Clint
+        Eastwood"},{"ns":0,"title":"Cold Lazarus"},{"ns":0,"title":"Colin Farrell"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Conleth Hill"},{"ns":0,"title":"Coriolanus"},{"ns":0,"title":"Corpse
+        Bride"},{"ns":0,"title":"County Borough of Salford"},{"ns":0,"title":"Craig
+        Russell (Canadian actor)"},{"ns":0,"title":"Crash (2004 film)"},{"ns":0,"title":"Cuba
+        Gooding, Jr."},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dallas-Fort
+        Worth Film Critics Association Award for Best Supporting Actor"},{"ns":0,"title":"Dan
+        Futterman"},{"ns":0,"title":"Dana Ivey"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Daniel
+        Hendler"},{"ns":0,"title":"Daniel Rigby"},{"ns":0,"title":"Danny Kaye"},{"ns":0,"title":"David
+        Bamber"},{"ns":0,"title":"David Carradine"},{"ns":0,"title":"David Jason"},{"ns":0,"title":"David
+        Lean"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David Oyelowo"},{"ns":0,"title":"Deirdre
+        Costello"},{"ns":0,"title":"Denholm Elliott"},{"ns":0,"title":"Dennis Potter"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Derek Jacobi"},{"ns":0,"title":"Devin
+        Ratray"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Dominic West"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Donald O''Connor"},{"ns":0,"title":"Donald Pleasence"},{"ns":0,"title":"Dudley
+        Moore"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Ebenezer Scrooge"},{"ns":0,"title":"Ed
+        Flanders"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Ed Masry"},{"ns":0,"title":"Eddie
+        Marsan"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Eddie Redmayne"},{"ns":0,"title":"Edward
+        Fox (actor)"},{"ns":0,"title":"Edward Woodward"},{"ns":0,"title":"Elsa Lanchester"},{"ns":0,"title":"Emergency
+        Ward 10"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Emma Stone"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Emmy
+        Award"},{"ns":0,"title":"Eric Porter"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Erin
+        Brockovich (film)"},{"ns":0,"title":"Erin Brockovich (movie)"},{"ns":0,"title":"Ernest
+        Borgnine"},{"ns":0,"title":"Ethan Hawke"},{"ns":0,"title":"Evening Standard
+        Award"},{"ns":0,"title":"Evening Standard Theatre Awards"},{"ns":0,"title":"F.
+        Murray Abraham"},{"ns":0,"title":"Factory"},{"ns":0,"title":"Fergie (singer)"},{"ns":0,"title":"Fernando
+        Fern\u00e1n G\u00f3mez"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Frank
+        Finlay"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Fredric
+        March"},{"ns":0,"title":"Free Cinema"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George Burns"},{"ns":0,"title":"George
+        C. Scott"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George Segal"},{"ns":0,"title":"Gerhard
+        Olschewski"},{"ns":0,"title":"Gian Maria Volont\u00e9"},{"ns":0,"title":"Glenn
+        Ford"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden Globe Award
+        for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Golden
+        Globe Award for New Star of the Year \u2013 Actor"},{"ns":0,"title":"Golden
+        Globe Awards"},{"ns":0,"title":"Gotham Awards"},{"ns":0,"title":"Gumshoe (film)"},{"ns":0,"title":"Gwyneth
+        Paltrow"},{"ns":0,"title":"G\u00e9rard Depardieu"},{"ns":0,"title":"H. E.
+        Bates"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hal Holbrook"},{"ns":0,"title":"Hank
+        Azaria"},{"ns":0,"title":"Harry H. Corbett"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Helena
+        Bonham Carter"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Henry Goodman"},{"ns":0,"title":"Hercule
+        Poirot"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Hugh Grant"},{"ns":0,"title":"Hugh
+        Jackman"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"Hume Cronyn"},{"ns":0,"title":"Iain
+        Glen"},{"ns":0,"title":"Ian Holm"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Ian
+        Richardson"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jack Klugman"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack
+        Nicholson"},{"ns":0,"title":"Jack Palance"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"Jacques
+        Gamblin"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        Garner"},{"ns":0,"title":"James Mason"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jane Arden (director)"},{"ns":0,"title":"Jane
+        Wenham (actress)"},{"ns":0,"title":"Jared Leto"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jean-Louis Trintignant"},{"ns":0,"title":"Jean-Pierre
+        L\u00e9aud"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jean Gabin"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jennifer Esposito"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jesse
+        Eisenberg"},{"ns":0,"title":"Jessica Chastain"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jim
+        Carrey"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"John
+        Gielgud"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John Huston"},{"ns":0,"title":"John
+        Le Mesurier"},{"ns":0,"title":"John Newton"},{"ns":0,"title":"John Thaw"},{"ns":0,"title":"John
+        Travolta"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jonathan
+        Rhys Meyers"},{"ns":0,"title":"Jonny Lee Miller"},{"ns":0,"title":"Joseph
+        Fiennes"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Julio Ch\u00e1vez"},{"ns":0,"title":"June
+        Squibb"},{"ns":0,"title":"J\u00f6rg Pose"},{"ns":0,"title":"Karaoke (TV serial)"},{"ns":0,"title":"Karaoke
+        (play)"},{"ns":0,"title":"Karel Reisz"},{"ns":0,"title":"Kate Hudson"},{"ns":0,"title":"Kathleen
+        Quinlan"},{"ns":0,"title":"Keith Michell"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kidney
+        cancer"},{"ns":0,"title":"Kilgore Trout"},{"ns":0,"title":"Kingsley Amis"},{"ns":0,"title":"Kitchen
+        sink drama"},{"ns":0,"title":"Knighthood"},{"ns":0,"title":"Krapp''s Last
+        Tape"},{"ns":0,"title":"Kris Kristofferson"},{"ns":0,"title":"Lancashire"},{"ns":0,"title":"Larenz
+        Tate"},{"ns":0,"title":"Las Vegas Film Critics Society Award for Best Supporting
+        Actor"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Laurence Olivier
+        Award for Best Actor"},{"ns":0,"title":"Lawrence of Arabia (film)"},{"ns":0,"title":"Lee
+        Marvin"},{"ns":0,"title":"Lee Montague"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Les
+        Mis\u00e9rables (2012 film)"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Leslie
+        Jordan"},{"ns":0,"title":"Liam Neeson"},{"ns":0,"title":"Liao Fan"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"List of Evening Standard British
+        Film Awards"},{"ns":0,"title":"Lloyd Nolan"},{"ns":0,"title":"London"},{"ns":0,"title":"London
+        Critics Circle Film Awards"},{"ns":0,"title":"London Film Critics'' Circle"},{"ns":0,"title":"London
+        Film Critics Circle Award for Best Actor"},{"ns":0,"title":"London Film Critics
+        Circle Award for British Supporting Actor of the Year"},{"ns":0,"title":"Looker"},{"ns":0,"title":"Loophole
+        (1981 film)"},{"ns":0,"title":"Los Angeles Film Critics'' Association"},{"ns":0,"title":"Los
+        Angeles Film Critics Association Award for Best Actor"},{"ns":0,"title":"Lou
+        Taylor Pucci"},{"ns":0,"title":"Love for Love"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"Luke Treadaway"},{"ns":0,"title":"Luther (play)"},{"ns":0,"title":"MUTV
+        (Manchester United F.C.)"},{"ns":0,"title":"Manchester Evening News"},{"ns":0,"title":"Manchester
+        United F.C."},{"ns":0,"title":"Manfred M\u00f6ck"},{"ns":0,"title":"Marcello
+        Mastroianni"},{"ns":0,"title":"Marion Cotillard"},{"ns":0,"title":"Marisa
+        Tomei"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Mark Rylance"},{"ns":0,"title":"Mark
+        Wahlberg"},{"ns":0,"title":"Martin Clunes"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Martin
+        Sheen"},{"ns":0,"title":"Mary Louise Wilson"},{"ns":0,"title":"Mary Steenburgen"},{"ns":0,"title":"Matt
+        Damon"},{"ns":0,"title":"Matt Dillon"},{"ns":0,"title":"Matthew Kelly"},{"ns":0,"title":"Maurice
+        Evans (actor)"},{"ns":0,"title":"Maynard Eziashi"},{"ns":0,"title":"Melvyn
+        Douglas"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michael Fassbender"},{"ns":0,"title":"Michael Gambon"},{"ns":0,"title":"Michael
+        Gough"},{"ns":0,"title":"Michael Gwisdek"},{"ns":0,"title":"Michael Hordern"},{"ns":0,"title":"Michael
+        Moriarty"},{"ns":0,"title":"Michael Redgrave"},{"ns":0,"title":"Michael Shannon"},{"ns":0,"title":"Michel
+        Piccoli"},{"ns":0,"title":"Michel Simon"},{"ns":0,"title":"Michele Placido"},{"ns":0,"title":"Mickey
+        Rooney"},{"ns":0,"title":"Miguel Ferrer"},{"ns":0,"title":"Mike Vogel"},{"ns":0,"title":"Mikkel
+        F\u00f8lsgaard"},{"ns":0,"title":"Miller''s Crossing"},{"ns":0,"title":"Miss
+        Julie"},{"ns":0,"title":"Missy Doty"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Moritz
+        Bleibtreu"},{"ns":0,"title":"Much Ado About Nothing"},{"ns":0,"title":"Murder
+        on the Orient Express (1974 film)"},{"ns":0,"title":"My Uncle Silas"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"National Board of Review"},{"ns":0,"title":"National
+        Board of Review Award for Best Actor"},{"ns":0,"title":"Nebraska (film)"},{"ns":0,"title":"Nelsan
+        Ellis"},{"ns":0,"title":"New York Film Critics'' Circle"},{"ns":0,"title":"New
+        York Film Critics Circle Award for Best Actor"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas
+        Cage"},{"ns":0,"title":"Nicole Kidman"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"Night
+        Must Fall (1964 film)"},{"ns":0,"title":"Nine (2009 live-action film)"},{"ns":0,"title":"Nostromo
+        (TV serial)"},{"ns":0,"title":"Nostromo (television miniseries)"},{"ns":0,"title":"Ocean''s
+        Twelve"},{"ns":0,"title":"Octavia Spencer"},{"ns":0,"title":"Oliver Ford Davies"},{"ns":0,"title":"Olivier
+        Awards"},{"ns":0,"title":"Online Film Critics Society Award for Best Supporting
+        Actor"},{"ns":0,"title":"Online Film Critics Society Awards"},{"ns":0,"title":"Orphans
+        (1987 film)"},{"ns":0,"title":"Orphans (Lyle Kessler play)"},{"ns":0,"title":"Patrick
+        McGoohan"},{"ns":0,"title":"Patrick Wymark"},{"ns":0,"title":"Paul Barber
+        (actor)"},{"ns":0,"title":"Paul Bettany"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Hogan"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul Rogers (actor)"},{"ns":0,"title":"Paul
+        Scofield"},{"ns":0,"title":"Pedro Infante"},{"ns":0,"title":"Peiman Ma''adi"},{"ns":0,"title":"Pendleton,
+        Greater Manchester"},{"ns":0,"title":"Pen\u00e9lope Cruz"},{"ns":0,"title":"Peter
+        Barkworth"},{"ns":0,"title":"Peter Cushing"},{"ns":0,"title":"Peter Falk"},{"ns":0,"title":"Peter
+        Finch"},{"ns":0,"title":"Peter Gallagher"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Peter
+        Riegert"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Peter Strauss"},{"ns":0,"title":"Peter
+        Ustinov"},{"ns":0,"title":"Phil Davis (actor)"},{"ns":0,"title":"Philip Seymour
+        Hoffman"},{"ns":0,"title":"Powers Boothe"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Awards"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Rance Howard"},{"ns":0,"title":"Randy
+        Quaid"},{"ns":0,"title":"Ray McAnally"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Ray
+        Sharkey"},{"ns":0,"title":"Ray Winstone"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Rex
+        Harrison"},{"ns":0,"title":"Reza Naji"},{"ns":0,"title":"Rhys Ifans"},{"ns":0,"title":"Rich
+        in Love"},{"ns":0,"title":"Richard Basehart"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard
+        Crenna"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard Gere"},{"ns":0,"title":"Richard
+        Griffiths"},{"ns":0,"title":"Richard Harris"},{"ns":0,"title":"Robbie Coltrane"},{"ns":0,"title":"Robert
+        Carlyle"},{"ns":0,"title":"Robert Cummings"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert
+        Downey, Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert Lindsay
+        (actor)"},{"ns":0,"title":"Robert Mitchum"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert
+        Ryan"},{"ns":0,"title":"Robert Stephens"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rod
+        Steiger"},{"ns":0,"title":"Roger Allam"},{"ns":0,"title":"Roger Waters"},{"ns":0,"title":"Ron
+        Moody"},{"ns":0,"title":"Rory Kinnear"},{"ns":0,"title":"Rosemary Harris"},{"ns":0,"title":"Roy
+        Dotrice"},{"ns":0,"title":"Royal Academy of Dramatic Art"},{"ns":0,"title":"Royal
+        Shakespeare Company"},{"ns":0,"title":"Rufus Sewell"},{"ns":0,"title":"Rupert
+        Davies"},{"ns":0,"title":"Rupert Everett"},{"ns":0,"title":"Russell Crowe"},{"ns":0,"title":"Ryan
+        Phillippe"},{"ns":0,"title":"Sacha Baron Cohen"},{"ns":0,"title":"Sam Rockwell"},{"ns":0,"title":"Samantha
+        Barks"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"Sandra Bullock"},{"ns":0,"title":"Sandra
+        Oh"},{"ns":0,"title":"Satellite Award for Best Actor \u2013 Miniseries or
+        Television Film"},{"ns":0,"title":"Satellite Award for Best Cast \u2013 Motion
+        Picture"},{"ns":0,"title":"Satellite Award for Best Supporting Actor - Motion
+        Picture"},{"ns":0,"title":"Satellite Award for Best Supporting Actor \u2013
+        Motion Picture"},{"ns":0,"title":"Satellite Awards"},{"ns":0,"title":"Saturday
+        Night and Sunday Morning"},{"ns":0,"title":"Saturday Night and Sunday Morning
+        (film)"},{"ns":0,"title":"Saturn Award for Best Actor"},{"ns":0,"title":"Saturn
+        Awards"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:42 GMT
+recorded_with: VCR 2.9.2

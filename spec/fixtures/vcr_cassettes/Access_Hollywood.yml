@@ -1,0 +1,115 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Access%20Hollywood
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401566489, 3536721943, 2597280112
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1422'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:40 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4008 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"905485":{"pageid":905485,"ns":0,"title":"Access
+        Hollywood","links":[{"ns":0,"title":"1080i"},{"ns":0,"title":"2003 in television"},{"ns":0,"title":"2005
+        in television"},{"ns":0,"title":"2006 in television"},{"ns":0,"title":"20th
+        Television"},{"ns":0,"title":"3e"},{"ns":0,"title":"480i"},{"ns":0,"title":"AMC
+        (TV channel)"},{"ns":0,"title":"Access Hollywood"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"Arthur (TV series)"},{"ns":0,"title":"Bell
+        Media"},{"ns":0,"title":"Bethenny (TV series)"},{"ns":0,"title":"Billy Bush"},{"ns":0,"title":"Broadcast
+        syndication"},{"ns":0,"title":"Burbank, California"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CFMT-DT"},{"ns":0,"title":"CTV
+        Two"},{"ns":0,"title":"Canada"},{"ns":0,"title":"Casos de Familia"},{"ns":0,"title":"Cois
+        Farraige"},{"ns":0,"title":"Craig Ferguson"},{"ns":0,"title":"Day Shift"},{"ns":0,"title":"Days
+        of Our Lives"},{"ns":0,"title":"Daytime television"},{"ns":0,"title":"Dish
+        Nation"},{"ns":0,"title":"Dr. Phil (TV series)"},{"ns":0,"title":"E!"},{"ns":0,"title":"E!
+        News"},{"ns":0,"title":"El Gordo y la Flaca"},{"ns":0,"title":"English language"},{"ns":0,"title":"Entertainment
+        Tonight"},{"ns":0,"title":"Extra (TV program)"},{"ns":0,"title":"Extra (TV
+        series)"},{"ns":0,"title":"Film"},{"ns":0,"title":"Fox Television Stations"},{"ns":0,"title":"Free
+        Hat"},{"ns":0,"title":"Game On (Irish TV series)"},{"ns":0,"title":"Giselle
+        Fern\u00e1ndez"},{"ns":0,"title":"HDTV"},{"ns":0,"title":"Homer Simpson"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jeff Probst"},{"ns":0,"title":"Jill Martin"},{"ns":0,"title":"KNBC"},{"ns":0,"title":"Kate
+        Garraway"},{"ns":0,"title":"Katie (talk show)"},{"ns":0,"title":"Kit Hoover"},{"ns":0,"title":"Larry
+        Mendte"},{"ns":0,"title":"Laura (TV series)"},{"ns":0,"title":"MSNBC"},{"ns":0,"title":"Marge
+        Simpson"},{"ns":0,"title":"Maria Menounos"},{"ns":0,"title":"Maury (TV series)"},{"ns":0,"title":"Michelle
+        Beadle"},{"ns":0,"title":"Music"},{"ns":0,"title":"NBC"},{"ns":0,"title":"NBCUniversal
+        Television Distribution"},{"ns":0,"title":"NBC Enterprises"},{"ns":0,"title":"NBC
+        Studios (New York)"},{"ns":0,"title":"NBC Studios (New York City)"},{"ns":0,"title":"NTSC"},{"ns":0,"title":"Nancy
+        O''Dell"},{"ns":0,"title":"New World Communications"},{"ns":0,"title":"New
+        York City"},{"ns":0,"title":"News Corporation"},{"ns":0,"title":"Nickelodeon
+        (TV channel)"},{"ns":0,"title":"Night Shift (Irish TV series)"},{"ns":0,"title":"OK!TV"},{"ns":0,"title":"Pat
+        O''Brien (radio and television personality)"},{"ns":0,"title":"Pop20"},{"ns":0,"title":"Pop
+        Scene (TV series)"},{"ns":0,"title":"Portmanteau"},{"ns":0,"title":"Quiz6"},{"ns":0,"title":"Rachael
+        Ray (TV series)"},{"ns":0,"title":"Republic of Ireland"},{"ns":0,"title":"Rockefeller
+        Center"},{"ns":0,"title":"Rogers Media"},{"ns":0,"title":"Shaun Robinson"},{"ns":0,"title":"South
+        Park"},{"ns":0,"title":"Stereophonic"},{"ns":0,"title":"Steve Harvey (TV series)"},{"ns":0,"title":"Steven
+        Cojocaru"},{"ns":0,"title":"Survivor (U.S. TV series)"},{"ns":0,"title":"TMZ
+        on TV"},{"ns":0,"title":"TV.com"},{"ns":0,"title":"TV3 Group"},{"ns":0,"title":"TV
+        One (US TV network)"},{"ns":0,"title":"Tabloid television"},{"ns":0,"title":"Take
+        Six"},{"ns":0,"title":"Talk show"},{"ns":0,"title":"Television"},{"ns":0,"title":"The
+        Bill Cunningham Show"},{"ns":0,"title":"The Burbank Studios"},{"ns":0,"title":"The
+        CW Television Network"},{"ns":0,"title":"The Chew"},{"ns":0,"title":"The Doctors
+        (2008 TV series)"},{"ns":0,"title":"The Dr. Oz Show"},{"ns":0,"title":"The
+        Ellen DeGeneres Show"},{"ns":0,"title":"The Gossip Table"},{"ns":0,"title":"The
+        Hollywood Reporter"},{"ns":0,"title":"The Insider (TV series)"},{"ns":0,"title":"The
+        Jerry Springer Show"},{"ns":0,"title":"The Late Late Show with Craig Ferguson"},{"ns":0,"title":"The
+        N"},{"ns":0,"title":"The Queen Latifah Show"},{"ns":0,"title":"The Simpsons
+        Movie"},{"ns":0,"title":"The Steve Wilkos Show"},{"ns":0,"title":"The Talk
+        (TV series)"},{"ns":0,"title":"The Test (TV series)"},{"ns":0,"title":"The
+        Tonight Show Starring Johnny Carson"},{"ns":0,"title":"The Trisha Goddard
+        Show"},{"ns":0,"title":"The View (U.S. TV series)"},{"ns":0,"title":"The Wendy
+        Williams Show"},{"ns":0,"title":"Tim Vincent"},{"ns":0,"title":"Tony Potts"},{"ns":0,"title":"UniM\u00e1s"},{"ns":0,"title":"United
+        Kingdom"},{"ns":0,"title":"United States"},{"ns":0,"title":"Universal City,
+        California"},{"ns":0,"title":"Universal Media Studios"},{"ns":0,"title":"Universal
+        Studios Hollywood"},{"ns":0,"title":"Universal Television"},{"ns":0,"title":"Univision"},{"ns":0,"title":"VH1"},{"ns":0,"title":"WGN-TV"},{"ns":0,"title":"WPHL-TV"},{"ns":0,"title":"WPIX-TV"},{"ns":0,"title":"Warner
+        Bros. Television Distribution"},{"ns":0,"title":"\u00bfQui\u00e9n Tiene la
+        Raz\u00f3n?"},{"ns":10,"title":"Template:3e programming"},{"ns":10,"title":"Template:Late
+        night television in the United States"},{"ns":10,"title":"Template:U.S. daytime
+        talk shows"},{"ns":10,"title":"Template:U.S. evening news programs"},{"ns":10,"title":"Template:U.S.
+        overnight television news programs"},{"ns":10,"title":"Template:U.S. tabloid
+        television shows"},{"ns":10,"title":"Template:US Newsmagazine"},{"ns":10,"title":"Template:US
+        Sunday Talk Shows"},{"ns":10,"title":"Template:US morning news shows"},{"ns":11,"title":"Template
+        talk:3e programming"},{"ns":11,"title":"Template talk:U.S. daytime talk shows"},{"ns":11,"title":"Template
+        talk:U.S. tabloid television shows"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:41 GMT
+recorded_with: VCR 2.9.2

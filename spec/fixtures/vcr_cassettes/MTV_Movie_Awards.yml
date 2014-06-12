@@ -1,0 +1,216 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=MTV%20Movie%20Awards
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001153208, 2340338144, 1061653929
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3598'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:36 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4016 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"538696":{"pageid":538696,"ns":0,"title":"MTV Movie
+        Awards","links":[{"ns":0,"title":"''N Sync"},{"ns":0,"title":"127 Hours"},{"ns":0,"title":"1992
+        MTV Movie Awards"},{"ns":0,"title":"1993 MTV Movie Awards"},{"ns":0,"title":"1994
+        MTV Movie Awards"},{"ns":0,"title":"1995 MTV Movie Awards"},{"ns":0,"title":"1996
+        MTV Movie Awards"},{"ns":0,"title":"1997 MTV Movie Awards"},{"ns":0,"title":"1998
+        MTV Movie Awards"},{"ns":0,"title":"1999 MTV Movie Awards"},{"ns":0,"title":"2000
+        MTV Movie Awards"},{"ns":0,"title":"2001 MTV Movie Awards"},{"ns":0,"title":"2002
+        MTV Movie Awards"},{"ns":0,"title":"2003 MTV Movie Awards"},{"ns":0,"title":"2004
+        MTV Movie Awards"},{"ns":0,"title":"2005 MTV Movie Awards"},{"ns":0,"title":"2006
+        MTV Movie Awards"},{"ns":0,"title":"2007 MTV Movie Awards"},{"ns":0,"title":"2008
+        MTV Movie Awards"},{"ns":0,"title":"2009 MTV Movie Awards"},{"ns":0,"title":"2010
+        MTV Movie Awards"},{"ns":0,"title":"2011 MTV Movie Awards"},{"ns":0,"title":"2012
+        MTV Movie Awards"},{"ns":0,"title":"2013 MTV Movie Awards"},{"ns":0,"title":"2014
+        MTV Movie Awards"},{"ns":0,"title":"300 (film)"},{"ns":0,"title":"8 Mile (film)"},{"ns":0,"title":"A
+        Few Good Men (film)"},{"ns":0,"title":"Ace Ventura: When Nature Calls"},{"ns":0,"title":"Adam
+        Sandler"},{"ns":0,"title":"Adam West"},{"ns":0,"title":"Agent (The Matrix)"},{"ns":0,"title":"Ali
+        (film)"},{"ns":0,"title":"Alicia Silverstone"},{"ns":0,"title":"Ally Sheedy"},{"ns":0,"title":"Alyson
+        Hannigan"},{"ns":0,"title":"Anakin Skywalker"},{"ns":0,"title":"Andy Dick"},{"ns":0,"title":"Andy
+        Samberg"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Anthony Michael
+        Hall"},{"ns":0,"title":"Architect (The Matrix)"},{"ns":0,"title":"Armageddon
+        (1998 film)"},{"ns":0,"title":"Arnold Schwarzenegger"},{"ns":0,"title":"Arwen"},{"ns":0,"title":"Austin
+        Powers (character)"},{"ns":0,"title":"Aziz Ansari"},{"ns":0,"title":"Babel
+        (film)"},{"ns":0,"title":"Barker Hangar"},{"ns":0,"title":"Barry Williams"},{"ns":0,"title":"Basic
+        Instinct"},{"ns":0,"title":"Basic Instinct (film)"},{"ns":0,"title":"Batman
+        Begins"},{"ns":0,"title":"Ben Stiller"},{"ns":0,"title":"Black Swan (film)"},{"ns":0,"title":"Bob
+        Newhart"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Braveheart"},{"ns":0,"title":"Britney
+        Spears"},{"ns":0,"title":"Brokeback Mountain"},{"ns":0,"title":"Cameron Diaz"},{"ns":0,"title":"Carrie
+        Bradshaw"},{"ns":0,"title":"Cast Away"},{"ns":0,"title":"Channing Tatum"},{"ns":0,"title":"Charlie
+        O''Connell"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chelsea Handler"},{"ns":0,"title":"Chewbacca"},{"ns":0,"title":"Chosen
+        one"},{"ns":0,"title":"Chris Daughtry"},{"ns":0,"title":"Chris Owen (actor)"},{"ns":0,"title":"Christopher
+        Knight (actor)"},{"ns":0,"title":"Christopher Lloyd"},{"ns":0,"title":"Claire
+        Danes"},{"ns":0,"title":"Clint Howard"},{"ns":0,"title":"Clueless (film)"},{"ns":0,"title":"Conan
+        O''Brien"},{"ns":0,"title":"Courteney Cox"},{"ns":0,"title":"Cruel Intentions"},{"ns":0,"title":"Danny
+        Bonaduce"},{"ns":0,"title":"Dave Madden"},{"ns":0,"title":"Dawson''s Creek"},{"ns":0,"title":"Dennis
+        Miller"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Do the Right
+        Thing"},{"ns":0,"title":"Dreamgirls (film)"},{"ns":0,"title":"Drew Barrymore"},{"ns":0,"title":"Dumb
+        and Dumber"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Ellen Page"},{"ns":0,"title":"Eminem"},{"ns":0,"title":"Emma
+        Stone"},{"ns":0,"title":"Emma Watson"},{"ns":0,"title":"Erin Brockovich (film)"},{"ns":0,"title":"Eva
+        Mendes"},{"ns":0,"title":"Ferris Bueller''s Day Off"},{"ns":0,"title":"Fictional
+        character"},{"ns":0,"title":"Film"},{"ns":0,"title":"Flavor Flav"},{"ns":0,"title":"Florence
+        Henderson"},{"ns":0,"title":"Frank Gorshin"},{"ns":0,"title":"Franklin Cover"},{"ns":0,"title":"Gerard
+        Butler"},{"ns":0,"title":"Gibson Amphitheatre"},{"ns":0,"title":"Gladiator
+        (2000 film)"},{"ns":0,"title":"Godzilla"},{"ns":0,"title":"Godzilla (1998
+        film)"},{"ns":0,"title":"High School Musical 3: Senior Year"},{"ns":0,"title":"I
+        Am Legend (film)"},{"ns":0,"title":"I Know What You Did Last Summer"},{"ns":0,"title":"Interview
+        with the Vampire"},{"ns":0,"title":"Interview with the Vampire (film)"},{"ns":0,"title":"Iron
+        Man"},{"ns":0,"title":"Isabel Sanford"},{"ns":0,"title":"Jack Black"},{"ns":0,"title":"Jack
+        Nicholson"},{"ns":0,"title":"Jackie Chan"},{"ns":0,"title":"Jacques Sauni\u00e8re"},{"ns":0,"title":"Jae
+        Head"},{"ns":0,"title":"Jaime Pressly"},{"ns":0,"title":"Jake Gyllenhaal"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"James Van Der Beek"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Janeane
+        Garofalo"},{"ns":0,"title":"Janet Jackson"},{"ns":0,"title":"Jason Sudeikis"},{"ns":0,"title":"Jason
+        Voorhees"},{"ns":0,"title":"Jay Leno"},{"ns":0,"title":"Jennifer Hudson"},{"ns":0,"title":"Jennifer
+        Lawrence"},{"ns":0,"title":"Jenny McCarthy"},{"ns":0,"title":"Jerry Maguire"},{"ns":0,"title":"Jessica
+        Alba"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jim Ignatowski"},{"ns":0,"title":"Jimmy
+        Fallon"},{"ns":0,"title":"John Shaft"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Jon
+        Heder"},{"ns":0,"title":"Jon Lovitz"},{"ns":0,"title":"Josh Hutcherson"},{"ns":0,"title":"Julia
+        Roberts"},{"ns":0,"title":"Juno (film)"},{"ns":0,"title":"Justin Bartha"},{"ns":0,"title":"Justin
+        Bieber"},{"ns":0,"title":"Justin Timberlake"},{"ns":0,"title":"Katie Holmes"},{"ns":0,"title":"Keanu
+        Reeves"},{"ns":0,"title":"Kill Bill, Vol. 1"},{"ns":0,"title":"Kill Bill Vol.
+        2"},{"ns":0,"title":"King Kong (2005 film)"},{"ns":0,"title":"Kirsten Dunst"},{"ns":0,"title":"Kristen
+        Bell"},{"ns":0,"title":"Kristen Stewart"},{"ns":0,"title":"Kung Fu Panda"},{"ns":0,"title":"Lawrence
+        Hilton-Jacobs"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Les
+        Mis\u00e9rables (2012 film)"},{"ns":0,"title":"Life of Pi (film)"},{"ns":0,"title":"Linda
+        Hamilton"},{"ns":0,"title":"Lindsay Lohan"},{"ns":0,"title":"Lisa Kudrow"},{"ns":0,"title":"List
+        of MTV award shows"},{"ns":0,"title":"List of programs and machines in the
+        Matrix series"},{"ns":0,"title":"Los Premios MTV Latinoam\u00e9rica"},{"ns":0,"title":"MTV"},{"ns":0,"title":"MTV
+        Africa Music Awards"},{"ns":0,"title":"MTV Asia Awards"},{"ns":0,"title":"MTV
+        Asia Movie Awards"},{"ns":0,"title":"MTV Australia Awards"},{"ns":0,"title":"MTV
+        Europe Music Awards"},{"ns":0,"title":"MTV Immies"},{"ns":0,"title":"MTV Indonesia
+        Movie Awards"},{"ns":0,"title":"MTV Movie Award for Best Action Sequence"},{"ns":0,"title":"MTV
+        Movie Award for Best Breakthrough Performance"},{"ns":0,"title":"MTV Movie
+        Award for Best Cameo"},{"ns":0,"title":"MTV Movie Award for Best Comedic Performance"},{"ns":0,"title":"MTV
+        Movie Award for Best Dance Sequence"},{"ns":0,"title":"MTV Movie Award for
+        Best Dressed"},{"ns":0,"title":"MTV Movie Award for Best Fight"},{"ns":0,"title":"MTV
+        Movie Award for Best Hero"},{"ns":0,"title":"MTV Movie Award for Best Jaw
+        Dropping Moment"},{"ns":0,"title":"MTV Movie Award for Best Kiss"},{"ns":0,"title":"MTV
+        Movie Award for Best Movie"},{"ns":0,"title":"MTV Movie Award for Best New
+        Filmmaker"},{"ns":0,"title":"MTV Movie Award for Best On-Screen Duo"},{"ns":0,"title":"MTV
+        Movie Award for Best On-Screen Transformation"},{"ns":0,"title":"MTV Movie
+        Award for Best Performance"},{"ns":0,"title":"MTV Movie Award for Best Scared-As-S**t
+        Performance"},{"ns":0,"title":"MTV Movie Award for Best Song from a Movie"},{"ns":0,"title":"MTV
+        Movie Award for Best Summer Movie So Far"},{"ns":0,"title":"MTV Movie Award
+        for Best Summer Movie You Haven''t Seen Yet"},{"ns":0,"title":"MTV Movie Award
+        for Best Video Game Based on a Movie"},{"ns":0,"title":"MTV Movie Award for
+        Best Villain"},{"ns":0,"title":"MTV Movie Award for Best Virtual Performance"},{"ns":0,"title":"MTV
+        Movie Award for Best WTF Moment"},{"ns":0,"title":"MTV Movie Award for Favorite
+        Character"},{"ns":0,"title":"MTV Movie Award for Global Superstar"},{"ns":0,"title":"MTV
+        Movie Award for Most Desirable Female"},{"ns":0,"title":"MTV Movie Award for
+        Most Desirable Male"},{"ns":0,"title":"MTV Movie Award for Sexiest Performance"},{"ns":0,"title":"MTV
+        Movie Awards 2014"},{"ns":0,"title":"MTV Movie Awards Mexico"},{"ns":0,"title":"MTV
+        Pilipinas Music Award"},{"ns":0,"title":"MTV Romania Music Awards"},{"ns":0,"title":"MTV
+        Russia Movie Awards"},{"ns":0,"title":"MTV Russia Music Awards"},{"ns":0,"title":"MTV
+        Video Music Award"},{"ns":0,"title":"MTV Video Music Awards"},{"ns":0,"title":"MTV
+        Video Music Awards Japan"},{"ns":0,"title":"MTV Video Music Brazil"},{"ns":0,"title":"MTV
+        Vietnam Music Video Competition"},{"ns":0,"title":"Magic Mike"},{"ns":0,"title":"Malcolm
+        X (1992 film)"},{"ns":0,"title":"Mark Burnett (executive producer)"},{"ns":0,"title":"Mark
+        Wahlberg"},{"ns":0,"title":"Marvel''s The Avengers"},{"ns":0,"title":"Mary
+        Jane Watson"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Mean
+        Girls"},{"ns":0,"title":"Menace II Society"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Mike
+        Myers"},{"ns":0,"title":"Mila Kunis"},{"ns":0,"title":"Mission: Impossible
+        2"},{"ns":0,"title":"Mission: Impossible II"},{"ns":0,"title":"Mission: Impossible
+        III"},{"ns":0,"title":"Mo''Nique"},{"ns":0,"title":"Molly Ringwald"},{"ns":0,"title":"Montage
+        (film)"},{"ns":0,"title":"Moulin Rouge!"},{"ns":0,"title":"Napoleon Dynamite"},{"ns":0,"title":"Natalie
+        Portman"},{"ns":0,"title":"Neo (The Matrix)"},{"ns":0,"title":"Neve Campbell"},{"ns":0,"title":"Nicole
+        Kidman"},{"ns":0,"title":"Nokia Theatre L.A. Live"},{"ns":0,"title":"Oded
+        Fehr"},{"ns":0,"title":"Optimus Prime (other incarnations)"},{"ns":0,"title":"Oracle
+        (The Matrix)"},{"ns":0,"title":"Panic Room"},{"ns":0,"title":"Paula Patton"},{"ns":0,"title":"Philadelphia
+        (film)"},{"ns":0,"title":"Pirates of the Caribbean: Dead Man''s Chest"},{"ns":0,"title":"Pirates
+        of the Caribbean: The Curse of the Black Pearl"},{"ns":0,"title":"Poetic Justice
+        (1993 film)"},{"ns":0,"title":"Precious (film)"},{"ns":0,"title":"Premios
+        TeleHit"},{"ns":0,"title":"Pulp Fiction (film)"},{"ns":0,"title":"Quinton
+        Aaron"},{"ns":0,"title":"Randall Duk Kim"},{"ns":0,"title":"Rebel Wilson"},{"ns":0,"title":"Reese
+        Witherspoon"},{"ns":0,"title":"Richard Roundtree"},{"ns":0,"title":"Ring-bearer"},{"ns":0,"title":"Risky
+        Business"},{"ns":0,"title":"Rob Schneider"},{"ns":0,"title":"Robert Downey,
+        Jr."},{"ns":0,"title":"Robert Hegyes"},{"ns":0,"title":"Robert Langdon"},{"ns":0,"title":"Robert
+        Pattinson"},{"ns":0,"title":"Romeo + Juliet"},{"ns":0,"title":"Ron Palillo"},{"ns":0,"title":"Ron
+        Perlman"},{"ns":0,"title":"Russell Brand"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"Sandra
+        Bullock"},{"ns":0,"title":"Sarah Jessica Parker"},{"ns":0,"title":"Sarah Michelle
+        Gellar"},{"ns":0,"title":"Sarah Silverman"},{"ns":0,"title":"Scream (1996
+        film)"},{"ns":0,"title":"Scream 2"},{"ns":0,"title":"Seann William Scott"},{"ns":0,"title":"Seven
+        (film)"},{"ns":0,"title":"Sex and the City"},{"ns":0,"title":"Sharon Stone"},{"ns":0,"title":"She''s
+        All That"},{"ns":0,"title":"Sherman Hemsley"},{"ns":0,"title":"Shia LaBeouf"},{"ns":0,"title":"Shirley
+        Jones"},{"ns":0,"title":"Shrine Auditorium"},{"ns":0,"title":"Silas (The Da
+        Vinci Code)"},{"ns":0,"title":"Silver Linings Playbook"},{"ns":0,"title":"Sixteen
+        Candles"},{"ns":0,"title":"Slumdog Millionaire"},{"ns":0,"title":"Snoop Dogg"},{"ns":0,"title":"Sony
+        Pictures Studios"},{"ns":0,"title":"Sophie Neveu"},{"ns":0,"title":"Speed
+        (1994 film)"},{"ns":0,"title":"Spider-Man"},{"ns":0,"title":"Spider-Man (2002
+        film)"},{"ns":0,"title":"Spike Lee"},{"ns":0,"title":"Star Trek (film)"},{"ns":0,"title":"Star
+        Wars Episode I: The Phantom Menace"},{"ns":0,"title":"Star Wars Episode III:
+        Revenge of the Sith"},{"ns":0,"title":"Stunt double"},{"ns":0,"title":"Suraj
+        Sharma"},{"ns":0,"title":"Survivor (TV show)"},{"ns":0,"title":"Susan Olsen"},{"ns":0,"title":"TMF
+        Awards (Belgium)"},{"ns":0,"title":"TMF Awards (Nertherlands)"},{"ns":0,"title":"TRL
+        Awards"},{"ns":0,"title":"Taxi (TV series)"},{"ns":0,"title":"Taylor Lautner"},{"ns":0,"title":"Taylor
+        Swift"},{"ns":0,"title":"Television syndication"},{"ns":0,"title":"Terminator
+        2: Judgment Day"},{"ns":0,"title":"The Aviator (2004 film)"},{"ns":0,"title":"The
+        Blind Side (film)"},{"ns":0,"title":"The Bodyguard (1992 film)"},{"ns":0,"title":"The
+        Breakfast Club"},{"ns":0,"title":"The Da Vinci Code (film)"},{"ns":0,"title":"The
+        Departed"},{"ns":0,"title":"The Devil Wears Prada (film)"},{"ns":0,"title":"The
+        Fugitive (1993 film)"},{"ns":0,"title":"The Golden Girls"},{"ns":0,"title":"The
+        Hangover: Part II"},{"ns":0,"title":"The Hunger Games: Catching Fire"},{"ns":0,"title":"The
+        Hunger Games (film)"},{"ns":0,"title":"The Lord of the Rings: The Fellowship
+        of the Ring"},{"ns":0,"title":"The Lord of the Rings: The Return of the King"},{"ns":0,"title":"The
+        Lord of the Rings: The Two Towers"},{"ns":0,"title":"The Lost World: Jurassic
+        Park"},{"ns":0,"title":"The Matrix"},{"ns":0,"title":"The Matrix Reloaded"},{"ns":0,"title":"The
+        Mummy Returns"},{"ns":0,"title":"The Piano (film)"},{"ns":0,"title":"The Pursuit
+        of Happyness"},{"ns":0,"title":"The Reader (2008 film)"},{"ns":0,"title":"The
+        Social Network"},{"ns":0,"title":"The Three Stooges"},{"ns":0,"title":"The
+        Truman Show"},{"ns":0,"title":"The Twilight Saga: Breaking Dawn \u2013 Part
+        1"},{"ns":0,"title":"The Twilight Saga: Eclipse"},{"ns":0,"title":"The Twilight
+        Saga: New Moon"},{"ns":0,"title":"There''s Something About Mary"},{"ns":0,"title":"Titanic
+        (1997 film)"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Topher
+        Grace"},{"ns":0,"title":"Transformers (film)"},{"ns":0,"title":"Tropic Thunder"},{"ns":0,"title":"Twilight
+        (2008 film)"},{"ns":0,"title":"Twister (1996 film)"},{"ns":0,"title":"Uma
+        Thurman"},{"ns":0,"title":"Varsity Blues (film)"},{"ns":0,"title":"Vince Vaughn"},{"ns":0,"title":"Walt
+        Disney Studios"},{"ns":0,"title":"Walt Disney Studios (Burbank)"},{"ns":0,"title":"Wanda
+        Sykes"},{"ns":0,"title":"Warner Bros. Studios"},{"ns":0,"title":"Wedding Crashers"},{"ns":0,"title":"White
+        Rabbit"},{"ns":0,"title":"Will Ferrell"},{"ns":0,"title":"Will Smith"},{"ns":0,"title":"William
+        Shakespeare''s Romeo + Juliet"},{"ns":0,"title":"William Shatner"},{"ns":0,"title":"Wonder
+        Woman"},{"ns":0,"title":"Zac Efron"},{"ns":10,"title":"Template:MTV Movie
+        Awards"},{"ns":10,"title":"Template:MTVawards"},{"ns":11,"title":"Template
+        talk:MTV Movie Awards"},{"ns":11,"title":"Template talk:MTVawards"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:37 GMT
+recorded_with: VCR 2.9.2

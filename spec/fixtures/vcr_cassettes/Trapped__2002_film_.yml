@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Trapped%20(2002%20film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001213067, 3085179307, 2899168568
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '474'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:19 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4010 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"3116944":{"pageid":3116944,"ns":0,"title":"Trapped
+        (2002 film)","links":[{"ns":0,"title":"Angel Eyes (film)"},{"ns":0,"title":"Bestseller"},{"ns":0,"title":"Born
+        Yesterday (1993 film)"},{"ns":0,"title":"Charlize Theron"},{"ns":0,"title":"Colleen
+        Camp"},{"ns":0,"title":"Columbia Pictures"},{"ns":0,"title":"Courtney Love"},{"ns":0,"title":"Crime
+        film"},{"ns":0,"title":"Dakota Fanning"},{"ns":0,"title":"Diabetes"},{"ns":0,"title":"English
+        language"},{"ns":0,"title":"Frederick Elmes"},{"ns":0,"title":"Gaby: A True
+        Story"},{"ns":0,"title":"Gary Chalk (actor)"},{"ns":0,"title":"Greg Iles"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"John Ottman"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Luis
+        Mandoki"},{"ns":0,"title":"Message in a Bottle (film)"},{"ns":0,"title":"Novel"},{"ns":0,"title":"Patent"},{"ns":0,"title":"Piotr
+        Sobocinski"},{"ns":0,"title":"Pruitt Taylor Vince"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Stuart Townsend"},{"ns":0,"title":"Thriller (genre)"},{"ns":0,"title":"Voces
+        inocentes"},{"ns":0,"title":"When a Man Loves a Woman (film)"},{"ns":0,"title":"White
+        Palace (film)"},{"ns":10,"title":"Template:Luis Mandoki"},{"ns":11,"title":"Template
+        talk:Luis Mandoki"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:20 GMT
+recorded_with: VCR 2.9.2

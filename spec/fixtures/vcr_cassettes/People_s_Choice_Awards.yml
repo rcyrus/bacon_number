@@ -1,0 +1,162 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=People's%20Choice%20Awards
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87286841, 983722612, 3142927806
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2208'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:50 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4018 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"567045":{"pageid":567045,"ns":0,"title":"People''s
+        Choice Awards","links":[{"ns":0,"title":"16th People''s Choice Awards"},{"ns":0,"title":"17th
+        People''s Choice Awards"},{"ns":0,"title":"18th People''s Choice Awards"},{"ns":0,"title":"19th
+        People''s Choice Awards"},{"ns":0,"title":"1st People''s Choice Awards"},{"ns":0,"title":"20th
+        People''s Choice Awards"},{"ns":0,"title":"21st People''s Choice Awards"},{"ns":0,"title":"22nd
+        People''s Choice Awards"},{"ns":0,"title":"23rd People''s Choice Awards"},{"ns":0,"title":"24th
+        People''s Choice Awards"},{"ns":0,"title":"25th People''s Choice Awards"},{"ns":0,"title":"26th
+        People''s Choice Awards"},{"ns":0,"title":"27th People''s Choice Awards"},{"ns":0,"title":"28th
+        People''s Choice Awards"},{"ns":0,"title":"29th People''s Choice Awards"},{"ns":0,"title":"2nd
+        People''s Choice Awards"},{"ns":0,"title":"30th People''s Choice Awards"},{"ns":0,"title":"31st
+        People''s Choice Awards"},{"ns":0,"title":"32nd People''s Choice Awards"},{"ns":0,"title":"33rd
+        People''s Choice Awards"},{"ns":0,"title":"34th People''s Choice Awards"},{"ns":0,"title":"35th
+        People''s Choice Awards"},{"ns":0,"title":"36th People''s Choice Awards"},{"ns":0,"title":"37th
+        People''s Choice Awards"},{"ns":0,"title":"38th People''s Choice Awards"},{"ns":0,"title":"39th
+        People''s Choice Awards"},{"ns":0,"title":"40th People''s Choice Awards"},{"ns":0,"title":"A.G.
+        Lafley"},{"ns":0,"title":"ADG Excellence in Production Design Award"},{"ns":0,"title":"ALMA
+        Award"},{"ns":0,"title":"Academy of Country Music Awards"},{"ns":0,"title":"Always
+        (brand)"},{"ns":0,"title":"Ambi Pur"},{"ns":0,"title":"American Cinema Editors"},{"ns":0,"title":"American
+        Country Awards"},{"ns":0,"title":"American Music Award"},{"ns":0,"title":"American
+        Society of Cinematographers Awards"},{"ns":0,"title":"Arbora & Ausonia"},{"ns":0,"title":"Ariel
+        (detergent)"},{"ns":0,"title":"Artios Award"},{"ns":0,"title":"Aussie (shampoo)"},{"ns":0,"title":"Award
+        show"},{"ns":0,"title":"BET Awards"},{"ns":0,"title":"BET Hip Hop Awards"},{"ns":0,"title":"Barbra
+        Streisand"},{"ns":0,"title":"Batman (1989 film)"},{"ns":0,"title":"Battlestar
+        Galactica (2004 TV series)"},{"ns":0,"title":"BeingGirl"},{"ns":0,"title":"Big
+        Three television networks"},{"ns":0,"title":"Billboard Latin Music Awards"},{"ns":0,"title":"Billboard
+        Music Award"},{"ns":0,"title":"Bold (detergent)"},{"ns":0,"title":"Bounty
+        (brand)"},{"ns":0,"title":"Braun (company)"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CMT
+        Music Awards"},{"ns":0,"title":"Cable television in the United States"},{"ns":0,"title":"Camay"},{"ns":0,"title":"Charmin"},{"ns":0,"title":"Cheer
+        (brand)"},{"ns":0,"title":"Clairol"},{"ns":0,"title":"Clarence Gamble"},{"ns":0,"title":"Country
+        Music Association Awards"},{"ns":0,"title":"CoverGirl"},{"ns":0,"title":"Crest
+        (toothpaste)"},{"ns":0,"title":"Critics'' Choice Television Award"},{"ns":0,"title":"Dawn
+        (brand)"},{"ns":0,"title":"DayQuil"},{"ns":0,"title":"Daytime Emmy Award"},{"ns":0,"title":"Daz
+        (detergent)"},{"ns":0,"title":"Decision Earth"},{"ns":0,"title":"Detroit Music
+        Awards"},{"ns":0,"title":"Directors Guild of America Award"},{"ns":0,"title":"Doctor
+        Who"},{"ns":0,"title":"Downy"},{"ns":0,"title":"Dreft"},{"ns":0,"title":"Duracell"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"English language"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Ernesto Zedillo"},{"ns":0,"title":"Eukanuba"},{"ns":0,"title":"Fairy
+        (brand)"},{"ns":0,"title":"Faith Hill"},{"ns":0,"title":"Farrah Fawcett"},{"ns":0,"title":"Febreze"},{"ns":0,"title":"Fourth
+        television network"},{"ns":0,"title":"GMA Dove Award"},{"ns":0,"title":"Gain
+        (detergent)"},{"ns":0,"title":"Gallup poll"},{"ns":0,"title":"Gillette (brand)"},{"ns":0,"title":"Gillette
+        Mach3"},{"ns":0,"title":"Gleem"},{"ns":0,"title":"Global TV"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Reel Award"},{"ns":0,"title":"Grammy
+        Award"},{"ns":0,"title":"Hall of Game Awards"},{"ns":0,"title":"Hankook P&G"},{"ns":0,"title":"Head
+        & Shoulders"},{"ns":0,"title":"Herbal Essences"},{"ns":0,"title":"High-definition
+        television in the United States"},{"ns":0,"title":"Hugo Award"},{"ns":0,"title":"Humanitas
+        Prize"},{"ns":0,"title":"Iams"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Ivory
+        (soap)"},{"ns":0,"title":"James Gamble (industrialist)"},{"ns":0,"title":"James
+        McNerney"},{"ns":0,"title":"John F. Smith, Jr."},{"ns":0,"title":"John Wayne"},{"ns":0,"title":"Joy
+        (dishwashing liquid)"},{"ns":0,"title":"Latin Grammy Award"},{"ns":0,"title":"List
+        of Procter & Gamble brands"},{"ns":0,"title":"List of United States over-the-air
+        television networks"},{"ns":0,"title":"List of television stations in the
+        United States"},{"ns":0,"title":"Lo Nuestro Awards"},{"ns":0,"title":"Los
+        Premios MTV Latinoam\u00e9rica"},{"ns":0,"title":"Luvs"},{"ns":0,"title":"Lynn
+        Morley Martin"},{"ns":0,"title":"MDVIP"},{"ns":0,"title":"MTV Video Music
+        Award"},{"ns":0,"title":"Margin of error"},{"ns":0,"title":"Mark Burnett"},{"ns":0,"title":"Max
+        Factor"},{"ns":0,"title":"Meg Whitman"},{"ns":0,"title":"Metamucil"},{"ns":0,"title":"Mr.
+        Clean"},{"ns":0,"title":"NAACP Image Award"},{"ns":0,"title":"News & Documentary
+        Emmy Award"},{"ns":0,"title":"Nice ''n Easy (hair coloring)"},{"ns":0,"title":"Nickelodeon
+        (TV Channel)"},{"ns":0,"title":"Nickelodeon Kids'' Choice Awards"},{"ns":0,"title":"Norman
+        Ralph Augustine"},{"ns":0,"title":"NyQuil"},{"ns":0,"title":"Olay"},{"ns":0,"title":"Old
+        Spice"},{"ns":0,"title":"Oral-B"},{"ns":0,"title":"Owen Wilson"},{"ns":0,"title":"Ozone
+        (magazine)"},{"ns":0,"title":"Pampers"},{"ns":0,"title":"Pantene"},{"ns":0,"title":"Peabody
+        Award"},{"ns":0,"title":"People''s Choice Award for Favorite Album of the
+        Year"},{"ns":0,"title":"People''s Choice Award for Favorite Band"},{"ns":0,"title":"People''s
+        Choice Award for Favorite Breakout Artist"},{"ns":0,"title":"People''s Choice
+        Award for Favorite Country Artist"},{"ns":0,"title":"People''s Choice Award
+        for Favorite Female Artist"},{"ns":0,"title":"People''s Choice Award for Favorite
+        Hip Hop Artist"},{"ns":0,"title":"People''s Choice Award for Favorite Humanitarian"},{"ns":0,"title":"People''s
+        Choice Award for Favorite Male Artist"},{"ns":0,"title":"People''s Choice
+        Award for Favorite Music Fan Following"},{"ns":0,"title":"People''s Choice
+        Award for Favorite Music Video"},{"ns":0,"title":"People''s Choice Award for
+        Favorite Pop Artist"},{"ns":0,"title":"People''s Choice Award for Favorite
+        R&B Artist"},{"ns":0,"title":"People''s Choice Award for Favorite Song of
+        the Year"},{"ns":0,"title":"People''s Choice Award for People''s Voice"},{"ns":0,"title":"People''s
+        Choice Awards India"},{"ns":0,"title":"Pepto-Bismol"},{"ns":0,"title":"Popular
+        culture"},{"ns":0,"title":"Port Ivory, Staten Island"},{"ns":0,"title":"Premios
+        Juventud"},{"ns":0,"title":"Primetime Emmy Award"},{"ns":0,"title":"Pringles"},{"ns":0,"title":"Procter
+        & Gamble"},{"ns":0,"title":"Procter & Gamble Co. v. OHIM"},{"ns":0,"title":"Procter
+        & Gamble Professional"},{"ns":0,"title":"Procter & Gamble on Tyneside"},{"ns":0,"title":"Procter
+        and Gamble Baltimore Plant"},{"ns":0,"title":"Procter and Gamble Chemicals"},{"ns":0,"title":"Producers
+        Guild of America Award"},{"ns":0,"title":"Puffs (facial tissue)"},{"ns":0,"title":"Radio
+        Disney Music Awards"},{"ns":0,"title":"Radio Music Awards"},{"ns":0,"title":"Ralph
+        Snyderman"},{"ns":0,"title":"Reese Witherspoon"},{"ns":0,"title":"Rob Reiner"},{"ns":0,"title":"Rock
+        and Roll Hall of Fame"},{"ns":0,"title":"SK-II"},{"ns":0,"title":"Safeguard
+        (soap)"},{"ns":0,"title":"Satellite television in the United States"},{"ns":0,"title":"Scope
+        (mouthwash)"},{"ns":0,"title":"Screen Actors Guild Award"},{"ns":0,"title":"Secret
+        (brand)"},{"ns":0,"title":"Singing News Fan Awards"},{"ns":0,"title":"Soul
+        Train Music Awards"},{"ns":0,"title":"Spider-Man (2002 film)"},{"ns":0,"title":"Sports
+        Emmy Award"},{"ns":0,"title":"Star Wars Episode IV: A New Hope"},{"ns":0,"title":"Stargate
+        Atlantis"},{"ns":0,"title":"Stellar Awards"},{"ns":0,"title":"Survivor (TV
+        series)"},{"ns":0,"title":"Swiffer"},{"ns":0,"title":"TCA Awards"},{"ns":0,"title":"TEC
+        Awards"},{"ns":0,"title":"Tampax"},{"ns":0,"title":"Technology & Engineering
+        Emmy Award"},{"ns":0,"title":"Teen Choice Awards"},{"ns":0,"title":"Television
+        in the United States"},{"ns":0,"title":"The Art of Shaving"},{"ns":0,"title":"The
+        Hollywood Reporter"},{"ns":0,"title":"The Lord of the Rings: The Fellowship
+        of the Ring"},{"ns":0,"title":"The Sting"},{"ns":0,"title":"Tide (brand)"},{"ns":0,"title":"Tom
+        Cruise"},{"ns":0,"title":"U2"},{"ns":0,"title":"United States"},{"ns":0,"title":"Vicks"},{"ns":0,"title":"Vince
+        Vaughn"},{"ns":0,"title":"Visual Effects Society Awards"},{"ns":0,"title":"Wedding
+        Crashers"},{"ns":0,"title":"Wella"},{"ns":0,"title":"William Cooper Procter"},{"ns":0,"title":"William
+        Procter (candlemaker)"},{"ns":0,"title":"Writers Guild of America Award"},{"ns":0,"title":"YouTube
+        Music Awards"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Musicawards"},{"ns":10,"title":"Template:People''s
+        Choice Awards"},{"ns":10,"title":"Template:Procter & Gamble"},{"ns":10,"title":"Template:Refimprove"},{"ns":10,"title":"Template:Television
+        in the United States"},{"ns":11,"title":"Template talk:Musicawards"},{"ns":11,"title":"Template
+        talk:People''s Choice Awards"},{"ns":11,"title":"Template talk:Procter & Gamble"},{"ns":11,"title":"Template
+        talk:Television in the United States"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from March 2014"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:51 GMT
+recorded_with: VCR 2.9.2

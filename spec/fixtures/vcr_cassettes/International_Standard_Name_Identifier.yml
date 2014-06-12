@@ -1,0 +1,189 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=International%20Standard%20Name%20Identifier
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87236089, 1102680455, 2597319860
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2463'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:20 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4017 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"18852926":{"pageid":18852926,"ns":0,"title":"International
+        Standard Name Identifier","links":[{"ns":0,"title":"110 film"},{"ns":0,"title":"126
+        film"},{"ns":0,"title":"135 film"},{"ns":0,"title":"ALGOL 60"},{"ns":0,"title":"ANSI
+        escape code"},{"ns":0,"title":"Ada Semantic Interface Specification"},{"ns":0,"title":"Algorithm"},{"ns":0,"title":"Antimagnetic
+        watch"},{"ns":0,"title":"ArmSCII"},{"ns":0,"title":"Biblioth\u00e8que nationale
+        de France"},{"ns":0,"title":"British Library"},{"ns":0,"title":"British standard
+        pipe thread"},{"ns":0,"title":"C++"},{"ns":0,"title":"C Sharp (programming
+        language)"},{"ns":0,"title":"Common Criteria"},{"ns":0,"title":"Common Language
+        Infrastructure"},{"ns":0,"title":"Common logic"},{"ns":0,"title":"Computer
+        Graphics Metafile"},{"ns":0,"title":"Conference of European National Librarians"},{"ns":0,"title":"Conf\u00e9d\u00e9ration
+        Internationale des Soci\u00e9t\u00e9s d\u00b4Auteurs et Compositeurs"},{"ns":0,"title":"Delivery
+        Multimedia Integration Framework"},{"ns":0,"title":"Digital Author Identification"},{"ns":0,"title":"Digital
+        object identifier"},{"ns":0,"title":"Disambiguation"},{"ns":0,"title":"Document
+        Style Semantics and Specification Language"},{"ns":0,"title":"ECMAScript"},{"ns":0,"title":"EXPRESS
+        (data modeling language)"},{"ns":0,"title":"Envelope"},{"ns":0,"title":"FTAM"},{"ns":0,"title":"File
+        Allocation Table"},{"ns":0,"title":"Fuel oil"},{"ns":0,"title":"Guidelines
+        for the Definition of Managed Objects"},{"ns":0,"title":"H.264/MPEG-4 AVC"},{"ns":0,"title":"HTML"},{"ns":0,"title":"Horsepower"},{"ns":0,"title":"IS-IS"},{"ns":0,"title":"ISO-8859-8-I"},{"ns":0,"title":"ISO-TimeML"},{"ns":0,"title":"ISO/IEC
+        10116"},{"ns":0,"title":"ISO/IEC 10967"},{"ns":0,"title":"ISO/IEC 11179"},{"ns":0,"title":"ISO/IEC
+        11404"},{"ns":0,"title":"ISO/IEC 11801"},{"ns":0,"title":"ISO/IEC 12207"},{"ns":0,"title":"ISO/IEC
+        14443"},{"ns":0,"title":"ISO/IEC 15288"},{"ns":0,"title":"ISO/IEC 15504"},{"ns":0,"title":"ISO/IEC
+        15693"},{"ns":0,"title":"ISO/IEC 17024"},{"ns":0,"title":"ISO/IEC 17025"},{"ns":0,"title":"ISO/IEC
+        18000"},{"ns":0,"title":"ISO/IEC 18004"},{"ns":0,"title":"ISO/IEC 18014"},{"ns":0,"title":"ISO/IEC
+        19752"},{"ns":0,"title":"ISO/IEC 19770"},{"ns":0,"title":"ISO/IEC 19794-5"},{"ns":0,"title":"ISO/IEC
+        20000"},{"ns":0,"title":"ISO/IEC 2022"},{"ns":0,"title":"ISO/IEC 21827"},{"ns":0,"title":"ISO/IEC
+        27000"},{"ns":0,"title":"ISO/IEC 27000-series"},{"ns":0,"title":"ISO/IEC 27001:2005"},{"ns":0,"title":"ISO/IEC
+        27001:2013"},{"ns":0,"title":"ISO/IEC 27002"},{"ns":0,"title":"ISO/IEC 27003"},{"ns":0,"title":"ISO/IEC
+        27004"},{"ns":0,"title":"ISO/IEC 27005"},{"ns":0,"title":"ISO/IEC 27006"},{"ns":0,"title":"ISO/IEC
+        27007"},{"ns":0,"title":"ISO/IEC 38500"},{"ns":0,"title":"ISO/IEC 42010"},{"ns":0,"title":"ISO/IEC
+        4909"},{"ns":0,"title":"ISO/IEC 5218"},{"ns":0,"title":"ISO/IEC 646"},{"ns":0,"title":"ISO/IEC
+        7810"},{"ns":0,"title":"ISO/IEC 7811"},{"ns":0,"title":"ISO/IEC 7812"},{"ns":0,"title":"ISO/IEC
+        7813"},{"ns":0,"title":"ISO/IEC 7816"},{"ns":0,"title":"ISO/IEC 80000"},{"ns":0,"title":"ISO/IEC
+        8652"},{"ns":0,"title":"ISO/IEC 8820-5"},{"ns":0,"title":"ISO/IEC 8859"},{"ns":0,"title":"ISO/IEC
+        8859-1"},{"ns":0,"title":"ISO/IEC 8859-10"},{"ns":0,"title":"ISO/IEC 8859-11"},{"ns":0,"title":"ISO/IEC
+        8859-12"},{"ns":0,"title":"ISO/IEC 8859-13"},{"ns":0,"title":"ISO/IEC 8859-14"},{"ns":0,"title":"ISO/IEC
+        8859-15"},{"ns":0,"title":"ISO/IEC 8859-16"},{"ns":0,"title":"ISO/IEC 8859-2"},{"ns":0,"title":"ISO/IEC
+        8859-3"},{"ns":0,"title":"ISO/IEC 8859-4"},{"ns":0,"title":"ISO/IEC 8859-5"},{"ns":0,"title":"ISO/IEC
+        8859-6"},{"ns":0,"title":"ISO/IEC 8859-7"},{"ns":0,"title":"ISO/IEC 8859-8"},{"ns":0,"title":"ISO/IEC
+        8859-9"},{"ns":0,"title":"ISO/IEC 9126"},{"ns":0,"title":"ISO/IEC 9995"},{"ns":0,"title":"ISO/IEC
+        TR 12182"},{"ns":0,"title":"ISO/IEEE 11073"},{"ns":0,"title":"ISO/PAS 28000"},{"ns":0,"title":"ISO/TR
+        11941"},{"ns":0,"title":"ISO 1"},{"ns":0,"title":"ISO 1000"},{"ns":0,"title":"ISO
+        10006"},{"ns":0,"title":"ISO 10160"},{"ns":0,"title":"ISO 10161"},{"ns":0,"title":"ISO
+        10206"},{"ns":0,"title":"ISO 10218"},{"ns":0,"title":"ISO 10303"},{"ns":0,"title":"ISO
+        10303-21"},{"ns":0,"title":"ISO 10303-22"},{"ns":0,"title":"ISO 10303-28"},{"ns":0,"title":"ISO
+        10383"},{"ns":0,"title":"ISO 10487"},{"ns":0,"title":"ISO 10962"},{"ns":0,"title":"ISO
+        11170"},{"ns":0,"title":"ISO 11783"},{"ns":0,"title":"ISO 11784 & 11785"},{"ns":0,"title":"ISO
+        11898"},{"ns":0,"title":"ISO 11940"},{"ns":0,"title":"ISO 11940-2"},{"ns":0,"title":"ISO
+        11992"},{"ns":0,"title":"ISO 12006"},{"ns":0,"title":"ISO 128"},{"ns":0,"title":"ISO
+        13399"},{"ns":0,"title":"ISO 13406-2"},{"ns":0,"title":"ISO 13407"},{"ns":0,"title":"ISO
+        13485"},{"ns":0,"title":"ISO 13490"},{"ns":0,"title":"ISO 13567"},{"ns":0,"title":"ISO
+        13584"},{"ns":0,"title":"ISO 14000"},{"ns":0,"title":"ISO 14031"},{"ns":0,"title":"ISO
+        1413"},{"ns":0,"title":"ISO 14224"},{"ns":0,"title":"ISO 14644"},{"ns":0,"title":"ISO
+        14644-1"},{"ns":0,"title":"ISO 14644-2"},{"ns":0,"title":"ISO 14644-3"},{"ns":0,"title":"ISO
+        14644-4"},{"ns":0,"title":"ISO 14644-5"},{"ns":0,"title":"ISO 14644-6"},{"ns":0,"title":"ISO
+        14644-7"},{"ns":0,"title":"ISO 14644-8"},{"ns":0,"title":"ISO 14644-9"},{"ns":0,"title":"ISO
+        14651"},{"ns":0,"title":"ISO 14698"},{"ns":0,"title":"ISO 14698-2"},{"ns":0,"title":"ISO
+        14750"},{"ns":0,"title":"ISO 14971"},{"ns":0,"title":"ISO 15022"},{"ns":0,"title":"ISO
+        15189"},{"ns":0,"title":"ISO 15292"},{"ns":0,"title":"ISO 15686"},{"ns":0,"title":"ISO
+        15706-2"},{"ns":0,"title":"ISO 15897"},{"ns":0,"title":"ISO 15919"},{"ns":0,"title":"ISO
+        15924"},{"ns":0,"title":"ISO 15926"},{"ns":0,"title":"ISO 15926 WIP"},{"ns":0,"title":"ISO
+        16"},{"ns":0,"title":"ISO 16750"},{"ns":0,"title":"ISO 1745"},{"ns":0,"title":"ISO
+        18245"},{"ns":0,"title":"ISO 19011"},{"ns":0,"title":"ISO 19092-1"},{"ns":0,"title":"ISO
+        19092-2"},{"ns":0,"title":"ISO 19114"},{"ns":0,"title":"ISO 19115"},{"ns":0,"title":"ISO
+        19136"},{"ns":0,"title":"ISO 19439"},{"ns":0,"title":"ISO 2"},{"ns":0,"title":"ISO
+        20022"},{"ns":0,"title":"ISO 20121"},{"ns":0,"title":"ISO 2014"},{"ns":0,"title":"ISO
+        2015"},{"ns":0,"title":"ISO 2145"},{"ns":0,"title":"ISO 2146"},{"ns":0,"title":"ISO
+        21500"},{"ns":0,"title":"ISO 216"},{"ns":0,"title":"ISO 217"},{"ns":0,"title":"ISO
+        22000"},{"ns":0,"title":"ISO 2240"},{"ns":0,"title":"ISO 226"},{"ns":0,"title":"ISO
+        233"},{"ns":0,"title":"ISO 25178"},{"ns":0,"title":"ISO 259"},{"ns":0,"title":"ISO
+        25964"},{"ns":0,"title":"ISO 26000"},{"ns":0,"title":"ISO 2709"},{"ns":0,"title":"ISO
+        2711"},{"ns":0,"title":"ISO 27799"},{"ns":0,"title":"ISO 2788"},{"ns":0,"title":"ISO
+        2852"},{"ns":0,"title":"ISO 29110"},{"ns":0,"title":"ISO 3"},{"ns":0,"title":"ISO
+        31"},{"ns":0,"title":"ISO 31-0"},{"ns":0,"title":"ISO 31-1"},{"ns":0,"title":"ISO
+        31-10"},{"ns":0,"title":"ISO 31-11"},{"ns":0,"title":"ISO 31-12"},{"ns":0,"title":"ISO
+        31-13"},{"ns":0,"title":"ISO 31-2"},{"ns":0,"title":"ISO 31-3"},{"ns":0,"title":"ISO
+        31-4"},{"ns":0,"title":"ISO 31-5"},{"ns":0,"title":"ISO 31-6"},{"ns":0,"title":"ISO
+        31-7"},{"ns":0,"title":"ISO 31-8"},{"ns":0,"title":"ISO 31-9"},{"ns":0,"title":"ISO
+        31000"},{"ns":0,"title":"ISO 3103"},{"ns":0,"title":"ISO 3166"},{"ns":0,"title":"ISO
+        3166-1"},{"ns":0,"title":"ISO 3166-2"},{"ns":0,"title":"ISO 3166-3"},{"ns":0,"title":"ISO
+        3307"},{"ns":0,"title":"ISO 3864"},{"ns":0,"title":"ISO 3977"},{"ns":0,"title":"ISO
+        4"},{"ns":0,"title":"ISO 4031"},{"ns":0,"title":"ISO 4157"},{"ns":0,"title":"ISO
+        4217"},{"ns":0,"title":"ISO 428"},{"ns":0,"title":"ISO 5"},{"ns":0,"title":"ISO
+        518"},{"ns":0,"title":"ISO 519"},{"ns":0,"title":"ISO 5775"},{"ns":0,"title":"ISO
+        5776"},{"ns":0,"title":"ISO 5800"},{"ns":0,"title":"ISO 5964"},{"ns":0,"title":"ISO
+        6"},{"ns":0,"title":"ISO 6166"},{"ns":0,"title":"ISO 6344"},{"ns":0,"title":"ISO
+        6346"},{"ns":0,"title":"ISO 6385"},{"ns":0,"title":"ISO 639"},{"ns":0,"title":"ISO
+        639-1"},{"ns":0,"title":"ISO 639-2"},{"ns":0,"title":"ISO 639-3"},{"ns":0,"title":"ISO
+        639-5"},{"ns":0,"title":"ISO 639-6"},{"ns":0,"title":"ISO 6438"},{"ns":0,"title":"ISO
+        6523"},{"ns":0,"title":"ISO 6709"},{"ns":0,"title":"ISO 690"},{"ns":0,"title":"ISO
+        7"},{"ns":0,"title":"ISO 7001"},{"ns":0,"title":"ISO 7002"},{"ns":0,"title":"ISO
+        7200"},{"ns":0,"title":"ISO 732"},{"ns":0,"title":"ISO 7736"},{"ns":0,"title":"ISO
+        8000"},{"ns":0,"title":"ISO 80000-1"},{"ns":0,"title":"ISO 80000-10"},{"ns":0,"title":"ISO
+        80000-11"},{"ns":0,"title":"ISO 80000-12"},{"ns":0,"title":"ISO 80000-13"},{"ns":0,"title":"ISO
+        80000-14"},{"ns":0,"title":"ISO 80000-2"},{"ns":0,"title":"ISO 80000-3"},{"ns":0,"title":"ISO
+        80000-4"},{"ns":0,"title":"ISO 80000-5"},{"ns":0,"title":"ISO 80000-6"},{"ns":0,"title":"ISO
+        80000-7"},{"ns":0,"title":"ISO 80000-8"},{"ns":0,"title":"ISO 80000-9"},{"ns":0,"title":"ISO
+        8178"},{"ns":0,"title":"ISO 843"},{"ns":0,"title":"ISO 8583"},{"ns":0,"title":"ISO
+        8601"},{"ns":0,"title":"ISO 8691"},{"ns":0,"title":"ISO 898"},{"ns":0,"title":"ISO
+        9"},{"ns":0,"title":"ISO 9000"},{"ns":0,"title":"ISO 9241"},{"ns":0,"title":"ISO
+        9362"},{"ns":0,"title":"ISO 9529"},{"ns":0,"title":"ISO 9564"},{"ns":0,"title":"ISO
+        965"},{"ns":0,"title":"ISO 9660"},{"ns":0,"title":"ISO 9897"},{"ns":0,"title":"ISO
+        9984"},{"ns":0,"title":"ISO 9985"},{"ns":0,"title":"Imprint"},{"ns":0,"title":"International
+        Bank Account Number"},{"ns":0,"title":"International Federation of Reproduction
+        Rights Organisations"},{"ns":0,"title":"International Organization for Standardization"},{"ns":0,"title":"International
+        Performers Database Association"},{"ns":0,"title":"International Standard
+        Audiovisual Number"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Identifier for Libraries and Related Organizations"},{"ns":0,"title":"International
+        Standard Music Number"},{"ns":0,"title":"International Standard Musical Work
+        Code"},{"ns":0,"title":"International Standard Recording Code"},{"ns":0,"title":"International
+        Standard Serial Number"},{"ns":0,"title":"International Standard Text Code"},{"ns":0,"title":"Isofix"},{"ns":0,"title":"JBIG"},{"ns":0,"title":"JPEG
+        2000"},{"ns":0,"title":"JPEG XR"},{"ns":0,"title":"Kappa number"},{"ns":0,"title":"Kunrei-shiki
+        romanization"},{"ns":0,"title":"Language Of Temporal Ordering Specification"},{"ns":0,"title":"Lexical
+        Markup Framework"},{"ns":0,"title":"Linux Standard Base"},{"ns":0,"title":"List
+        of IEC standards"},{"ns":0,"title":"List of ISO romanizations"},{"ns":0,"title":"List
+        of International Organization for Standardization standards"},{"ns":0,"title":"MPEG-21"},{"ns":0,"title":"MPEG-4"},{"ns":0,"title":"MPEG-4
+        Part 11"},{"ns":0,"title":"MPEG-4 Part 12"},{"ns":0,"title":"MPEG-4 Part 14"},{"ns":0,"title":"MPEG-4
+        Part 2"},{"ns":0,"title":"MPEG-4 Part 3"},{"ns":0,"title":"Magnetic ink character
+        recognition"},{"ns":0,"title":"Manufacturing Message Specification"},{"ns":0,"title":"MaxiCode"},{"ns":0,"title":"Multibus"},{"ns":0,"title":"OCR-A
+        font"},{"ns":0,"title":"ORCID"},{"ns":0,"title":"OSI model"},{"ns":0,"title":"Office
+        Open XML"},{"ns":0,"title":"Online Computer Library Center"},{"ns":0,"title":"OpenDocument"},{"ns":0,"title":"PDF/A"},{"ns":0,"title":"PDF/E"},{"ns":0,"title":"PDF/UA"},{"ns":0,"title":"PDF/VT"},{"ns":0,"title":"PDF/X"},{"ns":0,"title":"PDF417"},{"ns":0,"title":"POSIX"},{"ns":0,"title":"Pascal
+        (programming language)"},{"ns":0,"title":"Photographic Activity Test"},{"ns":0,"title":"Pinyin"},{"ns":0,"title":"Portable
+        Document Format"},{"ns":0,"title":"ProQuest"},{"ns":0,"title":"Process Specification
+        Language"},{"ns":0,"title":"Prolog"},{"ns":0,"title":"Pseudonym"},{"ns":0,"title":"Publisher"},{"ns":0,"title":"RELAX
+        NG"},{"ns":0,"title":"RM-ODP"},{"ns":0,"title":"ResearcherID"},{"ns":0,"title":"SDMX"},{"ns":0,"title":"SQL"},{"ns":0,"title":"STEP-NC"},{"ns":0,"title":"Shoe
+        size"},{"ns":0,"title":"Simple feature access"},{"ns":0,"title":"Standard
+        Generalized Markup Language"},{"ns":0,"title":"TC 46/SC 9"},{"ns":0,"title":"Tag
+        Image File Format / Electronic Photography"},{"ns":0,"title":"Topic Maps"},{"ns":0,"title":"Torx"},{"ns":0,"title":"Unified
+        Modeling Language"},{"ns":0,"title":"Universal Character Set"},{"ns":0,"title":"Vicat
+        softening point"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Water
+        Resistant mark"},{"ns":0,"title":"Whirlpool (cryptography)"},{"ns":0,"title":"X.500"},{"ns":0,"title":"X3D"},{"ns":0,"title":"XML
+        schema"},{"ns":0,"title":"Z notation"},{"ns":10,"title":"Template:ISO standards"},{"ns":10,"title":"Template:International
+        numbers"},{"ns":11,"title":"Template talk:ISO standards"},{"ns":11,"title":"Template
+        talk:International numbers"},{"ns":14,"title":"Category:ISO/IEC standards"},{"ns":14,"title":"Category:ISO
+        3166"},{"ns":14,"title":"Category:ISO 639"},{"ns":14,"title":"Category:ISO
+        standards"},{"ns":14,"title":"Category:OSI protocols"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:21 GMT
+recorded_with: VCR 2.9.2

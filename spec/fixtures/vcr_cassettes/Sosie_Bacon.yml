@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Sosie%20Bacon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87318446, 1102707457, 1061684914
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '489'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:09 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4017 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"24108842":{"pageid":24108842,"ns":0,"title":"Sosie
+        Bacon","links":[{"ns":0,"title":"Actress"},{"ns":0,"title":"Brown University"},{"ns":0,"title":"Collaborative
+        Arts Project 21 (CAP21)"},{"ns":0,"title":"David Bowie"},{"ns":0,"title":"Deputy
+        Chief Brenda Leigh Johnson"},{"ns":0,"title":"Fiction in Photographs"},{"ns":0,"title":"Film
+        Threat"},{"ns":0,"title":"Houston Chronicle"},{"ns":0,"title":"Internet Movie
+        Database"},{"ns":0,"title":"James Duff (writer)"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kyra
+        Sedgwick"},{"ns":0,"title":"Life on Mars?"},{"ns":0,"title":"Loverboy (2005
+        film)"},{"ns":0,"title":"Major Crimes"},{"ns":0,"title":"Miss Rose White"},{"ns":0,"title":"MovieWeb"},{"ns":0,"title":"New
+        York (magazine)"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Reuters"},{"ns":0,"title":"Special
+        Agent Fritz Howard"},{"ns":0,"title":"TV Guide"},{"ns":0,"title":"The Closer"},{"ns":0,"title":"The
+        Free Lance\u2013Star"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The
+        Philadelphia Inquirer"},{"ns":0,"title":"Theatre company"},{"ns":0,"title":"USA
+        Today"},{"ns":4,"title":"Wikipedia:Persondata"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:09 GMT
+recorded_with: VCR 2.9.2

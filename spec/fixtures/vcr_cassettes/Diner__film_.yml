@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Diner%20(film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390618748, 1409512623, 2899096006
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '836'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:03 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4009 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1150634":{"pageid":1150634,"ns":0,"title":"Diner
+        (film)","links":[{"ns":0,"title":"1959 NFL Championship Game"},{"ns":0,"title":"AFI''s
+        100 Years... 100 Laughs"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Writing Original Screenplay"},{"ns":0,"title":"American Film Institute"},{"ns":0,"title":"An
+        Everlasting Piece"},{"ns":0,"title":"Arlington, Virginia"},{"ns":0,"title":"Autobiography"},{"ns":0,"title":"Avalon
+        (1990 film)"},{"ns":0,"title":"Baltimore, Maryland"},{"ns":0,"title":"Bandits
+        (2001 film)"},{"ns":0,"title":"Barry Levinson"},{"ns":0,"title":"Box Office
+        Mojo"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Bruce Brody"},{"ns":0,"title":"Bugsy"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Claudia
+        Cron"},{"ns":0,"title":"Comedy-drama film"},{"ns":0,"title":"Curran Theatre"},{"ns":0,"title":"Daniel
+        Stern (actor)"},{"ns":0,"title":"Disclosure (film)"},{"ns":0,"title":"Ellen
+        Barkin"},{"ns":0,"title":"Envy (2004 film)"},{"ns":0,"title":"Gloria Gresham"},{"ns":0,"title":"Good
+        Morning, Vietnam"},{"ns":0,"title":"Improvisation"},{"ns":0,"title":"Indianapolis
+        Colts"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Ivan Kral"},{"ns":0,"title":"James
+        Spader"},{"ns":0,"title":"Jerry Weintraub"},{"ns":0,"title":"Jimmy Hollywood"},{"ns":0,"title":"Kathleen
+        Marshall"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Liberty Heights"},{"ns":0,"title":"Man
+        of the Year (2006 film)"},{"ns":0,"title":"Maryland"},{"ns":0,"title":"Metro-Goldwyn-Mayer"},{"ns":0,"title":"Michael
+        Madsen"},{"ns":0,"title":"Michael Tucker (actor)"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Mike Binder"},{"ns":0,"title":"Paul Reiser"},{"ns":0,"title":"Rain
+        Man"},{"ns":0,"title":"Review aggregator"},{"ns":0,"title":"Rock the Kasbah
+        (film)"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Sheryl Crow"},{"ns":0,"title":"Sleepers
+        (film)"},{"ns":0,"title":"Sphere (film)"},{"ns":0,"title":"Steve Guttenberg"},{"ns":0,"title":"Stu
+        Linder"},{"ns":0,"title":"The Bay (film)"},{"ns":0,"title":"The Natural (film)"},{"ns":0,"title":"Tim
+        Daly"},{"ns":0,"title":"Timothy Daly"},{"ns":0,"title":"Tin Men"},{"ns":0,"title":"Toys
+        (film)"},{"ns":0,"title":"Vignette (literature)"},{"ns":0,"title":"Wag the
+        Dog"},{"ns":0,"title":"What Just Happened"},{"ns":0,"title":"You Don''t Know
+        Jack (film)"},{"ns":0,"title":"Young Sherlock Holmes"},{"ns":10,"title":"Template:Barry
+        Levinson"},{"ns":11,"title":"Template talk:Barry Levinson"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:04 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,254 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Robert%20Duvall
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001183769, 1409543381, 2597355898
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4785'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:59 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4009 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"161266|0|The_Betsy"}},"query":{"pages":{"161266":{"pageid":161266,"ns":0,"title":"Robert
+        Duvall","links":[{"ns":0,"title":"2008 Republican National Convention"},{"ns":0,"title":"A
+        Civil Action"},{"ns":0,"title":"A Family Thing"},{"ns":0,"title":"A View From
+        the Bridge"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Actor"},{"ns":0,"title":"Academy Award for Best Supporting Actor"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Academy award for best actor"},{"ns":0,"title":"Actors
+        Studio"},{"ns":0,"title":"Adolf Eichmann"},{"ns":0,"title":"Adrien Brody"},{"ns":0,"title":"Agatha
+        Christie"},{"ns":0,"title":"Akim Tamiroff"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan
+        Alda"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Brooks"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alexander
+        Knox"},{"ns":0,"title":"Alexander Payne"},{"ns":0,"title":"Alfred Hitchcock
+        Presents"},{"ns":0,"title":"Alfred Lunt"},{"ns":0,"title":"American Buffalo
+        (play)"},{"ns":0,"title":"American Civil War"},{"ns":0,"title":"Andre Braugher"},{"ns":0,"title":"Ang
+        Lee"},{"ns":0,"title":"Angelo My Love"},{"ns":0,"title":"Annapolis, Maryland"},{"ns":0,"title":"Anthony
+        Andrews"},{"ns":0,"title":"Anthony Franciosa"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        Murphy (actor)"},{"ns":0,"title":"Apocalypse Now"},{"ns":0,"title":"Arena
+        Theatre"},{"ns":0,"title":"Argentina"},{"ns":0,"title":"Argentine Northwest"},{"ns":0,"title":"Armand
+        Assante"},{"ns":0,"title":"Armstrong Circle Theater"},{"ns":0,"title":"Art
+        Carney"},{"ns":0,"title":"Arthur Kennedy (actor)"},{"ns":0,"title":"Arthur
+        Lowe"},{"ns":0,"title":"Arthur Miller"},{"ns":0,"title":"Assassination Tango"},{"ns":0,"title":"Augusta,
+        Georgia"},{"ns":0,"title":"Augustus \"Gus\" McCrae"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BAFTA Award"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Supporting Role"},{"ns":0,"title":"Barkhad Abdi"},{"ns":0,"title":"Barry
+        Fitzgerald"},{"ns":0,"title":"Barry Pepper"},{"ns":0,"title":"Basic training"},{"ns":0,"title":"Battle
+        of the Wilderness"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Belasco
+        Theatre"},{"ns":0,"title":"Bellport"},{"ns":0,"title":"Ben Johnson (actor)"},{"ns":0,"title":"Ben
+        Kingsley"},{"ns":0,"title":"Benicio del Toro"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Bill
+        Nighy"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Blue Underground"},{"ns":0,"title":"Bob
+        Hoskins"},{"ns":0,"title":"Bob Schieffer"},{"ns":0,"title":"Boo Radley"},{"ns":0,"title":"Brad
+        Dourif"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Brendan
+        Gleeson"},{"ns":0,"title":"Brian Cox (actor)"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"British
+        Academy Film Awards"},{"ns":0,"title":"Broadway theater"},{"ns":0,"title":"Broderick
+        Crawford"},{"ns":0,"title":"Broken Trail"},{"ns":0,"title":"Bruce Beresford"},{"ns":0,"title":"Bruce
+        Davison"},{"ns":0,"title":"Bruce Dern"},{"ns":0,"title":"Bullitt"},{"ns":0,"title":"Burl
+        Ives"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"CBS
+        News"},{"ns":0,"title":"CBS Sunday Morning"},{"ns":0,"title":"CNN"},{"ns":0,"title":"California"},{"ns":0,"title":"Call
+        Me By My Rightful Name"},{"ns":0,"title":"Captain Newman, M.D."},{"ns":0,"title":"Carl
+        Franklin"},{"ns":0,"title":"Charles Boyer"},{"ns":0,"title":"Charles Burnett
+        (director)"},{"ns":0,"title":"Charles Laughton"},{"ns":0,"title":"Charlie
+        Chaplin"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chief Dan George"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christian Science"},{"ns":0,"title":"Christoph
+        Waltz"},{"ns":0,"title":"Christopher Nolan"},{"ns":0,"title":"Christopher
+        Plummer"},{"ns":0,"title":"Christopher Walken"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Clifton Webb"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Clive
+        Owen"},{"ns":0,"title":"Coen brothers"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Colin
+        Welland"},{"ns":0,"title":"Colors (film)"},{"ns":0,"title":"Confederate States
+        Army"},{"ns":0,"title":"Conservatism in the United States"},{"ns":0,"title":"Countdown
+        (1968 film)"},{"ns":0,"title":"Country music"},{"ns":0,"title":"Cuba Gooding,
+        Jr."},{"ns":0,"title":"Cult classic"},{"ns":0,"title":"Cultural icon"},{"ns":0,"title":"Daniel
+        Auteuil"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Daniel Massey
+        (actor)"},{"ns":0,"title":"Danny Glover"},{"ns":0,"title":"Darren Aronofsky"},{"ns":0,"title":"David
+        Mamet"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David O. Russell"},{"ns":0,"title":"David
+        Thewlis"},{"ns":0,"title":"Days of Thunder"},{"ns":0,"title":"Dean Stockwell"},{"ns":0,"title":"Deep
+        Impact (film)"},{"ns":0,"title":"Democratic Party (United States)"},{"ns":0,"title":"Denholm
+        Elliott"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Derek
+        Luke"},{"ns":0,"title":"Diane Lane"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Donald
+        Conroy"},{"ns":0,"title":"Drama Desk Award"},{"ns":0,"title":"Drama Desk Award
+        for Outstanding Actor in a Play"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Dwight
+        D. Eisenhower"},{"ns":0,"title":"Earl Holliman"},{"ns":0,"title":"Ed Flanders"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Edmond O''Brien"},{"ns":0,"title":"Edmund
+        Gwenn"},{"ns":0,"title":"Edward Fox (actor)"},{"ns":0,"title":"Edward James
+        Olmos"},{"ns":0,"title":"Edward Norton"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Emmy
+        Award"},{"ns":0,"title":"Emmy Awards"},{"ns":0,"title":"Equity (trade union)"},{"ns":0,"title":"Ernest
+        Borgnine"},{"ns":0,"title":"Esquire (magazine)"},{"ns":0,"title":"Ethel Barrymore
+        Theatre"},{"ns":0,"title":"Eugene Levy"},{"ns":0,"title":"Evangelicalism"},{"ns":0,"title":"Ewan
+        McGregor"},{"ns":0,"title":"F. Murray Abraham"},{"ns":0,"title":"Falling Down"},{"ns":0,"title":"Film"},{"ns":0,"title":"Forest
+        Whitaker"},{"ns":0,"title":"Frank Burns"},{"ns":0,"title":"Frank Langella"},{"ns":0,"title":"Frank
+        Sinatra"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Frederick Knott"},{"ns":0,"title":"Fredric
+        March"},{"ns":0,"title":"G.I. Bill"},{"ns":0,"title":"Gary Busey"},{"ns":0,"title":"Gary
+        Cooper"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gate Theatre (New
+        York City)"},{"ns":0,"title":"Gateway Playhouse"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"General
+        officer"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George Abbott
+        Theatre"},{"ns":0,"title":"George Arliss"},{"ns":0,"title":"George Bernard
+        Shaw"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George Chakiris"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George Lucas"},{"ns":0,"title":"George W. Bush"},{"ns":0,"title":"Georgia
+        (U.S. state)"},{"ns":0,"title":"Get Low (film)"},{"ns":0,"title":"Gig Young"},{"ns":0,"title":"Gods
+        and Generals (film)"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013
+        Motion Picture Drama"},{"ns":0,"title":"Golden Globe Award for Best Supporting
+        Actor \u2013 Motion Picture"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"Guy
+        Pearce"},{"ns":0,"title":"G\u00e9rard Depardieu"},{"ns":0,"title":"Haing S.
+        Ngor"},{"ns":0,"title":"Hal Holbrook"},{"ns":0,"title":"Harry Belafonte"},{"ns":0,"title":"Harvey
+        Keitel"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Hollywood
+        Walk of Fame"},{"ns":0,"title":"Horton Foote"},{"ns":0,"title":"Houston"},{"ns":0,"title":"Howard
+        Richardson (playwright)"},{"ns":0,"title":"Huguenot"},{"ns":0,"title":"Hume
+        Cronyn"},{"ns":0,"title":"Humphrey Bogart"},{"ns":0,"title":"Ian Bannen"},{"ns":0,"title":"Ian
+        Holm"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"Ike
+        (TV miniseries)"},{"ns":0,"title":"Independent (politician)"},{"ns":0,"title":"Independent
+        Spirit Award for Best Director"},{"ns":0,"title":"Independent Spirit Award
+        for Best Male Lead"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"J. Carrol Naish"},{"ns":0,"title":"Jack
+        Klugman"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jack
+        Palance"},{"ns":0,"title":"Jackie Earle Haley"},{"ns":0,"title":"Jake Gyllenhaal"},{"ns":0,"title":"James
+        Caan"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James De Preist"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James
+        Whitmore"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jared
+        Leto"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jean
+        Anouilh"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jeremy
+        Irons"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jesse Eisenberg"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jim Youngs"},{"ns":0,"title":"Joaquin
+        Phoenix"},{"ns":0,"title":"Joe Bowman (marksman)"},{"ns":0,"title":"Joe Kidd"},{"ns":0,"title":"Joe
+        Pesci"},{"ns":0,"title":"Joel Grey"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Hawkes (actor)"},{"ns":0,"title":"John Houseman"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John
+        Huston"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John
+        McCain"},{"ns":0,"title":"John Mills"},{"ns":0,"title":"John Savage (actor)"},{"ns":0,"title":"John
+        Travolta"},{"ns":0,"title":"John Wayne"},{"ns":0,"title":"John Willard"},{"ns":0,"title":"John
+        van Druten"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jonathan Dayton
+        and Valerie Faris"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Joseph
+        Cross (actor)"},{"ns":0,"title":"Joseph Stalin"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Jos\u00e9
+        Ferrer"},{"ns":0,"title":"Jude Law"},{"ns":0,"title":"Julian Schnabel"},{"ns":0,"title":"Keith
+        Michell"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kicking & Screaming
+        (2005 film)"},{"ns":0,"title":"Kieran Culkin"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Klaus
+        Maria Brandauer"},{"ns":0,"title":"Korean War"},{"ns":0,"title":"Las Vegas
+        Film Critics Society Award for Best Actor"},{"ns":0,"title":"Latin America"},{"ns":0,"title":"Laurence
+        Olivier"},{"ns":0,"title":"Lee Daniels"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Lee
+        family"},{"ns":0,"title":"Leonard Garment"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Liam
+        Neeson"},{"ns":0,"title":"Libertarianism"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Lionel Barrymore"},{"ns":0,"title":"Lloyd
+        Nolan"},{"ns":0,"title":"Lonesome Dove (TV miniseries)"},{"ns":0,"title":"Long
+        Island, New York"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Los
+        Angeles Film Critics Association Award for Best Actor"},{"ns":0,"title":"Louis
+        Auchincloss"},{"ns":0,"title":"Louis Gossett, Jr."},{"ns":0,"title":"Luciana
+        Pedraza"},{"ns":0,"title":"Lucky You (film)"},{"ns":0,"title":"Lynchburg,
+        Virginia"},{"ns":0,"title":"M. Emmet Walsh"},{"ns":0,"title":"MASH (film)"},{"ns":0,"title":"MSNBC"},{"ns":0,"title":"Macy''s"},{"ns":0,"title":"Marcel
+        Marceau"},{"ns":0,"title":"Mareen Duvall"},{"ns":0,"title":"Mark Ruffalo"},{"ns":0,"title":"Marksman"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Married and maiden names"},{"ns":0,"title":"Martha
+        Coolidge"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Martin Scorsese"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Maurice Evans
+        (actor)"},{"ns":0,"title":"Maximilian Schell"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Cera"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Fassbender"},{"ns":0,"title":"Michael Keaton"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Michael
+        Palin"},{"ns":0,"title":"Michael Shurtleff"},{"ns":0,"title":"Michael Stuhlbarg"},{"ns":0,"title":"Michel
+        Hazanavicius"},{"ns":0,"title":"Mickey Rooney"},{"ns":0,"title":"Mickey Rourke"},{"ns":0,"title":"Mike
+        Figgis"},{"ns":0,"title":"Military brat (U.S. subculture)"},{"ns":0,"title":"Millard
+        Mitchell"},{"ns":0,"title":"Mime"},{"ns":0,"title":"Miniseries"},{"ns":0,"title":"Mitt
+        Romney"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Mrs. Warren''s
+        Profession"},{"ns":0,"title":"Music Box Theatre"},{"ns":0,"title":"Naked City
+        (TV series)"},{"ns":0,"title":"Napalm"},{"ns":0,"title":"National Medal of
+        Arts"},{"ns":0,"title":"National Society of Film Critics Award for Best Actor"},{"ns":0,"title":"Naval
+        aviator (United States)"},{"ns":0,"title":"Neighborhood Playhouse"},{"ns":0,"title":"Network
+        (film)"},{"ns":0,"title":"New Mexico"},{"ns":0,"title":"New York"},{"ns":0,"title":"New
+        York Film Critics Circle Award for Best Actor"},{"ns":0,"title":"New York
+        Film Critics Circle Award for Best Supporting Actor"},{"ns":0,"title":"Newsweek"},{"ns":0,"title":"Nick
+        Nolte"},{"ns":0,"title":"Nicol Williamson"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Obie
+        Award"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Oliver Stone"},{"ns":0,"title":"Ollie
+        Johnston"},{"ns":0,"title":"Omar Sharif"},{"ns":0,"title":"One-act play"},{"ns":0,"title":"Open
+        Range"},{"ns":0,"title":"Orange County, Virginia"},{"ns":0,"title":"Oscar
+        Isaac"},{"ns":0,"title":"Oskar Werner"},{"ns":0,"title":"Othello"},{"ns":0,"title":"Paquito
+        D''Rivera"},{"ns":0,"title":"Pat Conroy"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Lukas"},{"ns":0,"title":"Paul Muni"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul
+        Scofield"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Per Oscarsson"},{"ns":0,"title":"Peter
+        Falk"},{"ns":0,"title":"Peter Finch"},{"ns":0,"title":"Peter Firth"},{"ns":0,"title":"Peter
+        Fonda"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Peter Strauss"},{"ns":0,"title":"Peter
+        Ustinov"},{"ns":0,"title":"Phenomenon (film)"},{"ns":0,"title":"Philip Seymour
+        Hoffman"},{"ns":0,"title":"Post office"},{"ns":0,"title":"Powers Boothe"},{"ns":0,"title":"President
+        of the United States"},{"ns":0,"title":"Primetime Emmy Award for Outstanding
+        Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Principia College"},{"ns":0,"title":"Private
+        First Class"},{"ns":0,"title":"Quentin Tarantino"},{"ns":0,"title":"Ralph
+        Fiennes"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Ram\u00f3n
+        Men\u00e9ndez"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Ray McAnally"},{"ns":0,"title":"Ray
+        Milland"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Red Buttons"},{"ns":0,"title":"Republican
+        Party (United States)"},{"ns":0,"title":"Revisionist Western"},{"ns":0,"title":"Rex
+        Harrison"},{"ns":0,"title":"Richard Attenborough"},{"ns":0,"title":"Richard
+        Benjamin"},{"ns":0,"title":"Richard Burton"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Richard
+        Crenna"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard Farnsworth"},{"ns":0,"title":"Richard
+        Jenkins"},{"ns":0,"title":"Ricky Gervais"},{"ns":0,"title":"River Phoenix"},{"ns":0,"title":"Robert
+        Altman"},{"ns":0,"title":"Robert Cummings"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert
+        Donat"},{"ns":0,"title":"Robert Duvall filmography"},{"ns":0,"title":"Robert
+        E. Lee"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Roberto
+        Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Robin Young"},{"ns":0,"title":"Rod
+        Steiger"},{"ns":0,"title":"Ronald Alexander"},{"ns":0,"title":"Ronald Colman"},{"ns":0,"title":"Room
+        Service (1938 film)"},{"ns":0,"title":"Rooster Cogburn"},{"ns":0,"title":"Route
+        66 (TV series)"},{"ns":0,"title":"Rudy Giuliani"},{"ns":0,"title":"Russell
+        Crowe"},{"ns":0,"title":"Ryan Gosling"},{"ns":0,"title":"Sacha Baron Cohen"},{"ns":0,"title":"Sal
+        Mineo"},{"ns":0,"title":"Salvatore Cascio"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"San
+        Diego"},{"ns":0,"title":"Sanford Meisner"},{"ns":0,"title":"Sarah Palin"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Motion Picture"},{"ns":0,"title":"Screen Actors
+        Guild Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Male Actor in a Supporting Role"},{"ns":0,"title":"Screenwriter"},{"ns":0,"title":"Sean
+        Connery"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"Secondhand Lions"},{"ns":0,"title":"Severn
+        School"},{"ns":0,"title":"Severna Park, Maryland"},{"ns":0,"title":"Sheridan
+        Square Playhouse"},{"ns":0,"title":"Shubert Theatre (Broadway)"},{"ns":0,"title":"Sidney
+        Poitier"},{"ns":0,"title":"Slingblade"},{"ns":0,"title":"Sofia Coppola"},{"ns":0,"title":"Spencer
+        Tracy"},{"ns":0,"title":"St. Louis, Missouri"},{"ns":0,"title":"St. Louis
+        Walk of Fame"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stalin (1992
+        film)"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Stephen Boyd"},{"ns":0,"title":"Stephen
+        Rea"},{"ns":0,"title":"Steve Buscemi"},{"ns":0,"title":"Steve Martin"},{"ns":0,"title":"Steve
+        McQueen (director)"},{"ns":0,"title":"Steven Soderbergh"},{"ns":0,"title":"Susana
+        Ferrari Billinghurst"},{"ns":0,"title":"T.H.E. Cat"},{"ns":0,"title":"THX
+        1138"},{"ns":0,"title":"Tango (dance)"},{"ns":0,"title":"Taormina Film Fest"},{"ns":0,"title":"Ted
+        Danson"},{"ns":0,"title":"Television"},{"ns":0,"title":"Tender Mercies"},{"ns":0,"title":"Tennessee
+        Williams"},{"ns":0,"title":"Terence Stamp"},{"ns":0,"title":"Terrence Howard"},{"ns":0,"title":"Tess
+        Harper"},{"ns":0,"title":"Texas Children''s Cancer Center"},{"ns":0,"title":"The
+        Apostle"},{"ns":0,"title":"The Argentina Independent"},{"ns":0,"title":"The
+        Baltimore Sun"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:00 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,271 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Forest%20Whitaker
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001117877, 1409516983, 1061629966
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5034'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:10 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4009 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"634431|0|Uganda"}},"query":{"pages":{"634431":{"pageid":634431,"ns":0,"title":"Forest
+        Whitaker","links":[{"ns":0,"title":"1988 Cannes Film Festival"},{"ns":0,"title":"2013
+        Cannes Film Festival"},{"ns":0,"title":"2013 Sundance Film Festival"},{"ns":0,"title":"50
+        Cent"},{"ns":0,"title":"A Big Family"},{"ns":0,"title":"A Dark Truth"},{"ns":0,"title":"A
+        Little Trip to Heaven (film)"},{"ns":0,"title":"A Rage in Harlem (film)"},{"ns":0,"title":"Abby
+        Lockhart"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Accordion"},{"ns":0,"title":"Adrien
+        Brody"},{"ns":0,"title":"Africa (TV series)"},{"ns":0,"title":"African-American
+        Film Critics Association"},{"ns":0,"title":"Akan people"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alec
+        Guinness"},{"ns":0,"title":"Alexander Knox"},{"ns":0,"title":"Alfredo Landa"},{"ns":0,"title":"Alliance
+        of Women Film Journalists"},{"ns":0,"title":"Amazing Stories (TV series)"},{"ns":0,"title":"American
+        Black Film Festival"},{"ns":0,"title":"American Dad!"},{"ns":0,"title":"American
+        Gun (2005 film)"},{"ns":0,"title":"Americans of Igbo descent"},{"ns":0,"title":"Angela
+        Bassett"},{"ns":0,"title":"Antal P\u00e1ger (actor)"},{"ns":0,"title":"Anthony
+        Edwards"},{"ns":0,"title":"Anthony Franciosa"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony
+        Perkins"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Arthur
+        Kennedy (actor)"},{"ns":0,"title":"Article 99"},{"ns":0,"title":"Associated
+        Press"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Awards"},{"ns":0,"title":"BET
+        Awards"},{"ns":0,"title":"BIFA Award for Best Performance by an Actor in a
+        British Independent Film"},{"ns":0,"title":"BMW"},{"ns":0,"title":"Bank Robber
+        (film)"},{"ns":0,"title":"Barack Obama"},{"ns":0,"title":"Barry Fitzgerald"},{"ns":0,"title":"Barry
+        Pepper"},{"ns":0,"title":"Battlefield Earth (film)"},{"ns":0,"title":"Beltway
+        sniper attacks"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Beno\u00eet Magimel"},{"ns":0,"title":"Berkeley,
+        California"},{"ns":0,"title":"Bernard Blancan"},{"ns":0,"title":"Best Actor
+        Award (Cannes Film Festival)"},{"ns":0,"title":"Biblioth\u00e8que nationale
+        de France"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Billy Bob Thornton"},{"ns":0,"title":"Bing
+        Crosby"},{"ns":0,"title":"Bird (1988 film)"},{"ns":0,"title":"Bird (film)"},{"ns":0,"title":"Black
+        Nativity"},{"ns":0,"title":"Black Nativity (film)"},{"ns":0,"title":"Black
+        Reel Award: Best Supporting Actor"},{"ns":0,"title":"Black Reel Award for
+        Best Actor"},{"ns":0,"title":"Black Reel Award for Best Actor: T.V. Movie/Cable"},{"ns":0,"title":"Black
+        Reel Award for Best Supporting Actor"},{"ns":0,"title":"Black Reel Award for
+        Best Voice Performance"},{"ns":0,"title":"Blockbuster Entertainment Award"},{"ns":0,"title":"Bloodsport
+        (film)"},{"ns":0,"title":"Blown Away (1994 film)"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Body
+        Count (1998 film)"},{"ns":0,"title":"Body Snatchers (1993 film)"},{"ns":0,"title":"Boston
+        Society of Film Critics Award for Best Actor"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradford
+        Dillman"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Brian Cox (actor)"},{"ns":0,"title":"Broadcast
+        Film Critics Association"},{"ns":0,"title":"Broadcast Film Critics Association
+        Award for Best Actor"},{"ns":0,"title":"Broderick Crawford"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Bruno Ganz"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"Bushido"},{"ns":0,"title":"BusinessWeek"},{"ns":0,"title":"CableACE
+        Award"},{"ns":0,"title":"Cagney & Lacey"},{"ns":0,"title":"Cal Poly Pomona"},{"ns":0,"title":"Cameron
+        Crowe"},{"ns":0,"title":"Campbell Scott"},{"ns":0,"title":"Cannes Film Festival"},{"ns":0,"title":"Catch
+        .44"},{"ns":0,"title":"Charles Laughton"},{"ns":0,"title":"Charles Vanel"},{"ns":0,"title":"Charlie
+        Chaplin"},{"ns":0,"title":"Charlie Parker"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chicago
+        Film Critics Association Award for Best Actor"},{"ns":0,"title":"Chicago Sun-Times"},{"ns":0,"title":"Chieftaincy"},{"ns":0,"title":"Chiwetel
+        Ejiofor"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Colin Farrell"},{"ns":0,"title":"Colin
+        Firth"},{"ns":0,"title":"Coming of age"},{"ns":0,"title":"Consenting Adults
+        (1992 film)"},{"ns":0,"title":"Criminal Minds"},{"ns":0,"title":"Criminal
+        Minds: Suspect Behavior"},{"ns":0,"title":"Dallas-Fort Worth Film Critics
+        Association Award for Best Actor"},{"ns":0,"title":"Damon Whitaker"},{"ns":0,"title":"Dan
+        Inosanto"},{"ns":0,"title":"Daniel Auteuil"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"David
+        Carradine"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David T. Killion"},{"ns":0,"title":"David
+        Thewlis"},{"ns":0,"title":"Dean Stockwell"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Diary
+        of a Hitman"},{"ns":0,"title":"Diff''rent Strokes"},{"ns":0,"title":"Director
+        (film)"},{"ns":0,"title":"Dirk Bogarde"},{"ns":0,"title":"Don Cheadle"},{"ns":0,"title":"Door
+        to Door (film)"},{"ns":0,"title":"Downtown (film)"},{"ns":0,"title":"Dragon
+        Hunters (film)"},{"ns":0,"title":"Drama Studio London"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"Dylan Thomas"},{"ns":0,"title":"ER (TV series)"},{"ns":0,"title":"East
+        Africa"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Edward G. Robinson"},{"ns":0,"title":"Edward
+        Norton"},{"ns":0,"title":"Elio Germano"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Emmy
+        Award"},{"ns":0,"title":"Entertainment Weekly"},{"ns":0,"title":"Ernest &
+        Celestine"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"Eskrima"},{"ns":0,"title":"Even
+        Money (film)"},{"ns":0,"title":"Everyone''s Hero"},{"ns":0,"title":"Ewan McGregor"},{"ns":0,"title":"Executive
+        producer"},{"ns":0,"title":"Exhale (Shoop Shoop)"},{"ns":0,"title":"F. Murray
+        Abraham"},{"ns":0,"title":"FX (TV network)"},{"ns":0,"title":"Fast Times at
+        Ridgemont High"},{"ns":0,"title":"Feature film"},{"ns":0,"title":"Fernando
+        Rey"},{"ns":0,"title":"Film director"},{"ns":0,"title":"Film producer"},{"ns":0,"title":"First
+        Daughter (2004 film)"},{"ns":0,"title":"Florida Film Critics Circle Award
+        for Best Actor"},{"ns":0,"title":"Four Dogs Playing Poker (film)"},{"ns":0,"title":"Fox
+        News"},{"ns":0,"title":"Francisco Rabal"},{"ns":0,"title":"Frank Langella"},{"ns":0,"title":"Fran\u00e7ois
+        P\u00e9rier"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"Freelancers
+        (film)"},{"ns":0,"title":"Fruitvale Station"},{"ns":0,"title":"Gallatin School
+        of Individualized Study"},{"ns":0,"title":"Gary Busey"},{"ns":0,"title":"Gary
+        Cooper"},{"ns":0,"title":"Ge You"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Arliss"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"Ghost Dog"},{"ns":0,"title":"Ghost Dog: The Way
+        of the Samurai"},{"ns":0,"title":"Gian Maria Volont\u00e9"},{"ns":0,"title":"Giancarlo
+        Giannini"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor - Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Raspberry Award"},{"ns":0,"title":"Golden Raspberry Award for Worst Supporting
+        Actor"},{"ns":0,"title":"Golden Raspberry Awards"},{"ns":0,"title":"Good Morning,
+        Vietnam"},{"ns":0,"title":"Green Dragon (film)"},{"ns":0,"title":"Gregory
+        Peck"},{"ns":0,"title":"Guy Pearce"},{"ns":0,"title":"G\u00e9rard Depardieu"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Haing
+        S. Ngor"},{"ns":0,"title":"Harry Connick, Jr."},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Henry
+        Fonda"},{"ns":0,"title":"Hill Street Blues"},{"ns":0,"title":"Hollywood Film
+        Festival"},{"ns":0,"title":"Hollywood Walk of Fame"},{"ns":0,"title":"Hope
+        Floats"},{"ns":0,"title":"Hugh Grant"},{"ns":0,"title":"Humphrey Bogart"},{"ns":0,"title":"Hurricane
+        Season (film)"},{"ns":0,"title":"Ian Bannen"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Idi
+        Amin"},{"ns":0,"title":"Igbo people"},{"ns":0,"title":"Image Award"},{"ns":0,"title":"Imo
+        State"},{"ns":0,"title":"Independent Spirit Award for Best Lead Male"},{"ns":0,"title":"Inside
+        the Actors Studio"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jacob Latimore"},{"ns":0,"title":"Jamel
+        Debbouze"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        L. Farmer, Sr."},{"ns":0,"title":"James Mason"},{"ns":0,"title":"James Spader"},{"ns":0,"title":"James
+        Stewart"},{"ns":0,"title":"Jamie Bell"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jason''s
+        Lyric"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jean-Claude
+        Van Damme"},{"ns":0,"title":"Jean-Louis Trintignant"},{"ns":0,"title":"Jean
+        Dujardin"},{"ns":0,"title":"Jean Yanne"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jennifer
+        Hudson"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy Renner"},{"ns":0,"title":"Jesse
+        Eisenberg"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jim Jarmusch"},{"ns":0,"title":"Joaquin
+        Phoenix"},{"ns":0,"title":"Jodie Foster"},{"ns":0,"title":"Joel Schumacher"},{"ns":0,"title":"John
+        Cleese"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John
+        Kitzmiller"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John Turturro"},{"ns":0,"title":"John
+        Wayne"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Johnny Handsome"},{"ns":0,"title":"Jon
+        Kavanaugh"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jonathan Pryce"},{"ns":0,"title":"Joseph
+        Cross (actor)"},{"ns":0,"title":"Jos\u00e9 Ferrer"},{"ns":0,"title":"Jos\u00e9
+        Luis G\u00f3mez"},{"ns":0,"title":"Judge Reinhold"},{"ns":0,"title":"JuntoBox
+        Films"},{"ns":0,"title":"Kansas City Film Critics Circle Award for Best Actor"},{"ns":0,"title":"Katie
+        Holmes"},{"ns":0,"title":"Kenn Whitaker"},{"ns":0,"title":"Kenneth More"},{"ns":0,"title":"Kenp\u014d"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kiefer Sutherland"},{"ns":0,"title":"Kieran
+        Culkin"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Konstantin Lavronenko"},{"ns":0,"title":"L.
+        Ron Hubbard"},{"ns":0,"title":"Las Vegas Film Critics Society Award for Best
+        Actor"},{"ns":0,"title":"Last Light (film)"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lee
+        Daniels'' The Butler"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Liam Neeson"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Light It Up (film)"},{"ns":0,"title":"Lil
+        Wayne"},{"ns":0,"title":"Lionel Barrymore"},{"ns":0,"title":"List of films
+        considered the worst"},{"ns":0,"title":"London Film Critics Circle Award for
+        Actor of the Year"},{"ns":0,"title":"London Film Critics Circle Award for
+        Best Actor"},{"ns":0,"title":"Longview, Texas"},{"ns":0,"title":"Los Angeles
+        Film Critics Association"},{"ns":0,"title":"Los Angeles Film Critics Association
+        Award for Best Actor"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Luka
+        Kova\u010d"},{"ns":0,"title":"MSNBC"},{"ns":0,"title":"Mads Mikkelsen"},{"ns":0,"title":"Mafia"},{"ns":0,"title":"Maggie
+        Grace"},{"ns":0,"title":"Making the Grade (TV series)"},{"ns":0,"title":"Marcello
+        Mastroianni"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin Scorsese"},{"ns":0,"title":"Mary
+        (2005 film)"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"Mehmet Emin Toprak (actor)"},{"ns":0,"title":"Michael
+        Caine"},{"ns":0,"title":"Michael Cera"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Fassbender"},{"ns":0,"title":"Michael Keaton"},{"ns":0,"title":"Michael Redgrave"},{"ns":0,"title":"Michael
+        Stuhlbarg"},{"ns":0,"title":"Michel Blanc"},{"ns":0,"title":"Michel Piccoli"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Monte Carlo (2011 film)"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"Murray Melvin"},{"ns":0,"title":"Muzaffer Ozdemir"},{"ns":0,"title":"My
+        Own Love Song"},{"ns":0,"title":"NAACP Image Award for Outstanding Actor in
+        a Motion Picture"},{"ns":0,"title":"NAACP Image Award for Outstanding Actor
+        in a Television Movie, Mini-Series or Dramatic Special"},{"ns":0,"title":"NAACP
+        Image Award for Outstanding Supporting Actor in a Motion Picture"},{"ns":0,"title":"National
+        Board of Review"},{"ns":0,"title":"National Board of Review Award for Best
+        Acting by an Ensemble"},{"ns":0,"title":"National Board of Review Award for
+        Best Actor"},{"ns":0,"title":"National Board of Review Award for Best Cast"},{"ns":0,"title":"National
+        Society of Film Critics Award for Best Actor"},{"ns":0,"title":"Neil Jordan"},{"ns":0,"title":"New
+        York (magazine)"},{"ns":0,"title":"New York Daily News"},{"ns":0,"title":"New
+        York Film Critics Circle"},{"ns":0,"title":"New York Film Critics Circle Award
+        for Best Actor"},{"ns":0,"title":"New York Times"},{"ns":0,"title":"New York
+        University"},{"ns":0,"title":"Newark, New Jersey"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas
+        Cage"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"Nigeria"},{"ns":0,"title":"Nkwerre"},{"ns":0,"title":"North
+        and South (TV miniseries)"},{"ns":0,"title":"Oded Kotler"},{"ns":0,"title":"Oliver
+        Stone"},{"ns":0,"title":"Olivier Gourmet"},{"ns":0,"title":"Omar Sharif"},{"ns":0,"title":"Online
+        Film Critics Society Award for Best Actor"},{"ns":0,"title":"Orson Welles"},{"ns":0,"title":"Oscar
+        Isaac"},{"ns":0,"title":"Oskar Werner"},{"ns":0,"title":"Our Family Wedding"},{"ns":0,"title":"Out
+        of the Furnace"},{"ns":0,"title":"Panic Room (film)"},{"ns":0,"title":"Pascal
+        Duquenne"},{"ns":0,"title":"Paul Auster"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Lukas"},{"ns":0,"title":"Paul Muni"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul
+        Scofield"},{"ns":0,"title":"Pawn (film)"},{"ns":0,"title":"Penelope Ann Miller"},{"ns":0,"title":"People
+        for the Ethical Treatment of Animals"},{"ns":0,"title":"Per Oscarsson"},{"ns":0,"title":"Peter
+        Finch"},{"ns":0,"title":"Peter Fonda"},{"ns":0,"title":"Peter Mullan"},{"ns":0,"title":"Peter
+        O''Toole"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Phenomenon (film)"},{"ns":0,"title":"Philip
+        Seymour Hoffman"},{"ns":0,"title":"Philippe Noiret"},{"ns":0,"title":"Phoebe
+        Cates"},{"ns":0,"title":"Phoenix Film Critics Society Award for Best Actor"},{"ns":0,"title":"Phone
+        Booth (film)"},{"ns":0,"title":"Platoon (film)"},{"ns":0,"title":"Powder Blue
+        (film)"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Guest Actor
+        in a Drama Series"},{"ns":0,"title":"Pr\u00eat-\u00e0-Porter (film)"},{"ns":0,"title":"Ptosis
+        (eyelid)"},{"ns":0,"title":"Public service announcement"},{"ns":0,"title":"Ralph
+        Richardson"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Rebound:
+        The Legend of Earl \"The Goat\" Manigault"},{"ns":0,"title":"Repentance (2014
+        film)"},{"ns":0,"title":"Repo Men"},{"ns":0,"title":"Retrospective"},{"ns":0,"title":"Rex
+        Harrison"},{"ns":0,"title":"Riccardo Cucciolla"},{"ns":0,"title":"Richard
+        Attenborough"},{"ns":0,"title":"Richard Basehart"},{"ns":0,"title":"Richard
+        Burton"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard Farnsworth"},{"ns":0,"title":"Richard
+        Harris"},{"ns":0,"title":"Richard Jenkins"},{"ns":0,"title":"Ricky Gervais"},{"ns":0,"title":"River
+        Phoenix"},{"ns":0,"title":"Robert Altman"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        De Niro"},{"ns":0,"title":"Robert Donat"},{"ns":0,"title":"Robert Downey,
+        Jr."},{"ns":0,"title":"Robert Downey Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert
+        Mitchum"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robert Romanus"},{"ns":0,"title":"Robert
+        Ryan"},{"ns":0,"title":"Roberto Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rod
+        Serling"},{"ns":0,"title":"Rod Steiger"},{"ns":0,"title":"Roger Christian
+        (filmmaker)"},{"ns":0,"title":"Roger Ebert"},{"ns":0,"title":"Romantic comedy
+        film"},{"ns":0,"title":"Ronald Colman"},{"ns":0,"title":"Roschdy Zem"},{"ns":0,"title":"Russell
+        Crowe"},{"ns":0,"title":"Rutgers University"},{"ns":0,"title":"Ryan Gosling"},{"ns":0,"title":"Sacha
+        Baron Cohen"},{"ns":0,"title":"Sami Bouajila"},{"ns":0,"title":"Samy Naceri"},{"ns":0,"title":"San
+        Francisco Chronicle"},{"ns":0,"title":"Sandra Bullock"},{"ns":0,"title":"Saro
+        Urz\u00ec"},{"ns":0,"title":"Satellite Award for Best Actor \u2013 Motion
+        Picture"},{"ns":0,"title":"Satellite Award for Best Supporting Actor \u2013
+        Series, Miniseries or Television Film"},{"ns":0,"title":"Screen Actors Guild
+        Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors Guild Award
+        for Outstanding Performance by a Male Actor in a Leading Role"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries
+        or Television Movie"},{"ns":0,"title":"Sean Connery"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Shadows on the Sun"},{"ns":0,"title":"Sidney Poitier"},{"ns":0,"title":"Smoke
+        (film)"},{"ns":0,"title":"South Central Los Angeles"},{"ns":0,"title":"Southeastern
+        Film Critics Association Award for Best Actor"},{"ns":0,"title":"Species (film)"},{"ns":0,"title":"Spencer
+        Tracy"},{"ns":0,"title":"Stakeout (1987 film)"},{"ns":0,"title":"Stephen Rea"},{"ns":0,"title":"Steve
+        Martin"},{"ns":0,"title":"Strapped"},{"ns":0,"title":"Street Kings"},{"ns":0,"title":"Stroke"},{"ns":0,"title":"Swahili
+        language"},{"ns":0,"title":"Syst\u00e8me universitaire de documentation"},{"ns":0,"title":"T.I."},{"ns":0,"title":"Tag:
+        The Assassination Game"},{"ns":0,"title":"Taken 3"},{"ns":0,"title":"Teen"},{"ns":0,"title":"Television
+        movie"},{"ns":0,"title":"Terence Stamp"},{"ns":0,"title":"Terrence Howard"},{"ns":0,"title":"Terry
+        McMillan"},{"ns":0,"title":"The Air I Breathe"},{"ns":0,"title":"The Boston
+        Globe"},{"ns":0,"title":"The Butler"},{"ns":0,"title":"The Color of Money"},{"ns":0,"title":"The
+        Crying Game"},{"ns":0,"title":"The Experiment (2010 film)"},{"ns":0,"title":"The
+        Fall Guy"},{"ns":0,"title":"The Fourth Angel"},{"ns":0,"title":"The Grand
+        Rapids Press"},{"ns":0,"title":"The Great Debaters"},{"ns":0,"title":"The
+        Guardian"},{"ns":0,"title":"The Hire: The Follow"},{"ns":0,"title":"The Last
+        King of Scotland (film)"},{"ns":0,"title":"The Last Stand (2013 film)"},{"ns":0,"title":"The
+        Marsh (film)"},{"ns":0,"title":"The Shield"},{"ns":0,"title":"The Spectator"},{"ns":0,"title":"The
+        Sydney Morning Herald"},{"ns":0,"title":"The Twilight Zone"},{"ns":0,"title":"Thriller
+        (genre)"},{"ns":0,"title":"Tim Robbins"},{"ns":0,"title":"Timothy Spall"},{"ns":0,"title":"Tom
+        Conti"},{"ns":0,"title":"Tom Courtenay"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tommy Lee Jones"},{"ns":0,"title":"Tony
+        Leung Chiu-Wai"},{"ns":0,"title":"Toronto Film Critics Association Award for
+        Best Actor"},{"ns":0,"title":"Trapper John, M.D."},{"ns":0,"title":"Trevor
+        Howard"},{"ns":0,"title":"Two Men in Town (2014 film)"},{"ns":0,"title":"UNESCO"},{"ns":0,"title":"UPN"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:11 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,129 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Teen%20Choice%20Awards
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87324840, 983735415, 2899161390
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1725'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:12 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4018 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1506928":{"pageid":1506928,"ns":0,"title":"Teen
+        Choice Awards","links":[{"ns":0,"title":"*NSYNC"},{"ns":0,"title":"1999 Teen
+        Choice Awards"},{"ns":0,"title":"2000 Teen Choice Awards"},{"ns":0,"title":"2001
+        Teen Choice Awards"},{"ns":0,"title":"2002 Teen Choice Awards"},{"ns":0,"title":"2003
+        Teen Choice Awards"},{"ns":0,"title":"2004 Teen Choice Awards"},{"ns":0,"title":"2005
+        Teen Choice Awards"},{"ns":0,"title":"2006 Teen Choice Awards"},{"ns":0,"title":"2007
+        Teen Choice Awards"},{"ns":0,"title":"2008 Teen Choice Awards"},{"ns":0,"title":"2009
+        Teen Choice Awards"},{"ns":0,"title":"2010 Teen Choice Awards"},{"ns":0,"title":"2011
+        Teen Choice Awards"},{"ns":0,"title":"2012 Teen Choice Awards"},{"ns":0,"title":"2013
+        Teen Choice Awards"},{"ns":0,"title":"2014 Teen Choice Awards"},{"ns":0,"title":"98
+        Degrees"},{"ns":0,"title":"AC/DC"},{"ns":0,"title":"ALMA Award"},{"ns":0,"title":"Aaron
+        Carter"},{"ns":0,"title":"Academy of Country Music Awards"},{"ns":0,"title":"American
+        Country Awards"},{"ns":0,"title":"American Music Award"},{"ns":0,"title":"Ashanti
+        (singer)"},{"ns":0,"title":"Ashlee Simpson"},{"ns":0,"title":"Ashton Kutcher"},{"ns":0,"title":"Avril
+        Lavigne"},{"ns":0,"title":"BBMAK"},{"ns":0,"title":"BET Awards"},{"ns":0,"title":"BET
+        Hip Hop Awards"},{"ns":0,"title":"Barker Hangar"},{"ns":0,"title":"Bethany
+        Hamilton"},{"ns":0,"title":"Billboard Latin Music Awards"},{"ns":0,"title":"Billboard
+        Music Award"},{"ns":0,"title":"Blink-182"},{"ns":0,"title":"Britney Spears"},{"ns":0,"title":"Bruno
+        Mars"},{"ns":0,"title":"CMT Music Awards"},{"ns":0,"title":"Carly Rae Jepsen"},{"ns":0,"title":"Chris
+        Colfer"},{"ns":0,"title":"Christina Aguilera"},{"ns":0,"title":"Cory Monteith"},{"ns":0,"title":"Country
+        Music Association Awards"},{"ns":0,"title":"Dane Cook"},{"ns":0,"title":"Darren
+        Criss"},{"ns":0,"title":"David Spade"},{"ns":0,"title":"Demi Lovato"},{"ns":0,"title":"Detroit
+        Music Awards"},{"ns":0,"title":"Diddy \u2013 Dirty Money"},{"ns":0,"title":"Do
+        Something"},{"ns":0,"title":"Enrique Iglesias"},{"ns":0,"title":"Evanescence"},{"ns":0,"title":"Eve
+        (entertainer)"},{"ns":0,"title":"Fashion"},{"ns":0,"title":"Fergie (singer)"},{"ns":0,"title":"Flo
+        Rida"},{"ns":0,"title":"Florida Georgia Line"},{"ns":0,"title":"Fox Broadcasting
+        Company"},{"ns":0,"title":"GMA Dove Award"},{"ns":0,"title":"Gibson Amphitheatre"},{"ns":0,"title":"Gloria
+        Estefan"},{"ns":0,"title":"Grammy Award"},{"ns":0,"title":"Gwen Stefani"},{"ns":0,"title":"Hall
+        of Game Awards"},{"ns":0,"title":"Hayden Panettiere"},{"ns":0,"title":"Hilary
+        Duff"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Jason Derulo"},{"ns":0,"title":"Jason
+        Der\u00fclo"},{"ns":0,"title":"Jennifer Love Hewitt"},{"ns":0,"title":"Jessica
+        Simpson"},{"ns":0,"title":"JoJo (singer)"},{"ns":0,"title":"Jonas Brothers"},{"ns":0,"title":"Justin
+        Bieber"},{"ns":0,"title":"Justin Timberlake"},{"ns":0,"title":"Kaley Cuoco"},{"ns":0,"title":"Katy
+        Perry"},{"ns":0,"title":"Kelly Clarkson"},{"ns":0,"title":"Kevin Federline"},{"ns":0,"title":"Kevin
+        McHale (actor)"},{"ns":0,"title":"Kids'' Choice Awards"},{"ns":0,"title":"Latin
+        Grammy Award"},{"ns":0,"title":"Lea Michele"},{"ns":0,"title":"Lenny Kravitz"},{"ns":0,"title":"Lo
+        Nuestro Awards"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Los Premios
+        MTV Latinoam\u00e9rica"},{"ns":0,"title":"Lucy Hale"},{"ns":0,"title":"MTV"},{"ns":0,"title":"MTV
+        Video Music Award"},{"ns":0,"title":"Mariah Carey"},{"ns":0,"title":"Mark
+        Salling"},{"ns":0,"title":"Marlon Wayans"},{"ns":0,"title":"Mike Myers (actor)"},{"ns":0,"title":"Miley
+        Cyrus"},{"ns":0,"title":"Miranda Cosgrove"},{"ns":0,"title":"Movies"},{"ns":0,"title":"Music"},{"ns":0,"title":"NAACP
+        Image Award"},{"ns":0,"title":"Nelly"},{"ns":0,"title":"Nelly Furtado"},{"ns":0,"title":"Nick
+        Cannon"},{"ns":0,"title":"Nick Carter (musician)"},{"ns":0,"title":"Nick Jonas"},{"ns":0,"title":"Nickelodeon
+        Kids'' Choice Awards"},{"ns":0,"title":"Nicole Richie"},{"ns":0,"title":"No
+        Doubt"},{"ns":0,"title":"OneRepublic"},{"ns":0,"title":"One Direction"},{"ns":0,"title":"Ozone
+        (magazine)"},{"ns":0,"title":"Paramore"},{"ns":0,"title":"Paris Hilton"},{"ns":0,"title":"Pauley
+        Pavilion"},{"ns":0,"title":"Pauly D"},{"ns":0,"title":"People''s Choice Awards"},{"ns":0,"title":"Premios
+        Juventud"},{"ns":0,"title":"Pussycat Dolls"},{"ns":0,"title":"Radio Disney
+        Music Awards"},{"ns":0,"title":"Radio Music Awards"},{"ns":0,"title":"Reese
+        Witherspoon"},{"ns":0,"title":"Rihanna"},{"ns":0,"title":"Rob Schneider"},{"ns":0,"title":"Rock
+        and Roll Hall of Fame"},{"ns":0,"title":"Santa Monica"},{"ns":0,"title":"Sarah
+        Michelle Gellar"},{"ns":0,"title":"Sean Kingston"},{"ns":0,"title":"Selena
+        Gomez"},{"ns":0,"title":"Selena Gomez & the Scene"},{"ns":0,"title":"Serena
+        Williams"},{"ns":0,"title":"Shaggy (artist)"},{"ns":0,"title":"Shop Boyz"},{"ns":0,"title":"Simple
+        Plan"},{"ns":0,"title":"Singing News Fan Awards"},{"ns":0,"title":"Soul Train
+        Music Awards"},{"ns":0,"title":"Sports"},{"ns":0,"title":"Stellar Awards"},{"ns":0,"title":"Surfboard"},{"ns":0,"title":"TEC
+        Awards"},{"ns":0,"title":"Taylor Swift"},{"ns":0,"title":"Teen Choice Award"},{"ns":0,"title":"Teen
+        Choice Award for Best Villain"},{"ns":0,"title":"Teen Choice Award for Choice
+        Animated Show"},{"ns":0,"title":"Teen Choice Award for Choice Comedy Series"},{"ns":0,"title":"Teen
+        Choice Award for Choice Drama Series"},{"ns":0,"title":"Teen Choice Award
+        for Choice Fantasy/Sci-Fi Series"},{"ns":0,"title":"Teen Choice Award for
+        Choice Hissy Fit"},{"ns":0,"title":"Teen Choice Award for Choice Summer TV
+        Series"},{"ns":0,"title":"Teen Choice Award for Choice TV Actor Fantasy/Sci-Fi"},{"ns":0,"title":"Television"},{"ns":0,"title":"The
+        Black Eyed Peas"},{"ns":0,"title":"The Donnas"},{"ns":0,"title":"The Futon
+        Critic"},{"ns":0,"title":"The Twilight Saga"},{"ns":0,"title":"Timbaland"},{"ns":0,"title":"Travie
+        McCoy"},{"ns":0,"title":"UCLA"},{"ns":0,"title":"Universal City, California"},{"ns":0,"title":"Venus
+        Williams"},{"ns":0,"title":"Westwood, Los Angeles"},{"ns":0,"title":"Will.i.am"},{"ns":0,"title":"Yellowcard"},{"ns":0,"title":"YouTube
+        Music Awards"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Musicawards"},{"ns":10,"title":"Template:Refimprove"},{"ns":10,"title":"Template:Teen
+        Choice Award s Chron"},{"ns":10,"title":"Template:Unreferenced section"},{"ns":11,"title":"Template
+        talk:Musicawards"},{"ns":11,"title":"Template talk:Teen Choice Award s Chron"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from April 2012"},{"ns":14,"title":"Category:Articles needing additional
+        references from August 2011"},{"ns":14,"title":"Category:Articles needing
+        additional references from August 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:13 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,166 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=JFK%20(film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704663805, 2340330209, 1309458055
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2883'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:21 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4016 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"39311":{"pageid":39311,"ns":0,"title":"JFK (film)","links":[{"ns":0,"title":"16
+        mm film"},{"ns":0,"title":"35 mm film"},{"ns":0,"title":"8 Million Ways to
+        Die"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award for
+        Best Cinematography"},{"ns":0,"title":"Academy Award for Best Film Editing"},{"ns":0,"title":"Academy
+        Award for Best Picture"},{"ns":0,"title":"Academy Award for Best Sound"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Award for Directing"},{"ns":0,"title":"Academy
+        Award for Film Editing"},{"ns":0,"title":"Academy Award for Original Music
+        Score"},{"ns":0,"title":"Academy Award for Writing Adapted Screenplay"},{"ns":0,"title":"Adolf
+        Hitler"},{"ns":0,"title":"Alexander (film)"},{"ns":0,"title":"All the President''s
+        Men (film)"},{"ns":0,"title":"American Cinematographer"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Anti-communist"},{"ns":0,"title":"Any Given Sunday"},{"ns":0,"title":"Arnon
+        Milchan"},{"ns":0,"title":"Aspect ratio (image)"},{"ns":0,"title":"Assassination
+        Records Review Board"},{"ns":0,"title":"Assassination of John F. Kennedy"},{"ns":0,"title":"Audio
+        commentary"},{"ns":0,"title":"Babushka Lady"},{"ns":0,"title":"Beata Po\u017aniak"},{"ns":0,"title":"Beauty
+        and the Beast (1991 film)"},{"ns":0,"title":"Beverly Oliver"},{"ns":0,"title":"Blu-ray
+        Disc"},{"ns":0,"title":"Born on the Fourth of July (film)"},{"ns":0,"title":"Boston
+        Globe"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Box office bomb"},{"ns":0,"title":"Brian
+        Doyle-Murray"},{"ns":0,"title":"British Board of Film Classification"},{"ns":0,"title":"CBS
+        Evening News"},{"ns":0,"title":"CIA"},{"ns":0,"title":"Cameo appearance"},{"ns":0,"title":"Chicago
+        Sun-Times"},{"ns":0,"title":"Chicago Tribune"},{"ns":0,"title":"Chief Justice
+        of the United States"},{"ns":0,"title":"Cineaste (magazine)"},{"ns":0,"title":"City
+        of Hope (film)"},{"ns":0,"title":"Clay Bertrand"},{"ns":0,"title":"Clay Shaw"},{"ns":0,"title":"Colonel
+        (United States)"},{"ns":0,"title":"Columbia School of Journalism"},{"ns":0,"title":"Comandante"},{"ns":0,"title":"Composite
+        character"},{"ns":0,"title":"Conan the Barbarian (1982 film)"},{"ns":0,"title":"Conspiracy
+        (crime)"},{"ns":0,"title":"Coup d''\u00e9tat"},{"ns":0,"title":"Cuba"},{"ns":0,"title":"Cuban
+        Democratic Revolutionary Front"},{"ns":0,"title":"DNA"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Dances
+        with Wolves"},{"ns":0,"title":"David Ferrie"},{"ns":0,"title":"David Wrone"},{"ns":0,"title":"Dean
+        Andrews Jr."},{"ns":0,"title":"Deep Throat (Watergate)"},{"ns":0,"title":"Defection"},{"ns":0,"title":"Deleted
+        scene"},{"ns":0,"title":"Digital editing"},{"ns":0,"title":"Director''s Cut"},{"ns":0,"title":"Director''s
+        cut"},{"ns":0,"title":"Directors Guild of America"},{"ns":0,"title":"Directors
+        Guild of America Award for Outstanding Directing \u2013 Feature Film"},{"ns":0,"title":"District
+        Attorney"},{"ns":0,"title":"District attorney"},{"ns":0,"title":"Don DeLillo"},{"ns":0,"title":"Donald
+        Sutherland"},{"ns":0,"title":"Dwight Eisenhower"},{"ns":0,"title":"Earl Warren"},{"ns":0,"title":"Ed
+        Asner"},{"ns":0,"title":"Empire (magazine)"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Evita (film)"},{"ns":0,"title":"FBI"},{"ns":0,"title":"Fair
+        Play for Cuba Committee"},{"ns":0,"title":"Film Comment"},{"ns":0,"title":"Film
+        stock"},{"ns":0,"title":"Gary Oldman"},{"ns":0,"title":"George H. W. Bush"},{"ns":0,"title":"George
+        W. Bush"},{"ns":0,"title":"George Will"},{"ns":0,"title":"George de Mohrenschildt"},{"ns":0,"title":"Golden
+        Globe"},{"ns":0,"title":"Golden Globe Award for Best Director \u2013 Motion
+        Picture"},{"ns":0,"title":"Gregg Landaker"},{"ns":0,"title":"Guy Banister"},{"ns":0,"title":"Harrison
+        Ford"},{"ns":0,"title":"Havana"},{"ns":0,"title":"Heaven & Earth (1993 film)"},{"ns":0,"title":"Hollywood
+        accounting"},{"ns":0,"title":"Hook (film)"},{"ns":0,"title":"House Select
+        Committee on Assassinations"},{"ns":0,"title":"Howard Hughes"},{"ns":0,"title":"IGN"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"J.D.
+        Tippit"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack Ruby"},{"ns":0,"title":"Jack
+        Valenti"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jay O. Sanders"},{"ns":0,"title":"Jean
+        Hill"},{"ns":0,"title":"Jim Garrison"},{"ns":0,"title":"Jim Marrs"},{"ns":0,"title":"Joe
+        Hutshing"},{"ns":0,"title":"Joe Pesci"},{"ns":0,"title":"John Birch Society"},{"ns":0,"title":"John
+        Candy"},{"ns":0,"title":"John F. Kennedy"},{"ns":0,"title":"John F. Kennedy
+        assassination"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John Sayles"},{"ns":0,"title":"John
+        Williams"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Keith Hernandez"},{"ns":0,"title":"Kennedy
+        assassination conspiracy theories"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"L. Fletcher Prouty"},{"ns":0,"title":"Laserdisc"},{"ns":0,"title":"Laurie
+        Metcalf"},{"ns":0,"title":"Lee Harvey Oswald"},{"ns":0,"title":"Leni Riefenstahl"},{"ns":0,"title":"Libra
+        (novel)"},{"ns":0,"title":"List of people involved in the trial of Clay Shaw"},{"ns":0,"title":"Looking
+        for Fidel"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Louisiana"},{"ns":0,"title":"Lyndon
+        B. Johnson"},{"ns":0,"title":"Lyndon Baines Johnson"},{"ns":0,"title":"Mafia"},{"ns":0,"title":"Marina
+        Oswald"},{"ns":0,"title":"Martin Sheen"},{"ns":0,"title":"Mel Gibson"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Miami
+        Herald"},{"ns":0,"title":"Michael Minkler"},{"ns":0,"title":"Michael Ovitz"},{"ns":0,"title":"Michael
+        Rooker"},{"ns":0,"title":"Midnight Express (film)"},{"ns":0,"title":"Military-industrial
+        complex"},{"ns":0,"title":"Minutemen (anti-Communist organization)"},{"ns":0,"title":"Motion
+        Picture Association of America"},{"ns":0,"title":"Natural Born Killers"},{"ns":0,"title":"Nederlandse
+        Omroep Stichting"},{"ns":0,"title":"Net profit"},{"ns":0,"title":"Netherlands"},{"ns":0,"title":"New
+        Orleans"},{"ns":0,"title":"New York Times"},{"ns":0,"title":"Nightclub"},{"ns":0,"title":"Nixon
+        (film)"},{"ns":0,"title":"Oliver Stone"},{"ns":0,"title":"Oliver Stone''s
+        Untold History of the United States"},{"ns":0,"title":"On the Trail of the
+        Assassins"},{"ns":0,"title":"Pastiche"},{"ns":0,"title":"People involved in
+        the trial of Clay Shaw"},{"ns":0,"title":"Perry Russo"},{"ns":0,"title":"Persona
+        Non Grata (film)"},{"ns":0,"title":"Pietro Scalia"},{"ns":0,"title":"Platoon
+        (film)"},{"ns":0,"title":"President John F. Kennedy Assassination Records
+        Collection Act of 1992"},{"ns":0,"title":"Private investigator"},{"ns":0,"title":"Progressive
+        Review"},{"ns":0,"title":"Pseudo-documentary"},{"ns":0,"title":"Quantum Leap"},{"ns":0,"title":"Rashomon
+        (film)"},{"ns":0,"title":"Reclaiming History: The Assassination of President
+        John F. Kennedy"},{"ns":0,"title":"Regency Enterprises"},{"ns":0,"title":"Richard
+        Case Nagell"},{"ns":0,"title":"Richard Helms"},{"ns":0,"title":"Robert Groden"},{"ns":0,"title":"Robert
+        Ludlum"},{"ns":0,"title":"Robert Richardson (cinematographer)"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Roger McDowell"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Russell
+        B. Long"},{"ns":0,"title":"Salewicz, Chris"},{"ns":0,"title":"Sally Kirkland"},{"ns":0,"title":"Salvador
+        (film)"},{"ns":0,"title":"Savages (2012 film)"},{"ns":0,"title":"Scarface
+        (1983 film)"},{"ns":0,"title":"Seinfeld"},{"ns":0,"title":"Seizure (film)"},{"ns":0,"title":"Single
+        bullet theory"},{"ns":0,"title":"Sissy Spacek"},{"ns":0,"title":"Soliciting"},{"ns":0,"title":"South
+        of the Border (2009 film)"},{"ns":0,"title":"Soviet Union"},{"ns":0,"title":"Steven
+        Spielberg"},{"ns":0,"title":"StudioCanal"},{"ns":0,"title":"Super 8 mm film"},{"ns":0,"title":"Sydney
+        Morning Herald"},{"ns":0,"title":"Talk Radio (film)"},{"ns":0,"title":"Terry
+        Semel"},{"ns":0,"title":"Texas School Book Depository"},{"ns":0,"title":"The
+        Boyfriend (Seinfeld)"},{"ns":0,"title":"The Doors (film)"},{"ns":0,"title":"The
+        Guardian"},{"ns":0,"title":"The Hand (film)"},{"ns":0,"title":"The Independent"},{"ns":0,"title":"The
+        Killing Fields (film)"},{"ns":0,"title":"The Longest Day (film)"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Oprah Winfrey Show"},{"ns":0,"title":"The
+        Parallax View"},{"ns":0,"title":"The Pentagon"},{"ns":0,"title":"The Washingtonian
+        (magazine)"},{"ns":0,"title":"Thriller (genre)"},{"ns":0,"title":"Time (magazine)"},{"ns":0,"title":"Time
+        code"},{"ns":0,"title":"Tod A. Maitland"},{"ns":0,"title":"Tommy Lee Jones"},{"ns":0,"title":"Trial
+        of Clay Shaw"},{"ns":0,"title":"Triumph of the Will"},{"ns":0,"title":"Turner
+        Classic Movies"},{"ns":0,"title":"USA Today"},{"ns":0,"title":"USD"},{"ns":0,"title":"U
+        Turn (1997 film)"},{"ns":0,"title":"United States Air Force"},{"ns":0,"title":"United
+        States Democratic Party"},{"ns":0,"title":"United States Marine Corps"},{"ns":0,"title":"United
+        States Secret Service"},{"ns":0,"title":"United States Senate"},{"ns":0,"title":"United
+        States dollar"},{"ns":0,"title":"VHS"},{"ns":0,"title":"Vietnam War"},{"ns":0,"title":"Vincent
+        Bugliosi"},{"ns":0,"title":"Vincent Canby"},{"ns":0,"title":"Vincent D''Onofrio"},{"ns":0,"title":"W.
+        (film)"},{"ns":0,"title":"Wall Street: Money Never Sleeps"},{"ns":0,"title":"Wall
+        Street (1987 film)"},{"ns":0,"title":"Walter Matthau"},{"ns":0,"title":"Warner
+        Bros."},{"ns":0,"title":"Warren Beatty"},{"ns":0,"title":"Warren Commission"},{"ns":0,"title":"Warren
+        Report"},{"ns":0,"title":"Washington Post"},{"ns":0,"title":"Wayne Knight"},{"ns":0,"title":"Willem
+        Dafoe"},{"ns":0,"title":"Willem Oltmans"},{"ns":0,"title":"William Shakespeare"},{"ns":0,"title":"World
+        Trade Center (film)"},{"ns":0,"title":"Yale University"},{"ns":0,"title":"Year
+        of the Dragon (film)"},{"ns":0,"title":"YouTube"},{"ns":0,"title":"Z (1969
+        film)"},{"ns":0,"title":"Zapruder film"},{"ns":4,"title":"Wikipedia:Good articles"},{"ns":10,"title":"Template:Garrison
+        JFK investigation"},{"ns":10,"title":"Template:Oliver Stone"},{"ns":11,"title":"Template
+        talk:Garrison JFK investigation"},{"ns":11,"title":"Template talk:Oliver Stone"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":14,"title":"Category:Use mdy dates from August 2013"},{"ns":100,"title":"Portal:1990s"},{"ns":100,"title":"Portal:Film
+        in the United States"},{"ns":100,"title":"Portal:Politics"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:22 GMT
+recorded_with: VCR 2.9.2

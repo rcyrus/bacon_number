@@ -1,0 +1,151 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Paul%20Erd%C5%91s
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287158019, 1102695256, 2899137706
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2603'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:47 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4017 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"601284":{"pageid":601284,"ns":0,"title":"Paul Erd\u0151s","links":[{"ns":0,"title":"A.
+        R. Reddy"},{"ns":0,"title":"Adrian Bondy"},{"ns":0,"title":"Agnostic atheist"},{"ns":0,"title":"Alberto
+        Calder\u00f3n"},{"ns":0,"title":"Alexander Soifer"},{"ns":0,"title":"Alfr\u00e9d
+        R\u00e9nyi"},{"ns":0,"title":"Alma mater"},{"ns":0,"title":"American Mathematical
+        Society"},{"ns":0,"title":"Amphetamine"},{"ns":0,"title":"Analytic number
+        theory"},{"ns":0,"title":"Andrew Wiles"},{"ns":0,"title":"Andrey Kolmogorov"},{"ns":0,"title":"Andr\u00e1s
+        Gy\u00e1rf\u00e1s"},{"ns":0,"title":"Andr\u00e1s Hajnal"},{"ns":0,"title":"Andr\u00e1s
+        S\u00e1rk\u00f6zy"},{"ns":0,"title":"Andr\u00e9 Weil"},{"ns":0,"title":"Approximation
+        theory"},{"ns":0,"title":"Arithmetic progression"},{"ns":0,"title":"Atle Selberg"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Baseball Hall of Fame"},{"ns":0,"title":"Bertrand''s
+        postulate"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Biographical
+        Memoirs of Fellows of the Royal Society"},{"ns":0,"title":"Bonifac Donat"},{"ns":0,"title":"Budapest"},{"ns":0,"title":"B\u00e9la
+        Bollob\u00e1s"},{"ns":0,"title":"C. C. Rousseau"},{"ns":0,"title":"Carl Ludwig
+        Siegel"},{"ns":0,"title":"Carl Pomerance"},{"ns":0,"title":"Charles Krauthammer"},{"ns":0,"title":"Chebyshev"},{"ns":0,"title":"Child
+        prodigy"},{"ns":0,"title":"Classical analysis"},{"ns":0,"title":"Coffee (drink)"},{"ns":0,"title":"Cole
+        Prize"},{"ns":0,"title":"Collatz conjecture"},{"ns":0,"title":"Combinatorics"},{"ns":0,"title":"David
+        Mumford"},{"ns":0,"title":"Dennis Sullivan"},{"ns":0,"title":"Digital object
+        identifier"},{"ns":0,"title":"Doctoral advisor"},{"ns":0,"title":"Double acute
+        accent"},{"ns":0,"title":"Edmund F. Robertson"},{"ns":0,"title":"Elias M.
+        Stein"},{"ns":0,"title":"Emory University"},{"ns":0,"title":"Endre Szemer\u00e9di"},{"ns":0,"title":"England"},{"ns":0,"title":"Ennio
+        de Giorgi"},{"ns":0,"title":"Epitaph"},{"ns":0,"title":"Epsilon"},{"ns":0,"title":"Erd\u0151s
+        conjecture on arithmetic progressions"},{"ns":0,"title":"Erd\u0151s number"},{"ns":0,"title":"Eric
+        Milner"},{"ns":0,"title":"Ernst G. Straus"},{"ns":0,"title":"Extremal combinatorics"},{"ns":0,"title":"E\u00f6tv\u00f6s
+        Lor\u00e1nd University"},{"ns":0,"title":"Fan Chung"},{"ns":0,"title":"Fej\u00e9r
+        Lip\u00f3t"},{"ns":0,"title":"Fellow of the Royal Society"},{"ns":0,"title":"Fields
+        Medal"},{"ns":0,"title":"Friedrich Hirzebruch"},{"ns":0,"title":"George Mostow"},{"ns":0,"title":"George
+        Piranian"},{"ns":0,"title":"George P\u00f3lya"},{"ns":0,"title":"God"},{"ns":0,"title":"Graph
+        theory"},{"ns":0,"title":"Green\u2013Tao theorem"},{"ns":0,"title":"Grigory
+        Margulis"},{"ns":0,"title":"Hank Aaron"},{"ns":0,"title":"Hans Lewy"},{"ns":0,"title":"Hassler
+        Whitney"},{"ns":0,"title":"Henri Cartan"},{"ns":0,"title":"Hillel Furstenberg"},{"ns":0,"title":"Hungarian
+        language"},{"ns":0,"title":"Hungary"},{"ns":0,"title":"Ilya Piatetski-Shapiro"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Israel"},{"ns":0,"title":"Israel
+        Gelfand"},{"ns":0,"title":"Istv\u00e1n Jo\u00f3"},{"ns":0,"title":"JSTOR"},{"ns":0,"title":"Jacques
+        Tits"},{"ns":0,"title":"Jean-Louis Nicolas"},{"ns":0,"title":"Jean-Pierre
+        Serre"},{"ns":0,"title":"Jean Leray"},{"ns":0,"title":"Jewish"},{"ns":0,"title":"Joel
+        Spencer"},{"ns":0,"title":"John G. Thompson"},{"ns":0,"title":"John J. O''Connor
+        (mathematician)"},{"ns":0,"title":"John Milnor"},{"ns":0,"title":"John Selfridge"},{"ns":0,"title":"John
+        Tate"},{"ns":0,"title":"John von Neumann"},{"ns":0,"title":"Joseph Keller"},{"ns":0,"title":"Joseph
+        Kruskal"},{"ns":0,"title":"Joseph Stalin"},{"ns":0,"title":"J\u00e1nos Pach"},{"ns":0,"title":"J\u00fcrgen
+        Moser"},{"ns":0,"title":"Kiyoshi It\u014d"},{"ns":0,"title":"Kozma Utcai Temet\u0151"},{"ns":0,"title":"Kunihiko
+        Kodaira"},{"ns":0,"title":"K\u00f6z\u00e9piskolai Matematikai \u00e9s Fizikai
+        Lapok"},{"ns":0,"title":"LIBRIS"},{"ns":0,"title":"Lars Ahlfors"},{"ns":0,"title":"Lars
+        H\u00f6rmander"},{"ns":0,"title":"Lennart Carleson"},{"ns":0,"title":"Leonhard
+        Euler"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lip\u00f3t
+        Fej\u00e9r"},{"ns":0,"title":"List of people by Erd\u0151s number"},{"ns":0,"title":"List
+        of topics named after Paul Erd\u0151s"},{"ns":0,"title":"Luis Caffarelli"},{"ns":0,"title":"L\u00e1szl\u00f3
+        Lov\u00e1sz"},{"ns":0,"title":"MacTutor History of Mathematics archive"},{"ns":0,"title":"Manchester"},{"ns":0,"title":"Mark
+        Krein"},{"ns":0,"title":"Martin Aigner"},{"ns":0,"title":"Mathematical analysis"},{"ns":0,"title":"Mathematical
+        beauty"},{"ns":0,"title":"Mathematician"},{"ns":0,"title":"Mathematics"},{"ns":0,"title":"Mathematics
+        Genealogy Project"},{"ns":0,"title":"Melvyn Nathanson"},{"ns":0,"title":"Michael
+        Artin"},{"ns":0,"title":"Michael Aschbacher"},{"ns":0,"title":"Michael Golomb"},{"ns":0,"title":"Mikhail
+        Leonidovich Gromov"},{"ns":0,"title":"Mikio Sato"},{"ns":0,"title":"Mikl\u00f3s
+        Simonovits"},{"ns":0,"title":"Myocardial infarction"},{"ns":0,"title":"N Is
+        a Number: A Portrait of Paul Erd\u0151s"},{"ns":0,"title":"National Diet Library"},{"ns":0,"title":"National
+        Library of Australia"},{"ns":0,"title":"National Library of the Czech Republic"},{"ns":0,"title":"New
+        York Times"},{"ns":0,"title":"Notices of the American Mathematical Society"},{"ns":0,"title":"Number
+        theory"},{"ns":0,"title":"Oscar Zariski"},{"ns":0,"title":"Pal Revesz"},{"ns":0,"title":"Passport"},{"ns":0,"title":"Paul
+        Hoffman (science writer)"},{"ns":0,"title":"Paul Tur\u00e1n"},{"ns":0,"title":"Peter
+        Lax"},{"ns":0,"title":"Peter Sarnak"},{"ns":0,"title":"Philanthropist"},{"ns":0,"title":"Phillip
+        Griffiths"},{"ns":0,"title":"Pierre Deligne"},{"ns":0,"title":"Poland"},{"ns":0,"title":"Prime
+        number"},{"ns":0,"title":"Prime number theorem"},{"ns":0,"title":"Princeton
+        University"},{"ns":0,"title":"Probabilistic method"},{"ns":0,"title":"Probability"},{"ns":0,"title":"Probability
+        theory"},{"ns":0,"title":"Proofs from THE BOOK"},{"ns":0,"title":"PubMed Identifier"},{"ns":0,"title":"Purdue
+        University"},{"ns":0,"title":"P\u00e1l Tur\u00e1n"},{"ns":0,"title":"Radio
+        Lab"},{"ns":0,"title":"Ralph Faudree"},{"ns":0,"title":"Ramsey theory"},{"ns":0,"title":"Raoul
+        Bott"},{"ns":0,"title":"Richard R. Hall"},{"ns":0,"title":"Richard Rado"},{"ns":0,"title":"Richard
+        Schelp"},{"ns":0,"title":"Robert Langlands"},{"ns":0,"title":"Ronald Graham"},{"ns":0,"title":"Royal
+        Society"},{"ns":0,"title":"Saharon Shelah"},{"ns":0,"title":"Samuel Eilenberg"},{"ns":0,"title":"Sergei
+        Novikov (mathematician)"},{"ns":0,"title":"Series (mathematics)"},{"ns":0,"title":"Set
+        theory"},{"ns":0,"title":"Shiing-Shen Chern"},{"ns":0,"title":"Shing-Tung
+        Yau"},{"ns":0,"title":"Simon & Schuster"},{"ns":0,"title":"Small world phenomenon"},{"ns":0,"title":"Soviet
+        Union"},{"ns":0,"title":"Stefan Burr"},{"ns":0,"title":"Stephen Smale"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Terence Tao"},{"ns":0,"title":"The
+        Man Who Loved Only Numbers"},{"ns":0,"title":"Theorem"},{"ns":0,"title":"Timothy
+        Gowers"},{"ns":0,"title":"Topology"},{"ns":0,"title":"Totally disconnected
+        space"},{"ns":0,"title":"U.S."},{"ns":0,"title":"Uncle Sam"},{"ns":0,"title":"United
+        Kingdom"},{"ns":0,"title":"United States"},{"ns":0,"title":"United States
+        Citizenship and Immigration Services"},{"ns":0,"title":"United States National
+        Academy of Sciences"},{"ns":0,"title":"University of Manchester"},{"ns":0,"title":"University
+        of Notre Dame"},{"ns":0,"title":"University of St Andrews"},{"ns":0,"title":"University
+        of Waterloo"},{"ns":0,"title":"Vagabond (person)"},{"ns":0,"title":"Vera S\u00f3s"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Vladimir Arnold"},{"ns":0,"title":"Vojt\u011bch
+        R\u00f6dl"},{"ns":0,"title":"Warsaw"},{"ns":0,"title":"Warsaw Pact"},{"ns":0,"title":"Washington
+        Post"},{"ns":0,"title":"Wolf Prize"},{"ns":0,"title":"Wolf Prize in Mathematics"},{"ns":0,"title":"Yakov
+        Sinai"},{"ns":0,"title":"Zero-dimensional space"},{"ns":0,"title":"Zolt\u00e1n
+        F\u00fcredi"},{"ns":0,"title":"Zsolt Tuza"},{"ns":0,"title":"\u0150"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:External links"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:What
+        Wikipedia is not"},{"ns":10,"title":"Template:Cite doi/10.1098.2Frsbm.1999.0011"},{"ns":10,"title":"Template:External
+        links"},{"ns":10,"title":"Template:Wolf Prize in Agriculture"},{"ns":10,"title":"Template:Wolf
+        Prize in Arts"},{"ns":10,"title":"Template:Wolf Prize in Chemistry"},{"ns":10,"title":"Template:Wolf
+        Prize in Mathematics"},{"ns":10,"title":"Template:Wolf Prize in Medicine"},{"ns":10,"title":"Template:Wolf
+        Prize in Physics"},{"ns":11,"title":"Template talk:Wolf Prize in Mathematics"},{"ns":12,"title":"Help:IPA
+        for Hungarian"},{"ns":14,"title":"Category:Articles containing Hungarian-language
+        text"},{"ns":14,"title":"Category:Wikipedia external links cleanup from September
+        2011"},{"ns":14,"title":"Category:Wikipedia spam cleanup from September 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:48 GMT
+recorded_with: VCR 2.9.2

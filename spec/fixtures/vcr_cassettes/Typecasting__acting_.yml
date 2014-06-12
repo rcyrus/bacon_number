@@ -1,0 +1,98 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Typecasting%20(acting)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87339277, 1102714564, 3142956959
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1288'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:20 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4017 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"641121":{"pageid":641121,"ns":0,"title":"Typecasting
+        (acting)","links":[{"ns":0,"title":"Actor"},{"ns":0,"title":"Adam Sandler"},{"ns":0,"title":"Adam
+        West"},{"ns":0,"title":"Airplane!"},{"ns":0,"title":"Batman"},{"ns":0,"title":"Batman
+        (TV series)"},{"ns":0,"title":"Brat Pack (actors)"},{"ns":0,"title":"Brit
+        Pack (actors)"},{"ns":0,"title":"Carmen"},{"ns":0,"title":"Casting (performing
+        arts)"},{"ns":0,"title":"Central Casting"},{"ns":0,"title":"Character actor"},{"ns":0,"title":"Charlie
+        Chaplin"},{"ns":0,"title":"Child actor"},{"ns":0,"title":"Chris Rock"},{"ns":0,"title":"Clayton
+        Moore"},{"ns":0,"title":"Cult of personality"},{"ns":0,"title":"Dan Fielding"},{"ns":0,"title":"DeForest
+        Kelley"},{"ns":0,"title":"Denyce Graves"},{"ns":0,"title":"Die Zeit"},{"ns":0,"title":"Ed
+        O''Neill"},{"ns":0,"title":"Ethnic group"},{"ns":0,"title":"Fach"},{"ns":0,"title":"Fictional
+        character"},{"ns":0,"title":"Film"},{"ns":0,"title":"Flight of the Intruder"},{"ns":0,"title":"Frat
+        Pack"},{"ns":0,"title":"From Here to Eternity"},{"ns":0,"title":"Galaxy Quest"},{"ns":0,"title":"George
+        Reeves"},{"ns":0,"title":"German language"},{"ns":0,"title":"Golden Age of
+        Television"},{"ns":0,"title":"Hollywoodland"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Serial Number"},{"ns":0,"title":"Jackie
+        Chan"},{"ns":0,"title":"James Doohan"},{"ns":0,"title":"Jean-Claude Van Damme"},{"ns":0,"title":"Jean-Luc
+        Picard"},{"ns":0,"title":"Jet Li"},{"ns":0,"title":"John Larroquette"},{"ns":0,"title":"Jonathan
+        Frakes"},{"ns":0,"title":"Joseph Stalin"},{"ns":0,"title":"Kagemusha"},{"ns":0,"title":"Leading
+        actor"},{"ns":0,"title":"Lenin in 1918"},{"ns":0,"title":"Leonard Nimoy"},{"ns":0,"title":"Leslie
+        Nielsen"},{"ns":0,"title":"Married... with Children"},{"ns":0,"title":"Media
+        franchise"},{"ns":0,"title":"Michael Dorn"},{"ns":0,"title":"Mikheil Gelovani"},{"ns":0,"title":"Nichelle
+        Nichols"},{"ns":0,"title":"Night Court"},{"ns":0,"title":"Opera"},{"ns":0,"title":"Patrick
+        Stewart"},{"ns":0,"title":"Performing arts"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Supporting Actor in a Comedy Series"},{"ns":0,"title":"Professor
+        X"},{"ns":0,"title":"Rat Pack"},{"ns":0,"title":"Residual (entertainment industry)"},{"ns":0,"title":"Role
+        (actor)"},{"ns":0,"title":"Secret Speech"},{"ns":0,"title":"Social class"},{"ns":0,"title":"Star
+        Trek: The Original Series"},{"ns":0,"title":"Star Trek (film franchise)"},{"ns":0,"title":"Star
+        Trek VI: The Undiscovered Country"},{"ns":0,"title":"Star Trek convention"},{"ns":0,"title":"Starfleet"},{"ns":0,"title":"Superman"},{"ns":0,"title":"TV
+        series"},{"ns":0,"title":"Television"},{"ns":0,"title":"The Fall of Berlin
+        (film)"},{"ns":0,"title":"The Great Dawn"},{"ns":0,"title":"The Lone Ranger"},{"ns":0,"title":"The
+        Unforgettable Year 1919"},{"ns":0,"title":"The Vow (1946 film)"},{"ns":0,"title":"Theatre"},{"ns":0,"title":"Tim
+        Allen"},{"ns":0,"title":"Trait theory"},{"ns":0,"title":"Trekkies"},{"ns":0,"title":"USS
+        Enterprise (NCC-1701)"},{"ns":0,"title":"Ulmer Scale"},{"ns":0,"title":"Walter
+        Koenig"},{"ns":0,"title":"William Shatner"},{"ns":0,"title":"X-Men (film series)"},{"ns":1,"title":"Talk:Typecasting
+        (acting)"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Manual
+        of Style/Words to watch"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":4,"title":"Wikipedia:WikiProject
+        Countering systemic bias"},{"ns":10,"title":"Template:Globalize"},{"ns":10,"title":"Template:Refimprove"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from February 2010"},{"ns":14,"title":"Category:Articles with limited
+        geographic scope from June 2011"},{"ns":14,"title":"Category:Articles with
+        specifically marked weasel-worded phrases from March 2014"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from July 2010"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from June 2007"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:21 GMT
+recorded_with: VCR 2.9.2

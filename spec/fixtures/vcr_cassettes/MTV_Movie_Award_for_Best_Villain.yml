@@ -1,0 +1,192 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=MTV%20Movie%20Award%20for%20Best%20Villain
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332299538, 1102688835, 2597334259
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3162'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:36 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4017 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"19914748":{"pageid":19914748,"ns":0,"title":"MTV
+        Movie Award for Best Villain","links":[{"ns":0,"title":"12 Years a Slave (film)"},{"ns":0,"title":"1992
+        MTV Movie Awards"},{"ns":0,"title":"1993 MTV Movie Awards"},{"ns":0,"title":"1994
+        MTV Movie Awards"},{"ns":0,"title":"1995 MTV Movie Awards"},{"ns":0,"title":"1996
+        MTV Movie Awards"},{"ns":0,"title":"1997 MTV Movie Awards"},{"ns":0,"title":"1998
+        MTV Movie Awards"},{"ns":0,"title":"1999 MTV Movie Awards"},{"ns":0,"title":"2000
+        MTV Movie Awards"},{"ns":0,"title":"2001 MTV Movie Awards"},{"ns":0,"title":"2002
+        MTV Movie Awards"},{"ns":0,"title":"2003 MTV Movie Awards"},{"ns":0,"title":"2004
+        MTV Movie Awards"},{"ns":0,"title":"2005 MTV Movie Awards"},{"ns":0,"title":"2006
+        MTV Movie Awards"},{"ns":0,"title":"2007 MTV Movie Awards"},{"ns":0,"title":"2008
+        MTV Movie Awards"},{"ns":0,"title":"2009 MTV Movie Awards"},{"ns":0,"title":"2010
+        MTV Movie Awards"},{"ns":0,"title":"2011 MTV Movie Awards"},{"ns":0,"title":"2012
+        MTV Movie Awards"},{"ns":0,"title":"2013 MTV Movie Awards"},{"ns":0,"title":"2014
+        MTV Movie Awards"},{"ns":0,"title":"300 (film)"},{"ns":0,"title":"A Few Good
+        Men (film)"},{"ns":0,"title":"A Time to Kill (film)"},{"ns":0,"title":"Aaliyah"},{"ns":0,"title":"Abduwali
+        Muse"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Air Force One (film)"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Alfred Molina"},{"ns":0,"title":"Alice
+        in Wonderland (2010 film)"},{"ns":0,"title":"Alicia Silverstone"},{"ns":0,"title":"American
+        Gangster (film)"},{"ns":0,"title":"Andrew Bryniarski"},{"ns":0,"title":"Angelina
+        Jolie"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anton Chigurh"},{"ns":0,"title":"Austin
+        Powers: International Man of Mystery"},{"ns":0,"title":"Austin Powers: The
+        Spy Who Shagged Me"},{"ns":0,"title":"Austin Powers in Goldmember"},{"ns":0,"title":"Avatar
+        (2009 film)"},{"ns":0,"title":"Bane (comics)"},{"ns":0,"title":"Barkhad Abdi"},{"ns":0,"title":"Batman
+        Begins"},{"ns":0,"title":"Batman Forever"},{"ns":0,"title":"Batman Returns"},{"ns":0,"title":"Ben
+        Stiller"},{"ns":0,"title":"Benedict Cumberbatch"},{"ns":0,"title":"Beowulf
+        (2007 film)"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Billy Zane"},{"ns":0,"title":"Blacklash"},{"ns":0,"title":"Blade
+        (film)"},{"ns":0,"title":"Blown Away (1994 film)"},{"ns":0,"title":"Brad Dourif"},{"ns":0,"title":"Bride
+        of Chucky"},{"ns":0,"title":"Bridesmaids (2011 film)"},{"ns":0,"title":"Broken
+        Arrow (1996 film)"},{"ns":0,"title":"Bryce Dallas Howard"},{"ns":0,"title":"Bullseye
+        (comics)"},{"ns":0,"title":"Cape Fear (1991 film)"},{"ns":0,"title":"Captain
+        Phillips (film)"},{"ns":0,"title":"Casino (film)"},{"ns":0,"title":"Charlie''s
+        Angels: Full Throttle"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Lee"},{"ns":0,"title":"Christopher Walken"},{"ns":0,"title":"Chucky (Child''s
+        Play)"},{"ns":0,"title":"Cillian Murphy"},{"ns":0,"title":"Colin Farrell"},{"ns":0,"title":"Collateral
+        (film)"},{"ns":0,"title":"Count Olaf"},{"ns":0,"title":"Cruel Intentions"},{"ns":0,"title":"D.D.S."},{"ns":0,"title":"Daniel
+        Day-Lewis"},{"ns":0,"title":"Danny DeVito"},{"ns":0,"title":"Daredevil (film)"},{"ns":0,"title":"Darth
+        Maul"},{"ns":0,"title":"Darth Vader"},{"ns":0,"title":"Daveigh Chase"},{"ns":0,"title":"Davy
+        Jones (Pirates of the Caribbean)"},{"ns":0,"title":"Demi Moore"},{"ns":0,"title":"Demolition
+        Man (film)"},{"ns":0,"title":"Dennis Hopper"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Derek
+        Mears"},{"ns":0,"title":"Disclosure (film)"},{"ns":0,"title":"Django Unchained"},{"ns":0,"title":"Doctor
+        Octopus"},{"ns":0,"title":"Dodgeball: A True Underdog Story"},{"ns":0,"title":"Donald
+        Sutherland"},{"ns":0,"title":"Dr. Evil"},{"ns":0,"title":"Draco Malfoy"},{"ns":0,"title":"Dwayne
+        Johnson"},{"ns":0,"title":"Eddie Brock"},{"ns":0,"title":"Edward Norton"},{"ns":0,"title":"Face/Off"},{"ns":0,"title":"Fear
+        (1996 film)"},{"ns":0,"title":"Frank Lucas"},{"ns":0,"title":"Friday the 13th
+        (2009 film)"},{"ns":0,"title":"Gangs of New York"},{"ns":0,"title":"Gary Oldman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"Get Smart (film)"},{"ns":0,"title":"Gladiator (2000
+        film)"},{"ns":0,"title":"Green Goblin"},{"ns":0,"title":"Grendel''s mother"},{"ns":0,"title":"Hannibal
+        (film)"},{"ns":0,"title":"Hannibal Lecter"},{"ns":0,"title":"Hans Landa"},{"ns":0,"title":"Harry
+        Potter and the Deathly Hallows: Part 1"},{"ns":0,"title":"Harry Potter and
+        the Goblet of Fire (film)"},{"ns":0,"title":"Harry Potter and the Half-Blood
+        Prince (film)"},{"ns":0,"title":"Hayden Christensen"},{"ns":0,"title":"Headless
+        Horseman (Legend of Sleepy Hollow)"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Hector
+        Barbossa"},{"ns":0,"title":"Helena Bonham Carter"},{"ns":0,"title":"Hellboy
+        II: The Golden Army"},{"ns":0,"title":"Hollow Man"},{"ns":0,"title":"Horrible
+        Bosses"},{"ns":0,"title":"How the Grinch Stole Christmas (film)"},{"ns":0,"title":"In
+        the Line of Fire"},{"ns":0,"title":"Inglourious Basterds"},{"ns":0,"title":"Interview
+        with the Vampire: The Vampire Chronicles"},{"ns":0,"title":"Iron Man 2"},{"ns":0,"title":"Jack
+        Nicholson"},{"ns":0,"title":"Jason Voorhees"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jawbreaker
+        (film)"},{"ns":0,"title":"Jennifer Aniston"},{"ns":0,"title":"Jennifer Jason
+        Leigh"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jet Li"},{"ns":0,"title":"Jigsaw
+        (Saw franchise)"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"Joe
+        Pesci"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"Johnathon
+        Schaech"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Joker (comics)"},{"ns":0,"title":"Jon
+        Hamm"},{"ns":0,"title":"Jurassic Park (film)"},{"ns":0,"title":"Ken Jeong"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Khan Noonien Singh"},{"ns":0,"title":"Kiefer
+        Sutherland"},{"ns":0,"title":"Kill Bill: Vol. 1"},{"ns":0,"title":"Leatherface"},{"ns":0,"title":"Leighton
+        Meester"},{"ns":0,"title":"Lemony Snicket''s A Series of Unfortunate Events"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Lestat de Lioncourt"},{"ns":0,"title":"Lethal
+        Weapon 4"},{"ns":0,"title":"List of Toy Story characters"},{"ns":0,"title":"Loki
+        (comics)"},{"ns":0,"title":"Lord Voldemort"},{"ns":0,"title":"Lucifer"},{"ns":0,"title":"Lucy
+        Liu"},{"ns":0,"title":"Luke Goss"},{"ns":0,"title":"MTV Movie Award for Best
+        Action Sequence"},{"ns":0,"title":"MTV Movie Award for Best Breakthrough Performance"},{"ns":0,"title":"MTV
+        Movie Award for Best Cameo"},{"ns":0,"title":"MTV Movie Award for Best Comedic
+        Performance"},{"ns":0,"title":"MTV Movie Award for Best Dance Sequence"},{"ns":0,"title":"MTV
+        Movie Award for Best Dressed"},{"ns":0,"title":"MTV Movie Award for Best Fight"},{"ns":0,"title":"MTV
+        Movie Award for Best Hero"},{"ns":0,"title":"MTV Movie Award for Best Jaw
+        Dropping Moment"},{"ns":0,"title":"MTV Movie Award for Best Kiss"},{"ns":0,"title":"MTV
+        Movie Award for Best Movie"},{"ns":0,"title":"MTV Movie Award for Best New
+        Filmmaker"},{"ns":0,"title":"MTV Movie Award for Best On-Screen Duo"},{"ns":0,"title":"MTV
+        Movie Award for Best Performance"},{"ns":0,"title":"MTV Movie Award for Best
+        Scared-As-S**t Performance"},{"ns":0,"title":"MTV Movie Award for Best Song
+        from a Movie"},{"ns":0,"title":"MTV Movie Award for Most Desirable Female"},{"ns":0,"title":"MTV
+        Movie Award for Most Desirable Male"},{"ns":0,"title":"MTV Movie Awards"},{"ns":0,"title":"Macaulay
+        Culkin"},{"ns":0,"title":"Marion Cotillard"},{"ns":0,"title":"Mark Wahlberg"},{"ns":0,"title":"Matt
+        Damon"},{"ns":0,"title":"Matt Dillon"},{"ns":0,"title":"Max Cady"},{"ns":0,"title":"Mean
+        Girls"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Michael Fassbender"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Mike Myers"},{"ns":0,"title":"Mike Myers (actor)"},{"ns":0,"title":"Mila
+        Kunis"},{"ns":0,"title":"Ned Beatty"},{"ns":0,"title":"New Jack City"},{"ns":0,"title":"Nicky
+        Santoro"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"No Country for
+        Old Men (film)"},{"ns":0,"title":"O-Ren Ishii"},{"ns":0,"title":"Oliver Cooper"},{"ns":0,"title":"Oz
+        the Great and Powerful"},{"ns":0,"title":"Penguin (comics)"},{"ns":0,"title":"Phone
+        Booth (film)"},{"ns":0,"title":"Pirates of the Caribbean: Dead Man''s Chest"},{"ns":0,"title":"Pirates
+        of the Caribbean: The Curse of the Black Pearl"},{"ns":0,"title":"Planet of
+        the Apes (2001 film)"},{"ns":0,"title":"President Snow"},{"ns":0,"title":"Primal
+        Fear (film)"},{"ns":0,"title":"Project X (2012 film)"},{"ns":0,"title":"Prom
+        Night (2008 film)"},{"ns":0,"title":"Queen of the Damned (film)"},{"ns":0,"title":"Rachel
+        McAdams"},{"ns":0,"title":"Ralph Fiennes"},{"ns":0,"title":"Ray Liotta"},{"ns":0,"title":"Ray
+        Park"},{"ns":0,"title":"Rebecca De Mornay"},{"ns":0,"title":"Red Queen (Through
+        the Looking-Glass)"},{"ns":0,"title":"Riddler"},{"ns":0,"title":"Robert De
+        Niro"},{"ns":0,"title":"Robert Patrick"},{"ns":0,"title":"Robin Hood: Prince
+        of Thieves"},{"ns":0,"title":"Rodrigo Santoro"},{"ns":0,"title":"Rose McGowan"},{"ns":0,"title":"Rush
+        Hour 2"},{"ns":0,"title":"Sarah Michelle Gellar"},{"ns":0,"title":"Saruman"},{"ns":0,"title":"Saw
+        II"},{"ns":0,"title":"Saw III"},{"ns":0,"title":"Scarecrow (DC Comics)"},{"ns":0,"title":"Seven
+        (film)"},{"ns":0,"title":"Sheriff of Nottingham"},{"ns":0,"title":"Single
+        White Female (film)"},{"ns":0,"title":"Skyfall"},{"ns":0,"title":"Sleepy Hollow
+        (film)"},{"ns":0,"title":"Speed (1994 film)"},{"ns":0,"title":"Spider-Man
+        (2002 film)"},{"ns":0,"title":"Spider-Man 2"},{"ns":0,"title":"Spider-Man
+        3"},{"ns":0,"title":"Star Trek Into Darkness"},{"ns":0,"title":"Star Wars
+        Episode I: The Phantom Menace"},{"ns":0,"title":"Star Wars Episode III: Revenge
+        of the Sith"},{"ns":0,"title":"Stephen Dorff"},{"ns":0,"title":"Stephen Lang
+        (actor)"},{"ns":0,"title":"Sweeney Todd"},{"ns":0,"title":"Sweeney Todd: The
+        Demon Barber of Fleet Street (2007 film)"},{"ns":0,"title":"T-1000"},{"ns":0,"title":"Talia
+        al Ghul"},{"ns":0,"title":"Terminator 2: Judgment Day"},{"ns":0,"title":"The
+        Avengers (2012 film)"},{"ns":0,"title":"The Cable Guy"},{"ns":0,"title":"The
+        Cell"},{"ns":0,"title":"The Chronicles of Narnia: The Lion, the Witch and
+        the Wardrobe"},{"ns":0,"title":"The Crush (1993 film)"},{"ns":0,"title":"The
+        Dark Knight (film)"},{"ns":0,"title":"The Dark Knight Rises"},{"ns":0,"title":"The
+        Departed"},{"ns":0,"title":"The Devil''s Advocate (1997 film)"},{"ns":0,"title":"The
+        Devil Wears Prada (film)"},{"ns":0,"title":"The Fan (1996 film)"},{"ns":0,"title":"The
+        Good Son (1993 film)"},{"ns":0,"title":"The Green Hornet (2011 film)"},{"ns":0,"title":"The
+        Hand That Rocks the Cradle (film)"},{"ns":0,"title":"The Hangover (film)"},{"ns":0,"title":"The
+        Help (film)"},{"ns":0,"title":"The Hunger Games: Catching Fire"},{"ns":0,"title":"The
+        Lion King"},{"ns":0,"title":"The Lord of the Rings: The Fellowship of the
+        Ring"},{"ns":0,"title":"The Ring (2002 film)"},{"ns":0,"title":"The Roommate"},{"ns":0,"title":"The
+        Talented Mr. Ripley (film)"},{"ns":0,"title":"The Texas Chainsaw Massacre
+        (2003 film)"},{"ns":0,"title":"There''s Something About Mary"},{"ns":0,"title":"Those
+        Who Must Be Kept"},{"ns":0,"title":"Tilda Swinton"},{"ns":0,"title":"Tim Roth"},{"ns":0,"title":"Titanic
+        (1997 film)"},{"ns":0,"title":"Tobin Bell"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom
+        Felton"},{"ns":0,"title":"Tom Hardy"},{"ns":0,"title":"Tom Hiddleston"},{"ns":0,"title":"Tommy
+        Lee Jones"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Toy Story 3"},{"ns":0,"title":"Training
+        Day"},{"ns":0,"title":"Two-Face"},{"ns":0,"title":"Tyrannosaurus"},{"ns":0,"title":"Unlawful
+        Entry (film)"},{"ns":0,"title":"Vincent D''Onofrio"},{"ns":0,"title":"Wesley
+        Snipes"},{"ns":0,"title":"White Witch"},{"ns":0,"title":"Wicked Witch of the
+        West"},{"ns":0,"title":"Willem Dafoe"},{"ns":0,"title":"Xerxes I of Persia"},{"ns":0,"title":"Zhang
+        Ziyi"},{"ns":10,"title":"Template:MTV Movie Award for Best Villain"},{"ns":10,"title":"Template:MTV
+        Movie Awards"},{"ns":11,"title":"Template talk:MTV Movie Award for Best Villain"},{"ns":11,"title":"Template
+        talk:MTV Movie Awards"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:37 GMT
+recorded_with: VCR 2.9.2

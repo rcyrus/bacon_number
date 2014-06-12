@@ -1,0 +1,242 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Kevin%20Costner
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287134729, 3085149046, 1061648703
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4307'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:30 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4010 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"144152":{"pageid":144152,"ns":0,"title":"Kevin
+        Costner","links":[{"ns":0,"title":"2003 Cannes Film Festival"},{"ns":0,"title":"38th
+        C\u00e9sar Awards"},{"ns":0,"title":"3 Days to Kill"},{"ns":0,"title":"A Perfect
+        World"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award for
+        Best Actor"},{"ns":0,"title":"Academy Award for Best Director"},{"ns":0,"title":"Academy
+        Award for Best Picture"},{"ns":0,"title":"Academy Award for Directing"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Air Force One (film)"},{"ns":0,"title":"Al Gore"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alberta"},{"ns":0,"title":"Alfonso
+        Cuar\u00f3n"},{"ns":0,"title":"Alfred Lunt"},{"ns":0,"title":"Amazing Stories
+        (TV series)"},{"ns":0,"title":"American Flyers"},{"ns":0,"title":"Andre Braugher"},{"ns":0,"title":"Andrews
+        Air Force Base"},{"ns":0,"title":"Ang Lee"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Anthony
+        Harvey"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony Minghella"},{"ns":0,"title":"Anthony
+        Murphy (actor)"},{"ns":0,"title":"Anthony Quinn"},{"ns":0,"title":"Apple Lisa"},{"ns":0,"title":"Armand
+        Assante"},{"ns":0,"title":"Arsenal F.C."},{"ns":0,"title":"Arthur Hiller"},{"ns":0,"title":"Aspen,
+        Colorado"},{"ns":0,"title":"Associated Press"},{"ns":0,"title":"Augie Garrido"},{"ns":0,"title":"Austin,
+        Texas"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Award for
+        Best Direction"},{"ns":0,"title":"BAFTA Awards"},{"ns":0,"title":"BP"},{"ns":0,"title":"Baptist"},{"ns":0,"title":"Barack
+        Obama"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Barry Levinson"},{"ns":0,"title":"Barry
+        Pepper"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Ben
+        Kingsley"},{"ns":0,"title":"Bernardo Bertolucci"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Big Valley Jamboree"},{"ns":0,"title":"Bill
+        Nighy"},{"ns":0,"title":"Billy Wilder"},{"ns":0,"title":"Black and White (2014
+        film)"},{"ns":0,"title":"Blockbuster LLC"},{"ns":0,"title":"Bob Fosse"},{"ns":0,"title":"Brendan
+        Gleeson"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Broadcast Film
+        Critics Association"},{"ns":0,"title":"Broadcast Film Critics Association
+        Awards"},{"ns":0,"title":"Buena High School (California)"},{"ns":0,"title":"Bull
+        Durham"},{"ns":0,"title":"CIA"},{"ns":0,"title":"CMT Films"},{"ns":0,"title":"CSUF
+        Titans"},{"ns":0,"title":"Cal State Fullerton"},{"ns":0,"title":"California
+        Speedway"},{"ns":0,"title":"California State University, Fullerton"},{"ns":0,"title":"Carol
+        Reed"},{"ns":0,"title":"Cecil B. DeMille"},{"ns":0,"title":"Charles Jarrott"},{"ns":0,"title":"Chicago
+        Film Critics Association Award for Best Actor"},{"ns":0,"title":"Chicago Film
+        Critics Association Award for Best Director"},{"ns":0,"title":"Chicago Film
+        Critics Association Awards"},{"ns":0,"title":"Chris Cooper (actor)"},{"ns":0,"title":"Christopher
+        Plummer"},{"ns":0,"title":"Christopher Reeve"},{"ns":0,"title":"Cinema of
+        France"},{"ns":0,"title":"Cinema of Germany"},{"ns":0,"title":"Cinema of Japan"},{"ns":0,"title":"Cliff
+        Robertson"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Coen brothers"},{"ns":0,"title":"College
+        World Series"},{"ns":0,"title":"Colorado State University"},{"ns":0,"title":"Compton,
+        California"},{"ns":0,"title":"Country rock"},{"ns":0,"title":"Courteney Cox"},{"ns":0,"title":"Critics''
+        Choice Television Award"},{"ns":0,"title":"Critics'' Choice Television Award
+        for Best Movie/Miniseries Actor"},{"ns":0,"title":"Dances with Wolves"},{"ns":0,"title":"Danny
+        Boyle"},{"ns":0,"title":"David Fincher"},{"ns":0,"title":"David Lean"},{"ns":0,"title":"David
+        di Donatello Awards"},{"ns":0,"title":"David di Donatello for Best Foreign
+        Actor"},{"ns":0,"title":"David di Donatello for Best Foreign Film"},{"ns":0,"title":"Dead
+        body"},{"ns":0,"title":"Deadwood, South Dakota"},{"ns":0,"title":"Deepwater
+        Horizon oil spill"},{"ns":0,"title":"Delbert Mann"},{"ns":0,"title":"Delta
+        Chi"},{"ns":0,"title":"Democratic Party (United States)"},{"ns":0,"title":"Devil
+        Anse Hatfield"},{"ns":0,"title":"Directors Guild of America"},{"ns":0,"title":"Directors
+        Guild of America Award for Outstanding Directing \u2013 Feature Film"},{"ns":0,"title":"Django
+        Unchained"},{"ns":0,"title":"Draft Day"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Ed
+        Flanders"},{"ns":0,"title":"Electrician"},{"ns":0,"title":"Elia Kazan"},{"ns":0,"title":"Eliot
+        Ness"},{"ns":0,"title":"Elle Macpherson"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Emmy
+        Awards"},{"ns":0,"title":"English American"},{"ns":0,"title":"Fandango (1985
+        film)"},{"ns":0,"title":"Field of Dreams"},{"ns":0,"title":"For Love of the
+        Game (film)"},{"ns":0,"title":"Francis Ford Coppola"},{"ns":0,"title":"Frank
+        Borzage"},{"ns":0,"title":"Frank Capra"},{"ns":0,"title":"Frank Lloyd"},{"ns":0,"title":"Franklin
+        J. Schaffner"},{"ns":0,"title":"Fred Astaire"},{"ns":0,"title":"Fred Zinnemann"},{"ns":0,"title":"Funny
+        or Die"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        C. Scott"},{"ns":0,"title":"George Cukor"},{"ns":0,"title":"George Roy Hill"},{"ns":0,"title":"George
+        Stevens"},{"ns":0,"title":"German-American"},{"ns":0,"title":"German American"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Miniseries
+        or Television Film"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013
+        Motion Picture Drama"},{"ns":0,"title":"Golden Globe Award for Best Actor
+        \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden Globe Award
+        for Best Director"},{"ns":0,"title":"Golden Globe Award for Best Director
+        \u2013 Motion Picture"},{"ns":0,"title":"Golden Globe Awards"},{"ns":0,"title":"Golden
+        Raspberry Awards"},{"ns":0,"title":"Grand Marshal"},{"ns":0,"title":"Grauman''s
+        Chinese Theatre"},{"ns":0,"title":"Hal Holbrook"},{"ns":0,"title":"Halifax
+        Regional Municipality"},{"ns":0,"title":"Harrison Ford"},{"ns":0,"title":"Hatfields
+        & McCoys (miniseries)"},{"ns":0,"title":"Henry King (director)"},{"ns":0,"title":"Herbert
+        Ross"},{"ns":0,"title":"History (U.S. TV channel)"},{"ns":0,"title":"How the
+        West Was Won (film)"},{"ns":0,"title":"Hume Cronyn"},{"ns":0,"title":"IWK
+        Health Centre"},{"ns":0,"title":"Idris Elba"},{"ns":0,"title":"Independent
+        league baseball"},{"ns":0,"title":"Inside the Actors Studio"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Irish American"},{"ns":0,"title":"Istanbul"},{"ns":0,"title":"JFK
+        (film)"},{"ns":0,"title":"Jack Cardiff"},{"ns":0,"title":"Jack Klugman"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jack Palance"},{"ns":0,"title":"Jack Ryan: Shadow
+        Recruit"},{"ns":0,"title":"James Cameron"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        Garner"},{"ns":0,"title":"James L. Brooks"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jason
+        Robards"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jerome Robbins"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"Jim Garrison"},{"ns":0,"title":"John F. Kennedy"},{"ns":0,"title":"John
+        Ford"},{"ns":0,"title":"John G. Avildsen"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Huston"},{"ns":0,"title":"John Schlesinger"},{"ns":0,"title":"Jonathan Demme"},{"ns":0,"title":"Jonathan
+        Rhys Meyers"},{"ns":0,"title":"Jonathan and Martha Kent"},{"ns":0,"title":"Joseph
+        L. Mankiewicz"},{"ns":0,"title":"Joshua Logan"},{"ns":0,"title":"Julian Schnabel"},{"ns":0,"title":"KGB"},{"ns":0,"title":"Kansas
+        City, Missouri"},{"ns":0,"title":"Kansas City Royals"},{"ns":0,"title":"Kathryn
+        Bigelow"},{"ns":0,"title":"Keith Michell"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kentucky"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Costner & Modern West"},{"ns":0,"title":"Kevin
+        Costner and Modern West"},{"ns":0,"title":"Kevin Costner filmography"},{"ns":0,"title":"Kevin
+        Kline"},{"ns":0,"title":"Kiefer Sutherland"},{"ns":0,"title":"Kurt Russell"},{"ns":0,"title":"Lake
+        County Fielders"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lawrence
+        Kasdan"},{"ns":0,"title":"Leo McCarey"},{"ns":0,"title":"Lewis Milestone"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lloyd Nolan"},{"ns":0,"title":"Lowe''s
+        Motor Speedway"},{"ns":0,"title":"Lynwood, California"},{"ns":0,"title":"L\u00e1szl\u00f3
+        Benedek"},{"ns":0,"title":"MTV Movie Award for Best On-Screen Duo"},{"ns":0,"title":"MTV
+        Movie Award for Most Desirable Male"},{"ns":0,"title":"MTV Movie Awards"},{"ns":0,"title":"Madeleine
+        Stowe"},{"ns":0,"title":"Man of Steel (film)"},{"ns":0,"title":"Martin Scorsese"},{"ns":0,"title":"Maurice
+        Evans (actor)"},{"ns":0,"title":"Mel Gibson"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Message
+        in a Bottle (film)"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael
+        Cimino"},{"ns":0,"title":"Michael Curtiz"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Moriarty"},{"ns":0,"title":"Michel Hazanavicius"},{"ns":0,"title":"Mickey
+        Rooney"},{"ns":0,"title":"Mike Nichols"},{"ns":0,"title":"Milo\u0161 Forman"},{"ns":0,"title":"Morgan
+        Freeman"},{"ns":0,"title":"Mount Whitney High School"},{"ns":0,"title":"Mr.
+        Brooks"},{"ns":0,"title":"NASCAR"},{"ns":0,"title":"NASCAR Sprint All-Star
+        Race XXV"},{"ns":0,"title":"National Board of Review"},{"ns":0,"title":"National
+        Board of Review Award for Best Director"},{"ns":0,"title":"National Diet Library"},{"ns":0,"title":"National
+        World War I Museum"},{"ns":0,"title":"Nextel Cup"},{"ns":0,"title":"Night
+        Shift (film)"},{"ns":0,"title":"No Way Out (1987 film)"},{"ns":0,"title":"Norman
+        Taurog"},{"ns":0,"title":"North American League (baseball)"},{"ns":0,"title":"Oil
+        separation"},{"ns":0,"title":"Oliver Stone"},{"ns":0,"title":"Omaha, Nebraska"},{"ns":0,"title":"Open
+        Range"},{"ns":0,"title":"Opening act"},{"ns":0,"title":"Orange County, California"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Pennzoil"},{"ns":0,"title":"People
+        (magazine)"},{"ns":0,"title":"Peter Falk"},{"ns":0,"title":"Peter Jackson"},{"ns":0,"title":"Peter
+        Strauss"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Phil Gramm"},{"ns":0,"title":"Post-apocalyptic"},{"ns":0,"title":"Powers
+        Boothe"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Lead Actor
+        in a Miniseries or a Movie"},{"ns":0,"title":"Primetime Emmy Award for Outstanding
+        Miniseries or Movie"},{"ns":0,"title":"Primetime Emmy Awards"},{"ns":0,"title":"Quentin
+        Tarantino"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Rapa Nui (film)"},{"ns":0,"title":"Razzie
+        Award for Worst Actor"},{"ns":0,"title":"Razzie Award for Worst Director"},{"ns":0,"title":"Razzie
+        Award for Worst New Star"},{"ns":0,"title":"Razzie Award for Worst Picture"},{"ns":0,"title":"Razzie
+        Award for Worst Prequel, Remake, Rip-off or Sequel"},{"ns":0,"title":"Razzie
+        Award for Worst Screen Couple"},{"ns":0,"title":"Razzie Awards"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Republican Party (United States)"},{"ns":0,"title":"Revenge
+        (1990 film)"},{"ns":0,"title":"Richard Attenborough"},{"ns":0,"title":"Richard
+        Chamberlain"},{"ns":0,"title":"Richard Crenna"},{"ns":0,"title":"Rob Marshall"},{"ns":0,"title":"Robert
+        Altman"},{"ns":0,"title":"Robert Benton"},{"ns":0,"title":"Robert Cummings"},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robert
+        Rossen"},{"ns":0,"title":"Robert Wise"},{"ns":0,"title":"Robert Zemeckis"},{"ns":0,"title":"Robin
+        Hood"},{"ns":0,"title":"Robin Hood: Prince of Thieves"},{"ns":0,"title":"Roman
+        Polanski"},{"ns":0,"title":"Ron Howard"},{"ns":0,"title":"Ron Shelton"},{"ns":0,"title":"Sam
+        Mendes"},{"ns":0,"title":"San Francisco Film Critics Circle"},{"ns":0,"title":"San
+        Francisco Film Critics Circle Award for Best Supporting Actor"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Satellite
+        Awards"},{"ns":0,"title":"Saturn Award for Best Actor"},{"ns":0,"title":"Saturn
+        Awards"},{"ns":0,"title":"Scottish American"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Male Actor in a Miniseries or
+        Television Movie"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Senior
+        management"},{"ns":0,"title":"Serial killer"},{"ns":0,"title":"Shoeless Joe
+        (novel)"},{"ns":0,"title":"Sidney Lumet"},{"ns":0,"title":"Silverado (film)"},{"ns":0,"title":"Sizzle
+        Beach, U.S.A."},{"ns":0,"title":"Social security"},{"ns":0,"title":"South
+        Carolina"},{"ns":0,"title":"South Dakota Supreme Court"},{"ns":0,"title":"Southern
+        California Edison"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stanley
+        Kramer"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Stephen Baldwin"},{"ns":0,"title":"Steven
+        Soderbergh"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Sundance
+        Film Festival"},{"ns":0,"title":"Superman in film"},{"ns":0,"title":"Swing
+        Vote (2008 film)"},{"ns":0,"title":"Sydney Pollack"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Table for Five"},{"ns":0,"title":"Ted
+        Danson"},{"ns":0,"title":"Telus World Skins Game"},{"ns":0,"title":"Testament
+        (film)"},{"ns":0,"title":"The Alternate Routes"},{"ns":0,"title":"The Big
+        Chill (film)"},{"ns":0,"title":"The Bodyguard (1992 film)"},{"ns":0,"title":"The
+        Company Men"},{"ns":0,"title":"The Explorers Guild"},{"ns":0,"title":"The
+        Guardian (2006 film)"},{"ns":0,"title":"The Hollywood Reporter"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Postman (film)"},{"ns":0,"title":"The
+        Untouchables (film)"},{"ns":0,"title":"The Upside of Anger"},{"ns":0,"title":"The
+        War (1994 film)"},{"ns":0,"title":"Thirteen Days (film)"},{"ns":0,"title":"Thomas
+        Mitchell (actor)"},{"ns":0,"title":"Tin Cup"},{"ns":0,"title":"Tom Daschle"},{"ns":0,"title":"Tom
+        Hooper"},{"ns":0,"title":"Tommy Lee Jones"},{"ns":0,"title":"Tony Richardson"},{"ns":0,"title":"Tony
+        Scott"},{"ns":0,"title":"Top Country Albums"},{"ns":0,"title":"Top Heatseekers"},{"ns":0,"title":"Trevor
+        Howard"},{"ns":0,"title":"Tulare County"},{"ns":0,"title":"U-boat"},{"ns":0,"title":"US
+        government"},{"ns":0,"title":"Undertaker"},{"ns":0,"title":"United States
+        presidential election, 2008"},{"ns":0,"title":"Universal South Records"},{"ns":0,"title":"University
+        of Texas"},{"ns":0,"title":"Untold Truths"},{"ns":0,"title":"Ventura, California"},{"ns":0,"title":"Victor
+        Fleming"},{"ns":0,"title":"Villa Park High School"},{"ns":0,"title":"Vincente
+        Minnelli"},{"ns":0,"title":"Ving Rhames"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"Visalia, California"},{"ns":0,"title":"Warren
+        Beatty"},{"ns":0,"title":"Waterworld"},{"ns":0,"title":"Welsh American"},{"ns":0,"title":"West
+        Virginia"},{"ns":0,"title":"Whitney Houston"},{"ns":0,"title":"William Friedkin"},{"ns":0,"title":"William
+        H. Macy"},{"ns":0,"title":"William Holden"},{"ns":0,"title":"William Wyler"},{"ns":0,"title":"Woody
+        Allen"},{"ns":0,"title":"World War II"},{"ns":0,"title":"Wyatt Earp"},{"ns":0,"title":"Wyatt
+        Earp (film)"},{"ns":0,"title":"Zack Snyder"},{"ns":0,"title":"Zion, Illinois"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Manual
+        of Style/Dates and numbers"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Academy
+        Award Best Director"},{"ns":10,"title":"Template:DirectorsGuildofAmericaAwardFeatureFilm"},{"ns":10,"title":"Template:EmmyAward
+        MiniseriesLeadActor"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:Golden
+        Globe Award for Best Director"},{"ns":10,"title":"Template:Kevin Costner"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        MaleTVMiniseriesMovie"},{"ns":11,"title":"Template talk:Academy Award Best
+        Director"},{"ns":11,"title":"Template talk:DirectorsGuildofAmericaAwardFeatureFilm"},{"ns":11,"title":"Template
+        talk:EmmyAward MiniseriesLeadActor"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":11,"title":"Template
+        talk:Golden Globe Award for Best Director"},{"ns":11,"title":"Template talk:Kevin
+        Costner"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":14,"title":"Category:Articles
+        with dead external links from October 2013"},{"ns":14,"title":"Category:Articles
+        with dead external links from September 2010"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from September 2011"},{"ns":14,"title":"Category:Use
+        mdy dates from October 2013"},{"ns":14,"title":"Category:Wikipedia articles
+        in need of updating from January 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:31 GMT
+recorded_with: VCR 2.9.2

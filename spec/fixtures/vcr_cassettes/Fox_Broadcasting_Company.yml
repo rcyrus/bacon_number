@@ -1,0 +1,254 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Fox%20Broadcasting%20Company
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332265680, 983701342, 3142892012
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4278'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:11 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4018 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"46252|0|NASA_TV"}},"query":{"pages":{"46252":{"pageid":46252,"ns":0,"title":"Fox
+        Broadcasting Company","links":[{"ns":0,"title":"1080i"},{"ns":0,"title":"1080p"},{"ns":0,"title":"14:9"},{"ns":0,"title":"16:9"},{"ns":0,"title":"1955
+        NFL season"},{"ns":0,"title":"1987\u201388 United States network television
+        schedule"},{"ns":0,"title":"1989\u201390 United States network television
+        schedule"},{"ns":0,"title":"1992\u201393 United States network television
+        schedule"},{"ns":0,"title":"1994 United States broadcast TV realignment"},{"ns":0,"title":"2001
+        Vancouver TV realignment"},{"ns":0,"title":"2004-2005 United States network
+        television schedule"},{"ns":0,"title":"2004 NFL season"},{"ns":0,"title":"2006
+        United States broadcast TV realignment"},{"ns":0,"title":"2007 Canada broadcast
+        TV realignment"},{"ns":0,"title":"2010-2011 United States network television
+        schedule"},{"ns":0,"title":"20th Century Fox"},{"ns":0,"title":"20th Century
+        Fox Animation"},{"ns":0,"title":"20th Century Fox Home Entertainment"},{"ns":0,"title":"20th
+        Century Fox Television"},{"ns":0,"title":"20th Television"},{"ns":0,"title":"21
+        Jump Street"},{"ns":0,"title":"21st Century Fox"},{"ns":0,"title":"24Kitchen"},{"ns":0,"title":"24
+        (TV series)"},{"ns":0,"title":"480i"},{"ns":0,"title":"480p"},{"ns":0,"title":"4:3"},{"ns":0,"title":"4DTV"},{"ns":0,"title":"4KidsTV"},{"ns":0,"title":"4Kids
+        TV"},{"ns":0,"title":"4Licensing Corporation"},{"ns":0,"title":"576i"},{"ns":0,"title":"576p"},{"ns":0,"title":"720p"},{"ns":0,"title":"8VSB"},{"ns":0,"title":"A-VSB"},{"ns":0,"title":"ABC
+        Family"},{"ns":0,"title":"AMGTV"},{"ns":0,"title":"AT&T U-verse"},{"ns":0,"title":"ATSC-M/H"},{"ns":0,"title":"ATSC
+        tuner"},{"ns":0,"title":"A Current Affair (U.S. TV series)"},{"ns":0,"title":"AccuWeather
+        Channel"},{"ns":0,"title":"Active Format Description"},{"ns":0,"title":"Adult
+        Swim"},{"ns":0,"title":"Adult animation"},{"ns":0,"title":"Advanced Common
+        Application Platform"},{"ns":0,"title":"Advanced Television Systems Committee"},{"ns":0,"title":"Advanced
+        Television Systems Committee standards"},{"ns":0,"title":"Advertising slogan"},{"ns":0,"title":"Affiliate"},{"ns":0,"title":"All-Channel
+        Receiver Act"},{"ns":0,"title":"AllVid"},{"ns":0,"title":"All News Channel"},{"ns":0,"title":"Allen
+        Gregory"},{"ns":0,"title":"Ally McBeal"},{"ns":0,"title":"Almavision"},{"ns":0,"title":"America''s
+        Most Wanted"},{"ns":0,"title":"America''s Store"},{"ns":0,"title":"America
+        One"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"American
+        Dad!"},{"ns":0,"title":"American Idol"},{"ns":0,"title":"American Idol (season
+        10)"},{"ns":0,"title":"American Idol (season 3)"},{"ns":0,"title":"American
+        Idol season 2"},{"ns":0,"title":"American Independent Network"},{"ns":0,"title":"American
+        Samoa"},{"ns":0,"title":"Am\u00e9rica CV Network"},{"ns":0,"title":"Analog
+        passthrough"},{"ns":0,"title":"Animaniacs"},{"ns":0,"title":"Animation Domination"},{"ns":0,"title":"Animation
+        Domination (Australia)"},{"ns":0,"title":"Antenna TV"},{"ns":0,"title":"Antv"},{"ns":0,"title":"Arirang
+        (TV network)"},{"ns":0,"title":"Arrested Development (TV series)"},{"ns":0,"title":"Arsenio
+        Hall"},{"ns":0,"title":"Asia Vision (TV network)"},{"ns":0,"title":"Asianet"},{"ns":0,"title":"Asianet
+        Communications"},{"ns":0,"title":"Asianet Movies"},{"ns":0,"title":"Asianet
+        Suvarna"},{"ns":0,"title":"Axe Cop (TV series)"},{"ns":0,"title":"Azteca Am\u00e9rica"},{"ns":0,"title":"BHC
+        Communications"},{"ns":0,"title":"BSkyB"},{"ns":0,"title":"BYU Television"},{"ns":0,"title":"BabyTV"},{"ns":0,"title":"Baby
+        TV"},{"ns":0,"title":"Barack Obama"},{"ns":0,"title":"Batman: The Animated
+        Series"},{"ns":0,"title":"Bell Fibe TV"},{"ns":0,"title":"Bell TV"},{"ns":0,"title":"BemSimples"},{"ns":0,"title":"Bermuda"},{"ns":0,"title":"Beverly
+        Hills, 90210"},{"ns":0,"title":"Big Ten Network"},{"ns":0,"title":"Big Three
+        television networks"},{"ns":0,"title":"Billboard Music Award"},{"ns":0,"title":"Blue
+        Sky Studios"},{"ns":0,"title":"Bob''s Burgers"},{"ns":0,"title":"Bobby''s
+        World"},{"ns":0,"title":"Bohemia Visual Music"},{"ns":0,"title":"Boilerplate
+        (text)"},{"ns":0,"title":"Bones (TV series)"},{"ns":0,"title":"Bossa Studios"},{"ns":0,"title":"Boston"},{"ns":0,"title":"Bounce
+        TV"},{"ns":0,"title":"Bowl Championship Series"},{"ns":0,"title":"Breaking
+        news"},{"ns":0,"title":"Bret Baier"},{"ns":0,"title":"Broadcast delay"},{"ns":0,"title":"Broadcast
+        flag"},{"ns":0,"title":"Broadcast syndication"},{"ns":0,"title":"Broadcasting
+        & Cable"},{"ns":0,"title":"Brooklyn Nine-Nine"},{"ns":0,"title":"Buffalo,
+        New York"},{"ns":0,"title":"Burlington, Vermont"},{"ns":0,"title":"Burning
+        off"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CBS Television Stations"},{"ns":0,"title":"CEA-909"},{"ns":0,"title":"CNN
+        Latino"},{"ns":0,"title":"Cable-ready"},{"ns":0,"title":"CableCARD"},{"ns":0,"title":"Cable
+        television"},{"ns":0,"title":"California"},{"ns":0,"title":"Canada\u2013United
+        States border"},{"ns":0,"title":"CanalDigitaal"},{"ns":0,"title":"CaribVision"},{"ns":0,"title":"Cartoon
+        Network"},{"ns":0,"title":"Catherine Crier"},{"ns":0,"title":"Central Time
+        Zone"},{"ns":0,"title":"Central Time Zone (North America)"},{"ns":0,"title":"Chairman"},{"ns":0,"title":"ChannelFlip"},{"ns":0,"title":"Channel
+        America"},{"ns":0,"title":"Channel M (Southeast Asia)"},{"ns":0,"title":"Channel
+        V"},{"ns":0,"title":"Channel V India"},{"ns":0,"title":"Chase Carey"},{"ns":0,"title":"Cher"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Chris-Craft
+        Industries"},{"ns":0,"title":"Christian Broadcasting Network"},{"ns":0,"title":"Christian
+        Television Network"},{"ns":0,"title":"Clarke Ingram"},{"ns":0,"title":"Classic
+        Arts Showcase"},{"ns":0,"title":"Cleveland"},{"ns":0,"title":"Colours TV"},{"ns":0,"title":"Comedy-drama"},{"ns":0,"title":"Comedy
+        Central"},{"ns":0,"title":"Commercial broadcasting"},{"ns":0,"title":"Cops
+        (1989 TV series)"},{"ns":0,"title":"Corner Store TV"},{"ns":0,"title":"Cornerstone
+        Television"},{"ns":0,"title":"Coupon-eligible converter box"},{"ns":0,"title":"Cox
+        Media Group"},{"ns":0,"title":"Cozi TV"},{"ns":0,"title":"Create (TV network)"},{"ns":0,"title":"Cult
+        (TV channel)"},{"ns":0,"title":"DEN Networks"},{"ns":0,"title":"DVB-S"},{"ns":0,"title":"DVB-S2"},{"ns":0,"title":"DVD
+        recorder"},{"ns":0,"title":"Dallas"},{"ns":0,"title":"Damon Wayans"},{"ns":0,"title":"Daniel
+        M. Kimmel"},{"ns":0,"title":"Datacasting"},{"ns":0,"title":"DaySide"},{"ns":0,"title":"Daystar
+        (TV network)"},{"ns":0,"title":"Demographics"},{"ns":0,"title":"Detroit"},{"ns":0,"title":"Deutsche
+        Welle"},{"ns":0,"title":"Dick Stockton"},{"ns":0,"title":"DigiCipher 2"},{"ns":0,"title":"Digital
+        Satellite Service"},{"ns":0,"title":"Digital Transition and Public Safety
+        Act of 2005"},{"ns":0,"title":"Digital broadcasting"},{"ns":0,"title":"Digital
+        cable"},{"ns":0,"title":"Digital channel election"},{"ns":0,"title":"Digital
+        on-screen graphic"},{"ns":0,"title":"Digital subchannel"},{"ns":0,"title":"Digital
+        television"},{"ns":0,"title":"Digital television adapter"},{"ns":0,"title":"Digital
+        television in Canada"},{"ns":0,"title":"Digital television in the United States"},{"ns":0,"title":"Digital
+        television transition"},{"ns":0,"title":"Digital television transition in
+        the United States"},{"ns":0,"title":"Digital terrestrial television"},{"ns":0,"title":"Digital
+        video recorder"},{"ns":0,"title":"DirecTV"},{"ns":0,"title":"Direct-response
+        marketing"},{"ns":0,"title":"Dish M\u00e9xico"},{"ns":0,"title":"Dish Network"},{"ns":0,"title":"Display
+        motion blur"},{"ns":0,"title":"Distributed transmission system"},{"ns":0,"title":"Divorce
+        Court"},{"ns":0,"title":"Down and Out in Beverly Hills"},{"ns":0,"title":"Downloadable
+        Conditional Access System"},{"ns":0,"title":"Dragonfly Film and Television
+        Productions"},{"ns":0,"title":"DuMont Television Network"},{"ns":0,"title":"Duet
+        (TV series)"},{"ns":0,"title":"E!"},{"ns":0,"title":"E-VSB"},{"ns":0,"title":"E/I"},{"ns":0,"title":"EICB
+        TV"},{"ns":0,"title":"Eastern Time Zone"},{"ns":0,"title":"Eerie, Indiana"},{"ns":0,"title":"Enhanced-definition
+        television"},{"ns":0,"title":"Estrella TV"},{"ns":0,"title":"Eternal Word
+        Television Network"},{"ns":0,"title":"Evansville, Indiana"},{"ns":0,"title":"FARSI1"},{"ns":0,"title":"FOX"},{"ns":0,"title":"FOX
+        (Balkans)"},{"ns":0,"title":"FOX (Russia)"},{"ns":0,"title":"FOX (Serbia)"},{"ns":0,"title":"FOX
+        Crime"},{"ns":0,"title":"FTA receiver"},{"ns":0,"title":"FXX"},{"ns":0,"title":"FX
+        (Asia)"},{"ns":0,"title":"FX (Portugal)"},{"ns":0,"title":"FX (TV channel)"},{"ns":0,"title":"FX
+        Australia"},{"ns":0,"title":"FX Canada"},{"ns":0,"title":"FX Latin America"},{"ns":0,"title":"FX
+        Movie Channel"},{"ns":0,"title":"Facebook"},{"ns":0,"title":"Fair use"},{"ns":0,"title":"FamilyNet"},{"ns":0,"title":"Family
+        Guy"},{"ns":0,"title":"Fast forward"},{"ns":0,"title":"Fe-TV"},{"ns":0,"title":"Federal
+        Communications Commission"},{"ns":0,"title":"Federal Communications Commission
+        v. Fox Television Stations (2009)"},{"ns":0,"title":"Federated States of Micronesia"},{"ns":0,"title":"FibreOP"},{"ns":0,"title":"Financial
+        Interest and Syndication Rules"},{"ns":0,"title":"Finland"},{"ns":0,"title":"Fortune
+        (magazine)"},{"ns":0,"title":"Fourth television network"},{"ns":0,"title":"Fox8"},{"ns":0,"title":"Fox
+        (Estonia)"},{"ns":0,"title":"Fox (Finland)"},{"ns":0,"title":"Fox (Greece)"},{"ns":0,"title":"Fox
+        (Hungary)"},{"ns":0,"title":"Fox (India)"},{"ns":0,"title":"Fox (Italy)"},{"ns":0,"title":"Fox
+        (Latvia)"},{"ns":0,"title":"Fox (Middle East)"},{"ns":0,"title":"Fox (Norway)"},{"ns":0,"title":"Fox
+        (Poland)"},{"ns":0,"title":"Fox (Portugal)"},{"ns":0,"title":"Fox (Russia)"},{"ns":0,"title":"Fox
+        (Spain)"},{"ns":0,"title":"Fox (Turkey)"},{"ns":0,"title":"Fox (UK and Ireland)"},{"ns":0,"title":"Fox
+        (channel)"},{"ns":0,"title":"Fox (disambiguation)"},{"ns":0,"title":"Fox 21
+        (production company)"},{"ns":0,"title":"Fox Action Movies"},{"ns":0,"title":"Fox
+        Broadcasting Co. v. Dish Network, LLC"},{"ns":0,"title":"Fox Business Network"},{"ns":0,"title":"Fox
+        Channel (Germany)"},{"ns":0,"title":"Fox Channel Asia"},{"ns":0,"title":"Fox
+        College Football"},{"ns":0,"title":"Fox College Sports"},{"ns":0,"title":"Fox
+        Crime"},{"ns":0,"title":"Fox Crime (Asia)"},{"ns":0,"title":"Fox Crime (Italy)"},{"ns":0,"title":"Fox
+        Deportes"},{"ns":0,"title":"Fox Entertainment Group"},{"ns":0,"title":"Fox
+        Faith"},{"ns":0,"title":"Fox Family Movies"},{"ns":0,"title":"Fox Filipino"},{"ns":0,"title":"Fox
+        Football Channel"},{"ns":0,"title":"Fox Footy"},{"ns":0,"title":"Fox International
+        Channels"},{"ns":0,"title":"Fox Kids"},{"ns":0,"title":"Fox Latin America"},{"ns":0,"title":"Fox
+        Life"},{"ns":0,"title":"Fox Life (Italy)"},{"ns":0,"title":"Fox Life (Netherlands)"},{"ns":0,"title":"Fox
+        Life Greece"},{"ns":0,"title":"Fox Mobile Entertainment"},{"ns":0,"title":"Fox
+        Movies (Middle East)"},{"ns":0,"title":"Fox Movies (Portugal)"},{"ns":0,"title":"Fox
+        Movies Premium"},{"ns":0,"title":"Fox Music"},{"ns":0,"title":"Fox NL"},{"ns":0,"title":"Fox
+        Nation"},{"ns":0,"title":"Fox Network"},{"ns":0,"title":"Fox News Channel"},{"ns":0,"title":"Fox
+        News Channel controversies"},{"ns":0,"title":"Fox News Radio"},{"ns":0,"title":"Fox
+        News Sunday"},{"ns":0,"title":"Fox Report"},{"ns":0,"title":"Fox Retro"},{"ns":0,"title":"Fox
+        Searchlight Pictures"},{"ns":0,"title":"Fox Soccer"},{"ns":0,"title":"Fox
+        Soccer Plus"},{"ns":0,"title":"Fox Sports (Australia)"},{"ns":0,"title":"Fox
+        Sports (Brazil)"},{"ns":0,"title":"Fox Sports (Netherlands)"},{"ns":0,"title":"Fox
+        Sports (Philippines)"},{"ns":0,"title":"Fox Sports (United States)"},{"ns":0,"title":"Fox
+        Sports 1"},{"ns":0,"title":"Fox Sports 2"},{"ns":0,"title":"Fox Sports Asia"},{"ns":0,"title":"Fox
+        Sports Digital Media"},{"ns":0,"title":"Fox Sports Eredivisie"},{"ns":0,"title":"Fox
+        Sports International"},{"ns":0,"title":"Fox Sports International (Netherlands)"},{"ns":0,"title":"Fox
+        Sports Japan"},{"ns":0,"title":"Fox Sports Latinoam\u00e9rica"},{"ns":0,"title":"Fox
+        Sports Networks"},{"ns":0,"title":"Fox Sports News (Asia)"},{"ns":0,"title":"Fox
+        Sports News (Australia)"},{"ns":0,"title":"Fox Star Studios"},{"ns":0,"title":"Fox
+        Studios Australia"},{"ns":0,"title":"Fox Telecolombia"},{"ns":0,"title":"Fox
+        Television Stations"},{"ns":0,"title":"Fox Television Studios"},{"ns":0,"title":"Fox
+        Traveller"},{"ns":0,"title":"Fox cartoons"},{"ns":0,"title":"Foxsports.com"},{"ns":0,"title":"Foxtel"},{"ns":0,"title":"Free-to-air"},{"ns":0,"title":"Friday
+        TV"},{"ns":0,"title":"Friday night death slot"},{"ns":0,"title":"Fringe (TV
+        series)"},{"ns":0,"title":"Front Page (newsmagazine)"},{"ns":0,"title":"Frost
+        Great Outdoors"},{"ns":0,"title":"Futurama"},{"ns":0,"title":"Game show"},{"ns":0,"title":"Gems
+        TV (USA)"},{"ns":0,"title":"GetTV"},{"ns":0,"title":"Glee (TV series)"},{"ns":0,"title":"Glee
+        (season 2)"},{"ns":0,"title":"GlobeCast World TV"},{"ns":0,"title":"God''s
+        Learning Channel"},{"ns":0,"title":"God TV"},{"ns":0,"title":"Golden Eagle
+        Broadcasting"},{"ns":0,"title":"Good Day L.A."},{"ns":0,"title":"Good Day
+        Live"},{"ns":0,"title":"Google+"},{"ns":0,"title":"Goosebumps (TV series)"},{"ns":0,"title":"Grand
+        Alliance (HDTV)"},{"ns":0,"title":"Guam"},{"ns":0,"title":"Guide Plus"},{"ns":0,"title":"Hamilton,
+        Ontario"},{"ns":0,"title":"Hashtag"},{"ns":0,"title":"Hathway"},{"ns":0,"title":"Hawaii"},{"ns":0,"title":"Hearst
+        Corporation"},{"ns":0,"title":"Heartland (TV network)"},{"ns":0,"title":"Hell''s
+        Kitchen (U.S. TV series)"},{"ns":0,"title":"Hierarchical modulation"},{"ns":0,"title":"High-definition
+        television"},{"ns":0,"title":"High-definition television in the United States"},{"ns":0,"title":"High
+        School USA!"},{"ns":0,"title":"HispanicTV"},{"ns":0,"title":"Hispanic Information
+        and Telecommunications Network"},{"ns":0,"title":"Hispanic Television Network"},{"ns":0,"title":"Home
+        Shopping Network"},{"ns":0,"title":"Honolulu"},{"ns":0,"title":"Hope Channel"},{"ns":0,"title":"House
+        (TV series)"},{"ns":0,"title":"Houston"},{"ns":0,"title":"Hughes Television
+        Network"},{"ns":0,"title":"Hulu"},{"ns":0,"title":"IPTV"},{"ns":0,"title":"ImaginAsian"},{"ns":0,"title":"In
+        Living Color"},{"ns":0,"title":"Independent station (North America)"},{"ns":0,"title":"Infomercial"},{"ns":0,"title":"Inmigrante
+        TV"},{"ns":0,"title":"International Date Line"},{"ns":0,"title":"Internet
+        service provider"},{"ns":0,"title":"Ion Life"},{"ns":0,"title":"Ion Television"},{"ns":0,"title":"JUCE
+        TV"},{"ns":0,"title":"Jalsha Movies"},{"ns":0,"title":"James Brown (sportscaster)"},{"ns":0,"title":"Jamie
+        Foxx"},{"ns":0,"title":"Jeff Jarvis"},{"ns":0,"title":"Jennifer Lopez"},{"ns":0,"title":"Jewelry
+        Television"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Joan Rivers"},{"ns":0,"title":"Joe
+        Millionaire"},{"ns":0,"title":"John Kluge"},{"ns":0,"title":"John Madden"},{"ns":0,"title":"Jon
+        Lovitz"},{"ns":0,"title":"Jon Scott"},{"ns":0,"title":"Judge Alex"},{"ns":0,"title":"Juliet
+        Huddy"},{"ns":0,"title":"KAYU-TV"},{"ns":0,"title":"KBS World (United States)"},{"ns":0,"title":"KCOP-TV"},{"ns":0,"title":"KCPQ"},{"ns":0,"title":"KDAF"},{"ns":0,"title":"KDFI"},{"ns":0,"title":"KDFW"},{"ns":0,"title":"KEMS"},{"ns":0,"title":"KEQI-LP"},{"ns":0,"title":"KHON-TV"},{"ns":0,"title":"KKFX-CA"},{"ns":0,"title":"KMSP-TV"},{"ns":0,"title":"KPN"},{"ns":0,"title":"KRBK"},{"ns":0,"title":"KRIV"},{"ns":0,"title":"KSAZ-TV"},{"ns":0,"title":"KTBC"},{"ns":0,"title":"KTTV"},{"ns":0,"title":"KTVU"},{"ns":0,"title":"KTXH"},{"ns":0,"title":"KUTP"},{"ns":0,"title":"Karen''s
+        Song"},{"ns":0,"title":"Keenen Ivory Wayans"},{"ns":0,"title":"Kevin Reilly
+        (Executive)"},{"ns":0,"title":"Kids'' WB"},{"ns":0,"title":"King of the Hill"},{"ns":0,"title":"Kudos
+        (production company)"},{"ns":0,"title":"L. Brent Bozell III"},{"ns":0,"title":"LAPTV"},{"ns":0,"title":"LATV"},{"ns":0,"title":"LAT
+        TV"},{"ns":0,"title":"La Familia Cosmovision"},{"ns":0,"title":"La Familia
+        Network"},{"ns":0,"title":"Latvia"},{"ns":0,"title":"LeSEA"},{"ns":0,"title":"Letterboxing
+        (filming)"},{"ns":0,"title":"Life OK"},{"ns":0,"title":"List of ATSC standards"},{"ns":0,"title":"List
+        of Canadian television channels"},{"ns":0,"title":"List of Canadian television
+        networks"},{"ns":0,"title":"List of Canadian television stations available
+        in the United States"},{"ns":0,"title":"List of Fox television affiliates
+        (by U.S. state)"},{"ns":0,"title":"List of Fox television affiliates (table)"},{"ns":0,"title":"List
+        of Super Bowl lead-out programs"},{"ns":0,"title":"List of United States cable
+        and satellite television networks"},{"ns":0,"title":"List of United States
+        over-the-air television networks"},{"ns":0,"title":"List of United States
+        stations available in Canada"},{"ns":0,"title":"List of assets owned by 21st
+        Century Fox"},{"ns":0,"title":"List of defunct television networks in the
+        United States"},{"ns":0,"title":"List of digital television deployments by
+        country"},{"ns":0,"title":"List of programs broadcast by Fox"},{"ns":0,"title":"List
+        of television stations in Canada"},{"ns":0,"title":"List of television stations
+        in Mexico"},{"ns":0,"title":"List of television stations in the United States
+        by call sign (initial letter K)"},{"ns":0,"title":"List of television stations
+        in the United States by call sign (initial letter W)"},{"ns":0,"title":"Lists
+        of United States network television schedules"},{"ns":0,"title":"Live Well
+        Network"},{"ns":0,"title":"Living Single"},{"ns":0,"title":"Local TV"},{"ns":0,"title":"Los
+        Angeles"},{"ns":0,"title":"Love and Marriage (1996 TV series)"},{"ns":0,"title":"Low-power
+        broadcasting"},{"ns":0,"title":"MADtv"},{"ns":0,"title":"MHz Networks"},{"ns":0,"title":"MHz
+        WorldView"},{"ns":0,"title":"MPEG transport stream"},{"ns":0,"title":"MSN
+        TV"},{"ns":0,"title":"MTV2"},{"ns":0,"title":"Major League Baseball"},{"ns":0,"title":"Malcolm
+        in the Middle"},{"ns":0,"title":"Married... with Children"},{"ns":0,"title":"Married
+        by America"},{"ns":0,"title":"Martin (TV series)"},{"ns":0,"title":"Marvin
+        Davis"},{"ns":0,"title":"Matt Millen"},{"ns":0,"title":"Me-TV"},{"ns":0,"title":"Media
+        market"},{"ns":0,"title":"Mega TV (United States)"},{"ns":0,"title":"Melrose
+        Place"},{"ns":0,"title":"Method & Red"},{"ns":0,"title":"Metromedia"},{"ns":0,"title":"Metronome
+        Film & Television"},{"ns":0,"title":"Metropolitan Television Alliance"},{"ns":0,"title":"Miami"},{"ns":0,"title":"Mike
+        Jerrick"},{"ns":0,"title":"Minneapolis-St. Paul"},{"ns":0,"title":"Mixed martial
+        arts"},{"ns":0,"title":"Mizlou Television Network"},{"ns":0,"title":"Monday
+        Night Football"},{"ns":0,"title":"Mountain Time Zone"},{"ns":0,"title":"Movies!"},{"ns":0,"title":"Movies
+        OK"},{"ns":0,"title":"Mr. President (TV series)"},{"ns":0,"title":"Multimedios
+        Televisi\u00f3n"},{"ns":0,"title":"Mun2"},{"ns":0,"title":"MundoFox"},{"ns":0,"title":"Munhwa
+        Broadcasting Corporation"},{"ns":0,"title":"Must-carry"},{"ns":0,"title":"MyNetworkTV"},{"ns":0,"title":"My
+        Family TV"},{"ns":0,"title":"Myspace"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:12 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Digging%20to%20China
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704629999, 1409512371, 1613040693
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '558'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:03 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4009 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"5689946":{"pageid":5689946,"ns":0,"title":"Digging
+        to China","links":[{"ns":0,"title":"Alan Mruvka"},{"ns":0,"title":"Alcoholism"},{"ns":0,"title":"Balloon"},{"ns":0,"title":"Caboose"},{"ns":0,"title":"Cal
+        Tjader"},{"ns":0,"title":"Carlos Santana"},{"ns":0,"title":"Cathy Moriarty"},{"ns":0,"title":"Cherokee,
+        North Carolina"},{"ns":0,"title":"Chicago International Children''s Film Festival"},{"ns":0,"title":"China"},{"ns":0,"title":"David
+        T. Friendly"},{"ns":0,"title":"Drama film"},{"ns":0,"title":"Evan Rachel Wood"},{"ns":0,"title":"Flying
+        saucer"},{"ns":0,"title":"Giffoni Film Festival"},{"ns":0,"title":"Helium"},{"ns":0,"title":"Herb
+        Alpert"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"John
+        Davis (producer)"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"List of
+        American films of 1998"},{"ns":0,"title":"Magic carpet"},{"ns":0,"title":"Marian
+        Seldes"},{"ns":0,"title":"Marilyn Vance"},{"ns":0,"title":"Mary Stuart Masterson"},{"ns":0,"title":"Motel"},{"ns":0,"title":"New
+        York Times"},{"ns":0,"title":"Patty Griffin"},{"ns":0,"title":"San Francisco
+        Chronicle"},{"ns":0,"title":"San Francisco Examiner"},{"ns":0,"title":"Screenplay"},{"ns":0,"title":"Steppenwolf
+        (band)"},{"ns":0,"title":"Sundance Film Festival"},{"ns":0,"title":"S\u00e9rgio
+        Mendes"},{"ns":0,"title":"Teepee"},{"ns":0,"title":"The Dixie Cups"},{"ns":0,"title":"The
+        Monkees"},{"ns":0,"title":"Timothy Hutton"},{"ns":0,"title":"Tommy James and
+        the Shondells"},{"ns":0,"title":"United States"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:04 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,122 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Lanford%20Wilson
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401644731, 1102687227, 3142911639
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1724'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:33 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4017 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"38231":{"pageid":38231,"ns":0,"title":"Lanford
+        Wilson","links":[{"ns":0,"title":"A Sense of Place"},{"ns":0,"title":"Alfred
+        Uhry"},{"ns":0,"title":"American Academy of Arts and Letters"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"Angels Fall"},{"ns":0,"title":"Anton
+        Chekhov"},{"ns":0,"title":"August Wilson"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Balm
+        in Gilead"},{"ns":0,"title":"Ben Brantley"},{"ns":0,"title":"Beth Henley"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Book of Days (play)"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Brontosaurus (play)"},{"ns":0,"title":"Burn This"},{"ns":0,"title":"Caffe
+        Cino"},{"ns":0,"title":"Chamber opera"},{"ns":0,"title":"Charles Fuller"},{"ns":0,"title":"Christopher
+        Reeve"},{"ns":0,"title":"Circle Repertory Company"},{"ns":0,"title":"Circle
+        in the Square Theatre"},{"ns":0,"title":"Constantin Stanislavski"},{"ns":0,"title":"David
+        Mamet"},{"ns":0,"title":"Debra Monk"},{"ns":0,"title":"Donald L. Coburn"},{"ns":0,"title":"Donald
+        Margulies"},{"ns":0,"title":"Drag queen"},{"ns":0,"title":"Drama Desk Award"},{"ns":0,"title":"Edward
+        Albee"},{"ns":0,"title":"Edward Kleban"},{"ns":0,"title":"Eugene O''Neill
+        Theater Center"},{"ns":0,"title":"Fifth of July"},{"ns":0,"title":"Greenwich
+        Village"},{"ns":0,"title":"Home Free!"},{"ns":0,"title":"Home Free (play)"},{"ns":0,"title":"Homosexuality"},{"ns":0,"title":"Horton
+        Foote"},{"ns":0,"title":"Ikke, Ikke, Nye, Nye, Nye"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"James Kirkwood, Jr."},{"ns":0,"title":"James
+        Lapine"},{"ns":0,"title":"Jeff Daniels"},{"ns":0,"title":"Joe Cino"},{"ns":0,"title":"John
+        Guare"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"Jonathan Larson"},{"ns":0,"title":"Judd
+        Hirsch"},{"ns":0,"title":"La MaMa Experimental Theatre Club"},{"ns":0,"title":"Lebanon,
+        Missouri"},{"ns":0,"title":"Lee Hoiby"},{"ns":0,"title":"Lemon Sky"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Libretto"},{"ns":0,"title":"Long
+        Island"},{"ns":0,"title":"Lortel Archives"},{"ns":0,"title":"Ludlow Fair"},{"ns":0,"title":"Margaret
+        Edson"},{"ns":0,"title":"Marsha Norman"},{"ns":0,"title":"Marshall W. Mason"},{"ns":0,"title":"Marvin
+        Hamlisch"},{"ns":0,"title":"Method acting"},{"ns":0,"title":"Michael Bennett"},{"ns":0,"title":"Michael
+        Cristofer"},{"ns":0,"title":"Missouri State University"},{"ns":0,"title":"Neil
+        Simon"},{"ns":0,"title":"New York Drama Critics'' Circle"},{"ns":0,"title":"New
+        York Innovative Theatre Awards"},{"ns":0,"title":"New York Shakespeare Festival"},{"ns":0,"title":"New
+        York State Summer School of the Arts"},{"ns":0,"title":"New York Times"},{"ns":0,"title":"Nicholas
+        Dante"},{"ns":0,"title":"Obie Award"},{"ns":0,"title":"Obie Awards"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Off-Off-Broadway"},{"ns":0,"title":"One-act
+        play"},{"ns":0,"title":"Opera"},{"ns":0,"title":"Ozark, Missouri"},{"ns":0,"title":"PEN/Laura
+        Pels International Foundation for Theater Award"},{"ns":0,"title":"Paula Vogel"},{"ns":0,"title":"Playwright"},{"ns":0,"title":"Pulitzer
+        Prize for Drama"},{"ns":0,"title":"Rain Dance (play)"},{"ns":0,"title":"Redwood
+        Curtain (play)"},{"ns":0,"title":"Robert Schenkkan"},{"ns":0,"title":"Sag
+        Harbor"},{"ns":0,"title":"Sam Shepard"},{"ns":0,"title":"San Diego, California"},{"ns":0,"title":"San
+        Diego State University"},{"ns":0,"title":"Serenading Louie"},{"ns":0,"title":"Sexual
+        identity"},{"ns":0,"title":"Springfield, Missouri"},{"ns":0,"title":"Stephen
+        Sondheim"},{"ns":0,"title":"Steppenwolf Theatre Company"},{"ns":0,"title":"Summer
+        and Smoke"},{"ns":0,"title":"Swoosie Kurtz"},{"ns":0,"title":"Sympathetic
+        Magic (play)"},{"ns":0,"title":"Talley''s Folly"},{"ns":0,"title":"Talley
+        & Son"},{"ns":0,"title":"Tennessee Williams"},{"ns":0,"title":"The Chicago
+        Tribune"},{"ns":0,"title":"The Family Continues"},{"ns":0,"title":"The Gingham
+        Dog"},{"ns":0,"title":"The Glass Menagerie"},{"ns":0,"title":"The Great Nebula
+        in Orion"},{"ns":0,"title":"The Hot L Baltimore"},{"ns":0,"title":"The Hot
+        l Baltimore"},{"ns":0,"title":"The Madness of Lady Bright"},{"ns":0,"title":"The
+        Mound Builders"},{"ns":0,"title":"The New York Times"},{"ns":0,"title":"The
+        Rimers of Eldritch"},{"ns":0,"title":"Theater Hall of Fame"},{"ns":0,"title":"Three
+        Sisters (play)"},{"ns":0,"title":"Tony Award for Best Play"},{"ns":0,"title":"Tony
+        Awards"},{"ns":0,"title":"Tony Kushner"},{"ns":0,"title":"United States"},{"ns":0,"title":"University
+        of Chicago"},{"ns":0,"title":"Vietnam War"},{"ns":0,"title":"Vietnam war"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Wandering (play)"},{"ns":0,"title":"Wayne,
+        New Jersey"},{"ns":0,"title":"Wendy Wasserstein"},{"ns":0,"title":"William
+        Hurt"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Lanford
+        Wilson"},{"ns":10,"title":"Template:PulitzerPrize DramaAuthors"},{"ns":10,"title":"Template:PulitzerPrize
+        DramaAuthors 1918\u20131925"},{"ns":10,"title":"Template:PulitzerPrize DramaAuthors
+        1926\u20131950"},{"ns":10,"title":"Template:PulitzerPrize DramaAuthors 1951\u20131975"},{"ns":10,"title":"Template:PulitzerPrize
+        DramaAuthors 1976\u20132000"},{"ns":10,"title":"Template:PulitzerPrize DramaAuthors
+        2001\u20132025"},{"ns":11,"title":"Template talk:Lanford Wilson"},{"ns":11,"title":"Template
+        talk:PulitzerPrize DramaAuthors 1976\u20132000"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from March 2012"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from March 2013"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from November 2011"},{"ns":14,"title":"Category:Wikipedia
+        articles needing page number citations from March 2012"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:33 GMT
+recorded_with: VCR 2.9.2

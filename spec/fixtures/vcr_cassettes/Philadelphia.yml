@@ -1,0 +1,296 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Philadelphia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332321041, 3085161453, 3142929112
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4321'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:52 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4010 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"50585|0|Hampton_Roads"}},"query":{"pages":{"50585":{"pageid":50585,"ns":0,"title":"Philadelphia","links":[{"ns":0,"title":"1790
+        United States Census"},{"ns":0,"title":"1800 United States Census"},{"ns":0,"title":"1810
+        United States Census"},{"ns":0,"title":"1820 United States Census"},{"ns":0,"title":"1830
+        United States Census"},{"ns":0,"title":"1835 Philadelphia General Strike"},{"ns":0,"title":"1840
+        United States Census"},{"ns":0,"title":"1850 United States Census"},{"ns":0,"title":"1860
+        United States Census"},{"ns":0,"title":"1870 United States Census"},{"ns":0,"title":"1880
+        United States Census"},{"ns":0,"title":"1890 United States Census"},{"ns":0,"title":"1900
+        United States Census"},{"ns":0,"title":"1910 United States Census"},{"ns":0,"title":"1920
+        United States Census"},{"ns":0,"title":"1930 United States Census"},{"ns":0,"title":"1940
+        United States Census"},{"ns":0,"title":"1948 NFL season"},{"ns":0,"title":"1949
+        NFL season"},{"ns":0,"title":"1950 United States Census"},{"ns":0,"title":"1960
+        NFL season"},{"ns":0,"title":"1960 United States Census"},{"ns":0,"title":"1966\u201367
+        NBA season"},{"ns":0,"title":"1970 United States Census"},{"ns":0,"title":"1973\u201374
+        NHL season"},{"ns":0,"title":"1974\u201375 NHL season"},{"ns":0,"title":"1980
+        United States Census"},{"ns":0,"title":"1980 World Series"},{"ns":0,"title":"1982\u201383
+        NBA season"},{"ns":0,"title":"1983 NBA Finals"},{"ns":0,"title":"1989 National
+        Lacrosse League season"},{"ns":0,"title":"1990 National Lacrosse League season"},{"ns":0,"title":"1990
+        United States Census"},{"ns":0,"title":"1994 National Lacrosse League season"},{"ns":0,"title":"1994
+        North American cold wave"},{"ns":0,"title":"1995 National Lacrosse League
+        season"},{"ns":0,"title":"1998 National Lacrosse League season"},{"ns":0,"title":"1
+        E+8 m\u00b2"},{"ns":0,"title":"2000 United States Census"},{"ns":0,"title":"2001
+        National Lacrosse League season"},{"ns":0,"title":"2007 Philadelphia Mayoral
+        Election"},{"ns":0,"title":"2008 Arena Football League season"},{"ns":0,"title":"2008
+        World Series"},{"ns":0,"title":"2010 United States Census"},{"ns":0,"title":"30th
+        Street Station"},{"ns":0,"title":"30th Street Station (Philadelphia)"},{"ns":0,"title":"40th
+        parallel north"},{"ns":0,"title":"Abington Township, Montgomery County, Pennsylvania"},{"ns":0,"title":"Above
+        mean sea level"},{"ns":0,"title":"Abruzzo"},{"ns":0,"title":"Academy Gardens,
+        Philadelphia"},{"ns":0,"title":"Academy of Music (Philadelphia)"},{"ns":0,"title":"Academy
+        of Natural Sciences"},{"ns":0,"title":"Act of Consolidation, 1854"},{"ns":0,"title":"Adams
+        County, Pennsylvania"},{"ns":0,"title":"Addison Hutton"},{"ns":0,"title":"Adult
+        Contemporary"},{"ns":0,"title":"African American"},{"ns":0,"title":"African
+        American (U.S. Census)"},{"ns":0,"title":"African American Museum in Philadelphia"},{"ns":0,"title":"African
+        Methodist Episcopal Church"},{"ns":0,"title":"Agriculture in Pennsylvania"},{"ns":0,"title":"Airport
+        Line (SEPTA)"},{"ns":0,"title":"Aix-en-Provence"},{"ns":0,"title":"Akron,
+        OH Metropolitan Statistical Area"},{"ns":0,"title":"Akron, Ohio"},{"ns":0,"title":"Albuquerque
+        metropolitan area"},{"ns":0,"title":"Alexandria, Virginia"},{"ns":0,"title":"All-America
+        City Award"},{"ns":0,"title":"Allegheny County, Pennsylvania"},{"ns":0,"title":"Allegheny
+        Mountains"},{"ns":0,"title":"Allegheny National Forest"},{"ns":0,"title":"Allegheny
+        Plateau"},{"ns":0,"title":"Allegheny West, Philadelphia"},{"ns":0,"title":"Allentown,
+        Pennsylvania"},{"ns":0,"title":"Allyson Schwartz"},{"ns":0,"title":"Altoona,
+        Pennsylvania"},{"ns":0,"title":"American Bandstand"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"American Civil War"},{"ns":0,"title":"American
+        English"},{"ns":0,"title":"American Revolution"},{"ns":0,"title":"American
+        Revolutionary War"},{"ns":0,"title":"Amtrak"},{"ns":0,"title":"Anchorage,
+        Alaska"},{"ns":0,"title":"Andorra, Philadelphia"},{"ns":0,"title":"Angora,
+        Philadelphia"},{"ns":0,"title":"Annapolis, Maryland"},{"ns":0,"title":"Appellate
+        court"},{"ns":0,"title":"Appellate jurisdiction"},{"ns":0,"title":"Aramark"},{"ns":0,"title":"Aramingo
+        Borough, Pennsylvania"},{"ns":0,"title":"Architecture of Philadelphia"},{"ns":0,"title":"Area
+        code"},{"ns":0,"title":"Area code 215"},{"ns":0,"title":"Area code 267"},{"ns":0,"title":"Area
+        code 445"},{"ns":0,"title":"Area code 610"},{"ns":0,"title":"Area code 835"},{"ns":0,"title":"Area
+        code overlay"},{"ns":0,"title":"Arena Football League (2010\u2013)"},{"ns":0,"title":"Arlen
+        Specter"},{"ns":0,"title":"Armstrong County, Pennsylvania"},{"ns":0,"title":"Asheville,
+        North Carolina"},{"ns":0,"title":"Ashton-Woodenbridge, Philadelphia"},{"ns":0,"title":"Asian
+        (U.S. Census)"},{"ns":0,"title":"Asian American"},{"ns":0,"title":"Association
+        for Public Art"},{"ns":0,"title":"At-large"},{"ns":0,"title":"Athenaeum of
+        Philadelphia"},{"ns":0,"title":"Atlanta metropolitan area"},{"ns":0,"title":"Atlantic
+        City, New Jersey"},{"ns":0,"title":"Atlantic City Line"},{"ns":0,"title":"Atlantic
+        Coastal Plain"},{"ns":0,"title":"Atlantic County, New Jersey"},{"ns":0,"title":"Atlantic
+        coastal plain"},{"ns":0,"title":"Atwater Kent Museum of Philadelphia"},{"ns":0,"title":"Augusta
+        metropolitan area"},{"ns":0,"title":"Austroasiatic languages"},{"ns":0,"title":"Avenue
+        of Technology (Philadelphia)"},{"ns":0,"title":"Avenue of the Arts, Philadelphia"},{"ns":0,"title":"Avenue
+        of the Arts (Philadelphia)"},{"ns":0,"title":"Baldwin Locomotive Works"},{"ns":0,"title":"Baltimore"},{"ns":0,"title":"Baltimore
+        metropolitan area"},{"ns":0,"title":"Baltimore\u2013Washington metropolitan
+        area"},{"ns":0,"title":"Barack Obama"},{"ns":0,"title":"Bartram Village, Philadelphia"},{"ns":0,"title":"Baton
+        Rouge metropolitan area"},{"ns":0,"title":"Beaver, Pennsylvania"},{"ns":0,"title":"Beaver
+        County, Pennsylvania"},{"ns":0,"title":"Bedford, Pennsylvania"},{"ns":0,"title":"Bedford
+        County, Pennsylvania"},{"ns":0,"title":"Beggarstown, Philadelphia"},{"ns":0,"title":"Belfield
+        (Philadelphia)"},{"ns":0,"title":"Bell System"},{"ns":0,"title":"Bella Vista,
+        Philadelphia"},{"ns":0,"title":"Bellefonte, Pennsylvania"},{"ns":0,"title":"Bellevue,
+        Pennsylvania"},{"ns":0,"title":"Belmont District, Pennsylvania"},{"ns":0,"title":"Belmont
+        Village, Philadelphia"},{"ns":0,"title":"Ben Franklin Bridge"},{"ns":0,"title":"Ben
+        Franklin Parkway"},{"ns":0,"title":"Benjamin Franklin"},{"ns":0,"title":"Benjamin
+        Franklin Bridge"},{"ns":0,"title":"Benjamin Franklin National Memorial"},{"ns":0,"title":"Benjamin
+        Latrobe"},{"ns":0,"title":"Benjamin West"},{"ns":0,"title":"Bensalem Township,
+        Bucks County, Pennsylvania"},{"ns":0,"title":"Bensalem Township, Pennsylvania"},{"ns":0,"title":"Berks
+        County, Pennsylvania"},{"ns":0,"title":"Bethel Park, Pennsylvania"},{"ns":0,"title":"Bethlehem,
+        Pennsylvania"},{"ns":0,"title":"Betsy Ross Bridge"},{"ns":0,"title":"Betsy
+        Ross House"},{"ns":0,"title":"Bicycle racing"},{"ns":0,"title":"Bieber Tourways"},{"ns":0,"title":"Big
+        Five (orchestras)"},{"ns":0,"title":"Bill Peduto"},{"ns":0,"title":"Birmingham-Hoover,
+        AL Metropolitan Statistical Area"},{"ns":0,"title":"Blair County, Pennsylvania"},{"ns":0,"title":"Blockley
+        Township, Pennsylvania"},{"ns":0,"title":"Bloomsburg, Pennsylvania"},{"ns":0,"title":"Blue
+        Ridge Mountains"},{"ns":0,"title":"Bob Brady"},{"ns":0,"title":"Boeing Rotorcraft
+        Systems"},{"ns":0,"title":"Boise metropolitan area"},{"ns":0,"title":"Bolt
+        Bus"},{"ns":0,"title":"Borough (Pennsylvania)"},{"ns":0,"title":"Boston"},{"ns":0,"title":"Bradford
+        County, Pennsylvania"},{"ns":0,"title":"Bradford Woods, Pennsylvania"},{"ns":0,"title":"Brandywine
+        Hundred"},{"ns":0,"title":"Brevard County, Florida"},{"ns":0,"title":"Brewerytown,
+        Philadelphia"},{"ns":0,"title":"Bridesburg, Philadelphia"},{"ns":0,"title":"Bridesburg-Kensington-Richmond,
+        Philadelphia"},{"ns":0,"title":"Bridgeport, Connecticut"},{"ns":0,"title":"Brigadier
+        General"},{"ns":0,"title":"Bristol Township, Bucks County, Pennsylvania"},{"ns":0,"title":"Bristol
+        Township, Pennsylvania"},{"ns":0,"title":"Bristol Township, Philadelphia County,
+        Pennsylvania"},{"ns":0,"title":"British America"},{"ns":0,"title":"Broad Street
+        (Philadelphia)"},{"ns":0,"title":"Broad Street Run"},{"ns":0,"title":"Broad
+        Street Station (Philadelphia)"},{"ns":0,"title":"Brooklawn, New Jersey"},{"ns":0,"title":"Brookville,
+        Pennsylvania"},{"ns":0,"title":"Bryn Athyn, Pennsylvania"},{"ns":0,"title":"Bryn
+        Mawr College"},{"ns":0,"title":"Bucks County, Pennsylvania"},{"ns":0,"title":"Buffalo\u2013Niagara
+        Falls metropolitan area"},{"ns":0,"title":"Burholme, Philadelphia"},{"ns":0,"title":"Burlington
+        County, New Jersey"},{"ns":0,"title":"Burlington County Bridge Commission"},{"ns":0,"title":"Bustleton,
+        Philadelphia"},{"ns":0,"title":"Butler, Pennsylvania"},{"ns":0,"title":"Butler
+        County, Pennsylvania"},{"ns":0,"title":"Byberry, Philadelphia"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CIGNA"},{"ns":0,"title":"Cabot,
+        Philadelphia"},{"ns":0,"title":"Cabrini College"},{"ns":0,"title":"Callowhill,
+        Philadelphia"},{"ns":0,"title":"Cambodian language"},{"ns":0,"title":"Cambria
+        County, Pennsylvania"},{"ns":0,"title":"Cambridge, Massachusetts"},{"ns":0,"title":"Cambridge
+        Springs, Pennsylvania"},{"ns":0,"title":"Camden, New Jersey"},{"ns":0,"title":"Camden
+        County, New Jersey"},{"ns":0,"title":"Cameron County, Pennsylvania"},{"ns":0,"title":"Canal"},{"ns":0,"title":"Cape
+        May County, New Jersey"},{"ns":0,"title":"Capital District"},{"ns":0,"title":"Capitol
+        Trailways"},{"ns":0,"title":"Carbon County, Pennsylvania"},{"ns":0,"title":"Carbondale,
+        Pennsylvania"},{"ns":0,"title":"Carlisle, Pennsylvania"},{"ns":0,"title":"Carroll
+        Park, Philadelphia"},{"ns":0,"title":"Castor Gardens, Philadelphia"},{"ns":0,"title":"Cathedral
+        Park, Philadelphia"},{"ns":0,"title":"Cecil County, Maryland"},{"ns":0,"title":"Cedar
+        Park, Philadelphia"},{"ns":0,"title":"Cedarbrook, Philadelphia"},{"ns":0,"title":"Centennial
+        District, Philadelphia"},{"ns":0,"title":"Centennial Exposition"},{"ns":0,"title":"Center
+        City, Philadelphia"},{"ns":0,"title":"Center City (Philadelphia)"},{"ns":0,"title":"Center
+        City Philadelphia"},{"ns":0,"title":"Center for Student Missions"},{"ns":0,"title":"Central
+        South Philadelphia, Philadelphia"},{"ns":0,"title":"Centre County, Pennsylvania"},{"ns":0,"title":"Centre
+        Square"},{"ns":0,"title":"Chaka Fattah"},{"ns":0,"title":"Chalfont, Pennsylvania"},{"ns":0,"title":"Chambersburg,
+        Pennsylvania"},{"ns":0,"title":"Charles II of England"},{"ns":0,"title":"Charles
+        Rappleye"},{"ns":0,"title":"Charleston, South Carolina metropolitan area"},{"ns":0,"title":"Charlotte
+        metropolitan area"},{"ns":0,"title":"Charter"},{"ns":0,"title":"Charter schools"},{"ns":0,"title":"Chattanooga,
+        TN-GA Metropolitan Statistical Area"},{"ns":0,"title":"Cheesesteak"},{"ns":0,"title":"Cheltenham
+        Township, Pennsylvania"},{"ns":0,"title":"Cherry Hill, New Jersey"},{"ns":0,"title":"Chester,
+        Pennsylvania"},{"ns":0,"title":"Chester County, Pennsylvania"},{"ns":0,"title":"Chester
+        Township, Delaware County, Pennsylvania"},{"ns":0,"title":"Chestnut Hill,
+        Philadelphia"},{"ns":0,"title":"Chestnut Hill, Philadelphia, Pennsylvania"},{"ns":0,"title":"Chestnut
+        Hill College"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Chicago metropolitan
+        area"},{"ns":0,"title":"Chinatown, Philadelphia"},{"ns":0,"title":"Chinese
+        language"},{"ns":0,"title":"Christ Church, Philadelphia"},{"ns":0,"title":"Cincinnati"},{"ns":0,"title":"Cincinnati
+        metropolitan area"},{"ns":0,"title":"Cira Centre"},{"ns":0,"title":"Citizens
+        Bank Park"},{"ns":0,"title":"City (Pennsylvania)"},{"ns":0,"title":"Cityscape"},{"ns":0,"title":"Clairton,
+        Pennsylvania"},{"ns":0,"title":"Clarion, Pennsylvania"},{"ns":0,"title":"Clarion
+        County, Pennsylvania"},{"ns":0,"title":"Clearfield, Pennsylvania"},{"ns":0,"title":"Clearfield
+        County, Pennsylvania"},{"ns":0,"title":"Clearview, Philadelphia"},{"ns":0,"title":"Cleveland"},{"ns":0,"title":"Clinton
+        County, Pennsylvania"},{"ns":0,"title":"Coal Region"},{"ns":0,"title":"Coatesville,
+        Pennsylvania"},{"ns":0,"title":"Cobbs Creek"},{"ns":0,"title":"Cobbs Creek,
+        Philadelphia"},{"ns":0,"title":"Collegiate Rugby Championship"},{"ns":0,"title":"Collingswood,
+        New Jersey"},{"ns":0,"title":"Colonial America"},{"ns":0,"title":"Colonial
+        Penn"},{"ns":0,"title":"Colony"},{"ns":0,"title":"Colony of Pennsylvania"},{"ns":0,"title":"Colorado
+        Springs metropolitan area"},{"ns":0,"title":"Columbia, South Carolina metropolitan
+        area"},{"ns":0,"title":"Columbia County, Pennsylvania"},{"ns":0,"title":"Columbus,
+        Ohio"},{"ns":0,"title":"Columbus, Ohio metropolitan area"},{"ns":0,"title":"Combined
+        statistical area"},{"ns":0,"title":"Comcast"},{"ns":0,"title":"Comcast Center
+        (office building)"},{"ns":0,"title":"Commercial broadcasting"},{"ns":0,"title":"Commodore
+        Barry Bridge"},{"ns":0,"title":"Commonwealth (U.S. state)"},{"ns":0,"title":"Commonwealth
+        Court of Pennsylvania"},{"ns":0,"title":"Commonwealth of Pennsylvania"},{"ns":0,"title":"Community
+        College of Philadelphia"},{"ns":0,"title":"Congress of the Confederation"},{"ns":0,"title":"Congressional
+        district"},{"ns":0,"title":"Consolidated city-county"},{"ns":0,"title":"Coudersport,
+        Pennsylvania"},{"ns":0,"title":"County seat"},{"ns":0,"title":"Cranberry Township,
+        Butler County, Pennsylvania"},{"ns":0,"title":"Crawford County, Pennsylvania"},{"ns":0,"title":"Crescentville,
+        Philadelphia"},{"ns":0,"title":"Crestmont Farms, Philadelphia"},{"ns":0,"title":"Crime
+        in Pennsylvania"},{"ns":0,"title":"Crime in Philadelphia"},{"ns":0,"title":"Crown
+        Holdings Incorporated"},{"ns":0,"title":"Cuisine of Philadelphia"},{"ns":0,"title":"Cultural
+        depictions of Philadelphia"},{"ns":0,"title":"Culture of Philadelphia"},{"ns":0,"title":"Cumberland
+        County, New Jersey"},{"ns":0,"title":"Cumberland County, Pennsylvania"},{"ns":0,"title":"Cumberland
+        Valley"},{"ns":0,"title":"Curse of Billy Penn"},{"ns":0,"title":"Curtis Institute
+        of Music"},{"ns":0,"title":"DJ Jazzy Jeff & The Fresh Prince"},{"ns":0,"title":"Dad
+        Vail Regatta"},{"ns":0,"title":"Dallas-Fort Worth metroplex"},{"ns":0,"title":"Danville,
+        Pennsylvania"},{"ns":0,"title":"Darby, Pennsylvania"},{"ns":0,"title":"Darrell
+        L. Clarke (politician)"},{"ns":0,"title":"Dauphin County, Pennsylvania"},{"ns":0,"title":"Daylight
+        saving time"},{"ns":0,"title":"Dayton, Ohio"},{"ns":0,"title":"Dayton metropolitan
+        area"},{"ns":0,"title":"Delaware County, Pennsylvania"},{"ns":0,"title":"Delaware
+        River"},{"ns":0,"title":"Delaware River Port Authority"},{"ns":0,"title":"Delaware
+        Township, Philadelphia County, Pennsylvania"},{"ns":0,"title":"Delaware Valley"},{"ns":0,"title":"Democratic
+        Party (United States)"},{"ns":0,"title":"Demographics of Philadelphia"},{"ns":0,"title":"Demonym"},{"ns":0,"title":"Denver-Aurora-Lakewood,
+        CO Metropolitan Statistical Area"},{"ns":0,"title":"Deptford Township, New
+        Jersey"},{"ns":0,"title":"Des Moines, Iowa"},{"ns":0,"title":"Des Moines metropolitan
+        area"},{"ns":0,"title":"Devil''s Pocket, Philadelphia"},{"ns":0,"title":"Dick
+        Clark"},{"ns":0,"title":"Dickinson Narrows, Philadelphia"},{"ns":0,"title":"District"},{"ns":0,"title":"District
+        Attorney of Philadelphia"},{"ns":0,"title":"District of Columbia"},{"ns":0,"title":"Dominican
+        American"},{"ns":0,"title":"Douala"},{"ns":0,"title":"Dover, Delaware"},{"ns":0,"title":"Doylestown,
+        Pennsylvania"},{"ns":0,"title":"Drexel University"},{"ns":0,"title":"Drexel
+        University College of Medicine"},{"ns":0,"title":"DuBois, Pennsylvania"},{"ns":0,"title":"Dunlap,
+        Philadelphia"},{"ns":0,"title":"ESPN"},{"ns":0,"title":"Eakins Oval"},{"ns":0,"title":"East
+        Falls"},{"ns":0,"title":"East Falls, Philadelphia"},{"ns":0,"title":"East
+        Oak Lane, Philadelphia"},{"ns":0,"title":"East Passyunk Crossing, Philadelphia"},{"ns":0,"title":"Eastern
+        Daylight Time"},{"ns":0,"title":"Eastern State Penitentiary"},{"ns":0,"title":"Eastern
+        University (United States)"},{"ns":0,"title":"Easton, Pennsylvania"},{"ns":0,"title":"Eastwick,
+        Philadelphia"},{"ns":0,"title":"Eastwick, Philadelphia, Pennsylvania"},{"ns":0,"title":"Ebensburg,
+        Pennsylvania"},{"ns":0,"title":"Economy of Philadelphia"},{"ns":0,"title":"Ed
+        Pawlowski"},{"ns":0,"title":"Edgar Allan Poe National Historic Site"},{"ns":0,"title":"Edinboro,
+        Pennsylvania"},{"ns":0,"title":"Edinburg, Texas"},{"ns":0,"title":"Education
+        in Pennsylvania"},{"ns":0,"title":"Education in Philadelphia"},{"ns":0,"title":"El
+        Centro de Oro"},{"ns":0,"title":"El Paso metropolitan area"},{"ns":0,"title":"Elfreth''s
+        Alley"},{"ns":0,"title":"Elizabeth, New Jersey"},{"ns":0,"title":"Elk County,
+        Pennsylvania"},{"ns":0,"title":"Elk Township, Chester County, Pennsylvania"},{"ns":0,"title":"Elmwood
+        Park, Philadelphia"},{"ns":0,"title":"Emporium, Pennsylvania"},{"ns":0,"title":"Endless
+        Mountains"},{"ns":0,"title":"English American"},{"ns":0,"title":"English language"},{"ns":0,"title":"Environmentally
+        friendly"},{"ns":0,"title":"Eric Papenfuse"},{"ns":0,"title":"Erie, Pennsylvania"},{"ns":0,"title":"Erie
+        County, Pennsylvania"},{"ns":0,"title":"Eve (entertainer)"},{"ns":0,"title":"Evesham
+        Township, New Jersey"},{"ns":0,"title":"Ewing Township, New Jersey"},{"ns":0,"title":"FMC
+        Corporation"},{"ns":0,"title":"Fairhill, Philadelphia"},{"ns":0,"title":"Fairmount,
+        Philadelphia"},{"ns":0,"title":"Fairmount Park"},{"ns":0,"title":"Fall line"},{"ns":0,"title":"Falls
+        Township, Bucks County, Pennsylvania"},{"ns":0,"title":"Far Northeast Philadelphia"},{"ns":0,"title":"Farrell,
+        Pennsylvania"},{"ns":0,"title":"Fayette County, Pennsylvania"},{"ns":0,"title":"Fayetteville,
+        North Carolina"},{"ns":0,"title":"Federal architecture"},{"ns":0,"title":"Federal
+        government of the United States"},{"ns":0,"title":"Felony"},{"ns":0,"title":"Feltonville,
+        Philadelphia"},{"ns":0,"title":"Ferguson Township, Centre County, Pennsylvania"},{"ns":0,"title":"Fern
+        Rock, Philadelphia"},{"ns":0,"title":"First Bank of the United States"},{"ns":0,"title":"First
+        Continental Congress"},{"ns":0,"title":"First Friday (public event)"},{"ns":0,"title":"First
+        North American blizzard of 2010"},{"ns":0,"title":"Fiscal year"},{"ns":0,"title":"Fishtown,
+        Philadelphia"},{"ns":0,"title":"Fishtown, Philadelphia, Pennsylvania"},{"ns":0,"title":"Fitler
+        Square, Philadelphia"},{"ns":0,"title":"Flag of Philadelphia"},{"ns":0,"title":"Florence"},{"ns":0,"title":"Forest
+        County, Pennsylvania"},{"ns":0,"title":"Fort Beversreede"},{"ns":0,"title":"Fort
+        Christina"},{"ns":0,"title":"Fort Mifflin"},{"ns":0,"title":"Fort Nassau (South
+        River)"},{"ns":0,"title":"Fort Nya Korsholm"},{"ns":0,"title":"Fort Wayne,
+        Indiana"},{"ns":0,"title":"Fort Worth, Texas"},{"ns":0,"title":"Fortune 500"},{"ns":0,"title":"Founding
+        Fathers of the United States"},{"ns":0,"title":"Fox Broadcasting Company"},{"ns":0,"title":"Fox
+        Chase, Philadelphia"},{"ns":0,"title":"Francisville, Philadelphia"},{"ns":0,"title":"Frank
+        Furness"},{"ns":0,"title":"Frankford, Philadelphia"},{"ns":0,"title":"Franklin,
+        Pennsylvania"},{"ns":0,"title":"Franklin County, Pennsylvania"},{"ns":0,"title":"Franklin
+        D. Roosevelt"},{"ns":0,"title":"Franklin Delano Roosevelt Park"},{"ns":0,"title":"Franklin
+        Institute"},{"ns":0,"title":"Franklin Square (Philadelphia)"},{"ns":0,"title":"Franklintown,
+        Philadelphia"},{"ns":0,"title":"Franklinville, Philadelphia"},{"ns":0,"title":"Freeway
+        (rapper)"},{"ns":0,"title":"French Quarter, Philadelphia"},{"ns":0,"title":"French
+        language"},{"ns":0,"title":"Fulton County, Pennsylvania"},{"ns":0,"title":"Gambling
+        in Pennsylvania"},{"ns":0,"title":"Garden Court, Philadelphia"},{"ns":0,"title":"Gastonia,
+        North Carolina"},{"ns":0,"title":"Gentrification"},{"ns":0,"title":"Geographic
+        coordinate system"},{"ns":0,"title":"Geography of Pennsylvania"},{"ns":0,"title":"Geology
+        of Pennsylvania"},{"ns":0,"title":"George Howe (architect)"},{"ns":0,"title":"Georgian
+        architecture"},{"ns":0,"title":"German American"},{"ns":0,"title":"Germantown,
+        Philadelphia"},{"ns":0,"title":"Germantown Township, Pennsylvania"},{"ns":0,"title":"Gettysburg,
+        Pennsylvania"},{"ns":0,"title":"Gimbel''s"},{"ns":0,"title":"Girard Estate,
+        Philadelphia"},{"ns":0,"title":"Girard Fountain Park"},{"ns":0,"title":"GlaxoSmithKline"},{"ns":0,"title":"Glenwood,
+        Philadelphia"},{"ns":0,"title":"Gloria Dei (Old Swedes'') Church"},{"ns":0,"title":"Gloucester
+        County, New Jersey"},{"ns":0,"title":"Gloucester Township, New Jersey"},{"ns":0,"title":"Golden
+        State Warriors"},{"ns":0,"title":"Government corporation"},{"ns":0,"title":"Government
+        of Pennsylvania"},{"ns":0,"title":"Graffiti"},{"ns":0,"title":"Grand Island,
+        Nebraska"},{"ns":0,"title":"Grand Rapids, Michigan"},{"ns":0,"title":"Grand
+        Rapids metropolitan area"},{"ns":0,"title":"Gray''s Ferry"},{"ns":0,"title":"Grays
+        Ferry, Philadelphia"},{"ns":0,"title":"Great Depression"},{"ns":0,"title":"Great
+        Famine (Ireland)"},{"ns":0,"title":"Great Migration (African American)"},{"ns":0,"title":"Great
+        Valley (Chester County, Pennsylvania)"},{"ns":0,"title":"Greater Austin"},{"ns":0,"title":"Greater
+        Boston"},{"ns":0,"title":"Greater Bridgeport"},{"ns":0,"title":"Greater Cleveland"},{"ns":0,"title":"Greater
+        Hartford"},{"ns":0,"title":"Greater Houston"},{"ns":0,"title":"Greater New
+        Haven"},{"ns":0,"title":"Greater Orlando"},{"ns":0,"title":"Greater Richmond
+        Region"},{"ns":0,"title":"Greater San Antonio"},{"ns":0,"title":"Greater St.
+        Louis"},{"ns":0,"title":"Greek Revival architecture"},{"ns":0,"title":"Greek
+        language"},{"ns":0,"title":"Green Tree, Pennsylvania"},{"ns":0,"title":"Greene
+        County, Pennsylvania"},{"ns":0,"title":"Greensburg, Pennsylvania"},{"ns":0,"title":"Greenville,
+        South Carolina metropolitan area"},{"ns":0,"title":"Greenwich, Philadelphia"},{"ns":0,"title":"Greyhound
+        Lines"},{"ns":0,"title":"Grid plan"},{"ns":0,"title":"Haddington, Philadelphia"},{"ns":0,"title":"Haddonfield,
+        New Jersey"},{"ns":0,"title":"Hamilton Township, Mercer County, New Jersey"},{"ns":0,"title":"Hampden
+        Township, Cumberland County, Pennsylvania"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:53 GMT
+recorded_with: VCR 2.9.2

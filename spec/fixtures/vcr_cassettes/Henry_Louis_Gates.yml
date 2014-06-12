@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Henry%20Louis%20Gates
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332273464, 2340327708, 1061636319
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2047'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:17 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4016 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"580827":{"pageid":580827,"ns":0,"title":"Henry
+        Louis Gates","links":[{"ns":0,"title":"2 Live Crew"},{"ns":0,"title":"African-American
+        studies"},{"ns":0,"title":"African American Lives"},{"ns":0,"title":"African
+        American Lives 2"},{"ns":0,"title":"African American Studies"},{"ns":0,"title":"African
+        American culture"},{"ns":0,"title":"African literature"},{"ns":0,"title":"Afrocentric"},{"ns":0,"title":"Afrocentrics"},{"ns":0,"title":"Alphonse
+        Fletcher"},{"ns":0,"title":"American Academy of Arts and Letters"},{"ns":0,"title":"American
+        Book Award"},{"ns":0,"title":"Ancestor"},{"ns":0,"title":"Andrew W. Mellon
+        Foundation"},{"ns":0,"title":"Anglo-Saxon"},{"ns":0,"title":"Anisfield-Wolf
+        Book Award"},{"ns":0,"title":"Aspen Institute"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BBC"},{"ns":0,"title":"Ball and socket joint"},{"ns":0,"title":"Barack
+        Obama"},{"ns":0,"title":"Basic Civitas Books"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Black literature"},{"ns":0,"title":"Brookings
+        Institution"},{"ns":0,"title":"Cambridge Police Department (Massachusetts)"},{"ns":0,"title":"Cambridge
+        University"},{"ns":0,"title":"Center for Advanced Study in the Behavioral
+        Sciences"},{"ns":0,"title":"Clare College"},{"ns":0,"title":"Clare College,
+        Cambridge"},{"ns":0,"title":"Cleveland-Marshall College of Law"},{"ns":0,"title":"Clotel;
+        or, The President''s Daughter"},{"ns":0,"title":"Cornel West"},{"ns":0,"title":"Cornell
+        University"},{"ns":0,"title":"Council of Foreign Relations"},{"ns":0,"title":"Cultural
+        pluralism"},{"ns":0,"title":"Dar es Salaam"},{"ns":0,"title":"Debt bondage"},{"ns":0,"title":"Deconstruction"},{"ns":0,"title":"Dissertation"},{"ns":0,"title":"Dominique
+        de M\u00e9nil"},{"ns":0,"title":"Dr. Mehmet Oz"},{"ns":0,"title":"Duke University"},{"ns":0,"title":"Ebony
+        (magazine)"},{"ns":0,"title":"Eldridge Cleaver"},{"ns":0,"title":"Elizabeth
+        Alexander (poet)"},{"ns":0,"title":"English literature"},{"ns":0,"title":"Eurocentrism"},{"ns":0,"title":"European
+        ethnic groups"},{"ns":0,"title":"Eva Longoria"},{"ns":0,"title":"Faces of
+        America"},{"ns":0,"title":"Faces of America (PBS series)"},{"ns":0,"title":"Finding
+        Your Roots"},{"ns":0,"title":"Frontline (PBS TV series)"},{"ns":0,"title":"Gale
+        (publisher)"},{"ns":0,"title":"Genealogical DNA test"},{"ns":0,"title":"Genealogy"},{"ns":0,"title":"Genome"},{"ns":0,"title":"George
+        Polk Award"},{"ns":0,"title":"Great Railway Journeys"},{"ns":0,"title":"Groupthink"},{"ns":0,"title":"Hannah
+        Crafts"},{"ns":0,"title":"Harriet E. Wilson"},{"ns":0,"title":"Harvard University"},{"ns":0,"title":"Harvard
+        University Professor"},{"ns":0,"title":"Henry Louis Gates arrest controversy"},{"ns":0,"title":"Hip
+        hop music"},{"ns":0,"title":"Hollis Robbins"},{"ns":0,"title":"Houston, Texas"},{"ns":0,"title":"Humanities"},{"ns":0,"title":"Identity
+        politics"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jazz at Lincoln Center"},{"ns":0,"title":"Jefferson
+        Lecture"},{"ns":0,"title":"John Henrik Clarke"},{"ns":0,"title":"Keyser, West
+        Virginia"},{"ns":0,"title":"Kilimatinde"},{"ns":0,"title":"Knome"},{"ns":0,"title":"Kristi
+        Yamaguchi"},{"ns":0,"title":"Kwame Anthony Appiah"},{"ns":0,"title":"Law enforcement
+        agency"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lisa
+        Miller (journalist)"},{"ns":0,"title":"Literary criticism"},{"ns":0,"title":"Louise
+        Erdrich"},{"ns":0,"title":"MacArthur Fellow"},{"ns":0,"title":"Malcolm Gladwell"},{"ns":0,"title":"Mario
+        Batali"},{"ns":0,"title":"Maulana Karenga"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Mike
+        Nichols"},{"ns":0,"title":"Molefi Asante"},{"ns":0,"title":"Mulatto"},{"ns":0,"title":"NAACP
+        Legal Defense and Educational Fund"},{"ns":0,"title":"NEH"},{"ns":0,"title":"National
+        Endowment for the Humanities"},{"ns":0,"title":"National Humanities Medal"},{"ns":0,"title":"National
+        Public Radio"},{"ns":0,"title":"Nellie Y. McKay"},{"ns":0,"title":"New York
+        Public Library"},{"ns":0,"title":"New York Times"},{"ns":0,"title":"Newsweek"},{"ns":0,"title":"Niall
+        of the Nine Hostages"},{"ns":0,"title":"Nigeria"},{"ns":0,"title":"Obscenity"},{"ns":0,"title":"Op-ed"},{"ns":0,"title":"Oprah
+        Winfrey"},{"ns":0,"title":"Our Nig"},{"ns":0,"title":"Owen Alik Shahadah"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Peabody
+        Awards"},{"ns":0,"title":"Piedmont, West Virginia"},{"ns":0,"title":"Post-structuralism"},{"ns":0,"title":"Potomac
+        State College"},{"ns":0,"title":"Psychosomatic"},{"ns":0,"title":"Public Broadcasting
+        Service"},{"ns":0,"title":"Queen Noor"},{"ns":0,"title":"RMS Queen Elizabeth
+        2"},{"ns":0,"title":"Race relations"},{"ns":0,"title":"Reparations for slavery"},{"ns":0,"title":"Revolutionary
+        War"},{"ns":0,"title":"Semiotics"},{"ns":0,"title":"Signifyin(g)"},{"ns":0,"title":"Slipped
+        epiphysis"},{"ns":0,"title":"Sons of the American Revolution"},{"ns":0,"title":"Sports
+        Illustrated"},{"ns":0,"title":"Stanford, California"},{"ns":0,"title":"Stephen
+        Colbert"},{"ns":0,"title":"Structuralism"},{"ns":0,"title":"Summa cum laude"},{"ns":0,"title":"Talk
+        of the Nation"},{"ns":0,"title":"Tanzania"},{"ns":0,"title":"Tenure"},{"ns":0,"title":"Textual
+        analysis"},{"ns":0,"title":"The Baltimore Sun"},{"ns":0,"title":"The Bondwoman''s
+        Narrative"},{"ns":0,"title":"The Guardian"},{"ns":0,"title":"The New York
+        Times"},{"ns":0,"title":"The New Yorker"},{"ns":0,"title":"The Observer"},{"ns":0,"title":"The
+        Oprah Winfrey Show"},{"ns":0,"title":"The Root (magazine)"},{"ns":0,"title":"The
+        Signifying Monkey"},{"ns":0,"title":"The Washington Post Company"},{"ns":0,"title":"Time
+        (magazine)"},{"ns":0,"title":"Touch football (American)"},{"ns":0,"title":"Unchained
+        Memories"},{"ns":0,"title":"Vernacular"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"W. E. B. Du Bois Institute"},{"ns":0,"title":"WGBH-TV"},{"ns":0,"title":"Western
+        canon"},{"ns":0,"title":"William Shakespeare"},{"ns":0,"title":"William Wells
+        Brown"},{"ns":0,"title":"Yale Law School"},{"ns":0,"title":"Yale University"},{"ns":0,"title":"Yo-Yo
+        Ma"},{"ns":0,"title":"Yoruba people"},{"ns":0,"title":"Zambia"},{"ns":0,"title":"Zimbabwe"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":14,"title":"Category:Articles with unsourced statements from
+        August 2009"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from September 2009"},{"ns":14,"title":"Category:Use mdy dates from June 2013"},{"ns":100,"title":"Portal:African
+        American"},{"ns":100,"title":"Portal:Biography"},{"ns":100,"title":"Portal:Literature"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:18 GMT
+recorded_with: VCR 2.9.2

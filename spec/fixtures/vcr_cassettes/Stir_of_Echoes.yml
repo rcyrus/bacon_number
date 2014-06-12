@@ -1,0 +1,120 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Stir%20of%20Echoes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332348775, 3085173900, 2597367454
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1630'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:11 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4010 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1577984":{"pageid":1577984,"ns":0,"title":"Stir
+        of Echoes","links":[{"ns":0,"title":"20th Century Fox"},{"ns":0,"title":"A
+        Stir of Echoes"},{"ns":0,"title":"A World of Difference"},{"ns":0,"title":"A
+        World of His Own"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"And When the
+        Sky Was Opened"},{"ns":0,"title":"Artisan Entertainment"},{"ns":0,"title":"Asphyxia"},{"ns":0,"title":"Bid
+        Time Return"},{"ns":0,"title":"Blood Son"},{"ns":0,"title":"Born of Man and
+        Woman"},{"ns":0,"title":"Bram Stoker''s Dracula (1973 film)"},{"ns":0,"title":"Button,
+        Button (Matheson short story)"},{"ns":0,"title":"Button, Button (The Twilight
+        Zone)"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Chicago ''L''"},{"ns":0,"title":"Chicago
+        Sun-Times"},{"ns":0,"title":"Cold Sweat (1970 film)"},{"ns":0,"title":"Conor
+        O''Farrell"},{"ns":0,"title":"Dance of the Dead (Masters of Horror)"},{"ns":0,"title":"David
+        Koepp"},{"ns":0,"title":"De Sade (film)"},{"ns":0,"title":"Death Ship (The
+        Twilight Zone)"},{"ns":0,"title":"Decomposition"},{"ns":0,"title":"Deseret
+        News"},{"ns":0,"title":"Duel (1971 film)"},{"ns":0,"title":"Empire (film magazine)"},{"ns":0,"title":"Ernie
+        Barbarash"},{"ns":0,"title":"Fanatic (film)"},{"ns":0,"title":"Feature film"},{"ns":0,"title":"Fred
+        Murphy (cinematographer)"},{"ns":0,"title":"Gavin Polone"},{"ns":0,"title":"Ghost
+        Town (film)"},{"ns":0,"title":"Hell House (novel)"},{"ns":0,"title":"Horror
+        film"},{"ns":0,"title":"House of Usher (film)"},{"ns":0,"title":"I Am Legend
+        (film)"},{"ns":0,"title":"I Am Legend (novel)"},{"ns":0,"title":"I Am Omega"},{"ns":0,"title":"Illeana
+        Douglas"},{"ns":0,"title":"Insomnia"},{"ns":0,"title":"Intellectual disability"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"James Newton Howard"},{"ns":0,"title":"Jaws
+        3-D"},{"ns":0,"title":"Jennifer Morrison"},{"ns":0,"title":"Kathryn Erbe"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Dunn"},{"ns":0,"title":"Landlord"},{"ns":0,"title":"Lineman"},{"ns":0,"title":"Lions
+        Gate Entertainment"},{"ns":0,"title":"List of ghost films"},{"ns":0,"title":"Little
+        Girl Lost (The Twilight Zone)"},{"ns":0,"title":"Liza Weil"},{"ns":0,"title":"Loose
+        Cannons (1990 film)"},{"ns":0,"title":"Lusia Strus"},{"ns":0,"title":"Master
+        of the World (1961 film)"},{"ns":0,"title":"Mortdecai (film)"},{"ns":0,"title":"Mute
+        (The Twilight Zone)"},{"ns":0,"title":"My Ambition"},{"ns":0,"title":"Nick
+        of Time (The Twilight Zone)"},{"ns":0,"title":"Night Call"},{"ns":0,"title":"Night
+        of the Eagle"},{"ns":0,"title":"Nightmare at 20,000 Feet"},{"ns":0,"title":"Once
+        Upon a Time (The Twilight Zone)"},{"ns":0,"title":"Paranormal activity"},{"ns":0,"title":"Post-hypnotic
+        suggestion"},{"ns":0,"title":"Premium Rush"},{"ns":0,"title":"Psychic"},{"ns":0,"title":"Rape"},{"ns":0,"title":"Real
+        Steel"},{"ns":0,"title":"Richard Matheson"},{"ns":0,"title":"Rod Serling''s
+        Lost Classics"},{"ns":0,"title":"Roger Ebert"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"San
+        Antonio Express-News"},{"ns":0,"title":"Sci Fi Channel (United States)"},{"ns":0,"title":"Scream
+        of the Wolf"},{"ns":0,"title":"Seattle Post-Intelligencer"},{"ns":0,"title":"Secret
+        Window"},{"ns":0,"title":"Sequel"},{"ns":0,"title":"Somewhere in Time (film)"},{"ns":0,"title":"Spur
+        of the Moment (The Twilight Zone)"},{"ns":0,"title":"Steel (The Twilight Zone)"},{"ns":0,"title":"Stigmata
+        (film)"},{"ns":0,"title":"Stir of Echoes: The Homecoming"},{"ns":0,"title":"Supernatural"},{"ns":0,"title":"Tales
+        of Terror"},{"ns":0,"title":"Telepathy"},{"ns":0,"title":"Television movie"},{"ns":0,"title":"The
+        Baltimore Sun"},{"ns":0,"title":"The Beardless Warriors"},{"ns":0,"title":"The
+        Blair Witch Project"},{"ns":0,"title":"The Box (2009 film)"},{"ns":0,"title":"The
+        Cincinnati Post"},{"ns":0,"title":"The Comedy of Terrors"},{"ns":0,"title":"The
+        Devil Rides Out (film)"},{"ns":0,"title":"The Dreamer of Oz: The L. Frank
+        Baum Story"},{"ns":0,"title":"The Enemy Within (Star Trek: The Original Series)"},{"ns":0,"title":"The
+        Incredible Shrinking Man"},{"ns":0,"title":"The Incredible Shrinking Woman"},{"ns":0,"title":"The
+        Invaders (The Twilight Zone)"},{"ns":0,"title":"The Last Flight (The Twilight
+        Zone)"},{"ns":0,"title":"The Last Man on Earth (1964 film)"},{"ns":0,"title":"The
+        Legend of Hell House"},{"ns":0,"title":"The Martian Chronicles (TV miniseries)"},{"ns":0,"title":"The
+        Miami Herald"},{"ns":0,"title":"The Morning After (1974 film)"},{"ns":0,"title":"The
+        Mummy (1999 film)"},{"ns":0,"title":"The Night Stalker (film)"},{"ns":0,"title":"The
+        Night Strangler (film)"},{"ns":0,"title":"The Omega Man"},{"ns":0,"title":"The
+        Pit and the Pendulum (1961 film)"},{"ns":0,"title":"The Raven (1963 film)"},{"ns":0,"title":"The
+        Seattle Times"},{"ns":0,"title":"The Shrinking Man"},{"ns":0,"title":"The
+        Sixth Sense"},{"ns":0,"title":"The Splendid Source"},{"ns":0,"title":"The
+        Star-Ledger"},{"ns":0,"title":"The Trigger Effect"},{"ns":0,"title":"The Young
+        Warriors (film)"},{"ns":0,"title":"Third from the Sun"},{"ns":0,"title":"Thriller
+        film"},{"ns":0,"title":"Trilogy of Terror"},{"ns":0,"title":"Trilogy of Terror
+        II"},{"ns":0,"title":"Twilight Zone: The Movie"},{"ns":0,"title":"U-Haul"},{"ns":0,"title":"Wake
+        (ceremony)"},{"ns":0,"title":"What Dreams May Come"},{"ns":0,"title":"What
+        Dreams May Come (film)"},{"ns":0,"title":"Working-class"},{"ns":0,"title":"Young
+        Man''s Fancy (The Twilight Zone)"},{"ns":0,"title":"Zachary David Cope"},{"ns":10,"title":"Template:David
+        Koepp"},{"ns":10,"title":"Template:Richard Matheson"},{"ns":11,"title":"Template
+        talk:David Koepp"},{"ns":11,"title":"Template talk:Richard Matheson"},{"ns":12,"title":"Help:CS1
+        errors"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:12 GMT
+recorded_with: VCR 2.9.2

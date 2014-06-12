@@ -1,0 +1,119 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Atom%20Egoyan
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401575306, 3536726088, 3142866613
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1510'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:45 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4008 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"322696":{"pageid":322696,"ns":0,"title":"Atom Egoyan","links":[{"ns":0,"title":"17th
+        Moscow International Film Festival"},{"ns":0,"title":"1994 Cannes Film Festival"},{"ns":0,"title":"1997
+        Cannes Film Festival"},{"ns":0,"title":"1999 Cannes Film Festival"},{"ns":0,"title":"1st
+        Yerevan Golden Apricot International Film Festival"},{"ns":0,"title":"2005
+        Cannes Film Festival"},{"ns":0,"title":"2008 Cannes Film Festival"},{"ns":0,"title":"2014
+        Cannes Film Festival"},{"ns":0,"title":"2nd Yerevan Golden Apricot International
+        Film Festival"},{"ns":0,"title":"3rd Yerevan Golden Apricot International
+        Film Festival"},{"ns":0,"title":"4th Yerevan Golden Apricot International
+        Film Festival"},{"ns":0,"title":"5th Yerevan Golden Apricot International
+        Film Festival"},{"ns":0,"title":"6th Yerevan Golden Apricot International
+        Film Festival"},{"ns":0,"title":"7th Yerevan Golden Apricot International
+        Film Festival"},{"ns":0,"title":"A Portrait of Arshile"},{"ns":0,"title":"Academy
+        Award for Best Director"},{"ns":0,"title":"Academy Award for Best Writing
+        (Adapted Screenplay)"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Adoration
+        (film)"},{"ns":0,"title":"After Grad with Dad"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Ararat
+        (film)"},{"ns":0,"title":"Ararat (movie)"},{"ns":0,"title":"Armenian Genocide"},{"ns":0,"title":"Armenian
+        language"},{"ns":0,"title":"Armenians"},{"ns":0,"title":"Arshile Gorky"},{"ns":0,"title":"Arsin\u00e9e
+        Khanjian"},{"ns":0,"title":"Best Picture"},{"ns":0,"title":"Blu-ray"},{"ns":0,"title":"British
+        Columbia"},{"ns":0,"title":"CBC Radio One"},{"ns":0,"title":"Cairo"},{"ns":0,"title":"Calendar
+        (1993 film)"},{"ns":0,"title":"Canada"},{"ns":0,"title":"Canadian Stage"},{"ns":0,"title":"Cannes
+        Film Festival"},{"ns":0,"title":"Cello Suites (Bach)"},{"ns":0,"title":"Chacun
+        son cin\u00e9ma"},{"ns":0,"title":"Chloe (film)"},{"ns":0,"title":"Citadel
+        (film)"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Dan
+        David Prize"},{"ns":0,"title":"Dear Sandra"},{"ns":0,"title":"Devil''s Knot:
+        The True Story of the West Memphis Three"},{"ns":0,"title":"Devil''s Knot
+        (film)"},{"ns":0,"title":"Diaspora (film)"},{"ns":0,"title":"Egypt"},{"ns":0,"title":"Eleanor
+        Wachtel"},{"ns":0,"title":"European Graduate School"},{"ns":0,"title":"Exotica
+        (film)"},{"ns":0,"title":"Exotica (movie)"},{"ns":0,"title":"FIPRESCI"},{"ns":0,"title":"Family
+        Viewing"},{"ns":0,"title":"Felicia''s Journey (film)"},{"ns":0,"title":"Film
+        director"},{"ns":0,"title":"Film producer"},{"ns":0,"title":"Genie Awards"},{"ns":0,"title":"Golden
+        Apricot"},{"ns":0,"title":"Harold Pinter"},{"ns":0,"title":"Harutyun Khachatryan"},{"ns":0,"title":"Henri
+        Verneuil"},{"ns":0,"title":"House-Museum of Aram Khachaturian"},{"ns":0,"title":"Howard
+        in Particular"},{"ns":0,"title":"Ideas (radio show)"},{"ns":0,"title":"Ingmar
+        Bergman"},{"ns":0,"title":"Inspired by Bach"},{"ns":0,"title":"International
+        Filmfestival Mannheim-Heidelberg"},{"ns":0,"title":"International Standard
+        Book Number"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Johann
+        Sebastian Bach"},{"ns":0,"title":"Krapp''s Last Tape"},{"ns":0,"title":"Lonely
+        Planet"},{"ns":0,"title":"Looking for Nothing"},{"ns":0,"title":"Lori Singer"},{"ns":0,"title":"Lovers''
+        Park"},{"ns":0,"title":"Luminato"},{"ns":0,"title":"Mara Leveritt"},{"ns":0,"title":"Martin
+        Crimp"},{"ns":0,"title":"Mayrig"},{"ns":0,"title":"Men: A Passion Playground"},{"ns":0,"title":"Montreal
+        Stories"},{"ns":0,"title":"Moscow Cinema"},{"ns":0,"title":"Nairi Cinema"},{"ns":0,"title":"Next
+        of Kin (1984 film)"},{"ns":0,"title":"Open House (1982 film)"},{"ns":0,"title":"Order
+        of Canada"},{"ns":0,"title":"Palme d''Or"},{"ns":0,"title":"Peep Show (film)"},{"ns":0,"title":"Persona
+        (film)"},{"ns":0,"title":"Queen Street West"},{"ns":0,"title":"Reese Witherspoon"},{"ns":0,"title":"Robert
+        K. Elder"},{"ns":0,"title":"Saas-Fee"},{"ns":0,"title":"Samuel Beckett"},{"ns":0,"title":"Screenwriter"},{"ns":0,"title":"Social
+        alienation"},{"ns":0,"title":"Solitude"},{"ns":0,"title":"Sony Pictures Classics"},{"ns":0,"title":"Speaking
+        Parts"},{"ns":0,"title":"Specialty films"},{"ns":0,"title":"Stage director"},{"ns":0,"title":"The
+        Adjuster"},{"ns":0,"title":"The Captive (2014 film)"},{"ns":0,"title":"The
+        Film That Changed My Life"},{"ns":0,"title":"The Newspaper"},{"ns":0,"title":"The
+        Sweet Hereafter (film)"},{"ns":0,"title":"The Venturi''s"},{"ns":0,"title":"To
+        Each His Own Cinema"},{"ns":0,"title":"Toronto"},{"ns":0,"title":"Toronto
+        French School"},{"ns":0,"title":"Toronto International Film Festival"},{"ns":0,"title":"Toronto
+        Star"},{"ns":0,"title":"United Arab Republic"},{"ns":0,"title":"United States"},{"ns":0,"title":"University
+        of Toronto"},{"ns":0,"title":"University of Trinity College"},{"ns":0,"title":"Variety
+        (magazine)"},{"ns":0,"title":"Victoria, British Columbia"},{"ns":0,"title":"Volumina"},{"ns":0,"title":"West
+        Memphis Three"},{"ns":0,"title":"Western Armenian"},{"ns":0,"title":"Where
+        the Truth Lies"},{"ns":0,"title":"Yerevan International Film Festival"},{"ns":0,"title":"Yerevan
+        Opera Theater"},{"ns":0,"title":"Yo-Yo Ma"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Atom
+        Egoyan"},{"ns":10,"title":"Template:Golden Apricot Yerevan International Film
+        Festival"},{"ns":11,"title":"Template talk:Atom Egoyan"},{"ns":11,"title":"Template
+        talk:Golden Apricot Yerevan International Film Festival"},{"ns":14,"title":"Category:Articles
+        containing Armenian-language text"},{"ns":14,"title":"Category:Articles with
+        unsourced statements from November 2009"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:46 GMT
+recorded_with: VCR 2.9.2

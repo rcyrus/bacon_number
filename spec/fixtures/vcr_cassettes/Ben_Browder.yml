@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Ben%20Browder
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704602877, 983687717, 2597289487
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1205'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:49 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4018 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"203416":{"pageid":203416,"ns":0,"title":"Ben Browder","links":[{"ns":0,"title":"200
+        (Stargate SG-1)"},{"ns":0,"title":"A Killer Within"},{"ns":0,"title":"A Kiss
+        Before Dying (1991 film)"},{"ns":0,"title":"A Town Called Mercy"},{"ns":0,"title":"Alan
+        Dean Foster"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Anthony Simcoe"},{"ns":0,"title":"Arrow
+        (TV series)"},{"ns":0,"title":"Audiobook"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Bad
+        Kids Go to Hell"},{"ns":0,"title":"Bat Lash"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Blackhawk (DC Comics)"},{"ns":0,"title":"Boogie
+        Boy"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"C. Thomas Howell"},{"ns":0,"title":"CSI:
+        Miami"},{"ns":0,"title":"Cameron Mitchell (Stargate)"},{"ns":0,"title":"Central
+        School of Speech and Drama"},{"ns":0,"title":"Charlie''s Angels"},{"ns":0,"title":"Charlotte"},{"ns":0,"title":"Chuck
+        (TV series)"},{"ns":0,"title":"Claudia Black"},{"ns":0,"title":"David Boreanaz"},{"ns":0,"title":"David
+        Franklin (actor)"},{"ns":0,"title":"Dead Still"},{"ns":0,"title":"Doctor Who"},{"ns":0,"title":"Edward
+        James Olmos"},{"ns":0,"title":"Farscape"},{"ns":0,"title":"Farscape: The Game"},{"ns":0,"title":"Farscape:
+        The Peacekeeper Wars"},{"ns":0,"title":"Francesca Buller"},{"ns":0,"title":"Furman
+        University"},{"ns":0,"title":"Gigi Edgley"},{"ns":0,"title":"Grace Under Fire
+        (TV series)"},{"ns":0,"title":"Greenville, South Carolina"},{"ns":0,"title":"Interlopers"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"John
+        Crichton"},{"ns":0,"title":"Jonathan Hardy"},{"ns":0,"title":"Josh Holloway"},{"ns":0,"title":"Justice
+        League Unlimited"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kyle Chandler"},{"ns":0,"title":"Lani
+        Tupu"},{"ns":0,"title":"Lee Majors"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"List of Doctor Who serials"},{"ns":0,"title":"Matthew
+        Fox"},{"ns":0,"title":"Melissa Jaffer"},{"ns":0,"title":"Melrose Place"},{"ns":0,"title":"Memphis,
+        Tennessee"},{"ns":0,"title":"Memphis Belle (film)"},{"ns":0,"title":"Michael
+        C. Hall"},{"ns":0,"title":"Murder, She Wrote"},{"ns":0,"title":"Naught for
+        Hire"},{"ns":0,"title":"North Carolina"},{"ns":0,"title":"Party of Five"},{"ns":0,"title":"Paul
+        Goddard (actor)"},{"ns":0,"title":"Politically Incorrect"},{"ns":0,"title":"Raelee
+        Hill"},{"ns":0,"title":"Richard Dean Anderson"},{"ns":0,"title":"Robert Patrick"},{"ns":0,"title":"Saturn
+        Award"},{"ns":0,"title":"Saturn Award for Best Actor on Television"},{"ns":0,"title":"Saturn
+        Awards"},{"ns":0,"title":"Sean Young"},{"ns":0,"title":"Secrets (1992 American
+        film)"},{"ns":0,"title":"Stargate: Continuum"},{"ns":0,"title":"Stargate:
+        The Ark of Truth"},{"ns":0,"title":"Stargate SG-1"},{"ns":0,"title":"Stephen
+        Moyer"},{"ns":0,"title":"Steven Weber (actor)"},{"ns":0,"title":"Tammy MacIntosh"},{"ns":0,"title":"The
+        Adventures of RoboRex"},{"ns":0,"title":"The Late Late Show (CBS TV series)"},{"ns":0,"title":"The
+        Sky''s on Fire"},{"ns":0,"title":"Virginia Hey"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Wayne Pygram"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Main
+        cast of Farscape"},{"ns":10,"title":"Template:Saturn Award for Best Actor
+        on Television"},{"ns":11,"title":"Template talk:Main cast of Farscape"},{"ns":11,"title":"Template
+        talk:Saturn Award for Best Actor on Television"},{"ns":14,"title":"Category:Articles
+        with dead external links from June 2013"},{"ns":14,"title":"Category:Farscape"},{"ns":14,"title":"Category:Use
+        mdy dates from May 2014"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:50 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,186 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Screen%20Actors%20Guild%20Award%20for%20Outstanding%20Performance%20by%20a%20Male%20Actor%20in%20a%20Miniseries%20or%20Television%20Movie
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87308594, 1102704305, 3142940083
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2794'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:03 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4017 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"4842037":{"pageid":4842037,"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries
+        or Television Movie","links":[{"ns":0,"title":"10th Screen Actors Guild Awards"},{"ns":0,"title":"11th
+        Screen Actors Guild Awards"},{"ns":0,"title":"12 Angry Men (1997 film)"},{"ns":0,"title":"12th
+        Screen Actors Guild Awards"},{"ns":0,"title":"13th Screen Actors Guild Awards"},{"ns":0,"title":"14th
+        Screen Actors Guild Awards"},{"ns":0,"title":"15th Screen Actors Guild Awards"},{"ns":0,"title":"16th
+        Screen Actors Guild Awards"},{"ns":0,"title":"17th Screen Actors Guild Awards"},{"ns":0,"title":"18th
+        Screen Actors Guild Awards"},{"ns":0,"title":"19th Screen Actors Guild Awards"},{"ns":0,"title":"1st
+        Screen Actors Guild Awards"},{"ns":0,"title":"20th Screen Actors Guild Awards"},{"ns":0,"title":"24:
+        Redemption"},{"ns":0,"title":"2nd Screen Actors Guild Awards"},{"ns":0,"title":"3:
+        The Dale Earnhardt Story"},{"ns":0,"title":"3rd Screen Actors Guild Awards"},{"ns":0,"title":"4th
+        Screen Actors Guild Awards"},{"ns":0,"title":"5th Screen Actors Guild Awards"},{"ns":0,"title":"6th
+        Screen Actors Guild Awards"},{"ns":0,"title":"7th Screen Actors Guild Awards"},{"ns":0,"title":"8th
+        Screen Actors Guild Awards"},{"ns":0,"title":"9th Screen Actors Guild Awards"},{"ns":0,"title":"A
+        Christmas Carol (1999 film)"},{"ns":0,"title":"A Number"},{"ns":0,"title":"A
+        Streetcar Named Desire (1995 film)"},{"ns":0,"title":"Adolf Eichmann"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Alda"},{"ns":0,"title":"Alan Rickman"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"Alexander Haig"},{"ns":0,"title":"Alfred
+        Stieglitz"},{"ns":0,"title":"Angels in America (TV miniseries)"},{"ns":0,"title":"Anne
+        Frank: The Whole Story"},{"ns":0,"title":"Armand Assante"},{"ns":0,"title":"As
+        You Like It (2006 film)"},{"ns":0,"title":"Barry Pepper"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Behind the Candelabra"},{"ns":0,"title":"Ben Bernanke"},{"ns":0,"title":"Ben
+        Carson"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Benjamin Franklin"},{"ns":0,"title":"Bernard
+        Francis Law"},{"ns":0,"title":"Bernard and Doris"},{"ns":0,"title":"Bill \"Bojangles\"
+        Robinson"},{"ns":0,"title":"Bill Clinton"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Bill
+        Porter (salesman)"},{"ns":0,"title":"Billy Martin"},{"ns":0,"title":"Blind
+        Faith (1998 film)"},{"ns":0,"title":"Bojangles (film)"},{"ns":0,"title":"Brad
+        Garrett"},{"ns":0,"title":"Brian Cox (actor)"},{"ns":0,"title":"Brian Dennehy"},{"ns":0,"title":"Broken
+        Trail"},{"ns":0,"title":"Carlos (miniseries)"},{"ns":0,"title":"Carlos the
+        Jackal"},{"ns":0,"title":"Charles S. Dutton"},{"ns":0,"title":"Chico Mendes"},{"ns":0,"title":"Christopher
+        Plummer"},{"ns":0,"title":"Christopher Reeve"},{"ns":0,"title":"Clive Owen"},{"ns":0,"title":"Cuba
+        Gooding, Jr."},{"ns":0,"title":"Cyrano de Bergerac (2008 film)"},{"ns":0,"title":"Cyrano
+        de Bergerac (play)"},{"ns":0,"title":"Dale Earnhardt"},{"ns":0,"title":"Danny
+        Glover"},{"ns":0,"title":"Deacons for Defense (TV Movie)"},{"ns":0,"title":"Death
+        of a Salesman (2000 film)"},{"ns":0,"title":"Dennis Barrie"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Devil Anse Hatfield"},{"ns":0,"title":"Dirty Pictures"},{"ns":0,"title":"Don
+        King: Only in America"},{"ns":0,"title":"Don King (boxing promoter)"},{"ns":0,"title":"Don
+        Quixote"},{"ns":0,"title":"Don Quixote (2000 film)"},{"ns":0,"title":"Door
+        to Door (film)"},{"ns":0,"title":"Ebenezer Scrooge"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Elizabeth
+        I (TV series)"},{"ns":0,"title":"Empire Falls (miniseries)"},{"ns":0,"title":"Ernest
+        Hemingway"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Frank Sinatra"},{"ns":0,"title":"Franklin
+        D. Roosevelt"},{"ns":0,"title":"Game Change (film)"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        C. Wallace"},{"ns":0,"title":"George Steinbrenner"},{"ns":0,"title":"George
+        Wallace (film)"},{"ns":0,"title":"Georgia O''Keeffe (2009 film)"},{"ns":0,"title":"Gifted
+        Hands: The Ben Carson Story"},{"ns":0,"title":"Golden Globe Award for Best
+        Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Gotti (1996
+        film)"},{"ns":0,"title":"Greg Kinnear"},{"ns":0,"title":"Gregory Hines"},{"ns":0,"title":"Grigori
+        Rasputin"},{"ns":0,"title":"Guy Pearce"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Harry
+        S. Truman"},{"ns":0,"title":"Hatfields & McCoys (miniseries)"},{"ns":0,"title":"Heart
+        of Darkness"},{"ns":0,"title":"Hemingway & Gellhorn"},{"ns":0,"title":"Henry
+        IV of England"},{"ns":0,"title":"Hermann G\u00f6ring"},{"ns":0,"title":"Hidden
+        in America"},{"ns":0,"title":"Howard Cosell"},{"ns":0,"title":"Inherit the
+        Wind (1999 film)"},{"ns":0,"title":"Jack Bauer"},{"ns":0,"title":"Jack Kevorkian"},{"ns":0,"title":"Jack
+        Lemmon"},{"ns":0,"title":"Jackie Gleason"},{"ns":0,"title":"James Dean"},{"ns":0,"title":"James
+        Dean (film)"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jeffrey Wright (actor)"},{"ns":0,"title":"Jeremy
+        Irons"},{"ns":0,"title":"Jerry Lewis"},{"ns":0,"title":"Jim Rockford"},{"ns":0,"title":"John
+        Adams"},{"ns":0,"title":"John Adams (TV series)"},{"ns":0,"title":"John F.
+        Kennedy"},{"ns":0,"title":"John Goodman"},{"ns":0,"title":"John Gotti"},{"ns":0,"title":"John
+        Lithgow"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John McCain"},{"ns":0,"title":"John
+        Turturro"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Justin Kirk"},{"ns":0,"title":"Kenneth
+        Branagh"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kevin
+        Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kiefer Sutherland"},{"ns":0,"title":"Killing
+        Kennedy (film)"},{"ns":0,"title":"Knights of the South Bronx"},{"ns":0,"title":"Laurence
+        Fishburne"},{"ns":0,"title":"Liberace"},{"ns":0,"title":"Los Angeles, California"},{"ns":0,"title":"Macbeth
+        (2010 TV drama)"},{"ns":0,"title":"Macbeth (character)"},{"ns":0,"title":"Martin
+        and Lewis (film)"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matthew
+        Perry"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Keaton"},{"ns":0,"title":"Michael
+        Strobl"},{"ns":0,"title":"Mildred Pierce (TV series)"},{"ns":0,"title":"Mitch
+        Albom"},{"ns":0,"title":"Monday Night Mayhem"},{"ns":0,"title":"Morrie Schwartz"},{"ns":0,"title":"Nelson
+        Mandela"},{"ns":0,"title":"Nightmares & Dreamscapes: From the Stories of Stephen
+        King"},{"ns":0,"title":"Nuremberg (film)"},{"ns":0,"title":"Oliver Platt"},{"ns":0,"title":"Otto
+        Frank"},{"ns":0,"title":"Our Fathers (film)"},{"ns":0,"title":"Our Town (2003
+        film)"},{"ns":0,"title":"Patrick Stewart"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"Peter Fonda"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Phil
+        Spector"},{"ns":0,"title":"Phil Spector (film)"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Ralph
+        Fiennes"},{"ns":0,"title":"Randolph McCoy"},{"ns":0,"title":"Rasputin: Dark
+        Servant of Destiny"},{"ns":0,"title":"Ray Liotta"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Rear Window (1998 film)"},{"ns":0,"title":"Recount
+        (film)"},{"ns":0,"title":"Redemption: The Stan Tookie Williams Story"},{"ns":0,"title":"Richard
+        Dreyfuss"},{"ns":0,"title":"Richard S. Fuld, Jr."},{"ns":0,"title":"Riders
+        of the Purple Sage"},{"ns":0,"title":"Rob Lowe"},{"ns":0,"title":"Robert Dudley,
+        1st Earl of Leicester"},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert
+        H. Jackson"},{"ns":0,"title":"Ron Clark (teacher)"},{"ns":0,"title":"Ron Klain"},{"ns":0,"title":"Roy
+        Cohn"},{"ns":0,"title":"Ruffian (film)"},{"ns":0,"title":"SAG-AFTRA"},{"ns":0,"title":"Sam
+        Shepard"},{"ns":0,"title":"Scott Thorson"},{"ns":0,"title":"Screen Actors
+        Guild"},{"ns":0,"title":"Screen Actors Guild Award"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Female Actor in a Comedy
+        Series"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Female Actor in a Drama Series"},{"ns":0,"title":"Screen Actors Guild
+        Award for Outstanding Performance by a Female Actor in a Leading Role"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Female Actor in a Miniseries
+        or Television Movie"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Female Actor in a Supporting Role"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Comedy
+        Series"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Male Actor in a Drama Series"},{"ns":0,"title":"Screen Actors Guild Award
+        for Outstanding Performance by a Male Actor in a Leading Role"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Supporting
+        Role"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Stunt Ensemble in a Motion Picture"},{"ns":0,"title":"Screen Actors Guild
+        Award for Outstanding Performance by a Stunt Ensemble in a Television Series"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by an Ensemble in a Comedy
+        Series"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by an Ensemble in a Drama Series"},{"ns":0,"title":"Screen Actors Guild Life
+        Achievement Award"},{"ns":0,"title":"Sean Hayes (actor)"},{"ns":0,"title":"Sidney
+        Poitier"},{"ns":0,"title":"Stanley Kowalski"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Stanley
+        Williams"},{"ns":0,"title":"Steve Schmidt"},{"ns":0,"title":"Taking Chance"},{"ns":0,"title":"Ted
+        Danson"},{"ns":0,"title":"The Bronx is Burning"},{"ns":0,"title":"The Burning
+        Season (1994 film)"},{"ns":0,"title":"The Company"},{"ns":0,"title":"The Day
+        Reagan Was Shot"},{"ns":0,"title":"The Five People You Meet in Heaven"},{"ns":0,"title":"The
+        Gathering Storm (2002 film)"},{"ns":0,"title":"The Hollow Crown (TV series)"},{"ns":0,"title":"The
+        Kennedys (miniseries)"},{"ns":0,"title":"The Life and Death of Peter Sellers"},{"ns":0,"title":"The
+        Man Who Captured Eichmann"},{"ns":0,"title":"The Passion of Ayn Rand (film)"},{"ns":0,"title":"The
+        Rat Pack (film)"},{"ns":0,"title":"The Ron Clark Story"},{"ns":0,"title":"The
+        Special Relationship (film)"},{"ns":0,"title":"The Stand (TV miniseries)"},{"ns":0,"title":"The
+        Tale of Sweeney Todd"},{"ns":0,"title":"The Tuskegee Airmen"},{"ns":0,"title":"The
+        Wool Cap"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Thurgood
+        (play)"},{"ns":0,"title":"Thurgood Marshall"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tommy
+        Lee Jones"},{"ns":0,"title":"Too Big to Fail (film)"},{"ns":0,"title":"Truman
+        (film)"},{"ns":0,"title":"Tuesdays with Morrie (film)"},{"ns":0,"title":"Ving
+        Rhames"},{"ns":0,"title":"Walter Winchell"},{"ns":0,"title":"Warm Springs
+        (film)"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"Willy Loman"},{"ns":0,"title":"Winchell
+        (film)"},{"ns":0,"title":"Winston Churchill"},{"ns":0,"title":"Woody Harrelson"},{"ns":0,"title":"You
+        Don''t Know Jack (film)"},{"ns":0,"title":"\u00c9dgar Ram\u00edrez"},{"ns":10,"title":"Template:SAG
+        Awards Chron"},{"ns":10,"title":"Template:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":11,"title":"Template
+        talk:SAG Awards Chron"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward
+        MaleTVMiniseriesMovie"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:03 GMT
+recorded_with: VCR 2.9.2

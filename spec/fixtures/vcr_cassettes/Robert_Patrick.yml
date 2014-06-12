@@ -1,0 +1,141 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Robert%20Patrick
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001184205, 3085166289, 1309492849
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2245'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:59 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"483765":{"pageid":483765,"ns":0,"title":"Robert
+        Patrick","links":[{"ns":0,"title":"1st to Die"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Alien
+        Trespass"},{"ns":0,"title":"All the Pretty Horses (film)"},{"ns":0,"title":"Analysis
+        of Cork-Based Networking"},{"ns":0,"title":"Army of Anyone"},{"ns":0,"title":"Asylum
+        (1997 film)"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Autopsy
+        (film)"},{"ns":0,"title":"Avatar: The Last Airbender"},{"ns":0,"title":"Avatar:
+        The Last Airbender (season 3)"},{"ns":0,"title":"Balls of Fury"},{"ns":0,"title":"Bay
+        Village, Ohio"},{"ns":0,"title":"Ben 10 (TV series)"},{"ns":0,"title":"Ben
+        Browder"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Big
+        Love"},{"ns":0,"title":"Boozefighters"},{"ns":0,"title":"Bowling Green State
+        University"},{"ns":0,"title":"Bridge To Terabithia (2007 film)"},{"ns":0,"title":"Bridge
+        to Terabithia (2007 film)"},{"ns":0,"title":"Broken (1993 film)"},{"ns":0,"title":"Bryan
+        Cranston"},{"ns":0,"title":"Burn Notice"},{"ns":0,"title":"Bust Out"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Cell
+        replication"},{"ns":0,"title":"Charlie''s Angels: Full Throttle"},{"ns":0,"title":"Chief
+        of the Boat"},{"ns":0,"title":"Childhood"},{"ns":0,"title":"Chris Carter (screenwriter)"},{"ns":0,"title":"Chuck
+        (TV series)"},{"ns":0,"title":"Chuck Versus the Tic Tac"},{"ns":0,"title":"Cleveland,
+        Ohio"},{"ns":0,"title":"Community (TV series)"},{"ns":0,"title":"Cop Land"},{"ns":0,"title":"D-Tox"},{"ns":0,"title":"Dallas"},{"ns":0,"title":"David
+        Boreanaz"},{"ns":0,"title":"David Duchovny"},{"ns":0,"title":"David Scatino"},{"ns":0,"title":"Decoy
+        (1995 film)"},{"ns":0,"title":"Diabetes"},{"ns":0,"title":"Die Hard 2"},{"ns":0,"title":"Disorderly
+        Conduct: Video on Patrol"},{"ns":0,"title":"Double Dragon (film)"},{"ns":0,"title":"Edward
+        James Olmos"},{"ns":0,"title":"Elvis (2005 Mini-series)"},{"ns":0,"title":"Elvis
+        (TV miniseries)"},{"ns":0,"title":"Elvis (TV series)"},{"ns":0,"title":"Elvis
+        Presley"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Endless Love (2014
+        film)"},{"ns":0,"title":"Equalizer 2000"},{"ns":0,"title":"Farmington, Michigan"},{"ns":0,"title":"Farmington
+        High School (Michigan)"},{"ns":0,"title":"Feature film"},{"ns":0,"title":"Filter
+        (band)"},{"ns":0,"title":"Fire in the Sky"},{"ns":0,"title":"Firewall (film)"},{"ns":0,"title":"Five
+        Minarets in New York"},{"ns":0,"title":"Flags of Our Fathers (film)"},{"ns":0,"title":"Fly
+        Me to the Moon (film)"},{"ns":0,"title":"From Dusk Till Dawn: The Series"},{"ns":0,"title":"From
+        Dusk Till Dawn 2: Texas Blood Money"},{"ns":0,"title":"From Dusk till Dawn:
+        The Series"},{"ns":0,"title":"Funhouse (The Sopranos)"},{"ns":0,"title":"Gangster
+        Squad"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Good Day For It"},{"ns":0,"title":"Hacks
+        (1997 film)"},{"ns":0,"title":"Hell''s Kitchen (U.S. TV series)"},{"ns":0,"title":"Hell''s
+        Kitchen (U.S. season 5)"},{"ns":0,"title":"Hong Kong 97 (film)"},{"ns":0,"title":"House
+        painter"},{"ns":0,"title":"Identity Thief"},{"ns":0,"title":"Integrated Authority
+        File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"James Cameron"},{"ns":0,"title":"Jayne Mansfield''s
+        Car"},{"ns":0,"title":"John Doggett"},{"ns":0,"title":"Johnny Cash"},{"ns":0,"title":"Josh
+        Holloway"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kyle Chandler"},{"ns":0,"title":"Ladder
+        49"},{"ns":0,"title":"Lake Erie"},{"ns":0,"title":"Last Action Hero"},{"ns":0,"title":"Last
+        Resort (U.S. TV series)"},{"ns":0,"title":"Law & Order: Special Victims Unit"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"List of Law & Order: Special
+        Victims Unit episodes"},{"ns":0,"title":"List of characters from The Sopranos
+        \u2013 friends and family"},{"ns":0,"title":"LocoCycle"},{"ns":0,"title":"Lonely
+        Street (film)"},{"ns":0,"title":"Los Angeles, California"},{"ns":0,"title":"Lost
+        (TV series)"},{"ns":0,"title":"Love Ride"},{"ns":0,"title":"Lovelace (film)"},{"ns":0,"title":"Low
+        budget"},{"ns":0,"title":"MTV Movie Award"},{"ns":0,"title":"MTV Movie Award
+        for Best Villain"},{"ns":0,"title":"Marietta, Georgia"},{"ns":0,"title":"Marshall
+        Sumner"},{"ns":0,"title":"Marshall Sumner (Stargate)"},{"ns":0,"title":"Martial
+        art"},{"ns":0,"title":"Matthew Fox"},{"ns":0,"title":"McG"},{"ns":0,"title":"Meat
+        Loaf"},{"ns":0,"title":"Michael C. Hall"},{"ns":0,"title":"NCIS (TV series)"},{"ns":0,"title":"Nickelodeon"},{"ns":0,"title":"Nine
+        Inch Nails"},{"ns":0,"title":"Objects in the Rear View Mirror"},{"ns":0,"title":"Ohio"},{"ns":0,"title":"Outlaws
+        (Lost)"},{"ns":0,"title":"Peter Pan"},{"ns":0,"title":"Psych"},{"ns":0,"title":"Red
+        Faction: Origins"},{"ns":0,"title":"Richard Dean Anderson"},{"ns":0,"title":"Richard
+        Patrick"},{"ns":0,"title":"Richie Aprile"},{"ns":0,"title":"Rick Tolley"},{"ns":0,"title":"Rising
+        (Stargate Atlantis)"},{"ns":0,"title":"Robert Patrick (disambiguation)"},{"ns":0,"title":"Robert
+        Rodriguez"},{"ns":0,"title":"Rosewood (film)"},{"ns":0,"title":"S.W.A.T.:
+        Fire Fight"},{"ns":0,"title":"SWAT Kats: The Radical Squadron"},{"ns":0,"title":"Safe
+        House (2012 film)"},{"ns":0,"title":"Saturn Award"},{"ns":0,"title":"Saturn
+        Award for Best Actor"},{"ns":0,"title":"Saturn Award for Best Actor on Television"},{"ns":0,"title":"Saturn
+        Award for Best Supporting Actor"},{"ns":0,"title":"Sci Fi Channel (United
+        States)"},{"ns":0,"title":"Science fiction"},{"ns":0,"title":"Sons of Anarchy"},{"ns":0,"title":"Southern
+        Airways Flight 932"},{"ns":0,"title":"Spy Kids"},{"ns":0,"title":"Stargate
+        Atlantis"},{"ns":0,"title":"Stephen Moyer"},{"ns":0,"title":"Steven Weber
+        (actor)"},{"ns":0,"title":"Strange Wilderness"},{"ns":0,"title":"Striptease
+        (film)"},{"ns":0,"title":"Supercross (film)"},{"ns":0,"title":"T-1000"},{"ns":0,"title":"T2
+        3-D: Battle Across Time"},{"ns":0,"title":"TV Guide"},{"ns":0,"title":"Tactical
+        Assault"},{"ns":0,"title":"Television film"},{"ns":0,"title":"Terminator:
+        Salvation"},{"ns":0,"title":"Terminator 2: Judgment Day"},{"ns":0,"title":"Terminator
+        2: Judgment Day (video game)"},{"ns":0,"title":"Texas"},{"ns":0,"title":"Texas
+        Rangers (film)"},{"ns":0,"title":"The Amalgamut"},{"ns":0,"title":"The Black
+        Waters of Echo''s Pond"},{"ns":0,"title":"The Cool Surface"},{"ns":0,"title":"The
+        Dig"},{"ns":0,"title":"The Faculty"},{"ns":0,"title":"The Happy Wanderer (The
+        Sopranos)"},{"ns":0,"title":"The Hire: Ticker"},{"ns":0,"title":"The Marine"},{"ns":0,"title":"The
+        Men Who Stare at Goats (film)"},{"ns":0,"title":"The Only Thrill"},{"ns":0,"title":"The
+        Outer Limits (1995 TV series)"},{"ns":0,"title":"The Outfit (video game)"},{"ns":0,"title":"The
+        Real Adventures of Jonny Quest"},{"ns":0,"title":"The Sopranos"},{"ns":0,"title":"The
+        Unit"},{"ns":0,"title":"The Unit (TV series)"},{"ns":0,"title":"The Vivero
+        Letter"},{"ns":0,"title":"The X-Files"},{"ns":0,"title":"The X-Files: The
+        Album"},{"ns":0,"title":"The X-Files (season 7)"},{"ns":0,"title":"Tony Soprano"},{"ns":0,"title":"Trouble
+        with the Curve"},{"ns":0,"title":"True Blood"},{"ns":0,"title":"Twitter"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"Universal Studios"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"WWE Films"},{"ns":0,"title":"Walk the Line"},{"ns":0,"title":"Wayne''s
+        World (film)"},{"ns":0,"title":"We Are Marshall"},{"ns":0,"title":"Will Estes"},{"ns":0,"title":"YouTube"},{"ns":0,"title":"You
+        Can''t Handle This Episode"},{"ns":0,"title":"Zero Tolerance (1995 film)"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Saturn
+        Award for Best Actor on Television"},{"ns":11,"title":"Template talk:Saturn
+        Award for Best Actor on Television"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:00 GMT
+recorded_with: VCR 2.9.2

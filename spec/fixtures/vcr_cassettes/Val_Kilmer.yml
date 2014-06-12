@@ -1,0 +1,192 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Val%20Kilmer
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401715199, 2340364669, 1613113602
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3386'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:21 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"53327":{"pageid":53327,"ns":0,"title":"Val Kilmer","links":[{"ns":0,"title":"10th
+        & Wolf"},{"ns":0,"title":"2005 Cannes Film Festival"},{"ns":0,"title":"2:22
+        (2008 film)"},{"ns":0,"title":"50 Cent"},{"ns":0,"title":"5 Days of War"},{"ns":0,"title":"Adam
+        Lambert"},{"ns":0,"title":"Aerospace"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Albert
+        Brooks"},{"ns":0,"title":"Alexander (film)"},{"ns":0,"title":"American Bison"},{"ns":0,"title":"American
+        Cowslip"},{"ns":0,"title":"American Idol"},{"ns":0,"title":"American Music
+        Award"},{"ns":0,"title":"Anthony Edwards"},{"ns":0,"title":"Apocalypse Now"},{"ns":0,"title":"Armin
+        Mueller-Stahl"},{"ns":0,"title":"At First Sight"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Bacchus"},{"ns":0,"title":"Batman"},{"ns":0,"title":"Batman
+        & Robin (film)"},{"ns":0,"title":"Batman Forever"},{"ns":0,"title":"Batman
+        Returns"},{"ns":0,"title":"Being John Malkovich"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Billing
+        (film)"},{"ns":0,"title":"Billy the Kid (1989 film)"},{"ns":0,"title":"Blind
+        Horizon"},{"ns":0,"title":"Blood Out (film)"},{"ns":0,"title":"Bloodworth
+        (film)"},{"ns":0,"title":"Blue Velvet (film)"},{"ns":0,"title":"Bob Kane"},{"ns":0,"title":"Body
+        Heat"},{"ns":0,"title":"Bowling for Soup"},{"ns":0,"title":"Bruce Davison"},{"ns":0,"title":"Bruce
+        Greenwood"},{"ns":0,"title":"Bruce Wayne"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"CableACE
+        Awards"},{"ns":0,"title":"California"},{"ns":0,"title":"Casey Affleck"},{"ns":0,"title":"Chatsworth
+        High School"},{"ns":0,"title":"Cher"},{"ns":0,"title":"Cherokee"},{"ns":0,"title":"Christian
+        Bale"},{"ns":0,"title":"Christian Science"},{"ns":0,"title":"Christian Slater"},{"ns":0,"title":"Christoph
+        Waltz"},{"ns":0,"title":"Christopher Walken"},{"ns":0,"title":"Chuck Klosterman"},{"ns":0,"title":"Cinescape"},{"ns":0,"title":"Citizen
+        Twain"},{"ns":0,"title":"Code of Vengeance"},{"ns":0,"title":"Colorado Shakespeare
+        Festival"},{"ns":0,"title":"Columbus Day (film)"},{"ns":0,"title":"Comanche
+        Moon (TV miniseries)"},{"ns":0,"title":"Conspiracy (2008 film)"},{"ns":0,"title":"Cuba
+        Gooding, Jr."},{"ns":0,"title":"Danny Huston"},{"ns":0,"title":"David Hasselhoff"},{"ns":0,"title":"David
+        Lynch"},{"ns":0,"title":"Deanna Russo"},{"ns":0,"title":"Delgo (film)"},{"ns":0,"title":"Delta
+        Force"},{"ns":0,"title":"Dennis Haysbert"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Deseret
+        News"},{"ns":0,"title":"Djimon Hounsou"},{"ns":0,"title":"Doc Holliday"},{"ns":0,"title":"Doctorate"},{"ns":0,"title":"Donald
+        Sutherland"},{"ns":0,"title":"Double Identity (2009 film)"},{"ns":0,"title":"D\u00e9j\u00e0
+        Vu (2006 film)"},{"ns":0,"title":"Edward Mulhare"},{"ns":0,"title":"Ellen
+        Barkin"},{"ns":0,"title":"Elvis"},{"ns":0,"title":"Elvis Presley"},{"ns":0,"title":"Empire
+        (magazine)"},{"ns":0,"title":"English people"},{"ns":0,"title":"Entertainment
+        Weekly"},{"ns":0,"title":"Entourage (TV series)"},{"ns":0,"title":"Eugene
+        Levy"},{"ns":0,"title":"Facebook"},{"ns":0,"title":"Felon (film)"},{"ns":0,"title":"Flatliners"},{"ns":0,"title":"Francis
+        Ford Coppola"},{"ns":0,"title":"French people"},{"ns":0,"title":"Fr\u00e9d\u00e9ric
+        Chopin"},{"ns":0,"title":"Fulton, Missouri"},{"ns":0,"title":"General Motors"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George and the Dragon (film)"},{"ns":0,"title":"Germans"},{"ns":0,"title":"Glen
+        A. Larson"},{"ns":0,"title":"God"},{"ns":0,"title":"Golden Raspberry Award
+        for Worst Actor"},{"ns":0,"title":"Golden Raspberry Award for Worst Supporting
+        Actor"},{"ns":0,"title":"Grammy"},{"ns":0,"title":"Gun (2010 film)"},{"ns":0,"title":"Hard
+        Cash"},{"ns":0,"title":"Hardwired (film)"},{"ns":0,"title":"Harry Lennix"},{"ns":0,"title":"Have
+        Dreams, Will Travel"},{"ns":0,"title":"Heat (1995 film)"},{"ns":0,"title":"Hollywood"},{"ns":0,"title":"Hollywood
+        Professional School"},{"ns":0,"title":"Honorary"},{"ns":0,"title":"Hurricane
+        Katrina"},{"ns":0,"title":"Independent film"},{"ns":0,"title":"Indigenous
+        peoples of the Americas"},{"ns":0,"title":"Inside the Actors Studio"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Broadway Database"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Ira Glass"},{"ns":0,"title":"Irwin Winkler"},{"ns":0,"title":"Jack
+        and Jill (film)"},{"ns":0,"title":"James Lipton"},{"ns":0,"title":"James Purefoy"},{"ns":0,"title":"Jared
+        Leto"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jeffrey Katzenberg"},{"ns":0,"title":"Jim
+        Broadbent"},{"ns":0,"title":"Jim Morrison"},{"ns":0,"title":"Joanne Whalley"},{"ns":0,"title":"Joe
+        the King"},{"ns":0,"title":"Joel Schumacher"},{"ns":0,"title":"John Holmes
+        (actor)"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"Joseph Smith,
+        Jr."},{"ns":0,"title":"Joyce Kilmer"},{"ns":0,"title":"Juilliard"},{"ns":0,"title":"Juilliard
+        School"},{"ns":0,"title":"Justin Bruening"},{"ns":0,"title":"KARR (Knight
+        Rider)"},{"ns":0,"title":"KITT"},{"ns":0,"title":"Kate Bosworth"},{"ns":0,"title":"Kelseyville,
+        California"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kill
+        Me Again"},{"ns":0,"title":"Kill the Irishman"},{"ns":0,"title":"Kiss Kiss
+        Bang Bang"},{"ns":0,"title":"Knight Rider: The Game"},{"ns":0,"title":"Knight
+        Rider (1982 TV series)"},{"ns":0,"title":"Knight Rider (2008 TV series)"},{"ns":0,"title":"Knight
+        Rider (2008 film)"},{"ns":0,"title":"Knight Rider (franchise)"},{"ns":0,"title":"Knight
+        Rider (season 1)"},{"ns":0,"title":"Knight Rider (season 2)"},{"ns":0,"title":"Knight
+        Rider (season 3)"},{"ns":0,"title":"Knight Rider (season 4)"},{"ns":0,"title":"Knight
+        Rider (video game)"},{"ns":0,"title":"Knight Rider 2000"},{"ns":0,"title":"Knight
+        Rider 2010"},{"ns":0,"title":"Knight Rider Special"},{"ns":0,"title":"Kodak
+        Theater"},{"ns":0,"title":"Kurt Russell"},{"ns":0,"title":"Leonard Maltin"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Life''s
+        Too Short"},{"ns":0,"title":"List of Knight Rider (1982 TV series) episodes"},{"ns":0,"title":"Lortel
+        Archives"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"MTV Movie Award
+        for Best Performance - Male"},{"ns":0,"title":"MTV Movie Award for Most Desirable
+        Male"},{"ns":0,"title":"MacGruber (film)"},{"ns":0,"title":"Madmartigan"},{"ns":0,"title":"Mare
+        Winningham"},{"ns":0,"title":"Marijuana"},{"ns":0,"title":"Mark Twain"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Married and maiden names"},{"ns":0,"title":"Mary
+        Baker Eddy"},{"ns":0,"title":"Masked and Anonymous"},{"ns":0,"title":"Max
+        Azria"},{"ns":0,"title":"Metaphysics"},{"ns":0,"title":"Michael Constantine"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michael Keaton"},{"ns":0,"title":"Michael Knight
+        (Knight Rider)"},{"ns":0,"title":"Michael Mann (director)"},{"ns":0,"title":"Michael
+        Oblowitz"},{"ns":0,"title":"Michael Shannon"},{"ns":0,"title":"Michelle Pfeiffer"},{"ns":0,"title":"Mindhunters"},{"ns":0,"title":"Mormon"},{"ns":0,"title":"Moscow
+        Zero"},{"ns":0,"title":"Moses"},{"ns":0,"title":"Napa County"},{"ns":0,"title":"New
+        Mexico"},{"ns":0,"title":"New Mexico gubernatorial election, 2010"},{"ns":0,"title":"New
+        Orleans"},{"ns":0,"title":"New York Shakespeare Festival"},{"ns":0,"title":"Nicolas
+        Cage"},{"ns":0,"title":"Nocturne in E minor, Op. posth. 72 (Chopin)"},{"ns":0,"title":"Numb3rs"},{"ns":0,"title":"Oliver
+        Stone"},{"ns":0,"title":"One Too Many"},{"ns":0,"title":"Palo Alto (2013 film)"},{"ns":0,"title":"Patricia
+        McPherson"},{"ns":0,"title":"Paul Campbell (Canadian actor)"},{"ns":0,"title":"Peter
+        Parros"},{"ns":0,"title":"Philip II of Macedon"},{"ns":0,"title":"Phoenix
+        Film Critics Society"},{"ns":0,"title":"Planes (film)"},{"ns":0,"title":"Played"},{"ns":0,"title":"Pollock
+        (film)"},{"ns":0,"title":"Prism Awards"},{"ns":0,"title":"Psych"},{"ns":0,"title":"Public
+        Theater"},{"ns":0,"title":"Quentin Tarantino"},{"ns":0,"title":"Ray Manzarek"},{"ns":0,"title":"Real
+        Genius"},{"ns":0,"title":"Real estate"},{"ns":0,"title":"Rebecca Holden"},{"ns":0,"title":"Red
+        Planet (film)"},{"ns":0,"title":"Richard Basehart"},{"ns":0,"title":"Richard
+        Dutcher"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert Downey,
+        Jr."},{"ns":0,"title":"Roger Ebert"},{"ns":0,"title":"Ron Howard"},{"ns":0,"title":"Rotten
+        Tomatoes"},{"ns":0,"title":"Rupert Everett"},{"ns":0,"title":"San Fernando
+        Valley"},{"ns":0,"title":"Satellite Award for Best Supporting Actor - Motion
+        Picture"},{"ns":0,"title":"Satellite Award for Best Supporting Actor \u2013
+        Motion Picture"},{"ns":0,"title":"Saturday Night Live"},{"ns":0,"title":"Saturn
+        Award for Best Supporting Actor"},{"ns":0,"title":"Scots-Irish"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Secret agent"},{"ns":0,"title":"Seven Below"},{"ns":0,"title":"Sherpa
+        people"},{"ns":0,"title":"Simon Dutton"},{"ns":0,"title":"Simon Templar"},{"ns":0,"title":"Smith
+        Cho"},{"ns":0,"title":"Spartan (film)"},{"ns":0,"title":"Spider-Man: Edge
+        of Time"},{"ns":0,"title":"Standing Up"},{"ns":0,"title":"Stateside (film)"},{"ns":0,"title":"Stephen
+        Dorff"},{"ns":0,"title":"Streets of Blood"},{"ns":0,"title":"Stu Phillips
+        (composer)"},{"ns":0,"title":"Summer Love (2006 film)"},{"ns":0,"title":"Sunset
+        Strip"},{"ns":0,"title":"Swedish people"},{"ns":0,"title":"Sydney Tamiia Poitier"},{"ns":0,"title":"Team
+        Knight Rider"},{"ns":0,"title":"Tenacious D"},{"ns":0,"title":"The Bad Lieutenant:
+        Port of Call New Orleans"},{"ns":0,"title":"The Chaos Experiment"},{"ns":0,"title":"The
+        Deep (1977 film)"},{"ns":0,"title":"The Doors (film)"},{"ns":0,"title":"The
+        Fourth Dimension (film)"},{"ns":0,"title":"The Ghost and the Darkness"},{"ns":0,"title":"The
+        Great Burrito Extortion Case"},{"ns":0,"title":"The Island of Dr. Moreau (1996
+        film)"},{"ns":0,"title":"The Love Guru"},{"ns":0,"title":"The Missing"},{"ns":0,"title":"The
+        Murders in the Rue Morgue"},{"ns":0,"title":"The Outsiders (film)"},{"ns":0,"title":"The
+        Prime of Miss Jean Brodie (play)"},{"ns":0,"title":"The Prince of Egypt"},{"ns":0,"title":"The
+        Real McCoy (film)"},{"ns":0,"title":"The Saint (film)"},{"ns":0,"title":"The
+        Salton Sea"},{"ns":0,"title":"The Script and the Sherpa"},{"ns":0,"title":"The
+        Spoils of Babylon"},{"ns":0,"title":"The Spy Who Loved Me (film)"},{"ns":0,"title":"The
+        Ten Commandments: The Musical"},{"ns":0,"title":"The Thaw (film)"},{"ns":0,"title":"The
+        Traveler (2010 film)"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Thunderheart"},{"ns":0,"title":"Tom
+        Cruise"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tombstone (film)"},{"ns":0,"title":"Tony
+        Scott"},{"ns":0,"title":"Top Gun"},{"ns":0,"title":"Top Secret!"},{"ns":0,"title":"True
+        Romance"},{"ns":0,"title":"Turner Network Television"},{"ns":0,"title":"Twitter"},{"ns":0,"title":"Twixt
+        (film)"},{"ns":0,"title":"Untitled Terrence Malick Project"},{"ns":0,"title":"Vengeful
+        spirit"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Warner
+        Bros."},{"ns":0,"title":"Warwick Davis"},{"ns":0,"title":"Welsh people"},{"ns":0,"title":"Werner
+        Herzog"},{"ns":0,"title":"Will Arnett"},{"ns":0,"title":"Willem Dafoe"},{"ns":0,"title":"Willem
+        de Kooning"},{"ns":0,"title":"William Baldwin"},{"ns":0,"title":"William Daniels"},{"ns":0,"title":"William
+        H. Macy"},{"ns":0,"title":"William Woods University"},{"ns":0,"title":"Willow
+        (film)"},{"ns":0,"title":"Wings of Courage"},{"ns":0,"title":"Wonderland (2003
+        film)"},{"ns":0,"title":"Wyatt Earp"},{"ns":0,"title":"Wyatt Earp''s Revenge"},{"ns":0,"title":"XIII
+        (TV Mini-series)"},{"ns":0,"title":"Yancey Arias"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Knight
+        Rider"},{"ns":10,"title":"Template:Satellite Award Best Supporting Actor Motion
+        Picture"},{"ns":11,"title":"Template talk:Knight Rider"},{"ns":11,"title":"Template
+        talk:Satellite Award Best Supporting Actor Motion Picture"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from January 2014"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from March 2014"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from October 2012"},{"ns":14,"title":"Category:Use
+        mdy dates from June 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:22 GMT
+recorded_with: VCR 2.9.2

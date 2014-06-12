@@ -1,0 +1,76 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Authority%20control
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704597023, 1409501981, 2899078465
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '592'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:46 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4009 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1406260":{"pageid":1406260,"ns":0,"title":"Authority
+        control","links":[{"ns":0,"title":"Bibliographic"},{"ns":0,"title":"Bibliographic
+        control"},{"ns":0,"title":"Brian O''Nolan"},{"ns":0,"title":"Circa"},{"ns":0,"title":"Collocation"},{"ns":0,"title":"Controlled
+        vocabulary"},{"ns":0,"title":"Dewey Decimal Classification"},{"ns":0,"title":"Diana,
+        Princess of Wales"},{"ns":0,"title":"Encoded Archival Context"},{"ns":0,"title":"Floruit"},{"ns":0,"title":"German
+        National Library"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Archival Authority Record"},{"ns":0,"title":"Knowledge Organization
+        Systems"},{"ns":0,"title":"Latin"},{"ns":0,"title":"Library and information
+        science"},{"ns":0,"title":"Library catalog"},{"ns":0,"title":"Library classification"},{"ns":0,"title":"Library
+        of Congress"},{"ns":0,"title":"Library of Congress Subject Headings"},{"ns":0,"title":"Library
+        of Congress classification"},{"ns":0,"title":"Logical connective"},{"ns":0,"title":"Metadata
+        Authority Description Schema"},{"ns":0,"title":"Modern French"},{"ns":0,"title":"National
+        Library of Spain"},{"ns":0,"title":"National Library of the Netherlands"},{"ns":0,"title":"Nominative
+        case"},{"ns":0,"title":"Noun"},{"ns":0,"title":"OCLC"},{"ns":0,"title":"ORCID"},{"ns":0,"title":"Old
+        French"},{"ns":0,"title":"Online public access catalog"},{"ns":0,"title":"Ontology
+        (information science)"},{"ns":0,"title":"Pen name"},{"ns":0,"title":"Princess
+        Diana"},{"ns":0,"title":"Pseudonym"},{"ns":0,"title":"RLIN"},{"ns":0,"title":"Simple
+        Knowledge Organization System"},{"ns":0,"title":"Uniform title"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Wayback
+        Machine"},{"ns":0,"title":"Word-sense disambiguation"},{"ns":12,"title":"Help:Authority
+        control"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:47 GMT
+recorded_with: VCR 2.9.2

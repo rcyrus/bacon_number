@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=AllMovie
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87172188, 983682444, 2899073230
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '264'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:41 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4018 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"31710756":{"pageid":31710756,"ns":0,"title":"AllMovie","links":[{"ns":0,"title":"AMG
+        LASSO"},{"ns":0,"title":"AllGame"},{"ns":0,"title":"AllMusic"},{"ns":0,"title":"AllMusic.com"},{"ns":0,"title":"All
+        Media Network"},{"ns":0,"title":"Ann Arbor, Michigan"},{"ns":0,"title":"Film"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Michael Erlewine"},{"ns":0,"title":"Rovi
+        Corporation"},{"ns":0,"title":"San Francisco"},{"ns":0,"title":"SideReel"},{"ns":0,"title":"Television
+        program"},{"ns":0,"title":"Uniform resource locator"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:42 GMT
+recorded_with: VCR 2.9.2

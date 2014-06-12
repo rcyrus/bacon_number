@@ -1,0 +1,144 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Ving%20Rhames
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332362991, 983740618, 3142957716
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2306'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:21 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4018 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"689567":{"pageid":689567,"ns":0,"title":"Ving Rhames","links":[{"ns":0,"title":"A
+        Broken Life"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"American Gangster
+        (TV series)"},{"ns":0,"title":"American Playhouse"},{"ns":0,"title":"American
+        Tragedy (film)"},{"ns":0,"title":"Animal (2005 film)"},{"ns":0,"title":"Animal
+        2"},{"ns":0,"title":"Anthony Andrews"},{"ns":0,"title":"Aquaman"},{"ns":0,"title":"Aquaman
+        (TV program)"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Baby
+        Boy (film)"},{"ns":0,"title":"Bachelor of Fine Arts"},{"ns":0,"title":"Back
+        in the Day (2005 film)"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Nighy"},{"ns":0,"title":"Black
+        Entertainment Television"},{"ns":0,"title":"Black Reel Award"},{"ns":0,"title":"Blockbuster
+        LLC"},{"ns":0,"title":"Blood in Blood Out"},{"ns":0,"title":"Brian De Palma"},{"ns":0,"title":"Brian
+        Dennehy"},{"ns":0,"title":"Bringing Out the Dead"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Casualties of War"},{"ns":0,"title":"Cobra Bubbles"},{"ns":0,"title":"Con
+        Air"},{"ns":0,"title":"Dangerous Ground"},{"ns":0,"title":"Dark Blue (film)"},{"ns":0,"title":"Dave
+        (film)"},{"ns":0,"title":"Dawn of the Dead (2004 film)"},{"ns":0,"title":"Day
+        of the Dead (2008 film)"},{"ns":0,"title":"Death Race 2"},{"ns":0,"title":"Death
+        Race 3: Inferno"},{"ns":0,"title":"Don King: Only in America"},{"ns":0,"title":"Don
+        King (boxing promoter)"},{"ns":0,"title":"Drag queen"},{"ns":0,"title":"Driv3r"},{"ns":0,"title":"Drop
+        Squad"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"ER (TV series)"},{"ns":0,"title":"Echelon
+        Conspiracy"},{"ns":0,"title":"Entrapment (film)"},{"ns":0,"title":"Ernie Reyes,
+        Jr."},{"ns":0,"title":"Evil Angel (film)"},{"ns":0,"title":"Final Fantasy:
+        The Spirits Within"},{"ns":0,"title":"Flight of the Intruder"},{"ns":0,"title":"Football
+        Wives"},{"ns":0,"title":"Force of Execution"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gay"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"Give ''Em Hell, Malone"},{"ns":0,"title":"Go Tell
+        It on the Mountain (film)"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Gravity
+        (TV series)"},{"ns":0,"title":"Gray Maynard"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Harlem"},{"ns":0,"title":"High
+        School of Performing Arts"},{"ns":0,"title":"Holiday Heart"},{"ns":0,"title":"Hollywood
+        Foreign Press Association"},{"ns":0,"title":"Homicide (1991 film)"},{"ns":0,"title":"I
+        Now Pronounce You Chuck and Larry"},{"ns":0,"title":"Idlewild (film)"},{"ns":0,"title":"Idris
+        Elba"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Irving
+        R. Levine"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jacob''s Ladder
+        (film)"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James Garner"},{"ns":0,"title":"James
+        Woods"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"John Singleton"},{"ns":0,"title":"Johnnie
+        Cochran"},{"ns":0,"title":"Jonathan Rhys Meyers"},{"ns":0,"title":"Juilliard
+        School"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Costner"},{"ns":0,"title":"Kiss
+        of Death (1995 film)"},{"ns":0,"title":"Kojak"},{"ns":0,"title":"Kojak (2005
+        TV series)"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lilo
+        & Stitch"},{"ns":0,"title":"Lilo & Stitch: The Series"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"Luther
+        Stickell"},{"ns":0,"title":"Mafia (2011 film)"},{"ns":0,"title":"Master Harold...and
+        the Boys (2010 film)"},{"ns":0,"title":"Men (TV series)"},{"ns":0,"title":"Miami
+        Vice"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Mickey
+        Rooney"},{"ns":0,"title":"Mission: Impossible (film)"},{"ns":0,"title":"Mission:
+        Impossible (film series)"},{"ns":0,"title":"Mission: Impossible II"},{"ns":0,"title":"Mission:
+        Impossible III"},{"ns":0,"title":"Mission: Impossible \u2013 Ghost Protocol"},{"ns":0,"title":"Mission:
+        Impossible \u2013 Operation Surma"},{"ns":0,"title":"Monday Mornings"},{"ns":0,"title":"NBC"},{"ns":0,"title":"New
+        York City"},{"ns":0,"title":"New York City, New York"},{"ns":0,"title":"New
+        York Daily News"},{"ns":0,"title":"New York Undercover"},{"ns":0,"title":"Operation:
+        Endgame"},{"ns":0,"title":"Out of Sight (1998 film)"},{"ns":0,"title":"Patty
+        Hearst (film)"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Phantom
+        Punch (film)"},{"ns":0,"title":"Piranha 3D"},{"ns":0,"title":"Piranha 3DD"},{"ns":0,"title":"Playaz
+        Circle"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Lead Actor
+        in a Miniseries or a Movie"},{"ns":0,"title":"Pulp Fiction"},{"ns":0,"title":"Pulp
+        Fiction (film)"},{"ns":0,"title":"RFK (film)"},{"ns":0,"title":"RadioShack"},{"ns":0,"title":"Randy
+        Couture"},{"ns":0,"title":"Randy Quaid"},{"ns":0,"title":"Ra\u00fal Juli\u00e1"},{"ns":0,"title":"Red
+        Canvas"},{"ns":0,"title":"Richard Chamberlain"},{"ns":0,"title":"Rick Ross"},{"ns":0,"title":"Robert
+        Duvall"},{"ns":0,"title":"Rosewood (film)"},{"ns":0,"title":"SUNY Purchase"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor - Motion Picture"},{"ns":0,"title":"Saving
+        God"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Male Actor in a Miniseries or Television Movie"},{"ns":0,"title":"Seven
+        Below"},{"ns":0,"title":"Sharecropping"},{"ns":0,"title":"Shooting Gallery
+        (film)"},{"ns":0,"title":"Sins of the Father (TV film)"},{"ns":0,"title":"Soldiers
+        of Fortune (film)"},{"ns":0,"title":"Sonny Liston"},{"ns":0,"title":"South
+        Carolina"},{"ns":0,"title":"Spenser: For Hire"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stanley
+        Tucci"},{"ns":0,"title":"Stitch! The Movie"},{"ns":0,"title":"Stop! Or My
+        Mom Will Shoot"},{"ns":0,"title":"Striptease (film)"},{"ns":0,"title":"Surrogates
+        (film)"},{"ns":0,"title":"Ted Danson"},{"ns":0,"title":"The Adventures of
+        Jimmy Neutron: Boy Genius"},{"ns":0,"title":"The Bridge to Nowhere"},{"ns":0,"title":"The
+        CW Television Network"},{"ns":0,"title":"The District (TV series)"},{"ns":0,"title":"The
+        Equalizer"},{"ns":0,"title":"The Goods: Live Hard, Sell Hard"},{"ns":0,"title":"The
+        Juilliard School"},{"ns":0,"title":"The Long Walk Home"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The People Under the Stairs"},{"ns":0,"title":"The
+        Proud Family"},{"ns":0,"title":"The River Murders"},{"ns":0,"title":"The Saint
+        of Fort Washington"},{"ns":0,"title":"The Tournament (film)"},{"ns":0,"title":"The
+        WB Television Network"},{"ns":0,"title":"Theater of the Mind"},{"ns":0,"title":"Tom
+        Cruise"},{"ns":0,"title":"Tour of Duty (tv series)"},{"ns":0,"title":"UC:
+        Undercover"},{"ns":0,"title":"UPN"},{"ns":0,"title":"USA Network"},{"ns":0,"title":"Undisputed
+        (film)"},{"ns":0,"title":"United States"},{"ns":0,"title":"Vanessa L. Williams"},{"ns":0,"title":"Video
+        game"},{"ns":0,"title":"Virtual International Authority File"},{"ns":0,"title":"Wes
+        Craven"},{"ns":0,"title":"Won''t Back Down (film)"},{"ns":0,"title":"Zombie
+        Apocalypse (film)"},{"ns":4,"title":"Wikipedia:Manual of Style/Lead section"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Summary
+        style"},{"ns":10,"title":"Template:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":10,"title":"Template:Lead
+        too short"},{"ns":11,"title":"Template talk:GoldenGlobeBestActorTVMiniseriesFilm"},{"ns":14,"title":"Category:Articles
+        covered by WikiProject Wikify from February 2013"},{"ns":14,"title":"Category:Wikipedia
+        introduction cleanup from February 2013"},{"ns":100,"title":"Portal:Biography"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:22 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,177 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=James%20Brolin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287124362, 3536750600, 2597322594
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3030'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:23 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4008 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"352514":{"pageid":352514,"ns":0,"title":"James
+        Brolin","links":[{"ns":0,"title":"20th Century Fox"},{"ns":0,"title":"A&E
+        Network"},{"ns":0,"title":"A Fonder Heart"},{"ns":0,"title":"A Guy Thing"},{"ns":0,"title":"Aaron
+        Spelling"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Actress"},{"ns":0,"title":"Adam
+        West"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Albert Paulsen"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Antony Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Arthur
+        Hill (actor)"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Bad Girl
+        Island"},{"ns":0,"title":"Barbra Streisand"},{"ns":0,"title":"Barry Bostwick"},{"ns":0,"title":"Batman
+        (TV series)"},{"ns":0,"title":"Beau Bridges"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Beyond Belief:
+        Fact or Fiction"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Paxton"},{"ns":0,"title":"Blackout (TV series)"},{"ns":0,"title":"Bruce Jones
+        (actor)"},{"ns":0,"title":"Burlesque (2010 American film)"},{"ns":0,"title":"Burt
+        Ward"},{"ns":0,"title":"Bus Stop (TV series)"},{"ns":0,"title":"CBS"},{"ns":0,"title":"California"},{"ns":0,"title":"Capricorn
+        One"},{"ns":0,"title":"Car accident"},{"ns":0,"title":"Castle (TV series)"},{"ns":0,"title":"Catch
+        Me If You Can"},{"ns":0,"title":"Catherine Zeta-Jones"},{"ns":0,"title":"Charles
+        Durning"},{"ns":0,"title":"Chris Colfer"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christine
+        Baranski"},{"ns":0,"title":"Clifton Collins, Jr."},{"ns":0,"title":"Clint
+        Eastwood"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Community (TV series)"},{"ns":0,"title":"Connie
+        Sellecca"},{"ns":0,"title":"D. W. Moffett"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Danny
+        DeVito"},{"ns":0,"title":"David Burns (actor)"},{"ns":0,"title":"Dean Stockwell"},{"ns":0,"title":"Dear
+        Brigitte"},{"ns":0,"title":"Defamation"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Dennis
+        Quaid"},{"ns":0,"title":"Dennis Weaver"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Donald Sutherland"},{"ns":0,"title":"Drama"},{"ns":0,"title":"Ed
+        Harris"},{"ns":0,"title":"Edward Asner"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"Eli
+        Wallach"},{"ns":0,"title":"Elliott Gould"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Emmy
+        Award"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Extreme (TV
+        series)"},{"ns":0,"title":"Fantastic Voyage"},{"ns":0,"title":"Follow the
+        Sun (TV series)"},{"ns":0,"title":"Gable and Lombard"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gay marriage"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"Golden Globe"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor - Television Series Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Series, Miniseries or Television
+        Film"},{"ns":0,"title":"Golden Globes"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"Gwyneth
+        Paltrow"},{"ns":0,"title":"Hank Azaria"},{"ns":0,"title":"Harvey Korman"},{"ns":0,"title":"High
+        Risk (1981 film)"},{"ns":0,"title":"Hotel (TV series)"},{"ns":0,"title":"Hugo
+        Speer"},{"ns":0,"title":"Ian McKellen"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jack Warden"},{"ns":0,"title":"Jacob Vargas"},{"ns":0,"title":"James
+        Bond"},{"ns":0,"title":"James Daly (actor)"},{"ns":0,"title":"James Dean"},{"ns":0,"title":"Jan
+        Niklas"},{"ns":0,"title":"Jan Smithers"},{"ns":0,"title":"Jed Bartlet"},{"ns":0,"title":"Jeffrey
+        Wright (actor)"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy Piven"},{"ns":0,"title":"Jim
+        Carter (actor)"},{"ns":0,"title":"Joel Hopkins"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Hillerman"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jonathan
+        Frakes"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Judi
+        Dench"},{"ns":0,"title":"Kathleen Quinlan"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Spacey"},{"ns":0,"title":"Last Chance Harvey"},{"ns":0,"title":"Late Show
+        with David Letterman"},{"ns":0,"title":"Law & Order: SVU"},{"ns":0,"title":"Law
+        & Order: Special Victims Unit"},{"ns":0,"title":"Lee Majors"},{"ns":0,"title":"Lesley
+        Sharp"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Lionel
+        Stander"},{"ns":0,"title":"Los Angeles, California"},{"ns":0,"title":"Lost
+        City Raiders"},{"ns":0,"title":"Louis Gossett, Jr."},{"ns":0,"title":"Love,
+        American Style"},{"ns":0,"title":"Love, Wedding, Marriage"},{"ns":0,"title":"Luis
+        Guzm\u00e1n"},{"ns":0,"title":"Malibu, California"},{"ns":0,"title":"Marcus
+        Welby, M.D."},{"ns":0,"title":"Margie (TV series)"},{"ns":0,"title":"Mark
+        Addy"},{"ns":0,"title":"Married and maiden names"},{"ns":0,"title":"Martin
+        Clunes"},{"ns":0,"title":"Maximilian Schell"},{"ns":0,"title":"McLean Stevenson"},{"ns":0,"title":"Medical"},{"ns":0,"title":"Mena
+        Suvari"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Moriarty"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"Milburn Stone"},{"ns":0,"title":"Monk (TV series)"},{"ns":0,"title":"Morgan
+        Fairchild"},{"ns":0,"title":"Nathan Cook"},{"ns":0,"title":"Nathan Lane"},{"ns":0,"title":"Night
+        of the Juggler"},{"ns":0,"title":"Nightmare on the 13th Floor"},{"ns":0,"title":"Norman
+        Fell"},{"ns":0,"title":"Octopussy"},{"ns":0,"title":"Owen Marshall: Counselor
+        at Law"},{"ns":0,"title":"Parallel Lives (film)"},{"ns":0,"title":"Pat Harrington,
+        Jr."},{"ns":0,"title":"Paul Barber (actor)"},{"ns":0,"title":"Paul Le Mat"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"Pee-Wee''s Big Adventure"},{"ns":0,"title":"Pee-Wee
+        Herman"},{"ns":0,"title":"Pee-wee''s Big Adventure"},{"ns":0,"title":"Pensacola:
+        Wings of Gold"},{"ns":0,"title":"Peter Dinklage"},{"ns":0,"title":"Peter Fonda"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Playboy (magazine)"},{"ns":0,"title":"Prime-time"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Drama Series"},{"ns":0,"title":"Psych"},{"ns":0,"title":"Richard
+        Castle"},{"ns":0,"title":"Richard Kiley"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        Downey, Jr."},{"ns":0,"title":"Robert Ritchie (TV character)"},{"ns":0,"title":"Robert
+        Young (actor)"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Roddy McDowall"},{"ns":0,"title":"Roger
+        Moore"},{"ns":0,"title":"Ronald Reagan"},{"ns":0,"title":"Roseanne (TV series)"},{"ns":0,"title":"Rutger
+        Hauer"},{"ns":0,"title":"Ryan O''Neal"},{"ns":0,"title":"Scott Jacoby"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Shakespeare
+        in Love"},{"ns":0,"title":"Shari Belafonte"},{"ns":0,"title":"Short Walk to
+        Daylight"},{"ns":0,"title":"Showtime (TV network)"},{"ns":0,"title":"Simon
+        Callow"},{"ns":0,"title":"Skyjacked (film)"},{"ns":0,"title":"Soap opera"},{"ns":0,"title":"Standing
+        Ovation (film)"},{"ns":0,"title":"Stanley Tucci"},{"ns":0,"title":"Steel Cowboy"},{"ns":0,"title":"Steve
+        Huison"},{"ns":0,"title":"Steven Bauer"},{"ns":0,"title":"Steven Soderbergh"},{"ns":0,"title":"Syst\u00e8me
+        universitaire de documentation"},{"ns":0,"title":"Take Her, She''s Mine"},{"ns":0,"title":"Ted
+        & Venus"},{"ns":0,"title":"Television film"},{"ns":0,"title":"The Alibi"},{"ns":0,"title":"The
+        Amityville Horror (1979 film)"},{"ns":0,"title":"The Birdcage"},{"ns":0,"title":"The
+        Boston Strangler (film)"},{"ns":0,"title":"The Cape Town Affair"},{"ns":0,"title":"The
+        Car"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The Goods: Live Hard,
+        Sell Hard"},{"ns":0,"title":"The Goods: Live Hard, Sell Hard."},{"ns":0,"title":"The
+        Hunting Party (2007 film)"},{"ns":0,"title":"The Long, Hot Summer"},{"ns":0,"title":"The
+        Master of Disguise"},{"ns":0,"title":"The Monroes (1966 TV series)"},{"ns":0,"title":"The
+        Patty Duke Show"},{"ns":0,"title":"The Reagans"},{"ns":0,"title":"The Virginian
+        (TV series)"},{"ns":0,"title":"The West Wing"},{"ns":0,"title":"The West Wing
+        (TV series)"},{"ns":0,"title":"Thora Birch"},{"ns":0,"title":"Tim Conway"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Topher
+        Grace"},{"ns":0,"title":"Traffic (2000 film)"},{"ns":0,"title":"Trapped (1973
+        film)"},{"ns":0,"title":"Twelve O''Clock High (TV series)"},{"ns":0,"title":"Twentieth
+        Century Fox"},{"ns":0,"title":"United States"},{"ns":0,"title":"Universal
+        Studios"},{"ns":0,"title":"University High School (Los Angeles)"},{"ns":0,"title":"Valentine''s
+        Day (TV series)"},{"ns":0,"title":"Viacom"},{"ns":0,"title":"Vic Tayback"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Von Ryan''s Express"},{"ns":0,"title":"Voyage
+        to the Bottom of the Sea"},{"ns":0,"title":"Voyage to the Bottom of the Sea
+        (TV series)"},{"ns":0,"title":"Wedding Wars"},{"ns":0,"title":"Wes Bentley"},{"ns":0,"title":"Westwood,
+        Los Angeles, California"},{"ns":0,"title":"Westworld"},{"ns":0,"title":"Will
+        Geer"},{"ns":0,"title":"William Shatner"},{"ns":0,"title":"William Snape"},{"ns":4,"title":"Wikipedia:Biographies
+        of living persons"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Identifying
+        reliable sources"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:BLP
+        sources"},{"ns":10,"title":"Template:BLP unsourced section"},{"ns":10,"title":"Template:EmmyAward
+        DramaSupportingActor"},{"ns":10,"title":"Template:EmmyAward DramaSupportingActor
+        1959\u20131975"},{"ns":10,"title":"Template:EmmyAward DramaSupportingActor
+        1976\u20132000"},{"ns":10,"title":"Template:EmmyAward DramaSupportingActor
+        2001\u20132025"},{"ns":10,"title":"Template:GoldenGlobeSupportingActorTV"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:EmmyAward DramaSupportingActor
+        1959\u20131975"},{"ns":11,"title":"Template talk:GoldenGlobeSupportingActorTV"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward CastMotionPicture 1995\u20132000"},{"ns":12,"title":"Help:IPA
+        for English"},{"ns":14,"title":"Category:BLP articles lacking sources from
+        December 2008"},{"ns":14,"title":"Category:BLP articles lacking sources from
+        November 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:23 GMT
+recorded_with: VCR 2.9.2

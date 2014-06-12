@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Beauty%20Shop
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001086671, 1409503409, 1061607655
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '734'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:48 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4009 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1727946":{"pageid":1727946,"ns":0,"title":"Beauty
+        Shop","links":[{"ns":0,"title":"Adele Givens"},{"ns":0,"title":"Africa"},{"ns":0,"title":"Alfre
+        Woodard"},{"ns":0,"title":"Alicia Silverstone"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Allmovie"},{"ns":0,"title":"Andie
+        MacDowell"},{"ns":0,"title":"Atlanta, Georgia"},{"ns":0,"title":"Audrey Wells"},{"ns":0,"title":"Barbershop
+        (film)"},{"ns":0,"title":"Barbershop 2: Back in Business"},{"ns":0,"title":"Beauty
+        salon"},{"ns":0,"title":"Bille Woodruff"},{"ns":0,"title":"Birdman (rapper)"},{"ns":0,"title":"Black
+        Movie Awards"},{"ns":0,"title":"Black Reel Awards"},{"ns":0,"title":"Box Office
+        Mojo"},{"ns":0,"title":"Bring It On: Fight to the Finish"},{"ns":0,"title":"Bryce
+        Wilson"},{"ns":0,"title":"Chicago"},{"ns":0,"title":"Christopher Young"},{"ns":0,"title":"Comedy
+        film"},{"ns":0,"title":"Crystal Garrett"},{"ns":0,"title":"David Hoberman"},{"ns":0,"title":"Della
+        Reese"},{"ns":0,"title":"Djimon Hounsou"},{"ns":0,"title":"George Tillman,
+        Jr."},{"ns":0,"title":"Golden Brooks"},{"ns":0,"title":"Honey (2003 film)"},{"ns":0,"title":"Honey
+        2"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jim Holmes"},{"ns":0,"title":"Kate
+        Lanier"},{"ns":0,"title":"Keshia Knight Pulliam"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kimora
+        Lee Simmons"},{"ns":0,"title":"Lil'' JJ"},{"ns":0,"title":"LisaRaye McCoy"},{"ns":0,"title":"Mena
+        Suvari"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Metro-Goldwyn-Mayer"},{"ns":0,"title":"NAACP
+        Image Awards"},{"ns":0,"title":"Octavia Spencer"},{"ns":0,"title":"Paige Hurd"},{"ns":0,"title":"Queen
+        Latifah"},{"ns":0,"title":"Rags (2012 film)"},{"ns":0,"title":"Reagan Gomez-Preston"},{"ns":0,"title":"Robert
+        Teitel"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Sherri Shepherd"},{"ns":0,"title":"Sheryl
+        Underwood"},{"ns":0,"title":"Spin-off (media)"},{"ns":0,"title":"Teen Choice
+        Awards"},{"ns":0,"title":"The Beauty Shop"},{"ns":0,"title":"Theo van de Sande"},{"ns":0,"title":"Widow"},{"ns":0,"title":"Wilmer
+        Valderrama"},{"ns":0,"title":"Yahoo! Movies"},{"ns":10,"title":"Template:Bille
+        Woodruff"},{"ns":11,"title":"Template talk:Bille Woodruff"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:49 GMT
+recorded_with: VCR 2.9.2

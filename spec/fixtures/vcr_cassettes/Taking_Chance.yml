@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Taking%20Chance
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87323576, 3536779651, 3142948337
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '843'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:12 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4008 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"21456612":{"pageid":21456612,"ns":0,"title":"Taking
+        Chance","links":[{"ns":0,"title":"2009 Sundance Film Festival"},{"ns":0,"title":"61st
+        Primetime Emmy Awards"},{"ns":0,"title":"A-10"},{"ns":0,"title":"Ann Dowd"},{"ns":0,"title":"Blanche
+        Baker"},{"ns":0,"title":"Brad Krevoy"},{"ns":0,"title":"Chance Phelps"},{"ns":0,"title":"Crucifix"},{"ns":0,"title":"Danny
+        Hoch"},{"ns":0,"title":"Dog tags"},{"ns":0,"title":"Dover Air Force Base"},{"ns":0,"title":"Enver
+        Gjokaj"},{"ns":0,"title":"Felix Solis"},{"ns":0,"title":"First class (aviation)"},{"ns":0,"title":"Flixter"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Miniseries or Television Film"},{"ns":0,"title":"Gordon
+        Clapp"},{"ns":0,"title":"Guy Boyd (actor)"},{"ns":0,"title":"HBO"},{"ns":0,"title":"HBO
+        Films"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Iraq War"},{"ns":0,"title":"Joel
+        de la Fuente"},{"ns":0,"title":"John Bedford Lloyd"},{"ns":0,"title":"John
+        Magaro"},{"ns":0,"title":"Julie White"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Lieutenant
+        Colonel (United States)"},{"ns":0,"title":"Liza Col\u00f3n-Zayas"},{"ns":0,"title":"Marcelo
+        Zarvos"},{"ns":0,"title":"Marine (military)"},{"ns":0,"title":"Marine Corps
+        Times"},{"ns":0,"title":"Master Gunnery Sergeant"},{"ns":0,"title":"Matthew
+        Morrison"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Michael Strobl"},{"ns":0,"title":"Middle
+        East"},{"ns":0,"title":"Mike Colter"},{"ns":0,"title":"News Corporation"},{"ns":0,"title":"Nicholas
+        Reese Art"},{"ns":0,"title":"Noah Fleiss"},{"ns":0,"title":"Orlando Sentinel"},{"ns":0,"title":"Paige
+        Turco"},{"ns":0,"title":"Primetime Emmy Award"},{"ns":0,"title":"Robert Gates"},{"ns":0,"title":"Ross
+        Katz"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Ruby Jerins"},{"ns":0,"title":"Saint
+        Christopher"},{"ns":0,"title":"Sarah Thompson (actress)"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries
+        or Television Movie"},{"ns":0,"title":"Slant Magazine"},{"ns":0,"title":"Sundance
+        Film Festival"},{"ns":0,"title":"Tate Ellington"},{"ns":0,"title":"The Baltimore
+        Sun"},{"ns":0,"title":"Tom Aldredge"},{"ns":0,"title":"Tom Kemp"},{"ns":0,"title":"Tom
+        Wopat"},{"ns":0,"title":"USA Today"},{"ns":0,"title":"Victor Slezak"},{"ns":0,"title":"Wall
+        Street Journal"},{"ns":0,"title":"Washington Post"},{"ns":0,"title":"Wol\u00e9
+        Parks"},{"ns":0,"title":"YouTube"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:12 GMT
+recorded_with: VCR 2.9.2

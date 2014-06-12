@@ -1,0 +1,132 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Search%20for%20Tomorrow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401690471, 3085169653, 1613097821
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2090'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:04 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"706903":{"pageid":706903,"ns":0,"title":"Search
+        for Tomorrow","links":[{"ns":0,"title":"Adam Storke"},{"ns":0,"title":"Agnes
+        Nixon"},{"ns":0,"title":"Alison Steele"},{"ns":0,"title":"America Online"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"Andrew D. Weyman"},{"ns":0,"title":"Angela
+        Bassett"},{"ns":0,"title":"Ann Marcus"},{"ns":0,"title":"Ann Williams (actress)"},{"ns":0,"title":"Anthony
+        George"},{"ns":0,"title":"Art Wolff"},{"ns":0,"title":"As the World Turns"},{"ns":0,"title":"Audra
+        Lindley"},{"ns":0,"title":"Audrey Landers"},{"ns":0,"title":"BarBara Luna"},{"ns":0,"title":"Barbara
+        Babcock"},{"ns":0,"title":"Battlestars (game show)"},{"ns":0,"title":"Beyond
+        the Blue Horizon"},{"ns":0,"title":"Bill Chinnock"},{"ns":0,"title":"Billie
+        Lou Watt"},{"ns":0,"title":"Black-and-white"},{"ns":0,"title":"Bob Schwarz"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Charles
+        Gussman"},{"ns":0,"title":"Colleen Dion"},{"ns":0,"title":"Color"},{"ns":0,"title":"Constance
+        Ford"},{"ns":0,"title":"Cynthia Gibb"},{"ns":0,"title":"Damion Scheller"},{"ns":0,"title":"David
+        Colson (television)"},{"ns":0,"title":"David Forsyth (actor)"},{"ns":0,"title":"David
+        Gautreaux"},{"ns":0,"title":"David Lesan"},{"ns":0,"title":"Daytime Emmy Award
+        for Outstanding Lead Actor in a Drama Series"},{"ns":0,"title":"Daytime Emmy
+        Award for Outstanding Supporting Actor in a Drama Series"},{"ns":0,"title":"Diana
+        Wenman"},{"ns":0,"title":"Dick Clark"},{"ns":0,"title":"Dick Hyman"},{"ns":0,"title":"Domini
+        Blythe"},{"ns":0,"title":"Don Knotts"},{"ns":0,"title":"Don Pardo"},{"ns":0,"title":"Drama
+        (genre)"},{"ns":0,"title":"Dwight Weist"},{"ns":0,"title":"Eastern Standard
+        Time Zone"},{"ns":0,"title":"Eastern Time"},{"ns":0,"title":"Eunice Gardner
+        Wyatt"},{"ns":0,"title":"Executive Producer"},{"ns":0,"title":"Frank and Doris
+        Hursley"},{"ns":0,"title":"Freddie Bartholomew"},{"ns":0,"title":"General
+        Hospital"},{"ns":0,"title":"Generations"},{"ns":0,"title":"Generations (U.S.
+        TV series)"},{"ns":0,"title":"George Maharis"},{"ns":0,"title":"Go (game show)"},{"ns":0,"title":"Guiding
+        Light"},{"ns":0,"title":"Hallmark Hall of Fame"},{"ns":0,"title":"Harding
+        Lemay"},{"ns":0,"title":"Head Writer"},{"ns":0,"title":"Henry Slesar"},{"ns":0,"title":"Hong
+        Kong"},{"ns":0,"title":"Hot Potato (game show)"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Irving Vendig"},{"ns":0,"title":"Jacqueline
+        Schultz"},{"ns":0,"title":"Jamaica"},{"ns":0,"title":"Jane Krakowski"},{"ns":0,"title":"Jean
+        Rouverol"},{"ns":0,"title":"Jeannie Glynn"},{"ns":0,"title":"Jeff Hayenga"},{"ns":0,"title":"Jeffrey
+        Meek"},{"ns":0,"title":"Jennifer Gatti"},{"ns":0,"title":"Jennifer Pace"},{"ns":0,"title":"Jo
+        Henderson"},{"ns":0,"title":"Joan McCall"},{"ns":0,"title":"Joanna Going"},{"ns":0,"title":"Joanna
+        Lee (actor)"},{"ns":0,"title":"Joanne Gardner"},{"ns":0,"title":"Joe Lambie"},{"ns":0,"title":"John
+        Aniston"},{"ns":0,"title":"John James (actor)"},{"ns":0,"title":"John Sylvester
+        White"},{"ns":0,"title":"John William Corrington"},{"ns":0,"title":"Joy (dishwashing
+        liquid)"},{"ns":0,"title":"Judy Lewis"},{"ns":0,"title":"Julian Funt"},{"ns":0,"title":"Just
+        Men!"},{"ns":0,"title":"Ken Kercheval"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Conroy"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Larry Hagman"},{"ns":0,"title":"Larry
+        Haines"},{"ns":0,"title":"Lee Grant"},{"ns":0,"title":"Leonard Kantor"},{"ns":0,"title":"Lisa
+        Peluso"},{"ns":0,"title":"Lou Rawls"},{"ns":0,"title":"Louise Shaffer"},{"ns":0,"title":"Love
+        of Life"},{"ns":0,"title":"Lynn Loring"},{"ns":0,"title":"M*A*S*H (TV series)"},{"ns":0,"title":"Maeve
+        McGuire"},{"ns":0,"title":"Mafia"},{"ns":0,"title":"Maree Cheatham"},{"ns":0,"title":"Marion
+        Brash"},{"ns":0,"title":"Mary-Ellis Bunim"},{"ns":0,"title":"Mary Stuart (actress)"},{"ns":0,"title":"Matthew
+        Ashford"},{"ns":0,"title":"Meg Bennett"},{"ns":0,"title":"Meg Myles"},{"ns":0,"title":"Melba
+        Rae"},{"ns":0,"title":"Metro-Goldwyn-Mayer"},{"ns":0,"title":"Michael Corbett
+        (actor)"},{"ns":0,"title":"Michael Nouri"},{"ns":0,"title":"Michelle Joyner"},{"ns":0,"title":"Millee
+        Taggart"},{"ns":0,"title":"Monaural"},{"ns":0,"title":"Morgan Fairchild"},{"ns":0,"title":"Multi-camera
+        setup"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Nicolette Goulet"},{"ns":0,"title":"Nita
+        Talbot"},{"ns":0,"title":"Olympia Dukakis"},{"ns":0,"title":"Paige Hannah"},{"ns":0,"title":"Pamela
+        K. Long"},{"ns":0,"title":"Password Plus and Super Password"},{"ns":0,"title":"Patrick
+        Tovatt"},{"ns":0,"title":"Patsy Pease"},{"ns":0,"title":"Paul Avila Mayer"},{"ns":0,"title":"Peter
+        Haskell"},{"ns":0,"title":"Philip Brown (actor)"},{"ns":0,"title":"Procter
+        & Gamble"},{"ns":0,"title":"Procter & Gamble Productions"},{"ns":0,"title":"Ray
+        Goldstone"},{"ns":0,"title":"Robert Brian Wilson"},{"ns":0,"title":"Robert
+        Curtis Brown"},{"ns":0,"title":"Robert Mandan"},{"ns":0,"title":"Robert Reed"},{"ns":0,"title":"Rod
+        Arrants"},{"ns":0,"title":"Roger Montalto"},{"ns":0,"title":"Roy Winsor"},{"ns":0,"title":"Sale
+        of the Century (U.S. game show)"},{"ns":0,"title":"Sandy Duncan"},{"ns":0,"title":"Saturday
+        Night Live"},{"ns":0,"title":"Scattergories (game show)"},{"ns":0,"title":"Scott
+        McKinsey"},{"ns":0,"title":"Scrabble (game show)"},{"ns":0,"title":"Serial
+        drama"},{"ns":0,"title":"Sesame Street"},{"ns":0,"title":"Soap opera"},{"ns":0,"title":"Spic
+        and Span"},{"ns":0,"title":"St. Kitts"},{"ns":0,"title":"Stephanie Braxton"},{"ns":0,"title":"Stephanie
+        Wilkins"},{"ns":0,"title":"Steve Lindquist"},{"ns":0,"title":"Stu Bergman"},{"ns":0,"title":"Susan
+        Carey Lamn"},{"ns":0,"title":"Susan Sarandon"},{"ns":0,"title":"TV.com"},{"ns":0,"title":"TV
+        Guide"},{"ns":0,"title":"Ted Kubiak"},{"ns":0,"title":"Terry O''Sullivan"},{"ns":0,"title":"Texas
+        (TV series)"},{"ns":0,"title":"The Doctors (1963 TV series)"},{"ns":0,"title":"The
+        Edge of Night"},{"ns":0,"title":"The Guiding Light"},{"ns":0,"title":"The
+        Young and the Restless"},{"ns":0,"title":"Thom Racina"},{"ns":0,"title":"Tom
+        Kennedy (television presenter)"},{"ns":0,"title":"Tom Sullivan (singer)"},{"ns":0,"title":"Tony
+        Bennett"},{"ns":0,"title":"Tonya Pinkins"},{"ns":0,"title":"Tootsie"},{"ns":0,"title":"USA
+        Network"},{"ns":0,"title":"United States"},{"ns":0,"title":"Val Dufour"},{"ns":0,"title":"Viggo
+        Mortensen"},{"ns":0,"title":"WNET-TV"},{"ns":0,"title":"We''ll Be Together
+        Again"},{"ns":0,"title":"Wesley Smith"},{"ns":0,"title":"Wordplay (game show)"},{"ns":0,"title":"Writers
+        Guild of America Award for Best Television Writing in Daytime Serials"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Refimprove"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from June 2008"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from January 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:05 GMT
+recorded_with: VCR 2.9.2

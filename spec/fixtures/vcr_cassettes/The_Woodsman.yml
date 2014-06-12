@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=The%20Woodsman
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332356467, 1102712372, 1061692675
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '628'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:16 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4017 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1605320":{"pageid":1605320,"ns":0,"title":"The
+        Woodsman","links":[{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Box
+        Office Mojo"},{"ns":0,"title":"Carlos Leon"},{"ns":0,"title":"Child molestation"},{"ns":0,"title":"David
+        Alan Grier"},{"ns":0,"title":"Deauville Film Festival"},{"ns":0,"title":"Drama
+        film"},{"ns":0,"title":"Eve (entertainer)"},{"ns":0,"title":"Hannah Pilkes"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Rice
+        (model)"},{"ns":0,"title":"Kyra Sedgwick"},{"ns":0,"title":"Lee Daniels"},{"ns":0,"title":"Lisa
+        Fruchtman"},{"ns":0,"title":"Michael Shannon (actor)"},{"ns":0,"title":"Monster''s
+        Ball"},{"ns":0,"title":"Mos Def"},{"ns":0,"title":"Nathan Larson (musician)"},{"ns":0,"title":"Nicole
+        Kassell"},{"ns":0,"title":"Philadelphia"},{"ns":0,"title":"Philadelphia accent"},{"ns":0,"title":"Precious
+        (film)"},{"ns":0,"title":"Rape"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Shadowboxer"},{"ns":0,"title":"Steven
+        Fechter"},{"ns":0,"title":"Sundance Film Festival"},{"ns":0,"title":"Tennessee
+        (film)"},{"ns":0,"title":"The Butler"},{"ns":0,"title":"The Paperboy (2012
+        film)"},{"ns":0,"title":"Traverse City Film Festival"},{"ns":0,"title":"Universal
+        Studios"},{"ns":0,"title":"Virginia"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Lee
+        Daniels"},{"ns":10,"title":"Template:Unreferenced"},{"ns":11,"title":"Template
+        talk:Lee Daniels"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        lacking sources from July 2011"},{"ns":100,"title":"Portal:2000s"},{"ns":100,"title":"Portal:Films"},{"ns":100,"title":"Portal:Pennsylvania"},{"ns":100,"title":"Portal:Philadelphia"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:17 GMT
+recorded_with: VCR 2.9.2

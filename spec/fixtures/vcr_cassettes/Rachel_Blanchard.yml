@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Rachel%20Blanchard
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704722041, 3085164709, 1309490334
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1079'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:56 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1485281":{"pageid":1485281,"ns":0,"title":"Rachel
+        Blanchard","links":[{"ns":0,"title":"2008 Toronto International Film Festival"},{"ns":0,"title":"7th
+        Heaven (TV series)"},{"ns":0,"title":"Actress"},{"ns":0,"title":"Adoration
+        (film)"},{"ns":0,"title":"Alicia Silverstone"},{"ns":0,"title":"Anne of Green
+        Gables: A New Beginning"},{"ns":0,"title":"Are You Afraid of the Dark?"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Call
+        Me Fitz"},{"ns":0,"title":"Canada"},{"ns":0,"title":"Cher Horowitz"},{"ns":0,"title":"Chris
+        Cross (TV series)"},{"ns":0,"title":"Clarence (1990 film)"},{"ns":0,"title":"Clueless
+        (TV series)"},{"ns":0,"title":"Clueless (film)"},{"ns":0,"title":"Comeback
+        Season"},{"ns":0,"title":"Daydream Nation (film)"},{"ns":0,"title":"Defamation"},{"ns":0,"title":"Fargo
+        (TV series)"},{"ns":0,"title":"Flash Forward"},{"ns":0,"title":"Flashpoint
+        (TV series)"},{"ns":0,"title":"Flight of the Conchords (TV series)"},{"ns":0,"title":"Glory
+        Enough for All"},{"ns":0,"title":"Havergal College"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Iron Eagle on the Attack"},{"ns":0,"title":"Joey
+        (TV series)"},{"ns":0,"title":"Katts and Dog"},{"ns":0,"title":"Legit (TV
+        series)"},{"ns":0,"title":"Mad Ship"},{"ns":0,"title":"McDonald''s"},{"ns":0,"title":"My
+        Uncle Rafael"},{"ns":0,"title":"On My Own (film)"},{"ns":0,"title":"Ontario"},{"ns":0,"title":"Overnight
+        (film)"},{"ns":0,"title":"Peep Show (TV series)"},{"ns":0,"title":"Psych"},{"ns":0,"title":"Queen''s
+        University"},{"ns":0,"title":"Road Trip (film)"},{"ns":0,"title":"Robert Webb"},{"ns":0,"title":"Situation
+        comedy"},{"ns":0,"title":"Snakes on a Plane"},{"ns":0,"title":"Spread (film)"},{"ns":0,"title":"Sugar
+        & Spice"},{"ns":0,"title":"The Campbells"},{"ns":0,"title":"The Hitchhiker
+        (TV series)"},{"ns":0,"title":"The Kids of Degrassi Street"},{"ns":0,"title":"The
+        Littlest Hobo"},{"ns":0,"title":"The Rage: Carrie 2"},{"ns":0,"title":"The
+        Wild Dogs"},{"ns":0,"title":"Toronto"},{"ns":0,"title":"Virtual International
+        Authority File"},{"ns":0,"title":"War of the Worlds (TV series)"},{"ns":0,"title":"Wedding
+        Band"},{"ns":0,"title":"Where the Truth Lies"},{"ns":0,"title":"Without a
+        Paddle"},{"ns":0,"title":"Young Ivanhoe"},{"ns":1,"title":"Talk:Rachel Blanchard"},{"ns":4,"title":"Wikipedia:Biographies
+        of living persons"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Identifying
+        reliable sources"},{"ns":4,"title":"Wikipedia:Manual of Style/Lead section"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Stub"},{"ns":4,"title":"Wikipedia:Summary
+        style"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:BLP
+        sources"},{"ns":10,"title":"Template:Canada-tv-actor-stub"},{"ns":10,"title":"Template:Lead
+        too short"},{"ns":10,"title":"Template:Multiple issues"},{"ns":11,"title":"Template
+        talk:Canada-tv-actor-stub"},{"ns":14,"title":"Category:Articles covered by
+        WikiProject Wikify from October 2013"},{"ns":14,"title":"Category:BLP articles
+        lacking sources from June 2008"},{"ns":14,"title":"Category:Use mdy dates
+        from September 2013"},{"ns":14,"title":"Category:Wikipedia introduction cleanup
+        from October 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:57 GMT
+recorded_with: VCR 2.9.2

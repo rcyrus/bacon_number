@@ -1,0 +1,112 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Friday%20the%2013th%20(1980%20film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001119663, 2340324710, 1613048979
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1508'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:11 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4016 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"168958":{"pageid":168958,"ns":0,"title":"Friday
+        the 13th (1980 film)","links":[{"ns":0,"title":"1980 in film"},{"ns":0,"title":"3-D
+        film"},{"ns":0,"title":"AFI''s 100 Years...100 Thrills"},{"ns":0,"title":"A
+        Nightmare on Elm Street (franchise)"},{"ns":0,"title":"A Stranger Is Watching
+        (film)"},{"ns":0,"title":"Adrienne King"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"All
+        My Children"},{"ns":0,"title":"American Film Institute"},{"ns":0,"title":"Ari
+        Lehman"},{"ns":0,"title":"Australian Broadcasting Corporation"},{"ns":0,"title":"Betsy
+        Palmer"},{"ns":0,"title":"Blairstown, New Jersey"},{"ns":0,"title":"Blairstown
+        Theater Festival"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Box
+        office"},{"ns":0,"title":"Camp No-Be-Bo-Sco"},{"ns":0,"title":"Carrie (1976
+        film)"},{"ns":0,"title":"Case of the Full Moon Murders"},{"ns":0,"title":"Charles
+        Bluhdorn"},{"ns":0,"title":"Cult following"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Decapitation"},{"ns":0,"title":"DeepStar
+        Six"},{"ns":0,"title":"Empire (magazine)"},{"ns":0,"title":"Film criticism"},{"ns":0,"title":"Freddy
+        Krueger"},{"ns":0,"title":"Freddy vs. Jason"},{"ns":0,"title":"Freddy vs.
+        Jason vs. Ash"},{"ns":0,"title":"Freddy vs. Jason vs. Ash: The Nightmare Warriors"},{"ns":0,"title":"Friday
+        the 13th: A New Beginning"},{"ns":0,"title":"Friday the 13th: The Final Chapter"},{"ns":0,"title":"Friday
+        the 13th: The Series"},{"ns":0,"title":"Friday the 13th (1985 video game)"},{"ns":0,"title":"Friday
+        the 13th (2009 film)"},{"ns":0,"title":"Friday the 13th (NES video game)"},{"ns":0,"title":"Friday
+        the 13th (franchise)"},{"ns":0,"title":"Friday the 13th Part 2"},{"ns":0,"title":"Friday
+        the 13th Part III"},{"ns":0,"title":"Friday the 13th Part VI: Jason Lives"},{"ns":0,"title":"Friday
+        the 13th Part VII: The New Blood"},{"ns":0,"title":"Friday the 13th Part VIII:
+        Jason Takes Manhattan"},{"ns":0,"title":"Friday the 13th franchise"},{"ns":0,"title":"Gene
+        Siskel"},{"ns":0,"title":"Goalie mask"},{"ns":0,"title":"Gramavision Records"},{"ns":0,"title":"Guiding
+        Light"},{"ns":0,"title":"Gulf+Western"},{"ns":0,"title":"Halloween (1978 film)"},{"ns":0,"title":"Harry
+        Crosby (actor)"},{"ns":0,"title":"Harry Manfredini"},{"ns":0,"title":"Here
+        Come the Tigers"},{"ns":0,"title":"Hope, New Jersey"},{"ns":0,"title":"Independent
+        film"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Jason Goes to Hell: The Final Friday"},{"ns":0,"title":"Jason
+        Voorhees"},{"ns":0,"title":"Jason X"},{"ns":0,"title":"Jaws (film)"},{"ns":0,"title":"Jefferson,
+        North Carolina"},{"ns":0,"title":"John Carpenter"},{"ns":0,"title":"John Williams"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Krzysztof Penderecki"},{"ns":0,"title":"LP record"},{"ns":0,"title":"La-La
+        Land Records"},{"ns":0,"title":"Laurie Bartram"},{"ns":0,"title":"Leonard
+        Maltin"},{"ns":0,"title":"List of Friday the 13th characters"},{"ns":0,"title":"List
+        of Friday the 13th movies"},{"ns":0,"title":"List of characters in the Friday
+        the 13th series"},{"ns":0,"title":"Machete"},{"ns":0,"title":"Manny''s Orphans"},{"ns":0,"title":"Marcus
+        Nispel"},{"ns":0,"title":"Mark Kermode"},{"ns":0,"title":"Michael Bay"},{"ns":0,"title":"New
+        Jersey"},{"ns":0,"title":"North Carolina"},{"ns":0,"title":"One Life to Live"},{"ns":0,"title":"Pamela
+        Voorhees"},{"ns":0,"title":"Paramount Home Entertainment"},{"ns":0,"title":"Paramount
+        Pictures"},{"ns":0,"title":"Razzie Awards"},{"ns":0,"title":"Rex Everhart"},{"ns":0,"title":"Roger
+        Ebert"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Sean S. Cunningham"},{"ns":0,"title":"Sexual
+        intercourse"},{"ns":0,"title":"Signet Books"},{"ns":0,"title":"Slasher film"},{"ns":0,"title":"Sneak
+        Previews"},{"ns":0,"title":"Soap opera"},{"ns":0,"title":"Spring Break (film)"},{"ns":0,"title":"Summer
+        camp"},{"ns":0,"title":"The Art of Marriage"},{"ns":0,"title":"The Hollywood
+        Reporter"},{"ns":0,"title":"The Last House on the Left (1972 film)"},{"ns":0,"title":"The
+        New Kids"},{"ns":0,"title":"The Numbers (website)"},{"ns":0,"title":"The Texas
+        Chainsaw Massacre (2003 film)"},{"ns":0,"title":"Together (1971 film)"},{"ns":0,"title":"Tom
+        Savini"},{"ns":0,"title":"United Kingdom"},{"ns":0,"title":"VHS"},{"ns":0,"title":"Variety
+        (magazine)"},{"ns":0,"title":"Victor Miller (writer)"},{"ns":0,"title":"Walt
+        Gorney"},{"ns":0,"title":"Warner Bros."},{"ns":0,"title":"Wes Craven"},{"ns":0,"title":"WildStorm"},{"ns":0,"title":"XCU:
+        Extreme Close Up"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":10,"title":"Template:Friday the 13th"},{"ns":10,"title":"Template:Sean
+        S. Cunningham"},{"ns":11,"title":"Template talk:Friday the 13th"},{"ns":11,"title":"Template
+        talk:Sean S. Cunningham"},{"ns":14,"title":"Category:Articles with dead external
+        links from July 2012"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from July 2012"},{"ns":14,"title":"Category:Articles with unsourced
+        statements from May 2009"},{"ns":14,"title":"Category:Friday the 13th (franchise)"},{"ns":100,"title":"Portal:Film
+        in the United States"},{"ns":108,"title":"Book:Friday the 13th"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:12 GMT
+recorded_with: VCR 2.9.2

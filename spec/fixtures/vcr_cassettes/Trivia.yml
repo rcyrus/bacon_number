@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Trivia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401714009, 1409556008, 3142956711
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '515'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:20 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4009 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1690736":{"pageid":1690736,"ns":0,"title":"Trivia","links":[{"ns":0,"title":"Arithmetic"},{"ns":0,"title":"Arnobius"},{"ns":0,"title":"Artes
+        Liberales"},{"ns":0,"title":"Astronomy"},{"ns":0,"title":"Basic education"},{"ns":0,"title":"College"},{"ns":0,"title":"College
+        Bowl"},{"ns":0,"title":"Columbia Daily Spectator"},{"ns":0,"title":"Columbia
+        University"},{"ns":0,"title":"DMOZ"},{"ns":0,"title":"Early Modern English"},{"ns":0,"title":"Factoid"},{"ns":0,"title":"FunTrivia"},{"ns":0,"title":"Geometry"},{"ns":0,"title":"Grammar"},{"ns":0,"title":"Henry
+        VI, Part 3"},{"ns":0,"title":"Late Latin"},{"ns":0,"title":"Logan Pearsall
+        Smith"},{"ns":0,"title":"Logic"},{"ns":0,"title":"Medieval Latin"},{"ns":0,"title":"Music"},{"ns":0,"title":"National
+        Academic Quiz Tournaments"},{"ns":0,"title":"OED"},{"ns":0,"title":"Popular
+        culture"},{"ns":0,"title":"Pub quiz"},{"ns":0,"title":"Quadrivium"},{"ns":0,"title":"Quiz"},{"ns":0,"title":"Quizbowl"},{"ns":0,"title":"Ranulf
+        Higdon"},{"ns":0,"title":"Reach for the Top"},{"ns":0,"title":"Rhetoric"},{"ns":0,"title":"Shakespeare"},{"ns":0,"title":"Stevens
+        Point, Wisconsin"},{"ns":0,"title":"Trivia (disambiguation)"},{"ns":0,"title":"Trivial
+        (mathematics)"},{"ns":0,"title":"Trivial Pursuit"},{"ns":0,"title":"Trivialism"},{"ns":0,"title":"Trivium
+        (education)"},{"ns":0,"title":"University of Colorado system"},{"ns":0,"title":"University
+        of Wisconsin\u2013Stevens Point"},{"ns":0,"title":"WWSP"},{"ns":4,"title":"Wikipedia:Trivia
+        sections"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:21 GMT
+recorded_with: VCR 2.9.2

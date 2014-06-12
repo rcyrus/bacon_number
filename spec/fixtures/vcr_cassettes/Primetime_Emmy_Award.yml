@@ -1,0 +1,257 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Primetime%20Emmy%20Award
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711885498, 983724519, 1309487580
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2547'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:54 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4018 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"6579025":{"pageid":6579025,"ns":0,"title":"Primetime
+        Emmy Award","links":[{"ns":0,"title":"10th Daytime Emmy Awards"},{"ns":0,"title":"10th
+        Primetime Emmy Awards"},{"ns":0,"title":"11th Daytime Emmy Awards"},{"ns":0,"title":"11th
+        Primetime Emmy Awards"},{"ns":0,"title":"12th Daytime Emmy Awards"},{"ns":0,"title":"12th
+        Primetime Emmy Awards"},{"ns":0,"title":"13th Daytime Emmy Awards"},{"ns":0,"title":"13th
+        Primetime Emmy Awards"},{"ns":0,"title":"14th Daytime Emmy Awards"},{"ns":0,"title":"14th
+        Primetime Emmy Awards"},{"ns":0,"title":"15th Daytime Emmy Awards"},{"ns":0,"title":"15th
+        Primetime Emmy Awards"},{"ns":0,"title":"16th Daytime Emmy Awards"},{"ns":0,"title":"16th
+        Primetime Emmy Awards"},{"ns":0,"title":"17th Daytime Emmy Awards"},{"ns":0,"title":"17th
+        Primetime Emmy Awards"},{"ns":0,"title":"18th Daytime Emmy Awards"},{"ns":0,"title":"18th
+        Primetime Emmy Awards"},{"ns":0,"title":"19th Daytime Emmy Awards"},{"ns":0,"title":"19th
+        Primetime Emmy Awards"},{"ns":0,"title":"1st Daytime Emmy Awards"},{"ns":0,"title":"1st
+        Primetime Emmy Awards"},{"ns":0,"title":"20th Daytime Emmy Awards"},{"ns":0,"title":"20th
+        Primetime Emmy Awards"},{"ns":0,"title":"21st Daytime Emmy Awards"},{"ns":0,"title":"21st
+        Primetime Emmy Awards"},{"ns":0,"title":"22nd Daytime Emmy Awards"},{"ns":0,"title":"22nd
+        Primetime Emmy Awards"},{"ns":0,"title":"23rd Daytime Emmy Awards"},{"ns":0,"title":"23rd
+        Primetime Emmy Awards"},{"ns":0,"title":"24 (TV series)"},{"ns":0,"title":"24th
+        Daytime Emmy Awards"},{"ns":0,"title":"24th Primetime Emmy Awards"},{"ns":0,"title":"25th
+        Daytime Emmy Awards"},{"ns":0,"title":"25th Primetime Emmy Awards"},{"ns":0,"title":"26th
+        Daytime Emmy Awards"},{"ns":0,"title":"26th Primetime Emmy Awards"},{"ns":0,"title":"26th
+        Sports Emmy Awards"},{"ns":0,"title":"27th Daytime Emmy Awards"},{"ns":0,"title":"27th
+        Primetime Emmy Awards"},{"ns":0,"title":"27th Sports Emmy Awards"},{"ns":0,"title":"28th
+        Daytime Emmy Awards"},{"ns":0,"title":"28th Primetime Emmy Awards"},{"ns":0,"title":"28th
+        Sports Emmy Awards"},{"ns":0,"title":"29th Daytime Emmy Awards"},{"ns":0,"title":"29th
+        Primetime Emmy Awards"},{"ns":0,"title":"29th Sports Emmy Awards"},{"ns":0,"title":"2nd
+        Daytime Emmy Awards"},{"ns":0,"title":"2nd Primetime Emmy Awards"},{"ns":0,"title":"30
+        Rock"},{"ns":0,"title":"30th Daytime Emmy Awards"},{"ns":0,"title":"30th Primetime
+        Emmy Awards"},{"ns":0,"title":"30th Sports Emmy Awards"},{"ns":0,"title":"31st
+        Daytime Emmy Awards"},{"ns":0,"title":"31st News & Documentary Emmy Awards"},{"ns":0,"title":"31st
+        Primetime Emmy Awards"},{"ns":0,"title":"31st Sports Emmy Awards"},{"ns":0,"title":"32nd
+        Daytime Emmy Awards"},{"ns":0,"title":"32nd News & Documentary Emmy Awards"},{"ns":0,"title":"32nd
+        Primetime Emmy Awards"},{"ns":0,"title":"32nd Sports Emmy Awards"},{"ns":0,"title":"33rd
+        Daytime Emmy Awards"},{"ns":0,"title":"33rd News & Documentary Emmy Awards"},{"ns":0,"title":"33rd
+        Primetime Emmy Awards"},{"ns":0,"title":"33rd Sports Emmy Awards"},{"ns":0,"title":"34th
+        Daytime Emmy Awards"},{"ns":0,"title":"34th News & Documentary Emmy Awards"},{"ns":0,"title":"34th
+        Primetime Emmy Awards"},{"ns":0,"title":"34th Sports Emmy Awards"},{"ns":0,"title":"35th
+        Daytime Emmy Awards"},{"ns":0,"title":"35th Primetime Emmy Awards"},{"ns":0,"title":"35th
+        Sports Emmy Awards"},{"ns":0,"title":"36th Daytime Emmy Awards"},{"ns":0,"title":"36th
+        Primetime Emmy Awards"},{"ns":0,"title":"37th Daytime Emmy Awards"},{"ns":0,"title":"37th
+        Primetime Emmy Awards"},{"ns":0,"title":"38th Daytime Emmy Awards"},{"ns":0,"title":"38th
+        Primetime Emmy Awards"},{"ns":0,"title":"39th Daytime Emmy Awards"},{"ns":0,"title":"39th
+        Primetime Emmy Awards"},{"ns":0,"title":"3rd Daytime Emmy Awards"},{"ns":0,"title":"3rd
+        Primetime Emmy Awards"},{"ns":0,"title":"40th Daytime Emmy Awards"},{"ns":0,"title":"40th
+        Primetime Emmy Awards"},{"ns":0,"title":"41st Daytime Emmy Awards"},{"ns":0,"title":"41st
+        Primetime Emmy Awards"},{"ns":0,"title":"42nd Primetime Emmy Awards"},{"ns":0,"title":"43rd
+        Primetime Emmy Awards"},{"ns":0,"title":"44th Primetime Emmy Awards"},{"ns":0,"title":"45th
+        Primetime Emmy Awards"},{"ns":0,"title":"46th Primetime Emmy Awards"},{"ns":0,"title":"47th
+        Primetime Emmy Awards"},{"ns":0,"title":"48th Primetime Emmy Awards"},{"ns":0,"title":"49th
+        Primetime Emmy Awards"},{"ns":0,"title":"4th Daytime Emmy Awards"},{"ns":0,"title":"4th
+        Primetime Emmy Awards"},{"ns":0,"title":"50th Primetime Emmy Awards"},{"ns":0,"title":"51st
+        Primetime Emmy Awards"},{"ns":0,"title":"52nd Primetime Emmy Awards"},{"ns":0,"title":"53rd
+        Primetime Emmy Awards"},{"ns":0,"title":"54th Primetime Emmy Awards"},{"ns":0,"title":"55th
+        Primetime Emmy Awards"},{"ns":0,"title":"56th Primetime Emmy Awards"},{"ns":0,"title":"57th
+        Primetime Emmy Awards"},{"ns":0,"title":"57th Technology & Engineering Emmy
+        Awards"},{"ns":0,"title":"58th Primetime Emmy Awards"},{"ns":0,"title":"58th
+        Technology & Engineering Emmy Awards"},{"ns":0,"title":"59th Primetime Creative
+        Arts Emmy Awards"},{"ns":0,"title":"59th Primetime Emmy Awards"},{"ns":0,"title":"59th
+        Technology & Engineering Emmy Awards"},{"ns":0,"title":"5th Daytime Emmy Awards"},{"ns":0,"title":"5th
+        Primetime Emmy Awards"},{"ns":0,"title":"60th Primetime Emmy Awards"},{"ns":0,"title":"60th
+        Technology & Engineering Emmy Awards"},{"ns":0,"title":"61st Primetime Emmy
+        Awards"},{"ns":0,"title":"62nd Primetime Emmy Awards"},{"ns":0,"title":"63rd
+        Primetime Creative Arts Emmy Awards"},{"ns":0,"title":"63rd Primetime Emmy
+        Awards"},{"ns":0,"title":"64th Primetime Creative Arts Emmy Awards"},{"ns":0,"title":"64th
+        Primetime Emmy Awards"},{"ns":0,"title":"65th Primetime Creative Arts Emmy
+        Awards"},{"ns":0,"title":"65th Primetime Emmy Awards"},{"ns":0,"title":"66th
+        Primetime Emmy Awards"},{"ns":0,"title":"6th Daytime Emmy Awards"},{"ns":0,"title":"6th
+        Primetime Emmy Awards"},{"ns":0,"title":"7th Daytime Emmy Awards"},{"ns":0,"title":"7th
+        Primetime Emmy Awards"},{"ns":0,"title":"8th Daytime Emmy Awards"},{"ns":0,"title":"8th
+        Primetime Emmy Awards"},{"ns":0,"title":"9th Daytime Emmy Awards"},{"ns":0,"title":"9th
+        Primetime Emmy Awards"},{"ns":0,"title":"ADG Excellence in Production Design
+        Award"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy of Television
+        Arts & Sciences"},{"ns":0,"title":"All in the Family"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"American Cinema Editors"},{"ns":0,"title":"American
+        Society of Cinematographers Awards"},{"ns":0,"title":"Angels in America (TV
+        miniseries)"},{"ns":0,"title":"Artios Award"},{"ns":0,"title":"Behind the
+        Candelabra"},{"ns":0,"title":"Big Three television networks"},{"ns":0,"title":"Boardwalk
+        Empire"},{"ns":0,"title":"Bob Hope Humanitarian Award"},{"ns":0,"title":"British
+        Academy Television Awards"},{"ns":0,"title":"Broadcast syndication"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Bury My Heart at Wounded Knee"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Cable
+        television in the United States"},{"ns":0,"title":"Cheers"},{"ns":0,"title":"Chicago
+        / Midwest Emmy Awards"},{"ns":0,"title":"Creative Arts Emmy Award"},{"ns":0,"title":"Critics''
+        Choice Television Award"},{"ns":0,"title":"Daytime Emmy Award"},{"ns":0,"title":"Daytime
+        Emmys"},{"ns":0,"title":"Directors Guild of America Award"},{"ns":0,"title":"Directors
+        Guild of America Awards"},{"ns":0,"title":"ER (TV series)"},{"ns":0,"title":"Eleanor
+        and Franklin"},{"ns":0,"title":"Eleanor and Franklin: The White House Years"},{"ns":0,"title":"Emmy
+        Award"},{"ns":0,"title":"Film"},{"ns":0,"title":"Fourth television network"},{"ns":0,"title":"Fox
+        Broadcasting Company"},{"ns":0,"title":"Frasier"},{"ns":0,"title":"Gemini
+        Award"},{"ns":0,"title":"Golden Globe Award"},{"ns":0,"title":"Golden Globe
+        Awards"},{"ns":0,"title":"Golden Reel Award"},{"ns":0,"title":"Grammy Award"},{"ns":0,"title":"Grey
+        Gardens (2009 film)"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Heartland Emmy
+        Awards"},{"ns":0,"title":"High-definition television in the United States"},{"ns":0,"title":"Hill
+        Street Blues"},{"ns":0,"title":"Hugo Award"},{"ns":0,"title":"Humanitas Prize"},{"ns":0,"title":"International
+        Academy of Television Arts and Sciences"},{"ns":0,"title":"John Adams (TV
+        miniseries)"},{"ns":0,"title":"Kinescope"},{"ns":0,"title":"L.A. Law"},{"ns":0,"title":"List
+        of Daytime Emmy Award winners"},{"ns":0,"title":"List of International Emmy
+        Award winners"},{"ns":0,"title":"List of Primetime Emmy Award winners"},{"ns":0,"title":"List
+        of Primetime Emmy Awards ceremonies"},{"ns":0,"title":"List of United States
+        over-the-air television networks"},{"ns":0,"title":"List of television stations
+        in the United States"},{"ns":0,"title":"Logie Award"},{"ns":0,"title":"Lone
+        Star Emmy Awards"},{"ns":0,"title":"Los Angeles Emmy Award"},{"ns":0,"title":"Lower
+        Great Lakes Emmy Awards"},{"ns":0,"title":"Mad Men"},{"ns":0,"title":"Michigan
+        Emmy Awards"},{"ns":0,"title":"Mid-America Emmy Awards"},{"ns":0,"title":"Mid-Atlantic
+        Emmy Awards"},{"ns":0,"title":"Midsouth Emmy Awards"},{"ns":0,"title":"Modern
+        Family"},{"ns":0,"title":"Multiple-camera setup"},{"ns":0,"title":"Murphy
+        Brown"},{"ns":0,"title":"Music"},{"ns":0,"title":"NAACP Image Award"},{"ns":0,"title":"NBC"},{"ns":0,"title":"NBC
+        Sunday Night Football"},{"ns":0,"title":"NYPD Blue"},{"ns":0,"title":"National
+        Academy of Television Arts and Sciences"},{"ns":0,"title":"National Capital
+        / Chesapeake Bay Emmy Awards"},{"ns":0,"title":"New England Emmy Awards"},{"ns":0,"title":"New
+        York Emmy Awards"},{"ns":0,"title":"News & Documentary Emmy Award"},{"ns":0,"title":"Northwest
+        Emmy Awards"},{"ns":0,"title":"Ohio Valley Emmy Awards"},{"ns":0,"title":"PBS"},{"ns":0,"title":"Pacific
+        Southwest Emmy Awards"},{"ns":0,"title":"Peabody Award"},{"ns":0,"title":"People''s
+        Choice Awards"},{"ns":0,"title":"Prime Time Access Rule"},{"ns":0,"title":"Primetime"},{"ns":0,"title":"Primetime
+        Emmy Award for Actor of the Year"},{"ns":0,"title":"Primetime Emmy Award for
+        Actress of the Year"},{"ns":0,"title":"Primetime Emmy Award for Individual
+        Performance in a Variety or Music Program"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Animated Program (for Programming Less Than One Hour)"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Animated Program (for Programming One Hour or More)"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Art Direction for a Multi-Camera Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Casting for a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Casting for a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Casting for a Miniseries, Movie, or a Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Character Voice-Over Performance"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Children''s Program"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Choreography"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Cinematography for a Half-Hour Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Cinematography for a Multi-Camera Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Cinematography for a One Hour Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Cinematography for a Single-Camera Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Comedy Series"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Costumes for a Miniseries, Movie or a Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Costumes for a Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Directing for a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Directing for a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Directing for a Miniseries, Movie or Dramatic Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Directing for a Miniseries, Movie or a Dramatic
+        Special"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actor in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actress in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Guest Actress in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Host for a Reality or Reality-Competition Program"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actress in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actress in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actress in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Main Title Design"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Main Title Theme Music"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Miniseries"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Miniseries or Movie"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Music Composition for a Miniseries, Movie, or a Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Music Composition for a Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Music and Lyrics"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Narrator"},{"ns":0,"title":"Primetime Emmy Award for
+        Outstanding Original Music and Lyrics"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Reality-Competition Program"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Reality Program"},{"ns":0,"title":"Primetime Emmy Award
+        for Outstanding Single-Camera Picture Editing for a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Single-Camera Picture Editing for a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Sound Editing for a Miniseries, Movie or a Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Sound Editing for a Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Special Visual Effects"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Stunt Coordination"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actor in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actress in a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actress in a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Supporting Actress in a Miniseries or a Movie"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Television Movie"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Variety, Music, or Comedy Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Variety Series"},{"ns":0,"title":"Primetime Emmy
+        Award for Outstanding Voice-Over Performance"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Comedy Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Drama Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Miniseries, Movie or a Dramatic Special"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Writing for a Variety Series"},{"ns":0,"title":"Primetime
+        Emmy Award for Short-format Animation"},{"ns":0,"title":"Producers Guild of
+        America Award"},{"ns":0,"title":"Prosthesis"},{"ns":0,"title":"Rocky Mountain
+        Emmy Awards"},{"ns":0,"title":"Roots (TV miniseries)"},{"ns":0,"title":"San
+        Francisco / Northern California Emmy Awards"},{"ns":0,"title":"Satellite television
+        in the United States"},{"ns":0,"title":"Saturday Night Live"},{"ns":0,"title":"Screen
+        Actors Guild Award"},{"ns":0,"title":"Screen Actors Guild Awards"},{"ns":0,"title":"Sheila
+        Nevins"},{"ns":0,"title":"Single-camera setup"},{"ns":0,"title":"Southeast
+        Emmy Awards"},{"ns":0,"title":"Sports Emmy Award"},{"ns":0,"title":"Sports
+        Emmys"},{"ns":0,"title":"Star Trek: The Next Generation"},{"ns":0,"title":"Suncoast
+        Chapter"},{"ns":0,"title":"TCA Awards"},{"ns":0,"title":"Taxi (TV series)"},{"ns":0,"title":"Technology
+        & Engineering Emmy Award"},{"ns":0,"title":"Television"},{"ns":0,"title":"Television
+        in the United States"},{"ns":0,"title":"The Carol Burnett Show"},{"ns":0,"title":"The
+        Mary Tyler Moore Show"},{"ns":0,"title":"The Simpsons"},{"ns":0,"title":"The
+        Sopranos"},{"ns":0,"title":"The West Wing"},{"ns":0,"title":"The X-Files"},{"ns":0,"title":"Tony
+        Award"},{"ns":0,"title":"United States"},{"ns":0,"title":"Upper Midwest Emmy
+        Awards"},{"ns":0,"title":"Visual Effects Society Awards"},{"ns":0,"title":"Will
+        & Grace"},{"ns":0,"title":"Writers Guild of America Award"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Daytime
+        Emmy Award categories"},{"ns":10,"title":"Template:Emmy Awards"},{"ns":10,"title":"Template:Primetime
+        Emmy Award categories"},{"ns":10,"title":"Template:Refimprove section"},{"ns":10,"title":"Template:Sports
+        Emmy Award categories"},{"ns":10,"title":"Template:Television in the United
+        States"},{"ns":11,"title":"Template talk:Emmy Awards"},{"ns":11,"title":"Template
+        talk:Primetime Emmy Award categories"},{"ns":11,"title":"Template talk:Television
+        in the United States"},{"ns":12,"title":"Help:Introduction to referencing/1"},{"ns":14,"title":"Category:Articles
+        needing additional references from April 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:55 GMT
+recorded_with: VCR 2.9.2

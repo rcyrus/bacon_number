@@ -1,0 +1,257 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Jeff%20Bridges
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287126917, 2340332058, 3142904658
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4560'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:25 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4016 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"56439":{"pageid":56439,"ns":0,"title":"Jeff Bridges","links":[{"ns":0,"title":"2009
+        Toronto International Film Festival"},{"ns":0,"title":"2009 in film"},{"ns":0,"title":"21st
+        Saturn Awards"},{"ns":0,"title":"25th Independent Spirit Awards"},{"ns":0,"title":"8
+        Million Ways to Die"},{"ns":0,"title":"A Dog Year"},{"ns":0,"title":"A Place
+        at the Table (film)"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy
+        Award for Best Actor"},{"ns":0,"title":"Academy Award for Best Supporting
+        Actor"},{"ns":0,"title":"Academy Award for Best Visual Effects"},{"ns":0,"title":"Academy
+        Awards"},{"ns":0,"title":"Adrien Brody"},{"ns":0,"title":"Against All Odds
+        (film)"},{"ns":0,"title":"Airplane (film)"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Albert
+        Finney"},{"ns":0,"title":"Albert R. Broccoli"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alexander
+        Knox"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Alliance of Women Film
+        Journalists"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"American
+        Heart"},{"ns":0,"title":"Anthology series"},{"ns":0,"title":"Anthony Franciosa"},{"ns":0,"title":"Anthony
+        Hopkins"},{"ns":0,"title":"Anthony Minghella"},{"ns":0,"title":"Arlington
+        Road"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":0,"title":"Bad Company (1972
+        film)"},{"ns":0,"title":"Barry Pepper"},{"ns":0,"title":"Be Here Soon"},{"ns":0,"title":"Beau
+        Bridges"},{"ns":0,"title":"Ben Kingsley"},{"ns":0,"title":"Ben Stiller"},{"ns":0,"title":"Benedict
+        Cumberbatch"},{"ns":0,"title":"Bernard Glassman"},{"ns":0,"title":"Betty White"},{"ns":0,"title":"Big
+        Lebowski"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Billboard (magazine)"},{"ns":0,"title":"Billboard
+        200"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Blown Away (1994 film)"},{"ns":0,"title":"Blue
+        Note Records"},{"ns":0,"title":"Bob Dylan"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bob
+        Weinstein"},{"ns":0,"title":"Brandon Routh"},{"ns":0,"title":"Bridge School
+        Benefit"},{"ns":0,"title":"Britannia Awards"},{"ns":0,"title":"Broadcast Film
+        Critics Association Award for Best Actor"},{"ns":0,"title":"Broderick Crawford"},{"ns":0,"title":"Bruce
+        Dern"},{"ns":0,"title":"Buddhism"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"California"},{"ns":0,"title":"Cameo
+        appearance"},{"ns":0,"title":"Central Ohio Film Critics Association"},{"ns":0,"title":"Charles
+        Laughton"},{"ns":0,"title":"Charles S. Howard"},{"ns":0,"title":"Charlton
+        Heston"},{"ns":0,"title":"Chicago Film Critics Association Award for Best
+        Actor"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christopher Nolan"},{"ns":0,"title":"Clark
+        Gable"},{"ns":0,"title":"Cliff Robertson"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Coen
+        Brothers"},{"ns":0,"title":"Coen brothers"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Columbia
+        Broadcasting System"},{"ns":0,"title":"Country Music Television"},{"ns":0,"title":"Country
+        music"},{"ns":0,"title":"Crazy Heart"},{"ns":0,"title":"Cult film"},{"ns":0,"title":"Cutter''s
+        Way"},{"ns":0,"title":"Dallas\u2013Fort Worth Film Critics Association Award
+        for Best Actor"},{"ns":0,"title":"Daniel Craig"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Danny
+        Boyle"},{"ns":0,"title":"Danny Glover"},{"ns":0,"title":"David Bowie"},{"ns":0,"title":"David
+        Niven"},{"ns":0,"title":"David Yates"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Denver
+        Film Critics Society"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Derek
+        Luke"},{"ns":0,"title":"Detroit Film Critics Society"},{"ns":0,"title":"Discovery
+        Channel"},{"ns":0,"title":"Don Johnson"},{"ns":0,"title":"Don Quixote"},{"ns":0,"title":"Dorothy
+        Bridges"},{"ns":0,"title":"Dublin Film Critics Circle Awards 2011"},{"ns":0,"title":"Duracell"},{"ns":0,"title":"Dustin
+        Hoffman"},{"ns":0,"title":"EMI Music Group"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Edward
+        James Olmos"},{"ns":0,"title":"Elijah Wood"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emily
+        Blunt"},{"ns":0,"title":"Entertainment Industries Council"},{"ns":0,"title":"Ernest
+        Borgnine"},{"ns":0,"title":"F. Murray Abraham"},{"ns":0,"title":"Fat City
+        (film)"},{"ns":0,"title":"Fearless (1993 film)"},{"ns":0,"title":"Folk Albums"},{"ns":0,"title":"Forest
+        Whitaker"},{"ns":0,"title":"Fredric March"},{"ns":0,"title":"Game programmer"},{"ns":0,"title":"Gary
+        Cooper"},{"ns":0,"title":"Gary Oldman"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Arliss"},{"ns":0,"title":"George Burns"},{"ns":0,"title":"George
+        C. Scott"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George Hamilton
+        (actor)"},{"ns":0,"title":"George Lucas"},{"ns":0,"title":"Golden Globe Award
+        for Best Actor - Motion Picture Drama"},{"ns":0,"title":"Golden Globe Award
+        for Best Actor - Motion Picture Musical or Comedy"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Gregory
+        Peck"},{"ns":0,"title":"Gretsch"},{"ns":0,"title":"Hailee Steinfeld"},{"ns":0,"title":"Halls
+        of Anger"},{"ns":0,"title":"Harrison Ford"},{"ns":0,"title":"Harvey Keitel"},{"ns":0,"title":"Harvey
+        Weinstein"},{"ns":0,"title":"Hearts of the West"},{"ns":0,"title":"Heaven''s
+        Gate (film)"},{"ns":0,"title":"Helena Bonham Carter"},{"ns":0,"title":"Henry
+        Fonda"},{"ns":0,"title":"Herbert Berghof Studio"},{"ns":0,"title":"Hidden
+        in America"},{"ns":0,"title":"Holmby Hills, Los Angeles"},{"ns":0,"title":"Houston
+        Film Critics Society"},{"ns":0,"title":"How to Lose Friends & Alienate People
+        (film)"},{"ns":0,"title":"Howard Stringer"},{"ns":0,"title":"Hugh Grant"},{"ns":0,"title":"Hugh
+        Jackman"},{"ns":0,"title":"Humphrey Bogart"},{"ns":0,"title":"Hyundai"},{"ns":0,"title":"IMAX"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Independent Spirit Award for Best Male Lead"},{"ns":0,"title":"Inside
+        the Actors Studio"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Online Film Critics'' Poll"},{"ns":0,"title":"International Standard Name
+        Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Iowa
+        Film Critics"},{"ns":0,"title":"Iron Man (2008 film)"},{"ns":0,"title":"Iron
+        Monger"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jagged
+        Edge (film)"},{"ns":0,"title":"James Caan"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James
+        Franco"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"James Woods"},{"ns":0,"title":"Jamie
+        Foxx"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jean
+        Rochefort"},{"ns":0,"title":"Jeff Bridges (album)"},{"ns":0,"title":"Jeff
+        Daniels"},{"ns":0,"title":"Jeff Goldblum"},{"ns":0,"title":"Jeffrey \"The
+        Dude\" Lebowski"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jessica
+        Lange"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jim Sheridan"},{"ns":0,"title":"Joaquin
+        Phoenix"},{"ns":0,"title":"John Hawkes (actor)"},{"ns":0,"title":"John Huston"},{"ns":0,"title":"John
+        Lasseter"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John Wayne"},{"ns":0,"title":"Johnny
+        Cash"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jordan
+        Bridges"},{"ns":0,"title":"Joseph Kosinski"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Jos\u00e9
+        Ferrer"},{"ns":0,"title":"K-PAX (film)"},{"ns":0,"title":"Karen Allen"},{"ns":0,"title":"Kate
+        Winslet"},{"ns":0,"title":"Kathryn Bigelow"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Spacey"},{"ns":0,"title":"Kim Carnes"},{"ns":0,"title":"King Kong (1976)"},{"ns":0,"title":"King
+        Kong (1976 film)"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Kiss Me
+        Goodbye (film)"},{"ns":0,"title":"Kris Kristofferson"},{"ns":0,"title":"LIBRIS"},{"ns":0,"title":"Las
+        Vegas Film Critics Society Award for Best Actor"},{"ns":0,"title":"Laurence
+        Olivier"},{"ns":0,"title":"Lebowski Fest"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Liam Neeson"},{"ns":0,"title":"Library of Congress"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Lionel Barrymore"},{"ns":0,"title":"List
+        of awards and nominations received by Jeff Bridges"},{"ns":0,"title":"List
+        of oldest and youngest Academy Award winners and nominees"},{"ns":0,"title":"Lloyd
+        Bridges"},{"ns":0,"title":"Lolly-Madonna XXX"},{"ns":0,"title":"London Film
+        Critics Circle Award for Best Actor"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Los
+        Angeles Film Critics Association Award for Best Actor"},{"ns":0,"title":"Lost
+        in La Mancha"},{"ns":0,"title":"M. Emmet Walsh"},{"ns":0,"title":"Mark Hamill"},{"ns":0,"title":"Marlon
+        Brando"},{"ns":0,"title":"Martin Campbell"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Martin
+        Scorsese"},{"ns":0,"title":"Masked and Anonymous"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matt
+        Dillon"},{"ns":0,"title":"Matt Stone"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Fassbender"},{"ns":0,"title":"Michael J. Fox"},{"ns":0,"title":"Michael Shannon"},{"ns":0,"title":"Michael
+        Sheen"},{"ns":0,"title":"Mickey Rourke"},{"ns":0,"title":"Mike Newell (director)"},{"ns":0,"title":"Montecito,
+        California"},{"ns":0,"title":"MusicBrainz"},{"ns":0,"title":"Music download"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Nadine
+        (1987 film)"},{"ns":0,"title":"National Geographic (magazine)"},{"ns":0,"title":"National
+        Movie Awards"},{"ns":0,"title":"National Society of Film Critics Award for
+        Best Actor"},{"ns":0,"title":"Neil Young"},{"ns":0,"title":"Neko Case"},{"ns":0,"title":"New
+        York City"},{"ns":0,"title":"New York Film Critics Circle Award for Best Actor"},{"ns":0,"title":"New
+        York Film Critics Online Awards 2009"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas
+        Cage"},{"ns":0,"title":"North Texas Film Critics Association"},{"ns":0,"title":"Omar
+        Sharif"},{"ns":0,"title":"Online Film Critics Society Award for Best Actor"},{"ns":0,"title":"Palm
+        Springs International Film Festival"},{"ns":0,"title":"Paul Giamatti"},{"ns":0,"title":"Paul
+        Lukas"},{"ns":0,"title":"Paul Muni"},{"ns":0,"title":"Paul Newman"},{"ns":0,"title":"Paul
+        Scofield"},{"ns":0,"title":"Pauline Kael"},{"ns":0,"title":"Peter Finch"},{"ns":0,"title":"Peter
+        Fonda"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Peter
+        Weir"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Phoenix
+        Film Critics Society Award for Best Actor"},{"ns":0,"title":"Pierce Brosnan"},{"ns":0,"title":"Primetime
+        Emmy Award for Outstanding Lead Actor \u2013 Miniseries or a Movie"},{"ns":0,"title":"Prometheus
+        Global Media"},{"ns":0,"title":"Quentin Tarantino"},{"ns":0,"title":"R.I.P.D."},{"ns":0,"title":"Rachel
+        Weisz"},{"ns":0,"title":"Rancho Deluxe"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Rex
+        Harrison"},{"ns":0,"title":"Richard Burton"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard
+        Farnsworth"},{"ns":0,"title":"Ridley Scott"},{"ns":0,"title":"Ring of Fire
+        (song)"},{"ns":0,"title":"River Phoenix"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert
+        Donat"},{"ns":0,"title":"Robert Downey, Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Roberto
+        Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rod Steiger"},{"ns":0,"title":"Ronald
+        Colman"},{"ns":0,"title":"Rooster Cogburn (character)"},{"ns":0,"title":"Russell
+        Crowe"},{"ns":0,"title":"Ryan Gosling"},{"ns":0,"title":"Sacha Baron Cohen"},{"ns":0,"title":"Sam
+        Worthington"},{"ns":0,"title":"Samuel L. Jackson"},{"ns":0,"title":"San Diego
+        Comic-Con International"},{"ns":0,"title":"Sancho Panza"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Satellite
+        Award for Best Actor \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Satellite
+        Award for Best Supporting Actor - Motion Picture"},{"ns":0,"title":"Saturday
+        Night Live"},{"ns":0,"title":"Saturn Award for Best Actor"},{"ns":0,"title":"Saturn
+        Award for Best Supporting Actor"},{"ns":0,"title":"Scenes of the Crime"},{"ns":0,"title":"Science
+        fiction film"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors
+        Guild Award for Outstanding Performance by a Male Actor in a Leading Role"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Supporting
+        Role"},{"ns":0,"title":"Sea Hunt"},{"ns":0,"title":"Seabiscuit (film)"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"See You in the Morning (film)"},{"ns":0,"title":"Seventh
+        Son (film)"},{"ns":0,"title":"Share our Strength"},{"ns":0,"title":"Sidney
+        Poitier"},{"ns":0,"title":"Sigourney Weaver"},{"ns":0,"title":"Simpatico (film)"},{"ns":0,"title":"Somebody
+        Killed Her Husband"},{"ns":0,"title":"Spencer Tracy"},{"ns":0,"title":"St.
+        Louis Gateway Film Critics Association Award for Best Actor"},{"ns":0,"title":"Stanley
+        Kubrick"},{"ns":0,"title":"Starman (film)"},{"ns":0,"title":"Stay Hungry"},{"ns":0,"title":"Stephen
+        Frears"},{"ns":0,"title":"Steve Martin"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Stick
+        It"},{"ns":0,"title":"Sudden infant death syndrome"},{"ns":0,"title":"Surf''s
+        Up (film)"},{"ns":0,"title":"Syst\u00e8me universitaire de documentation"},{"ns":0,"title":"T-Bone
+        Burnett"},{"ns":0,"title":"Ted (film)"},{"ns":0,"title":"Terry Gilliam"},{"ns":0,"title":"Texasville"},{"ns":0,"title":"The
+        Amateurs"},{"ns":0,"title":"The Big Lebowski"},{"ns":0,"title":"The Company
+        She Keeps"},{"ns":0,"title":"The Contender (2000 film)"},{"ns":0,"title":"The
+        Don Knotts Show"},{"ns":0,"title":"The Door in the Floor"},{"ns":0,"title":"The
+        F.B.I. (TV series)"},{"ns":0,"title":"The Fabulous Baker Boys"},{"ns":0,"title":"The
+        Fisher King"},{"ns":0,"title":"The Giver (film)"},{"ns":0,"title":"The Iceman
+        Cometh (1973 film)"},{"ns":0,"title":"The Last American Hero"},{"ns":0,"title":"The
+        Last Picture Show"},{"ns":0,"title":"The Last Unicorn (film)"},{"ns":0,"title":"The
+        Lloyd Bridges Show"},{"ns":0,"title":"The Loner"},{"ns":0,"title":"The Man
+        Who Killed Don Quixote"},{"ns":0,"title":"The Man in Me"},{"ns":0,"title":"The
+        Men Who Stare at Goats (film)"},{"ns":0,"title":"The Mirror Has Two Faces"},{"ns":0,"title":"The
+        Morning After (1986 film)"},{"ns":0,"title":"The Muse (1999 film)"},{"ns":0,"title":"The
+        Open Road"},{"ns":0,"title":"The Tonight Show with Conan O''Brien"},{"ns":0,"title":"The
+        Vanishing (1993 film)"},{"ns":0,"title":"The Yin and the Yang of Mr. Go"},{"ns":0,"title":"Thunderbolt
+        and Lightfoot"},{"ns":0,"title":"Tideland (film)"},{"ns":0,"title":"Tilda
+        Swinton"},{"ns":0,"title":"Tim Allen"},{"ns":0,"title":"Tobey Maguire"},{"ns":0,"title":"Tom
+        Courtenay"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Wilkinson"},{"ns":0,"title":"Tony Scott"},{"ns":0,"title":"Top Country Albums"},{"ns":0,"title":"Top
+        Rock Albums"},{"ns":0,"title":"Trey Parker"},{"ns":0,"title":"Tricycle: The
+        Buddhist Review"},{"ns":0,"title":"Tron"},{"ns":0,"title":"Tron: Legacy"},{"ns":0,"title":"True
+        Grit (2010 film)"},{"ns":0,"title":"Tucker: The Man and His Dream"},{"ns":0,"title":"United
+        States Coast Guard Reserve"},{"ns":0,"title":"University High School (Los
+        Angeles, California)"},{"ns":0,"title":"Utah Film Critics Association Awards
+        2010"},{"ns":0,"title":"Variety Magazine"},{"ns":0,"title":"Victor McLaglen"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Wallace Beery"},{"ns":0,"title":"Warner
+        Baxter"},{"ns":0,"title":"Warren Beatty"},{"ns":0,"title":"Washington D.C.
+        Area Film Critics Association Award for Best Actor"},{"ns":0,"title":"We Are
+        the World"},{"ns":0,"title":"White Squall (film)"},{"ns":0,"title":"Widelux"},{"ns":0,"title":"Wild
+        Bill (1995 film)"},{"ns":0,"title":"Will Smith"},{"ns":0,"title":"Will Wright
+        (game designer)"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"William
+        Holden"},{"ns":0,"title":"William Hurt"},{"ns":0,"title":"William Shatner"},{"ns":0,"title":"Winter
+        Kills (film)"},{"ns":0,"title":"YouTube"},{"ns":0,"title":"Yul Brynner"},{"ns":0,"title":"Zen"},{"ns":0,"title":"Zen
+        Peacemakers"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Academy
+        Award Best Actor"},{"ns":10,"title":"Template:BAFTA Los Angeles Britannia
+        Awards"},{"ns":10,"title":"Template:Broadcast Film Critics Association Award
+        for Best Actor"},{"ns":10,"title":"Template:Golden Globe Award Best Actor
+        Motion Picture Drama"},{"ns":10,"title":"Template:IndependentSpiritBestMaleLead"},{"ns":10,"title":"Template:Los
+        Angeles Film Critics Association Award for Best Actor"},{"ns":10,"title":"Template:Saturn
+        Award for Best Actor 1974\u20131990"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        MaleLeadMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        MaleLeadMotionPicture 1994\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        MaleLeadMotionPicture 2001\u20132020"},{"ns":11,"title":"Template talk:Academy
+        Award Best Actor"},{"ns":11,"title":"Template talk:BAFTA Los Angeles Britannia
+        Awards"},{"ns":11,"title":"Template talk:Broadcast Film Critics Association
+        Award for Best Actor"},{"ns":11,"title":"Template talk:Golden Globe Award
+        Best Actor Motion Picture Drama"},{"ns":11,"title":"Template talk:IndependentSpiritBestMaleLead"},{"ns":11,"title":"Template
+        talk:Los Angeles Film Critics Association Award for Best Actor"},{"ns":11,"title":"Template
+        talk:Saturn Award for Best Actor 1974\u20131990"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward MaleLeadMotionPicture 2001\u20132020"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":14,"title":"Category:Articles with dead external links from
+        March 2012"},{"ns":14,"title":"Category:Articles with dead external links
+        from November 2010"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from September 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:26 GMT
+recorded_with: VCR 2.9.2

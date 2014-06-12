@@ -1,0 +1,141 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Josh%20Holloway
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332289226, 3085147905, 3142907889
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2223'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:28 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4010 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1084395":{"pageid":1084395,"ns":0,"title":"Josh
+        Holloway","links":[{"ns":0,"title":"Aaron Staton"},{"ns":0,"title":"Actor"},{"ns":0,"title":"Adewale
+        Akinnuoye-Agbaje"},{"ns":0,"title":"Aerosmith"},{"ns":0,"title":"Aida Turturro"},{"ns":0,"title":"Alexa
+        Alemanni"},{"ns":0,"title":"Alicia Silverstone"},{"ns":0,"title":"Alison Brie"},{"ns":0,"title":"Allison
+        Janney"},{"ns":0,"title":"Angel (TV series)"},{"ns":0,"title":"Arthur J. Nascarella"},{"ns":0,"title":"Battle
+        of the Year: The Dream Team"},{"ns":0,"title":"Ben Browder"},{"ns":0,"title":"Ben
+        Foster"},{"ns":0,"title":"Blue Ridge Mountains"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley
+        Whitford"},{"ns":0,"title":"Brotherhood of Nod"},{"ns":0,"title":"Bryan Batt"},{"ns":0,"title":"Bryan
+        Cranston"},{"ns":0,"title":"CBS"},{"ns":0,"title":"CSI: Crime Scene Investigation"},{"ns":0,"title":"CSI:
+        Crime Scene Investigation (season 4)"},{"ns":0,"title":"CSI: Crime Scene Investigation
+        (season 5)"},{"ns":0,"title":"Canton, Georgia"},{"ns":0,"title":"Chandra Wilson"},{"ns":0,"title":"Channel
+        4"},{"ns":0,"title":"Cherokee High School (Georgia)"},{"ns":0,"title":"Christina
+        Hendricks"},{"ns":0,"title":"Christopher Stanley"},{"ns":0,"title":"Cold Heart"},{"ns":0,"title":"Comic
+        Book Resources"},{"ns":0,"title":"Command & Conquer 3: Tiberium Wars"},{"ns":0,"title":"Community
+        (TV series)"},{"ns":0,"title":"Computer crime"},{"ns":0,"title":"Cryin'' (Aerosmith
+        song)"},{"ns":0,"title":"Cynthia Watros"},{"ns":0,"title":"Dan Grimaldi"},{"ns":0,"title":"Daniel
+        Dae Kim"},{"ns":0,"title":"David Boreanaz"},{"ns":0,"title":"David Keith"},{"ns":0,"title":"Davidoff"},{"ns":0,"title":"Diner"},{"ns":0,"title":"Doctor
+        Benny"},{"ns":0,"title":"Dominic Monaghan"},{"ns":0,"title":"Dul\u00e9 Hill"},{"ns":0,"title":"Edie
+        Falco"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"Electromagnetic
+        spectrum"},{"ns":0,"title":"Elisabeth Moss"},{"ns":0,"title":"Elizabeth Hurley"},{"ns":0,"title":"Ellen
+        Pompeo"},{"ns":0,"title":"Emilie de Ravin"},{"ns":0,"title":"Eric Dane"},{"ns":0,"title":"Eric
+        Szmanda"},{"ns":0,"title":"Eva Longoria"},{"ns":0,"title":"Evangeline Lilly"},{"ns":0,"title":"Five
+        (TV movie)"},{"ns":0,"title":"Frances Conroy"},{"ns":0,"title":"Frank Vincent"},{"ns":0,"title":"Freddy
+        Rodriguez (actor)"},{"ns":0,"title":"Free Home, Georgia"},{"ns":0,"title":"Gambit
+        (comics)"},{"ns":0,"title":"Gary Dourdan"},{"ns":0,"title":"George Eads"},{"ns":0,"title":"Georgia
+        (U.S. state)"},{"ns":0,"title":"Good Girls Don''t (TV series)"},{"ns":0,"title":"Greg
+        Antonacci"},{"ns":0,"title":"Grey''s Anatomy"},{"ns":0,"title":"Grey''s Anatomy
+        (season 2)"},{"ns":0,"title":"Grey''s Anatomy (season 3)"},{"ns":0,"title":"Harold
+        Perrineau"},{"ns":0,"title":"Hawaii"},{"ns":0,"title":"Ian Somerhalder"},{"ns":0,"title":"In
+        Touch Weekly"},{"ns":0,"title":"Indonesia"},{"ns":0,"title":"Intelligence
+        (U.S. TV series)"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Iron
+        Man"},{"ns":0,"title":"Isaiah Washington"},{"ns":0,"title":"James \"Sawyer\"
+        Ford"},{"ns":0,"title":"James Gandolfini"},{"ns":0,"title":"James Pickens,
+        Jr."},{"ns":0,"title":"Jamie-Lynn Sigler"},{"ns":0,"title":"Janel Moloney"},{"ns":0,"title":"January
+        Jones"},{"ns":0,"title":"Jared Harris"},{"ns":0,"title":"Jared S. Gilmore"},{"ns":0,"title":"John
+        Rhys-Davies"},{"ns":0,"title":"John Slattery"},{"ns":0,"title":"John Spencer
+        (actor)"},{"ns":0,"title":"Jon Hamm"},{"ns":0,"title":"Jorge Garcia"},{"ns":0,"title":"Jorja
+        Fox"},{"ns":0,"title":"Just Yell Fire"},{"ns":0,"title":"Justin Chambers"},{"ns":0,"title":"Justina
+        Machado"},{"ns":0,"title":"Kate Walsh (actress)"},{"ns":0,"title":"Katherine
+        Heigl"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kiernan Shipka"},{"ns":0,"title":"Kyle
+        Chandler"},{"ns":0,"title":"Lauren Ambrose"},{"ns":0,"title":"Lili Taylor"},{"ns":0,"title":"Lorraine
+        Bracco"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Lost (TV series)"},{"ns":0,"title":"Lost
+        (season 1)"},{"ns":0,"title":"Lost (season 2)"},{"ns":0,"title":"Mad Men"},{"ns":0,"title":"Mad
+        Men (season 2)"},{"ns":0,"title":"Mad Men (season 3)"},{"ns":0,"title":"Maggie
+        Grace"},{"ns":0,"title":"Magnum (ice cream)"},{"ns":0,"title":"Malcolm David
+        Kelley"},{"ns":0,"title":"Marg Helgenberger"},{"ns":0,"title":"Mark Moses"},{"ns":0,"title":"Martin
+        Sheen"},{"ns":0,"title":"Mathew St. Patrick"},{"ns":0,"title":"Matt Servitto"},{"ns":0,"title":"Matthew
+        Fox"},{"ns":0,"title":"Mi Amigo"},{"ns":0,"title":"Michael C. Hall"},{"ns":0,"title":"Michael
+        Gladis"},{"ns":0,"title":"Michael Imperioli"},{"ns":0,"title":"Michelle Rodriguez"},{"ns":0,"title":"Mission:
+        Impossible \u2013 Ghost Protocol"},{"ns":0,"title":"Model (profession)"},{"ns":0,"title":"Moira
+        Kelly"},{"ns":0,"title":"Monte-Carlo Television Festival"},{"ns":0,"title":"Moving
+        August"},{"ns":0,"title":"NCIS (TV series)"},{"ns":0,"title":"Naveen Andrews"},{"ns":0,"title":"OK!"},{"ns":0,"title":"Oahu"},{"ns":0,"title":"Paranoia
+        (2013 film)"},{"ns":0,"title":"Patrick Dempsey"},{"ns":0,"title":"Paul Guilfoyle"},{"ns":0,"title":"People
+        (magazine)"},{"ns":0,"title":"Peter Krause"},{"ns":0,"title":"Peter Macdissi"},{"ns":0,"title":"Rachel
+        Griffiths"},{"ns":0,"title":"Rainn Wilson"},{"ns":0,"title":"Rich Sommer"},{"ns":0,"title":"Richard
+        Dean Anderson"},{"ns":0,"title":"Richard Schiff"},{"ns":0,"title":"Rob Lowe"},{"ns":0,"title":"Robert
+        David Hall"},{"ns":0,"title":"Robert Iler"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert
+        Patrick"},{"ns":0,"title":"Sabotage (2014 film)"},{"ns":0,"title":"Sabretooth
+        (film)"},{"ns":0,"title":"Salvador Larocca"},{"ns":0,"title":"San Diego Comic-Con
+        International"},{"ns":0,"title":"San Diego Comic Con International"},{"ns":0,"title":"San
+        Jose, California"},{"ns":0,"title":"Sandra Oh"},{"ns":0,"title":"Sara Ramirez"},{"ns":0,"title":"Saturn
+        Award"},{"ns":0,"title":"Saturn Award for Best Actor on Television"},{"ns":0,"title":"Saturn
+        Award for Best Supporting Actor on Television"},{"ns":0,"title":"Sci Fi Channel
+        (United States)"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding
+        Performance by an Ensemble in a Drama Series"},{"ns":0,"title":"Six Feet Under
+        (TV series)"},{"ns":0,"title":"Six Feet Under (season 2)"},{"ns":0,"title":"Six
+        Feet Under (season 3)"},{"ns":0,"title":"Stay Cool"},{"ns":0,"title":"Stephen
+        Moyer"},{"ns":0,"title":"Steve Schirripa"},{"ns":0,"title":"Steven Van Zandt"},{"ns":0,"title":"Steven
+        Weber (actor)"},{"ns":0,"title":"T. R. Knight"},{"ns":0,"title":"TV Guide"},{"ns":0,"title":"Terry
+        O''Quinn"},{"ns":0,"title":"The Internet Movie Database"},{"ns":0,"title":"The
+        Lyon''s Den"},{"ns":0,"title":"The Polish brothers"},{"ns":0,"title":"The
+        Sopranos"},{"ns":0,"title":"The Sopranos (season 6)"},{"ns":0,"title":"The
+        West Wing"},{"ns":0,"title":"The West Wing (season 1)"},{"ns":0,"title":"The
+        West Wing (season 2)"},{"ns":0,"title":"The West Wing (season 3)"},{"ns":0,"title":"Tony
+        Sirico"},{"ns":0,"title":"Tony Stark"},{"ns":0,"title":"USA Today"},{"ns":0,"title":"US
+        Weekly"},{"ns":0,"title":"University of Georgia"},{"ns":0,"title":"Vincent
+        Kartheiser"},{"ns":0,"title":"Walker, Texas Ranger"},{"ns":0,"title":"Whisper
+        (film)"},{"ns":0,"title":"William Petersen"},{"ns":0,"title":"X-Men (film
+        series)"},{"ns":0,"title":"Yo Gabba Gabba!"},{"ns":0,"title":"Yunjin Kim"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Saturn
+        Award for Best Actor on Television"},{"ns":10,"title":"Template:ScreenActorsGuildAwards
+        EnsembleTVDrama"},{"ns":10,"title":"Template:ScreenActorsGuildAwards EnsembleTVDrama
+        1994\u20131999"},{"ns":10,"title":"Template:ScreenActorsGuildAwards EnsembleTVDrama
+        2000\u20132009"},{"ns":10,"title":"Template:ScreenActorsGuildAwards EnsembleTVDrama
+        2010\u20132019"},{"ns":11,"title":"Template talk:Saturn Award for Best Actor
+        on Television"},{"ns":11,"title":"Template talk:ScreenActorsGuildAwards EnsembleTVDrama
+        2000\u20132009"},{"ns":14,"title":"Category:Use mdy dates from April 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:29 GMT
+recorded_with: VCR 2.9.2

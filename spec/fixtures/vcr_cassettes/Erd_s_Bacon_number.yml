@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Erd%C5%91s%E2%80%93Bacon%20number
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704641032, 1409516091, 1309446510
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1228'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:09 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4009 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"2625993":{"pageid":2625993,"ns":0,"title":"Erd\u0151s\u2013Bacon
+        number","links":[{"ns":0,"title":"Albert Einstein"},{"ns":0,"title":"Anti-Clock"},{"ns":0,"title":"Astronomer"},{"ns":0,"title":"BBC
+        Radio 4"},{"ns":0,"title":"Bacon number"},{"ns":0,"title":"Baseball"},{"ns":0,"title":"Bernard
+        Chazelle"},{"ns":0,"title":"Carl Sagan"},{"ns":0,"title":"City University
+        London"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Connected: An Autoblogography
+        About Love, Death & Technology"},{"ns":0,"title":"Danica McKellar"},{"ns":0,"title":"Daniel
+        Kleitman"},{"ns":0,"title":"David Albert"},{"ns":0,"title":"David Dalrymple
+        (computer scientist)"},{"ns":0,"title":"David Eisenbud"},{"ns":0,"title":"Digital
+        object identifier"},{"ns":0,"title":"Erd\u0151s number"},{"ns":0,"title":"Erd\u0151s\u2013Bacon
+        number"},{"ns":0,"title":"Geraint Rees"},{"ns":0,"title":"Good Will Hunting"},{"ns":0,"title":"Hank
+        Aaron"},{"ns":0,"title":"Henry Houh"},{"ns":0,"title":"In The Cut"},{"ns":0,"title":"Intelligent
+        design"},{"ns":0,"title":"International Standard Book Number"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"JSTOR"},{"ns":0,"title":"Jabberwocky (film)"},{"ns":0,"title":"Jonathan
+        Pritchard"},{"ns":0,"title":"Joseph Gillis"},{"ns":0,"title":"Ken Goldberg"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kiralee Hayashi"},{"ns":0,"title":"MIT"},{"ns":0,"title":"Margaret
+        Easley"},{"ns":0,"title":"Mathematics"},{"ns":0,"title":"Mayim Bialik"},{"ns":0,"title":"Michael
+        Behe"},{"ns":0,"title":"Michael J. Behe"},{"ns":0,"title":"Minnie Driver"},{"ns":0,"title":"NCAA
+        Women''s Gymnastics championship"},{"ns":0,"title":"Natalie Portman"},{"ns":0,"title":"Nicholas
+        C. Yannelis"},{"ns":0,"title":"Noam Chomsky"},{"ns":0,"title":"Patrick Billingsley"},{"ns":0,"title":"Patrick
+        Stewart"},{"ns":0,"title":"Paul Erd\u0151s"},{"ns":0,"title":"Physicist"},{"ns":0,"title":"PubMed
+        Central"},{"ns":0,"title":"PubMed Identifier"},{"ns":0,"title":"Richard Feynman"},{"ns":0,"title":"Riemannian
+        manifold"},{"ns":0,"title":"Robert J. Marks II"},{"ns":0,"title":"Robert T.
+        Knight"},{"ns":0,"title":"Sarah Michelle Gellar"},{"ns":0,"title":"Shing-Tung
+        Yau"},{"ns":0,"title":"Simon Singh"},{"ns":0,"title":"Sleepers"},{"ns":0,"title":"Small
+        world phenomenon"},{"ns":0,"title":"Star Trek: The Next Generation"},{"ns":0,"title":"Stephen
+        Hawking"},{"ns":0,"title":"Steven J. Ostro"},{"ns":0,"title":"Steven Strogatz"},{"ns":0,"title":"Summer
+        Catch"},{"ns":0,"title":"Susan Gardner"},{"ns":0,"title":"The Air I Breathe"},{"ns":0,"title":"The
+        Wonder Years"},{"ns":0,"title":"Tomer Stern"},{"ns":0,"title":"Tony Tang (actor)"},{"ns":0,"title":"UCLA"},{"ns":0,"title":"USA
+        Today"},{"ns":0,"title":"Wendelin Werner"},{"ns":0,"title":"Where the Truth
+        Lies"},{"ns":0,"title":"William A. Dembski"},{"ns":0,"title":"Winnie Cooper"},{"ns":0,"title":"Without
+        Limits"},{"ns":0,"title":"Yannai Gonczarowski"},{"ns":1,"title":"Talk:Erd\u0151s\u2013Bacon
+        number"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Citing
+        sources"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:No
+        original research"},{"ns":4,"title":"Wikipedia:V"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Synthesis"},{"ns":14,"title":"Category:Accuracy
+        disputes from September 2013"},{"ns":14,"title":"Category:Articles that may
+        contain original research from July 2013"},{"ns":14,"title":"Category:Articles
+        with dead external links from December 2011"},{"ns":14,"title":"Category:Articles
+        with dead external links from October 2010"},{"ns":14,"title":"Category:Articles
+        with dead external links from September 2013"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from July 2013"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from September 2013"},{"ns":14,"title":"Category:Wikipedia
+        articles needing page number citations from September 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:09 GMT
+recorded_with: VCR 2.9.2

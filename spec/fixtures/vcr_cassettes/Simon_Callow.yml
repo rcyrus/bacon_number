@@ -1,0 +1,197 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Simon%20Callow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711903095, 1102706699, 3142944007
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '3609'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:07 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4017 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"170796":{"pageid":170796,"ns":0,"title":"Simon
+        Callow","links":[{"ns":0,"title":"41st Berlin International Film Festival"},{"ns":0,"title":"A
+        Room with a View (1986 film)"},{"ns":0,"title":"A Satire of the Three Estates"},{"ns":0,"title":"Ace
+        Ventura: When Nature Calls"},{"ns":0,"title":"Acts of Godfrey"},{"ns":0,"title":"Agatha
+        Christie''s Marple"},{"ns":0,"title":"Agatha Christie''s Poirot"},{"ns":0,"title":"Alan
+        Titchmarsh"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Alex James
+        (musician)"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Amadeus (film)"},{"ns":0,"title":"Ambassador
+        Theatre Group"},{"ns":0,"title":"American Beauty (1999 film)"},{"ns":0,"title":"American
+        Theatre Wing"},{"ns":0,"title":"Amy Irving"},{"ns":0,"title":"Andrew Lloyd
+        Webber"},{"ns":0,"title":"Andy Bell (singer)"},{"ns":0,"title":"Angels in
+        America (TV miniseries)"},{"ns":0,"title":"Annette Bening"},{"ns":0,"title":"Antony
+        Sher"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Arn - The Knight
+        Templar"},{"ns":0,"title":"Around the World in Eighty Days"},{"ns":0,"title":"Assembly
+        Rooms (Edinburgh)"},{"ns":0,"title":"Audio book"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA Film Award"},{"ns":0,"title":"BBC"},{"ns":0,"title":"BBC
+        Scotland"},{"ns":0,"title":"Barbican Arts Centre"},{"ns":0,"title":"Bath,
+        Somerset"},{"ns":0,"title":"Bedrooms and Hallways"},{"ns":0,"title":"Ben Affleck"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Benjamin Bratt"},{"ns":0,"title":"Bernie Nolan"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Alexander (director)"},{"ns":0,"title":"Bill
+        Bryden"},{"ns":0,"title":"Bill Paxton"},{"ns":0,"title":"Bob the Butler"},{"ns":0,"title":"Bright
+        Young Things"},{"ns":0,"title":"Brighton"},{"ns":0,"title":"Bruce Jones (actor)"},{"ns":0,"title":"CBBC"},{"ns":0,"title":"CITV"},{"ns":0,"title":"Cantabile
+        (group)"},{"ns":0,"title":"Carry On Laughing"},{"ns":0,"title":"Catherine
+        Zeta-Jones"},{"ns":0,"title":"Chance in a Million"},{"ns":0,"title":"Channel
+        4"},{"ns":0,"title":"Channel 5 (UK)"},{"ns":0,"title":"Charles Dickens"},{"ns":0,"title":"Charles
+        II of England"},{"ns":0,"title":"Charles Laughton"},{"ns":0,"title":"Chemical
+        Wedding (film)"},{"ns":0,"title":"Cheryl Baker"},{"ns":0,"title":"Chichester
+        Festival Theatre"},{"ns":0,"title":"Children of Paradise"},{"ns":0,"title":"Chris
+        Cooper"},{"ns":0,"title":"Christine Baranski"},{"ns":0,"title":"Christmas
+        Carol: The Movie"},{"ns":0,"title":"Christopher Morahan"},{"ns":0,"title":"Claire
+        Richards"},{"ns":0,"title":"Clifford Williams (actor)"},{"ns":0,"title":"Clifton
+        Collins, Jr."},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Comic Relief
+        (charity)"},{"ns":0,"title":"Coming out"},{"ns":0,"title":"Commander of the
+        Order of the British Empire"},{"ns":0,"title":"Commuting"},{"ns":0,"title":"D.
+        W. Moffett"},{"ns":0,"title":"Dan Futterman"},{"ns":0,"title":"Daniel Kramer"},{"ns":0,"title":"Danny
+        Jones"},{"ns":0,"title":"Darius Campbell"},{"ns":0,"title":"David Copperfield
+        (1986 TV serial)"},{"ns":0,"title":"David Thacker"},{"ns":0,"title":"Dead
+        Head (TV series)"},{"ns":0,"title":"Deborah Warner"},{"ns":0,"title":"Declan
+        Donnellan"},{"ns":0,"title":"Deirdre Costello"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Des
+        McAnuff"},{"ns":0,"title":"Dianne Wiest"},{"ns":0,"title":"Doctor Who"},{"ns":0,"title":"Domestic
+        partner"},{"ns":0,"title":"Don''t Eat The Neighbours"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Drama Centre London"},{"ns":0,"title":"Ebenezer
+        Scrooge"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Edinburgh Festival"},{"ns":0,"title":"Edmund
+        Tylney"},{"ns":0,"title":"Emanuel Schikaneder"},{"ns":0,"title":"Emily Woof"},{"ns":0,"title":"England,
+        My England"},{"ns":0,"title":"Epsom Downs (play)"},{"ns":0,"title":"Equus
+        (play)"},{"ns":0,"title":"Erika Christensen"},{"ns":0,"title":"Four Weddings
+        and a Funeral"},{"ns":0,"title":"Fritz Chimney"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene
+        Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George and the
+        Dragon (film)"},{"ns":0,"title":"Get Some In!"},{"ns":0,"title":"Golden Berlin
+        Bear"},{"ns":0,"title":"Gramophone (magazine)"},{"ns":0,"title":"Gwyneth Paltrow"},{"ns":0,"title":"Hank
+        Azaria"},{"ns":0,"title":"Hans Christian Andersen: My Life as a Fairytale"},{"ns":0,"title":"Harold
+        Pinter Theatre"},{"ns":0,"title":"Howard Davies (director)"},{"ns":0,"title":"Howards
+        End (film)"},{"ns":0,"title":"Hugo Speer"},{"ns":0,"title":"ITV (TV network)"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Imelda Staunton"},{"ns":0,"title":"Inspector Morse
+        (TV series)"},{"ns":0,"title":"Integrated Authority File"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Jacob
+        Vargas"},{"ns":0,"title":"James Brolin"},{"ns":0,"title":"James MacMillan
+        (composer)"},{"ns":0,"title":"James and the Giant Peach (film)"},{"ns":0,"title":"Jamie''s
+        Dream School"},{"ns":0,"title":"Jasper Conran"},{"ns":0,"title":"Jeeves"},{"ns":0,"title":"Jefferson
+        in Paris"},{"ns":0,"title":"Jim Carter (actor)"},{"ns":0,"title":"Jimmy Osmond"},{"ns":0,"title":"Jocelyn
+        Brown"},{"ns":0,"title":"Joe McElderry"},{"ns":0,"title":"John Caird (director)"},{"ns":0,"title":"Joint
+        Stock Theatre Company"},{"ns":0,"title":"Jonathan Bate"},{"ns":0,"title":"Jonathan
+        Miller"},{"ns":0,"title":"Joseph Fiennes"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Junk
+        (1999 film)"},{"ns":0,"title":"Katherine Jenkins"},{"ns":0,"title":"Kathleen
+        Quinlan"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kym
+        Marsh"},{"ns":0,"title":"Laurence Llewelyn-Bowen"},{"ns":0,"title":"Laurence
+        Olivier"},{"ns":0,"title":"Laurence Olivier Award for Best Director"},{"ns":0,"title":"Laurence
+        Olivier Award for Best Director of a Musical"},{"ns":0,"title":"Laurence Olivier
+        Award for Best Director of a Play"},{"ns":0,"title":"Lesley Sharp"},{"ns":0,"title":"Lewis
+        (TV series)"},{"ns":0,"title":"Library of Congress Control Number"},{"ns":0,"title":"Little
+        Britain"},{"ns":0,"title":"Little Napoleons"},{"ns":0,"title":"London Borough
+        of Camden"},{"ns":0,"title":"London Gay Men''s Chorus"},{"ns":0,"title":"London
+        Oratory School"},{"ns":0,"title":"Luis Guzm\u00e1n"},{"ns":0,"title":"Malvern,
+        Worcestershire"},{"ns":0,"title":"Manifesto (film)"},{"ns":0,"title":"Marcella
+        Detroit"},{"ns":0,"title":"Margaret Thatcher"},{"ns":0,"title":"Mark Addy"},{"ns":0,"title":"Martin
+        Clunes"},{"ns":0,"title":"Martin Sherman"},{"ns":0,"title":"Maurice (film)"},{"ns":0,"title":"Meat
+        Loaf"},{"ns":0,"title":"Melody Thornton"},{"ns":0,"title":"Mena Suvari"},{"ns":0,"title":"Merchant
+        Ivory"},{"ns":0,"title":"Merci Docteur Rey"},{"ns":0,"title":"Michael Bogdanov"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Midge Ure"},{"ns":0,"title":"Midsomer Murders"},{"ns":0,"title":"Miguel
+        Ferrer"},{"ns":0,"title":"Milton Keynes"},{"ns":0,"title":"Mr. and Mrs. Bridge"},{"ns":0,"title":"My
+        Fair Lady"},{"ns":0,"title":"Myleene Klass"},{"ns":0,"title":"Nameworm"},{"ns":0,"title":"Nathan
+        Lane"},{"ns":0,"title":"Newcastle upon Tyne"},{"ns":0,"title":"Nicholas Hytner"},{"ns":0,"title":"No
+        Man''s Land (2001 film)"},{"ns":0,"title":"No Ordinary Trifle"},{"ns":0,"title":"North
+        London"},{"ns":0,"title":"Northern Ireland"},{"ns":0,"title":"Northern Ireland
+        civil-rights movement (1960s)"},{"ns":0,"title":"Norwich"},{"ns":0,"title":"Olivier
+        Award for Best Director"},{"ns":0,"title":"Order of the British Empire"},{"ns":0,"title":"Orson
+        Welles"},{"ns":0,"title":"Oscar Wilde"},{"ns":0,"title":"Outlander (TV series)"},{"ns":0,"title":"P.G.
+        Wodehouse"},{"ns":0,"title":"Patrick Garland"},{"ns":0,"title":"Patrick Stewart"},{"ns":0,"title":"Paul
+        Barber (actor)"},{"ns":0,"title":"Peggy Ramsay"},{"ns":0,"title":"Peter Ackroyd"},{"ns":0,"title":"Peter
+        Gallagher"},{"ns":0,"title":"Peter Riegert"},{"ns":0,"title":"Peter Shaffer"},{"ns":0,"title":"Peter
+        Wood (director)"},{"ns":0,"title":"Popstar to Operastar"},{"ns":0,"title":"Popstar
+        to Operastar (series 1)"},{"ns":0,"title":"Popstar to Operastar (series 2)"},{"ns":0,"title":"Postcards
+        from the Edge (film)"},{"ns":0,"title":"Princess Michael of Kent"},{"ns":0,"title":"Queen''s
+        University Belfast"},{"ns":0,"title":"Radio Times"},{"ns":0,"title":"Rag Tale"},{"ns":0,"title":"Richard
+        Eyre"},{"ns":0,"title":"Richard Jones (director)"},{"ns":0,"title":"Riverside
+        Studios"},{"ns":0,"title":"Roald Dahl"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        Fagles"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rolando Villaz\u00f3n"},{"ns":0,"title":"Roman
+        Catholic"},{"ns":0,"title":"Rome (TV series)"},{"ns":0,"title":"Ronald Pickup"},{"ns":0,"title":"Royal
+        National Theatre"},{"ns":0,"title":"Royal Shakespeare Company"},{"ns":0,"title":"Sabina
+        (film)"},{"ns":0,"title":"Saeed Jaffrey"},{"ns":0,"title":"Sam Mendes"},{"ns":0,"title":"Samuel
+        Beckett"},{"ns":0,"title":"Science fiction on television"},{"ns":0,"title":"Scott
+        Ellis"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Cast in a Motion Picture"},{"ns":0,"title":"Sean Mathias"},{"ns":0,"title":"Shakespeare
+        in Love"},{"ns":0,"title":"Sharman MacDonald"},{"ns":0,"title":"Shoebox Zoo"},{"ns":0,"title":"Sky
+        Arts"},{"ns":0,"title":"Snoo Wilson"},{"ns":0,"title":"Soft Top Hard Shoulder"},{"ns":0,"title":"Soho
+        Theatre"},{"ns":0,"title":"Starz (TV channel)"},{"ns":0,"title":"Stephen Daldry"},{"ns":0,"title":"Stephen
+        Oliver (composer)"},{"ns":0,"title":"Steve Huison"},{"ns":0,"title":"Steven
+        Bauer"},{"ns":0,"title":"Stratford Festival of Canada"},{"ns":0,"title":"Streatham"},{"ns":0,"title":"Street
+        Fighter (film)"},{"ns":0,"title":"TNT (TV channel)"},{"ns":0,"title":"Terrence
+        Higgins Trust"},{"ns":0,"title":"Terry Hands"},{"ns":0,"title":"Thames Television"},{"ns":0,"title":"The
+        Aeneid"},{"ns":0,"title":"The Ballad of the Sad Caf\u00e9 (film)"},{"ns":0,"title":"The
+        Birdcage"},{"ns":0,"title":"The Civilization of Maxwell Bright"},{"ns":0,"title":"The
+        Company (TV miniseries)"},{"ns":0,"title":"The Full Monty"},{"ns":0,"title":"The
+        Good Father"},{"ns":0,"title":"The Independent"},{"ns":0,"title":"The Man
+        of Destiny"},{"ns":0,"title":"The Mr. Men Show"},{"ns":0,"title":"The Mystery
+        of Charles Dickens (2000 film)"},{"ns":0,"title":"The Phantom of the Opera
+        (2004 film)"},{"ns":0,"title":"The Sarah Jane Adventures"},{"ns":0,"title":"The
+        Scarlet Tunic"},{"ns":0,"title":"The Sweeney"},{"ns":0,"title":"The Twits"},{"ns":0,"title":"The
+        Unquiet Dead"},{"ns":0,"title":"The Wedding of River Song"},{"ns":0,"title":"The
+        Witches (book)"},{"ns":0,"title":"The Woman in White (musical)"},{"ns":0,"title":"The
+        Woman in White (novel)"},{"ns":0,"title":"Theatre Royal, Haymarket"},{"ns":0,"title":"This
+        Week (BBC One TV series)"},{"ns":0,"title":"This is Jinsy"},{"ns":0,"title":"Thora
+        Birch"},{"ns":0,"title":"Thunderpants"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Wilkinson"},{"ns":0,"title":"Tomas Milian"},{"ns":0,"title":"Topher Grace"},{"ns":0,"title":"Toploader"},{"ns":0,"title":"Trafalgar
+        Studios"},{"ns":0,"title":"Traffic (2000 film)"},{"ns":0,"title":"Trevor Nunn"},{"ns":0,"title":"Trial
+        & Retribution"},{"ns":0,"title":"Trick or Treat (TV series)"},{"ns":0,"title":"Vanessa-Mae"},{"ns":0,"title":"Vanessa
+        White"},{"ns":0,"title":"Victory (1995 film)"},{"ns":0,"title":"Virgil"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Waiting for Godot"},{"ns":0,"title":"Wes
+        Bentley"},{"ns":0,"title":"Wilkie Collins"},{"ns":0,"title":"William Shakespeare"},{"ns":0,"title":"William
+        Snape"},{"ns":0,"title":"Wolfgang Amadeus Mozart"},{"ns":0,"title":"WordPress"},{"ns":4,"title":"Wikipedia:Citation
+        needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:OlivierAward
+        Director 1976\u20132000"},{"ns":10,"title":"Template:OlivierAward Director
+        2001\u20132025"},{"ns":10,"title":"Template:Popstar to Operastar"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        CastMotionPicture"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        1995\u20132000"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2001\u20132010"},{"ns":10,"title":"Template:ScreenActorsGuildAward CastMotionPicture
+        2011\u20132020"},{"ns":11,"title":"Template talk:OlivierAward Director 1976\u20132000"},{"ns":11,"title":"Template
+        talk:Popstar to Operastar"},{"ns":11,"title":"Template talk:ScreenActorsGuildAward
+        CastMotionPicture 1995\u20132000"},{"ns":14,"title":"Category:Articles with
+        unsourced statements from March 2011"},{"ns":14,"title":"Category:Use British
+        English from August 2012"},{"ns":14,"title":"Category:Use dmy dates from December
+        2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:07 GMT
+recorded_with: VCR 2.9.2

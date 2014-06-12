@@ -1,0 +1,253 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Daniel%20Day-Lewis
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1401597214, 983694602, 1061619508
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4852'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:00 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1065 miss (0), cp4018 miss (0), cp4017 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"171003|0|W._H._Auden"}},"query":{"pages":{"171003":{"pageid":171003,"ns":0,"title":"Daniel
+        Day-Lewis","links":[{"ns":0,"title":"61st British Academy Film Awards"},{"ns":0,"title":"66th
+        British Academy Film Awards"},{"ns":0,"title":"70th Golden Globe Awards"},{"ns":0,"title":"80th
+        Academy Awards"},{"ns":0,"title":"85th Academy Awards"},{"ns":0,"title":"AACTA
+        International Award for Best Actor"},{"ns":0,"title":"A Midsummer Night''s
+        Dream"},{"ns":0,"title":"A Room with a View (1985 film)"},{"ns":0,"title":"Abraham
+        Lincoln"},{"ns":0,"title":"Academy Award"},{"ns":0,"title":"Academy Award
+        for Best Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Adrien
+        Brody"},{"ns":0,"title":"Agnostic"},{"ns":0,"title":"Ahna O''Reilly"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alan Alda"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Albert Brooks"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Albert
+        R. Broccoli"},{"ns":0,"title":"Albert Salmi"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"Alec
+        Guinness"},{"ns":0,"title":"Alexander Knox"},{"ns":0,"title":"Allison Janney"},{"ns":0,"title":"Amanda
+        Seyfried"},{"ns":0,"title":"Amy Ryan"},{"ns":0,"title":"Anglo-Irish"},{"ns":0,"title":"Anna
+        Camp"},{"ns":0,"title":"Annamoe"},{"ns":0,"title":"Anne Hathaway"},{"ns":0,"title":"Another
+        Country (play)"},{"ns":0,"title":"Anthony Anderson"},{"ns":0,"title":"Anthony
+        Franciosa"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony Minghella"},{"ns":0,"title":"Aristocracy
+        (class)"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Artemis 81"},{"ns":0,"title":"Arthur
+        Kennedy (actor)"},{"ns":0,"title":"Arthur Miller"},{"ns":0,"title":"AskMen"},{"ns":0,"title":"BAFTA
+        Award"},{"ns":0,"title":"BAFTA Award for Best Actor in a Leading Role"},{"ns":0,"title":"Barry
+        Fitzgerald"},{"ns":0,"title":"Barry McGuigan"},{"ns":0,"title":"Bedales School"},{"ns":0,"title":"Before
+        the Devil Knows You''re Dead"},{"ns":0,"title":"Ben Johnson (actor)"},{"ns":0,"title":"Ben
+        Kingsley"},{"ns":0,"title":"Ben Stiller"},{"ns":0,"title":"Benedict Cumberbatch"},{"ns":0,"title":"Benicio
+        del Toro"},{"ns":0,"title":"Betty White"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Billy
+        Bob Thornton"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bob
+        Odenkirk"},{"ns":0,"title":"Bob Weinstein"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley
+        Cooper"},{"ns":0,"title":"Brat Pack (actors)"},{"ns":0,"title":"Brendan Fraser"},{"ns":0,"title":"Brendan
+        Gleeson"},{"ns":0,"title":"Brian Cox (actor)"},{"ns":0,"title":"Brian Kerwin"},{"ns":0,"title":"Bristol
+        Old Vic"},{"ns":0,"title":"Bristol Old Vic Theatre School"},{"ns":0,"title":"Brit
+        Pack (actors)"},{"ns":0,"title":"Britannia Awards"},{"ns":0,"title":"British
+        Academy of Film and Television Arts"},{"ns":0,"title":"Broadcast Film Critics
+        Association Award for Best Actor"},{"ns":0,"title":"Broadcast Film Critics
+        Association Award for Best Cast"},{"ns":0,"title":"Broderick Crawford"},{"ns":0,"title":"Brokeback
+        Mountain"},{"ns":0,"title":"Bruce Davison"},{"ns":0,"title":"Bruce Dern"},{"ns":0,"title":"Bruce
+        Payne"},{"ns":0,"title":"Bruno Ganz"},{"ns":0,"title":"Bryce Dallas Howard"},{"ns":0,"title":"Br\u00edan
+        F. O''Byrne"},{"ns":0,"title":"Burgess Meredith"},{"ns":0,"title":"Burt Lancaster"},{"ns":0,"title":"Burt
+        Reynolds"},{"ns":0,"title":"Casey Affleck"},{"ns":0,"title":"Cecil Day-Lewis"},{"ns":0,"title":"Charles
+        Bickford"},{"ns":0,"title":"Charles Boyer"},{"ns":0,"title":"Charles Durning"},{"ns":0,"title":"Charles
+        Laughton"},{"ns":0,"title":"Charlie Chaplin"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chief
+        Dan George"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Chris
+        Lowell"},{"ns":0,"title":"Christian Bale"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher
+        Nolan"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Walken"},{"ns":0,"title":"Christy Brown"},{"ns":0,"title":"Cicely Tyson"},{"ns":0,"title":"Clark
+        Gable"},{"ns":0,"title":"Cliff Robertson"},{"ns":0,"title":"Clint Eastwood"},{"ns":0,"title":"Clive
+        Owen"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"County Wicklow"},{"ns":0,"title":"Crash
+        (2004 film)"},{"ns":0,"title":"Critics'' Choice Movie Awards"},{"ns":0,"title":"Czech
+        language"},{"ns":0,"title":"Czech people"},{"ns":0,"title":"Dana Ivey"},{"ns":0,"title":"Daniel
+        Craig"},{"ns":0,"title":"Danny Boyle"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David
+        Oyelowo"},{"ns":0,"title":"David Thewlis"},{"ns":0,"title":"David Yates"},{"ns":0,"title":"Dean
+        Stockwell"},{"ns":0,"title":"Dennis Quaid"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Devin
+        Ratray"},{"ns":0,"title":"Dirk Bogarde"},{"ns":0,"title":"Djimon Hounsou"},{"ns":0,"title":"Don
+        Cheadle"},{"ns":0,"title":"Dublin"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"Ealing
+        Studios"},{"ns":0,"title":"Ed Harris"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Eddie
+        Redmayne"},{"ns":0,"title":"Edith Wharton"},{"ns":0,"title":"Edward Norton"},{"ns":0,"title":"Edwardian
+        period"},{"ns":0,"title":"Elizabeth Jane Howard"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emily
+        Blunt"},{"ns":0,"title":"Emma Stone"},{"ns":0,"title":"England"},{"ns":0,"title":"Ernest
+        Borgnine"},{"ns":0,"title":"Ethan Hawke"},{"ns":0,"title":"Eugene Levy"},{"ns":0,"title":"Eversmile,
+        New Jersey"},{"ns":0,"title":"Ewan McGregor"},{"ns":0,"title":"F. Murray Abraham"},{"ns":0,"title":"Fergie
+        (singer)"},{"ns":0,"title":"Florence"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Frank
+        Langella"},{"ns":0,"title":"Fran\u00e7ois P\u00e9rier"},{"ns":0,"title":"Fredric
+        March"},{"ns":0,"title":"Gandhi (film)"},{"ns":0,"title":"Gangs of New York"},{"ns":0,"title":"Gary
+        Busey"},{"ns":0,"title":"Gary Cooper"},{"ns":0,"title":"Gary Oldman"},{"ns":0,"title":"Gary
+        Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey Rush"},{"ns":0,"title":"George
+        Arliss"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George Clooney"},{"ns":0,"title":"George
+        Lucas"},{"ns":0,"title":"George Peppard"},{"ns":0,"title":"Gerry Conlon"},{"ns":0,"title":"Gettysburg
+        Address"},{"ns":0,"title":"Gilded Age"},{"ns":0,"title":"Golden Globe Award
+        for Best Actor \u2013 Motion Picture Drama"},{"ns":0,"title":"Golden Globe
+        Award for Best Actor \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Greenwich"},{"ns":0,"title":"Greg
+        Kinnear"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"Guildford Four"},{"ns":0,"title":"Guildford
+        Four and Maguire Seven"},{"ns":0,"title":"Guy Pearce"},{"ns":0,"title":"G\u00e9rard
+        Depardieu"},{"ns":0,"title":"Haing S. Ngor"},{"ns":0,"title":"Hamlet"},{"ns":0,"title":"Harry
+        Andrews"},{"ns":0,"title":"Harry Belafonte"},{"ns":0,"title":"Harvey Weinstein"},{"ns":0,"title":"Heath
+        Ledger"},{"ns":0,"title":"Helena Bonham Carter"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Holger
+        L\u00f6wenadler"},{"ns":0,"title":"Hollywood Reporter"},{"ns":0,"title":"How
+        Many Miles to Babylon? (novel)"},{"ns":0,"title":"Howard Stringer"},{"ns":0,"title":"Hugh
+        Grant"},{"ns":0,"title":"Hugh Griffith"},{"ns":0,"title":"Hugh Jackman"},{"ns":0,"title":"Humphrey
+        Bogart"},{"ns":0,"title":"Ian Bannen"},{"ns":0,"title":"Ian Charleson"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"In the Name of the Father (film)"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Isabelle
+        Adjani"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack Nicholson"},{"ns":0,"title":"Jackie
+        Earle Haley"},{"ns":0,"title":"Jackie Gleason"},{"ns":0,"title":"Jaguar Cars"},{"ns":0,"title":"Jake
+        Gyllenhaal"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James Franco"},{"ns":0,"title":"James
+        McAvoy"},{"ns":0,"title":"James Stewart"},{"ns":0,"title":"Jamie Bell"},{"ns":0,"title":"Jamie
+        Foxx"},{"ns":0,"title":"Jared Leto"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier
+        Bardem"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jeff Bridges"},{"ns":0,"title":"Jennifer
+        Esposito"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jeremy Northam"},{"ns":0,"title":"Jeremy
+        Renner"},{"ns":0,"title":"Jesse Eisenberg"},{"ns":0,"title":"Jessica Chastain"},{"ns":0,"title":"Jews"},{"ns":0,"title":"Jill
+        Balcon"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jim Carrey"},{"ns":0,"title":"Jim
+        Sheridan"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"Joe Pesci"},{"ns":0,"title":"Joel
+        Grey"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"John Fryer (sailor)"},{"ns":0,"title":"John
+        Gielgud"},{"ns":0,"title":"John Houseman"},{"ns":0,"title":"John Hurt"},{"ns":0,"title":"John
+        Lasseter"},{"ns":0,"title":"John Lithgow"},{"ns":0,"title":"John Malkovich"},{"ns":0,"title":"John
+        Proctor"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John Wayne"},{"ns":0,"title":"John
+        Williams (actor)"},{"ns":0,"title":"Johnny Depp"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Joseph
+        Cross (actor)"},{"ns":0,"title":"Josh Brolin"},{"ns":0,"title":"Jos\u00e9
+        Ferrer"},{"ns":0,"title":"Judi Dench"},{"ns":0,"title":"Juliette Binoche"},{"ns":0,"title":"June
+        Squibb"},{"ns":0,"title":"Kate Hudson"},{"ns":0,"title":"Kate Winslet"},{"ns":0,"title":"Kathryn
+        Bigelow"},{"ns":0,"title":"Kenneth More"},{"ns":0,"title":"Kent"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Kieran Culkin"},{"ns":0,"title":"Kingsley
+        Amis"},{"ns":0,"title":"Kirk Douglas"},{"ns":0,"title":"Klaus Maria Brandauer"},{"ns":0,"title":"Larenz
+        Tate"},{"ns":0,"title":"Las Vegas Film Critics Society Award for Best Actor"},{"ns":0,"title":"Laurence
+        Olivier"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Lemmons"},{"ns":0,"title":"Lena
+        Olin"},{"ns":0,"title":"Leo McKern"},{"ns":0,"title":"Leonardo DiCaprio"},{"ns":0,"title":"Les
+        Mis\u00e9rables (2012 film)"},{"ns":0,"title":"Leslie Jordan"},{"ns":0,"title":"Liam
+        Neeson"},{"ns":0,"title":"Lincoln (2012 film)"},{"ns":0,"title":"Lincoln Bedroom"},{"ns":0,"title":"Lionel
+        Barrymore"},{"ns":0,"title":"List of actors who won the Academy, BAFTA, Golden
+        Globe, SAG, and Critic''s Choice Award for a single performance"},{"ns":0,"title":"List
+        of actors with two or more Academy Awards in acting categories"},{"ns":0,"title":"List
+        of awards and nominations received by Daniel Day-Lewis"},{"ns":0,"title":"List
+        of people on stamps of Ireland"},{"ns":0,"title":"London"},{"ns":0,"title":"London
+        Film Critics Circle Award for Actor of the Year"},{"ns":0,"title":"London
+        Film Critics Circle Award for British Actor of the Year"},{"ns":0,"title":"Long
+        rifle"},{"ns":0,"title":"Los Angeles Film Critics Association Award for Best
+        Actor"},{"ns":0,"title":"Ludacris"},{"ns":0,"title":"Marcello Mastroianni"},{"ns":0,"title":"Margaret
+        Thatcher"},{"ns":0,"title":"Marion Cotillard"},{"ns":0,"title":"Marisa Tomei"},{"ns":0,"title":"Mark
+        Ruffalo"},{"ns":0,"title":"Mark Wahlberg"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin
+        Balsam"},{"ns":0,"title":"Martin Campbell"},{"ns":0,"title":"Martin Landau"},{"ns":0,"title":"Martin
+        Scorsese"},{"ns":0,"title":"Martin Sheen"},{"ns":0,"title":"Mary Louise Wilson"},{"ns":0,"title":"Mary
+        Steenburgen"},{"ns":0,"title":"Matt Damon"},{"ns":0,"title":"Matt Dillon"},{"ns":0,"title":"Matt
+        Stone"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Maximilian
+        Schell"},{"ns":0,"title":"Melvyn Douglas"},{"ns":0,"title":"Method acting"},{"ns":0,"title":"Michael
+        Balcon"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Cera"},{"ns":0,"title":"Michael
+        Douglas"},{"ns":0,"title":"Michael Fassbender"},{"ns":0,"title":"Michael Keaton"},{"ns":0,"title":"Michael
+        Shannon"},{"ns":0,"title":"Michael Sheen"},{"ns":0,"title":"Michael Stuhlbarg"},{"ns":0,"title":"Michelle
+        Pfeiffer"},{"ns":0,"title":"Mickey Rourke"},{"ns":0,"title":"Mike Newell (director)"},{"ns":0,"title":"Mike
+        Vogel"},{"ns":0,"title":"Milan Kundera"},{"ns":0,"title":"Millwall F.C."},{"ns":0,"title":"Miscegenation"},{"ns":0,"title":"Missy
+        Doty"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Multiple citizenship"},{"ns":0,"title":"My
+        Beautiful Laundrette"},{"ns":0,"title":"My Left Foot"},{"ns":0,"title":"National
+        Board of Review Award for Best Supporting Actor"},{"ns":0,"title":"National
+        Society of Film Critics Award for Best Actor"},{"ns":0,"title":"National Youth
+        Theatre"},{"ns":0,"title":"Natty Bumppo"},{"ns":0,"title":"Nebraska (film)"},{"ns":0,"title":"Nelsan
+        Ellis"},{"ns":0,"title":"New York City"},{"ns":0,"title":"New York Film Critics
+        Circle Award for Best Actor"},{"ns":0,"title":"New York Film Critics Circle
+        Award for Best Supporting Actor"},{"ns":0,"title":"New York accent"},{"ns":0,"title":"Nick
+        Nolte"},{"ns":0,"title":"Nicolas Cage"},{"ns":0,"title":"Nicole Kidman"},{"ns":0,"title":"Nigel
+        Hawthorne"},{"ns":0,"title":"Nine (2009 live-action film)"},{"ns":0,"title":"Northern
+        Ireland"},{"ns":0,"title":"Octavia Spencer"},{"ns":0,"title":"Oil!"},{"ns":0,"title":"Omar
+        Sharif"},{"ns":0,"title":"Oscar Isaac"},{"ns":0,"title":"Oskar Werner"},{"ns":0,"title":"Oxford
+        University"},{"ns":0,"title":"Parkinson (TV series)"},{"ns":0,"title":"Paul
+        Bettany"},{"ns":0,"title":"Paul Dooley"},{"ns":0,"title":"Paul Ford"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Lukas"},{"ns":0,"title":"Paul Muni"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Paul Thomas Anderson"},{"ns":0,"title":"Pen\u00e9lope
+        Cruz"},{"ns":0,"title":"Per Oscarsson"},{"ns":0,"title":"Pete Postlethwaite"},{"ns":0,"title":"Peter
+        Finch"},{"ns":0,"title":"Peter Fonda"},{"ns":0,"title":"Peter O''Toole"},{"ns":0,"title":"Peter
+        Sellers"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Peter Weir"},{"ns":0,"title":"Petersfield,
+        Hampshire"},{"ns":0,"title":"Philip Kaufman"},{"ns":0,"title":"Philip Larkin"},{"ns":0,"title":"Philip
+        Seymour Hoffman"},{"ns":0,"title":"Philippe Noiret"},{"ns":0,"title":"Play
+        of the Month"},{"ns":0,"title":"Pneumonia"},{"ns":0,"title":"Poet Laureate"},{"ns":0,"title":"Poet
+        Laureate of the United Kingdom"},{"ns":0,"title":"Professional boxing"},{"ns":0,"title":"Provisional
+        Irish Republican Army"},{"ns":0,"title":"Quentin Tarantino"},{"ns":0,"title":"Rachel
+        Weisz"},{"ns":0,"title":"Ralph Fiennes"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Rance
+        Howard"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Ray Winstone"},{"ns":0,"title":"Rebecca
+        Miller"},{"ns":0,"title":"Rex Harrison"},{"ns":0,"title":"Richard Attenborough"},{"ns":0,"title":"Richard
+        Basehart"},{"ns":0,"title":"Richard Burton"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard
+        Eyre"},{"ns":0,"title":"Richard Farnsworth"},{"ns":0,"title":"Richard Jenkins"},{"ns":0,"title":"Richmond,
+        Virginia"},{"ns":0,"title":"Ricky Gervais"},{"ns":0,"title":"Ridley Scott"},{"ns":0,"title":"Riga"},{"ns":0,"title":"River
+        Phoenix"},{"ns":0,"title":"Rob Marshall"},{"ns":0,"title":"Robert Carlyle"},{"ns":0,"title":"Robert
+        De Niro"},{"ns":0,"title":"Robert Donat"},{"ns":0,"title":"Robert Downey,
+        Jr."},{"ns":0,"title":"Robert Downey Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert
+        Graves"},{"ns":0,"title":"Robert Preston (actor)"},{"ns":0,"title":"Robert
+        Redford"},{"ns":0,"title":"Robert Shaw (British actor)"},{"ns":0,"title":"Roberto
+        Benigni"},{"ns":0,"title":"Rod Steiger"},{"ns":0,"title":"Romeo and Juliet"},{"ns":0,"title":"Ronald
+        Colman"},{"ns":0,"title":"Rosemary Harris"},{"ns":0,"title":"Royal National
+        Theatre"},{"ns":0,"title":"Royal Shakespeare Company"},{"ns":0,"title":"Russell
+        Crowe"},{"ns":0,"title":"Ryan Gosling"},{"ns":0,"title":"Ryan Phillippe"},{"ns":0,"title":"Sacha
+        Baron Cohen"},{"ns":0,"title":"Samantha Barks"},{"ns":0,"title":"Samuel L.
+        Jackson"},{"ns":0,"title":"Sandra Bullock"},{"ns":0,"title":"Sandra Oh"},{"ns":0,"title":"Sandymount"},{"ns":0,"title":"Santa
+        Barbara International Film Festival"},{"ns":0,"title":"Satellite Award for
+        Best Actor \u2013 Motion Picture"},{"ns":0,"title":"Satellite Award for Best
+        Actor \u2013 Motion Picture Musical or Comedy"},{"ns":0,"title":"Satellite
+        Award for Best Cast \u2013 Motion Picture"},{"ns":0,"title":"Screen Actors
+        Guild Award"},{"ns":0,"title":"Screen Actors Guild Award for Outstanding Performance
+        by a Cast in a Motion Picture"},{"ns":0,"title":"Screen Actors Guild Award
+        for Outstanding Performance by a Male Actor in a Leading Role"},{"ns":0,"title":"Sean
+        Connery"},{"ns":0,"title":"Sean Penn"},{"ns":0,"title":"Sessue Hayakawa"},{"ns":0,"title":"Sevenoaks
+        School"},{"ns":0,"title":"Shoemaking"},{"ns":0,"title":"Shoestring (TV series)"},{"ns":0,"title":"Sideways"},{"ns":0,"title":"Sidney
+        Poitier"},{"ns":0,"title":"Sissy Spacek"},{"ns":0,"title":"Sophia Loren"},{"ns":0,"title":"South
+        London"},{"ns":0,"title":"Spencer Tracy"},{"ns":0,"title":"Stacy Keach"},{"ns":0,"title":"Stanley
+        Kubrick"},{"ns":0,"title":"Stars and Bars (1988 film)"},{"ns":0,"title":"Stephen
+        Frears"},{"ns":0,"title":"Stephen Rea"},{"ns":0,"title":"Steve Buscemi"},{"ns":0,"title":"Steve
+        Martin"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Sunday Bloody
+        Sunday (film)"},{"ns":0,"title":"Tamasin Day-Lewis"},{"ns":0,"title":"Team
+        of Rivals: The Political Genius of Abraham Lincoln"},{"ns":0,"title":"Terence
+        Stamp"},{"ns":0,"title":"Terrence Howard"},{"ns":0,"title":"Thandie Newton"},{"ns":0,"title":"The
+        Age of Innocence"},{"ns":0,"title":"The Age of Innocence (1993 film)"},{"ns":0,"title":"The
+        Ballad of Jack and Rose"},{"ns":0,"title":"The Bounty"},{"ns":0,"title":"The
+        Boxer (1997 film)"},{"ns":0,"title":"The Crucible (1996 film)"},{"ns":0,"title":"The
+        Daily Beast"},{"ns":0,"title":"The Departed"},{"ns":0,"title":"The Help (film)"},{"ns":0,"title":"The
+        Independent"},{"ns":0,"title":"The Last of the Mohicans (1992 film)"},{"ns":0,"title":"The
+        New York Times"},{"ns":0,"title":"The Unbearable Lightness of Being (film)"},{"ns":0,"title":"There
+        Will Be Blood"},{"ns":0,"title":"Thomas Haden Church"},{"ns":0,"title":"Tilda
+        Swinton"},{"ns":0,"title":"Tim Roth"},{"ns":0,"title":"Toby Jones"},{"ns":0,"title":"Tom
+        Courtenay"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tom
+        Skerritt"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Tony Scott"},{"ns":0,"title":"Top
+        hat"},{"ns":0,"title":"Trevor Howard"},{"ns":0,"title":"Trey Parker"},{"ns":0,"title":"Turner
+        Classic Movies"},{"ns":0,"title":"University of Bristol"},{"ns":0,"title":"Upton
+        Sinclair"},{"ns":0,"title":"Vera Farmiga"},{"ns":0,"title":"Victor McLaglen"},{"ns":0,"title":"Viggo
+        Mortensen"},{"ns":0,"title":"Viola Davis"},{"ns":0,"title":"Virginia Madsen"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:01 GMT
+recorded_with: VCR 2.9.2

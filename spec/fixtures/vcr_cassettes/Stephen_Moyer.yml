@@ -1,0 +1,120 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Stephen%20Moyer
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287190218, 1102708052, 2899158875
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1758'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:10 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4017 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"7254161":{"pageid":7254161,"ns":0,"title":"Stephen
+        Moyer","links":[{"ns":0,"title":"88 Minutes"},{"ns":0,"title":"A Touch of
+        Frost"},{"ns":0,"title":"Aaron Staton"},{"ns":0,"title":"Alexander Skarsg\u00e5rd"},{"ns":0,"title":"Alternate
+        Endings (film)"},{"ns":0,"title":"Andrew Lincoln"},{"ns":0,"title":"Anna Camp"},{"ns":0,"title":"Anna
+        Paquin"},{"ns":0,"title":"Anne Dudek"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Ben
+        Browder"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        Compton (The Southern Vampire Mysteries)"},{"ns":0,"title":"Brentwood, Essex"},{"ns":0,"title":"Bryan
+        Batt"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"Cadfael"},{"ns":0,"title":"Carrie
+        Preston"},{"ns":0,"title":"Casualty (TV series)"},{"ns":0,"title":"Chandler
+        Riggs"},{"ns":0,"title":"Chandra Wilson"},{"ns":0,"title":"Chris Bauer"},{"ns":0,"title":"Christina
+        Hendricks"},{"ns":0,"title":"Cold Feet"},{"ns":0,"title":"Comprehensive school"},{"ns":0,"title":"Conjugal
+        Rites"},{"ns":0,"title":"Danai Gurira"},{"ns":0,"title":"David Boreanaz"},{"ns":0,"title":"David
+        Morrissey"},{"ns":0,"title":"Deadlines (film)"},{"ns":0,"title":"Deborah Ann
+        Woll"},{"ns":0,"title":"Edward James Olmos"},{"ns":0,"title":"Elisabeth Moss"},{"ns":0,"title":"Ellen
+        Pompeo"},{"ns":0,"title":"England"},{"ns":0,"title":"Eric Dane"},{"ns":0,"title":"Evidence
+        (2013 film)"},{"ns":0,"title":"Fraternal twins"},{"ns":0,"title":"Grey''s
+        Anatomy"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hal Foster"},{"ns":0,"title":"Highlander:
+        The Raven"},{"ns":0,"title":"Hutton, Essex"},{"ns":0,"title":"Integrated Authority
+        File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Isaiah Washington"},{"ns":0,"title":"James
+        Pickens, Jr."},{"ns":0,"title":"January Jones"},{"ns":0,"title":"Jason Biggs"},{"ns":0,"title":"Jim
+        Parrack"},{"ns":0,"title":"John Slattery"},{"ns":0,"title":"Jon Hamm"},{"ns":0,"title":"Josh
+        Holloway"},{"ns":0,"title":"Justin Chambers"},{"ns":0,"title":"Kate Mulgrew"},{"ns":0,"title":"Kate
+        Walsh (actor)"},{"ns":0,"title":"Katherine Heigl"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kyle Chandler"},{"ns":0,"title":"Laura Prepon"},{"ns":0,"title":"Lauren
+        Cohan"},{"ns":0,"title":"Laurie Holden"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Life & Style"},{"ns":0,"title":"Lilies (BBC
+        TV series)"},{"ns":0,"title":"London Academy of Music and Dramatic Art"},{"ns":0,"title":"Mad
+        Men"},{"ns":0,"title":"Maggie Siff"},{"ns":0,"title":"Malibu, California"},{"ns":0,"title":"Mariana
+        Klaveno"},{"ns":0,"title":"Matthew Fox"},{"ns":0,"title":"Mehcad Brooks"},{"ns":0,"title":"Melissa
+        McBride"},{"ns":0,"title":"Michael C. Hall"},{"ns":0,"title":"Michael Gladis"},{"ns":0,"title":"Michael
+        Harney"},{"ns":0,"title":"Michael McMillian"},{"ns":0,"title":"Michael Rooker"},{"ns":0,"title":"Michelle
+        Forbes"},{"ns":0,"title":"Michelle Hurst"},{"ns":0,"title":"Midsomer Murders"},{"ns":0,"title":"NY-LON"},{"ns":0,"title":"National
+        Theatre Wales"},{"ns":0,"title":"Nelsan Ellis"},{"ns":0,"title":"Norman Reedus"},{"ns":0,"title":"Open
+        House (2010 film)"},{"ns":0,"title":"Orange Is the New Black"},{"ns":0,"title":"Patrick
+        Dempsey"},{"ns":0,"title":"Peak Practice"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Phineas
+        and Ferb"},{"ns":0,"title":"Priest (2011 film)"},{"ns":0,"title":"Prince Valiant"},{"ns":0,"title":"Prince
+        Valiant (1997 film)"},{"ns":0,"title":"Princess of Thieves"},{"ns":0,"title":"Quills
+        (film)"},{"ns":0,"title":"Rescue Me (U.S. TV series)"},{"ns":0,"title":"Restraint
+        (2008 film)"},{"ns":0,"title":"Rich Sommer"},{"ns":0,"title":"Richard Dean
+        Anderson"},{"ns":0,"title":"Robert Morse"},{"ns":0,"title":"Robert Patrick"},{"ns":0,"title":"Roger
+        Hall"},{"ns":0,"title":"Romeo and Juliet"},{"ns":0,"title":"Ron Perlman"},{"ns":0,"title":"Royal
+        Shakespeare Company"},{"ns":0,"title":"Rutina Wesley"},{"ns":0,"title":"Ryan
+        Kwanten"},{"ns":0,"title":"Sam Trammell"},{"ns":0,"title":"Sandra Oh"},{"ns":0,"title":"Sara
+        Ramirez"},{"ns":0,"title":"Sarah Wayne Callies"},{"ns":0,"title":"Satellite
+        Award"},{"ns":0,"title":"Satellite Award for Best Cast \u2013 Television Series"},{"ns":0,"title":"Saturn
+        Award"},{"ns":0,"title":"Saturn Award for Best Actor on Television"},{"ns":0,"title":"Scott
+        Wilson (actor)"},{"ns":0,"title":"Scream Award"},{"ns":0,"title":"Simcha Rotem"},{"ns":0,"title":"St
+        Martin''s School (Brentwood)"},{"ns":0,"title":"Steven Weber (actor)"},{"ns":0,"title":"Steven
+        Yeun"},{"ns":0,"title":"Sunburn (TV series)"},{"ns":0,"title":"T.R. Knight"},{"ns":0,"title":"Taylor
+        Schilling"},{"ns":0,"title":"Teen Choice Award"},{"ns":0,"title":"The Barrens
+        (film)"},{"ns":0,"title":"The Caller (2010 film)"},{"ns":0,"title":"The Double
+        (2011 film)"},{"ns":0,"title":"The Grand (TV series)"},{"ns":0,"title":"The
+        Sound of Music Live!"},{"ns":0,"title":"The Starter Wife (miniseries)"},{"ns":0,"title":"The
+        Walking Dead (TV series)"},{"ns":0,"title":"Todd Lowe"},{"ns":0,"title":"Trinity
+        (film)"},{"ns":0,"title":"True Blood"},{"ns":0,"title":"UK"},{"ns":0,"title":"Ultraviolet
+        (TV serial)"},{"ns":0,"title":"Undiscovered"},{"ns":0,"title":"Uprising (2001
+        film)"},{"ns":0,"title":"Venice, Los Angeles"},{"ns":0,"title":"Vincent Kartheiser"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Waking the Dead (TV series)"},{"ns":0,"title":"William
+        Sanderson"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Satellite
+        Award for Best Cast \u2013 Television Series"},{"ns":10,"title":"Template:Saturn
+        Award for Best Actor on Television"},{"ns":11,"title":"Template talk:Satellite
+        Award for Best Cast \u2013 Television Series"},{"ns":11,"title":"Template
+        talk:Saturn Award for Best Actor on Television"},{"ns":14,"title":"Category:Articles
+        with dead external links from October 2010"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:10 GMT
+recorded_with: VCR 2.9.2

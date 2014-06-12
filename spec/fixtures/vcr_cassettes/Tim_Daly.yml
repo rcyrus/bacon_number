@@ -1,0 +1,167 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Tim%20Daly
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 4001209815, 1409554225, 3142953910
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2951'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:17 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1066 miss (0), cp4009 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"2177295":{"pageid":2177295,"ns":0,"title":"Tim
+        Daly","links":[{"ns":0,"title":"501(c)(3)"},{"ns":0,"title":"A. R. Gurney"},{"ns":0,"title":"A
+        House Divided (television film)"},{"ns":0,"title":"Actor of the Year in a
+        New Series"},{"ns":0,"title":"Against the Ropes"},{"ns":0,"title":"Alan Rudolph"},{"ns":0,"title":"Alex
+        Haley''s Queen"},{"ns":0,"title":"Alfred Hitchcock Presents"},{"ns":0,"title":"AllMovie"},{"ns":0,"title":"Almost
+        Grown (TV series)"},{"ns":0,"title":"Almost Grown (television show)"},{"ns":0,"title":"American
+        Broadcasting Company"},{"ns":0,"title":"American Playhouse"},{"ns":0,"title":"Amy
+        Van Nostrand"},{"ns":0,"title":"An Enemy of the People"},{"ns":0,"title":"Annette
+        Bening"},{"ns":0,"title":"Apollo 13 (film)"},{"ns":0,"title":"Arthur Conan
+        Doyle"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"Barry Levinson"},{"ns":0,"title":"Basic
+        (film)"},{"ns":0,"title":"Batman Beyond"},{"ns":0,"title":"Bennington College"},{"ns":0,"title":"Bereft
+        (film)"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Bill
+        C. Davis"},{"ns":0,"title":"Bleecker Street Theatre"},{"ns":0,"title":"Bryan
+        Cranston"},{"ns":0,"title":"Bucks County Playhouse"},{"ns":0,"title":"CBS"},{"ns":0,"title":"California"},{"ns":0,"title":"Caroline
+        at Midnight"},{"ns":0,"title":"Chandra Wilson"},{"ns":0,"title":"Charles Dickens"},{"ns":0,"title":"Christmas
+        Carol"},{"ns":0,"title":"Christopher McDonald"},{"ns":0,"title":"Christopher
+        Moltisanti"},{"ns":0,"title":"Circle in the Square Theatre"},{"ns":0,"title":"Clark
+        Kent"},{"ns":0,"title":"Coastal Disturbances"},{"ns":0,"title":"Commander
+        in Chief (TV series)"},{"ns":0,"title":"Creative Coalition"},{"ns":0,"title":"Damian
+        Lewis"},{"ns":0,"title":"Dangerous Heart"},{"ns":0,"title":"David Chase"},{"ns":0,"title":"David
+        Duchovny"},{"ns":0,"title":"David Schwimmer"},{"ns":0,"title":"Daytime Emmy
+        Award"},{"ns":0,"title":"Democratic Party (United States)"},{"ns":0,"title":"Denise
+        Calls Up"},{"ns":0,"title":"Diner (film)"},{"ns":0,"title":"Dr. Jekyll and
+        Ms. Hyde"},{"ns":0,"title":"Drama-Logue Award"},{"ns":0,"title":"Dugout (play)"},{"ns":0,"title":"Edge
+        of America"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Emmy Award"},{"ns":0,"title":"Equus
+        (play)"},{"ns":0,"title":"Erica Jong"},{"ns":0,"title":"Erik Jensen (actor)"},{"ns":0,"title":"Ernie
+        Hudson"},{"ns":0,"title":"Execution of Justice"},{"ns":0,"title":"Eyes (TV
+        series)"},{"ns":0,"title":"Fables For Friends"},{"ns":0,"title":"Favorite
+        Airborne Character(s)"},{"ns":0,"title":"From the Earth to the Moon (TV miniseries)"},{"ns":0,"title":"GLAAD
+        Media Award"},{"ns":0,"title":"George Newbern"},{"ns":0,"title":"George Street
+        Playhouse"},{"ns":0,"title":"Gerald Schoenfeld Theatre"},{"ns":0,"title":"Golden
+        Raspberry Award"},{"ns":0,"title":"Golden Raspberry Award for Worst Screen
+        Combo"},{"ns":0,"title":"Golden Satellite Award"},{"ns":0,"title":"Grey''s
+        Anatomy"},{"ns":0,"title":"HBO"},{"ns":0,"title":"Hawaii Five-0"},{"ns":0,"title":"Henrik
+        Ibsen"},{"ns":0,"title":"Henry Flamethrowa"},{"ns":0,"title":"Herman Wouk"},{"ns":0,"title":"Hill
+        Street Blues"},{"ns":0,"title":"Hub Network"},{"ns":0,"title":"Hugh Laurie"},{"ns":0,"title":"Humanitas
+        Prize"},{"ns":0,"title":"I''ll Take Manhattan (TV miniseries)"},{"ns":0,"title":"I
+        Married a Centerfold"},{"ns":0,"title":"In the Line of Duty: Ambush in Waco"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Intimate
+        Portrait: Tyne Daly"},{"ns":0,"title":"Invasion America"},{"ns":0,"title":"Irish
+        American"},{"ns":0,"title":"James Daly (actor)"},{"ns":0,"title":"James Goldman"},{"ns":0,"title":"Jean
+        Kerr"},{"ns":0,"title":"Jenny Kissed Me (play)"},{"ns":0,"title":"Jessica
+        Blank"},{"ns":0,"title":"Jim Lovell"},{"ns":0,"title":"Jimmy Smits"},{"ns":0,"title":"John
+        Belluso"},{"ns":0,"title":"John Guare"},{"ns":0,"title":"John Steinbeck"},{"ns":0,"title":"Judging
+        Amy"},{"ns":0,"title":"Just the Way You Are (film)"},{"ns":0,"title":"Justice
+        League: Doom"},{"ns":0,"title":"Justice League: The Flashpoint Paradox"},{"ns":0,"title":"Justice
+        League (animated series)"},{"ns":0,"title":"Kate Walsh (actor)"},{"ns":0,"title":"Kerry
+        Washington"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin McCarthy
+        (actor)"},{"ns":0,"title":"Kiefer Sutherland"},{"ns":0,"title":"Lanford Wilson"},{"ns":0,"title":"Law
+        & Order: Special Victims Unit"},{"ns":0,"title":"Library of Congress Control
+        Number"},{"ns":0,"title":"List of Peabody Award winners (2000-2009)"},{"ns":0,"title":"List
+        of characters from The Sopranos - Friends and Family"},{"ns":0,"title":"Lortel
+        Archives"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Love Letters (play)"},{"ns":0,"title":"Love
+        or Money"},{"ns":0,"title":"Low Down"},{"ns":0,"title":"Made in Heaven (1987
+        film)"},{"ns":0,"title":"Man of Steel (film)"},{"ns":0,"title":"Manhattan
+        Theatre Club"},{"ns":0,"title":"Mark Snow"},{"ns":0,"title":"Mark Taper Forum"},{"ns":0,"title":"Martin
+        Sheen"},{"ns":0,"title":"Matthew Fox"},{"ns":0,"title":"McGinn-Cazale Theatre"},{"ns":0,"title":"Michael
+        C. Hall"},{"ns":0,"title":"Michael Chiklis"},{"ns":0,"title":"Michael Imperioli"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Midnight Caller"},{"ns":0,"title":"Modern liberalism
+        in the United States"},{"ns":0,"title":"Monk (TV series)"},{"ns":0,"title":"Mount
+        Kilimanjaro"},{"ns":0,"title":"Mr. Monk and the Airplane"},{"ns":0,"title":"My
+        Neighbor Totoro"},{"ns":0,"title":"NBC"},{"ns":0,"title":"Nantucket, Massachusetts"},{"ns":0,"title":"New
+        Brunswick, New Jersey"},{"ns":0,"title":"New Hope, Pennsylvania"},{"ns":0,"title":"New
+        York"},{"ns":0,"title":"New York City"},{"ns":0,"title":"Nick Cavanaugh"},{"ns":0,"title":"Of
+        Mice and Men"},{"ns":0,"title":"Off-Broadway"},{"ns":0,"title":"Oliver, Oliver"},{"ns":0,"title":"Paul
+        Osborn"},{"ns":0,"title":"Pauline Gillespie"},{"ns":0,"title":"Peabody Award"},{"ns":0,"title":"Pete
+        Wilder"},{"ns":0,"title":"Peter Parnell"},{"ns":0,"title":"Peter Shaffer"},{"ns":0,"title":"Peter
+        Wilder"},{"ns":0,"title":"Philip Barry"},{"ns":0,"title":"Playwrights Horizon
+        Theatre"},{"ns":0,"title":"PoliWood"},{"ns":0,"title":"PoliWood (film)"},{"ns":0,"title":"Primetime
+        Emmy Award"},{"ns":0,"title":"Primetime Emmy Award for Outstanding Guest Actor
+        - Drama Series"},{"ns":0,"title":"Private Practice (TV series)"},{"ns":0,"title":"Providence,
+        Rhode Island"},{"ns":0,"title":"Red Earth, White Earth (film)"},{"ns":0,"title":"Return
+        to Sender (film)"},{"ns":0,"title":"Ryan''s Four"},{"ns":0,"title":"Sam Daly"},{"ns":0,"title":"Sam
+        Shepard"},{"ns":0,"title":"Santa Fe, New Mexico"},{"ns":0,"title":"Santa Fe
+        Festival Theatre"},{"ns":0,"title":"Satellite Award for Best Actor \u2013
+        Television Series Drama"},{"ns":0,"title":"Screen Actors Guild Award"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Drama
+        Series"},{"ns":0,"title":"Second Stage Theatre"},{"ns":0,"title":"Seven Girlfriends"},{"ns":0,"title":"Six
+        Degrees of Separation (play)"},{"ns":0,"title":"Snake Treaty"},{"ns":0,"title":"Someone''s
+        Watching"},{"ns":0,"title":"Spellbinder (film)"},{"ns":0,"title":"Steven Weber
+        (actor)"},{"ns":0,"title":"Storm of the Century"},{"ns":0,"title":"Studio
+        Dante"},{"ns":0,"title":"Summer stock theater"},{"ns":0,"title":"Superman"},{"ns":0,"title":"Superman/Batman:
+        Apocalypse"},{"ns":0,"title":"Superman/Batman: Public Enemies"},{"ns":0,"title":"Superman:
+        Brainiac Attacks"},{"ns":0,"title":"Superman: Shadow of Apokolips"},{"ns":0,"title":"Superman:
+        The Animated Series"},{"ns":0,"title":"Susan Yankowitz"},{"ns":0,"title":"TV
+        Guide"},{"ns":0,"title":"TV Land Award"},{"ns":0,"title":"Tennessee Williams"},{"ns":0,"title":"The
+        Associate"},{"ns":0,"title":"The Batman/Superman Movie"},{"ns":0,"title":"The
+        Caine Mutiny Court-Martial"},{"ns":0,"title":"The Caine Mutiny Court Martial"},{"ns":0,"title":"The
+        Colorado Catechism"},{"ns":0,"title":"The Fugitive (2000 TV series)"},{"ns":0,"title":"The
+        Fugitive (TV series)"},{"ns":0,"title":"The Glass Menagerie"},{"ns":0,"title":"The
+        Good Student"},{"ns":0,"title":"The John Larroquette Show"},{"ns":0,"title":"The
+        Lion in Winter"},{"ns":0,"title":"The Mindy Project"},{"ns":0,"title":"The
+        More You Know"},{"ns":0,"title":"The Nine (TV series)"},{"ns":0,"title":"The
+        Object of My Affection"},{"ns":0,"title":"The Other Side of This Life"},{"ns":0,"title":"The
+        Outsider (2002 film)"},{"ns":0,"title":"The Putney School"},{"ns":0,"title":"The
+        Rise & Rise of Daniel Rocket"},{"ns":0,"title":"The Skeptic (film)"},{"ns":0,"title":"The
+        Sopranos"},{"ns":0,"title":"Theatre World Award"},{"ns":0,"title":"Theatres
+        at 45 Bleecker"},{"ns":0,"title":"Timothy Daly (playwright)"},{"ns":0,"title":"Timothy
+        Olyphant"},{"ns":0,"title":"Tina Howe"},{"ns":0,"title":"Tom Hanks"},{"ns":0,"title":"Tonari
+        no Totoro"},{"ns":0,"title":"Tony Shalhoub"},{"ns":0,"title":"Tribeca Film
+        Festival"},{"ns":0,"title":"Trinity Square Repertory Company"},{"ns":0,"title":"Turner
+        Classic Movies"},{"ns":0,"title":"Tyne Daly"},{"ns":0,"title":"Urbania"},{"ns":0,"title":"Vail
+        Film Festival"},{"ns":0,"title":"Vermont"},{"ns":0,"title":"Vincent J. Cardinal"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"William Inge"},{"ns":0,"title":"Wings
+        (NBC TV series)"},{"ns":0,"title":"Witness to the Execution"},{"ns":0,"title":"Year
+        of the Comet"},{"ns":0,"title":"ZM (New Zealand)"},{"ns":0,"title":"\u017deljko
+        Ivanek"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Satellite
+        Award for Best Actor \u2013 Television Series Drama"},{"ns":11,"title":"Template
+        talk:Satellite Award for Best Actor \u2013 Television Series Drama"},{"ns":14,"title":"Category:Articles
+        with unsourced statements from January 2010"},{"ns":14,"title":"Category:Use
+        mdy dates from October 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:18 GMT
+recorded_with: VCR 2.9.2

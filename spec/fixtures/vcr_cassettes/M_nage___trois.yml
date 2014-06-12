@@ -1,0 +1,93 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=M%C3%A9nage%20%C3%A0%20trois
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390671089, 3536763051, 1309479134
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1184'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:44 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4008 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"321686":{"pageid":321686,"ns":0,"title":"M\u00e9nage
+        \u00e0 trois","links":[{"ns":0,"title":"Aldous Huxley"},{"ns":0,"title":"Carl
+        Jung"},{"ns":0,"title":"Catherine Parr"},{"ns":0,"title":"Charles de Villers"},{"ns":0,"title":"Christabel
+        Marshall"},{"ns":0,"title":"Clare Atwood"},{"ns":0,"title":"Clive Bell"},{"ns":0,"title":"Consummation"},{"ns":0,"title":"Count
+        Adolf Fredrik Munck af Fulkila"},{"ns":0,"title":"David Constantine"},{"ns":0,"title":"David
+        Starkey"},{"ns":0,"title":"Deirdre Bair"},{"ns":0,"title":"Dorothea von Rodde-Schl\u00f6zer"},{"ns":0,"title":"E.
+        Nesbit"},{"ns":0,"title":"Edith Craig"},{"ns":0,"title":"Elizabeth Holloway
+        Marston"},{"ns":0,"title":"Elizabeth I of England"},{"ns":0,"title":"Emma
+        Hamilton"},{"ns":0,"title":"Emma Jung"},{"ns":0,"title":"Erwin Schr\u00f6dinger"},{"ns":0,"title":"Ezra
+        Pound"},{"ns":0,"title":"Francine du Plessix Gray"},{"ns":0,"title":"French
+        language"},{"ns":0,"title":"Friedrich Nietzsche"},{"ns":0,"title":"Gala Dal\u00ed"},{"ns":0,"title":"Georgiana,
+        Duchess of Devonshire"},{"ns":0,"title":"Gilbert Cannan"},{"ns":0,"title":"Gustaf
+        III of Sweden"},{"ns":0,"title":"Gustaf IV Adolf of Sweden"},{"ns":0,"title":"Hattie
+        Jacques"},{"ns":0,"title":"Henry Mond, 2nd Baron Melchett"},{"ns":0,"title":"Henry
+        VIII of England"},{"ns":0,"title":"House of Holstein-Gottorp (Swedish line)"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"John Le Mesurier"},{"ns":0,"title":"Lady
+        Elizabeth Foster"},{"ns":0,"title":"Lilya Brik"},{"ns":0,"title":"Linda Porter
+        (historian)"},{"ns":0,"title":"Lord Nelson"},{"ns":0,"title":"Lou Andreas-Salom\u00e9"},{"ns":0,"title":"Love
+        triangle"},{"ns":0,"title":"Max Ernst"},{"ns":0,"title":"M\u00e9nage \u00e0
+        trois (disambiguation)"},{"ns":0,"title":"Noel Perrin"},{"ns":0,"title":"Olga
+        Rudge"},{"ns":0,"title":"Osip Brik"},{"ns":0,"title":"Paul R\u00e9e"},{"ns":0,"title":"Paul
+        \u00c9luard"},{"ns":0,"title":"Penguin Press"},{"ns":0,"title":"Polyamory"},{"ns":0,"title":"Polyandry"},{"ns":0,"title":"Polygamy"},{"ns":0,"title":"Polygyny"},{"ns":0,"title":"Psychoanalyst"},{"ns":0,"title":"Sex
+        surrogate"},{"ns":0,"title":"Sexual relations"},{"ns":0,"title":"Sophie Magdalena
+        of Denmark"},{"ns":0,"title":"Sweden"},{"ns":0,"title":"Swinging (sexual practice)"},{"ns":0,"title":"Thomas
+        Seymour, 1st Baron Seymour of Sudeley"},{"ns":0,"title":"Threesome"},{"ns":0,"title":"Toni
+        Wolff"},{"ns":0,"title":"Troilism"},{"ns":0,"title":"University Press of New
+        England"},{"ns":0,"title":"Vladimir Mayakovsky"},{"ns":0,"title":"Walter J.
+        Moore"},{"ns":0,"title":"William Cavendish, 5th Duke of Devonshire"},{"ns":0,"title":"William
+        Hamilton (diplomat)"},{"ns":0,"title":"William Moulton Marston"},{"ns":0,"title":"Wonder
+        Woman"},{"ns":1,"title":"Talk:M\u00e9nage \u00e0 trois"},{"ns":4,"title":"Wikipedia:Embedded
+        list"},{"ns":4,"title":"Wikipedia:Prose"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Multiple
+        issues"},{"ns":10,"title":"Template:Prose"},{"ns":10,"title":"Template:Refimprove
+        section"},{"ns":12,"title":"Help:Editing"},{"ns":12,"title":"Help:Introduction
+        to referencing/1"},{"ns":14,"title":"Category:Articles needing additional
+        references from September 2013"},{"ns":14,"title":"Category:Articles needing
+        cleanup from March 2014"},{"ns":14,"title":"Category:Articles with sections
+        that need to be turned into prose from March 2014"},{"ns":14,"title":"Category:Use
+        dmy dates from April 2012"},{"ns":100,"title":"Portal:Sexuality"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:45 GMT
+recorded_with: VCR 2.9.2

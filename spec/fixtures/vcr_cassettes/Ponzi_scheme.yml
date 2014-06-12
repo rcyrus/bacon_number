@@ -1,0 +1,115 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Ponzi%20scheme
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3332323580, 3536768308, 2899143373
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1622'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:53 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1067 miss (0), cp4008 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"47185":{"pageid":47185,"ns":0,"title":"Ponzi scheme","links":[{"ns":0,"title":"Advance-fee
+        fraud"},{"ns":0,"title":"Advance fee fraud"},{"ns":0,"title":"Allen Stanford"},{"ns":0,"title":"Aman
+        Futures Group"},{"ns":0,"title":"Arbitrage"},{"ns":0,"title":"Art student
+        scam"},{"ns":0,"title":"Avalanche (phishing group)"},{"ns":0,"title":"Badger
+        game"},{"ns":0,"title":"Bait-and-switch"},{"ns":0,"title":"Bank run"},{"ns":0,"title":"Bernard
+        Cornfeld"},{"ns":0,"title":"Black money scam"},{"ns":0,"title":"Bogus escrow"},{"ns":0,"title":"Boiler
+        room (business)"},{"ns":0,"title":"Bucket shop (stock market)"},{"ns":0,"title":"Caritas
+        (Ponzi scheme)"},{"ns":0,"title":"Charity fraud"},{"ns":0,"title":"Charles
+        Dickens"},{"ns":0,"title":"Charles Ponzi"},{"ns":0,"title":"Click fraud"},{"ns":0,"title":"Clip
+        joint"},{"ns":0,"title":"Coin rolling scams"},{"ns":0,"title":"Computer crime"},{"ns":0,"title":"Confidence
+        trick"},{"ns":0,"title":"Confidence tricks in film and television"},{"ns":0,"title":"Confidence
+        tricks in literature"},{"ns":0,"title":"Coralie Colmez"},{"ns":0,"title":"Cramming
+        (fraud)"},{"ns":0,"title":"CyberThrill"},{"ns":0,"title":"DarkMarket"},{"ns":0,"title":"Dona
+        Branca"},{"ns":0,"title":"Drop swindle"},{"ns":0,"title":"Economic bubble"},{"ns":0,"title":"El
+        Gordo de la Primitiva Lottery International Promotions Programmes"},{"ns":0,"title":"Email
+        authentication"},{"ns":0,"title":"Email fraud"},{"ns":0,"title":"Embarrassing
+        cheque"},{"ns":0,"title":"Employment scams"},{"ns":0,"title":"Error account"},{"ns":0,"title":"Fiddle
+        game"},{"ns":0,"title":"Fine print"},{"ns":0,"title":"Fodder Scam"},{"ns":0,"title":"Foreclosure
+        rescue scheme"},{"ns":0,"title":"Foreign exchange fraud"},{"ns":0,"title":"Fortune
+        telling fraud"},{"ns":0,"title":"Foundation for New Era Philanthropy"},{"ns":0,"title":"Fraud"},{"ns":0,"title":"Futures
+        contract"},{"ns":0,"title":"Gem scam"},{"ns":0,"title":"Get-rich-quick scheme"},{"ns":0,"title":"Global
+        financial crisis of 2008"},{"ns":0,"title":"Greater fool theory"},{"ns":0,"title":"Green
+        goods scam"},{"ns":0,"title":"Hedge (finance)"},{"ns":0,"title":"Hedge fund"},{"ns":0,"title":"High-yield
+        investment program"},{"ns":0,"title":"Hustling"},{"ns":0,"title":"Insolvency"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"International reply coupon"},{"ns":0,"title":"Internet
+        fraud"},{"ns":0,"title":"Internet vigilantism"},{"ns":0,"title":"Intrinsic
+        value (finance)"},{"ns":0,"title":"Investment"},{"ns":0,"title":"Investors
+        Overseas Service"},{"ns":0,"title":"Kansas City Shuffle"},{"ns":0,"title":"Leila
+        Schneps"},{"ns":0,"title":"Liquidity crisis"},{"ns":0,"title":"List of Ponzi
+        schemes"},{"ns":0,"title":"List of con artists"},{"ns":0,"title":"List of
+        confidence tricks"},{"ns":0,"title":"Little Dorrit"},{"ns":0,"title":"Long
+        firm"},{"ns":0,"title":"Lottery scam"},{"ns":0,"title":"MMM (Ponzi scheme
+        company)"},{"ns":0,"title":"Madoff investment scandal"},{"ns":0,"title":"Make
+        Money Fast"},{"ns":0,"title":"Martin Chuzzlewit"},{"ns":0,"title":"Matrix
+        scheme"},{"ns":0,"title":"Miracle cars scam"},{"ns":0,"title":"Mock auction"},{"ns":0,"title":"Offshore
+        investment"},{"ns":0,"title":"Patent safe"},{"ns":0,"title":"PayPaI"},{"ns":0,"title":"Petters
+        Group Worldwide"},{"ns":0,"title":"Phishing"},{"ns":0,"title":"Pig in a poke"},{"ns":0,"title":"Priority
+        Development Assistance Fund scam"},{"ns":0,"title":"Pump and dump"},{"ns":0,"title":"Pyramid
+        scheme"},{"ns":0,"title":"Pyramid schemes in Albania"},{"ns":0,"title":"Real
+        estate bubble"},{"ns":0,"title":"Reed Slatkin"},{"ns":0,"title":"Referer spoofing"},{"ns":0,"title":"Reloading
+        scam"},{"ns":0,"title":"Ripoff Report"},{"ns":0,"title":"Rock Phish"},{"ns":0,"title":"Romance
+        scam"},{"ns":0,"title":"Russian Business Network"},{"ns":0,"title":"SaferNet"},{"ns":0,"title":"Saradha
+        Group financial scandal"},{"ns":0,"title":"Scam baiting"},{"ns":0,"title":"Scams
+        in intellectual property"},{"ns":0,"title":"Scott W. Rothstein"},{"ns":0,"title":"ShadowCrew"},{"ns":0,"title":"Shell
+        game"},{"ns":0,"title":"Shill"},{"ns":0,"title":"Sick baby hoax"},{"ns":0,"title":"Slavery
+        reparations scam"},{"ns":0,"title":"Spanish Prisoner"},{"ns":0,"title":"Spoofed
+        URL"},{"ns":0,"title":"Spoofing attack"},{"ns":0,"title":"Stanford Financial
+        Group"},{"ns":0,"title":"Stock Generation"},{"ns":0,"title":"Stock bubble"},{"ns":0,"title":"Strip
+        search phone call scam"},{"ns":0,"title":"Sucker list"},{"ns":0,"title":"Swampland
+        in Florida"},{"ns":0,"title":"Telemarketing fraud"},{"ns":0,"title":"Thai
+        tailor scam"},{"ns":0,"title":"Thai zig zag scam"},{"ns":0,"title":"Three-card
+        Monte"},{"ns":0,"title":"Trojan horse (business)"},{"ns":0,"title":"Tulip
+        mania"},{"ns":0,"title":"Website reputation ratings"},{"ns":0,"title":"White-collar
+        crime"},{"ns":0,"title":"White van speaker scam"},{"ns":0,"title":"Whitemail"},{"ns":0,"title":"Work-at-home
+        scheme"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:Refimprove
+        section"},{"ns":10,"title":"Template:Scams and confidence tricks"},{"ns":11,"title":"Template
+        talk:Scams and confidence tricks"},{"ns":12,"title":"Help:Introduction to
+        referencing/1"},{"ns":14,"title":"Category:Articles needing additional references
+        from March 2014"},{"ns":14,"title":"Category:Fictional con artists"},{"ns":14,"title":"Category:Use
+        dmy dates from February 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:54 GMT
+recorded_with: VCR 2.9.2

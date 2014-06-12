@@ -1,0 +1,132 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Mystic%20River%20(film)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 2704701045, 3085157042, 1613078622
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '1822'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:44 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1053 miss (0), cp4010 miss (0), cp4008 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"460052":{"pageid":460052,"ns":0,"title":"Mystic
+        River (film)","links":[{"ns":0,"title":"2003 Cannes Film Festival"},{"ns":0,"title":"57th
+        BAFTA Film Awards"},{"ns":0,"title":"61st Golden Globe Awards"},{"ns":0,"title":"76th
+        Academy Awards"},{"ns":0,"title":"A Drink Before the War"},{"ns":0,"title":"A
+        Perfect World"},{"ns":0,"title":"Absolute Power (film)"},{"ns":0,"title":"Academy
+        Award for Best Actor"},{"ns":0,"title":"Academy Award for Best Picture"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Award for Best
+        Supporting Actress"},{"ns":0,"title":"Academy Award for Directing"},{"ns":0,"title":"Academy
+        Award for Writing Adapted Screenplay"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"American
+        Cinema Editors"},{"ns":0,"title":"American Sniper (film)"},{"ns":0,"title":"Ari
+        Graynor"},{"ns":0,"title":"Art Directors Guild"},{"ns":0,"title":"Australian
+        Film Institute"},{"ns":0,"title":"Awards of the Japanese Academy"},{"ns":0,"title":"BAFTA
+        Award for Best Actor in a Leading Role"},{"ns":0,"title":"BAFTA Award for
+        Best Actor in a Supporting Role"},{"ns":0,"title":"BAFTA Award for Best Actress
+        in a Supporting Role"},{"ns":0,"title":"BAFTA Award for Best Adapted Screenplay"},{"ns":0,"title":"Ben-Hur
+        (1959 film)"},{"ns":0,"title":"Bill Gold"},{"ns":0,"title":"Bird (film)"},{"ns":0,"title":"Blood
+        Work (film)"},{"ns":0,"title":"Blue-collar"},{"ns":0,"title":"Boston"},{"ns":0,"title":"Boston
+        Society of Film Critics Awards 2003"},{"ns":0,"title":"Box Office Mojo"},{"ns":0,"title":"Breezy"},{"ns":0,"title":"Brian
+        Helgeland"},{"ns":0,"title":"Broadcast Film Critics Association"},{"ns":0,"title":"Bronco
+        Billy"},{"ns":0,"title":"Casting Society of America"},{"ns":0,"title":"Cayden
+        Boyd"},{"ns":0,"title":"Changeling (film)"},{"ns":0,"title":"Chicago Film
+        Critics Association"},{"ns":0,"title":"Child sexual abuse"},{"ns":0,"title":"Clint
+        Eastwood"},{"ns":0,"title":"Connor Paolo"},{"ns":0,"title":"Coronado: Stories"},{"ns":0,"title":"C\u00e9sar
+        Awards"},{"ns":0,"title":"DVD"},{"ns":0,"title":"Dallas-Fort Worth Film Critics
+        Association"},{"ns":0,"title":"Dallas Buyers Club"},{"ns":0,"title":"Darkness,
+        Take My Hand"},{"ns":0,"title":"Dennis Lehane"},{"ns":0,"title":"Drama"},{"ns":0,"title":"Eli
+        Wallach"},{"ns":0,"title":"Emmy Rossum"},{"ns":0,"title":"European Film Awards"},{"ns":0,"title":"Film"},{"ns":0,"title":"Firefox
+        (film)"},{"ns":0,"title":"Flags of Our Fathers (film)"},{"ns":0,"title":"Florida
+        Film Critics Circle"},{"ns":0,"title":"Full screen (cinema)"},{"ns":0,"title":"Golden
+        Globe Award for Best Actor - Motion Picture Drama"},{"ns":0,"title":"Golden
+        Globe Award for Best Director - Motion Picture"},{"ns":0,"title":"Golden Globe
+        Award for Best Motion Picture - Drama"},{"ns":0,"title":"Golden Globe Award
+        for Best Screenplay"},{"ns":0,"title":"Golden Globe Award for Best Supporting
+        Actor - Motion Picture"},{"ns":0,"title":"Gone, Baby, Gone (novel)"},{"ns":0,"title":"Gone
+        Baby Gone"},{"ns":0,"title":"Gran Torino"},{"ns":0,"title":"Harmony Books"},{"ns":0,"title":"Heartbreak
+        Ridge"},{"ns":0,"title":"Hebephile"},{"ns":0,"title":"Hereafter (film)"},{"ns":0,"title":"High
+        Plains Drifter"},{"ns":0,"title":"Honkytonk Man"},{"ns":0,"title":"I.B. Tauris"},{"ns":0,"title":"IFTA
+        Awards"},{"ns":0,"title":"International Horror Guild"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Invictus
+        (film)"},{"ns":0,"title":"J. Edgar"},{"ns":0,"title":"Jersey Boys (film)"},{"ns":0,"title":"Joel
+        Cox"},{"ns":0,"title":"John Doman"},{"ns":0,"title":"Jonathan Togo"},{"ns":0,"title":"Kansas
+        City Film Critics Circle"},{"ns":0,"title":"Ken Cheeseman"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Chapman"},{"ns":0,"title":"Kevin Conway (actor)"},{"ns":0,"title":"Las
+        Vegas Film Critics Society"},{"ns":0,"title":"Las Vegas Valley"},{"ns":0,"title":"Laura
+        Linney"},{"ns":0,"title":"Laurence Fishburne"},{"ns":0,"title":"Letters from
+        Iwo Jima"},{"ns":0,"title":"Live by Night"},{"ns":0,"title":"London Film Critics
+        Circle"},{"ns":0,"title":"Mainichi Film Concours"},{"ns":0,"title":"Malpaso
+        Productions"},{"ns":0,"title":"Marcia Gay Harden"},{"ns":0,"title":"Massachusetts
+        State Police"},{"ns":0,"title":"MetaCritic"},{"ns":0,"title":"Metacritic"},{"ns":0,"title":"Michael
+        McGovern (actor)"},{"ns":0,"title":"Midnight in the Garden of Good and Evil
+        (film)"},{"ns":0,"title":"Million Dollar Baby"},{"ns":0,"title":"Moonlight
+        Mile (novel)"},{"ns":0,"title":"Motion Picture Sound Editors"},{"ns":0,"title":"Mystic
+        River"},{"ns":0,"title":"Mystic River (novel)"},{"ns":0,"title":"National
+        Board of Review"},{"ns":0,"title":"National Society of Film Critics"},{"ns":0,"title":"Online
+        Film Critics Society"},{"ns":0,"title":"Pale Rider"},{"ns":0,"title":"Peter
+        Travers"},{"ns":0,"title":"Play Misty for Me"},{"ns":0,"title":"Prayers for
+        Rain"},{"ns":0,"title":"Robert Lorenz"},{"ns":0,"title":"Robert Wahlberg"},{"ns":0,"title":"Rolling
+        Stone"},{"ns":0,"title":"Rotten Tomatoes"},{"ns":0,"title":"Sacred (novel)"},{"ns":0,"title":"Satellite
+        Awards 2003"},{"ns":0,"title":"Screen Actors Guild"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Seattle Film Critics Awards 2003"},{"ns":0,"title":"Shutter
+        Island"},{"ns":0,"title":"Shutter Island (film)"},{"ns":0,"title":"Southeastern
+        Film Critics Association"},{"ns":0,"title":"Space Cowboys"},{"ns":0,"title":"Spencer
+        Treat Clark"},{"ns":0,"title":"Standard score"},{"ns":0,"title":"Sudden Impact"},{"ns":0,"title":"The
+        Bridges of Madison County (film)"},{"ns":0,"title":"The Eiger Sanction (film)"},{"ns":0,"title":"The
+        Gauntlet (film)"},{"ns":0,"title":"The Given Day"},{"ns":0,"title":"The Outlaw
+        Josey Wales"},{"ns":0,"title":"The Rookie (1990 film)"},{"ns":0,"title":"The
+        Sun (United Kingdom)"},{"ns":0,"title":"The Wire"},{"ns":0,"title":"Thriller
+        (genre)"},{"ns":0,"title":"Tim Robbins"},{"ns":0,"title":"Tom Guiry"},{"ns":0,"title":"Tom
+        Stern (cinematographer)"},{"ns":0,"title":"True Crime (1999 film)"},{"ns":0,"title":"Unforgiven"},{"ns":0,"title":"Vancouver
+        Film Critics Circle"},{"ns":0,"title":"Village Roadshow Pictures"},{"ns":0,"title":"Warner
+        Bros."},{"ns":0,"title":"White Hunter Black Heart"},{"ns":0,"title":"Widescreen"},{"ns":0,"title":"Will
+        Lyman"},{"ns":0,"title":"Writers Guild of America"},{"ns":1,"title":"Talk:Mystic
+        River (film)"},{"ns":4,"title":"Wikipedia:WikiProject Countering systemic
+        bias"},{"ns":10,"title":"Template:Clint Eastwood"},{"ns":10,"title":"Template:Dennis
+        Lehane"},{"ns":10,"title":"Template:Globalize"},{"ns":11,"title":"Template
+        talk:Clint Eastwood"},{"ns":11,"title":"Template talk:Dennis Lehane"},{"ns":14,"title":"Category:Articles
+        with limited geographic scope from December 2010"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:45 GMT
+recorded_with: VCR 2.9.2

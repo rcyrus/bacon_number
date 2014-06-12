@@ -1,0 +1,246 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Ben%20Kingsley
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711800432, 3085123039, 2899081823
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4394'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:37:49 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4010 miss (0), cp4009 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"168480":{"pageid":168480,"ns":0,"title":"Ben Kingsley","links":[{"ns":0,"title":"2002
+        New Year Honours"},{"ns":0,"title":"48th Berlin International Film Festival"},{"ns":0,"title":"A
+        Common Man (film)"},{"ns":0,"title":"A Midsummer Night''s Dream"},{"ns":0,"title":"Academy
+        Award"},{"ns":0,"title":"Academy Award for Best Actor"},{"ns":0,"title":"Academy
+        Award for Best Supporting Actor"},{"ns":0,"title":"Academy Awards"},{"ns":0,"title":"Adrien
+        Brody"},{"ns":0,"title":"Al Pacino"},{"ns":0,"title":"Alan Arkin"},{"ns":0,"title":"Alan
+        Rickman"},{"ns":0,"title":"Albert Brooks"},{"ns":0,"title":"Albert Finney"},{"ns":0,"title":"Albert
+        R. Broccoli"},{"ns":0,"title":"Aldwych Theatre"},{"ns":0,"title":"Alec Guinness"},{"ns":0,"title":"Alexander
+        Knox"},{"ns":0,"title":"Alison Sutcliffe"},{"ns":0,"title":"Angela Morant"},{"ns":0,"title":"Anthony
+        Franciosa"},{"ns":0,"title":"Anthony Hopkins"},{"ns":0,"title":"Anthony Minghella"},{"ns":0,"title":"Anthony
+        Quinn"},{"ns":0,"title":"Armin Mueller-Stahl"},{"ns":0,"title":"Art Carney"},{"ns":0,"title":"Arthur
+        Kennedy (actor)"},{"ns":0,"title":"Australia"},{"ns":0,"title":"Authority
+        control"},{"ns":0,"title":"BAFTA Award"},{"ns":0,"title":"BAFTA Award for
+        Best Actor in a Leading Role"},{"ns":0,"title":"BBC News"},{"ns":0,"title":"Barry
+        Fitzgerald"},{"ns":0,"title":"Ben Cross"},{"ns":0,"title":"Ben Kingsley filmography"},{"ns":0,"title":"Ben
+        Stiller"},{"ns":0,"title":"Benedict Cumberbatch"},{"ns":0,"title":"Betty White"},{"ns":0,"title":"Biblioth\u00e8que
+        nationale de France"},{"ns":0,"title":"Bill Murray"},{"ns":0,"title":"Billy
+        Bob Thornton"},{"ns":0,"title":"Bing Crosby"},{"ns":0,"title":"Bob Hoskins"},{"ns":0,"title":"Bob
+        Weinstein"},{"ns":0,"title":"Brad Pitt"},{"ns":0,"title":"Bradley Cooper"},{"ns":0,"title":"Brazil"},{"ns":0,"title":"Brian
+        Dennehy"},{"ns":0,"title":"Britannia Awards"},{"ns":0,"title":"British Academy
+        of Film and Television Arts"},{"ns":0,"title":"British Indian"},{"ns":0,"title":"Broadcast
+        Film Critics Association Award for Best Supporting Actor"},{"ns":0,"title":"Broadway
+        theatre"},{"ns":0,"title":"Broderick Crawford"},{"ns":0,"title":"Bruce Dern"},{"ns":0,"title":"Bruce
+        Greenwood"},{"ns":0,"title":"Buckingham Palace"},{"ns":0,"title":"Bugsy"},{"ns":0,"title":"Burt
+        Lancaster"},{"ns":0,"title":"Burt Reynolds"},{"ns":0,"title":"Campbell Scott"},{"ns":0,"title":"Cardiologist"},{"ns":0,"title":"Carl
+        Perkins"},{"ns":0,"title":"Carmine Lupertazzi"},{"ns":0,"title":"Casey Affleck"},{"ns":0,"title":"Ceremony
+        of Innocence"},{"ns":0,"title":"Chandran Rutnam"},{"ns":0,"title":"Charles
+        Laughton"},{"ns":0,"title":"Charlie Chaplin"},{"ns":0,"title":"Charlton Heston"},{"ns":0,"title":"Chips
+        Moman"},{"ns":0,"title":"Chiwetel Ejiofor"},{"ns":0,"title":"Chris Cooper"},{"ns":0,"title":"Christian
+        Bale"},{"ns":0,"title":"Christoph Waltz"},{"ns":0,"title":"Christopher Moltisanti"},{"ns":0,"title":"Christopher
+        Nolan"},{"ns":0,"title":"Christopher Plummer"},{"ns":0,"title":"Christopher
+        Reeve"},{"ns":0,"title":"Christopher Walken"},{"ns":0,"title":"Clark Gable"},{"ns":0,"title":"Cleaver
+        (The Sopranos)"},{"ns":0,"title":"Cliff Robertson"},{"ns":0,"title":"Clint
+        Eastwood"},{"ns":0,"title":"Colin Firth"},{"ns":0,"title":"Commander of the
+        Order of the British Empire"},{"ns":0,"title":"Coronation Street"},{"ns":0,"title":"Crown
+        Court (TV series)"},{"ns":0,"title":"Crystal Globe"},{"ns":0,"title":"Cuba
+        Gooding, Jr."},{"ns":0,"title":"Daniel Auteuil"},{"ns":0,"title":"Daniel Br\u00fchl"},{"ns":0,"title":"Daniel
+        Craig"},{"ns":0,"title":"Daniel Day-Lewis"},{"ns":0,"title":"Daniela Lavender"},{"ns":0,"title":"Danny
+        Boyle"},{"ns":0,"title":"Danny Huston"},{"ns":0,"title":"Dante Gabriel Rossetti"},{"ns":0,"title":"Dave
+        (film)"},{"ns":0,"title":"David Carradine"},{"ns":0,"title":"David Niven"},{"ns":0,"title":"David
+        Thewlis"},{"ns":0,"title":"David Yates"},{"ns":0,"title":"Death and the Maiden
+        (1994 film)"},{"ns":0,"title":"Death of a Salesman"},{"ns":0,"title":"Dennis
+        Haysbert"},{"ns":0,"title":"Denzel Washington"},{"ns":0,"title":"Dick James"},{"ns":0,"title":"Dirk
+        Bogarde"},{"ns":0,"title":"Djimon Hounsou"},{"ns":0,"title":"Donald Sutherland"},{"ns":0,"title":"Donovan''s
+        Brain"},{"ns":0,"title":"Dr. Watson"},{"ns":0,"title":"Dustin Hoffman"},{"ns":0,"title":"East
+        End of London"},{"ns":0,"title":"Eddie Murphy"},{"ns":0,"title":"Elegy (film)"},{"ns":0,"title":"Elizabeth
+        II"},{"ns":0,"title":"Emil Jannings"},{"ns":0,"title":"Emily Blunt"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Ender''s
+        Game (film)"},{"ns":0,"title":"Ernest Borgnine"},{"ns":0,"title":"Eugene Levy"},{"ns":0,"title":"European
+        Film Award for Best Actor"},{"ns":0,"title":"Ewan McGregor"},{"ns":0,"title":"F.
+        Murray Abraham"},{"ns":0,"title":"Fable III"},{"ns":0,"title":"Fear Is the
+        Key"},{"ns":0,"title":"Ferdinand Kingsley"},{"ns":0,"title":"Forest Whitaker"},{"ns":0,"title":"Fort
+        Railway Station (Colombo)"},{"ns":0,"title":"Fran\u00e7ois P\u00e9rier"},{"ns":0,"title":"Fredric
+        March"},{"ns":0,"title":"Gandhi (film)"},{"ns":0,"title":"Garrison Keillor"},{"ns":0,"title":"Gary
+        Cooper"},{"ns":0,"title":"Gary Sinise"},{"ns":0,"title":"Gene Hackman"},{"ns":0,"title":"Geoffrey
+        Rush"},{"ns":0,"title":"George Arliss"},{"ns":0,"title":"George C. Scott"},{"ns":0,"title":"George
+        Clooney"},{"ns":0,"title":"George Lucas"},{"ns":0,"title":"Gertrude Stein"},{"ns":0,"title":"Golden
+        Globe Award"},{"ns":0,"title":"Golden Globe Award for Best Actor \u2013 Motion
+        Picture Drama"},{"ns":0,"title":"Grammy Award"},{"ns":0,"title":"Grammy Award
+        for Best Spoken Word Album"},{"ns":0,"title":"Gregory Peck"},{"ns":0,"title":"Gujarati
+        people"},{"ns":0,"title":"Haing S. Ngor"},{"ns":0,"title":"Harry Lennix"},{"ns":0,"title":"Harvey
+        Weinstein"},{"ns":0,"title":"Heath Ledger"},{"ns":0,"title":"Helena Bonham
+        Carter"},{"ns":0,"title":"Henry Fonda"},{"ns":0,"title":"Herman Tarnower"},{"ns":0,"title":"History
+        of the Jews in Germany"},{"ns":0,"title":"Hollywood Walk of Fame"},{"ns":0,"title":"House
+        of Sand and Fog (film)"},{"ns":0,"title":"Howard Stringer"},{"ns":0,"title":"Hugh
+        Grant"},{"ns":0,"title":"Hugo (film)"},{"ns":0,"title":"Humphrey Bogart"},{"ns":0,"title":"Ian
+        McKellen"},{"ns":0,"title":"Inside the Actors Studio"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"International Standard Name Identifier"},{"ns":0,"title":"Internet
+        Movie Database"},{"ns":0,"title":"Iron Man 3"},{"ns":0,"title":"Jack Lemmon"},{"ns":0,"title":"Jack
+        Nicholson"},{"ns":0,"title":"James Cagney"},{"ns":0,"title":"James Mason"},{"ns":0,"title":"James
+        Stewart"},{"ns":0,"title":"Jamie Bell"},{"ns":0,"title":"Jamie Foxx"},{"ns":0,"title":"Jared
+        Leto"},{"ns":0,"title":"Jason Robards"},{"ns":0,"title":"Javier Bardem"},{"ns":0,"title":"Jean-Louis
+        Trintignant"},{"ns":0,"title":"Jean Dujardin"},{"ns":0,"title":"Jean Harris"},{"ns":0,"title":"Jeff
+        Bridges"},{"ns":0,"title":"Jeremy Irons"},{"ns":0,"title":"Jerry Lee Lewis"},{"ns":0,"title":"Jesse
+        Eisenberg"},{"ns":0,"title":"Jesse Jackson"},{"ns":0,"title":"Jim Broadbent"},{"ns":0,"title":"Jim
+        Carrey"},{"ns":0,"title":"Jim Sheridan"},{"ns":0,"title":"Joaquin Phoenix"},{"ns":0,"title":"John
+        Boorman"},{"ns":0,"title":"John Cleese"},{"ns":0,"title":"John Gielgud"},{"ns":0,"title":"John
+        Hurt"},{"ns":0,"title":"John Lasseter"},{"ns":0,"title":"John Travolta"},{"ns":0,"title":"John
+        Wayne"},{"ns":0,"title":"Johnny Cash"},{"ns":0,"title":"Jon Voight"},{"ns":0,"title":"Jos\u00e9
+        Ferrer"},{"ns":0,"title":"Karlovy Vary International Film Festival"},{"ns":0,"title":"Kate
+        Winslet"},{"ns":0,"title":"Kathryn Bigelow"},{"ns":0,"title":"Kenneth Branagh"},{"ns":0,"title":"Kenneth
+        More"},{"ns":0,"title":"Kenya"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin
+        Costner"},{"ns":0,"title":"Kevin Kline"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"Khoja"},{"ns":0,"title":"Kirk
+        Douglas"},{"ns":0,"title":"Knight Bachelor"},{"ns":0,"title":"Knight bachelor"},{"ns":0,"title":"Lake
+        Wobegon Days"},{"ns":0,"title":"Laurence Olivier"},{"ns":0,"title":"Lee Marvin"},{"ns":0,"title":"Leonardo
+        DiCaprio"},{"ns":0,"title":"Liam Neeson"},{"ns":0,"title":"Library of Congress
+        Control Number"},{"ns":0,"title":"Lincoln Portrait"},{"ns":0,"title":"Lionel
+        Barrymore"},{"ns":0,"title":"Lionhead Studios"},{"ns":0,"title":"London"},{"ns":0,"title":"Los
+        Angeles Film Critics Association Award for Best Actor"},{"ns":0,"title":"Lucky
+        Number Slevin"},{"ns":0,"title":"Luxury Lounge"},{"ns":0,"title":"Ma Rainey''s
+        Black Bottom"},{"ns":0,"title":"Mafia comedy"},{"ns":0,"title":"Mahatma Gandhi"},{"ns":0,"title":"Manchester"},{"ns":0,"title":"Manchester
+        Grammar School"},{"ns":0,"title":"Mandarin (comics)"},{"ns":0,"title":"Marcello
+        Mastroianni"},{"ns":0,"title":"Marlon Brando"},{"ns":0,"title":"Martin Campbell"},{"ns":0,"title":"Martin
+        Scorsese"},{"ns":0,"title":"Matt Stone"},{"ns":0,"title":"Matthew McConaughey"},{"ns":0,"title":"Matti
+        Pellonp\u00e4\u00e4"},{"ns":0,"title":"Maurice (film)"},{"ns":0,"title":"Max
+        von Sydow"},{"ns":0,"title":"Maximilian Schell"},{"ns":0,"title":"Mazer Rackham"},{"ns":0,"title":"Mel
+        Gibson"},{"ns":0,"title":"Michael Caine"},{"ns":0,"title":"Michael Clarke
+        Duncan"},{"ns":0,"title":"Michael Constantine"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael
+        Fassbender"},{"ns":0,"title":"Michael Redgrave"},{"ns":0,"title":"Michael
+        Shannon"},{"ns":0,"title":"Michael Sheen"},{"ns":0,"title":"Michel Bouquet"},{"ns":0,"title":"Mickey
+        Rourke"},{"ns":0,"title":"Mike Berniker"},{"ns":0,"title":"Mike Newell (director)"},{"ns":0,"title":"Ministry
+        of Communications and Information Technology (India)"},{"ns":0,"title":"Mohandas
+        Karamchand Gandhi"},{"ns":0,"title":"Morgan Freeman"},{"ns":0,"title":"Mrs.
+        Harris (film)"},{"ns":0,"title":"National Board of Review Award for Best Actor"},{"ns":0,"title":"Neil
+        Jordan"},{"ns":0,"title":"New Year Honours"},{"ns":0,"title":"New York Film
+        Critics Circle Award for Best Actor"},{"ns":0,"title":"Nick Nolte"},{"ns":0,"title":"Nicolas
+        Cage"},{"ns":0,"title":"Nigel Hawthorne"},{"ns":0,"title":"North Leigh"},{"ns":0,"title":"North
+        Riding of Yorkshire"},{"ns":0,"title":"Omar Sharif"},{"ns":0,"title":"Order
+        of the British Empire"},{"ns":0,"title":"Orson Welles"},{"ns":0,"title":"Oskar
+        Werner"},{"ns":0,"title":"Oxfordshire"},{"ns":0,"title":"Padma Shri"},{"ns":0,"title":"Pascali''s
+        Island (film)"},{"ns":0,"title":"Pat Carroll (actress)"},{"ns":0,"title":"Paul
+        Giamatti"},{"ns":0,"title":"Paul Lukas"},{"ns":0,"title":"Paul Muni"},{"ns":0,"title":"Paul
+        Newman"},{"ns":0,"title":"Paul Scofield"},{"ns":0,"title":"Pendlebury"},{"ns":0,"title":"Pen\u00e9lope
+        Cruz"},{"ns":0,"title":"Peter Brook"},{"ns":0,"title":"Peter Finch"},{"ns":0,"title":"Peter
+        Fonda"},{"ns":0,"title":"Peter Hall (theatre director)"},{"ns":0,"title":"Peter
+        O''Toole"},{"ns":0,"title":"Peter Sellers"},{"ns":0,"title":"Peter Ustinov"},{"ns":0,"title":"Peter
+        Weir"},{"ns":0,"title":"Philip Seymour Hoffman"},{"ns":0,"title":"Philippe
+        Noiret"},{"ns":0,"title":"Polish American"},{"ns":0,"title":"Prince of Persia:
+        The Sands of Time (film)"},{"ns":0,"title":"Quentin Tarantino"},{"ns":0,"title":"Rachel
+        Weisz"},{"ns":0,"title":"Raiders of the Lost Ark"},{"ns":0,"title":"Ralph
+        Fiennes"},{"ns":0,"title":"Ralph Richardson"},{"ns":0,"title":"Ray Milland"},{"ns":0,"title":"Ra\u00fal
+        Juli\u00e1"},{"ns":0,"title":"Rex Harrison"},{"ns":0,"title":"Richard Attenborough"},{"ns":0,"title":"Richard
+        Basehart"},{"ns":0,"title":"Richard Burton"},{"ns":0,"title":"Richard Dreyfuss"},{"ns":0,"title":"Richard
+        Farnsworth"},{"ns":0,"title":"Ricky Nelson"},{"ns":0,"title":"Ridley Scott"},{"ns":0,"title":"Robert
+        Carlyle"},{"ns":0,"title":"Robert De Niro"},{"ns":0,"title":"Robert Donat"},{"ns":0,"title":"Robert
+        Downey, Jr."},{"ns":0,"title":"Robert Duvall"},{"ns":0,"title":"Robert Mitchum"},{"ns":0,"title":"Robert
+        Powell"},{"ns":0,"title":"Robert Redford"},{"ns":0,"title":"Robert Ryan"},{"ns":0,"title":"Roberto
+        Benigni"},{"ns":0,"title":"Robin Williams"},{"ns":0,"title":"Rod Steiger"},{"ns":0,"title":"Ronald
+        Colman"},{"ns":0,"title":"Roy Orbison"},{"ns":0,"title":"Royal National Theatre"},{"ns":0,"title":"Royal
+        Shakespeare Company"},{"ns":0,"title":"Rupert Everett"},{"ns":0,"title":"Russell
+        Crowe"},{"ns":0,"title":"Russian Jew"},{"ns":0,"title":"Sacha Baron Cohen"},{"ns":0,"title":"Sam
+        Phillips"},{"ns":0,"title":"Sasson Gabai"},{"ns":0,"title":"Satellite Award
+        for Best Supporting Actor \u2013 Motion Picture"},{"ns":0,"title":"Schindler''s
+        List"},{"ns":0,"title":"Screen Actors Guild Award"},{"ns":0,"title":"Screen
+        Actors Guild Award for Outstanding Performance by a Male Actor in a Miniseries
+        or Television Movie"},{"ns":0,"title":"Sean Connery"},{"ns":0,"title":"Sean
+        Penn"},{"ns":0,"title":"Searching for Bobby Fischer"},{"ns":0,"title":"Sergi
+        L\u00f3pez i Ayats"},{"ns":0,"title":"Sergio Castellitto"},{"ns":0,"title":"Sexy
+        Beast"},{"ns":0,"title":"Shakespeare"},{"ns":0,"title":"Sherlock Holmes"},{"ns":0,"title":"Shutter
+        Island (film)"},{"ns":0,"title":"Sidney Poitier"},{"ns":0,"title":"Silas Marner"},{"ns":0,"title":"Slasher
+        film"},{"ns":0,"title":"Snainton"},{"ns":0,"title":"Sneakers (1992 film)"},{"ns":0,"title":"Spencer
+        Tracy"},{"ns":0,"title":"Sri Lanka"},{"ns":0,"title":"Stanley Kubrick"},{"ns":0,"title":"Stephen
+        Frears"},{"ns":0,"title":"Steve Martin"},{"ns":0,"title":"Steven Spielberg"},{"ns":0,"title":"Suspect
+        Zero"},{"ns":0,"title":"Sydney"},{"ns":0,"title":"Syst\u00e8me universitaire
+        de documentation"},{"ns":0,"title":"Tahar Rahim"},{"ns":0,"title":"The Asian
+        Awards"},{"ns":0,"title":"The Daily Telegraph"},{"ns":0,"title":"The London
+        Gazette"},{"ns":0,"title":"The Love School"},{"ns":0,"title":"The Sopranos"},{"ns":0,"title":"Thomas
+        Haden Church"},{"ns":0,"title":"Tilda Swinton"},{"ns":0,"title":"Tim Robbins"},{"ns":0,"title":"Tom
+        Conti"},{"ns":0,"title":"Tom Courtenay"},{"ns":0,"title":"Tom Cruise"},{"ns":0,"title":"Tom
+        Hanks"},{"ns":0,"title":"Tom Voegeli"},{"ns":0,"title":"Tom Wilkinson"},{"ns":0,"title":"Toni
+        Servillo"},{"ns":0,"title":"Tony Scott"},{"ns":0,"title":"Trevor Howard"},{"ns":0,"title":"Trevor
+        Nunn"},{"ns":0,"title":"Trey Parker"},{"ns":0,"title":"Tribeca Film Festival"},{"ns":0,"title":"Turtle
+        Diary"},{"ns":0,"title":"Ulrich M\u00fche"},{"ns":0,"title":"University of
+        Salford"},{"ns":0,"title":"Val Kilmer"},{"ns":0,"title":"Victor Banerjee"},{"ns":0,"title":"Victor
+        McLaglen"},{"ns":0,"title":"Victor Sj\u00f6str\u00f6m"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Volpone"},{"ns":0,"title":"Wallace
+        Beery"},{"ns":0,"title":"Walter Huston"},{"ns":0,"title":"Walter Matthau"},{"ns":0,"title":"War,
+        Inc."},{"ns":0,"title":"Warner Baxter"},{"ns":0,"title":"Warren Beatty"},{"ns":0,"title":"West
+        End theatre"},{"ns":0,"title":"Will Wright (game designer)"},{"ns":0,"title":"Willem
+        Dafoe"},{"ns":0,"title":"William H. Macy"},{"ns":0,"title":"William Holden"},{"ns":0,"title":"William
+        Hurt"},{"ns":0,"title":"William Powell"},{"ns":0,"title":"William Warfield"},{"ns":0,"title":"Willy
+        Loman"},{"ns":0,"title":"Without a Clue"},{"ns":0,"title":"World cinema"},{"ns":0,"title":"You
+        Kill Me"},{"ns":0,"title":"Yul Brynner"},{"ns":0,"title":"Zanzibar"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":10,"title":"Template:Academy
+        Award Best Actor"},{"ns":10,"title":"Template:BAFTA Award for Best Actor in
+        a Leading Role"},{"ns":10,"title":"Template:BAFTA Los Angeles Britannia Awards"},{"ns":10,"title":"Template:Broadcast
+        Film Critics Association Award for Best Supporting Actor"},{"ns":10,"title":"Template:European
+        Film Award for Best Actor"},{"ns":10,"title":"Template:Golden Globe Award
+        Best Actor Motion Picture Drama"},{"ns":10,"title":"Template:Grammy Award
+        for Best Spoken Word Album"},{"ns":10,"title":"Template:Grammy Award for Best
+        Spoken Word Album 1960s"},{"ns":10,"title":"Template:Grammy Award for Best
+        Spoken Word Album 1970s"},{"ns":10,"title":"Template:Grammy Award for Best
+        Spoken Word Album 1980s"},{"ns":10,"title":"Template:Grammy Award for Best
+        Spoken Word Album 1990s"},{"ns":10,"title":"Template:Grammy Award for Best
+        Spoken Word Album 2000s"},{"ns":10,"title":"Template:Grammy Award for Best
+        Spoken Word Album 2010s"},{"ns":10,"title":"Template:Los Angeles Film Critics
+        Association Award for Best Actor"},{"ns":10,"title":"Template:National Board
+        of Review Award for Best Actor"},{"ns":10,"title":"Template:New York Film
+        Critics Circle Award for Best Actor"},{"ns":10,"title":"Template:Satellite
+        Award Best Supporting Actor Motion Picture"},{"ns":10,"title":"Template:ScreenActorsGuildAward
+        MaleTVMiniseriesMovie"},{"ns":11,"title":"Template talk:Academy Award Best
+        Actor"},{"ns":11,"title":"Template talk:BAFTA Award for Best Actor in a Leading
+        Role"},{"ns":11,"title":"Template talk:BAFTA Los Angeles Britannia Awards"},{"ns":11,"title":"Template
+        talk:Broadcast Film Critics Association Award for Best Supporting Actor"},{"ns":11,"title":"Template
+        talk:European Film Award for Best Actor"},{"ns":11,"title":"Template talk:Golden
+        Globe Award Best Actor Motion Picture Drama"},{"ns":11,"title":"Template talk:Grammy
+        Award for Best Spoken Word Album 1980s"},{"ns":11,"title":"Template talk:Los
+        Angeles Film Critics Association Award for Best Actor"},{"ns":11,"title":"Template
+        talk:National Board of Review Award for Best Actor"},{"ns":11,"title":"Template
+        talk:New York Film Critics Circle Award for Best Actor"},{"ns":11,"title":"Template
+        talk:Satellite Award Best Supporting Actor Motion Picture"},{"ns":11,"title":"Template
+        talk:ScreenActorsGuildAward MaleTVMiniseriesMovie"},{"ns":14,"title":"Category:Use
+        dmy dates from May 2011"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:37:50 GMT
+recorded_with: VCR 2.9.2

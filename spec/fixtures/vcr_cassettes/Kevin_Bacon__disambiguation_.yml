@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Kevin%20Bacon%20(disambiguation)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 287133907, 3536754549, 1309465767
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '197'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:30 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1054 miss (0), cp4008 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"9429717":{"pageid":9429717,"ns":0,"title":"Kevin
+        Bacon (disambiguation)","links":[{"ns":0,"title":"Chuck (TV series)"},{"ns":0,"title":"Kevin
+        Bacon"},{"ns":0,"title":"Kevin Bacon (equestrian)"},{"ns":0,"title":"Kevin
+        Bacon (politician)"},{"ns":0,"title":"Kevin Bacon (producer)"},{"ns":0,"title":"Six
+        Degrees of Kevin Bacon"},{"ns":12,"title":"Help:Disambiguation"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:31 GMT
+recorded_with: VCR 2.9.2

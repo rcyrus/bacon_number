@@ -1,0 +1,140 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Steven%20Weber%20(actor)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 87322651, 983734640, 2597367253
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2282'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:11 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1055 miss (0), cp4018 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"3598269":{"pageid":3598269,"ns":0,"title":"Steven
+        Weber (actor)","links":[{"ns":0,"title":"2 Broke Girls"},{"ns":0,"title":"A
+        Fairly Odd Movie: Grow Up, Timmy Turner!"},{"ns":0,"title":"A Little Bit of
+        Heaven (2011 film)"},{"ns":0,"title":"Alan Alda"},{"ns":0,"title":"Alcoholic"},{"ns":0,"title":"All
+        Dogs Go to Heaven: The Series"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"American
+        Dad!"},{"ns":0,"title":"An All Dogs Christmas Carol"},{"ns":0,"title":"Angels
+        (1990 film)"},{"ns":0,"title":"As The World Turns"},{"ns":0,"title":"As the
+        World Turns"},{"ns":0,"title":"At First Sight"},{"ns":0,"title":"Baby Blues
+        (US TV series)"},{"ns":0,"title":"Ben Browder"},{"ns":0,"title":"Benders (film)"},{"ns":0,"title":"Betrayed
+        by Love"},{"ns":0,"title":"Borscht Belt"},{"ns":0,"title":"Break Up (1998
+        film)"},{"ns":0,"title":"Briarwood, Queens"},{"ns":0,"title":"Broadway theatre"},{"ns":0,"title":"Brothers
+        & Sisters (2006 TV series)"},{"ns":0,"title":"Bryan Cranston"},{"ns":0,"title":"CBS"},{"ns":0,"title":"Chasing
+        Life"},{"ns":0,"title":"Choose Connor"},{"ns":0,"title":"Club Land"},{"ns":0,"title":"Clubland
+        (2003 film)"},{"ns":0,"title":"Common Ground (2000 film)"},{"ns":0,"title":"Crawlspace
+        (2013 film)"},{"ns":0,"title":"Crime Story (TV series)"},{"ns":0,"title":"Cursed
+        (TV series)"},{"ns":0,"title":"Dallas (2012 TV series)"},{"ns":0,"title":"David
+        Boreanaz"},{"ns":0,"title":"Deception: A Mother''s Secret"},{"ns":0,"title":"Defamation"},{"ns":0,"title":"Desperate
+        Housewives"},{"ns":0,"title":"Desperation (TV film)"},{"ns":0,"title":"Disney
+        XD"},{"ns":0,"title":"Dracula: Dead and Loving It"},{"ns":0,"title":"Drama"},{"ns":0,"title":"Duckman:
+        Private Dick/Family Man"},{"ns":0,"title":"Eddie Pepitone"},{"ns":0,"title":"Edward
+        James Olmos"},{"ns":0,"title":"Emmy"},{"ns":0,"title":"Eve of Destruction
+        (mini-series)"},{"ns":0,"title":"Extreme Ghostbusters"},{"ns":0,"title":"Falling
+        Skies"},{"ns":0,"title":"Farm House (film)"},{"ns":0,"title":"Fillmore!"},{"ns":0,"title":"Finn
+        Carter"},{"ns":0,"title":"Geraldine Page"},{"ns":0,"title":"Green Goblin"},{"ns":0,"title":"Guest
+        appearance"},{"ns":0,"title":"Hamburger Hill"},{"ns":0,"title":"Happy Town
+        (TV series)"},{"ns":0,"title":"Hercules (1998 TV series)"},{"ns":0,"title":"Higglytown
+        Heroes"},{"ns":0,"title":"High School of Performing Arts"},{"ns":0,"title":"Highclere
+        Castle"},{"ns":0,"title":"Hot in Cleveland"},{"ns":0,"title":"I''m with Her"},{"ns":0,"title":"I
+        Woke Up Early the Day I Died"},{"ns":0,"title":"In Plain Sight"},{"ns":0,"title":"In
+        the Company of Darkness"},{"ns":0,"title":"In the Line of Duty: A Cop for
+        the Killing"},{"ns":0,"title":"Inside Out (2005 film)"},{"ns":0,"title":"Internet
+        Broadway Database"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Internet
+        Off-Broadway Database"},{"ns":0,"title":"Jack Rudolph (character)"},{"ns":0,"title":"Jack
+        Torrance"},{"ns":0,"title":"Jeffrey (film)"},{"ns":0,"title":"John F. Kennedy"},{"ns":0,"title":"Joseph:
+        King of Dreams"},{"ns":0,"title":"Josh Holloway"},{"ns":0,"title":"Julianne
+        Moore"},{"ns":0,"title":"Juliette Hohnen"},{"ns":0,"title":"Just Looking (1995
+        film)"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kevin Spacey"},{"ns":0,"title":"King
+        of the Hill (The Simpsons)"},{"ns":0,"title":"Kojak: Fatal Flaw"},{"ns":0,"title":"Kyle
+        Chandler"},{"ns":0,"title":"Late Last Night (film)"},{"ns":0,"title":"Law
+        & Order: Special Victims Unit"},{"ns":0,"title":"Leaving Las Vegas"},{"ns":0,"title":"Leo
+        Bloom"},{"ns":0,"title":"London"},{"ns":0,"title":"Los Angeles"},{"ns":0,"title":"Love
+        Letters (1999 film)"},{"ns":0,"title":"MTV News"},{"ns":0,"title":"Malibu
+        Country"},{"ns":0,"title":"Masters of Horror"},{"ns":0,"title":"Matthew Broderick"},{"ns":0,"title":"Matthew
+        Fox"},{"ns":0,"title":"Michael C. Hall"},{"ns":0,"title":"Mirror Repertory
+        Company"},{"ns":0,"title":"Monk (TV series)"},{"ns":0,"title":"More of Me"},{"ns":0,"title":"Motion
+        pictures"},{"ns":0,"title":"Murder in the First (TV series)"},{"ns":0,"title":"My
+        One and Only (film)"},{"ns":0,"title":"NBC"},{"ns":0,"title":"National Anthems"},{"ns":0,"title":"New
+        York"},{"ns":0,"title":"New York (state)"},{"ns":0,"title":"Nightclub"},{"ns":0,"title":"Nightmares
+        & Dreamscapes (TV Series)"},{"ns":0,"title":"Nightmares and Dreamscapes: From
+        the Stories of Stephen King"},{"ns":0,"title":"Norman Osborn"},{"ns":0,"title":"Old
+        Vic"},{"ns":0,"title":"Once and Again"},{"ns":0,"title":"Party Down"},{"ns":0,"title":"Penguins
+        of Madagascar"},{"ns":0,"title":"People (magazine)"},{"ns":0,"title":"Psych"},{"ns":0,"title":"Pudd''nhead
+        Wilson"},{"ns":0,"title":"Reefer Madness: The Movie Musical"},{"ns":0,"title":"Regular
+        Show"},{"ns":0,"title":"Richard Dean Anderson"},{"ns":0,"title":"Robert Patrick"},{"ns":0,"title":"Santa
+        Monica, California"},{"ns":0,"title":"Saturn Award"},{"ns":0,"title":"Saturn
+        Award for Best Actor on Television"},{"ns":0,"title":"Sexual Life"},{"ns":0,"title":"Showtime
+        (TV network)"},{"ns":0,"title":"Side Order of Life"},{"ns":0,"title":"Single
+        White Female"},{"ns":0,"title":"Sitcom"},{"ns":0,"title":"Sleep Easy, Hutch
+        Rimes"},{"ns":0,"title":"Son of Mourning"},{"ns":0,"title":"Sour Grapes (film)"},{"ns":0,"title":"Star
+        Trek: Deep Space Nine"},{"ns":0,"title":"Stark Raving Mad (TV series)"},{"ns":0,"title":"State
+        University of New York at Purchase"},{"ns":0,"title":"Stephen King"},{"ns":0,"title":"Stephen
+        King''s Desperation"},{"ns":0,"title":"Stephen Moyer"},{"ns":0,"title":"Studio
+        60 on the Sunset Strip"},{"ns":0,"title":"TV"},{"ns":0,"title":"TV Land Award"},{"ns":0,"title":"TV
+        commercials"},{"ns":0,"title":"Take Out the Beast"},{"ns":0,"title":"Tales
+        from the Crypt (TV series)"},{"ns":0,"title":"Thanks of a Grateful Nation"},{"ns":0,"title":"The
+        Amateurs"},{"ns":0,"title":"The D.A. (2004 TV series)"},{"ns":0,"title":"The
+        Flamingo Kid"},{"ns":0,"title":"The Kennedys of Massachusetts"},{"ns":0,"title":"The
+        Legend of Tarzan"},{"ns":0,"title":"The Lyon''s Den"},{"ns":0,"title":"The
+        Movie (film)"},{"ns":0,"title":"The New Batman Adventures"},{"ns":0,"title":"The
+        Outer Limits (1995 TV series)"},{"ns":0,"title":"The Politician (film)"},{"ns":0,"title":"The
+        Producers (musical)"},{"ns":0,"title":"The Real Thing (play)"},{"ns":0,"title":"The
+        Shining (TV miniseries)"},{"ns":0,"title":"The Shining (mini-series)"},{"ns":0,"title":"The
+        Simpsons"},{"ns":0,"title":"The Temp (film)"},{"ns":0,"title":"The Twelve
+        Days of Christmas Eve"},{"ns":0,"title":"Tim Daly"},{"ns":0,"title":"Timecode
+        (film)"},{"ns":0,"title":"Tom Stoppard"},{"ns":0,"title":"Tony Shalhoub"},{"ns":0,"title":"Trapster"},{"ns":0,"title":"Ultimate
+        Spider-Man (TV series)"},{"ns":0,"title":"Venom (comics)"},{"ns":0,"title":"Vineyard"},{"ns":0,"title":"Walls
+        of Glass"},{"ns":0,"title":"When We Were Young (film)"},{"ns":0,"title":"Wilfred
+        (U.S. TV series)"},{"ns":0,"title":"Will & Grace"},{"ns":0,"title":"Wings
+        (NBC TV series)"},{"ns":0,"title":"Without a Trace"},{"ns":0,"title":"You
+        Know They Got a Hell of a Band"},{"ns":4,"title":"Wikipedia:Biographies of
+        living persons"},{"ns":4,"title":"Wikipedia:Citing sources"},{"ns":4,"title":"Wikipedia:Identifying
+        reliable sources"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Verifiability"},{"ns":10,"title":"Template:BLP
+        sources"},{"ns":10,"title":"Template:Saturn Award for Best Actor on Television"},{"ns":11,"title":"Template
+        talk:Saturn Award for Best Actor on Television"},{"ns":14,"title":"Category:BLP
+        articles lacking sources from June 2009"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:12 GMT
+recorded_with: VCR 2.9.2

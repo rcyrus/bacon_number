@@ -1,0 +1,260 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Will.i.am
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390722310, 3085181672, 1309516093
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '4963'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:23 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4010 miss (0), cp4016 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"1982061":{"pageid":1982061,"ns":0,"title":"Will.i.am","links":[{"ns":0,"title":"2001
+        in music"},{"ns":0,"title":"2009 MTV Video Music Awards controversy"},{"ns":0,"title":"2009
+        MuchMusic Video Awards"},{"ns":0,"title":"2NE1"},{"ns":0,"title":"3 Words"},{"ns":0,"title":"3
+        Words (song)"},{"ns":0,"title":"5150: Home 4 tha Sick"},{"ns":0,"title":"A.
+        R. Rahman"},{"ns":0,"title":"A Dream (Common song)"},{"ns":0,"title":"Above
+        the Law (group)"},{"ns":0,"title":"Adam Rodr\u00edguez"},{"ns":0,"title":"Adrianne
+        Palicki"},{"ns":0,"title":"African American"},{"ns":0,"title":"Aisha Tyler"},{"ns":0,"title":"Akon"},{"ns":0,"title":"Alan
+        Carr: Chatty Man"},{"ns":0,"title":"Alice Barlow"},{"ns":0,"title":"Alicia
+        Keys"},{"ns":0,"title":"Alive (The Black Eyed Peas song)"},{"ns":0,"title":"All
+        My Life (In the Ghetto)"},{"ns":0,"title":"Allan Pineda"},{"ns":0,"title":"Amber
+        Valletta"},{"ns":0,"title":"America''s Song"},{"ns":0,"title":"American Idol"},{"ns":0,"title":"American
+        Music Award"},{"ns":0,"title":"Anderson Cooper"},{"ns":0,"title":"Andrea Begley"},{"ns":0,"title":"Anjunabeats"},{"ns":0,"title":"Anne
+        Hathaway"},{"ns":0,"title":"Ant Henson"},{"ns":0,"title":"Apl.de.ap"},{"ns":0,"title":"Apple
+        Inc."},{"ns":0,"title":"Arabian Prince"},{"ns":0,"title":"Aret Kapetanovic"},{"ns":0,"title":"Arthur
+        and the Revenge of Maltazard"},{"ns":0,"title":"Arty (musician)"},{"ns":0,"title":"Atban
+        Klann"},{"ns":0,"title":"Atlanta Falcons"},{"ns":0,"title":"Atlantic Records"},{"ns":0,"title":"Australian
+        Recording Industry Association"},{"ns":0,"title":"Authority control"},{"ns":0,"title":"BBC"},{"ns":0,"title":"BEP
+        Empire/Get Original"},{"ns":0,"title":"Baby Love (Nicole Scherzinger song)"},{"ns":0,"title":"Bang
+        Bang (will.i.am song)"},{"ns":0,"title":"Barack Obama"},{"ns":0,"title":"Be
+        OK (Chrisette Michele song)"},{"ns":0,"title":"Bebot"},{"ns":0,"title":"Becky
+        Hill"},{"ns":0,"title":"Beep (The Pussycat Dolls song)"},{"ns":0,"title":"Behind
+        the Bridge to Elephunk"},{"ns":0,"title":"Behind the Front"},{"ns":0,"title":"Best
+        Pop Performance by a Duo or Group"},{"ns":0,"title":"Best Pop Vocal Album"},{"ns":0,"title":"Best
+        Rap Performance by a Duo or Group"},{"ns":0,"title":"Best Short Form Music
+        Video"},{"ns":0,"title":"Biblioth\u00e8que nationale de France"},{"ns":0,"title":"Big
+        Fat Bass"},{"ns":0,"title":"Bill Gates"},{"ns":0,"title":"Billboard 100"},{"ns":0,"title":"Billboard
+        Hot 100"},{"ns":0,"title":"Billboard Music Award"},{"ns":0,"title":"Billboard
+        Top 200"},{"ns":0,"title":"Birthday (will.i.am song)"},{"ns":0,"title":"Bizzy
+        Bone"},{"ns":0,"title":"Black Blue & You Tour"},{"ns":0,"title":"Blood of
+        Abraham"},{"ns":0,"title":"Bo Bruce"},{"ns":0,"title":"Bone Thugs-n-Harmony"},{"ns":0,"title":"Bono"},{"ns":0,"title":"Boom
+        Boom Pow"},{"ns":0,"title":"Bouncing Cats"},{"ns":0,"title":"Boyle Heights"},{"ns":0,"title":"Brazil"},{"ns":0,"title":"Bridging
+        the Gap (Black Eyed Peas album)"},{"ns":0,"title":"Britney Jean"},{"ns":0,"title":"Britney
+        Spears"},{"ns":0,"title":"Bryan Greenberg"},{"ns":0,"title":"Busta Rhymes"},{"ns":0,"title":"California"},{"ns":0,"title":"Canadian
+        Recording Industry Association"},{"ns":0,"title":"Cane (TV series)"},{"ns":0,"title":"Capital
+        (radio network)"},{"ns":0,"title":"Cartoon Network"},{"ns":0,"title":"Change
+        is Now: Renewing America''s Promise"},{"ns":0,"title":"Check It Out (song)"},{"ns":0,"title":"Check
+        It Out (will.i.am and Nicki Minaj song)"},{"ns":0,"title":"Cher Lloyd"},{"ns":0,"title":"Cheryl
+        Cole"},{"ns":0,"title":"Chris Brown (American entertainer)"},{"ns":0,"title":"Clavinet"},{"ns":0,"title":"Cleo
+        Higgins"},{"ns":0,"title":"Cold 187um"},{"ns":0,"title":"Colin Chisholm (singer)"},{"ns":0,"title":"Columbia
+        Records"},{"ns":0,"title":"Common (rapper)"},{"ns":0,"title":"Compton, California"},{"ns":0,"title":"Contemporary
+        R&B"},{"ns":0,"title":"Crazy Kids"},{"ns":0,"title":"DJ Yella"},{"ns":0,"title":"Daddy
+        Yankee"},{"ns":0,"title":"Daily Mirror"},{"ns":0,"title":"Damien LeRoy"},{"ns":0,"title":"Danny
+        Foster (musician)"},{"ns":0,"title":"Danny O''Donoghue"},{"ns":0,"title":"Date
+        Night"},{"ns":0,"title":"Date Night (film)"},{"ns":0,"title":"David Foster"},{"ns":0,"title":"David
+        Guetta"},{"ns":0,"title":"Dean Kamen"},{"ns":0,"title":"Denise Pearson"},{"ns":0,"title":"Dexter''s
+        Laboratory: The Hip-Hop Experiment"},{"ns":0,"title":"Diamond Jubilee Concert"},{"ns":0,"title":"Digital
+        Spy"},{"ns":0,"title":"Dipdive"},{"ns":0,"title":"Do It Like This"},{"ns":0,"title":"Don''t
+        Lie"},{"ns":0,"title":"Don''t Phunk with My Heart"},{"ns":0,"title":"Don''t
+        Stop the Party (The Black Eyed Peas song)"},{"ns":0,"title":"Dr. Dre"},{"ns":0,"title":"Dutch
+        people"},{"ns":0,"title":"Earth, Wind & Fire"},{"ns":0,"title":"Eastside Los
+        Angeles"},{"ns":0,"title":"Eazy-E"},{"ns":0,"title":"Eden''s Crush"},{"ns":0,"title":"Eduardo
+        Hontiveros"},{"ns":0,"title":"Edward Jones Dome"},{"ns":0,"title":"Electro
+        (music)"},{"ns":0,"title":"Electro music"},{"ns":0,"title":"Electronic dance"},{"ns":0,"title":"Elephunk"},{"ns":0,"title":"Emma
+        Willis"},{"ns":0,"title":"Eric Balfour"},{"ns":0,"title":"Eric Mabius"},{"ns":0,"title":"Estrada
+        Courts"},{"ns":0,"title":"Eva Simons"},{"ns":0,"title":"FIRST"},{"ns":0,"title":"FIRST
+        Robotics Competition"},{"ns":0,"title":"Facebook"},{"ns":0,"title":"Faith
+        Hill"},{"ns":0,"title":"Fall Down (will.i.am song)"},{"ns":0,"title":"Fallin''
+        Up/\u00bfQue Dices?"},{"ns":0,"title":"Fashion Institute of Design & Merchandising"},{"ns":0,"title":"Feelin''
+        Myself (Will.i.am song)"},{"ns":0,"title":"Feelin'' Myself (will.i.am song)"},{"ns":0,"title":"Femme
+        Fatale (Britney Spears album)"},{"ns":0,"title":"Fergalicious"},{"ns":0,"title":"Fergie
+        (singer)"},{"ns":0,"title":"Fernando Z\u00f3bel de Ayala y Montojo"},{"ns":0,"title":"First
+        inauguration of Barack Obama"},{"ns":0,"title":"Flo Rida"},{"ns":0,"title":"For
+        Inspiration and Recognition of Science and Technology"},{"ns":0,"title":"Forever
+        (Wolfgang Gartner and will.i.am song)"},{"ns":0,"title":"Francis Magalona"},{"ns":0,"title":"Free
+        (Natalia Kills song)"},{"ns":0,"title":"French Montana"},{"ns":0,"title":"Frost
+        (rapper)"},{"ns":0,"title":"George Lopez"},{"ns":0,"title":"God"},{"ns":0,"title":"Grammy
+        Award"},{"ns":0,"title":"Grammy Award for Best Pop Performance by a Duo or
+        Group with Vocals"},{"ns":0,"title":"Grammy Award for Best Rap Performance
+        by a Duo or Group"},{"ns":0,"title":"Great Times (song)"},{"ns":0,"title":"H.W.A."},{"ns":0,"title":"Hall
+        of Fame (song)"},{"ns":0,"title":"Hans Zimmer"},{"ns":0,"title":"Harold Perrineau"},{"ns":0,"title":"Hearst
+        Magazines UK"},{"ns":0,"title":"Heartbreaker (will.i.am song)"},{"ns":0,"title":"Heartless
+        (Kanye West song)"},{"ns":0,"title":"Herbie Hancock"},{"ns":0,"title":"Here
+        I Come (Fergie song)"},{"ns":0,"title":"Here I Stand (Usher album)"},{"ns":0,"title":"Heshima
+        Thompson"},{"ns":0,"title":"Hey Mama (The Black Eyed Peas song)"},{"ns":0,"title":"Hilary
+        Duff"},{"ns":0,"title":"Hill Harper"},{"ns":0,"title":"Hip Hop Is Dead (song)"},{"ns":0,"title":"Hip
+        hop"},{"ns":0,"title":"Hip hop music"},{"ns":0,"title":"Hip house"},{"ns":0,"title":"Holly
+        Willoughby"},{"ns":0,"title":"Honda Civic Tour"},{"ns":0,"title":"Hopsin"},{"ns":0,"title":"Hot
+        Tub Time Machine"},{"ns":0,"title":"House music"},{"ns":0,"title":"I''m in
+        the House"},{"ns":0,"title":"I.am+"},{"ns":0,"title":"IFPI"},{"ns":0,"title":"ITunes"},{"ns":0,"title":"I
+        Got It from My Mama"},{"ns":0,"title":"I Gotta Feeling"},{"ns":0,"title":"I
+        Love My Bitch"},{"ns":0,"title":"I Wanna Go Crazy"},{"ns":0,"title":"I Want
+        You (Common song)"},{"ns":0,"title":"Imma Be"},{"ns":0,"title":"In My City"},{"ns":0,"title":"In
+        My City (Priyanka Chopra song)"},{"ns":0,"title":"In the Ayer"},{"ns":0,"title":"Instagram"},{"ns":0,"title":"Integrated
+        Authority File"},{"ns":0,"title":"Intel Corp."},{"ns":0,"title":"International
+        Standard Name Identifier"},{"ns":0,"title":"Internet Movie Database"},{"ns":0,"title":"Interscope
+        Records"},{"ns":0,"title":"It''s My Birthday"},{"ns":0,"title":"It''s a New
+        Day (song)"},{"ns":0,"title":"J. J. Fad"},{"ns":0,"title":"James Sutton (photographer)"},{"ns":0,"title":"Jamie
+        Foxx"},{"ns":0,"title":"Jay Aston"},{"ns":0,"title":"Jennifer Lopez"},{"ns":0,"title":"Jermain
+        Jackman"},{"ns":0,"title":"Jesse Dylan"},{"ns":0,"title":"Jessica Alba"},{"ns":0,"title":"Jessica
+        Hammond"},{"ns":0,"title":"Jessie J"},{"ns":0,"title":"Jimmy Zavala"},{"ns":0,"title":"Joan
+        of Arcadia"},{"ns":0,"title":"John Legend"},{"ns":0,"title":"John Leguizamo"},{"ns":0,"title":"John
+        Wraith"},{"ns":0,"title":"John de Mol"},{"ns":0,"title":"Joints & Jam"},{"ns":0,"title":"Juanes"},{"ns":0,"title":"Just
+        Can''t Get Enough (The Black Eyed Peas song)"},{"ns":0,"title":"Justin Bieber"},{"ns":0,"title":"Justin
+        Timberlake"},{"ns":0,"title":"K-pop"},{"ns":0,"title":"Kanye West"},{"ns":0,"title":"Kareem
+        Abdul-Jabbar"},{"ns":0,"title":"Karma (The Black Eyed Peas song)"},{"ns":0,"title":"Kate
+        Walsh (actress)"},{"ns":0,"title":"Kavana (singer)"},{"ns":0,"title":"Keep
+        Bouncin''"},{"ns":0,"title":"Keith Harris (record producer)"},{"ns":0,"title":"Kelly
+        Hu"},{"ns":0,"title":"Kerry Ellis"},{"ns":0,"title":"Kerry Washington"},{"ns":0,"title":"Kesha"},{"ns":0,"title":"Kestrel
+        (Marvel Comics)"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"Kim Hill
+        (soul musician)"},{"ns":0,"title":"Kirsty Crawford"},{"ns":0,"title":"Kokane"},{"ns":0,"title":"Koreans"},{"ns":0,"title":"Kylie
+        Minogue"},{"ns":0,"title":"Kym Mazelle"},{"ns":0,"title":"Kyra Sedgwick"},{"ns":0,"title":"LA
+        Times"},{"ns":0,"title":"LMFAO (group)"},{"ns":0,"title":"Lady Gaga"},{"ns":0,"title":"Latin
+        Grammy Awards of 2006"},{"ns":0,"title":"Leah McFall"},{"ns":0,"title":"Leanne
+        Mitchell"},{"ns":0,"title":"Leland Yee"},{"ns":0,"title":"Let''s Get It Started"},{"ns":0,"title":"Library
+        of Congress Control Number"},{"ns":0,"title":"Light Up the Night (The Black
+        Eyed Peas song)"},{"ns":0,"title":"List of The Voice UK contestants"},{"ns":0,"title":"List
+        of The Voice UK finalists (series 1)"},{"ns":0,"title":"Live from Sydney to
+        Vegas"},{"ns":0,"title":"Logo Motion"},{"ns":0,"title":"Lorraine Crosby"},{"ns":0,"title":"Los
+        Angeles"},{"ns":0,"title":"Los Angeles, California"},{"ns":0,"title":"Los
+        Angeles Rams"},{"ns":0,"title":"Los Angeles Times"},{"ns":0,"title":"Lost
+        Change"},{"ns":0,"title":"Lynn Cain"},{"ns":0,"title":"MC Ren"},{"ns":0,"title":"MTV"},{"ns":0,"title":"MTV
+        Video Music Awards"},{"ns":0,"title":"Macy Gray"},{"ns":0,"title":"Madagascar:
+        Escape 2 Africa"},{"ns":0,"title":"Mail on Sunday (album)"},{"ns":0,"title":"Mainstream"},{"ns":0,"title":"Mars"},{"ns":0,"title":"Marvin
+        Humes"},{"ns":0,"title":"Mary J. Blige"},{"ns":0,"title":"Mas que Nada"},{"ns":0,"title":"Mat
+        Zo"},{"ns":0,"title":"Max Milner"},{"ns":0,"title":"Meet Me Halfway"},{"ns":0,"title":"Menajahtwa"},{"ns":0,"title":"Michael
+        Jackson"},{"ns":0,"title":"Michel''le"},{"ns":0,"title":"Mick Jagger"},{"ns":0,"title":"Mike
+        Ward (singer)"},{"ns":0,"title":"Miley Cyrus"},{"ns":0,"title":"Missing You
+        (The Black Eyed Peas song)"},{"ns":0,"title":"Monkey Business (album)"},{"ns":0,"title":"Monkey
+        Business Tour"},{"ns":0,"title":"MusicBrainz"},{"ns":0,"title":"Music genre"},{"ns":0,"title":"Music
+        recording sales certification"},{"ns":0,"title":"Must B 21"},{"ns":0,"title":"My
+        Humps"},{"ns":0,"title":"N.W.A"},{"ns":0,"title":"Nas"},{"ns":0,"title":"Natalia
+        Kills"},{"ns":0,"title":"Nate James"},{"ns":0,"title":"National Football League"},{"ns":0,"title":"New
+        Hampshire primary"},{"ns":0,"title":"New York City"},{"ns":0,"title":"News
+        International"},{"ns":0,"title":"Nick Cannon"},{"ns":0,"title":"Nick Tatham"},{"ns":0,"title":"Nicki
+        Minaj"},{"ns":0,"title":"Nicole Scherzinger"},{"ns":0,"title":"OMG (song)"},{"ns":0,"title":"Olivia
+        Wilde"},{"ns":0,"title":"One More Chance (will.i.am song)"},{"ns":0,"title":"Oscar
+        Yatco"},{"ns":0,"title":"Palisades Charter High School"},{"ns":0,"title":"Paradiso
+        Girls"},{"ns":0,"title":"Penthouse Players Clique"},{"ns":0,"title":"Perez
+        Hilton"},{"ns":0,"title":"Planet Asia"},{"ns":0,"title":"Pop music"},{"ns":0,"title":"Presidential
+        Medal of Merit (Philippines)"},{"ns":0,"title":"Priyanka Chopra"},{"ns":0,"title":"Public
+        housing"},{"ns":0,"title":"Pump It"},{"ns":0,"title":"Pussycat Dolls"},{"ns":0,"title":"R.O.O.T.S."},{"ns":0,"title":"RIAA
+        certification"},{"ns":0,"title":"Randy Jackson"},{"ns":0,"title":"Rated R
+        (Rihanna album)"},{"ns":0,"title":"Rave party"},{"ns":0,"title":"Raymond vs.
+        Raymond"},{"ns":0,"title":"Reach for the Stars (will.i.am song)"},{"ns":0,"title":"Record
+        label"},{"ns":0,"title":"Recording Industry Association of America"},{"ns":0,"title":"Red-crested
+        Cardinal"},{"ns":0,"title":"Reggie Yates"},{"ns":0,"title":"Regina King"},{"ns":0,"title":"Renegotiations:
+        The Remixes"},{"ns":0,"title":"Request + Line"},{"ns":0,"title":"Rhodes piano"},{"ns":0,"title":"Rhythum
+        D"},{"ns":0,"title":"Ricky Wilson (British musician)"},{"ns":0,"title":"Rihanna"},{"ns":0,"title":"Rio
+        (2011 film)"},{"ns":0,"title":"Rio 2"},{"ns":0,"title":"Rob Reynolds (musician)"},{"ns":0,"title":"Rock
+        That Body"},{"ns":0,"title":"Role model"},{"ns":0,"title":"Romeo Villalva
+        Tabuena"},{"ns":0,"title":"Ruthless Records"},{"ns":0,"title":"Ruthless Records
+        Tenth Anniversary: Decade of Game"},{"ns":0,"title":"Ryan Key"},{"ns":0,"title":"Ryan
+        Phillippe"},{"ns":0,"title":"SMAP"},{"ns":0,"title":"Samurai Jack"},{"ns":0,"title":"Scarlett
+        Johansson"},{"ns":0,"title":"Scream & Shout"},{"ns":0,"title":"Seal (musician)"},{"ns":0,"title":"Sean
+        Conlon"},{"ns":0,"title":"Shakira"},{"ns":0,"title":"Sheryl Crow"},{"ns":0,"title":"Shut
+        Up"},{"ns":0,"title":"Shut Up (The Black Eyed Peas song)"},{"ns":0,"title":"Simlish"},{"ns":0,"title":"Simon
+        & Schuster"},{"ns":0,"title":"Smartwatch"},{"ns":0,"title":"Snickers"},{"ns":0,"title":"Society
+        of Jesus"},{"ns":0,"title":"Something Really Bad"},{"ns":0,"title":"Songs
+        About Girls"},{"ns":0,"title":"Songs for Survival"},{"ns":0,"title":"SoundCloud"},{"ns":0,"title":"Southern
+        New Hampshire University"},{"ns":0,"title":"Steve Aoki"},{"ns":0,"title":"Steve
+        Carell"},{"ns":0,"title":"Survival International"},{"ns":0,"title":"Swizz
+        Beatz"},{"ns":0,"title":"S\u00e9rgio Mendes"},{"ns":0,"title":"T.H.E. (The
+        Hardest Ever)"},{"ns":0,"title":"Taboo (rapper)"},{"ns":0,"title":"Tairrie
+        B"},{"ns":0,"title":"Tatyana Ali"},{"ns":0,"title":"Tears for Fears"},{"ns":0,"title":"Techno"},{"ns":0,"title":"Teen
+        Choice Award"},{"ns":0,"title":"ThatPOWER"},{"ns":0,"title":"ThatPower"},{"ns":0,"title":"The
+        Beginning (The Black Eyed Peas album)"},{"ns":0,"title":"The Beginning (concerts)"},{"ns":0,"title":"The
+        Black Eyed Peas"},{"ns":0,"title":"The Black Eyed Peas Experience"},{"ns":0,"title":"The
+        Black Eyed Peas discography"},{"ns":0,"title":"The Cleveland Show"},{"ns":0,"title":"The
+        D.O.C."},{"ns":0,"title":"The Dutchess"},{"ns":0,"title":"The E.N.D"},{"ns":0,"title":"The
+        E.N.D."},{"ns":0,"title":"The E.N.D. Summer 2010 Canadian Invasion Tour: Remix
+        Collection"},{"ns":0,"title":"The E.N.D World Tour"},{"ns":0,"title":"The
+        Game (rapper)"},{"ns":0,"title":"The Girl Is Mine"},{"ns":0,"title":"The Oprah
+        Winfrey Show"},{"ns":0,"title":"The Script (band)"},{"ns":0,"title":"The Sun
+        (United Kingdom)"},{"ns":0,"title":"The Time (Dirty Bit)"},{"ns":0,"title":"The
+        Urbz: Sims In The City"},{"ns":0,"title":"The Urbz: Sims in the City"},{"ns":0,"title":"The
+        Voice: Louder on Two"},{"ns":0,"title":"The Voice (Australia series 3)"},{"ns":0,"title":"The
+        Voice (Australian TV series)"},{"ns":0,"title":"The Voice (TV series)"},{"ns":0,"title":"The
+        Voice UK"},{"ns":0,"title":"The Voice UK (series 1)"},{"ns":0,"title":"The
+        Voice UK (series 2)"},{"ns":0,"title":"The Voice UK (series 3)"},{"ns":0,"title":"The
+        Voice UK (series 4)"},{"ns":0,"title":"The Voice UK discography"},{"ns":0,"title":"The
+        X Factor (U.S. TV series)"},{"ns":0,"title":"The X Factor (UK TV series)"},{"ns":0,"title":"This
+        Is Love (will.i.am song)"},{"ns":0,"title":"Thriller 25"},{"ns":0,"title":"Tichina
+        Arnold"},{"ns":0,"title":"Timeless (S\u00e9rgio Mendes album)"},{"ns":0,"title":"Tina
+        Fey"},{"ns":0,"title":"Tinnitus"},{"ns":0,"title":"Tom Jones (singer)"},{"ns":0,"title":"Tomography"},{"ns":0,"title":"Top
+        40"},{"ns":0,"title":"Top Gear (2002 TV series)"},{"ns":0,"title":"Toronto"},{"ns":0,"title":"Trinity
+        Mirror"},{"ns":0,"title":"Twinnie Lee Moore"},{"ns":0,"title":"Twitter"},{"ns":0,"title":"Tyler
+        James (English musician)"},{"ns":0,"title":"Tyrese Gibson"},{"ns":0,"title":"U2"},{"ns":0,"title":"UK
+        Album Charts"},{"ns":0,"title":"UK Singles Chart"},{"ns":0,"title":"United
+        States"},{"ns":0,"title":"Usher (entertainer)"},{"ns":0,"title":"Vince Kidd"},{"ns":0,"title":"Virtual
+        International Authority File"},{"ns":0,"title":"Wait a Minute (Just a Touch)"},{"ns":0,"title":"Warner
+        Sunset Records"},{"ns":0,"title":"Warrior (Kesha album)"},{"ns":0,"title":"Wavin''
+        Flag"},{"ns":0,"title":"We Are One: The Obama Inaugural Celebration at the
+        Lincoln Memorial"},{"ns":0,"title":"We Are the Ones"},{"ns":0,"title":"Weekends
+        (The Black Eyed Peas song)"},{"ns":0,"title":"West Los Angeles"},{"ns":0,"title":"What''s
+        Your Name (Usher song)"},{"ns":0,"title":"Where Is The Love"},{"ns":0,"title":"Where
+        Is The Love?"},{"ns":0,"title":"Where Is the Love?"},{"ns":0,"title":"Will.i.am
+        Music Group"},{"ns":0,"title":"Will.i.am discography"},{"ns":0,"title":"Will.i.am
+        production discography"},{"ns":0,"title":"Willpower (will.i.am album)"},{"ns":0,"title":"With
+        Love (Hilary Duff song)"},{"ns":0,"title":"Wiz Khalifa"},{"ns":0,"title":"Wolfgang
+        Gartner"},{"ns":0,"title":"World Music Award"},{"ns":0,"title":"X-Men (film
+        series)"},{"ns":0,"title":"X-Men Origins: Wolverine"},{"ns":0,"title":"X-Men
+        Origins: Wolverine (video game)"},{"ns":0,"title":"Yellowcard"},{"ns":0,"title":"Yes
+        We Can (will.i.am song)"},{"ns":0,"title":"Yomo & Maulkie"},{"ns":0,"title":"YouTube"},{"ns":0,"title":"Zoe
+        Kravitz"},{"ns":4,"title":"Wikipedia:Link rot"},{"ns":4,"title":"Wikipedia:Persondata"},{"ns":4,"title":"Wikipedia:Protection
+        policy"},{"ns":10,"title":"Template:PMM(Ph) Recipients"},{"ns":10,"title":"Template:Ruthless
+        Records"},{"ns":10,"title":"Template:The Black Eyed Peas"},{"ns":10,"title":"Template:The
+        Voice UK"},{"ns":10,"title":"Template:Will.i.am"},{"ns":11,"title":"Template
+        talk:PMM(Ph) Recipients"},{"ns":11,"title":"Template talk:Ruthless Records"},{"ns":11,"title":"Template
+        talk:The Black Eyed Peas"},{"ns":11,"title":"Template talk:The Voice UK"},{"ns":11,"title":"Template
+        talk:Will.i.am"},{"ns":12,"title":"Help:CS1 errors"},{"ns":14,"title":"Category:Articles
+        with dead external links from April 2010"},{"ns":14,"title":"Category:Articles
+        with dead external links from January 2010"},{"ns":14,"title":"Category:Articles
+        with dead external links from September 2011"},{"ns":14,"title":"Category:The
+        Black Eyed Peas"},{"ns":14,"title":"Category:The Black Eyed Peas albums"},{"ns":14,"title":"Category:The
+        Black Eyed Peas songs"},{"ns":108,"title":"Book:The Black Eyed Peas"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:24 GMT
+recorded_with: VCR 2.9.2

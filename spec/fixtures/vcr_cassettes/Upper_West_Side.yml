@@ -1,0 +1,291 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=Upper%20West%20Side
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 3711922496, 1409556272, 2597376524
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '5070'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:39:21 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1068 miss (0), cp4009 miss (0), cp4018 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query-continue":{"links":{"plcontinue":"327244|0|Turtle_Bay,_Manhattan"}},"query":{"pages":{"327244":{"pageid":327244,"ns":0,"title":"Upper
+        West Side","links":[{"ns":0,"title":"103rd Street (IRT Broadway \u2013 Seventh
+        Avenue Line)"},{"ns":0,"title":"110th Street (Manhattan)"},{"ns":0,"title":"112th
+        Street"},{"ns":0,"title":"116th Street (Manhattan)"},{"ns":0,"title":"116th
+        Street \u2013 Columbia University (IRT Broadway \u2013 Seventh Avenue Line)"},{"ns":0,"title":"125th
+        Street (IRT Broadway \u2013 Seventh Avenue Line)"},{"ns":0,"title":"125th
+        Street (Manhattan)"},{"ns":0,"title":"15 Central Park West"},{"ns":0,"title":"1
+        (New York City Subway service)"},{"ns":0,"title":"23rd Street (Manhattan)"},{"ns":0,"title":"2
+        (New York City Subway service)"},{"ns":0,"title":"30 Rock"},{"ns":0,"title":"3
+        (New York City Subway service)"},{"ns":0,"title":"41 West 96th Street"},{"ns":0,"title":"55
+        Central Park West"},{"ns":0,"title":"59th Street (Manhattan)"},{"ns":0,"title":"59th
+        Street \u2013 Columbus Circle (IRT Broadway \u2013 Seventh Avenue Line)"},{"ns":0,"title":"65th
+        Street (Manhattan)"},{"ns":0,"title":"66th Street \u2013 Lincoln Center (IRT
+        Broadway \u2013 Seventh Avenue Line)"},{"ns":0,"title":"72nd Street (IRT Broadway
+        \u2013 Seventh Avenue Line)"},{"ns":0,"title":"79th Street (IRT Broadway \u2013
+        Seventh Avenue Line)"},{"ns":0,"title":"79th Street Boat Basin"},{"ns":0,"title":"85th
+        Street"},{"ns":0,"title":"86th Street (IRT Broadway \u2013 Seventh Avenue
+        Line)"},{"ns":0,"title":"9/11"},{"ns":0,"title":"91st Street (IRT Broadway
+        \u2013 Seventh Avenue Line)"},{"ns":0,"title":"92nd Street Y"},{"ns":0,"title":"96th
+        Street (IRT Broadway \u2013 Seventh Avenue Line)"},{"ns":0,"title":"96th Street
+        (Manhattan)"},{"ns":0,"title":"AMC Theatres"},{"ns":0,"title":"ASCAP"},{"ns":0,"title":"A
+        (New York City Subway service)"},{"ns":0,"title":"A Late Quartet"},{"ns":0,"title":"Abraham
+        Joshua Heschel School"},{"ns":0,"title":"Adolf Hitler"},{"ns":0,"title":"African-American"},{"ns":0,"title":"Al
+        Pacino"},{"ns":0,"title":"Alec Baldwin"},{"ns":0,"title":"Alfred E. Smith"},{"ns":0,"title":"Alice
+        Tully Hall"},{"ns":0,"title":"Alphabet City, Manhattan"},{"ns":0,"title":"Amalgamated
+        Lithographers of America"},{"ns":0,"title":"American Beech"},{"ns":0,"title":"American
+        Bible Society"},{"ns":0,"title":"American Broadcasting Company"},{"ns":0,"title":"American
+        Civil War"},{"ns":0,"title":"American Folk Art Museum"},{"ns":0,"title":"American
+        Museum of Natural History"},{"ns":0,"title":"American Psycho (film)"},{"ns":0,"title":"American
+        Youth Hostel"},{"ns":0,"title":"Andrew Haswell Green"},{"ns":0,"title":"Andy
+        Samberg"},{"ns":0,"title":"Anglicisation"},{"ns":0,"title":"Ansche Chesed"},{"ns":0,"title":"Ansonia
+        Hotel"},{"ns":0,"title":"Apple Bank"},{"ns":0,"title":"Apthorp Farm"},{"ns":0,"title":"Architecture
+        of cathedrals and great churches"},{"ns":0,"title":"Arnold Brunner"},{"ns":0,"title":"Art
+        nouveau"},{"ns":0,"title":"Ashkenazi Jews"},{"ns":0,"title":"Ashley Olsen"},{"ns":0,"title":"Astor
+        Court Building"},{"ns":0,"title":"Astor Row"},{"ns":0,"title":"Audrey Munson"},{"ns":0,"title":"Avery
+        Fisher Hall"},{"ns":0,"title":"B''nai Jeshurun (Manhattan)"},{"ns":0,"title":"B''nai
+        Jeshurun (Manhattan, New York)"},{"ns":0,"title":"B (New York City Subway
+        service)"},{"ns":0,"title":"Bank Street College of Education"},{"ns":0,"title":"Barbra
+        Streisand"},{"ns":0,"title":"Bard Graduate Center"},{"ns":0,"title":"Barnard
+        College"},{"ns":0,"title":"Barney Greengrass"},{"ns":0,"title":"Battery Park
+        City"},{"ns":0,"title":"Battle of San Juan Hill"},{"ns":0,"title":"Beacon
+        Theatre (New York City)"},{"ns":0,"title":"Beastie Boys"},{"ns":0,"title":"Beaux-Arts
+        architecture"},{"ns":0,"title":"Belle \u00c9poque"},{"ns":0,"title":"Black
+        Swan (film)"},{"ns":0,"title":"Black and White (1999 film)"},{"ns":0,"title":"Bloomingdale
+        District"},{"ns":0,"title":"Bloomingdale Insane Asylum"},{"ns":0,"title":"Bloomingdale
+        School of Music"},{"ns":0,"title":"Borat: Cultural Learnings of America for
+        Make Benefit Glorious Nation of Kazakhstan"},{"ns":0,"title":"Borough (New
+        York City)"},{"ns":0,"title":"Bowery"},{"ns":0,"title":"Brian Morton (American
+        writer)"},{"ns":0,"title":"Broadcast Music Incorporated"},{"ns":0,"title":"Broadway
+        (Manhattan)"},{"ns":0,"title":"Broadway (New York City)"},{"ns":0,"title":"Broadway
+        United Church of Christ"},{"ns":0,"title":"Brownstone"},{"ns":0,"title":"C.P.H.
+        Gilbert"},{"ns":0,"title":"CUNY"},{"ns":0,"title":"C (New York City Subway
+        service)"},{"ns":0,"title":"Caf\u00e9 des Artistes"},{"ns":0,"title":"Calhoun
+        School"},{"ns":0,"title":"Carnegie Endowment"},{"ns":0,"title":"Carnegie Hill"},{"ns":0,"title":"Carr\u00e8re
+        and Hastings"},{"ns":0,"title":"Cathedral Parkway \u2013 110th Street (IRT
+        Broadway \u2013 Seventh Avenue Line)"},{"ns":0,"title":"Cathedral of Saint
+        John the Divine, New York"},{"ns":0,"title":"Cathleen Schine"},{"ns":0,"title":"Central
+        Park"},{"ns":0,"title":"Central Park South"},{"ns":0,"title":"Central Park
+        West"},{"ns":0,"title":"Century Apartments"},{"ns":0,"title":"Charles Bronson"},{"ns":0,"title":"Charles
+        Busch"},{"ns":0,"title":"Charlie Sheen"},{"ns":0,"title":"Chelsea, Manhattan"},{"ns":0,"title":"Children''s
+        Museum of Manhattan"},{"ns":0,"title":"Chinatown, Manhattan"},{"ns":0,"title":"Chris
+        Parnell"},{"ns":0,"title":"Christopher Columbus"},{"ns":0,"title":"Church
+        of St. Paul and St. Andrew (New York City)"},{"ns":0,"title":"Civic Center,
+        Manhattan"},{"ns":0,"title":"Claremont Riding Academy"},{"ns":0,"title":"Clinton
+        St. Baking Company & Restaurant"},{"ns":0,"title":"Colm T\u00f3ib\u00edn"},{"ns":0,"title":"Columbia
+        Grammar and Preparatory School"},{"ns":0,"title":"Columbia University"},{"ns":0,"title":"Columbus
+        Circle"},{"ns":0,"title":"Community Boards of Manhattan"},{"ns":0,"title":"Community
+        Development Block Grant"},{"ns":0,"title":"Congregation Habonim"},{"ns":0,"title":"Congregation
+        Ohab Zedek"},{"ns":0,"title":"Congregation Ohav Shalom"},{"ns":0,"title":"Congregation
+        Rodeph Sholom (Manhattan)"},{"ns":0,"title":"Congregation Rodeph Sholom (Manhattan,
+        New York)"},{"ns":0,"title":"Congregation Shaare Zedek (New York City)"},{"ns":0,"title":"Congregation
+        Shearith Israel"},{"ns":0,"title":"Cooperative Village"},{"ns":0,"title":"Cuba"},{"ns":0,"title":"D
+        (New York City Subway service)"},{"ns":0,"title":"Daniel Berrigan"},{"ns":0,"title":"Dante
+        Aligheri"},{"ns":0,"title":"Dante Park"},{"ns":0,"title":"David H. Koch Theater"},{"ns":0,"title":"David
+        Halberstam"},{"ns":0,"title":"Death Wish (film)"},{"ns":0,"title":"Death of
+        John Lennon"},{"ns":0,"title":"Diamond District"},{"ns":0,"title":"Die Hard
+        with a Vengeance"},{"ns":0,"title":"Donald Trump"},{"ns":0,"title":"Drew Barrymore"},{"ns":0,"title":"Dwight
+        School"},{"ns":0,"title":"East Harlem"},{"ns":0,"title":"East Village, Manhattan"},{"ns":0,"title":"Edward
+        Lewis Wallant"},{"ns":0,"title":"Edward R. Murrow"},{"ns":0,"title":"Eighth
+        Avenue (Manhattan)"},{"ns":0,"title":"Electronic music"},{"ns":0,"title":"Eleventh
+        Avenue (Manhattan)"},{"ns":0,"title":"Elf"},{"ns":0,"title":"Emerging church"},{"ns":0,"title":"Emery
+        Roth"},{"ns":0,"title":"Empire Hotel (New York City)"},{"ns":0,"title":"Extremely
+        Loud and Incredibly Close (film)"},{"ns":0,"title":"Eyes Wide Shut"},{"ns":0,"title":"F.
+        Scott Fitzgerald"},{"ns":0,"title":"Fairway Market"},{"ns":0,"title":"Fatal
+        Attraction"},{"ns":0,"title":"Film Society of Lincoln Center"},{"ns":0,"title":"Financial
+        District, Manhattan"},{"ns":0,"title":"Fiorello H. LaGuardia High School of
+        Music & Art and Performing Arts"},{"ns":0,"title":"First Baptist Church in
+        the City of New York"},{"ns":0,"title":"Five Points, Manhattan"},{"ns":0,"title":"Flatiron
+        District"},{"ns":0,"title":"Foley Square (TV series)"},{"ns":0,"title":"Fools
+        Rush In (1997 film)"},{"ns":0,"title":"Fordham University"},{"ns":0,"title":"Frank
+        Heino Damrosch"},{"ns":0,"title":"Frederick Law Olmsted"},{"ns":0,"title":"Garment
+        District, Manhattan"},{"ns":0,"title":"Geographic coordinate system"},{"ns":0,"title":"George
+        Carlin"},{"ns":0,"title":"George Washington Bridge"},{"ns":0,"title":"Ghostbusters"},{"ns":0,"title":"Ghostbusters
+        II"},{"ns":0,"title":"Gilmore D. Clarke"},{"ns":0,"title":"Giuseppe Verdi"},{"ns":0,"title":"Gossip
+        Girl"},{"ns":0,"title":"Gramercy Park"},{"ns":0,"title":"Grant''s Tomb"},{"ns":0,"title":"Gray''s
+        Papaya"},{"ns":0,"title":"Greenwich Village"},{"ns":0,"title":"H&H Bagels"},{"ns":0,"title":"Hamilton
+        Heights"},{"ns":0,"title":"Hannah and Her Sisters"},{"ns":0,"title":"Harlem"},{"ns":0,"title":"Hayden
+        Planetarium"},{"ns":0,"title":"Head house"},{"ns":0,"title":"Heartburn"},{"ns":0,"title":"Hell''s
+        Kitchen, Manhattan"},{"ns":0,"title":"Henry Beaumont Herts"},{"ns":0,"title":"Henry
+        Hudson Parkway"},{"ns":0,"title":"Herald Square"},{"ns":0,"title":"Hitch (film)"},{"ns":0,"title":"Holy
+        Name of Jesus R.C. Church"},{"ns":0,"title":"Home Alone 2: Lost in New York"},{"ns":0,"title":"How
+        I Met Your Mother"},{"ns":0,"title":"Hudson Heights, Manhattan"},{"ns":0,"title":"Hudson
+        River"},{"ns":0,"title":"Hudson River Greenway"},{"ns":0,"title":"Hudson River
+        Railroad"},{"ns":0,"title":"Hudson Square"},{"ns":0,"title":"Hudson Yards
+        Redevelopment Project"},{"ns":0,"title":"Hugh Grant"},{"ns":0,"title":"I.B.
+        Singer"},{"ns":0,"title":"IND Eighth Avenue Line"},{"ns":0,"title":"IRT Broadway
+        \u2013 Seventh Avenue Line"},{"ns":0,"title":"IRT Ninth Avenue Line"},{"ns":0,"title":"I
+        Am Legend (film)"},{"ns":0,"title":"I Am Legend (novel)"},{"ns":0,"title":"Ian
+        Fleming"},{"ns":0,"title":"Infill"},{"ns":0,"title":"Interchurch Center"},{"ns":0,"title":"International
+        Standard Book Number"},{"ns":0,"title":"Inwood, Manhattan"},{"ns":0,"title":"Ira
+        Levin"},{"ns":0,"title":"Isidor Straus"},{"ns":0,"title":"J. D. Salinger"},{"ns":0,"title":"James
+        Mills (author)"},{"ns":0,"title":"Jazz at Lincoln Center"},{"ns":0,"title":"Jerry
+        Seinfeld"},{"ns":0,"title":"Jerry Seinfeld (character)"},{"ns":0,"title":"Jessie
+        (TV series)"},{"ns":0,"title":"Jewish Theological Seminary of America"},{"ns":0,"title":"John
+        Lennon"},{"ns":0,"title":"John Lutz"},{"ns":0,"title":"Juilliard School"},{"ns":0,"title":"Juilliard
+        School of Music"},{"ns":0,"title":"Katharine Weber"},{"ns":0,"title":"Kathleen
+        Turner"},{"ns":0,"title":"Keeping the Faith"},{"ns":0,"title":"Kehilat Orach
+        Eliezer"},{"ns":0,"title":"Kips Bay"},{"ns":0,"title":"Kissing Jessica Stein"},{"ns":0,"title":"Kohn
+        Pedersen Fox"},{"ns":0,"title":"Kol Zimrah"},{"ns":0,"title":"Koreatown, Manhattan"},{"ns":0,"title":"Kristallnacht"},{"ns":0,"title":"La
+        Salle Academy"},{"ns":0,"title":"Lauren Bacall"},{"ns":0,"title":"Law & Order"},{"ns":0,"title":"Lazy
+        Sunday"},{"ns":0,"title":"Le Petit Senegal"},{"ns":0,"title":"Lenape"},{"ns":0,"title":"Lenox
+        Hill"},{"ns":0,"title":"Leonard Bernstein"},{"ns":0,"title":"Leopold Eidlitz"},{"ns":0,"title":"Liberty
+        Island"},{"ns":0,"title":"Lincoln Center"},{"ns":0,"title":"Lincoln Center
+        for the Performing Arts"},{"ns":0,"title":"Lincoln Square, Manhattan"},{"ns":0,"title":"Lincoln
+        Towers"},{"ns":0,"title":"List of Manhattan neighborhoods"},{"ns":0,"title":"List
+        of streets in Manhattan"},{"ns":0,"title":"Little Germany, Manhattan"},{"ns":0,"title":"Little
+        Italy, Manhattan"},{"ns":0,"title":"Little Manhattan"},{"ns":0,"title":"Little
+        Spain"},{"ns":0,"title":"Little Syria, Manhattan"},{"ns":0,"title":"Live and
+        Let Die (novel)"},{"ns":0,"title":"Loisaida"},{"ns":0,"title":"Lower East
+        Side"},{"ns":0,"title":"Lower Manhattan"},{"ns":0,"title":"Lucy Moses School"},{"ns":0,"title":"M104
+        (New York City bus)"},{"ns":0,"title":"M106 (New York City bus)"},{"ns":0,"title":"M10
+        (New York City bus)"},{"ns":0,"title":"M11 (New York City bus)"},{"ns":0,"title":"M5
+        (New York City bus)"},{"ns":0,"title":"M66 (New York City bus)"},{"ns":0,"title":"M72
+        (New York City bus)"},{"ns":0,"title":"M79 (New York City bus)"},{"ns":0,"title":"M7
+        (New York City bus)"},{"ns":0,"title":"M86 (New York City bus)"},{"ns":0,"title":"M96
+        (New York City bus)"},{"ns":0,"title":"Madison Square"},{"ns":0,"title":"Magnolia
+        Bakery"},{"ns":0,"title":"Manhattan"},{"ns":0,"title":"Manhattan Avenue (Manhattan)"},{"ns":0,"title":"Manhattan
+        Community Board 1"},{"ns":0,"title":"Manhattan Community Board 10"},{"ns":0,"title":"Manhattan
+        Community Board 11"},{"ns":0,"title":"Manhattan Community Board 12"},{"ns":0,"title":"Manhattan
+        Community Board 2"},{"ns":0,"title":"Manhattan Community Board 3"},{"ns":0,"title":"Manhattan
+        Community Board 4"},{"ns":0,"title":"Manhattan Community Board 5"},{"ns":0,"title":"Manhattan
+        Community Board 6"},{"ns":0,"title":"Manhattan Community Board 7"},{"ns":0,"title":"Manhattan
+        Community Board 8"},{"ns":0,"title":"Manhattan Community Board 9"},{"ns":0,"title":"Manhattan
+        Day School"},{"ns":0,"title":"Manhattan New York Temple"},{"ns":0,"title":"Manhattan
+        School of Music"},{"ns":0,"title":"Manhattan Valley"},{"ns":0,"title":"Manhattanville"},{"ns":0,"title":"Mannes
+        College The New School for Music"},{"ns":0,"title":"Marble Hill, Manhattan"},{"ns":0,"title":"Marcus
+        Garvey Park"},{"ns":0,"title":"Margaret (2011 film)"},{"ns":0,"title":"Margaret
+        Colin"},{"ns":0,"title":"Marjorie Morningstar (novel)"},{"ns":0,"title":"Marshall
+        Meyer"},{"ns":0,"title":"Martin Luther King, Jr. High School (New York)"},{"ns":0,"title":"Matt
+        Damon"},{"ns":0,"title":"Meatpacking District, Manhattan"},{"ns":0,"title":"Melvin
+        Jules Bukiet"},{"ns":0,"title":"Memorial Day"},{"ns":0,"title":"Men in Black
+        II"},{"ns":0,"title":"Merkin Concert Hall"},{"ns":0,"title":"Meryl Streep"},{"ns":0,"title":"Metropolitan
+        Opera"},{"ns":0,"title":"Michael Douglas"},{"ns":0,"title":"Michael Lembeck"},{"ns":0,"title":"Midtown
+        Manhattan"},{"ns":0,"title":"Modern Orthodox"},{"ns":0,"title":"Morningside
+        Heights"},{"ns":0,"title":"Morningside Heights, Manhattan"},{"ns":0,"title":"Morningside
+        Heights, New York City"},{"ns":0,"title":"Mosque"},{"ns":0,"title":"Mr. Sammler''s
+        Planet"},{"ns":0,"title":"Murray Hill, Manhattan"},{"ns":0,"title":"Museum
+        of Biblical Art"},{"ns":0,"title":"Music and Lyrics"},{"ns":0,"title":"Music
+        licensing"},{"ns":0,"title":"National Council of Churches"},{"ns":0,"title":"National
+        Register"},{"ns":0,"title":"New-York Historical Society"},{"ns":0,"title":"New
+        Amsterdam"},{"ns":0,"title":"New York (magazine)"},{"ns":0,"title":"New York
+        Central Railroad"},{"ns":0,"title":"New York City"},{"ns":0,"title":"New York
+        City Ballet"},{"ns":0,"title":"New York City Department of Education"},{"ns":0,"title":"New
+        York Coliseum"},{"ns":0,"title":"New York Institute of Technology"},{"ns":0,"title":"New
+        York Minute (film)"},{"ns":0,"title":"New York Philharmonic"},{"ns":0,"title":"New
+        York Public Library"},{"ns":0,"title":"New York Public Library for the Performing
+        Arts"},{"ns":0,"title":"New York Theological Seminary"},{"ns":0,"title":"Nicholas
+        Roerich Museum"},{"ns":0,"title":"Night at the Museum"},{"ns":0,"title":"Ninth
+        Avenue (Manhattan)"},{"ns":0,"title":"NoHo, Manhattan"},{"ns":0,"title":"NoMad,
+        Manhattan"},{"ns":0,"title":"Nolita"},{"ns":0,"title":"Nora Ephron"},{"ns":0,"title":"Occupation:
+        Foole"},{"ns":0,"title":"Oedipus Tex and Other Choral Calamities"},{"ns":0,"title":"P.
+        D. Q. Bach"},{"ns":0,"title":"PS 166 (Manhattan)"},{"ns":0,"title":"Panic
+        Room"},{"ns":0,"title":"Panic of 1873"},{"ns":0,"title":"Penn Central Railroad"},{"ns":0,"title":"Peter
+        Schickele"},{"ns":0,"title":"Philip Berrigan"},{"ns":0,"title":"Piccirilli
+        Brothers"},{"ns":0,"title":"Pomander Walk"},{"ns":0,"title":"Prime (film)"},{"ns":0,"title":"Pulitzer
+        Prize"},{"ns":0,"title":"RMS Titanic"},{"ns":0,"title":"Radio Row"},{"ns":0,"title":"Randalls
+        and Wards Islands"},{"ns":0,"title":"Recording studio"},{"ns":0,"title":"Richard
+        Gilder Graduate School"},{"ns":0,"title":"Richard Matheson"},{"ns":0,"title":"Richard
+        Morris Hunt"},{"ns":0,"title":"Right-of-way (railroad)"},{"ns":0,"title":"Riverside
+        (house)"},{"ns":0,"title":"Riverside Church"},{"ns":0,"title":"Riverside Drive
+        (Manhattan)"},{"ns":0,"title":"Riverside Park (Manhattan)"},{"ns":0,"title":"Robert
+        Caro"},{"ns":0,"title":"Robert Moses"},{"ns":0,"title":"Rockefeller Center"},{"ns":0,"title":"Rodeph
+        Sholom School"},{"ns":0,"title":"Romancing the Stone"},{"ns":0,"title":"Romanesque
+        Revival"},{"ns":0,"title":"Roosevelt Island"},{"ns":0,"title":"Rose Hill,
+        Manhattan"},{"ns":0,"title":"Rosemary''s Baby (film)"},{"ns":0,"title":"Rosemary''s
+        Baby (novel)"},{"ns":0,"title":"Rutgers Presbyterian Church"},{"ns":0,"title":"Ryan''s
+        Hope"},{"ns":0,"title":"SWF Seeks Same"},{"ns":0,"title":"Samuel Yellin"},{"ns":0,"title":"San
+        Juan Hill, Manhattan"},{"ns":0,"title":"San Juan Hill (Cuba)"},{"ns":0,"title":"Saturday
+        Night Live"},{"ns":0,"title":"Saul Bellow"},{"ns":0,"title":"School of American
+        Ballet"},{"ns":0,"title":"School of the Blessed Sacrament"},{"ns":0,"title":"Schwartz
+        & Gross"},{"ns":0,"title":"Second Church of Christ, Scientist (Manhattan)"},{"ns":0,"title":"Seinfeld"},{"ns":0,"title":"Seize
+        the Day (novel)"},{"ns":0,"title":"Seven Sisters (colleges)"},{"ns":0,"title":"Sex
+        and the City"},{"ns":0,"title":"Shinran"},{"ns":0,"title":"Sidewalk cafe"},{"ns":0,"title":"Sigrid
+        Nunez"},{"ns":0,"title":"Single White Female"},{"ns":0,"title":"Sister Carrie"},{"ns":0,"title":"Sketch
+        comedy"},{"ns":0,"title":"Skidmore, Owings & Merrill"},{"ns":0,"title":"SoHo,
+        Manhattan"},{"ns":0,"title":"Society for Ethical Culture"},{"ns":0,"title":"Society
+        for the Advancement of Judaism"},{"ns":0,"title":"Sol Yurick"},{"ns":0,"title":"Soldiers''
+        and Sailors'' Monument (Manhattan)"},{"ns":0,"title":"Solomon Schechter School
+        of Manhattan"},{"ns":0,"title":"South Street Seaport"},{"ns":0,"title":"South
+        Village"},{"ns":0,"title":"Spanish-American War"},{"ns":0,"title":"Special
+        Music School"},{"ns":0,"title":"Spider-Man (2002 film)"},{"ns":0,"title":"Spider-Man
+        2"},{"ns":0,"title":"St. Agnes Boys High School"},{"ns":0,"title":"St. Hilda''s
+        and St. Hugh''s School"},{"ns":0,"title":"St. Ignatius of Antioch Church (New
+        York City)"},{"ns":0,"title":"St. Michael''s Church, New York City"},{"ns":0,"title":"Starting
+        Out in the Evening"},{"ns":0,"title":"Stephen Wise Free Synagogue"},{"ns":0,"title":"Straus
+        Park"},{"ns":0,"title":"Streamline Moderne"},{"ns":0,"title":"Stuyvesant Square"},{"ns":0,"title":"Stuyvesant
+        Town\u2013Peter Cooper Village"},{"ns":0,"title":"Success Academy Charter
+        Schools"},{"ns":0,"title":"Sugar Hill, Manhattan"},{"ns":0,"title":"Sunni"},{"ns":0,"title":"Susan
+        Shapiro"},{"ns":0,"title":"Sutton Place, Manhattan"},{"ns":0,"title":"Suzanne
+        Vega"},{"ns":0,"title":"Switched-On Bach"},{"ns":0,"title":"Sylvan Place"},{"ns":0,"title":"Symphony
+        Space"},{"ns":0,"title":"Take the Money and Run"},{"ns":0,"title":"Tavern
+        on the Green"},{"ns":0,"title":"Teachers College, Columbia University"},{"ns":0,"title":"Tenderloin,
+        Manhattan"},{"ns":0,"title":"Tenth Avenue (Manhattan)"},{"ns":0,"title":"The
+        American Musical and Dramatic Academy"},{"ns":0,"title":"The Anderson School"},{"ns":0,"title":"The
+        Ansonia"},{"ns":0,"title":"The Apartment"},{"ns":0,"title":"The Apthorp"},{"ns":0,"title":"The
+        Beacon School"},{"ns":0,"title":"The Belnord"},{"ns":0,"title":"The Beresford"},{"ns":0,"title":"The
+        Catcher in the Rye"},{"ns":0,"title":"The Center School (Manhattan)"},{"ns":0,"title":"The
+        Chronicles of Narnia: The Lion, the Witch and the Wardrobe"},{"ns":0,"title":"The
+        Church of Jesus Christ of Latter-day Saints"},{"ns":0,"title":"The Church
+        of St. Gregory the Great"},{"ns":0,"title":"The College Board"},{"ns":0,"title":"The
+        Collegiate School"},{"ns":0,"title":"The Colosseum (apartment building)"},{"ns":0,"title":"The
+        Cornwall"},{"ns":0,"title":"The Dakota"},{"ns":0,"title":"The Dorilton"},{"ns":0,"title":"The
+        Eldorado"},{"ns":0,"title":"The Great Gatsby"},{"ns":0,"title":"The House
+        on 92nd Street"},{"ns":0,"title":"The Majestic (building)"},{"ns":0,"title":"The
+        Mirror Has Two Faces"},{"ns":0,"title":"The New School"},{"ns":0,"title":"The
+        New Yorkers"},{"ns":0,"title":"The Panic in Needle Park"},{"ns":0,"title":"The
+        Paterno"},{"ns":0,"title":"The Pawnbroker"},{"ns":0,"title":"The Power Broker"},{"ns":0,"title":"The
+        San Remo"},{"ns":0,"title":"The Tale of the Allergist''s Wife"},{"ns":0,"title":"The
+        Warriors (Sol Yurick novel)"},{"ns":0,"title":"The Warriors (film)"},{"ns":0,"title":"Theater
+        District, Manhattan"},{"ns":0,"title":"Theodore Dreiser"},{"ns":0,"title":"Thomas
+        Tryon (architect)"},{"ns":0,"title":"Time Warner Center"},{"ns":0,"title":"Times
+        Square"},{"ns":0,"title":"Tina Ramirez"},{"ns":0,"title":"Tom''s Diner"},{"ns":0,"title":"Tom''s
+        Restaurant"},{"ns":0,"title":"Tom''s Restaurant (Manhattan)"},{"ns":0,"title":"Tommy
+        Lee Jones"},{"ns":0,"title":"Touro College"},{"ns":0,"title":"Trader Joe''s"},{"ns":0,"title":"Trevor
+        Day School"},{"ns":0,"title":"Tribeca"},{"ns":0,"title":"Trinity School (New
+        York)"},{"ns":0,"title":"Trump Place"},{"ns":0,"title":"Tudor City"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:39:22 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,165 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=500&prop=links&titles=EE%20(telecommunications%20company)
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - private
+      X-Frame-Options:
+      - SAMEORIGIN
+      Vary:
+      - Accept-Encoding,X-Forwarded-Proto
+      Content-Type:
+      - application/json; charset=utf-8
+      X-Varnish:
+      - 1390621444, 983698037, 3142886563
+      Via:
+      - 1.1 varnish, 1.1 varnish, 1.1 varnish
+      Content-Length:
+      - '2651'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 12 Jun 2014 19:38:05 GMT
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      X-Cache:
+      - cp1052 miss (0), cp4018 miss (0), cp4010 frontend miss (0)
+      Set-Cookie:
+      - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
+    body:
+      encoding: UTF-8
+      string: '{"query":{"pages":{"27320002":{"pageid":27320002,"ns":0,"title":"EE
+        (telecommunications company)","links":[{"ns":0,"title":"2G"},{"ns":0,"title":"3G"},{"ns":0,"title":"3G
+        network"},{"ns":0,"title":"4G"},{"ns":0,"title":"AOL Broadband"},{"ns":0,"title":"ARM
+        Holdings"},{"ns":0,"title":"ASDA Mobile"},{"ns":0,"title":"Adastral Park"},{"ns":0,"title":"Albanian
+        Mobile Communications"},{"ns":0,"title":"Altrincham"},{"ns":0,"title":"Andrews
+        & Arnold"},{"ns":0,"title":"Android (operating system)"},{"ns":0,"title":"Arqiva"},{"ns":0,"title":"Artevea"},{"ns":0,"title":"Asda
+        Mobile"},{"ns":0,"title":"Atlantic Telegraph Company"},{"ns":0,"title":"Attempted
+        purchase of T-Mobile USA by AT&T"},{"ns":0,"title":"BSkyB"},{"ns":0,"title":"BT
+        Global Services"},{"ns":0,"title":"BT Group"},{"ns":0,"title":"BT Mobile"},{"ns":0,"title":"BT
+        Research"},{"ns":0,"title":"BT Retail"},{"ns":0,"title":"BT TV"},{"ns":0,"title":"BT
+        Wholesale"},{"ns":0,"title":"BT site engineering code"},{"ns":0,"title":"Barclaycard"},{"ns":0,"title":"Be
+        Un Limited"},{"ns":0,"title":"Birmingham"},{"ns":0,"title":"Bishop''s Stortford"},{"ns":0,"title":"Board
+        of directors"},{"ns":0,"title":"Bonelli''s Electric Telegraph Company"},{"ns":0,"title":"Bridgend"},{"ns":0,"title":"Bristol"},{"ns":0,"title":"British
+        Academy of Film and Television Arts"},{"ns":0,"title":"British Approvals Board
+        for Telecommunications"},{"ns":0,"title":"British Telecommunications Act 1981"},{"ns":0,"title":"British
+        telephone sockets"},{"ns":0,"title":"Broadband Stakeholder Group"},{"ns":0,"title":"CSR
+        plc"},{"ns":0,"title":"Cable & Wireless Communications"},{"ns":0,"title":"Cable
+        & Wireless Worldwide"},{"ns":0,"title":"Cable & Wireless plc"},{"ns":0,"title":"Cablefree"},{"ns":0,"title":"Cardiff"},{"ns":0,"title":"Carphone
+        Warehouse"},{"ns":0,"title":"Claranet"},{"ns":0,"title":"Colt Group S.A."},{"ns":0,"title":"Communications
+        Act 2003"},{"ns":0,"title":"Corporation"},{"ns":0,"title":"Crnogorski Telekom"},{"ns":0,"title":"Darlington"},{"ns":0,"title":"Defence
+        Science and Technology Laboratory"},{"ns":0,"title":"Delight Mobile"},{"ns":0,"title":"Detecon"},{"ns":0,"title":"Deutsche
+        Funkturm GmbH"},{"ns":0,"title":"Deutsche Telekom"},{"ns":0,"title":"Dial-a-Phone"},{"ns":0,"title":"Dialog
+        Vizz"},{"ns":0,"title":"Dolphin Telecom"},{"ns":0,"title":"Dorchester, Dorset"},{"ns":0,"title":"East
+        London Tech City"},{"ns":0,"title":"Eclipse Internet"},{"ns":0,"title":"Economy
+        of the United Kingdom"},{"ns":0,"title":"Edinburgh"},{"ns":0,"title":"Electric
+        Telegraph Company"},{"ns":0,"title":"Electronic Beats"},{"ns":0,"title":"Eltham"},{"ns":0,"title":"Energis"},{"ns":0,"title":"Enhanced
+        Data Rates for GSM Evolution"},{"ns":0,"title":"European Commission"},{"ns":0,"title":"European
+        Conference of Postal and Telecommunications Administrations"},{"ns":0,"title":"Evesham"},{"ns":0,"title":"Evolved
+        HSPA"},{"ns":0,"title":"Fiber-optic communication"},{"ns":0,"title":"GEC Plessey
+        Telecommunications"},{"ns":0,"title":"GSM"},{"ns":0,"title":"GSM Association"},{"ns":0,"title":"General
+        Packet Radio Service"},{"ns":0,"title":"General Post Office"},{"ns":0,"title":"Giffgaff"},{"ns":0,"title":"Glasgow"},{"ns":0,"title":"GlobeCast
+        World TV"},{"ns":0,"title":"HMV"},{"ns":0,"title":"HTC-Highroad"},{"ns":0,"title":"HTC
+        One X"},{"ns":0,"title":"Hatfield, Hertfordshire"},{"ns":0,"title":"Hertford"},{"ns":0,"title":"Hibu"},{"ns":0,"title":"High-Speed
+        Downlink Packet Access"},{"ns":0,"title":"Huawei"},{"ns":0,"title":"Huawei
+        Ascend P1"},{"ns":0,"title":"Huawei E5"},{"ns":0,"title":"Hull Colour Pages"},{"ns":0,"title":"Hutchison
+        3G"},{"ns":0,"title":"IKEA Family Mobile"},{"ns":0,"title":"IOS"},{"ns":0,"title":"IPhone"},{"ns":0,"title":"IPhone
+        5"},{"ns":0,"title":"ITV (TV network)"},{"ns":0,"title":"IZettle"},{"ns":0,"title":"Icera"},{"ns":0,"title":"Inmarsat"},{"ns":0,"title":"Interception
+        of Communications Act 1985"},{"ns":0,"title":"International Telecommunication
+        Union"},{"ns":0,"title":"Internet Service Providers Association"},{"ns":0,"title":"Internet
+        Telephony Services Providers\u2019 Association"},{"ns":0,"title":"Internet
+        in the United Kingdom"},{"ns":0,"title":"Internet service provider"},{"ns":0,"title":"Interxion"},{"ns":0,"title":"Ionica
+        (company)"},{"ns":0,"title":"Ipsos MORI"},{"ns":0,"title":"Joint venture"},{"ns":0,"title":"Jordan
+        Telecom"},{"ns":0,"title":"Jordan Telecom Group"},{"ns":0,"title":"KCOM Group"},{"ns":0,"title":"Kabel
+        Deutschland"},{"ns":0,"title":"Kevin Bacon"},{"ns":0,"title":"KiteMobile"},{"ns":0,"title":"Korek
+        Telecom"},{"ns":0,"title":"LONAP"},{"ns":0,"title":"LTE (telecommunication)"},{"ns":0,"title":"LTE
+        Advanced"},{"ns":0,"title":"Landline"},{"ns":0,"title":"Lebara Group"},{"ns":0,"title":"Leeds"},{"ns":0,"title":"Lewes"},{"ns":0,"title":"Libon
+        (service)"},{"ns":0,"title":"List of United Kingdom mobile virtual network
+        operators"},{"ns":0,"title":"List of mobile network operators of Europe"},{"ns":0,"title":"Liverpool"},{"ns":0,"title":"London"},{"ns":0,"title":"London
+        Internet Exchange"},{"ns":0,"title":"London and Provincial District Telegraph
+        Company"},{"ns":0,"title":"Lowestoft"},{"ns":0,"title":"LycaMobile"},{"ns":0,"title":"Madasafish"},{"ns":0,"title":"Magyar
+        Telekom"},{"ns":0,"title":"Makedonski Telekom"},{"ns":0,"title":"Manchester"},{"ns":0,"title":"Manchester
+        Network Access Point"},{"ns":0,"title":"Mapesbury Communications Ltd"},{"ns":0,"title":"Marconi
+        Communications"},{"ns":0,"title":"Marconi Company"},{"ns":0,"title":"Mastercard"},{"ns":0,"title":"Mauritius
+        Telecom"},{"ns":0,"title":"Mercury Communications"},{"ns":0,"title":"MetroPCS"},{"ns":0,"title":"MobileStar"},{"ns":0,"title":"Mobile
+        by Sainsbury''s"},{"ns":0,"title":"Mobile network operator"},{"ns":0,"title":"Mobile
+        phone"},{"ns":0,"title":"Mobile virtual network operator"},{"ns":0,"title":"Mobinil"},{"ns":0,"title":"Mobistar"},{"ns":0,"title":"M\u00e9ditel"},{"ns":0,"title":"NTL
+        Incorporated"},{"ns":0,"title":"National Telephone Company"},{"ns":0,"title":"Near
+        field communication"},{"ns":0,"title":"Nokia Lumia 820"},{"ns":0,"title":"Nokia
+        Lumia 920"},{"ns":0,"title":"Northern Ireland"},{"ns":0,"title":"Now Mobile"},{"ns":0,"title":"O2
+        (United Kingdom)"},{"ns":0,"title":"OTE"},{"ns":0,"title":"Ofcom"},{"ns":0,"title":"Openreach"},{"ns":0,"title":"Optimus
+        Telecomunica\u00e7\u00f5es"},{"ns":0,"title":"Orange (India)"},{"ns":0,"title":"Orange
+        (UK)"},{"ns":0,"title":"Orange Armenia"},{"ns":0,"title":"Orange Business
+        Services"},{"ns":0,"title":"Orange Espa\u00f1a"},{"ns":0,"title":"Orange Jordan"},{"ns":0,"title":"Orange
+        Marine"},{"ns":0,"title":"Orange Moldova"},{"ns":0,"title":"Orange Polska"},{"ns":0,"title":"Orange
+        RDC"},{"ns":0,"title":"Orange Romania"},{"ns":0,"title":"Orange S.A."},{"ns":0,"title":"Orange
+        Slovensko"},{"ns":0,"title":"Orange UK"},{"ns":0,"title":"Ovivo"},{"ns":0,"title":"Pace
+        plc"},{"ns":0,"title":"Palmers Green"},{"ns":0,"title":"Parent company"},{"ns":0,"title":"Partner
+        Communications Company"},{"ns":0,"title":"Phone Co-op"},{"ns":0,"title":"PhonepayPlus"},{"ns":0,"title":"Phones
+        4u"},{"ns":0,"title":"PicoChip"},{"ns":0,"title":"Plusnet"},{"ns":0,"title":"Post
+        Office Telecommunications"},{"ns":0,"title":"Pound sterling"},{"ns":0,"title":"Powertel
+        (United States)"},{"ns":0,"title":"Reading, Berkshire"},{"ns":0,"title":"Romtelecom"},{"ns":0,"title":"Samsung
+        Galaxy Note II"},{"ns":0,"title":"Samsung Galaxy S III"},{"ns":0,"title":"Sarantel"},{"ns":0,"title":"Science
+        and technology in the United Kingdom"},{"ns":0,"title":"Sheffield"},{"ns":0,"title":"Six
+        Degrees of Kevin Bacon"},{"ns":0,"title":"Sky Broadband"},{"ns":0,"title":"Slovak
+        Telekom"},{"ns":0,"title":"Sonatel"},{"ns":0,"title":"Southampton"},{"ns":0,"title":"Spirent"},{"ns":0,"title":"Stan
+        Mobile"},{"ns":0,"title":"Standard Telephones and Cables"},{"ns":0,"title":"Subsidiary"},{"ns":0,"title":"SunCom"},{"ns":0,"title":"Symbian
+        Foundation"},{"ns":0,"title":"T-Center"},{"ns":0,"title":"T-Home"},{"ns":0,"title":"T-Hrvatski
+        Telekom"},{"ns":0,"title":"T-Mobile"},{"ns":0,"title":"T-Mobile (Poland)"},{"ns":0,"title":"T-Mobile
+        Macedonia"},{"ns":0,"title":"T-Mobile UK"},{"ns":0,"title":"T-Mobile US"},{"ns":0,"title":"T-Online"},{"ns":0,"title":"T-Systems"},{"ns":0,"title":"TalkTalk
+        Business"},{"ns":0,"title":"TalkTalk Group"},{"ns":0,"title":"TalkTalk Plus
+        TV"},{"ns":0,"title":"Talkmobile"},{"ns":0,"title":"TelecityGroup"},{"ns":0,"title":"Telecom
+        Plus"},{"ns":0,"title":"Telecommunication"},{"ns":0,"title":"Telecommunications
+        in the United Kingdom"},{"ns":0,"title":"Telef\u00f3nica Europe"},{"ns":0,"title":"Telegraph
+        Act"},{"ns":0,"title":"Telegraph Act 1868"},{"ns":0,"title":"Telegraph Act
+        1885"},{"ns":0,"title":"Telehouse Europe"},{"ns":0,"title":"Telekom Innovation
+        Laboratories"},{"ns":0,"title":"Telent"},{"ns":0,"title":"Telephone numbers
+        in the United Kingdom"},{"ns":0,"title":"Telkom Kenya"},{"ns":0,"title":"Tesco
+        Mobile"},{"ns":0,"title":"The Huffington Post"},{"ns":0,"title":"The People''s
+        Operator"},{"ns":0,"title":"The Sunday Times"},{"ns":0,"title":"The X Factor
+        (UK)"},{"ns":0,"title":"Tooting"},{"ns":0,"title":"Tru (mobile network)"},{"ns":0,"title":"Truphone"},{"ns":0,"title":"Types
+        of business entity"},{"ns":0,"title":"UK"},{"ns":0,"title":"Universal Mobile
+        Telecommunications System"},{"ns":0,"title":"Universal Private Telegraph Company"},{"ns":0,"title":"VT
+        Communications"},{"ns":0,"title":"Vectone Mobile"},{"ns":0,"title":"Virgin
+        Media"},{"ns":0,"title":"Virgin Mobile UK"},{"ns":0,"title":"Vodafone"},{"ns":0,"title":"Vodafone
+        UK"},{"ns":0,"title":"Voipfone"},{"ns":0,"title":"Vringo"},{"ns":0,"title":"Web
+        blocking in the United Kingdom"},{"ns":0,"title":"Western Wireless Corporation"},{"ns":0,"title":"Weston-super-Mare"},{"ns":0,"title":"Wideband
+        audio"},{"ns":0,"title":"WightFibre"},{"ns":0,"title":"Windows Phone"},{"ns":0,"title":"Zen
+        Internet"},{"ns":4,"title":"Wikipedia:Citation needed"},{"ns":4,"title":"Wikipedia:Link
+        rot"},{"ns":10,"title":"Template:Deutsche Telekom"},{"ns":10,"title":"Template:Orange"},{"ns":10,"title":"Template:Telecommunications
+        industry in the United Kingdom"},{"ns":10,"title":"Template:UK mobile phone
+        companies"},{"ns":11,"title":"Template talk:Deutsche Telekom"},{"ns":11,"title":"Template
+        talk:Orange"},{"ns":11,"title":"Template talk:Telecommunications industry
+        in the United Kingdom"},{"ns":11,"title":"Template talk:UK mobile phone companies"},{"ns":12,"title":"Help:CS1
+        errors"},{"ns":14,"title":"Category:Articles with dead external links from
+        February 2013"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from January 2014"},{"ns":14,"title":"Category:Articles with unsourced statements
+        from May 2014"},{"ns":14,"title":"Category:Deutsche Telekom"},{"ns":14,"title":"Category:Earth
+        stations in the United Kingdom"},{"ns":14,"title":"Category:Telecommunications
+        in the United Kingdom"},{"ns":14,"title":"Category:Use British English from
+        October 2012"},{"ns":14,"title":"Category:Use dmy dates from May 2013"}]}}}}'
+    http_version: 
+  recorded_at: Thu, 12 Jun 2014 19:38:06 GMT
+recorded_with: VCR 2.9.2
