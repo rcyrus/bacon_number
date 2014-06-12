@@ -4,7 +4,10 @@ require_relative 'lib/bacon'
 
 class BaconNumber < Thor
   option :for, type: :string
+  option :end_topic, type: :string, default: 'Kevin Bacon'
   option :max_depth, type: :numeric, default: 3
+  option :max_threads, type: :numeric, default: 70
+  option :max_links, type: :numeric, default: 500
 
   desc "for", "get a bacon number for a wikipedia TOPIC"
   long_desc <<-LONGDESC
@@ -15,24 +18,12 @@ class BaconNumber < Thor
   LONGDESC
 
   def for(start_topic)
-    end_topic   = 'Kevin Bacon'
-    b = Bacon.new(end_topic, start_topic)
+    b = Bacon.new(options[:end_topic], start_topic, {pllimit: options[:max_links], max_threads: options[:max_threads], max_depth: options[:max_depth]})
 
-    options[:max_depth].times do
-      ret = b.bud_leaves
-      next if ret.nil?
-
-      str = ''
-      ret.reverse.each { |node|
-        str << "#{node.content}"
-        str << " -> " unless node.content == end_topic
-      }
-      puts "BACON NUMBER IS: #{ret.length - 1}"
-      puts "Found Path: #{str}"
-
-      break
-    end
+    message = b.bacon_it
+    puts message
   end
+
 end
 
 BaconNumber.start(ARGV)
