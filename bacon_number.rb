@@ -17,10 +17,10 @@ class BaconNumber < Thor
     > $ bacon_number.rb for "Bacon"
   LONGDESC
 
-  def for(start_topic)
-    b = Bacon.new(options[:end_topic], start_topic, {pllimit: options[:max_links], max_threads: options[:max_threads], max_depth: options[:max_depth]})
+  def for(goal)
+    b = Bacon.new(options[:end_topic], {pllimit: options[:max_links], max_threads: options[:max_threads], max_depth: options[:max_depth]})
 
-    message = b.bacon_it
+    message = b.bacon_it(goal)
     puts message
   end
 

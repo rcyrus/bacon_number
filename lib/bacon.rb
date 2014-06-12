@@ -5,15 +5,14 @@ require_relative 'wikipedia/client'
 
 class Bacon
 
-  def initialize(e, start_topic, opts = {})
+  def initialize(end_topic, opts = {})
     @max_depth   = opts[:max_depth] || 3
     @pool        = Thread.pool(opts[:max_threads] || 10)
     @wiki_client = Wikipedia::Client.new({pllimit: opts[:pllimit] || 10})
-    @end_topic   = e
-    @bacon_tree  = Tree::TreeNode.new("ROOT", start_topic)
+    @bacon_tree  = Tree::TreeNode.new("ROOT", end_topic)
   end
 
-  def bud_leaves
+  def bud_leaves(goal)
     ret = nil
     puts "building tree"
 
@@ -27,7 +26,7 @@ class Bacon
         leaf_topics.each { |topic|
           next if topic.include? ":"
           leaf << Tree::TreeNode.new(topic, topic)
-          if topic == @end_topic
+          if topic == goal
             ret = [leaf.children.last].concat leaf.children.last.parentage
             # self.search
             # ret = '1'
@@ -44,18 +43,18 @@ class Bacon
     ret
   end
 
-  def bacon_it
-    if @bacon_tree.root.content == @end_topic
-      return ret_message(0, "#{@bacon_tree.root.content} -> #{@end_topic}")
+  def bacon_it(goal)
+    if @bacon_tree.root.content == goal
+      return ret_message(0, "#{@bacon_tree.root.content} -> #{goal}")
     end
 
     @max_depth.times do
-      ret = self.bud_leaves
+      ret = self.bud_leaves(goal)
       next if ret.nil?
 
-      str = ret.reverse.inject('') { |str, node|
+      str = ret.inject('') { |str, node|
         str << "#{node.content}"
-        str << " -> " unless node.content == @end_topic
+        str << " -> " unless node.name == 'ROOT'
         str
       }
       return ret_message(ret.length - 1 , str)
