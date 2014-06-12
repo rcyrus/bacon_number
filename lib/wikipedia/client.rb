@@ -3,16 +3,19 @@ require 'json'
 
 module Wikipedia
   class Client
-    def get_links_for(title)
+    def links_for(title)
       opts = {
           :action  => "query",
           :prop    => 'links',
-          :pllimit => '10', #link limit
+          :pllimit => '500', #link limit
           :titles  => title
       }
 
       d = JSON::load(URI.parse(url_for(opts)).read)
-      d['query']['pages'].values[0]['links']
+      links = d['query']['pages'].values[0]['links']
+
+      return [] if links.nil?
+      links.map {|l| l['title'] unless l.nil?}
     end
 
     def url_for(params)
