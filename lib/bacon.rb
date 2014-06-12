@@ -71,22 +71,4 @@ class Bacon
     ["BACON NUMBER IS: #{bacon_number}", "Found Path: #{path}"]
   end
 
-  def search
-    puts "searching"
-    beginning_time = Time.now
-    @bacon_tree.breadth_each { |node|
-      if node.content == @end_topic
-        str = "#{node.content} -> "
-        node.parentage.each { |node|
-          str << "#{node.content}"
-          str << " -> " unless node.name == 'ROOT'
-        }
-        end_time = Time.now
-        puts str
-        puts "Time elapsed #{(end_time - beginning_time)*1000} milliseconds"
-        break
-      end
-    }
-  end
-
 end
