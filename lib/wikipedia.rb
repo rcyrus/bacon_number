@@ -1,8 +1,8 @@
 require_relative 'wikipedia/client'
 
 module Wikipedia
-  def self.articles_for(title)
-    client.get_links_for(title)
+  def self.linked_topics_for(title)
+    client.links_for(title)
   end
 
   private
