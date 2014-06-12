@@ -20,7 +20,7 @@ class BaconNumber < Thor
   def for(goal)
     b = Bacon.new(options[:end_topic], {pllimit: options[:max_links], max_threads: options[:max_threads], max_depth: options[:max_depth]})
 
-    message = b.bacon_it(goal)
+    message = b.number_for(goal)
     puts message
   end
 
