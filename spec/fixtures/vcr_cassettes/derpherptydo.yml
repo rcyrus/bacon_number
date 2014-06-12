@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=10&prop=links&titles=Beer
+    uri: http://en.wikipedia.org/w/api.php?action=query&format=json&pllimit=10&prop=links&titles=derpherptydo
     body:
       encoding: US-ASCII
       string: ''
@@ -31,11 +31,11 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       X-Varnish:
-      - 3702754942, 2336374310, 2892460562
+      - 3702755373, 2336374533, 1302750187
       Via:
       - 1.1 varnish, 1.1 varnish, 1.1 varnish
       Content-Length:
-      - '239'
+      - '113'
       Accept-Ranges:
       - bytes
       Date:
@@ -45,15 +45,12 @@ http_interactions:
       Connection:
       - keep-alive
       X-Cache:
-      - cp1068 miss (0), cp4016 miss (0), cp4009 frontend miss (0)
+      - cp1068 miss (0), cp4016 miss (0), cp4016 frontend miss (0)
       Set-Cookie:
       - GeoIP=US:Circle_Pines:45.1674:-93.1223:v4; Path=/; Domain=.wikipedia.org
     body:
       encoding: UTF-8
-      string: '{"query-continue":{"links":{"plcontinue":"3363|0|Aguardiente"}},"query":{"pages":{"3363":{"pageid":3363,"ns":0,"title":"Beer","links":[{"ns":0,"title":"2-Methyl-2-butanol"},{"ns":0,"title":"4-hydroxyphenylacetic
-        acid"},{"ns":0,"title":"8-prenylnaringenin"},{"ns":0,"title":"Abbey beer"},{"ns":0,"title":"Absinth
-        Wormwood"},{"ns":0,"title":"Absinthe"},{"ns":0,"title":"Adalard of Corbie"},{"ns":0,"title":"Adjunct
-        (beer)"},{"ns":0,"title":"Advocaat"},{"ns":0,"title":"Agave"}]}}}}'
+      string: '{"query":{"normalized":[{"from":"derpherptydo","to":"Derpherptydo"}],"pages":{"-1":{"ns":0,"title":"Derpherptydo","missing":""}}}}'
     http_version: 
-  recorded_at: Thu, 12 Jun 2014 17:46:39 GMT
+  recorded_at: Thu, 12 Jun 2014 17:46:40 GMT
 recorded_with: VCR 2.9.2

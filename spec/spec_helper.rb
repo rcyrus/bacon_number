@@ -3,4 +3,4 @@ require 'vcr'
 
 require_relative 'support/vcr'
 
-require_relative '../lib/wikipedia'
+require_relative '../lib/wikipedia/client'
